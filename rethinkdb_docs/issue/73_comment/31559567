@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-03) 22 : 35 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31559567"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/73#issuecomment-31559567"
+  , issueCommentCreatedAt = 2014 (-01) (-03) 22 : 35 : 14 UTC
+  , issueCommentBody =
+      "Hmm, I thought of these as a manifestation of the same problem, but I know what you mean."
+  , issueCommentId = 31559567
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-28) 00 : 48 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/215275199"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1083#issuecomment-215275199"
+  , issueCommentCreatedAt = 2016 (-04) (-28) 00 : 48 : 57 UTC
+  , issueCommentBody =
+      "@gyelwande For https://github.com/rethinkdb/docs/issues/615 there only needs to be one document.\r\n\r\nMultiple documents for each language are only required for ReQL API documentation, but #615 is independent of the client used."
+  , issueCommentId = 215275199
+  }

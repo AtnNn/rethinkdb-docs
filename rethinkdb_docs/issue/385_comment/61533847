@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-03) 19 : 30 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61533847"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/385#issuecomment-61533847"
+  , issueCommentCreatedAt = 2014 (-11) (-03) 19 : 30 : 41 UTC
+  , issueCommentBody = "@AtnNn any updates?"
+  , issueCommentId = 61533847
+  }

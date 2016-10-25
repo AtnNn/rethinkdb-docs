@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-23) 22 : 16 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49943842"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/428#issuecomment-49943842"
+  , issueCommentCreatedAt = 2014 (-07) (-23) 22 : 16 : 05 UTC
+  , issueCommentBody =
+      "`next` is currently for the next major version.\r\nWe should probably have a `next-minor` or something like that for the next minor version."
+  , issueCommentId = 49943842
+  }

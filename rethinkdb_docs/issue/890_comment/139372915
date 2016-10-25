@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-10) 20 : 41 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/139372915"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/890#issuecomment-139372915"
+  , issueCommentCreatedAt = 2015 (-09) (-10) 20 : 41 : 02 UTC
+  , issueCommentBody =
+      "@danielmewes \r\n\r\n> Actually this formulation sounds a bit weird because it talks about \"any update to a document\" and then about \"the entire document\". Maybe the first one should be \"to an embedded document\"?\r\n\r\nBut in either case the entire document needs to be rewritten to disk?\r\n\r\n> I'm not sure about the \"all posts\" question. It might be obvious from the context that this only includes posts by the given author. How about \"requires loading all associated posts into memory\"?\r\n\r\nI now go back on the second bullet point as the `posts` field isn't always loaded into memory like what if we `.pluck(...)` out other fields but not the `posts` field? Or is it referring loading it into memory on the server side? I think that this clarification should also be added.\r\n\r\nBut the single bullet point should be made into two:\r\n\r\n* Any operation on a document in the `author` table requires loading all of the `posts` **array and contained sub-**documents into memory. \r\n* Note that any update to a document requires rewriting **that** entire document to disk. "
+  , issueCommentId = 139372915
+  }

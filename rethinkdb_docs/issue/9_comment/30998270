@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-20) 09 : 35 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30998270"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-30998270"
+  , issueCommentCreatedAt = 2013 (-12) (-20) 09 : 35 : 13 UTC
+  , issueCommentBody =
+      "Actually, could you shoot me an e-mail? I'd like to ask you some questions about your project, and this isn't quite the right place. We'll of course respect whatever decision you make and help if we can in either case, but I think your insights could help immensely with guiding Rethink product development, so if you have a few mins I would be forever grateful :)\r\n\r\nEDIT: spelling (it's been a long day)"
+  , issueCommentId = 30998270
+  }

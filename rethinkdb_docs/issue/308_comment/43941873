@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 20 : 46 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43941873"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/308#issuecomment-43941873"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 20 : 46 : 44 UTC
+  , issueCommentBody =
+      "> I'll bring back the raspberry in the office tomorrow if you want to play with it too.\r\n\r\nOh, please do, that would be awesome!"
+  , issueCommentId = 43941873
+  }

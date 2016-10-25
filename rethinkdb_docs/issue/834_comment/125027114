@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-26) 18 : 50 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/125027114"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/834#issuecomment-125027114"
+  , issueCommentCreatedAt = 2015 (-07) (-26) 18 : 50 : 37 UTC
+  , issueCommentBody =
+      "(compare https://github.com/rethinkdb/rethinkdb/issues/4582 regarding the restriction to function arguments)"
+  , issueCommentId = 125027114
+  }

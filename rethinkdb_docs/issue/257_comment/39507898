@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-03) 21 : 34 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/39507898"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/257#issuecomment-39507898"
+  , issueCommentCreatedAt = 2014 (-04) (-03) 21 : 34 : 47 UTC
+  , issueCommentBody = "PR merged."
+  , issueCommentId = 39507898
+  }

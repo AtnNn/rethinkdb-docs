@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-23) 21 : 51 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29142581"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/94#issuecomment-29142581"
+  , issueCommentCreatedAt = 2013 (-11) (-23) 21 : 51 : 27 UTC
+  , issueCommentBody =
+      "OK, this was merged in v1.11.x, closing this pull request. Thanks to everyone for reviewing and @mlucy for the extensive fixes!"
+  , issueCommentId = 29142581
+  }

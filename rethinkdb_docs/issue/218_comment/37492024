@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 01 : 55 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37492024"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/218#issuecomment-37492024"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 01 : 55 : 57 UTC
+  , issueCommentBody =
+      "There are two stylistic changes I really don't like: not having command-line style input, and the whitespace-heavy array of object notation.\r\n\r\nThis:\r\n\r\n---\r\n\r\n__Example:__ Ungrouping grouped data\r\n\r\n```rb\r\n> r.table('games').group('player').max('points')['points'].ungroup().run(conn)\r\n[{\"group\"=>\"Alice\", \"reduction\"=>7}, {\"group\"=>\"Bob\", \"reduction\"=>15}, ...]\r\n```\r\n\r\n---\r\n\r\nIs just way more information-dense than:\r\n\r\n---\r\n\r\n__Example:__ Ungrouping grouped data.\r\n  \r\n```rb\r\nr.table('games').group('player').max('points')['points'].ungroup().run(conn)\r\n```\r\n\r\nResult:\r\n\r\n```rb\r\n[\r\n    {\r\n        \"group\" => \"Alice\",\r\n        \"reduction\" => 7\r\n    },\r\n    {\r\n        \"group\" => \"Bob\",\r\n        \"reduction\" => 15\r\n    }\r\n    ...\r\n]\r\n```\r\n\r\n---\r\n\r\nThe latter might be OK if we didn't have so many examples, but I think it moves the `group` docs from \"long\" into \"unreadably long\".\r\n"
+  , issueCommentId = 37492024
+  }

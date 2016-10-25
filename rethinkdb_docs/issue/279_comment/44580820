@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 20 : 28 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44580820"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/279#issuecomment-44580820"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 20 : 28 : 03 UTC
+  , issueCommentBody =
+      "I would combine `stream` and `array` in that example into `sequence.nth(number) -> object` because they have the same return type.  (A selection is a type of sequence, but it's also a type of stream, so no additional ambiguity is introduced.)"
+  , issueCommentId = 44580820
+  }

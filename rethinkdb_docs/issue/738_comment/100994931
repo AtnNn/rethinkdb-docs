@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-11) 17 : 47 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/100994931"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/738#issuecomment-100994931"
+  , issueCommentCreatedAt = 2015 (-05) (-11) 17 : 47 : 53 UTC
+  , issueCommentBody =
+      "Hmm. I was thinking those wouldn't need extra clarification because indexes are optional, but it may be worth adding a parenthetical when it refers to the indexes."
+  , issueCommentId = 100994931
+  }

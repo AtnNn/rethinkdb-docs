@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-11) 23 : 57 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48795607"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/413#issuecomment-48795607"
+  , issueCommentCreatedAt = 2014 (-07) (-11) 23 : 57 : 48 UTC
+  , issueCommentBody =
+      "The width of the map-reduce image should be 175px -- the image overpowers the text.\r\n\r\nRemove the secondary indexes image for now.\r\n\r\nThe data modeling image is being reworked by @ahruygt, and the width should be 200px.\r\n\r\nTable joins: width should be 215px.\r\n\r\n@ahruygt, can you generate new images with these widths?"
+  , issueCommentId = 48795607
+  }

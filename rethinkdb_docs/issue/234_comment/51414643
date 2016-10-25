@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-07) 00 : 07 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51414643"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/234#issuecomment-51414643"
+  , issueCommentCreatedAt = 2014 (-08) (-07) 00 : 07 : 48 UTC
+  , issueCommentBody =
+      "That doesn't work on my installation; maybe it's because I have the \"old\" driver installed and I haven't set up virtualenvs for this.\r\n\r\n    Traceback (most recent call last):\r\n      File \"<stdin>\", line 1, in <module>\r\n      File \"rethinkdb/__init__.py\", line 3, in <module>\r\n        from .net import connect, Connection, Cursor\r\n      File \"rethinkdb/net.py\", line 11, in <module>\r\n        from rethinkdb import ql2_pb2 as p\r\n    ImportError: cannot import name ql2_pb2\r\n\r\nI just imported the docs.py file directly and could use `help(docs.rethinkdb.ast)`, though."
+  , issueCommentId = 51414643
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-02) 21 : 02 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/137243365"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/879#issuecomment-137243365"
+  , issueCommentCreatedAt = 2015 (-09) (-02) 21 : 02 : 45 UTC
+  , issueCommentBody =
+      "Is this only true for the JavaScript driver, and the other languages still use 'ca_certs' as a path to a certificate?"
+  , issueCommentId = 137243365
+  }

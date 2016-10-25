@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-24) 09 : 54 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 17789
+        , simpleUserLogin = N "gchpaco"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17789?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gchpaco"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/85427611"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/683#issuecomment-85427611"
+  , issueCommentCreatedAt = 2015 (-03) (-24) 09 : 54 : 02 UTC
+  , issueCommentBody =
+      "@chipotle after discussion with @mlucy I need to add some stuff for making things cancelable.  @danielmewes this will probably go into v2.0.x but the only changes that will be necessary are to the `tornado_connection.py` test case (we currently don't clean up properly)."
+  , issueCommentId = 85427611
+  }

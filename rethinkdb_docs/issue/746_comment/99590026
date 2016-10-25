@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-06) 20 : 08 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/99590026"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/746#issuecomment-99590026"
+  , issueCommentCreatedAt = 2015 (-05) (-06) 20 : 08 : 30 UTC
+  , issueCommentBody =
+      "Ok, either option sounds fine to me. You should pick the one that's less work."
+  , issueCommentId = 99590026
+  }

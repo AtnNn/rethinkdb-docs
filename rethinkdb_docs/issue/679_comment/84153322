@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-20) 21 : 28 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/84153322"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/679#issuecomment-84153322"
+  , issueCommentCreatedAt = 2015 (-03) (-20) 21 : 28 : 16 UTC
+  , issueCommentBody =
+      "@chipotle -- the `non_atomic` flag isn't something you ever want to specify, it's something we make people specify so that they know that their query is doing something different.  Its only purpose is to let the user say \"yes, I know this function is non-deterministic and can't be applied atomically, run it anyway\".\r\n\r\nFor example, if you run `r.table('test').update{|row| {a: row['a']+1}}`, we can evaluate the function `lambda{|row| {a: row['a']+1}}` deterministically, which means that we can just send the function to all the replicas and have them apply it.  Because the replicas are applying the function themselves, they can apply it while holding onto the write lock, which means that we can guarantee that `a` is always incremented by exactly `1` per write query.\r\n\r\nIf you run `r.table('test').update{|row| {a: row['a']+r.table('constants').get(1)}}`, however, we *can't* evaluate the function deterministically, which means that we can't send the function directly to the replicas (since they might read different values from `constants` and we'd get data divergence).  So instead we read each row across the network, evaluate the function once on the machine handling the query, and then send the new row to all the replicas.  This is no longer atomic; if the value of `a` changed between when we did the read and when the new row reached the replicas, that change will just be clobbered.  Since this is dangerous, we don't do it silently; we produce an error in this case unless the user writes `r.table('test').update(lambda{|row| {a: row['a']+r.table('constants').get(1)}}, non_atomic: true)` instead."
+  , issueCommentId = 84153322
+  }

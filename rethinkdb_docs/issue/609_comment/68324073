@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-30) 02 : 10 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/68324073"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/609#issuecomment-68324073"
+  , issueCommentCreatedAt = 2014 (-12) (-30) 02 : 10 : 59 UTC
+  , issueCommentBody =
+      "Note that we might be able to avoid the non-existence issue with `or` by changing ReQL semantics with respect to missing fields https://github.com/rethinkdb/rethinkdb/issues/1721. I suggest holding off adding additional documentation for that specific aspect of `filter` until we've reached a conclusion in that issue."
+  , issueCommentId = 68324073
+  }

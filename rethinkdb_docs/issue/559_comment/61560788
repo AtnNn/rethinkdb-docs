@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-03) 22 : 23 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61560788"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/559#issuecomment-61560788"
+  , issueCommentCreatedAt = 2014 (-11) (-03) 22 : 23 : 31 UTC
+  , issueCommentBody =
+      "I don't see any factually wrong points in there apart from the one your mentioned about the \"being open source for a little over a year\".\r\nWe will adapt some of the statements when we are closer to 2.0."
+  , issueCommentId = 61560788
+  }

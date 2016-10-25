@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-22) 19 : 12 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41081459"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/272#issuecomment-41081459"
+  , issueCommentCreatedAt = 2014 (-04) (-22) 19 : 12 : 05 UTC
+  , issueCommentBody =
+      "I'm not sure it's worth fixing the major/minor term, but except from that, it looks good to me.\r\n"
+  , issueCommentId = 41081459
+  }

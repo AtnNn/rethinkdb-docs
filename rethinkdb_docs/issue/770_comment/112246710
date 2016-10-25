@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-16) 00 : 51 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/112246710"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/770#issuecomment-112246710"
+  , issueCommentCreatedAt = 2015 (-06) (-16) 00 : 51 : 12 UTC
+  , issueCommentBody =
+      "Nice document. Just a few small things I'd like to change:\r\n\r\n> (These operations are usually atomic, although not all filter operations are, depending on the predicate.)\r\n\r\nI think this is confusing, because it's not clear what being \"atomic\" means with respect to these operations. I think we should remove that remark.\r\n\r\n> Except for brief periods, a table will remain fully available as long as more than half of the voting replicas for each shard are available.\r\n\r\nThis is not entirely true. In addition to more than half of the voting replicas for each shard, we also need to have more than half of the voting replicas of the table overall available.\r\n\r\n> (changing the number of shards, shard boundaries, etc.)\r\n\r\nSince we don't expose shard boundaries directly and don't allow adjusting them explicitly, I think this should say: \"(changing the number of shards, rebalancing, etc.)\"\r\n\r\n"
+  , issueCommentId = 112246710
+  }

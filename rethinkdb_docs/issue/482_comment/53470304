@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-26) 18 : 49 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53470304"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/482#issuecomment-53470304"
+  , issueCommentCreatedAt = 2014 (-08) (-26) 18 : 49 : 30 UTC
+  , issueCommentBody = "This is in CR 2016."
+  , issueCommentId = 53470304
+  }

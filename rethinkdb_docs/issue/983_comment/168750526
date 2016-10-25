@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-04) 17 : 51 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/168750526"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/983#issuecomment-168750526"
+  , issueCommentCreatedAt = 2016 (-01) (-04) 17 : 51 : 48 UTC
+  , issueCommentBody = "Pinging @mjkrumlauf re: the CLA."
+  , issueCommentId = 168750526
+  }

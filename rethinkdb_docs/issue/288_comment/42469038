@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-07) 19 : 03 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/42469038"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-42469038"
+  , issueCommentCreatedAt = 2014 (-05) (-07) 19 : 03 : 29 UTC
+  , issueCommentBody =
+      "It's a little complicated to try that in the office because I don't want to pull cables everywhere.\r\nI'll try that at home in the next few days, it shouldn't be hard."
+  , issueCommentId = 42469038
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-21) 06 : 11 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 129983
+        , simpleUserLogin = N "mculp"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/129983?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mculp"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40918367"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/159#issuecomment-40918367"
+  , issueCommentCreatedAt = 2014 (-04) (-21) 06 : 11 : 35 UTC
+  , issueCommentBody = "This bit me tonight as well!"
+  , issueCommentId = 40918367
+  }

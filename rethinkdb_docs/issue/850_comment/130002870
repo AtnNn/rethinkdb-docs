@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-11) 18 : 22 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/130002870"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/850#issuecomment-130002870"
+  , issueCommentCreatedAt = 2015 (-08) (-11) 18 : 22 : 57 UTC
+  , issueCommentBody =
+      "We probably need to remove this paragraph from the other languages (Python, Ruby) as well."
+  , issueCommentId = 130002870
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-02) 17 : 50 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/88989849"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/116#issuecomment-88989849"
+  , issueCommentCreatedAt = 2015 (-04) (-02) 17 : 50 : 26 UTC
+  , issueCommentBody =
+      "When you use this style with `run`, how does it work? Something like this, where you're just able to leave off the `.run(conn)` at the end of a given query? \r\n\r\n```rb\r\nconn.run(:noreply => true) {\r\n    r.table('marvel').insert([ a, b, c, .. ])\r\n    r.table('dc').insert([ x, y, z, ... ])\r\n}\r\n```"
+  , issueCommentId = 88989849
+  }

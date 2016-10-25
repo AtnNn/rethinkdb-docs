@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-24) 20 : 27 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27026863"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/6#issuecomment-27026863"
+  , issueCommentCreatedAt = 2013 (-10) (-24) 20 : 27 : 47 UTC
+  , issueCommentBody =
+      "Just discussed this with @neumino.\r\n\r\nWe need to add a page that describes the errors you can run into using ReQL. These types (in JavaScript) include:\r\n\r\n- RqlDriverError\r\n- RqlServerError\r\n- RqlRuntimeError\r\n- RqlCompileError\r\n- RqlClientError\r\n\r\nThese types have counterparts in other languages."
+  , issueCommentId = 27026863
+  }

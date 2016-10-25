@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-21) 23 : 51 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/60017634"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/455#issuecomment-60017634"
+  , issueCommentCreatedAt = 2014 (-10) (-21) 23 : 51 : 29 UTC
+  , issueCommentBody =
+      "You can split on a number, but it's a pain to compute (it starts with `N` and then prints out the hexadecimal representation of the double with either the first bit flipped if the number is positive or all the bits flipped if the number is negative)."
+  , issueCommentId = 60017634
+  }

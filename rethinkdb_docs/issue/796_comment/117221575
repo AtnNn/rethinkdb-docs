@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-30) 15 : 10 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 100886
+        , simpleUserLogin = N "jeregrine"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/100886?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jeregrine"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/117221575"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/796#issuecomment-117221575"
+  , issueCommentCreatedAt = 2015 (-06) (-30) 15 : 10 : 49 UTC
+  , issueCommentBody =
+      "@chipotle might also want to move this up to the Current community-supported drivers because its no longer older and unsupported :)"
+  , issueCommentId = 117221575
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-20) 23 : 36 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46737003"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-46737003"
+  , issueCommentCreatedAt = 2014 (-06) (-20) 23 : 36 : 19 UTC
+  , issueCommentBody =
+      "I've updated the gist again.\r\n\r\n\r\nOn Thu, Jun 19, 2014 at 1:52 PM, Daniel Mewes <notifications@github.com>\r\nwrote:\r\n\r\n> I think this would be best as an entry under \"Deploying RethinkDB\".\r\n>\r\n> We could also add an entry \"My server is running out of memory\" to\r\n> http://rethinkdb.com/docs/troubleshooting/ and link to the document in\r\n> the answer.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/274#issuecomment-46615038>.\r\n>"
+  , issueCommentId = 46737003
+  }

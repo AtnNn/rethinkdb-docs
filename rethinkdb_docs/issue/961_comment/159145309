@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-24) 04 : 14 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7851952
+        , simpleUserLogin = N "bakape"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7851952?v=3"
+        , simpleUserUrl = "https://api.github.com/users/bakape"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/159145309"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/961#issuecomment-159145309"
+  , issueCommentCreatedAt = 2015 (-11) (-24) 04 : 14 : 09 UTC
+  , issueCommentBody = "Typo fixed, rebased and CLA signed. "
+  , issueCommentId = 159145309
+  }

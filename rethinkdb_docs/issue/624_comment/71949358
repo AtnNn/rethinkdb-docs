@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-29) 00 : 58 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71949358"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/624#issuecomment-71949358"
+  , issueCommentCreatedAt = 2015 (-01) (-29) 00 : 58 : 22 UTC
+  , issueCommentBody =
+      "Yep, this is done. I have to manually close it because it's not in the master repository."
+  , issueCommentId = 71949358
+  }

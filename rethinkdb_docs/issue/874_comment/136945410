@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-02) 05 : 57 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 126621
+        , simpleUserLogin = N "alexanderzeillinger"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/126621?v=3"
+        , simpleUserUrl =
+            "https://api.github.com/users/alexanderzeillinger"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/136945410"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/874#issuecomment-136945410"
+  , issueCommentCreatedAt = 2015 (-09) (-02) 05 : 57 : 25 UTC
+  , issueCommentBody = "Just signed it!"
+  , issueCommentId = 136945410
+  }

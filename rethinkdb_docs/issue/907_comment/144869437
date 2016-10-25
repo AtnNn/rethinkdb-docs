@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-01) 22 : 49 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144869437"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/907#issuecomment-144869437"
+  , issueCommentCreatedAt = 2015 (-10) (-01) 22 : 49 : 16 UTC
+  , issueCommentBody =
+      "Okay, if we're going to add this to the signature for `between` the only way to do it is to show it taking table_slice, which means that we're going to have document table_slice as a RethinkDB-specific data type which (if I understand it correctly) behaves like a selection to every command that expects a selection. `between` can take either a table or a table slice but nothing else. Is it worth editing the API signature for `between` and `order_by` to reflect that they do *not* return \"selection\" but actually return \"table_slice\"?"
+  , issueCommentId = 144869437
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 23 : 46 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96102558"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/734#issuecomment-96102558"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 23 : 46 : 01 UTC
+  , issueCommentBody =
+      "@danielmewes -- `obj1 <=> obj2 == obj1.coerce_to('array') <=> obj2.coerce_to('array')`.  We order the fields lexicographically and compare one by one, considering the absence of a key to be smaller than any value for a key."
+  , issueCommentId = 96102558
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-10) 22 : 23 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48672600"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/412#issuecomment-48672600"
+  , issueCommentCreatedAt = 2014 (-07) (-10) 22 : 23 : 52 UTC
+  , issueCommentBody =
+      "A lot of users have been asking for exact numbers. The docs can be very vague.\r\n\r\nA quick grep for \"small\", \"many\" and \"large\" returns the following examples. There are a lot more places that could be more specific.\r\n\r\n* \"In many cases availability will be maintained\" -> which cases?\r\n* \"at least 2GB of RAM\" but \"can run on low-memory nodes with large amounts of on-disk data\" -> How little RAM?\r\n* \"efficiently operates on datasets much larger than the amount of available RAM\" -> How much larger?\r\n* \"allows for large, complicated queries to execute in a very efficient way\", \"Arrays [are] inefficient at large sizes\", \"the table is too large to be used with the `distinct` command\", \"this approach is more suitable for large amounts of data\", \"For small result sets it may be more convenient to process them at once\" -> How large/small?\r\n\r\nUsers also often ask questions such as \"How come this is slow\" or \"I get 8 inserts/second. is that normal?\" or \"How fast is RethinkDB, approximately\". It might be nice to have a table like this one, with entries many combinations of different common configurations and operations.\r\n\r\nOS | CPU | Drive | cluster size | docs size | op | indexes | op/s\r\n--- | --- | --- | --- | --- | --- | --- | --- \r\nOS X | i7 | WD-5400RPM | 4 | 512k | insert | 1 | 10 to 20\r\nTrusty | M2.large | EBS | 1 | 1k | read | 0 | 300 to 500\r\n\r\nPerhaps there could also be a performance troubleshooting section, \"My app/query is slow\": \"Are you doing sequential inserts?\" \"Are you looking at the round-trip time in the data explorer?\" \"Is your data directory on NFS or SSD?\" \"Does your data fit in the cache?\" \"Are you abusing `r.js`?\" \"What other queries are running simultaneously?\" \"Do you have too many secondary indexes?\" \"Are you inserting huge documents?\" \"Are you on a shared VPS host?\" \"What do htop/iostat/vmstat/iftop report?\" etc.."
+  , issueCommentId = 48672600
+  }

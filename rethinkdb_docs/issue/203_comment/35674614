@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-20) 22 : 01 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35674614"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/203#issuecomment-35674614"
+  , issueCommentCreatedAt = 2014 (-02) (-20) 22 : 01 : 45 UTC
+  , issueCommentBody = "Probably \"throw a nice error\"."
+  , issueCommentId = 35674614
+  }

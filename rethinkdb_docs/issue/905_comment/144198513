@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-29) 21 : 37 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144198513"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/905#issuecomment-144198513"
+  , issueCommentCreatedAt = 2015 (-09) (-29) 21 : 37 : 07 UTC
+  , issueCommentBody =
+      "The PHP port has its own API docs: http://danielmewes.dnsalias.net/%7Edaniel/php-rql-api/ -- that might be the most helpful, although our \"official\" docs go into more detail with examples.\r\n\r\nIt looks like it may be kind of like JS in that it'll accept both snake_case and camelCase. (I believe all the commands sent to the server are actually snake_case, and the language-specific client drivers do translation if the language convention is for camelCase methods.)"
+  , issueCommentId = 144198513
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-11) 19 : 17 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/208509256"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1079#issuecomment-208509256"
+  , issueCommentCreatedAt = 2016 (-04) (-11) 19 : 17 : 08 UTC
+  , issueCommentBody =
+      "Thanks. I thought your name was familiar, but `git log` wasn't cooperating with an author search."
+  , issueCommentId = 208509256
+  }

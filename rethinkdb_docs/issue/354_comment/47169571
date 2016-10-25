@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-25) 22 : 56 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47169571"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/354#issuecomment-47169571"
+  , issueCommentCreatedAt = 2014 (-06) (-25) 22 : 56 : 31 UTC
+  , issueCommentBody =
+      "In Python, it is more canonical to do `str(a)` than `a.__str__()`."
+  , issueCommentId = 47169571
+  }

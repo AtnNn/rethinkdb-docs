@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-16) 08 : 12 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55709826"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/508#issuecomment-55709826"
+  , issueCommentCreatedAt = 2014 (-09) (-16) 08 : 12 : 35 UTC
+  , issueCommentBody =
+      "@kureikain -- could you sign the CLA if you haven't already (http://rethinkdb.com/community/cla/) so we can review the commit?\r\n\r\n/cc @deontologician @chipotle "
+  , issueCommentId = 55709826
+  }

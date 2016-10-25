@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-01) 17 : 25 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47685177"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-47685177"
+  , issueCommentCreatedAt = 2014 (-07) (-01) 17 : 25 : 32 UTC
+  , issueCommentBody =
+      "Hm. Github's Markdown processor is displeased with my work above, apparently, but it seems to be just fine in other previews. At any rate, I'll close this, as I think we all liked the solution above."
+  , issueCommentId = 47685177
+  }

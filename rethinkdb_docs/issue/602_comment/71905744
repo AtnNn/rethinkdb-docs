@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-28) 20 : 06 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71905744"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/602#issuecomment-71905744"
+  , issueCommentCreatedAt = 2015 (-01) (-28) 20 : 06 : 18 UTC
+  , issueCommentBody =
+      "Just want to make sure this doesn't slip through the cracks.\r\n@AtnNn are you going to take care of this or do you want some help?"
+  , issueCommentId = 71905744
+  }

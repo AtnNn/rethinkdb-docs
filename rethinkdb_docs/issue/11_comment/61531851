@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-03) 19 : 18 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61531851"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-61531851"
+  , issueCommentCreatedAt = 2014 (-11) (-03) 19 : 18 : 39 UTC
+  , issueCommentBody =
+      "A handful of people has asked about this in the meantime.\r\n\r\nI suggest we wait documenting this until we ship Raft though. In the Raft release, we will also have a kind of \"arbiter\" mode. In that mode, a RethinkDB server will be able to participate in Raft elections, but not hold any data itself. I have no idea how we will expose that feature, but it feels like it might cause us to rethink the details of the proxy mode as well (it could just be a regular RethinkDB node with a special tag, or it could be something similar to what are now proxy nodes, or it could in fact be an extension of the existing proxy mode, in which case we would rename it)."
+  , issueCommentId = 61531851
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-12) 02 : 00 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51864947"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/431#issuecomment-51864947"
+  , issueCommentCreatedAt = 2014 (-08) (-12) 02 : 00 : 30 UTC
+  , issueCommentBody =
+      "@mglukhovsky @ahruygt : shard-and-replicate.png updated to 270px.\r\n\r\nChanged the port to 8088, since I have to serve two different branches at the moment:\r\n\r\nhttp://192.168.0.159:8088/docs/sharding-and-replication/"
+  , issueCommentId = 51864947
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-10) 01 : 10 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/73625593"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/647#issuecomment-73625593"
+  , issueCommentCreatedAt = 2015 (-02) (-10) 01 : 10 : 00 UTC
+  , issueCommentBody =
+      "@angeloashmore, thanks for signing the CLA.\r\n\r\n@chipotle, could you take a look at this?"
+  , issueCommentId = 73625593
+  }

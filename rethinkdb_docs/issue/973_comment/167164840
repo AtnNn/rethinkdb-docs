@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-24) 22 : 58 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 277884
+        , simpleUserLogin = N "samkelleher"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/277884?v=3"
+        , simpleUserUrl = "https://api.github.com/users/samkelleher"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/167164840"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/973#issuecomment-167164840"
+  , issueCommentCreatedAt = 2015 (-12) (-24) 22 : 58 : 24 UTC
+  , issueCommentBody =
+      "Google led me to this exact GitHub discussion \128270\r\n\r\nStill looking for a solution, but yeh I guess as someone who's been only using RethinkDB for a couple of weeks some orientation for things like this is very welcome."
+  , issueCommentId = 167164840
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-12) 18 : 04 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 314077
+        , simpleUserLogin = N "avimar"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/314077?v=3"
+        , simpleUserUrl = "https://api.github.com/users/avimar"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28317437"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/4#issuecomment-28317437"
+  , issueCommentCreatedAt = 2013 (-11) (-12) 18 : 04 : 24 UTC
+  , issueCommentBody =
+      "`make install` links the created folders in the system folders and whatever else you need. It does this in your system:\r\n\r\n\r\navi@avi-i7 /usr/src/rethinkdb $ sudo make install\r\n./scripts/gen-version.sh: Warning: could not determine the version, using the default version '1.10.1-fallback' (defined in ./scripts/gen-version.sh)\r\n./scripts/gen-version.sh: Warning: could not determine the version, using the default version '0.0-internal-unknown-fallback' (defined in ./scripts/gen-version.sh)\r\n    [1/9] INSTALL build/release/rethinkdb /usr/local/bin\r\n    [2/9] STRIP /usr/local/bin/rethinkdb\r\n    [3/9] INSTALL build/release/assets/rethinkdb.1.gz /usr/local/share/man/man1\r\n    [4/9] INSTALL ./packaging/assets/docs/LICENSE /usr/local/share/doc/rethinkdb/copyright\r\n    [5/9] INSTALL build/release/assets/rethinkdb.bash /usr/local/share/rethinkdb/etc/bash_completion.d /usr/local/etc/bash_completion.d\r\n    [6/9] INSTALL ./packaging/assets/init/rethinkdb /usr/local/etc/init.d\r\n    [7/9] INSTALL /usr/local/share/rethinkdb/web\r\n    [8/9] INSTALL /usr/local/var/lib/rethinkdb/instances.d\r\n    [9/9] INSTALL /usr/local/etc/rethinkdb/default.conf.sample\r\n"
+  , issueCommentId = 28317437
+  }

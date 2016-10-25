@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-30) 06 : 28 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41764736"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/287#issuecomment-41764736"
+  , issueCommentCreatedAt = 2014 (-04) (-30) 06 : 28 : 36 UTC
+  , issueCommentBody =
+      "@neumino, could you remove the link to the wiki on the community page?\r\n\r\nThanks for the reminder, @ZackBoe -- the community page is due for an\r\noverhaul soon, but in the interim we appreciate the attention to detail!\r\n\r\n\r\nOn Tue, Apr 29, 2014 at 2:57 PM, Zack Boehm <notifications@github.com>wrote:\r\n\r\n> Don't forget this same link needs to be swapped out on the Community<http://rethinkdb.com/community/>page\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub<https://github.com/rethinkdb/docs/pull/287#issuecomment-41737547>\r\n> .\r\n>"
+  , issueCommentId = 41764736
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-09) 00 : 52 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/66216955"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/578#issuecomment-66216955"
+  , issueCommentCreatedAt = 2014 (-12) (-09) 00 : 52 : 03 UTC
+  , issueCommentBody =
+      "@Thibaut thank you for your offer, and sorry for the delay. It would be amazing if you could create a scraper for our API documentation.\r\n\r\nIf you haven't seen it already, we have markdown files for our documentation available at https://github.com/rethinkdb/docs/tree/master/api . That's probably easier than scraping them from our website (which might also change somewhat in the future).\r\n\r\nPlease let us know if there's any way we can help. We'll be happy to make a donation as well."
+  , issueCommentId = 66216955
+  }

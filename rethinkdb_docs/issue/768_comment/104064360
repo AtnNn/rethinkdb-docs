@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-20) 22 : 41 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/104064360"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/768#issuecomment-104064360"
+  , issueCommentCreatedAt = 2015 (-05) (-20) 22 : 41 : 46 UTC
+  , issueCommentBody =
+      "While I think this isn't critical, I agree that the dev mailing list is not easy enough to discover given how useful the driver release posts are for keeping a driver up to date.\r\n\r\n@chipotle Do you think we could have a more prominent box closer to the top of http://rethinkdb.com/docs/writing-drivers/ to point to the mailing list? Something along the lines of \"Join the RethinkDB-Dev Google Group to receive updates on protocol changes.\"?"
+  , issueCommentId = 104064360
+  }

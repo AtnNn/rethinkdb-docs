@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-05) 22 : 39 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/99252166"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/665#issuecomment-99252166"
+  , issueCommentCreatedAt = 2015 (-05) (-05) 22 : 39 : 15 UTC
+  , issueCommentBody = "Pinging @mglukhovsky for thoughts on this."
+  , issueCommentId = 99252166
+  }

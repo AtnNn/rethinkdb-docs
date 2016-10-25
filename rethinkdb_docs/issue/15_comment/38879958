@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-28) 01 : 14 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38879958"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/15#issuecomment-38879958"
+  , issueCommentCreatedAt = 2014 (-03) (-28) 01 : 14 : 05 UTC
+  , issueCommentBody =
+      "We dedicated a whole page on secondary indexes that address all these points.\r\nhttp://rethinkdb.com/docs/secondary-indexes/\r\n\r\nClosing."
+  , issueCommentId = 38879958
+  }

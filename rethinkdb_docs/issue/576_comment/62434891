@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-10) 18 : 58 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62434891"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/576#issuecomment-62434891"
+  , issueCommentCreatedAt = 2014 (-11) (-10) 18 : 58 : 12 UTC
+  , issueCommentBody =
+      "I've seen many questions from users asking how to use cursors and how to turn them into a list.\r\n\r\n> Python and Ruby have iterators built into the language, and streams are accessed through those native constructs\r\n\r\nCan we document this on the API page? Similar to JavaScript's `EventEmitter methods`, for Python we could say `Iterator methods` and give examples of `next(cursor)`, `list(cursor)` and `for row in cursor:`"
+  , issueCommentId = 62434891
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-14) 03 : 04 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58984416"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/548#issuecomment-58984416"
+  , issueCommentCreatedAt = 2014 (-10) (-14) 03 : 04 : 52 UTC
+  , issueCommentBody =
+      "To join the nodes, I edited `/etc/rethinkdb/interfaces.d/default.conf` to read:\r\n\r\n```\r\nbind=all\r\njoin=<private IP of a RethinkDB node>:<intracluster port, typically 29015>\r\n```\r\n... and then restarted the `rethinkdb` service with `sudo service rethinkdb restart`"
+  , issueCommentId = 58984416
+  }

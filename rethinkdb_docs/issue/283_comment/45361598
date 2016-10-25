@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-06) 17 : 16 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45361598"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/283#issuecomment-45361598"
+  , issueCommentCreatedAt = 2014 (-06) (-06) 17 : 16 : 37 UTC
+  , issueCommentBody =
+      "No worries @chipotle, we'll fork from your branch.\r\n\r\nHave fun!"
+  , issueCommentId = 45361598
+  }

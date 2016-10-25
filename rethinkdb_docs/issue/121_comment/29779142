@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-04) 04 : 41 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29779142"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/121#issuecomment-29779142"
+  , issueCommentCreatedAt = 2013 (-12) (-04) 04 : 41 : 41 UTC
+  , issueCommentBody =
+      "That was tested on Mint 16 (Cinnamon but Mate should be the same)."
+  , issueCommentId = 29779142
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 22 : 17 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52707453"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/468#issuecomment-52707453"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 22 : 17 : 21 UTC
+  , issueCommentBody =
+      "With an index, `distinct` will return a stream."
+  , issueCommentId = 52707453
+  }

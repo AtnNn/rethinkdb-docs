@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-03) 23 : 22 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47994996"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/311#issuecomment-47994996"
+  , issueCommentCreatedAt = 2014 (-07) (-03) 23 : 22 : 01 UTC
+  , issueCommentBody =
+      "I'm working on a draft of this:\r\n\r\nhttps://gist.github.com/chipotle/7efda89591f3a8adc022\r\n\r\nThis is almost entirely explanation through a set of examples; it's similar to the cookbook entry on nested field access that way, but focuses on using the JSON-esque syntax (the cookbook entry talks about the `r.row('foo')('bar')` syntax). I might want an example that's not based on `pluck`, but that's the easiest one to demonstrate with input and output.\r\n\r\nI'd think this would go in the Query Language section as a separate document."
+  , issueCommentId = 47994996
+  }

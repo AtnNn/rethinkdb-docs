@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-09) 00 : 51 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51672194"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/445#issuecomment-51672194"
+  , issueCommentCreatedAt = 2014 (-08) (-09) 00 : 51 : 08 UTC
+  , issueCommentBody =
+      "YCSB is still working and I'm actually running it very frequently. I should set up some additional databases besides Mongo and RethinkDB and see how we compare to them. We still have some improvements to do before being as fast as MongoDB for reads [1].\r\n\r\n\r\n[1] I'm hopeful that we will get at least very close when https://github.com/rethinkdb/rethinkdb/issues/1915 is complete. I'll probably work on that issue right after geospatial support for 1.15."
+  , issueCommentId = 51672194
+  }

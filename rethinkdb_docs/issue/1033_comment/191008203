@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-02) 01 : 27 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/191008203"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1033#issuecomment-191008203"
+  , issueCommentCreatedAt = 2016 (-03) (-02) 01 : 27 : 03 UTC
+  , issueCommentBody =
+      "Another small change in 2.3: `eachAsync` no longer stops iterating if the user returns `false` from the callback.\r\nIt looks like we had never documented this detail in http://rethinkdb.com/api/javascript/each_async/ explicitly anyway, apart from saying \"in an identical fashion to `each`\".\r\n\r\nWe do currently mention this for `each` (http://rethinkdb.com/api/javascript/each/ : \"when there are no more rows or when the callback returns `false`\"), and this is still correct in 2.3."
+  , issueCommentId = 191008203
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-14) 20 : 26 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/148185372"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-148185372"
+  , issueCommentCreatedAt = 2015 (-10) (-14) 20 : 26 : 29 UTC
+  , issueCommentBody =
+      "I see the script converts brackets to either `.g()` or `.nth()` -- from a *user* standpoint, is the bracket term useful (or even exposed)? I've tentatively written `api/java/bracket/`to only refer to `g` and to describe it as a shorthand for `getField`, with a little infobox reading:\r\n\r\n> If you have used other RethinkDB client drivers, the Java driver has no direct equivalent to the \"bracket\" command (usually `[]` or `()` depending on the language), which functions as both `getField` and `nth`. Instead, use `g` or `nth` explicitly.\r\n\r\nDoes this seem like a good approach? Even if there's technically a `bracket()` term implemented, I don't think we should advise users to use it. (I'm not sure it should even be exposed, if it can be handled by both `g`/`getField` and `nth`.)"
+  , issueCommentId = 148185372
+  }

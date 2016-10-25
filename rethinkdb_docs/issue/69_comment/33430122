@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-27) 22 : 21 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33430122"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/69#issuecomment-33430122"
+  , issueCommentCreatedAt = 2014 (-01) (-27) 22 : 21 : 21 UTC
+  , issueCommentBody =
+      "Before we close this after having merged in #140, can we come up with a clean and creative way to include custom liquid tags we use?\r\n\r\nCurrently, trying to run `jekyll serve` produces:\r\n\r\n```\r\norpheus:docs michael$ jekyll serve\r\nConfiguration file: none\r\n            Source: /Users/michael/git/rethinkdb-www/docs\r\n       Destination: /Users/michael/git/rethinkdb-www/docs/_site\r\n      Generating...\r\n       Deprecation: Starting in 2.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Check http://jekyllrb.com/docs/upgrading/ for more info.\r\n                    ...  Liquid Exception: Unknown tag 'infobox' in 0-about-rethinkdb/architecture.md\r\nerror: Unknown tag 'infobox'. Use --trace to view backtrace\r\n```"
+  , issueCommentId = 33430122
+  }

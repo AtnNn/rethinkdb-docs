@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 20 : 38 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44582029"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/194#issuecomment-44582029"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 20 : 38 : 37 UTC
+  , issueCommentBody =
+      "I didn't fix anything about this. \r\n\r\nNote that one part of https://github.com/rethinkdb/rethinkdb/issues/1928 (the one I commented on) wasn't about a limit on file descriptors or any other ulimit. It was about IP port exhaustion.\r\n\r\nThe other part was about limits being set to low, specifically on OS X. I don't think anything has changed about that. We should still add a troubleshooting entry."
+  , issueCommentId = 44582029
+  }

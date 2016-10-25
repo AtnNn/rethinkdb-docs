@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-18) 20 : 05 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/185893549"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1004#issuecomment-185893549"
+  , issueCommentCreatedAt = 2016 (-02) (-18) 20 : 05 : 45 UTC
+  , issueCommentBody =
+      "re: the issue title, If it was possible to call `reconfigure` and `rebalance` without an explicit database or table selection, it doesn't appear it was ever documented, so I'm only changing the documentation for `wait`."
+  , issueCommentId = 185893549
+  }

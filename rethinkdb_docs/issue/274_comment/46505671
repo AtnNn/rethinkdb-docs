@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 23 : 04 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46505671"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-46505671"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 23 : 04 : 45 UTC
+  , issueCommentBody =
+      "This is the screenshot I mention in the Gist. Feel free to use it or not, whatever makes more sense.\r\n![log cache size](https://cloud.githubusercontent.com/assets/505365/3321788/e537fc5e-f73c-11e3-9bf3-7c66290624aa.png)\r\n"
+  , issueCommentId = 46505671
+  }

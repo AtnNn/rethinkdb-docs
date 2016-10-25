@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-09) 02 : 26 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/110199968"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/770#issuecomment-110199968"
+  , issueCommentCreatedAt = 2015 (-06) (-09) 02 : 26 : 38 UTC
+  , issueCommentBody = "*Non-transitive network failure"
+  , issueCommentId = 110199968
+  }

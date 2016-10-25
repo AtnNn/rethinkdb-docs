@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-11) 22 : 26 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45808480"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/346#issuecomment-45808480"
+  , issueCommentCreatedAt = 2014 (-06) (-11) 22 : 26 : 56 UTC
+  , issueCommentBody =
+      "I have been unable to find a common way to access the `func` attribute. I can turn this into one file with `try: ... except:` wrapping what is in the two files I propose. The problem with that is the `u` prefix on strings was only brought back for Python 3.3+."
+  , issueCommentId = 45808480
+  }

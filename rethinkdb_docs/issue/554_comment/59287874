@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-15) 22 : 34 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59287874"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/554#issuecomment-59287874"
+  , issueCommentCreatedAt = 2014 (-10) (-15) 22 : 34 : 59 UTC
+  , issueCommentBody =
+      "* Indexing is missing geospatial indexes (both in the table as well as in the Indexing paragraph below)\r\n* The paragraph on query language should mention change feeds\r\n* In the performance paragraph we should replace \"RethinkDB's performance has degraded significantly after the addition of the clustering layer, but we hope we'll be able to restore it over the next several releases.\" by something like \"We haven't published official performance numbers for RethinkDB yet. We're still working on improving performance for a number of specialized workloads.\""
+  , issueCommentId = 59287874
+  }

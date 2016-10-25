@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 23 : 54 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51413635"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/234#issuecomment-51413635"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 23 : 54 : 00 UTC
+  , issueCommentBody =
+      "If you copy `_scripts/docs.py` to `drivers/python/rethinkdb/`(overwriting the current docs.py) you can then do `python -c 'import rethinkdb; help(rethinkdb.ast)'`from the `drivers/python` folder."
+  , issueCommentId = 51413635
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-03) 20 : 36 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61544163"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-61544163"
+  , issueCommentCreatedAt = 2014 (-11) (-03) 20 : 36 : 55 UTC
+  , issueCommentBody =
+      "I have some strong gut reactions to these features (that might be wrong):\r\n\r\n- I think we should drop `proxy` entirely and move most of its functionality into connection pools.\r\n- I'm not sure if we should have machines with an arbiter role but no other roles. This would result in specializing nodes (some nodes do X, other nodes do Y), which can be confusing from a UX perspective.\r\n\r\nWe should talk about this when we get to the point of actually designing this."
+  , issueCommentId = 61544163
+  }

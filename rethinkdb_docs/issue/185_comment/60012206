@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-21) 22 : 54 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/60012206"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/185#issuecomment-60012206"
+  , issueCommentCreatedAt = 2014 (-10) (-21) 22 : 54 : 26 UTC
+  , issueCommentBody = "Closed in favor of #560"
+  , issueCommentId = 60012206
+  }

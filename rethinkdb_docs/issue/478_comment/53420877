@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-26) 13 : 38 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 218725
+        , simpleUserLogin = N "dminkovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/218725?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dminkovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53420877"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/478#issuecomment-53420877"
+  , issueCommentCreatedAt = 2014 (-08) (-26) 13 : 38 : 01 UTC
+  , issueCommentBody =
+      "Haha just noticed the typo in the commit message. Ironic. Bad to do this\r\nstuff from my phone!\r\n\r\nWill amend/push over.\r\n\r\nOn Tuesday, August 26, 2014, Slava Akhmechet <notifications@github.com>\r\nwrote:\r\n\r\n> Thanks @dminkovsky <https://github.com/dminkovsky>! /cc @chipotle\r\n> <https://github.com/chipotle>\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/pull/478#issuecomment-53379048>.\r\n>"
+  , issueCommentId = 53420877
+  }

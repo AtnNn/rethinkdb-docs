@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-27) 21 : 52 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29423258"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/113#issuecomment-29423258"
+  , issueCommentCreatedAt = 2013 (-11) (-27) 21 : 52 : 23 UTC
+  , issueCommentBody =
+      "@mlucy, I think you meant to say:\r\n> that everything except for false and null counts as __true__\r\n\r\nAnd yes, I agree that we should mention this for `filter`, `any`, and `all`.\r\n\r\n@neumino, I know this is out of scope of what you submitted, but would you mind including them in this PR?"
+  , issueCommentId = 29423258
+  }

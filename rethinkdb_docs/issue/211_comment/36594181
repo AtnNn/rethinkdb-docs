@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-04) 05 : 48 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/36594181"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/211#issuecomment-36594181"
+  , issueCommentCreatedAt = 2014 (-03) (-04) 05 : 48 : 29 UTC
+  , issueCommentBody =
+      "Thanks @rickhull for the feedback!\r\n\r\nWe have started to replace the anonymous function `function(acc, hero)` with `function(left, right)` like in this pull request https://github.com/rethinkdb/docs/commit/b8ed59cc373ff2a1eb026d484231c5ad18726545 ( I didn't have time to rework this one though).\r\n\r\nThe current docs system was set up such that it would be easy to add input/output, but we didn't have time to do it for all the methods yet. We'll try to do it as soon as possible.\r\n\r\n\r\nWhat you currently get back is an array of objects, where each object has two fields, `group` and `reduction`.\r\nYou cannot get back a hash map because the group could be objects and objects are not hashable in Python.\r\n"
+  , issueCommentId = 36594181
+  }

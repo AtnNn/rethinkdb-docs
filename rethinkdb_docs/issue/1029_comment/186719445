@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-21) 02 : 00 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/186719445"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1029#issuecomment-186719445"
+  , issueCommentCreatedAt = 2016 (-02) (-21) 02 : 00 : 12 UTC
+  , issueCommentBody =
+      "These links don't appear to actually be broken as deployed on the web site. Is there a way to reproduce the problem by clicking around on the site as built? (The URLs generated are taken from the `permalink:` field in the header, not the directory layout of the Markdown source.)"
+  , issueCommentId = 186719445
+  }

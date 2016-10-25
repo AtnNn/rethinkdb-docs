@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-12) 02 : 00 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51261641"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/431#issuecomment-51261641"
+  , issueCommentCreatedAt = 2014 (-08) (-05) 21 : 20 : 17 UTC
+  , issueCommentBody =
+      "Added sharding and replication image:\r\nhttp://192.168.0.159:8088/docs/sharding-and-replication"
+  , issueCommentId = 51261641
+  }

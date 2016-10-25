@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 21 : 19 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52700550"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52700550"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 21 : 19 : 12 UTC
+  , issueCommentBody =
+      "@deontologician, I'm not aware of any way we can do look-ahead like that in the query-language.  @mlucy, any ideas?  Would we perhaps be able to use `eval_flags_t` for this?"
+  , issueCommentId = 52700550
+  }

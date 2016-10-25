@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-23) 21 : 14 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 660288
+        , simpleUserLogin = N "gaborcsardi"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/660288?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gaborcsardi"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44061247"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/312#issuecomment-44061247"
+  , issueCommentCreatedAt = 2014 (-05) (-23) 21 : 14 : 17 UTC
+  , issueCommentBody =
+      "Sorry, missed that. Just signed it now. Best. "
+  , issueCommentId = 44061247
+  }

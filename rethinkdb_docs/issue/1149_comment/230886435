@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-06) 19 : 51 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/230886435"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1149#issuecomment-230886435"
+  , issueCommentCreatedAt = 2016 (-07) (-06) 19 : 51 : 08 UTC
+  , issueCommentBody =
+      "@ramimoshe We don't really have a name for the `x`. So far we have only incremented it once (from 1 to 2) to mark production-readiness.\r\nIn terms of compatibility, there is no difference between a change in the `y` and a change in the `x`. Both can break backwards compatibility, and are hence considered \"major\" releases.\r\n\r\nIn general we increment `x` to mark particularly relevant milestones in the development of RethinkDB."
+  , issueCommentId = 230886435
+  }

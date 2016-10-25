@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-16) 22 : 03 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49233990"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/400#issuecomment-49233990"
+  , issueCommentCreatedAt = 2014 (-07) (-16) 22 : 03 : 48 UTC
+  , issueCommentBody =
+      "So is this meant to be a cookbook recipe that says \"if you want to use `get` and `contains` more efficiently, don't actually use `get` and `contains` but do it using a compound index on a mapping function instead?\""
+  , issueCommentId = 49233990
+  }

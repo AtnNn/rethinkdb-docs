@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-23) 23 : 41 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7118680
+        , simpleUserLogin = N "ahruygt"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7118680?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahruygt"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/241915466"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/793#issuecomment-241915466"
+  , issueCommentCreatedAt = 2016 (-08) (-23) 23 : 41 : 19 UTC
+  , issueCommentBody =
+      "<img width=\"1159\" alt=\"screen shot 2016-08-22 at 5 34 29 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/17913633/642739a8-6950-11e6-83ec-29f49da3bcf6.png\">\r\n<img width=\"1215\" alt=\"screen shot 2016-08-23 at 3 09 18 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/17913635/65a6200a-6950-11e6-815f-9221b401251e.png\">\r\n<img width=\"1215\" alt=\"screen shot 2016-08-22 at 5 26 12 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/17913637/66e31018-6950-11e6-85d2-c6aa11e05a35.png\">\r\n<img width=\"1170\" alt=\"screen shot 2016-08-22 at 5 22 30 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/17913638/682337c8-6950-11e6-923b-276134e967d9.png\">\r\n"
+  , issueCommentId = 241915466
+  }

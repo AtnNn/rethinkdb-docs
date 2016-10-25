@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-09) (-19) 18 : 29 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/24762299"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/4#issuecomment-24762299"
+  , issueCommentCreatedAt = 2013 (-09) (-19) 18 : 29 : 53 UTC
+  , issueCommentBody =
+      "With what version of node and of npm are you unable to install bytebuffer?\r\n\r\n`latest` is partially documented here: https://npmjs.org/doc/misc/npm-config.html#tag"
+  , issueCommentId = 24762299
+  }

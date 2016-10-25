@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-25) 07 : 38 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/115149276"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/643#issuecomment-115149276"
+  , issueCommentCreatedAt = 2015 (-06) (-25) 07 : 38 : 29 UTC
+  , issueCommentBody =
+      "@suparngp That should still be working. Is it not working for you?"
+  , issueCommentId = 115149276
+  }

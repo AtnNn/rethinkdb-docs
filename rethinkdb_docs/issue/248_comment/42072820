@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-02) 20 : 01 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/42072820"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-42072820"
+  , issueCommentCreatedAt = 2014 (-05) (-02) 20 : 01 : 39 UTC
+  , issueCommentBody =
+      "Yeah; it affects the intracluster batch sizes as well."
+  , issueCommentId = 42072820
+  }

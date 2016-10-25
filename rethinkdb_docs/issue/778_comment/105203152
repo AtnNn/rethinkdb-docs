@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-25) 10 : 44 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/105203152"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/778#issuecomment-105203152"
+  , issueCommentCreatedAt = 2015 (-05) (-25) 10 : 44 : 24 UTC
+  , issueCommentBody =
+      "We deduplicate changefeed messages inside the cluster, but not between the cluster and clients.  So if you have 1000 clients connected to machine `A` and subscribed to changes on table `T`, and `T` is hosted on machine `B`, and then a change occurs on `T`, we send one message from `B` to `A` and then 1000 messages from `A` to your clients.  So if your clients are on a third machine `C`, you'll get a lot of network traffic from `A` to `C`.\r\n\r\nYou can mitigate this by running `rethinkdb proxy` on machine `C` and then connecting your clients to localhost (which will cause us to deduplicate messages from `A` to the proxy on `C`, and after that sending 1000 messages over the loopback interface is cheap).\r\n\r\nIt might be worth elaborating on this a bit more in the docs.  @chipotle, any thoughts?"
+  , issueCommentId = 105203152
+  }

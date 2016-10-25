@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-01) 16 : 49 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1688239
+        , simpleUserLogin = N "rundowncreator"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1688239?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rundowncreator"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144784357"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/905#issuecomment-144784357"
+  , issueCommentCreatedAt = 2015 (-10) (-01) 16 : 49 : 42 UTC
+  , issueCommentBody = "Thanks!"
+  , issueCommentId = 144784357
+  }

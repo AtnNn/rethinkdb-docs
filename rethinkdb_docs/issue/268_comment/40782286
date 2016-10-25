@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-18) 02 : 33 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40782286"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/268#issuecomment-40782286"
+  , issueCommentCreatedAt = 2014 (-04) (-18) 02 : 33 : 24 UTC
+  , issueCommentBody = "Approved, please merge."
+  , issueCommentId = 40782286
+  }

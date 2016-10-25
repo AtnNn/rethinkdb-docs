@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-08) 18 : 19 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51638954"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-51638954"
+  , issueCommentCreatedAt = 2014 (-08) (-08) 18 : 19 : 29 UTC
+  , issueCommentBody =
+      "> Each table is going to take some memory even if it's empty -- @danielmewes should know exactly how much\r\n\r\nLast time I tested (on 1.12) it was approximately 8 MB per table on each machine in the cluster. I think that is still the current number. Actually inserting data will again increase the memory footprint on the nodes that host a shard of the table by about 4 MB, even if it's just a few rows.\r\n\r\n> ...Document size limit...\r\n\r\nThere is still no limit, but I wouldn't recommend storing documents of more than maybe 16 MB because things like backfilling will use a lot of memory (because they load a couple of documents into an in-memory buffer).\r\n\r\n> I thought a query could use no more than 64MB, but since I could insert a 1GB document, I guess there's no limit?\r\n\r\nI think there's a misunderstanding. The limit is on the size of the JSON query that the driver sends to the server. It is not a limit on how much memory the query can use while executing on the server. For example you cannot run an `r.table().insert(largeDoc)` with a document of 64 MB or more, but you can do a `r.table().map(...).count()` on a table that has documents that are much larger. To insert documents of more than 64 MB, you will have to assemble the document on the server in multiple round-trips.\r\n\r\n> Not sure about the minimum required storage per database\r\n\r\nA \"database\" doesn't use much memory, maybe 100 bytes or so on each node. A completely empty table currently uses 4 MB of disk space, which is allocated on all nodes in the cluster. For actually working with the table (even with just a few documents) at least 10 MB of disk space are required.\r\n\r\n> There are some limitations with exotic filesystems or encrypted ones\r\n\r\nAs far as I know we should now be able to run on most file systems with the `--no-direct-io` option. There have been recent reports of i/o issues on BTRFS (https://github.com/rethinkdb/rethinkdb/issues/2781)."
+  , issueCommentId = 51638954
+  }

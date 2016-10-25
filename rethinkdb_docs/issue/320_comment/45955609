@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-12) 22 : 22 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45955609"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/320#issuecomment-45955609"
+  , issueCommentCreatedAt = 2014 (-06) (-12) 22 : 22 : 32 UTC
+  , issueCommentBody =
+      "(I'm not sure where we want to put this, or how to make it look pretty on the website.  @coffeemug, could I re-assign to you?)"
+  , issueCommentId = 45955609
+  }

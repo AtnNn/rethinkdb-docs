@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-03) 18 : 52 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/108573433"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-108573433"
+  , issueCommentCreatedAt = 2015 (-06) (-03) 18 : 52 : 22 UTC
+  , issueCommentBody =
+      "@thomasmodeneis Thank you for the great feedback.\r\n\r\nThe init script should actually do all of those things automatically, though I think it defaults to user `rethinkdb` if no other user is defined and depending on how you installed RethinkDB that might not exist.\r\n\r\nA few follow up questions:\r\n- Which Linux distribution are you using in your vagrant box?\r\n- How did you install RethinkDB?\r\n- If you only set the runuser and rungroup in the instance file to `vagrant` (in your case) but don't create any folders, what is the error message that you receive?\r\n\r\nThis could be a problem with our init script more than with the documentation"
+  , issueCommentId = 108573433
+  }

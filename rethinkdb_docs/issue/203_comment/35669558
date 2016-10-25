@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-20) 21 : 13 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 56719
+        , simpleUserLogin = N "ccheever"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/56719?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ccheever"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35669558"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/203#issuecomment-35669558"
+  , issueCommentCreatedAt = 2014 (-02) (-20) 21 : 13 : 47 UTC
+  , issueCommentBody =
+      "Just realized that the discrepancy is just bc of python vs. JS.\r\nClosing this issue.\r\n"
+  , issueCommentId = 35669558
+  }

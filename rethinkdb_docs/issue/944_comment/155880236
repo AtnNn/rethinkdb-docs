@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-11) 19 : 05 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/155880236"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/944#issuecomment-155880236"
+  , issueCommentCreatedAt = 2015 (-11) (-11) 19 : 05 : 54 UTC
+  , issueCommentBody =
+      "#934 actually only updates the indexes, and I don't think we need to mention this in the index file because it *is* an edge case -- I want to mention it as a separate note in the main files for `and` and `or`. (Although an update to the signature will go in the index files too.)"
+  , issueCommentId = 155880236
+  }

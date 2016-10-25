@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-11) 23 : 22 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/101073042"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/737#issuecomment-101073042"
+  , issueCommentCreatedAt = 2015 (-05) (-11) 23 : 22 : 27 UTC
+  , issueCommentBody =
+      "These are great questions, but unfortunately I also don't have any real data. I'll try to benchmark this sometime and report my findings back here.\r\n\r\nI think this can wait until we actually know what we are talking about."
+  , issueCommentId = 101073042
+  }

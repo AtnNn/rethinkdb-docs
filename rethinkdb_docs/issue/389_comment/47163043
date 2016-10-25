@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-25) 21 : 45 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47163043"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/389#issuecomment-47163043"
+  , issueCommentCreatedAt = 2014 (-06) (-25) 21 : 45 : 12 UTC
+  , issueCommentBody =
+      "Yep! It's deployed now.\r\n\r\n\r\nOn Wed, Jun 25, 2014 at 2:31 PM, Michael Glukhovsky <\r\nnotifications@github.com> wrote:\r\n\r\n> @chipotle <https://github.com/chipotle>, could you deploy this?\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/pull/389#issuecomment-47161559>.\r\n>"
+  , issueCommentId = 47163043
+  }

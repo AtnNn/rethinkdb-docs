@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-19) 19 : 27 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 495718
+        , simpleUserLogin = N "bitterjug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/495718?v=3"
+        , simpleUserUrl = "https://api.github.com/users/bitterjug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40878335"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/184#issuecomment-40878335"
+  , issueCommentCreatedAt = 2014 (-04) (-19) 19 : 27 : 12 UTC
+  , issueCommentBody =
+      "i spent some time looking at the coerce examples to see how to convert to time. (because of the order I read the docs). I'd have enjoyed a pointer to `time()`"
+  , issueCommentId = 40878335
+  }

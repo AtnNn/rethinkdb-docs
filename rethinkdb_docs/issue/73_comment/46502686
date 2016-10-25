@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 22 : 27 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46502686"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/73#issuecomment-46502686"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 22 : 27 : 19 UTC
+  , issueCommentBody =
+      "All right, I see arrays *do* work and don't get dropped, and they appear\r\nfirst, followed by numbers and then followed by strings. (I have a\r\nsecondary index on a table and have been trying out multiple data types to\r\nsee what the resulting sort order is.) Is it correct to say that all values\r\nare stored *except* `null` and objects?\r\n\r\n\r\nOn Wed, Jun 18, 2014 at 3:20 PM, Michel <notifications@github.com> wrote:\r\n\r\n> @chipotle <https://github.com/chipotle> -- arrays are stored I think\r\n>\r\n> You can store something like\r\n>\r\n> {\r\n>   $reql_type$: \"TIME\", epoch_time: 0, timezone: \"+00:00\"\r\n> }\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/73#issuecomment-46502006>.\r\n>"
+  , issueCommentId = 46502686
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-24) 18 : 32 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29162144"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/105#issuecomment-29162144"
+  , issueCommentCreatedAt = 2013 (-11) (-24) 18 : 32 : 24 UTC
+  , issueCommentBody =
+      "Arg, I think it's similar to the assets issue. We have some files in our www reposotiry that should be here.\r\nhttps://github.com/rethinkdb/docs/issues/69\r\n\r\nSorry that you looked for the file and couldn't find it.\r\nThanks a lot for reporting it and trying to fix it.\r\n\r\nI'll push a fix for now"
+  , issueCommentId = 29162144
+  }

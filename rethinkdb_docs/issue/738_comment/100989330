@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-11) 17 : 37 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/100989330"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/738#issuecomment-100989330"
+  , issueCommentCreatedAt = 2015 (-05) (-11) 17 : 37 : 06 UTC
+  , issueCommentBody =
+      "What about commands that don't require an index but take one optionally, like the mentioned `orderBy`, `min`, `max` or `distinct` (well using the primary index with `distinct` isn't very useful, and I think we shouldn't mention it)?"
+  , issueCommentId = 100989330
+  }

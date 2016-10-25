@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-14) 18 : 22 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/93007303"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/711#issuecomment-93007303"
+  , issueCommentCreatedAt = 2015 (-04) (-14) 18 : 22 : 41 UTC
+  , issueCommentBody =
+      "Hmm. I wonder if there's a way to make that link do the language-specific thing the way the documentation sidebar does without overcomplicating things. Maybe that'll be an enhancement issue in a  few days..."
+  , issueCommentId = 93007303
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-02) 23 : 37 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/42089279"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-42089279"
+  , issueCommentCreatedAt = 2014 (-05) (-02) 23 : 37 : 35 UTC
+  , issueCommentBody =
+      "@Yoeori has signed the CLA. Before merging this pull request, I would like to verify that the instructions work from a clean checkout."
+  , issueCommentId = 42089279
+  }

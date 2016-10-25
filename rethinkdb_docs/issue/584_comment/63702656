@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 19 : 56 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63702656"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/584#issuecomment-63702656"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 19 : 56 : 09 UTC
+  , issueCommentBody =
+      "The problem is that your number (really text) includes a comma character. I did a quick mock-up of your `r.update` statement, but in Python and with documents that look like: `{'a': '1,847'}`, and this seems to fix the problem:\r\n\r\n```python\r\nr.table('echo').update( r.js('(function (row) { row[\"a\"] = parseInt(row[\"a\"].split(\",\").join(\"\")); return row; })'), non_atomic=True).run()\r\n```"
+  , issueCommentId = 63702656
+  }

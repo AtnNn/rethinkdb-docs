@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-08) 19 : 50 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31870989"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/130#issuecomment-31870989"
+  , issueCommentCreatedAt = 2014 (-01) (-08) 19 : 50 : 12 UTC
+  , issueCommentBody =
+      "Closing. This was merged in v1.12.x via https://github.com/rethinkdb/docs/pull/143"
+  , issueCommentId = 31870989
+  }

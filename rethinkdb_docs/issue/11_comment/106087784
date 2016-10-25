@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-27) 21 : 45 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/106087784"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-106087784"
+  , issueCommentCreatedAt = 2015 (-05) (-27) 21 : 45 : 27 UTC
+  , issueCommentBody =
+      "I talked to @chipotle in person, and my answer is that in a big setup it would be a good pattern to have a `rethinkdb proxy` process running on each application server. This is especially true the more you use changefeeds."
+  , issueCommentId = 106087784
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-18) 21 : 32 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63548873"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/580#issuecomment-63548873"
+  , issueCommentCreatedAt = 2014 (-11) (-18) 21 : 32 : 16 UTC
+  , issueCommentBody =
+      "@danielmewes: it seems confusing to me that geo multi-indexes remove duplicates when normal multi-indexes don't.  Are we sure we want to do it that way?"
+  , issueCommentId = 63548873
+  }

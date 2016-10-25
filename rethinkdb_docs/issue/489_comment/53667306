@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-28) 02 : 43 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53667306"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/489#issuecomment-53667306"
+  , issueCommentCreatedAt = 2014 (-08) (-28) 02 : 43 : 11 UTC
+  , issueCommentBody =
+      "> But I'm not sure I'll be the only making it -- httpbin.org/get looks like some kind of typo where the :// got left out. I genuinely thought this was some kind of search and replace error.\r\n\r\nI thought it was the case too. I'm in favor or adding `http://`"
+  , issueCommentId = 53667306
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-03) 04 : 24 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10736369
+        , simpleUserLogin = N "gangadharyelwande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10736369?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gangadharyelwande"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/204864937"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/926#issuecomment-204864937"
+  , issueCommentCreatedAt = 2016 (-04) (-03) 04 : 24 : 12 UTC
+  , issueCommentBody =
+      "This issue is already resolved\r\n\r\nhttps://rethinkdb.com/docs/guide/java/"
+  , issueCommentId = 204864937
+  }

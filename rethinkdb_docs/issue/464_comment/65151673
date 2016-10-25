@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-01) 22 : 59 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65151673"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-65151673"
+  , issueCommentCreatedAt = 2014 (-12) (-01) 22 : 59 : 45 UTC
+  , issueCommentBody =
+      "How do the `table_config()` and `db_config()` commands work? I presume they manipulate the tables of the same name."
+  , issueCommentId = 65151673
+  }

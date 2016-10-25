@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-17) 20 : 45 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/82591812"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/679#issuecomment-82591812"
+  , issueCommentCreatedAt = 2015 (-03) (-17) 20 : 45 : 10 UTC
+  , issueCommentBody =
+      "The current description of `nonAtomic` is overly specific -- updates that require fetching data from another document are one case of operations we can't do atomically, but there are others as well (e.g. functions using `r.random`).  A better description might be \"set to true if you need to do a non-deterministic update, for example an update that involves reading from another table\".\r\n\r\nIf you write `r.table('foo').filter({status: 'inactive'}).update({status: 'active'})`, we don't guarantee that `status` only ever moves from `inactive` to `active`.  (We could add that guarantee by re-running the filter before applying the update and only applying it if it's still true, but we don't.  Thinking about this, I think maybe we *should* do that.  Do you want to open a ReQL proposal for it?)  If you want that guarantee right now, you should write `r.table('foo').update({status: r.branch(r.row('status').eq('inactive'), 'active', r.row('status'))})`.\r\n\r\nWhat we mean by atomic is that if you run the query `r.table('test').get(0).update({n: r.row('n').add(1)})` `m` times, we guarantee that the value of `n` is incremented by exactly `m`, and that if you read while the updates are running you only ever see the value of `n` increase.  If you were to write `r.table('test').get(0).update({n: r.row('n').add(r.table('constants').get(1)['val'])}, non_atomic=true)` instead, though, we wouldn't offer that guarantee."
+  , issueCommentId = 82591812
+  }

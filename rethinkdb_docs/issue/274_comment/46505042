@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-19) 01 : 01 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46505042"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-46505042"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 22 : 56 : 26 UTC
+  , issueCommentBody =
+      "I wrote something at https://gist.github.com/danielmewes/0a67d4246e7d8c658cea\r\n\r\n@chipotle When you have time, could you take a look and improve it as necessary? I don't think you can edit the Gist in-place, but you can probably clone it (or just copy the MD code)."
+  , issueCommentId = 46505042
+  }

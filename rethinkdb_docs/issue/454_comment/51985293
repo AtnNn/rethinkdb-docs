@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-12) 22 : 14 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51985293"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/454#issuecomment-51985293"
+  , issueCommentCreatedAt = 2014 (-08) (-12) 22 : 14 : 29 UTC
+  , issueCommentBody =
+      "Cool, let me know when you have a PR up and I'll merge it in."
+  , issueCommentId = 51985293
+  }

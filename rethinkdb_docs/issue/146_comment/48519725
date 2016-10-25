@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-09) 19 : 04 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48519725"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/146#issuecomment-48519725"
+  , issueCommentCreatedAt = 2014 (-07) (-09) 19 : 04 : 59 UTC
+  , issueCommentBody =
+      "We explain this in the data types document, but it might be good as a separate quick recipe, something like, \"Converting a stream to an array\" which basically just repeats the bit in the data type document with an example."
+  , issueCommentId = 48519725
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-16) 19 : 28 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/112538474"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/792#issuecomment-112538474"
+  , issueCommentCreatedAt = 2015 (-06) (-16) 19 : 28 : 56 UTC
+  , issueCommentBody =
+      "If this is wrong, I need some more clarification about the current behavior; the paragraph being referenced about automatic election was written in January and passed code review."
+  , issueCommentId = 112538474
+  }

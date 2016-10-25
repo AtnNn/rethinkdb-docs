@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-25) 19 : 48 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/64459419"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/586#issuecomment-64459419"
+  , issueCommentCreatedAt = 2014 (-11) (-25) 19 : 48 : 01 UTC
+  , issueCommentBody =
+      "Thanks for finding this -- I think we'll just delete that whole paragraph rather than change the tense, since it's no longer needed."
+  , issueCommentId = 64459419
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-04) 06 : 10 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 127443
+        , simpleUserLogin = N "rickhull"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/127443?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rickhull"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/36595067"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/211#issuecomment-36595067"
+  , issueCommentCreatedAt = 2014 (-03) (-04) 06 : 10 : 47 UTC
+  , issueCommentBody =
+      "from #rethinkdb on freenode\r\n```\r\n(09:53:01 PM) rickhull: i'd also suggest that the (1 + 1) + (1 + 1) explanation on main map/reduce page isn't that helpful\r\n(09:53:16 PM) rickhull: i.e. why lambda x,y: x+1 is wrong\r\n(09:53:50 PM) karlgrz [~karlgrz@c-67-173-138-153.hsd1.il.comcast.net] entered the room.\r\n(09:54:00 PM) rickhull: my sense, slowly being confirmed, is that the reduce lambda has arity 2, necessarily\r\n(09:54:07 PM) rickhull: because we are doing recursive binary reduction\r\n(09:54:55 PM) rickhull: (apologize for vague or wrong terminology)\r\n(09:55:07 PM) AtnNn: could you comment about that on the issue? We will be rewriting the mapreduce documentation soon and it will be very helpful\r\n(09:56:41 PM) rickhull: here is my sense.  let's say we have 10 items distributed across 4 nodes: 3, 3, 2, 2\r\n(09:56:58 PM) rickhull: the reduction would run twice on each node with 3 items\r\n(09:57:28 PM) rickhull: once against 2 real items.  then again against the previous reduction value and the 3rd item\r\n(09:57:50 PM) rickhull: is that (roughly) correct?\r\n(09:58:35 PM) rickhull: finally we get one reduction value for each node, and we can continue to reduce down to the single value\r\n(09:59:42 PM) AtnNn: yes. that is how it works (and there are no guarantees of any sort of order)\r\n(10:00:04 PM) rickhull: i'd suggest the main map/reduce page go into that level of discussion\r\n(10:00:25 PM) rickhull: i can imagine its old hat or assumed if you have a high level of familiarity with MR already\r\n(10:00:54 PM) AtnNn: rickhull: I'll make sure it does for our next release\r\n```"
+  , issueCommentId = 36595067
+  }

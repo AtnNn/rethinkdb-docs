@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 02 : 00 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52581416"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52581416"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 02 : 00 : 52 UTC
+  , issueCommentBody =
+      "We should try very hard **not** to encourage people ro write `r.binary(r.http())`.  It will appear to work until there's a NULL character, or a future version of RethinkDB actually checks for UTF-8, but then it will just blow up."
+  , issueCommentId = 52581416
+  }

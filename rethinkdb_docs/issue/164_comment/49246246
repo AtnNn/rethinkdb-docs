@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-17) 00 : 40 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49246246"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/164#issuecomment-49246246"
+  , issueCommentCreatedAt = 2014 (-07) (-17) 00 : 40 : 48 UTC
+  , issueCommentBody =
+      "I can go ahead and add this, although it doesn't look like it's been updated in a long time (with respect to RethinkDB features)."
+  , issueCommentId = 49246246
+  }

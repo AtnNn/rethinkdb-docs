@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-20) 07 : 13 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5938143
+        , simpleUserLogin = N "or-else"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5938143?v=3"
+        , simpleUserUrl = "https://api.github.com/users/or-else"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30992781"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-30992781"
+  , issueCommentCreatedAt = 2013 (-12) (-20) 07 : 13 : 59 UTC
+  , issueCommentBody =
+      "I wonder if the limit on the number of dbs/tables is going to be addressed in any way in 1.12. \r\n\r\nI've seen issue #1648 being closed and issue #97 to be completed. Are these two enough to fix the limits?\r\n\r\nIf not, will it ever be possible to have, say 100K tables in a single database? In 1000 databases? Will it be possible to have 1K databases? 10K databases? \r\n\r\nAs for table being a few megs heavy - that's just ~1TB for 100K tables. Perfectly fine in a cluster with 1TB of RAM and 30TB of storage.\r\n\r\nIt would be really great of you could make a page like Mongos' \"Limits and Thresholds\". I understand that you have lots of other things to do but that one is key in making a decision to use Rethink vs other options. Otherwise people have to learn it the hard way."
+  , issueCommentId = 30992781
+  }

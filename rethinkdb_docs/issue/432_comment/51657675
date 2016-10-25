@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-08) 21 : 07 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51657675"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/432#issuecomment-51657675"
+  , issueCommentCreatedAt = 2014 (-08) (-08) 21 : 07 : 31 UTC
+  , issueCommentBody =
+      "## r.binary\r\n\r\n`r.binary` is used to put a chunk of binary data into a query.  The type it accepts is based on the client language:\r\n\r\n* Python - `bytes`\r\n* Javascript - a node.js `Buffer`\r\n* Ruby - `String`\r\n\r\nIn Python 3 and Javascript, `r.binary` is implied for both `bytes` and `Buffer` if used within a query, and it will automatically perform the conversion. \r\n\r\n### Arguments\r\n`r.binary` is a top-level term, and takes exactly one argument (the data to be converted to binary).\r\n\r\n### Optargs\r\n`r.binary` does not recognize any optargs.\r\n\r\n### Return Value\r\nWhen a binary object is returned to the client, the return value depends on the global optarg that may be provided to `run`: `binary_format` (`binaryFormat` in JS).\r\n\r\n* `'native'` (default) - the binary object will be converted into a `bytes` (py), `Buffer` (js), or `String` (rb) object\r\n* `'raw'` - the binary object will be returned as a dict of the format `{'$reql_type$':'binary', 'data':<base64-encoded data string>}`\r\n\r\n### Chainable Terms\r\n`r.binary` may have the following terms chained off of it:\r\n\r\n* `coerce_to('string')` - r.binary objects may only be coerced to strings\r\n* `count` - returns the number of bytes in the object\r\n* `slice` - uses the same semantics as when used on an array (each byte corresponds to an index)\r\n* `type_of` - returns `'PTYPE<BINARY>'`\r\n\r\nIn addition, `coerce_to` may now coerce a string to a binary object."
+  , issueCommentId = 51657675
+  }

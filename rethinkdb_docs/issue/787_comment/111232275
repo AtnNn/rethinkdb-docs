@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-11) 18 : 26 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/111232275"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/787#issuecomment-111232275"
+  , issueCommentCreatedAt = 2015 (-06) (-11) 18 : 26 : 48 UTC
+  , issueCommentBody =
+      "One clarification: a shard being \"beyond repair\" is described as a shard that's missing all of its replicas. So what's happening when `unsafe_rollback_or_erase` is specified? Is the shard being created on an arbitrarily-chosen available replica? (And just a single one?)"
+  , issueCommentId = 111232275
+  }

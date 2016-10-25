@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-09) 22 : 37 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/147004006"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-147004006"
+  , issueCommentCreatedAt = 2015 (-10) (-09) 22 : 37 : 27 UTC
+  , issueCommentBody =
+      "I'm probably going to need a couple specific examples about cursors, particularly the equivalents of `each`, `next`, and (since this one seems to be very language-specific) `to_array`. In the `run` command, for instance, the first example is:\r\n\r\n```py\r\nfor doc in r.table('marvel').run(conn):\r\n    print doc\r\n```\r\n\r\nI don't know the correct way to write this in Java."
+  , issueCommentId = 147004006
+  }

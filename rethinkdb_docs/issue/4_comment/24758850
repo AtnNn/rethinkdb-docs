@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-09) (-19) 17 : 43 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/24758850"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/4#issuecomment-24758850"
+  , issueCommentCreatedAt = 2013 (-09) (-19) 17 : 43 : 55 UTC
+  , issueCommentBody =
+      "So even if I install nodejs-legacy on Ubuntu 13.04, I get another error.\r\n\r\nbytebuffer@\"latest\" (dependency of protobufjs) cannot be found.\r\nI can't find a mention of `@\"latest\"` being a valid syntax on npm...\r\n\r\nUpgrading node works\r\n```\r\nsudo npm install -g n\r\nsudo n stable\r\n```\r\n\r\n@atnnn if you have a better idea, let me know. For now I'll tell raring users to upgrade node."
+  , issueCommentId = 24758850
+  }

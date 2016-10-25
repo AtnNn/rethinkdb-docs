@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-25) 19 : 14 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/56868931"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-56868931"
+  , issueCommentCreatedAt = 2014 (-09) (-25) 19 : 14 : 44 UTC
+  , issueCommentBody =
+      "The changes landed in 1.15.\r\nShouldn't we document it now?"
+  , issueCommentId = 56868931
+  }

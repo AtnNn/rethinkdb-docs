@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-02) 18 : 32 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/76772282"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/659#issuecomment-76772282"
+  , issueCommentCreatedAt = 2015 (-03) (-02) 18 : 32 : 36 UTC
+  , issueCommentBody =
+      "Do we want to change both the documentation and the `dataexplorer.coffee` file, or leave it referred to as `get_field` but update it to mention the array offset case?"
+  , issueCommentId = 76772282
+  }

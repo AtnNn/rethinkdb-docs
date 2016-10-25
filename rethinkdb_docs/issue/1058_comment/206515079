@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-06) 19 : 03 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 167416
+        , simpleUserLogin = N "VeXocide"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/167416?v=3"
+        , simpleUserUrl = "https://api.github.com/users/VeXocide"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/206515079"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1058#issuecomment-206515079"
+  , issueCommentCreatedAt = 2016 (-04) (-06) 19 : 03 : 16 UTC
+  , issueCommentBody =
+      "There is a small optimization possible, the client may send messages 1 and 3 immediately without waiting for the server to respond, and may then read 2 and 4 afterwards handling them as usual. This should combine those in a single packet saving a TCP roundtrip."
+  , issueCommentId = 206515079
+  }

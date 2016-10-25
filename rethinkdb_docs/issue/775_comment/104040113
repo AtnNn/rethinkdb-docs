@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-20) 21 : 08 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/104040113"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/775#issuecomment-104040113"
+  , issueCommentCreatedAt = 2015 (-05) (-20) 21 : 08 : 50 UTC
+  , issueCommentBody =
+      "Also pinging @chipotle for review of the wording."
+  , issueCommentId = 104040113
+  }

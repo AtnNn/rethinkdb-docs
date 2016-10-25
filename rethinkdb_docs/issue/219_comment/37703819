@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-14) 22 : 24 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37703819"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/219#issuecomment-37703819"
+  , issueCommentCreatedAt = 2014 (-03) (-14) 22 : 24 : 34 UTC
+  , issueCommentBody =
+      "@neumino -- I would remove the commands. We still have a lot to accomplish, and I think it's too early to accumulate cruft. If someone gets confused, we can link them to the migration gist. I wouldn't create maintenance work for ourselves where it isn't necessary. If people start thinking of RethinkDB as \"these folks are top-notch technically and build an awesome product, but the bastards break compatibility all the time\", I'd be ok with that. (For now. Of course eventually we'll have to be a lot more careful, I just don't think it's time for that yet)"
+  , issueCommentId = 37703819
+  }

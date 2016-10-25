@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-30) 19 : 18 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/117311287"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/803#issuecomment-117311287"
+  , issueCommentCreatedAt = 2015 (-06) (-30) 19 : 18 : 24 UTC
+  , issueCommentBody =
+      "For the PHP driver, I'm using some heuristics to automatically translate the JavaScript examples to PHP syntax, and then apply a final patch to accommodate differences that cannot be translated automatically.\r\nSee https://github.com/danielmewes/php-rql/tree/master/docs for the scripts and a README.\r\n\r\nIt is a pretty hacky solution, but might work for some other languages as well.\r\n\r\nYour second proposal I think is going to be 70% covered by https://github.com/rethinkdb/docs/issues/710. Those changes are going to make the parts that are specific to different languages explicit. The missing part would be to provide a convenient way of maintaining the language-specific pieces separately, though it should be fairly easy to write your own scripts for doing that."
+  , issueCommentId = 117311287
+  }

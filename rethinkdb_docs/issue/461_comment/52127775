@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-13) 23 : 56 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52127775"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/461#issuecomment-52127775"
+  , issueCommentCreatedAt = 2014 (-08) (-13) 23 : 56 : 33 UTC
+  , issueCommentBody =
+      "Can I take this issue? I would like to reorganise the build instructions on the website. Here's what I'm proposing:\r\n\r\nRemove the build from source instructions on the individual distro pages and merge them into a single \"build from source\" page. This page will\r\n* have a list of dependencies for each distro\r\n* have a single build instructions section\r\n* use the source distribution (instead of a shallow clone of the PR branch)\r\n* not pass `--fetch` or `--allow-fetch` flags to `./configure` (the source distribution contains the v8 source and pre-compiled web assets, so all dependencies should be available)\r\n\r\nAdd a \"hacking on rethinkdb\" page that will\r\n* lists all build dependencies and their equivalent packages on ubuntu\r\n* use a git clone of next\r\n* use `--allow-fetch`\r\n* have links to the community, CLA and build from source pages and to the contribution guidelines"
+  , issueCommentId = 52127775
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-16) 23 : 55 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140928430"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/141#issuecomment-140928430"
+  , issueCommentCreatedAt = 2015 (-09) (-16) 23 : 55 : 28 UTC
+  , issueCommentBody =
+      "@chipotle That's still true.\r\n\r\nPeople could theoretically take the output of `r.db('rethinkdb').table('table_config')`, and then try to write those documents back into the new cluster. That's somewhat fragile though, depends on all server names to match, and I think you will have to remove secondary index entries from the documents before writing them back or you will get an error. \r\n\r\nI think it's enough to mention the limitation for now."
+  , issueCommentId = 140928430
+  }

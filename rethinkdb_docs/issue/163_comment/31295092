@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-28) 11 : 46 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31295092"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/163#issuecomment-31295092"
+  , issueCommentCreatedAt = 2013 (-12) (-28) 11 : 45 : 29 UTC
+  , issueCommentBody =
+      "> Given a document, I want to insert if if there is no document saved with the primary key, or replace (and not update) the document if it exists.\r\n\r\nThat's exactly what `r.table('foo').insert(doc, {upsert:true})` does.\r\n\r\n> I can pass an object `{nonAtomic: <boolean>}` as a second argument to replace, but it doesn't change anything (tested with Python and JavaScript). So it's probably a bug?\r\n\r\nNo, this operation is actually atomic. It only becomes non-atomic if you're trying to, say, increment an existing field in a document, or do any operation based on a non-deterministic value and an existing field. If you're replacing the document all together with a new value, everything is atomic. Try adding `r.js(\"Math.random()\")` to `value` and see what happens."
+  , issueCommentId = 31295092
+  }

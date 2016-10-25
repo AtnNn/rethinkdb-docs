@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-15) 19 : 24 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59261163"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/551#issuecomment-59261163"
+  , issueCommentCreatedAt = 2014 (-10) (-15) 19 : 24 : 38 UTC
+  , issueCommentBody =
+      "Hi @yaru22 , thank you for your feedback & suggestion.\r\nWe don't have the possibilities to provide full official support for Thinky at this point, without taking away resources from our core product development (the server). Still we will do our best to help with any issues that come up of course.\r\n\r\nWe are eventually going to officially support great projects like Thinky (as well as drivers for languages other than JS, Ruby and Python), so we will keep this in mind for later.\r\n\r\nI'm going to close this issue for the time being, because it doesn't really belong in the docs issue tracker. As I said, be assured that we will keep your suggestion in mind though."
+  , issueCommentId = 59261163
+  }

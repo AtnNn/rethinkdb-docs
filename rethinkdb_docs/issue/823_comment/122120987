@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-16) 22 : 24 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/122120987"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/823#issuecomment-122120987"
+  , issueCommentCreatedAt = 2015 (-07) (-16) 22 : 24 : 07 UTC
+  , issueCommentBody =
+      "I don't think the comma is absolutely necessary(,) but it's grammatically correct. Adding the \"a\" is definitely grammatically correct. :)"
+  , issueCommentId = 122120987
+  }

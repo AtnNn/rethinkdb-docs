@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-16) 23 : 45 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140927179"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/141#issuecomment-140927179"
+  , issueCommentCreatedAt = 2015 (-09) (-16) 23 : 45 : 32 UTC
+  , issueCommentBody =
+      "@danielmewes - is this still true, after the more recent changes? If it is still true, is there any advice to give people about how to save and restore cluster settings (e.g., scripts using administration commands to reconfigure servers)?"
+  , issueCommentId = 140927179
+  }

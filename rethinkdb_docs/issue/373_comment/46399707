@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 06 : 16 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46399707"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/373#issuecomment-46399707"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 06 : 16 : 08 UTC
+  , issueCommentBody =
+      "Hmm! Okay, I see what you mean. I actually think the issue is a discrepancy between the link text in the FAQ and the page titles -- the descriptions of the two linked pages are fine, but the link text and the page titles don't match. I'll check out what's going on behind the scenes. Thanks for opening the issue."
+  , issueCommentId = 46399707
+  }

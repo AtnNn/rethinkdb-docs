@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-06) 21 : 32 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62055123"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/575#issuecomment-62055123"
+  , issueCommentCreatedAt = 2014 (-11) (-06) 21 : 32 : 53 UTC
+  , issueCommentBody =
+      "`group` seems to have a weird behaviour when grouping on multiple fields with `multi:true`. @mlucy did you implement this command? How would you describe its semantics?"
+  , issueCommentId = 62055123
+  }

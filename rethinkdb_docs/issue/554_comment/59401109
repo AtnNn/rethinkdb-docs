@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-16) 17 : 46 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59401109"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/554#issuecomment-59401109"
+  , issueCommentCreatedAt = 2014 (-10) (-16) 17 : 46 : 34 UTC
+  , issueCommentBody =
+      "That's weird. The source for this page *does* mention geospatial indexes, and in fact it's been a bit reorganized -- I don't know why the version on the web site is out of date. When I do a preview of the www site on my local machine, the new page comes up, too. I'll have to see what happens on the next deployment."
+  , issueCommentId = 59401109
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-09) 06 : 42 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48435237"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/322#issuecomment-48435237"
+  , issueCommentCreatedAt = 2014 (-07) (-09) 06 : 42 : 28 UTC
+  , issueCommentBody =
+      "@chipotle I think your revision is good. However if there are plans on enforcing UTF-8 encoding in the future, you should also mention it.\r\n\r\n> RethinkDB *theoretically* only accepts UTF-8\r\n\r\n@mlucy That is not quite true. Not only do most operations not expect UTF-8 strings, they will also gladly produce non-UTF-8 strings.\r\n\r\n```\r\n> r.expr(\"\1090\1088\1080\").split(\"\")\r\n[\"\65533\",\"\65533\",\"\65533\",\"\65533\",\"\65533\",\"\65533\"] \r\n```"
+  , issueCommentId = 48435237
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-17) 22 : 29 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/185436589"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1010#issuecomment-185436589"
+  , issueCommentCreatedAt = 2016 (-02) (-17) 22 : 29 : 54 UTC
+  , issueCommentBody =
+      "The 8 MB are in addition to the 28 bytes per block.\r\n\r\nWe actually did reduce the per-block overhead in 2.2. Good you asked.\r\nHowever the reduction doesn't apply evenly to all types of blocks. While many blocks now only use 10 bytes, the conservative estimate is still close to 28 bytes per block. It very slightly decreased to 26 bytes.\r\n\r\nWe should probably just say 10-26 bytes per block.\r\n"
+  , issueCommentId = 185436589
+  }

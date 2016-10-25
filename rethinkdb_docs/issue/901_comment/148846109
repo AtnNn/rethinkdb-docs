@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-16) 21 : 58 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/148846109"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-148846109"
+  , issueCommentCreatedAt = 2015 (-10) (-16) 21 : 58 : 46 UTC
+  , issueCommentBody =
+      "It'll take a Reql queries (so like `r.binary(r.http(\"some/image_url.jpg\"))`) and `byte[]`\r\n\r\n```java\r\nimport java.nio.file.*;\r\n\r\nPath path = Paths.get(\"path/to/file\");\r\nbyte[] data = Files.readAllBytes(path);\r\nr.binary(data).run(conn)\r\n```"
+  , issueCommentId = 148846109
+  }

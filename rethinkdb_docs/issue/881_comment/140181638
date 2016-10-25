@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-14) 19 : 20 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140181638"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/881#issuecomment-140181638"
+  , issueCommentCreatedAt = 2015 (-09) (-14) 19 : 20 : 17 UTC
+  , issueCommentBody =
+      "The global optargs get sent to the server pretty much the way they're specified (as a json object at the protocol level) except that the value of the `db` key can't just be a string specifying the name of the db to use, it has to be a serialized db object, so `{db: \"foo\"}` gets automatically translated by the js/py drivers into `{db: [14 [\"foo\"]]}`. (14 is the id of the `DB` ast object)"
+  , issueCommentId = 140181638
+  }

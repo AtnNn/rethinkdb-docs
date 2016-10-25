@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-03) 18 : 49 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/230168810"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1149#issuecomment-230168810"
+  , issueCommentCreatedAt = 2016 (-07) (-03) 18 : 49 : 20 UTC
+  , issueCommentBody =
+      "Thanks for the pull request. RethinkDB isn't following semantic versioning, though\8212the text as it is now is actually correct. 2.1.0 to 2.1.1 is a minor release, but 2.1.0 to 2.2.0 is a major release."
+  , issueCommentId = 230168810
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-09) 08 : 31 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 254523
+        , simpleUserLogin = N "metaflow"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/254523?v=3"
+        , simpleUserUrl = "https://api.github.com/users/metaflow"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48443085"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/404#issuecomment-48443085"
+  , issueCommentCreatedAt = 2014 (-07) (-09) 08 : 31 : 35 UTC
+  , issueCommentBody =
+      "@chipotle Where can I get these plugins? `mg_preview` does not contain Jekyll plugins"
+  , issueCommentId = 48443085
+  }

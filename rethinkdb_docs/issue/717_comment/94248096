@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-19) 07 : 29 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94248096"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/717#issuecomment-94248096"
+  , issueCommentCreatedAt = 2015 (-04) (-19) 07 : 29 : 06 UTC
+  , issueCommentBody = "Yep, the master branch is the right one."
+  , issueCommentId = 94248096
+  }

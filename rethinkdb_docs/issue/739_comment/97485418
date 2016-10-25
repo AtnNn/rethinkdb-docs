@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-29) 16 : 17 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97485418"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/739#issuecomment-97485418"
+  , issueCommentCreatedAt = 2015 (-04) (-29) 16 : 17 : 20 UTC
+  , issueCommentBody =
+      "I assume this was a question unrelated to our documentation.\r\n@istiakk Please let me know if this was actually a bug in our documentation."
+  , issueCommentId = 97485418
+  }

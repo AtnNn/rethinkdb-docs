@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-10) 20 : 56 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62453539"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/576#issuecomment-62453539"
+  , issueCommentCreatedAt = 2014 (-11) (-10) 20 : 56 : 28 UTC
+  , issueCommentBody =
+      "> Perhaps you have an older version of the driver?\r\n\r\nYou're right, I did! I didn't catch that this was a recent change."
+  , issueCommentId = 62453539
+  }

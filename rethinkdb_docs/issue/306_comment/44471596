@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-28) 22 : 13 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44471596"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/306#issuecomment-44471596"
+  , issueCommentCreatedAt = 2014 (-05) (-28) 22 : 13 : 00 UTC
+  , issueCommentBody =
+      "I also thought \"control structures\" fits better than document manipulation, but it's still not quite right. I would consider adding a new section. I'm not sure what it should be called, but something that indicates that it's an operation on the outside world. I'd put triggers in this section too. Perhaps \"integrations\"?"
+  , issueCommentId = 44471596
+  }

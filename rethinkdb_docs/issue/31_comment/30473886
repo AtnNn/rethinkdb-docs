@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-12) 23 : 45 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30473886"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/31#issuecomment-30473886"
+  , issueCommentCreatedAt = 2013 (-12) (-12) 23 : 45 : 13 UTC
+  , issueCommentBody =
+      "I don't see any problem with Safari when scrolling. It seems to behave like with Chrome or Firefox.\r\n\r\nMaybe it went away when we released the new docs?\r\nI also tested the website with Safari 5 (using one of our old mac mini). And it seems I'm not allowed to upgrade Safari..."
+  , issueCommentId = 30473886
+  }

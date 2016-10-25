@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-20) 23 : 19 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70755089"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/625#issuecomment-70755089"
+  , issueCommentCreatedAt = 2015 (-01) (-20) 23 : 19 : 33 UTC
+  , issueCommentBody =
+      "If you set an auth key, you get `auth_key: {hidden: true}`."
+  , issueCommentId = 70755089
+  }

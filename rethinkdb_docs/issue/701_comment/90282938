@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-06) 23 : 24 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/90282938"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/701#issuecomment-90282938"
+  , issueCommentCreatedAt = 2015 (-04) (-06) 23 : 24 : 31 UTC
+  , issueCommentBody =
+      "I think we should make it clear there are 3 major reasons to use do, and give an example for each:\r\n\r\n - to re-use results\r\n - to ensure ordering (do this operation, then when that's complete do this operation)\r\n - to \"map over one document\"\r\n\r\nThe third is probably just going to catch people googling, and could explain why usually you can just chain operations, and only need to use .do if you have to use the result more than once.\r\n"
+  , issueCommentId = 90282938
+  }

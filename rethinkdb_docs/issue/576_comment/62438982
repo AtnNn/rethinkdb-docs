@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-10) 19 : 23 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62438982"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/576#issuecomment-62438982"
+  , issueCommentCreatedAt = 2014 (-11) (-10) 19 : 23 : 48 UTC
+  , issueCommentBody =
+      "> Python/Ruby iterator methods aren't part of the RethinkDB API\r\n\r\nHere's where I disagree. `next`, `list` and the ability to loop over a cursor are a very important part of the API. The same way that `+` is an important part of the API even if it is built into the language.\r\n\r\nWhen users see the JavaScript cursor methods and switch to Python, it gives the impression that the only thing you can do in Python with a cursor is close it.\r\n\r\nEven if they are documented on a separate page, I think they should be listed on the API page, which should serve as a reference."
+  , issueCommentId = 62438982
+  }

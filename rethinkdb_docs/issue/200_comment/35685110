@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-21) 00 : 06 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35685110"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/200#issuecomment-35685110"
+  , issueCommentCreatedAt = 2014 (-02) (-21) 00 : 06 : 57 UTC
+  , issueCommentBody =
+      "Marc also says we need to update the Python driver docs, which are stubs."
+  , issueCommentId = 35685110
+  }

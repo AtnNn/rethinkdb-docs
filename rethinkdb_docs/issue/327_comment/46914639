@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 23 : 19 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46914639"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-46914639"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 23 : 19 : 12 UTC
+  , issueCommentBody =
+      "As far as I can tell that's @neumino's primary objection (since JS uses callbacks, so if you type the text after `>` into a prompt you don't actually see the response on the next line)."
+  , issueCommentId = 46914639
+  }

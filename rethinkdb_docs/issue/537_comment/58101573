@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-06) 21 : 23 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 258437
+        , simpleUserLogin = N "srh"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/258437?v=3"
+        , simpleUserUrl = "https://api.github.com/users/srh"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58101573"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/537#issuecomment-58101573"
+  , issueCommentCreatedAt = 2014 (-10) (-06) 21 : 23 : 04 UTC
+  , issueCommentBody =
+      "The authkey is effectively just a username/password only without the username.\r\n\r\nI don't think we should be lawyering to people about non-root access situations and all sorts of hypotheticals.  They should use SSL."
+  , issueCommentId = 58101573
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-01) 00 : 01 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/204180394"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1059#issuecomment-204180394"
+  , issueCommentCreatedAt = 2016 (-04) (-01) 00 : 01 : 38 UTC
+  , issueCommentBody =
+      "ping @VeXocide about whether jobs are going to be filtered by user in 2.3 or whether jobs are just for admin ( I don't know which issue is tracking it)"
+  , issueCommentId = 204180394
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-12) 08 : 13 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30395942"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/14#issuecomment-30395942"
+  , issueCommentCreatedAt = 2013 (-12) (-12) 08 : 13 : 37 UTC
+  , issueCommentBody =
+      "Err, I forgot about the primary key in https://github.com/rethinkdb/docs/pull/128\r\nThe other points have been done."
+  , issueCommentId = 30395942
+  }

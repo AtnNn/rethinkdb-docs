@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-29) 05 : 12 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71970341"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-71970341"
+  , issueCommentCreatedAt = 2015 (-01) (-29) 05 : 12 : 58 UTC
+  , issueCommentBody =
+      "Good catch @neumino! I guess they will be missing in the DataExplorer auto completion then? We can do a point release shortly after to address that."
+  , issueCommentId = 71970341
+  }

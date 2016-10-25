@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-24) 21 : 39 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27033591"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/8#issuecomment-27033591"
+  , issueCommentCreatedAt = 2013 (-10) (-24) 21 : 39 : 49 UTC
+  , issueCommentBody =
+      "@neumino for creating docker images, see the mkimage scripts in https://github.com/dotcloud/docker/tree/master/contrib"
+  , issueCommentId = 27033591
+  }

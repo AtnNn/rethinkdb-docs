@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-18) 23 : 36 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63566655"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/580#issuecomment-63566655"
+  , issueCommentCreatedAt = 2014 (-11) (-18) 23 : 36 : 51 UTC
+  , issueCommentBody =
+      "@mlucy Geo indexes generally have to filter duplicates, because even in a regular index a single document can appear in multiple places in the index tree.\r\nI think we could theoretically make geo indexes emit duplicates in a multi index. This would work by comparing the tags that we generate for multi index index keys (specifically we could filter duplicates in the geo index based not just on their primary keys, but on the pair (primary key, multi index tag) ). It would require some additional code specifically for this in the geospatial index traversal code.\r\nI don't think it's too confusing to have `getIntersecting()` and `getNearest()` never return duplicates, even if `between()` and `getAll()` do for multi indexes. But that's up for discussion. I opened https://github.com/rethinkdb/rethinkdb/issues/3351 to discuss that aspect further."
+  , issueCommentId = 63566655
+  }

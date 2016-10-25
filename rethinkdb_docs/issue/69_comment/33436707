@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-27) 23 : 42 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33436707"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/69#issuecomment-33436707"
+  , issueCommentCreatedAt = 2014 (-01) (-27) 23 : 42 : 26 UTC
+  , issueCommentBody =
+      "Importing the plugins from our www repo is not enough to fix this. \r\nWe need to create a _config.yml file to let jekyll know to use pygments and not maruku (maruku current fails to parse sone files).\r\n\r\n@mglukhovsky you had a branch where users could build the docs right? Was it missing a lot of things?\r\nWe should try to release it.\r\n\r\nAs far as I can tell, what we need is at least:\r\n- tell jekyll to use pygments with a _config.yml file\r\n- create a _includes directory with the appropriate content\r\n- import some plugins from the www repo\r\n\r\n\r\n@mglukhovsky we should probably open another issue for that."
+  , issueCommentId = 33436707
+  }

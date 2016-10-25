@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-02) 21 : 07 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/72537839"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/638#issuecomment-72537839"
+  , issueCommentCreatedAt = 2015 (-02) (-02) 21 : 07 : 09 UTC
+  , issueCommentBody =
+      "With launchd it is only a configuration document, not a script. So it would be different."
+  , issueCommentId = 72537839
+  }

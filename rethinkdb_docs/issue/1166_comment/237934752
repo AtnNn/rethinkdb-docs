@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-05) 18 : 58 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/237934752"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1166#issuecomment-237934752"
+  , issueCommentCreatedAt = 2016 (-08) (-05) 18 : 58 : 48 UTC
+  , issueCommentBody =
+      "Is the \"RethinkDB is using swap\" warning the message mentioned under [Memory availability issues](https://www.rethinkdb.com/docs/system-issues/#memory-availability-issues) in the System issues documentation? If so, this should probably go here, too."
+  , issueCommentId = 237934752
+  }

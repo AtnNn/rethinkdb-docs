@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 06 : 06 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37502835"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/220#issuecomment-37502835"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 06 : 06 : 32 UTC
+  , issueCommentBody =
+      "@neumino -- could you take a look? It looks good to me, but I only paid significant attention to the Ruby version; I only gave Python and JS translations a cursory look."
+  , issueCommentId = 37502835
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-12) 19 : 43 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37454757"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/215#issuecomment-37454757"
+  , issueCommentCreatedAt = 2014 (-03) (-12) 19 : 43 : 45 UTC
+  , issueCommentBody = "Dup of 216"
+  , issueCommentId = 37454757
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-10) 19 : 19 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/139352238"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/886#issuecomment-139352238"
+  , issueCommentCreatedAt = 2015 (-09) (-10) 19 : 19 : 48 UTC
+  , issueCommentBody =
+      "@dalanmiller I think as long as it's required on at least some ARM platforms, this is better than not adding it. If we introduced some new ARM-specific problem that was revealed in a compiler warning, this increases the chance that we're going to miss it because users probably won't report it. However that's better than having a compilation guide up that doesn't work for a lot of users I think.\r\n\r\nOnce we've addressed all current issues that cause warnings on some ARM platforms, we can remove the `ALLOW_WARNINGS=1` again."
+  , issueCommentId = 139352238
+  }

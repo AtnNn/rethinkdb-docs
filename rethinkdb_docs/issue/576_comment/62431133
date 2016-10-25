@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-10) 18 : 35 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62431133"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/576#issuecomment-62431133"
+  , issueCommentCreatedAt = 2014 (-11) (-10) 18 : 35 : 11 UTC
+  , issueCommentBody =
+      "Don't those commands only exist in JS? Python and Ruby have iterators built into the language, and streams are accessed through those native constructs. And `EventEmitter` is [Node.js specific](http://nodejs.org/api/events.html#events_class_events_eventemitter)."
+  , issueCommentId = 62431133
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-03) 18 : 33 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/108565902"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/766#issuecomment-108565902"
+  , issueCommentCreatedAt = 2015 (-06) (-03) 18 : 33 : 06 UTC
+  , issueCommentBody =
+      "I like that new wording.\r\nIt will mostly still be correct with 2.1, though we might then want to clarify that the primary replica can change at any time due to auto failover."
+  , issueCommentId = 108565902
+  }

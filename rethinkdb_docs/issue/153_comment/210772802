@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-16) 08 : 42 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/210772802"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/153#issuecomment-210772802"
+  , issueCommentCreatedAt = 2016 (-04) (-16) 08 : 42 : 07 UTC
+  , issueCommentBody =
+      "@rchordiya: this issue is about linking directly to the source on GitHub of the documentation article being viewed. This would require some work on the Jekyll includes used on rethinkdb/docs."
+  , issueCommentId = 210772802
+  }

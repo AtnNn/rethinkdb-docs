@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-08) 21 : 17 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58429286"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/455#issuecomment-58429286"
+  , issueCommentCreatedAt = 2014 (-10) (-08) 21 : 17 : 26 UTC
+  , issueCommentBody =
+      "@chipotle Yes, your example is correct.\r\n\r\n\"rethinkdb admin\" doesn't give an error because it's basically broken in that respect (it should, but I think it doesn't actually understand what the split points mean). This will be fixed in 1.17 with the introduction of the ReQL-based administration interface.\r\n\r\nFor now I think we should just update the docs accordingly, without spending too much effort in it."
+  , issueCommentId = 58429286
+  }

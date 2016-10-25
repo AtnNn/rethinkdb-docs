@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 23 : 20 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46914745"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-46914745"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 23 : 20 : 50 UTC
+  , issueCommentBody =
+      "I'm basically ok with these syntaxes:\r\n\r\nJS syntax 1\r\n```js\r\nr.expr({foo: \"bar\"}).run(conn, callback)\r\n// result passed to callback\r\n{foo: \"bar\"}\r\n```\r\n\r\nJS syntax 2\r\n```js\r\n> r.expr({foo: \"bar\"}).run(conn, callback)\r\n// result passed to callback\r\n{foo: \"bar\"}\r\n```\r\n\r\nPython/Ruby syntaxes\r\n```py\r\n> r.expr({\"foo\": \"bar\"}).run(conn)\r\n{\"foo\": \"bar\"}\r\n```"
+  , issueCommentId = 46914745
+  }

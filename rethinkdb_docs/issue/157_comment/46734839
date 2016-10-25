@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-20) 22 : 54 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46734839"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/157#issuecomment-46734839"
+  , issueCommentCreatedAt = 2014 (-06) (-20) 22 : 54 : 08 UTC
+  , issueCommentBody =
+      "I think having a section \"filtering\" is useful because it's a common task, and that's what we've been calling it.  I wouldn't be opposed to having a separate section on nested field syntax since it's supported in other places, but that syntax never gets turned into an equality predicate anywhere except inside a `filter`, so the part of the docs explaining how a nested object gets turned into an equality predicate makes sense inside the `filter` section."
+  , issueCommentId = 46734839
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-21) 18 : 42 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52963811"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/470#issuecomment-52963811"
+  , issueCommentCreatedAt = 2014 (-08) (-21) 18 : 42 : 30 UTC
+  , issueCommentBody =
+      "Also, we should grep the site for any other places where we refer to migration and make sure it's up to date."
+  , issueCommentId = 52963811
+  }

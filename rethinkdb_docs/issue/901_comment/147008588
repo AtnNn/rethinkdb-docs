@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-09) 23 : 14 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/147008588"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-147008588"
+  , issueCommentCreatedAt = 2015 (-10) (-09) 23 : 14 : 38 UTC
+  , issueCommentBody =
+      "This interface might change though, since usually people work with classes instead of Maps. So I'd hold off on this example for the time being, there is a PR I haven't merged that will make this nicer"
+  , issueCommentId = 147008588
+  }

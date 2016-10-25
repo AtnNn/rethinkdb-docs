@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-17) 20 : 39 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 455594
+        , simpleUserLogin = N "ajselvig"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/455594?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ajselvig"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46362051"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/368#issuecomment-46362051"
+  , issueCommentCreatedAt = 2014 (-06) (-17) 20 : 39 : 50 UTC
+  , issueCommentBody =
+      "Sorry, didn't realize there was a separate docs project."
+  , issueCommentId = 46362051
+  }

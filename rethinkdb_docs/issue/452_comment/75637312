@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-23) 21 : 26 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/75637312"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/452#issuecomment-75637312"
+  , issueCommentCreatedAt = 2015 (-02) (-23) 21 : 26 : 16 UTC
+  , issueCommentBody =
+      "Assigned @chipotle \r\nWe should bring https://gist.github.com/neumino/5b8339c7f28d665f5900 up to date and make a proper article for our docs out of it."
+  , issueCommentId = 75637312
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-18) 01 : 55 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30809901"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/151#issuecomment-30809901"
+  , issueCommentCreatedAt = 2013 (-12) (-18) 01 : 55 : 40 UTC
+  , issueCommentBody =
+      "I think Python is a good default.  It has a lot of developer mindshare, and other drivers (like the Ruby driver) are more similar to it than to JS."
+  , issueCommentId = 30809901
+  }

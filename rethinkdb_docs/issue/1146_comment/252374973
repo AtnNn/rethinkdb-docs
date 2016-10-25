@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-07) 22 : 21 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/252374973"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1146#issuecomment-252374973"
+  , issueCommentCreatedAt = 2016 (-10) (-07) 22 : 21 : 30 UTC
+  , issueCommentBody =
+      "@JollyBrackets Is is not unfortunately. This feature will only be supported in the next RethinkDB release (2.4)."
+  , issueCommentId = 252374973
+  }

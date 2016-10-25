@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-26) 18 : 18 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/151235452"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/931#issuecomment-151235452"
+  , issueCommentCreatedAt = 2015 (-10) (-26) 18 : 18 : 31 UTC
+  , issueCommentBody =
+      "Good catch, thanks for the PR.\r\n\r\nHave you already signed http://rethinkdb.com/community/cla/ ?"
+  , issueCommentId = 151235452
+  }

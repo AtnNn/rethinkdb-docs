@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-22) 23 : 15 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/142449323"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-142449323"
+  , issueCommentCreatedAt = 2015 (-09) (-22) 23 : 15 : 58 UTC
+  , issueCommentBody =
+      "@deontologician Is there `getField` as well? I think we shouldn't use the `bracket` term in the documentation wherever we can avoid it.\r\n\r\nWe added the `bracket` term specifically because `val[idx]` is ambiguous in Python and Ruby, since it can refer to either arrays or objects with slightly different meanings.\r\n\r\nIf you have to write it out anyway, I think there's rarely a reason to use the `bracket` term, and it has a somewhat undescriptive name. Most of the time, using either `getField` or `nth` explicitly makes the query nicer to read."
+  , issueCommentId = 142449323
+  }

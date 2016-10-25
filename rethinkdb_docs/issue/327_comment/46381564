@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 00 : 05 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46381564"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-46381564"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 00 : 05 : 34 UTC
+  , issueCommentBody =
+      "We need to decide something about this issue.\r\n\r\n\r\n\r\nAbout `>`, I would prefer not to have one, because it's annoying when you want to copy things (that also apply to the `$` sign we use for bash commands). I find that more annoying as a user than anything else - it's harder to select.\r\nBut I'm not really opposed having `>` as long it's consistent.\r\n\r\n\r\nI would be ok to have results inside the same block in JavaScript too as long as we add a comment like this. \r\n\r\n```js\r\n> r.expr({foo: 1).add({bar :2}).run(conn, callback)\r\n// result passed to callback:\r\n{foo: 1, bar: 2}\r\n```\r\n\r\nDoes that work for everyone? \r\nPing @coffeemug @chipotle @mlucy "
+  , issueCommentId = 46381564
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-23) 17 : 13 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 258437
+        , simpleUserLogin = N "srh"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/258437?v=3"
+        , simpleUserUrl = "https://api.github.com/users/srh"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31131107"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/73#issuecomment-31131107"
+  , issueCommentCreatedAt = 2013 (-12) (-23) 17 : 13 : 55 UTC
+  , issueCommentBody =
+      "I just encountered this behavior when IRC user divad12 reported some behavior and I was surprised by this.  I think it's actually a bug for orderBy to drop documents conditional on whether you specify an index, but if it's not a bug, it should be better documented."
+  , issueCommentId = 31131107
+  }

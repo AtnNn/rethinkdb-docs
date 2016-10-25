@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-05) 23 : 04 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 16738382
+        , simpleUserLogin = N "stevns"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/16738382?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stevns"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/180613262"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/943#issuecomment-180613262"
+  , issueCommentCreatedAt = 2016 (-02) (-05) 23 : 04 : 55 UTC
+  , issueCommentBody =
+      "Thanks to Deontologician. Looking forward for a working solution.\r\nThis would be part for the solution im looking for in the stackoverflow port:\r\n\r\nhttp://stackoverflow.com/questions/35088964/complex-rethinkdb-json-to-elasticsearch-via-logstash\r\n\r\n"
+  , issueCommentId = 180613262
+  }

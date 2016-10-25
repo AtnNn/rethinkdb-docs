@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-28) 00 : 07 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33438366"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/150#issuecomment-33438366"
+  , issueCommentCreatedAt = 2014 (-01) (-28) 00 : 07 : 17 UTC
+  , issueCommentBody =
+      "@neumino, no. I think it makes the instructions more confusing. I would reword it or restructure it first."
+  , issueCommentId = 33438366
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-09) 22 : 40 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/73606536"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/646#issuecomment-73606536"
+  , issueCommentCreatedAt = 2015 (-02) (-09) 22 : 40 : 51 UTC
+  , issueCommentBody =
+      "Table names do use backticks, but \"table_needs_primary\" isn't a table name, it's a possible field value. This is a Markdown rendering issue I didn't catch. (Some Markdown renderers, like Github's and Discount, don't switch to italics for underscore characters inside words, but I'd forgotten ours does.)"
+  , issueCommentId = 73606536
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-24) 21 : 35 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27033309"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/20#issuecomment-27033309"
+  , issueCommentCreatedAt = 2013 (-10) (-24) 21 : 35 : 51 UTC
+  , issueCommentBody =
+      "Same with the Webchat link:\r\n\r\n> Talk to the team on [#rethinkdb@freenode.net](irc://freenode.net/#rethinkdb) \226\8364\8221 via [Webchat](http://rethinkdb.com/api/javascript/)\r\n\r\nAnd there is a weird `\226\8364\8221` there too"
+  , issueCommentId = 27033309
+  }

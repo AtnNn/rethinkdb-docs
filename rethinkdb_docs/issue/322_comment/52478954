@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-18) 11 : 13 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1493286
+        , simpleUserLogin = N "mancze"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1493286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mancze"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52478954"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/322#issuecomment-52478954"
+  , issueCommentCreatedAt = 2014 (-08) (-18) 11 : 12 : 35 UTC
+  , issueCommentBody =
+      "I tried to point out what I perceive as confusing.\r\n\r\nFirst thing is that using that \"generally\" world makes me feel that `null` may not be the only forbidden character and that there might be others. Or that there might be other differences.\r\n\r\nSecond thing is continuity of sentences. After mentioning that `null` is not allowed you continue with \"While it's possible to insert a string that is not valid UTF-8...\". When combined with confusion from \"generally\" world it makes me think you do not consider `null` as valid UTF-8 character. I do not feel those sentences as speaking about two separate matters, but one.\r\n\r\nAnd the last thing is talking about future support of strings. It's not clear whether RethinkDb will enforce UTF-8 or UTF-8 without `null`s.\r\n\r\nWhile first two points above might originate from that English is not my native language I believe that the third point is not affected by that. I hope I explained it well. It's now up to your consideration whether doc will be adjusted or not. "
+  , issueCommentId = 52478954
+  }

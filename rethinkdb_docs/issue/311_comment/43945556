@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 21 : 20 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43945556"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/311#issuecomment-43945556"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 21 : 20 : 43 UTC
+  , issueCommentBody =
+      "Can you nest this multiple times, like:\r\n\r\nfoo.pluck({a: {b: {c: 'd'}}})\r\n\r\nI assume so, but the examples I've seen only go down two levels.\r\n\r\n\r\n2014-05-22 14:12 GMT-07:00 Slava Akhmechet <notifications@github.com>:\r\n\r\n> E.g.\r\n>\r\n> foo.pluck({a: true})foo.pluck({a: 'b'})foo.pluck({a: {b: true}})foo.pluck({a: ['b', 'c']})// etc\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub<https://github.com/rethinkdb/docs/issues/311>\r\n> .\r\n>"
+  , issueCommentId = 43945556
+  }

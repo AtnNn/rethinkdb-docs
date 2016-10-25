@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 20 : 38 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96058405"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/729#issuecomment-96058405"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 20 : 38 : 45 UTC
+  , issueCommentBody =
+      "There are two parts to this:\r\n\r\n1. The special `SUCCESS_FEED` and `SUCCESS_ATOM_FEED` (which we already don't mention I think) response types are gone. All changefeeds will instead send the `SUCCESS_PARTIAL` response just like regular cursors.\r\n\r\n2. There is a new part of the response, which can be used to figure out if a response is a changefeed or not. This information is often not relevant for drivers (all our official drivers ignore it I think), but it might be used by ORMs or if you want to handle changefeeds and regular cursors differently.\r\nThis new part of the response is what we call the \"response notes\". Each new cursor comes with an array of response notes in its first response. The elements in the response notes array are numbers, with meanings as described here: https://github.com/rethinkdb/rethinkdb/blob/next/src/rdb_protocol/ql2.proto#L142\r\nThis affects the chapter \"Receive responses\" of http://rethinkdb.com/docs/writing-drivers/ : \r\nIn addition to `t`, `r`, `b` and `p` in the `Response` object, there can now be an additional field `n` containing the mentioned response notes array."
+  , issueCommentId = 96058405
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-26) 01 : 09 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/189062819"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1008#issuecomment-189062819"
+  , issueCommentCreatedAt = 2016 (-02) (-26) 01 : 09 : 21 UTC
+  , issueCommentBody =
+      "I'd like to ping for a few examples of `fold` in practice. The examples in rethinkdb/rethinkdb#3736 are good, but they're all for the `concatMap` style with the emitting function -- there's no examples of just using `sequence.fold(base, function)` to get a value. And we definitely need at least one example for both forms that draws its sequence from a table rather than a ReQL expression. (The \"return every third row\" example does that, although it still feels a little contrived.)"
+  , issueCommentId = 189062819
+  }

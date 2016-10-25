@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-27) 07 : 35 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27164467"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/46#issuecomment-27164467"
+  , issueCommentCreatedAt = 2013 (-10) (-27) 07 : 35 : 36 UTC
+  , issueCommentBody =
+      "Thanks @alpacaaa!\r\n\r\n@mglukhovsky we can just merge it right? We don't need any CLA for the docs?"
+  , issueCommentId = 27164467
+  }

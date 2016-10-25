@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-08) 17 : 41 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/207532627"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1077#issuecomment-207532627"
+  , issueCommentCreatedAt = 2016 (-04) (-08) 17 : 41 : 39 UTC
+  , issueCommentBody =
+      "Hi, and sorry you're having an issue.You should consider asking about this in the RethinkDB IRC or Slack if you can, or re-opening this ticket in the RethinkDB source code repository -- this is the repository for the documentation.\r\n\r\nlinks to IRC/Slack/etc: http://rethinkdb.com/community/\r\nrethinkdb repo: https://github.com/rethinkdb/rethinkdb\r\n"
+  , issueCommentId = 207532627
+  }

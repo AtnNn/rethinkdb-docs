@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-21) 21 : 25 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 88676
+        , simpleUserLogin = N "aderyabin"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/88676?v=3"
+        , simpleUserUrl = "https://api.github.com/users/aderyabin"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/75393701"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/645#issuecomment-75393701"
+  , issueCommentCreatedAt = 2015 (-02) (-21) 21 : 25 : 11 UTC
+  , issueCommentBody = "I signed 1 month ago or more."
+  , issueCommentId = 75393701
+  }

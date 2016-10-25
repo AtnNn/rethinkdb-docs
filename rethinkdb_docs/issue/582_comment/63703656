@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 20 : 02 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63703656"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-63703656"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 20 : 02 : 17 UTC
+  , issueCommentBody =
+      "@ukd1 Thank you for your feedback by the way.\r\nGenerally the easiest option to start RethinkDB for non-production purposes is by opening a terminal and run `rethinkdb`. We should mention that in a prominent place in the linked help document.\r\n\r\nThere are certain issues with starting RethinkDB by default after installation, but they might be worth taking for the sake of being able to get started more easily. I'm going to talk to a few people here and see what they think.\r\n(one of the issues is that we bind to port 8080 by default, which is a pretty commonly used port. We could break an existing service that uses the same port if RethinkDB was started automatically before the other service)"
+  , issueCommentId = 63703656
+  }

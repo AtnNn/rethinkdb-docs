@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-09) 00 : 09 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48415348"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/322#issuecomment-48415348"
+  , issueCommentCreatedAt = 2014 (-07) (-09) 00 : 09 : 43 UTC
+  , issueCommentBody =
+      "I could revise the document to:\r\n\r\n> **Strings** are (generally) UTF-8 strings: `\"superhero\"`, `\"the quick brown fox\"`, <code>&quot;&uuml;nn&euml;c&euml;ss&auml;r&yuml; &uuml;ml&auml;&uuml;ts&quot;</code>. Strings in RethinkDB can't contain the `null` character. While it's possible to insert a string in RethinkDB that is not valid UTF-8, many ReQL operations assume that strings are UTF-8 encoded.\r\n\r\nBut I'm not quite sure what to make of the edge cases you imply there. Should users be advised to stick to UTF-8 strings? Are there cases where using UTF-8 strings will cause errors or incorrect behavior? Can you use any encoding?"
+  , issueCommentId = 48415348
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-16) 21 : 34 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/148842073"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-148842073"
+  , issueCommentCreatedAt = 2015 (-10) (-16) 21 : 34 : 46 UTC
+  , issueCommentBody =
+      "What data types does `binary` take and receive in Java? It looks like the \"Save an avatar image to an existing user record\" is going to be ridiculously more complex."
+  , issueCommentId = 148842073
+  }

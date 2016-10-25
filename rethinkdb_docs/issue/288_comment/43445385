@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-18) 17 : 25 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43445385"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-43445385"
+  , issueCommentCreatedAt = 2014 (-05) (-18) 17 : 13 : 44 UTC
+  , issueCommentBody =
+      "I'm missing two packages on a clean Raspbian image:\r\n- lib64ncurses5-dev\r\n- libgoogle-perftools-dev\r\n\r\nAbout creating a swap partition. I was a little too lazy to rezize my home to create a swap.\r\nSo I just plugged a usb key and create my 1GB swap partition there. Here are the instructions:\r\n\r\n```\r\nsudo fdisk /dev/sda\r\n```\r\n\r\nThen `n` for a new partition, `p` for primary, `+1G` for the size.\r\nThe `t` to change the system to 82 (swap)\r\n\r\nActivate the swap\r\n```\r\nsudo mkswap /dev/sda1\r\nsudo swapon /dev/sda1\r\n```\r\n\r\nCheck that everything is good with `swapon -s`\r\n\r\n\r\nOutput of `./configure --allow-fetch`\r\n```\r\nmichel@raspberrypi:~/rethinkdb$ ./configure --allow-fetch\r\n* Detecting system configuration\r\nBash:                           4.2.37(1)-release\r\nUse ccache:                     no\r\nC++ Compiler:                   GCC 4.6.3 (/usr/bin/c++)\r\nHost System:                    arm-linux-gnueabihf\r\nBuild System:                   Linux 3.10.25+ armv6l\r\nCross-compiling:                no\r\nHost Operating System:          Linux\r\nWithout tcmalloc:               no\r\nBuild client drivers:           no\r\nBuild Architecture:             armv6l\r\nPrecompiled web assets:         no\r\nProtobuf compiler:              /usr/bin/protoc\r\nNode.js package manager:        external/node_0.10.15\r\nLESS css:                       external/less_1.6.2\r\nCoffeeScript:                   external/coffee-script_1.7.1\r\nHandlebars:                     external/handlebars_1.3.0\r\nBrowserify:                     external/browserify_3.24.13\r\nProtoBuf.js:                    external/protobufjs_2.0.4\r\nwget:                           /usr/bin/wget\r\ncurl:                           /usr/bin/curl\r\nprotobuf:                       -lprotobuf\r\nv8:                             -lv8\r\nRE2:                            external/re2_20140111\r\nz:                              -lz\r\nGoogle Test:                    external/gtest_1.6.0\r\ntermcap:                        no\r\nUse pre-3.19 v8 API:            yes\r\ntcmalloc_minimal (static):      external/gperftools_2.1\r\nTest protobuf:                  ok\r\nTest boost:                     ok\r\nInstallation prefix:            /usr/local\r\nConfiguration prefix:           /usr/local/etc\r\nRuntime data prefix:            /usr/local/var\r\n* Warning: ARM support is still experimental\r\n* Wrote configuration to config.mk\r\n```\r\n\r\nI haven't updated v8's file yet.\r\nAnd it's currently building,"
+  , issueCommentId = 43445385
+  }

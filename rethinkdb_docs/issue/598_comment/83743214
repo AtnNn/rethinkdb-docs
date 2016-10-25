@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-19) 20 : 06 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 616428
+        , simpleUserLogin = N "Timer"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/616428?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Timer"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/83743214"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/598#issuecomment-83743214"
+  , issueCommentCreatedAt = 2015 (-03) (-19) 20 : 06 : 43 UTC
+  , issueCommentBody =
+      "@thelinuxlich I've been working on something like this recently, feel free to audit it for issues -- https://gist.github.com/Timer/51e5b8883ff13eaaa3ca"
+  , issueCommentId = 83743214
+  }

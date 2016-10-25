@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-29) 02 : 56 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 904055
+        , simpleUserLogin = N "ZackBoe"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/904055?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ZackBoe"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41637436"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/287#issuecomment-41637436"
+  , issueCommentCreatedAt = 2014 (-04) (-29) 02 : 56 : 47 UTC
+  , issueCommentBody = ":heavy_check_mark: Done"
+  , issueCommentId = 41637436
+  }

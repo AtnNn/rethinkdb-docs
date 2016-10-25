@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-15) 21 : 26 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52359686"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/322#issuecomment-52359686"
+  , issueCommentCreatedAt = 2014 (-08) (-15) 21 : 26 : 29 UTC
+  , issueCommentBody =
+      "I would combine those two and write something like:\r\n\"\"\"\r\n**Strings** are any UTF-8 string that does not contain the NULL code point.  Currently RethinkDB does not enforce UTF-8 encoding, but most string operations assume they are operating on UTF-8 strings.  Future versions of RethinkDB will enforce UTF-8 encoding, and allow the NULL code point to be included.\r\n\"\"\""
+  , issueCommentId = 52359686
+  }

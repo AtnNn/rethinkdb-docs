@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-20) 22 : 21 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46732826"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/155#issuecomment-46732826"
+  , issueCommentCreatedAt = 2014 (-06) (-20) 22 : 21 : 21 UTC
+  , issueCommentBody =
+      "I don't understand the problem we need a troubleshooting entry to address clearly enough to take a stab at this yet. Is the problem knowing to explicitly specify an internal address with `--canonical-address`?"
+  , issueCommentId = 46732826
+  }

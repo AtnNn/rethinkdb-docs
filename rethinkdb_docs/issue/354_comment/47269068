@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-26) 19 : 30 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47269068"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/354#issuecomment-47269068"
+  , issueCommentCreatedAt = 2014 (-06) (-26) 19 : 30 : 13 UTC
+  , issueCommentBody =
+      "I'm wondering if maybe this should be a cookbook entry -- \"Returning a ReQL query as a string\", and list all three major languages. That may be better than adding this as if it were an API call?"
+  , issueCommentId = 47269068
+  }

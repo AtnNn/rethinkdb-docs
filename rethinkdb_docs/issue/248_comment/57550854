@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-01) 22 : 21 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57550854"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-57550854"
+  , issueCommentCreatedAt = 2014 (-10) (-01) 22 : 21 : 55 UTC
+  , issueCommentBody =
+      "@neumino pointed me at the source code with the defaults. One other question: I'm assuming that in the JS driver these \"sub-optargs\" are *not* converted from camelCase, so you would write\r\n\r\n    run(conn, {batchConf: {max_batch_rows: 10}}\r\n\r\nrather than\r\n\r\n    run(conn, {batchConf: {maxBatchRows: 10}}\r\n\r\nIs that right?"
+  , issueCommentId = 57550854
+  }

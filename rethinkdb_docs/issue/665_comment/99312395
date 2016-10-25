@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-06) 03 : 40 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/99312395"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/665#issuecomment-99312395"
+  , issueCommentCreatedAt = 2015 (-05) (-06) 03 : 40 : 44 UTC
+  , issueCommentBody =
+      "@watts: I've added this to my website TODO list, I need to give this some thought. Thanks for the ping!"
+  , issueCommentId = 99312395
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-13) 22 : 07 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/32216947"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/163#issuecomment-32216947"
+  , issueCommentCreatedAt = 2014 (-01) (-13) 22 : 07 : 30 UTC
+  , issueCommentBody = "Woot woot!\r\n\r\nMerged and deployed :)"
+  , issueCommentId = 32216947
+  }

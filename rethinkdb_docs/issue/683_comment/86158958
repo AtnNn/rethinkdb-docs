@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 19 : 02 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/86158958"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/683#issuecomment-86158958"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 18 : 24 : 51 UTC
+  , issueCommentBody =
+      "@danielmewes, slight correction, `fetch_next` is a function, so it should be:\r\n\r\n```py\r\nwhile (yield cursor.fetch_next()):\r\n    item = yield cursor.next()\r\n    print(item)\r\n```\r\n\r\nNote that `fetch_next()` accepts a timeout through a `wait` optarg, similar to `next()`."
+  , issueCommentId = 86158958
+  }

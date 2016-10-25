@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-08) 23 : 00 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/100390581"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/740#issuecomment-100390581"
+  , issueCommentCreatedAt = 2015 (-05) (-08) 23 : 00 : 00 UTC
+  , issueCommentBody =
+      "I don't see that it needs two separate lines in the API signature, though; both lines say that a `table` input to `distinct` returns a `stream`. Generally, we only have separate lines in the signature block when either the input or output is different, right?"
+  , issueCommentId = 100390581
+  }

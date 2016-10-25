@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-06) 21 : 38 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58104004"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/537#issuecomment-58104004"
+  , issueCommentCreatedAt = 2014 (-10) (-06) 21 : 38 : 22 UTC
+  , issueCommentBody =
+      "I've opened a code review on this issue -- the changes I made to this box\r\nin the security document are:\r\n\r\n```\r\n__Note__: the authentication key will be transmitted to and stored on the\r\nRethinkDB server in plain text, and neither the key nor the data passed\r\nbetween the client and the server will be encrypted. The key provides basic\r\nprotection against unauthorized access, but if the client port is open to\r\noutside networks it's strongly suggested you use SSH tunneling for\r\nprotection\r\n(see below).\r\n```\r\n\r\nOn Mon, Oct 6, 2014 at 2:36 PM, Josh Kuhn <notifications@github.com> wrote:\r\n\r\n> Personally, I think the presence of the auth_key is bound to confuse\r\n> people into thinking it provides some reasonable measure of protection.\r\n> I've seen several users mention they use it, and I'm betting they don't\r\n> fall into one of the very specific categories above where it might be\r\n> useful.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/537#issuecomment-58103741>.\r\n>"
+  , issueCommentId = 58104004
+  }

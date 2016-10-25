@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 21 : 52 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37591502"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/218#issuecomment-37591502"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 21 : 52 : 44 UTC
+  , issueCommentBody =
+      "@mglukhovsky -- er, wait, the *reviewer* merges it in rather than the author?  Who counts as the reviewer on this pull request?"
+  , issueCommentId = 37591502
+  }

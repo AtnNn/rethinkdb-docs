@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-15) 18 : 29 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140491263"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/897#issuecomment-140491263"
+  , issueCommentCreatedAt = 2015 (-09) (-15) 18 : 29 : 02 UTC
+  , issueCommentBody =
+      "I\"m not sure whether the 10-Minute Guide is the appropriate place for it given that it's sort of a quick ReQL tutorial, although mentioning it in passing and linking to a more detailed page might fit. The cookbook definitely doesn't seem like the right place, though. Adding it to the `connect` page seems like a good idea.\r\n\r\nI'd actually think the \"primary page\" for this info -- which admittedly doesn't have it right now -- would be the \"Installing the Python driver\" page.\r\n\r\nhttp://www.rethinkdb.com/docs/install-drivers/python/\r\n\r\nWith JS I think this is irrelevant, but is the Ruby driver subject to a similar limitation?"
+  , issueCommentId = 140491263
+  }

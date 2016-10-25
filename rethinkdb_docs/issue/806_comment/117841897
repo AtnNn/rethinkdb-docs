@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-01) 22 : 32 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/117841897"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/806#issuecomment-117841897"
+  , issueCommentCreatedAt = 2015 (-07) (-01) 22 : 32 : 19 UTC
+  , issueCommentBody =
+      "Good catch.\r\n\r\nIt's the thing we talk about here: http://rethinkdb.com/docs/memory-usage/\r\n> RethinkDB organizes data into blocks. Blocks in RethinkDB are sized in steps of 512 bytes up to a maximum of 4 KB. While the content of a block itself can be cleared from main memory to free space, metadata of approximately 28 bytes per block (as of RethinkDB 1.13) is always kept in memory. Thus, this memory overhead is directly proportional to the number of blocks that a given data set requires.\r\n\r\nIn the worst case this overhead ends up in the range of 5% of the total data size (which is roughly equal to the on disk size without any secondary indexes). The specific value depends on the size of the individual documents, and both small (below 250 bytes) and large documents over 512 bytes are significantly more efficient than this."
+  , issueCommentId = 117841897
+  }

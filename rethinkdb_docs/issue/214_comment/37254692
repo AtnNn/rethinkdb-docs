@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-11) 01 : 30 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37254692"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/214#issuecomment-37254692"
+  , issueCommentCreatedAt = 2014 (-03) (-11) 01 : 30 : 16 UTC
+  , issueCommentBody =
+      "We should remove it, then. @neumino, thoughts? This was last updated a very long time ago."
+  , issueCommentId = 37254692
+  }

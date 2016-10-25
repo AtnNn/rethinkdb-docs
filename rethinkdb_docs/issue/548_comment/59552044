@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-17) 18 : 05 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59552044"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/548#issuecomment-59552044"
+  , issueCommentCreatedAt = 2014 (-10) (-17) 18 : 05 : 43 UTC
+  , issueCommentBody =
+      "There are directions for setting up security groups in the AWS document (well, now the PaaS document), but I don't think they're labeled very effectively. I'm going to do a little editing and make sure the information you have above is in there."
+  , issueCommentId = 59552044
+  }

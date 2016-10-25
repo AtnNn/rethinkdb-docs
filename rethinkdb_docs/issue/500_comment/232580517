@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-14) 07 : 14 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10472285
+        , simpleUserLogin = N "deoqc"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10472285?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deoqc"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/232580517"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/500#issuecomment-232580517"
+  , issueCommentCreatedAt = 2016 (-07) (-14) 07 : 14 : 49 UTC
+  , issueCommentBody =
+      "I was trying to combine the `r.do` and `r.branch` command to validate unique \8203*username* and unique \8203*email*\8203 (I have a separate table for each with primary key `r.uuid([username or email])`. \r\nSo:\r\n\r\n```Javascript\r\nr.do(\r\n  r.table('usernames').get(username_id), \r\n  r.table('emails').get(email_id), \r\n  (username_exists, email_exists) => (\r\n    r.branch(\r\n      username_exists,\r\n      r.error('Username already exists'),\r\n      email_exists,\r\n      r.error('Email already exists'),\r\n      >>[save]\r\n    )\r\n  )\r\n)\r\n```\r\n\r\nThe problem is the last command `>>[save]` is running even if `username_exists` is `true` and `r.error('Username already exists.')` is throw. \r\n\r\nI notice that I'm using `thinky` models in the `>>[save]` step (would it matter?).\r\n\r\nWhat is wrong? \r\n\r\nI'm looking for the best way to do it, even though know it won't be atomic and may have inconsistencies that will need to be dealt with."
+  , issueCommentId = 232580517
+  }

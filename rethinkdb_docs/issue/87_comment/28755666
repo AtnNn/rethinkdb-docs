@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-19) 00 : 45 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28755666"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/87#issuecomment-28755666"
+  , issueCommentCreatedAt = 2013 (-11) (-19) 00 : 45 : 33 UTC
+  , issueCommentBody = "Fixes #74 and #75"
+  , issueCommentId = 28755666
+  }

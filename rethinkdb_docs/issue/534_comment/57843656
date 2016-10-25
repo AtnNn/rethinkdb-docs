@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-03) 19 : 30 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57843656"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/534#issuecomment-57843656"
+  , issueCommentCreatedAt = 2014 (-10) (-03) 19 : 30 : 21 UTC
+  , issueCommentBody =
+      "I think this is a good idea in general, but I'm not sure how best to represent it. I don't know that we want to have two separate listings, but I'll see if I can find an aesthetically pleasing way to mark them as \"potentially outdated.\" (I want to use a bit of weasel wording there since it's possible they might restart development without us noticing immediately...)"
+  , issueCommentId = 57843656
+  }

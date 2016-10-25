@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-17) 20 : 52 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37868502"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/222#issuecomment-37868502"
+  , issueCommentCreatedAt = 2014 (-03) (-17) 20 : 52 : 05 UTC
+  , issueCommentBody =
+      "I really don't like removing the results from the Javascript index.  They make the commands much easier to understand when you're scanning.  Could we just make the data explorer ignore the lines starting at `Result` when generating prompts?"
+  , issueCommentId = 37868502
+  }

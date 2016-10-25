@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-03) 19 : 30 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61533760"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/484#issuecomment-61533760"
+  , issueCommentCreatedAt = 2014 (-11) (-03) 19 : 30 : 15 UTC
+  , issueCommentBody =
+      "> we could rename the document \"Starting RethinkDB,\" reorganize what's there a little,\r\n\r\n:+1: something we should definitely do.\r\n\r\nIn addition I think we should have a separate document that's just about cluster configuration as @coffeemug said. The document should not just focus on the configuration options, but give a higher level overview addressing questions such as the one which node(s) clients should connect to, and have links to the more detailed documents on how to secure a cluster, on what to do in case of a node failure etc.\r\n\r\nIn fact we could consider structuring it as a FAQ. What do you think? (@chipotle)\r\n\r\nWe should also adapt http://rethinkdb.com/docs/start-a-cluster/ a little bit. It's a nice tutorial for people who want to play around with RethinkDB, but has little significance for production deployments. It currently links to the \"Create a cluster for system startup\" as a resource for how to set up a production cluster. At the very least we should replace that link with a link to the new clustering overview document."
+  , issueCommentId = 61533760
+  }

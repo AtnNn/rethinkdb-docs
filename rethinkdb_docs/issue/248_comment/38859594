@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-27) 20 : 56 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38859594"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-38859594"
+  , issueCommentCreatedAt = 2014 (-03) (-27) 20 : 56 : 43 UTC
+  , issueCommentBody =
+      "@mlucy I believe you left it undocumented for a reason. Is the code foolproof enough? Does it error correctly if zero or negative values are passed?"
+  , issueCommentId = 38859594
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-02) 19 : 05 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/108058804"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/766#issuecomment-108058804"
+  , issueCommentCreatedAt = 2015 (-06) (-02) 19 : 05 : 17 UTC
+  , issueCommentBody =
+      "\"The server\" is ambiguous; I'm presuming this means the primary replica (at least in the 2.0 model). I think we might want to shuffle the whole paragraph around a bit to introduce the notion of primary replicas first, if that's the case. So instead of:\r\n\r\n> In RethinkDB data always remains immediately consistent and conflict-free, and a read that follows an acknowledged write is always guaranteed to see the write. This is accomplished by always assigning every shard to a single authoritative primary replica. All reads and writes to any key in a given shard always get routed to its respective primary where they're ordered and evaluated.\r\n\r\nWe can say:\r\n\r\n> Every shard in RethinkDB is assigned to a single authoritative primary replica. All reads and writes to any key in a given shard always get routed to its respective primary, where they're ordered and evaluated. Data always remains immediately consistent and conflict-free, and a read that follows an acknowledged write is always guaranteed to see the write. However, neither reads nor writes are guaranteed to succeed if the primary replica is unavailable.\r\n\r\nAt least assuming I have this right. :) We can update this for 2.1 when it ships.\r\n"
+  , issueCommentId = 108058804
+  }

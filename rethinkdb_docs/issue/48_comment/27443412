@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-30) 22 : 01 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27443412"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/48#issuecomment-27443412"
+  , issueCommentCreatedAt = 2013 (-10) (-30) 22 : 01 : 18 UTC
+  , issueCommentBody =
+      "Thanks for pointing it out. We just discussed this in https://github.com/rethinkdb/rethinkdb/issues/1593 and it's a docs problem. We'll fix it!"
+  , issueCommentId = 27443412
+  }

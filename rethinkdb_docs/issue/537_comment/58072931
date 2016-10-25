@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-06) 18 : 57 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58072931"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/537#issuecomment-58072931"
+  , issueCommentCreatedAt = 2014 (-10) (-06) 18 : 57 : 53 UTC
+  , issueCommentBody =
+      "pinging @danielmewes @AtnNn @srh to make sure I've got this right."
+  , issueCommentId = 58072931
+  }

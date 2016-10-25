@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 05 : 49 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43850811"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-43850811"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 05 : 49 : 25 UTC
+  , issueCommentBody =
+      "Note: I'm building `v.1.12.x`, not `next`, so I shouldn't be building with symbols (https://github.com/rethinkdb/rethinkdb/issues/2323)"
+  , issueCommentId = 43850811
+  }

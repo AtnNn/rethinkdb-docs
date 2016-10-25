@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-19) 02 : 04 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/198615296"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1055#issuecomment-198615296"
+  , issueCommentCreatedAt = 2016 (-03) (-19) 02 : 04 : 33 UTC
+  , issueCommentBody =
+      "We should also change http://www.rethinkdb.com/docs/security/ accordingly.\r\nThe section \"Securing the intracluster port\" and the top paragraph of \"Securing the web interface\" can now be simplified to use `--bind-http localhost` and `--bind-cluster localhost` respectively."
+  , issueCommentId = 198615296
+  }

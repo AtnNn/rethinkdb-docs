@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-18) 19 : 33 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30872757"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/151#issuecomment-30872757"
+  , issueCommentCreatedAt = 2013 (-12) (-18) 19 : 33 : 30 UTC
+  , issueCommentBody =
+      "\"Primary Interface\" is a little strong.  It's definitely one of the first things people see when they start playing around with RethinkDB, but I think most developers' primary interface is whatever driver they're using.  I'm actually not sure what the tradeoff is between usability for people playing around with the thing for the first time and canonical documentation for people using it every day.\r\n\r\nWe might just need multi-language docs here."
+  , issueCommentId = 30872757
+  }

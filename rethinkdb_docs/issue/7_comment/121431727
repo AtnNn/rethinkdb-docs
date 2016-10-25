@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-15) 00 : 00 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/121431727"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/7#issuecomment-121431727"
+  , issueCommentCreatedAt = 2015 (-07) (-15) 00 : 00 : 02 UTC
+  , issueCommentBody =
+      "This should be a lot easier, now that we're able to build standalone HTML documentation. I'll revisit this soon."
+  , issueCommentId = 121431727
+  }

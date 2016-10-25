@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-28) 18 : 17 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/135851974"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/657#issuecomment-135851974"
+  , issueCommentCreatedAt = 2015 (-08) (-28) 18 : 17 : 06 UTC
+  , issueCommentBody =
+      "I don't think this ticket is relevant with the new site build.\r\n\r\n```\r\nrake build\r\nmv _site ~/site-1\r\nrake build\r\nksdiff _site ~/site-1\r\n```\r\n\r\nShows no difference. (`ksdiff` is a third-party diff tool.) We can re-open if it seems there's really a problem here/still."
+  , issueCommentId = 135851974
+  }

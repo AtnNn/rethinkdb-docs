@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-21) 22 : 42 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43823845"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/303#issuecomment-43823845"
+  , issueCommentCreatedAt = 2014 (-05) (-21) 22 : 42 : 35 UTC
+  , issueCommentBody =
+      "FYI, there are sort of two posts on this (but none in the troubleshooting format, which we should definitely add):\r\n\r\n- http://rethinkdb.com/blog/lambda-functions/\r\n- http://rethinkdb.com/docs/introduction-to-reql/\r\n\r\nWhen we add a troubleshooting section, these two posts would be a good sort of info."
+  , issueCommentId = 43823845
+  }

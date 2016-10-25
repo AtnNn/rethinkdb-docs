@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-28) 11 : 15 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33469639"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/186#issuecomment-33469639"
+  , issueCommentCreatedAt = 2014 (-01) (-28) 11 : 15 : 57 UTC
+  , issueCommentBody =
+      "@neumino -- still nope! You didn't build the site and there was a new include. So now the jobs page (http://rethinkdb.com/jobs/systems-engineer/) had text \"Included file 'jobs-learn-more.md' not found in _includes directory\".\r\n\r\nI just fixed it (I learned to push the site today)."
+  , issueCommentId = 33469639
+  }

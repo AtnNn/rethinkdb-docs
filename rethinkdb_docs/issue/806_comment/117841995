@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-01) 22 : 33 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/117841995"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/806#issuecomment-117841995"
+  , issueCommentCreatedAt = 2015 (-07) (-01) 22 : 33 : 08 UTC
+  , issueCommentBody =
+      "1-5% is a reasonable ball-park estimate for this overhead."
+  , issueCommentId = 117841995
+  }

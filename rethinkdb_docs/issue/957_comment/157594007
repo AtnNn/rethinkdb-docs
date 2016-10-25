@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-18) 03 : 29 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/157594007"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/957#issuecomment-157594007"
+  , issueCommentCreatedAt = 2015 (-11) (-18) 03 : 29 : 34 UTC
+  , issueCommentBody =
+      "@neumino I had a look at what would be needed to do this. It seems like reqlite doesn't browserify super well at the moment. It looks like the changes in neumino/reqlite#52 might make that possible. Am I reading that correctly?"
+  , issueCommentId = 157594007
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 18 : 01 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51370506"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/425#issuecomment-51370506"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 17 : 46 : 44 UTC
+  , issueCommentBody =
+      "Just pasting a snippet I used (with `bind`).\r\n\r\n\r\n```js\r\nr.connect({}).bind({}).then(function(conn) {\r\n    this.conn = conn;\r\n    return query.run(this.conn);\r\n}).then(function(result) {\r\n    // do things with result\r\n}).error(function(err) {\r\n    // handle error\r\n}).finally(function() {\r\n    if (this.conn) {\r\n        this.conn.close();\r\n    }\r\n})\r\n```"
+  , issueCommentId = 51370506
+  }

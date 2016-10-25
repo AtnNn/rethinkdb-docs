@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-09) 18 : 22 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51694451"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/447#issuecomment-51694451"
+  , issueCommentCreatedAt = 2014 (-08) (-09) 18 : 22 : 00 UTC
+  , issueCommentBody =
+      "```\r\n<aho> i think it would be a good idea to add a \"docref\" (or something like that) label to issues which are referenced by the docs\r\n<aho> + a comment which mentions the page\r\n<aho> that way it should be a bit easier to keep them in sync\r\n<aho> alternatively, one could just write a script which checks if the issue is still open heh\r\n```\r\n\r\n```\r\n<aho> http://www.rethinkdb.com/docs/secondary-indexes/python/ \"See Github issue #1158 to track progress.\" <- closed in favor of #2571\r\n```\r\n\r\n```\r\n<aho> \"There's also the during command which is convenient for checking whether a time is in a particular range of times. See more at the API reference.\" <- doesn't link to `during`\r\n```\r\n\r\n```\r\n<aho> http://www.rethinkdb.com/docs/migration/ \"A better migration experience is on the roadmap (follow Github issue #1010 to track progress).\" <- already closed\r\n```\r\n\r\n```\r\n<aho> .documentation .navigation ul li a\r\n<aho> needs display: block\r\n<aho> \".documentation .navigation ul li.external:after\" should be \".documentation .navigation ul li.external a:after\"\r\n<aho> then the clickable area of the links in the menu is as wide as the menu (as wide as the gray highlighting)\r\n<aho> for the nested ones... the extra padding should be on the links, not the li elements\r\n<aho> nag nag :)\r\n```"
+  , issueCommentId = 51694451
+  }

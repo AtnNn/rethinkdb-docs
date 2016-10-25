@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 20 : 11 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44578994"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/279#issuecomment-44578994"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 20 : 11 : 33 UTC
+  , issueCommentBody =
+      "We should update the syntax to something like that\r\n\r\n```\r\nselection.nth(number) -> selection<object>\r\nstream.nth(number) -> object\r\narray.nth(number) -> object\r\n```\r\n\r\nAnd +1 for an example that updates the document."
+  , issueCommentId = 44578994
+  }

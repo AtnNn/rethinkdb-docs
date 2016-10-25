@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-08) 06 : 49 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30076335"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/8#issuecomment-30076335"
+  , issueCommentCreatedAt = 2013 (-12) (-08) 06 : 49 : 40 UTC
+  , issueCommentBody =
+      "Arch, Mint and OpenSuse have been updated.\r\n\r\nWe are only missing it for Gentoo, but we don't really have build instructions for Gentoo.\r\n@atnnn do you mind if I close this issue and open one for Gentoo?"
+  , issueCommentId = 30076335
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-11) 22 : 02 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/130091250"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/849#issuecomment-130091250"
+  , issueCommentCreatedAt = 2015 (-08) (-11) 22 : 02 : 40 UTC
+  , issueCommentBody =
+      "@danielmewes Thanks. Yes, my English is quite bad :)\r\n\r\nI'm trying to find some reviewer, some friends here(with better English) to help me fix those grammars and spellings."
+  , issueCommentId = 130091250
+  }

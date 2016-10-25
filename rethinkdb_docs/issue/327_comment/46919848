@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-24) 00 : 54 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46919848"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-46919848"
+  , issueCommentCreatedAt = 2014 (-06) (-24) 00 : 43 : 02 UTC
+  , issueCommentBody =
+      "In [superheroes.md](https://github.com/rethinkdb/docs/blob/master/4-rethinkdb-in-practice/tutorials/superheroes.md) `>>>` is used for Python prompts. That is the default for the builtin Python repl."
+  , issueCommentId = 46919848
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-24) 00 : 16 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29145364"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/81#issuecomment-29145364"
+  , issueCommentCreatedAt = 2013 (-11) (-24) 00 : 16 : 10 UTC
+  , issueCommentBody =
+      "@mglukhovsky which version of apache were you running?\r\n\r\nCurrently, Arch ships Apache 2.2, and all the modules needed here comes with the main package.\r\nWith Arch, the password files should be in `/etc/httpd/` (which is `/etc/apache2`/ with Ubuntu I think).\r\n\r\nAlso `a2enmod` doesn't exist on Arch (anymore?). It seems like CentOS doesn't have this command too."
+  , issueCommentId = 29145364
+  }

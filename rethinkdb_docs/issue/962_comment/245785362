@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-09) 00 : 36 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1694352
+        , simpleUserLogin = N "brucepom"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1694352?v=3"
+        , simpleUserUrl = "https://api.github.com/users/brucepom"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/245785362"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/962#issuecomment-245785362"
+  , issueCommentCreatedAt = 2016 (-09) (-09) 00 : 36 : 09 UTC
+  , issueCommentBody =
+      "It would also be great to see some recommendations on starting the proxy and restarting it if the process dies or if the server is rebooted. Looking at https://github.com/rethinkdb/rethinkdb/issues/5138 there's a suggestion that this can be done by editing the init script. Not being an expert on this I wasn't that confident to jump into /etc/init.d/rethinkdb and start messing around. I ended up using Upstart instead of altering the init script. I wrote up [some notes](https://medium.com/@brucepomeroy/running-a-rethinkdb-proxy-on-ubuntu-68f8cd308b7b#.vd1qqp66u) as I couldn't find an explanation anywhere of how to do this. I'd welcome feedback on the approach I'm certainly not experienced with this."
+  , issueCommentId = 245785362
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-27) 02 : 39 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2801090
+        , simpleUserLogin = N "natebrennand"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2801090?v=3"
+        , simpleUserUrl = "https://api.github.com/users/natebrennand"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29355870"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/110#issuecomment-29355870"
+  , issueCommentCreatedAt = 2013 (-11) (-27) 02 : 39 : 01 UTC
+  , issueCommentBody =
+      "Thanks, I totally missed that there were other branches waiting for release.\r\nIs it a conscious decision to not include the Jekyll configurations with the custom tags in the repo? I couldn't figure out how to render the docs locally, it throws an error as soon as it encounters an `infobox` tag.\r\n\r\nThanks, I've loved the quality of the documentation and using RethinkDB so far. I'll be sure to fill out the CLA."
+  , issueCommentId = 29355870
+  }

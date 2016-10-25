@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 22 : 57 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46505108"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-46505108"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 22 : 57 : 18 UTC
+  , issueCommentBody =
+      "... I would also like to add 2 examples or so at the end. Will get to that later."
+  , issueCommentId = 46505108
+  }

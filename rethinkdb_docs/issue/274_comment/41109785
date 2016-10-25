@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-22) 23 : 46 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41109785"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-41109785"
+  , issueCommentCreatedAt = 2014 (-04) (-22) 23 : 46 : 31 UTC
+  , issueCommentBody =
+      "serial_mix is 25% point reads, 70% inserts and 5% deletes for 60 seconds."
+  , issueCommentId = 41109785
+  }

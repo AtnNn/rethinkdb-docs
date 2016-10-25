@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-06) 19 : 00 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 167416
+        , simpleUserLogin = N "VeXocide"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/167416?v=3"
+        , simpleUserUrl = "https://api.github.com/users/VeXocide"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/206514323"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1058#issuecomment-206514323"
+  , issueCommentCreatedAt = 2016 (-04) (-06) 19 : 00 : 34 UTC
+  , issueCommentBody =
+      "Given how https://github.com/rethinkdb/rethinkdb/issues/5406 has grown I'll write out the current implementation of the protocol.\r\n\r\nWe have a new magic version `V1_0` that's defined as `0x34c2bdc3`, it's sent by the connecting client to the server. Note that we still fully support the older `V0_4` protocol as well.\r\n\r\n1: C --> S\r\n`0x34c2bdc3`\r\n\r\nThe server then responds with a JSON blob followed by a null byte. This JSON contains an indication of success, the minimum and maximum protocol versions, and the server version. The minimum and maximum protocol versions are currently both `0`, we hope to add features in the future without changing the protocol significantly.\r\n\r\n2: S --> C\r\n```\r\n{\r\n    \"success\": true,\r\n    \"min_protocol_version\": 0,\r\n    \"max_protocol_version\": 0,\r\n    \"server_version\": \"2.3.0\"\r\n}\r\n```\r\n\r\nIf an unknown magic version is sent the following null terminate string is sent back in response, note that we're not sending JSON here because we really don't know what the client expects, there's not much to go on.\r\n\r\n2: S --> C on error\r\n`ERROR: Received an unsupported protocol version. This port is for RethinkDB queries. Does your client driver version not match the server?`\r\n\r\nThe client then chooses the protocol version, authentication method, and starts authentication. We currently only support the `\"SCRAM-SHA-256\"` `\"authentication_method\"`, and the actual content of `\"authentication\"` is specified by https://tools.ietf.org/html/rfc7677. It might be worth noting here that RFC 7677 is derived from RFC 5802 with the hashing algorithm specified to be SHA-256, https://tools.ietf.org/html/rfc5802. This RFC is followed with the exception of error reporting, we use our upper level of reporting errors instead of the `e=` field as specified by the RFC. Secondly we do not support channel binding, and the client should not request this, as indicated by the first `\"n\"` in `\"authentication\"`.\r\n\r\n3: C --> S\r\n```\r\n{\r\n    \"protocol_version\": 0,\r\n    \"authentication_method\": \"SCRAM-SHA-256\",\r\n    \"authentication\": \"n,,n=user,r=rOprNGfwEbeRWgbNEkqO\"\r\n}\r\n```\r\n\r\nThe server then responds with the first server message in `\"authentication\"`.\r\n\r\n4: S --> C\r\n```\r\n{\r\n    \"success\": true,\r\n    \"authentication\": \"r=rOprNGfwEbeRWgbNEkqO%hvYDpWUa2RaTCAfuxFIlj)hNlF$k0,\r\n      s=W22ZaJ0SNY7soEsUEjb6gQ==,i=4096\"\r\n}\r\n```\r\n\r\nOn error the server will respond with the following null terminated JSON blob. Note that `10 <= \"error_code\" <= 20` are related to authentication, a ReqlAuthError should be thrown in these cases.\r\n\r\n4: S --> C on error\r\n```\r\n{\r\n    \"success\": false,\r\n    \"error\": \"You mucked up.\",\r\n    \"error_code\": 12\r\n}\r\n```\r\n\r\nThis continues for another back and forth as specified by the RFC, reporting errors as before.\r\n\r\n5: C --> S\r\n```\r\n{\r\n    \"authentication\": \"c=biws,r=rOprNGfwEbeRWgbNEkqO%hvYDpWUa2RaTCAfuxFIlj)hNlF$k0,\r\n      p=dHzbZapWIk4jUhN+Ute9ytag9zjfMHgsqmmiz7AndVQ=\"\r\n}\r\n```\r\n\r\n6: S --> C\r\n```\r\n{\r\n    \"success\": true,\r\n    \"authentication\": \"v=6rriTRBi23WpRR/wtup+mMhUZUn/dB5nLTJRsjl95G4=\"\r\n}\r\n```\r\n\r\nAt this point the user is logged in and can resume using the JSON query protocol as before."
+  , issueCommentId = 206514323
+  }

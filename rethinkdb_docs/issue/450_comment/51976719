@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-12) 21 : 01 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51976719"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/450#issuecomment-51976719"
+  , issueCommentCreatedAt = 2014 (-08) (-12) 21 : 01 : 05 UTC
+  , issueCommentBody =
+      "I have some tools for that already, including in Markdown. The problem here is that MongoDB has rearranged their web site a bit. Our links aren't **broken,** they just get redirected to the wrong place, and finding the right place is a manual operation..."
+  , issueCommentId = 51976719
+  }

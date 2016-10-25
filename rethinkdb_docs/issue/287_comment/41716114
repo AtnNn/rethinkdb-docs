@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-29) 18 : 44 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 904055
+        , simpleUserLogin = N "ZackBoe"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/904055?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ZackBoe"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41716114"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/287#issuecomment-41716114"
+  , issueCommentCreatedAt = 2014 (-04) (-29) 18 : 44 : 02 UTC
+  , issueCommentBody =
+      "@coffeemug Changed my link and another I came across."
+  , issueCommentId = 41716114
+  }

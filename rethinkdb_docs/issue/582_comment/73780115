@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-10) 20 : 45 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/73780115"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-73780115"
+  , issueCommentCreatedAt = 2015 (-02) (-10) 20 : 45 : 44 UTC
+  , issueCommentBody =
+      "I'm closing this ticket in favor of #643 -- it doesn't add an entirely new quickstart document, but it reorganizes a lot of the relevant docs, moves the config file options into their own document and tries to make the language clearer and a little friendlier."
+  , issueCommentId = 73780115
+  }

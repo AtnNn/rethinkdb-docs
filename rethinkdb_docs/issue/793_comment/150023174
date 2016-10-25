@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-21) 21 : 01 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/150023174"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/793#issuecomment-150023174"
+  , issueCommentCreatedAt = 2015 (-10) (-21) 21 : 01 : 57 UTC
+  , issueCommentBody =
+      "I've updated this branch so it's in sync with the master branch, with these three illustrations added and linked. @mglukhovsky should let you know how he wants to review it."
+  , issueCommentId = 150023174
+  }

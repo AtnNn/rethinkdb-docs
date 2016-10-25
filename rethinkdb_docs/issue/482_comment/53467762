@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-26) 18 : 31 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53467762"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/482#issuecomment-53467762"
+  , issueCommentCreatedAt = 2014 (-08) (-26) 18 : 31 : 26 UTC
+  , issueCommentBody =
+      "I think we could just change the blog post heading from \"Upgrading to 1.14 with seamless migration\" to \"Upgrading from 1.13 with seamless migration,\" and leave the rest as-is. There's an infobox right above that with a link to the migration for older versions."
+  , issueCommentId = 53467762
+  }

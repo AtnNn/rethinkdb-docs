@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-27) 07 : 53 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29365833"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/110#issuecomment-29365833"
+  , issueCommentCreatedAt = 2013 (-11) (-27) 07 : 53 : 00 UTC
+  , issueCommentBody =
+      "@natebrennand -- thanks for the pull request, and we hope you keep contributing! To chime in on @neumino's comments, we have a complex build system that starts with Jekyll to build the complete website.\r\n\r\nI completely agree that not being able to render docs locally is a barrier to contributing. I started (and will soon finish) having a minimal version that builds locally in the `mg_preview` branch (may currently be broken)."
+  , issueCommentId = 29365833
+  }

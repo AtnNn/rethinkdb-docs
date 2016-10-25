@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-24) 16 : 54 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124577958"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/631#issuecomment-124577958"
+  , issueCommentCreatedAt = 2015 (-07) (-24) 16 : 54 : 28 UTC
+  , issueCommentBody =
+      "I'm assigning this to @coffeemug just to get an outline done at some point for a \"best practices\" document. We can reassign it to another engineer, but I'd need some basic bullet points to expand it into an article."
+  , issueCommentId = 124577958
+  }

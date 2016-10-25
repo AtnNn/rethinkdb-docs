@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-29) 02 : 36 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/202674164"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1066#issuecomment-202674164"
+  , issueCommentCreatedAt = 2016 (-03) (-29) 02 : 36 : 10 UTC
+  , issueCommentBody =
+      "Thanks for the PR @williamle8300 . Good catch.\r\n\r\nIf you haven't done so yet, would you mind signing our CLA at http://rethinkdb.com/community/cla/ ?\r\n\r\nLooking at the code we should also maybe use `r.expr([...])` instead of `r([...])` for consistency with other examples. @chipotle what do you think?"
+  , issueCommentId = 202674164
+  }

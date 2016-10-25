@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-29) 17 : 40 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/116771735"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/800#issuecomment-116771735"
+  , issueCommentCreatedAt = 2015 (-06) (-29) 17 : 40 : 20 UTC
+  , issueCommentBody =
+      "Thanks for the pull request. I don't think we should mix different languages in the same document. @chipotle do we have a JS version of this file?"
+  , issueCommentId = 116771735
+  }

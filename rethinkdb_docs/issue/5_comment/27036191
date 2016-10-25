@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-24) 22 : 12 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27036191"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/5#issuecomment-27036191"
+  , issueCommentCreatedAt = 2013 (-10) (-24) 22 : 12 : 20 UTC
+  , issueCommentBody =
+      "In saucy, upgrading node might not be necessary. It has 0.10.15\r\n\r\nhttp://packages.ubuntu.com/saucy/nodejs"
+  , issueCommentId = 27036191
+  }

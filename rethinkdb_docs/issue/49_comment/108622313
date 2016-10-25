@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-03) 21 : 32 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/108622313"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/49#issuecomment-108622313"
+  , issueCommentCreatedAt = 2015 (-06) (-03) 21 : 32 : 38 UTC
+  , issueCommentBody =
+      "The \"Dates and times in RethinkDB\" document is fully translated into each language now and it tells you how to use native date/time objects. I'd like more explanation about what's meant by \"the API docs not having examples for native time objects.\""
+  , issueCommentId = 108622313
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-31) 18 : 30 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/50799362"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/426#issuecomment-50799362"
+  , issueCommentCreatedAt = 2014 (-07) (-31) 18 : 30 : 17 UTC
+  , issueCommentBody =
+      "There's a couple quasi-typos I'll fix in this and the other three. We represent the command as \"iso8601\" everywhere but the JS document, where it's caps (\"ISO8601\"), so I'm lowercasing it. In the command description, though, it should be \"ISO 8601.\" Also, I'm linking the Wikipedia article in, and referring to \"argument\" instead of \"optarg\" to be more consistent with (most of) the rest of the docs."
+  , issueCommentId = 50799362
+  }

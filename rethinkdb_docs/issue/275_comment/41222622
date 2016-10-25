@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-23) 22 : 27 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41222622"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/275#issuecomment-41222622"
+  , issueCommentCreatedAt = 2014 (-04) (-23) 22 : 27 : 27 UTC
+  , issueCommentBody =
+      "> One way to fix it would be to have a field in the pseudotype reserved for the drivers and opaque to the server (but also that's persisted by the server). This way the driver can store a flag and pick the right type. I'm not sure if we want to do this, but it sounds like a good idea to support it in pseudotypes in general.\r\n\r\nI'm a little hesitant because of cross-language problems.  It would be really confusing if you get back one type from the server, except for rows that you inserted in the data explorer or something."
+  , issueCommentId = 41222622
+  }

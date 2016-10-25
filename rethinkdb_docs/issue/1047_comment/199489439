@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-21) 21 : 13 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/199489439"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1047#issuecomment-199489439"
+  , issueCommentCreatedAt = 2016 (-03) (-21) 21 : 13 : 03 UTC
+  , issueCommentBody =
+      "Rather than put this in a new section, can we just list \"Performance report\" under \"RethinkDB architecture\"?\r\n\r\nAlso, @dalanmiller -- we use sentence case. Would you mind updating the title of the report?"
+  , issueCommentId = 199489439
+  }

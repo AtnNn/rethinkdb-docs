@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-01) 19 : 54 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/190876438"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1041#issuecomment-190876438"
+  , issueCommentCreatedAt = 2016 (-03) (-01) 19 : 54 : 51 UTC
+  , issueCommentBody =
+      "@chipotle this changed just recently for the Java driver."
+  , issueCommentId = 190876438
+  }

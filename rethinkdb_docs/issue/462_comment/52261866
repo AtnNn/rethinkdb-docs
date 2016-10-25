@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-15) 00 : 23 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52261866"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/462#issuecomment-52261866"
+  , issueCommentCreatedAt = 2014 (-08) (-15) 00 : 22 : 16 UTC
+  , issueCommentBody =
+      "Approved and merged to `master` in commit 0b9fd82."
+  , issueCommentId = 52261866
+  }

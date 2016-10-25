@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-07) 20 : 48 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/193443157"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1043#issuecomment-193443157"
+  , issueCommentCreatedAt = 2016 (-03) (-07) 20 : 48 : 43 UTC
+  , issueCommentBody =
+      "This is not in the [example projects](https://rethinkdb.com/docs/examples/) page anymore, and as far as I remember the `examples` directory is actually deprecated. I suspect the issue here isn't that this example is missing the sidebar as much as that this example shouldn't still be linked anywhere."
+  , issueCommentId = 193443157
+  }

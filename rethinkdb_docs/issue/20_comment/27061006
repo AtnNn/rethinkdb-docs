@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-25) 04 : 30 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27061006"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/20#issuecomment-27061006"
+  , issueCommentCreatedAt = 2013 (-10) (-25) 04 : 30 : 31 UTC
+  , issueCommentBody =
+      "Pull request with a fix opened.\r\nThe layout for api.html was broken (last minutes changes on api-command.html were not done on api.html)"
+  , issueCommentId = 27061006
+  }

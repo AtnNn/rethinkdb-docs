@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-29) 20 : 09 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 9854
+        , simpleUserLogin = N "brandondrew"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/9854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/brandondrew"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/64963636"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/588#issuecomment-64963636"
+  , issueCommentCreatedAt = 2014 (-11) (-29) 20 : 09 : 03 UTC
+  , issueCommentBody =
+      "You're right\8212somehow I never saw it.  I *think* what happened is that the 30-second quickstart immediately referred me to the installation page, which referred me to the installation page for OS X, and then when I came back from installing I returned to a different browser tab (the ten-minute version) and never finished reading the 30-second version.  When the ten-minute version referred me back to the 30-second guide I skipped it, thinking I had already been there and done that and didn't want to go in circles.\r\n\r\n"
+  , issueCommentId = 64963636
+  }

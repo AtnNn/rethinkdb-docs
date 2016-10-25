@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-20) 06 : 58 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 167416
+        , simpleUserLogin = N "VeXocide"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/167416?v=3"
+        , simpleUserUrl = "https://api.github.com/users/VeXocide"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/173111970"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1001#issuecomment-173111970"
+  , issueCommentCreatedAt = 2016 (-01) (-20) 06 : 58 : 55 UTC
+  , issueCommentBody =
+      "Great idea, it might also be worth mentioning `wait(wait_for=\"all_replicas_ready\")` in `reconfigure` and `rebalance`."
+  , issueCommentId = 173111970
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-30) 18 : 40 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97913540"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-97913540"
+  , issueCommentCreatedAt = 2015 (-04) (-30) 18 : 40 : 43 UTC
+  , issueCommentBody =
+      "The fact that errors cause documents to not be indexed, and do not get reported or fail the query.\nOn Apr 30, 2015 11:30 AM, Watts <notifications@github.com> wrote:\r\nI'd say this error behavior should be described up-front in the docs on secondary indices, ie. with a mention in the examples for complex (expression-based) indexes\r\n\r\n\r\nI've been digging through this and I confess I've gotten a bit lost. What error behavior are we talking about documenting? The suggestion to use r.error as the official way of deliberately omitting documents from secondary indexes?\r\n\r\n\8212Reply to this email directly or view it on GitHub."
+  , issueCommentId = 97913540
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-11) 22 : 49 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30372642"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/136#issuecomment-30372642"
+  , issueCommentCreatedAt = 2013 (-12) (-11) 22 : 49 : 02 UTC
+  , issueCommentBody =
+      "There are tons of commit because I merged master in grey_docs_fixes (the script gen_python) has been updated.\r\n\r\nI'll still be careful. Thanks @atnnn!"
+  , issueCommentId = 30372642
+  }

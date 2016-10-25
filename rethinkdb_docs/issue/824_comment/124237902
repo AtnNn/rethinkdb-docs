@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-23) 20 : 55 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124237902"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/824#issuecomment-124237902"
+  , issueCommentCreatedAt = 2015 (-07) (-23) 20 : 55 : 49 UTC
+  , issueCommentBody =
+      "I'm working on this one, but there are a couple points of minor mystification.\r\n\r\nWill `ReqlRuntimeError` itself ever be returned now, rather than one of its more specific subclasses?\r\n\r\nWill `ReqlAvailabilityError` ever be returned rather than a more specific 'ReqlOp...Error`?\r\n\r\nWhile I assume `ReqlCompileError` means the query can't be compiled, what's an example of when this would come up in practice?"
+  , issueCommentId = 124237902
+  }

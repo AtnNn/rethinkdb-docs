@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-12) 22 : 22 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45955572"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/320#issuecomment-45955572"
+  , issueCommentCreatedAt = 2014 (-06) (-12) 22 : 22 : 09 UTC
+  , issueCommentBody =
+      "@coffeemug : this is available at https://github.com/rethinkdb/rethinkdb/blob/mlucy_proto_docs/src/rdb_protocol/ql2_json.md , CR 1636 ."
+  , issueCommentId = 45955572
+  }

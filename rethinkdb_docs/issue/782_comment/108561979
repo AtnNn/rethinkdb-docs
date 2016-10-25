@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-03) 18 : 27 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/108561979"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/782#issuecomment-108561979"
+  , issueCommentCreatedAt = 2015 (-06) (-03) 18 : 27 : 40 UTC
+  , issueCommentBody =
+      "I suggest that we add a note to the `db` API page http://rethinkdb.com/api/javascript/db/ about the alternative way of selecting a DB by setting the default DB during connection setup or through `use`.\r\n\r\nI'm not sure if we mention the option of passing a db as a global optarg anywhere right now, and I'm undecided on whether we should include it in the documentation or not (though I suspect the answer is yes)."
+  , issueCommentId = 108561979
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-21) 00 : 45 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43700848"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/123#issuecomment-43700848"
+  , issueCommentCreatedAt = 2014 (-05) (-21) 00 : 45 : 07 UTC
+  , issueCommentBody =
+      "Maybe:\r\n```rb\r\n# Get Bob's score\r\nr.table('players').get('bob').do {|bob|\r\n  bob['base_score'] + (bob['bonus_points'] * bob['bonus_multiplier'])\r\n}\r\n```\r\nBut with less boring data?"
+  , issueCommentId = 43700848
+  }

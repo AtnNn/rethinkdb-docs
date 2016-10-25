@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-20) 19 : 59 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43675269"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/299#issuecomment-43675269"
+  , issueCommentCreatedAt = 2014 (-05) (-20) 19 : 59 : 24 UTC
+  , issueCommentBody =
+      "Also, the second example can be rewritten\r\n```\r\nr.table('users').get(3).merge(function(user) {\r\n   return { powers: ['invisibility', 'speed'] }\r\n}).run(conn, callback)\r\n```\r\n\r\n"
+  , issueCommentId = 43675269
+  }

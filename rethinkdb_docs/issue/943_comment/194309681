@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-09) 14 : 06 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7561396
+        , simpleUserLogin = N "benmann"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7561396?v=3"
+        , simpleUserUrl = "https://api.github.com/users/benmann"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/194309681"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/943#issuecomment-194309681"
+  , issueCommentCreatedAt = 2016 (-03) (-09) 14 : 06 : 23 UTC
+  , issueCommentBody =
+      "@stevns From RethinkDB into elasticsearch. Like described [here](https://github.com/BenMann/cookiejar/issues/2) just without logstash. If it is of any use to you, just dig around the codebase a bit. Most important bit should be in API/rethinkDB."
+  , issueCommentId = 194309681
+  }

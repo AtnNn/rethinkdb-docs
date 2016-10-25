@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-09) 23 : 11 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 43867
+        , simpleUserLogin = N "jdoliner"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/43867?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jdoliner"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/163432067"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-163432067"
+  , issueCommentCreatedAt = 2015 (-12) (-09) 23 : 11 : 24 UTC
+  , issueCommentBody =
+      "@ntquyen imo this is a great use case for a daemon controller [0]\r\nThat will give you a rethinkdb proxy per node rather than per pod. It should have the same performance characteristics but you won't have to worry about scaling up your controller slowing down the db.\r\n\r\n[0] https://github.com/kubernetes/kubernetes/blob/master/docs/admin/daemons.md"
+  , issueCommentId = 163432067
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-16) 22 : 22 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43385748"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/297#issuecomment-43385748"
+  , issueCommentCreatedAt = 2014 (-05) (-16) 22 : 22 : 41 UTC
+  , issueCommentBody =
+      "@coffeemug -- yep, I would expect `r.do` should take at least two arguments.\r\n\r\nAnd I would expect `r.expr(1).do(r.expr(1))` to throw an error because the first argument of `do` is not a function."
+  , issueCommentId = 43385748
+  }

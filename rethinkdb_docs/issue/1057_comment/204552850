@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-01) 20 : 16 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/204552850"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1057#issuecomment-204552850"
+  , issueCommentCreatedAt = 2016 (-04) (-01) 20 : 16 : 08 UTC
+  , issueCommentBody =
+      "Just to verify, are all these available as configuration file options as well? (And are all the new bind commands available in the config file?)"
+  , issueCommentId = 204552850
+  }

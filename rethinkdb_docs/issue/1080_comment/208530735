@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-11) 19 : 59 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/208530735"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1080#issuecomment-208530735"
+  , issueCommentCreatedAt = 2016 (-04) (-11) 19 : 59 : 06 UTC
+  , issueCommentBody =
+      "I think it's just a case of different examples being written by different authors at different times. At some point we'll try to go through all the docs to check for inconsistencies like this -- but there's no functional difference between calling a table `user` or `users`."
+  , issueCommentId = 208530735
+  }

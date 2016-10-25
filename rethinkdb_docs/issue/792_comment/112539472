@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-16) 19 : 32 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/112539472"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/792#issuecomment-112539472"
+  , issueCommentCreatedAt = 2015 (-06) (-16) 19 : 32 : 26 UTC
+  , issueCommentBody =
+      "Sorry, I guess I misinformed you. In 1.16 or 2.0, if a shard's primary is permanently removed, the shard will not have any primary until the user sets the primary with `reconfigure()` or by writing to `table_config`.\r\n\r\nThis might not be worth fixing because the behavior will change again in 2.1."
+  , issueCommentId = 112539472
+  }

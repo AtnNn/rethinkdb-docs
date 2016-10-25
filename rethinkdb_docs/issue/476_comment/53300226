@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-25) 17 : 53 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53300226"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/476#issuecomment-53300226"
+  , issueCommentCreatedAt = 2014 (-08) (-25) 17 : 53 : 23 UTC
+  , issueCommentBody =
+      "If these feeds are what's produced by [changes](http://rethinkdb.com/api/javascript/changes/), then don't they return a `cursor`? If that's the case, doesn't having `cursor` in the API signature for `each` cover this? AFAIK, `feed` isn't its own data type; it's a stream (albeit an infinite one)."
+  , issueCommentId = 53300226
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-10) 19 : 25 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/195009349"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/962#issuecomment-195009349"
+  , issueCommentCreatedAt = 2016 (-03) (-10) 19 : 25 : 37 UTC
+  , issueCommentBody =
+      "Thanks for the feedback @williamstein . Very useful. We'll try to incorporate that.\r\n\r\nI think connection pools are still useful, because the proxy is still going to be able to utilize multiple cores better with multiple client connections."
+  , issueCommentId = 195009349
+  }

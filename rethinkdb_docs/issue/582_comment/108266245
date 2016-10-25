@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-03) 09 : 34 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2600966
+        , simpleUserLogin = N "thomasmodeneis"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2600966?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thomasmodeneis"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/108266245"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-108266245"
+  , issueCommentCreatedAt = 2015 (-06) (-03) 09 : 34 : 05 UTC
+  , issueCommentBody =
+      "Hi @chipotle,  I lost few hours on this problem. \r\nThe documentation still not good (http://rethinkdb.com/docs/start-on-startup/), it assumes the person that is reading know anything about rethinkdb, and well it should be the opposite, I don't know anything and I expect that the steps defined will work o.0 \r\nLet me explain: \r\n\r\n```\r\nQuick setup\r\nCopy the sample configuration file and use the configuration file documentation as a guide to customize it. (If you don\8217t have the sample .conf file, you can download it here.)\r\n```\r\n1) The referenced doc is all commented, how can I know what is or what is not needed ? \r\nhttps://github.com/rethinkdb/rethinkdb/blob/next/packaging/assets/config/default.conf.sample\r\n\r\n2) if you use the file above and run the commands as described on the following step:\r\n```\r\nsudo cp /etc/rethinkdb/default.conf.sample /etc/rethinkdb/instances.d/instance1.conf\r\nsudo vim /etc/rethinkdb/instances.d/instance1.conf\r\n```\r\nThis wont work. Rethinkdb will get me an error after another. \r\n1 error: the file provided have user and group commented, and it does not explain that this users should be the linux user that will be running the rethinkdb.\r\n2 error will be you need to have the folder created: /var/run/rethinkdb and mkdir /var/run/rethinkdb/instance1\r\n3 error will be you need to have the folder created: /var/lib/rethinkdb/instance1 and the data /var/lib/rethinkdb/instance1/data.\r\n4 error will be this folders all need to be chmod with the user that will be executing the rethinkdb:\r\nsudo chown -R vagrant:vagrant /var/run/rethinkdb\r\n\r\nI created a quick shell script that finally made the startup work on my vagrant box, this maybe useful for someone:\r\n```\r\necho \"runuser=vagrant\" >> ~/instance1.conf\r\necho \"rungroup=vagrant\" >> ~/instance1.conf\r\n\r\nsudo mv ~/instance1.conf /etc/rethinkdb/instances.d/\r\n\r\nsudo mkdir /var/run/rethinkdb\r\nsudo mkdir /var/run/rethinkdb/instance1\r\n\r\nsudo mkdir /var/lib/rethinkdb/instance1\r\nsudo mkdir /var/lib/rethinkdb/instance1/data\r\n\r\nsudo chown -R vagrant:vagrant /var/run/rethinkdb\r\nsudo chown -R vagrant:vagrant /var/lib/rethinkdb\r\n```\r\n\r\nThanks"
+  , issueCommentId = 108266245
+  }

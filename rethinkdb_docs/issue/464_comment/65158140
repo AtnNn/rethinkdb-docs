@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-01) 23 : 32 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65158140"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-65158140"
+  , issueCommentCreatedAt = 2014 (-12) (-01) 23 : 32 : 49 UTC
+  , issueCommentBody =
+      "@chipotle You should probably skip over those if you have other terms left to document. The reason is that we are going to change their format one more time with https://github.com/rethinkdb/rethinkdb/issues/3365 before releasing.\r\n\r\nGenerally (and this is still going to be true after the format change), these commands return a *selection* on the tables with the same names.\r\nSo `r.db('d').table_config('t')` is essentially equivalent to `r.db('rethinkdb').table('table_config').filter(r.row('db').eq('d').and(r.row('name').eq('t')))`, even though I believe it uses the primary key for more efficiency.\r\nSo you can use them for just reading from the table_status and table_config tables, but in case of `table_config()`, you can also run an `update` on the selection, e.g.\r\n`r.db('d').table_config('t').update({replicas: ...})`"
+  , issueCommentId = 65158140
+  }

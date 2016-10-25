@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-18) 21 : 41 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/74954048"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/654#issuecomment-74954048"
+  , issueCommentCreatedAt = 2015 (-02) (-18) 21 : 41 : 39 UTC
+  , issueCommentBody =
+      "Ah sorry, might be. I didn't actually check. Thanks for signing again. :)"
+  , issueCommentId = 74954048
+  }

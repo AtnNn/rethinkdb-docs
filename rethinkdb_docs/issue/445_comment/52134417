@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-14) 01 : 41 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52134417"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/445#issuecomment-52134417"
+  , issueCommentCreatedAt = 2014 (-08) (-14) 01 : 41 : 20 UTC
+  , issueCommentBody =
+      "I just saw this graph on twitter. Thanks!\r\n\r\n[![performance](https://cloud.githubusercontent.com/assets/706854/3915018/c6239808-2353-11e4-9439-4b680fc876cf.jpeg)](https://twitter.com/rethinkdb/status/499715895912964097)\r\n"
+  , issueCommentId = 52134417
+  }

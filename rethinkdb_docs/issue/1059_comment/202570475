@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-28) 20 : 32 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/202570475"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1059#issuecomment-202570475"
+  , issueCommentCreatedAt = 2016 (-03) (-28) 20 : 32 : 06 UTC
+  , issueCommentBody =
+      "@VeXocide when you have a few minutes, could you double-check my writeup for correctness please?\r\n\r\nRemaining parts I still need to write:\r\n* 3. Permissions & system tables (including commands such as `config()` etc.)\r\n* 4. `--initial-password` and managing a secured cluster\r\n* 5. What the permission system is for and what it isn't for"
+  , issueCommentId = 202570475
+  }

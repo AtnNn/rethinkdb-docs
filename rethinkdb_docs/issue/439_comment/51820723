@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-11) 18 : 30 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51820723"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/439#issuecomment-51820723"
+  , issueCommentCreatedAt = 2014 (-08) (-11) 18 : 30 : 48 UTC
+  , issueCommentBody =
+      "In a comment on rethinkdb/rethinkdb#2789, @mlucy wrote:\r\n\r\n> I think Sam's right; being able to upgrade without downtime is important enough that we should support the old (broken) key serialization and log an issue telling people to recreate and then rename their sindexes.\r\n> \r\n> We're going to need a few things for that:\r\n> 1. The stuff Sam's working on to support two types of key serialization side-by-side.\r\n> 2. A command `r.index_rename('old', 'new')`.\r\n> 3. A docs entry for how and when to rebuild old sindexes (ideally we'd link to this entry in the error message).\r\n\r\nAssuming this is actually what's been implemented, what's the error message? And I assume the way to rebuild the indexes is something like:\r\n\r\n```py\r\nindex_func = r.table('table').index_status('old_index').nth(0)['function']\r\nr.table('table').index_create('new_index', index_func)\r\nr.table('table').index_rename('new_index', 'old_index', overwrite=True)\r\n```\r\n"
+  , issueCommentId = 51820723
+  }

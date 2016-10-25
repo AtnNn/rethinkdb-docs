@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-19) 14 : 57 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43514709"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/297#issuecomment-43514709"
+  , issueCommentCreatedAt = 2014 (-05) (-19) 14 : 57 : 50 UTC
+  , issueCommentBody =
+      "`r.do` is just `funcall` with the function at the end instead of the beginning to make chaining easier.  `funcall` in most languages works if you pass it a function and no arguments, so it seems reasonable for `funcall` in ReQL to do that.  (This also makes it easier to write generic code.)  I agree that the `r.do(r.expr(1))` case is a little weird, though, so maybe we should forbid that?\r\n\r\n> Is it safe to do an insert in the first argument and a get in the second?\r\n\r\nYou don't have any guarantee about the order in which the arguments are evaluated, but you do have a guarantee that all the arguments will be evaluated before the function is called.  Note, however, that if you pass a value instead of a function it will be evaluated *first*, and its value used to create a function that returns that value.\r\n\r\nSo `r.table('test').insert({id:1}).do(r.table('test').get(1))` will not work, but `r.table('test').insert({id:1}).do(function(){return r.table('test').get(1);})` will.  `r.do(r.table('test').insert({id:1}), r.table('test').get(1), function(a,b){return 0;})` will probably work, but it isn't guaranteed to."
+  , issueCommentId = 43514709
+  }

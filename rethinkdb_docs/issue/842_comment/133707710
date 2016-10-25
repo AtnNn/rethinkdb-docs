@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-22) 14 : 15 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 85395
+        , simpleUserLogin = N "AnneTheAgile"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/85395?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AnneTheAgile"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/133707710"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/842#issuecomment-133707710"
+  , issueCommentCreatedAt = 2015 (-08) (-22) 14 : 15 : 21 UTC
+  , issueCommentBody =
+      "@danielmewes, wait, I didn't realize you are on the core team. Maybe the wording of the issue should be you would like a PR? "
+  , issueCommentId = 133707710
+  }

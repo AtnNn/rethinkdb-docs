@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-02) 22 : 34 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31490928"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/162#issuecomment-31490928"
+  , issueCommentCreatedAt = 2014 (-01) (-02) 22 : 34 : 33 UTC
+  , issueCommentBody =
+      "That's in Python and JavaScript.\r\n\r\nRuby throws a slightly different error\r\n```\r\nRethinkDB::RqlRuntimeError: Maximum expression depth of 20 exceeded.\r\n```"
+  , issueCommentId = 31490928
+  }

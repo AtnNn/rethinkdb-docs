@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-23) 16 : 35 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 38015
+        , simpleUserLogin = N "jwr"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/38015?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jwr"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/95647994"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/727#issuecomment-95647994"
+  , issueCommentCreatedAt = 2015 (-04) (-23) 16 : 35 : 42 UTC
+  , issueCommentBody =
+      "To clarify (I'm the Twitter user @jrychter who tweeted this): I've spent lots of time with your documentation, which goes extensively into queries, but spends relatively little time on updates. Updates are important, because this is where you see lots of differences between a document model and a relational table-based model: especially if one uses a lot of nesting, updates become complicated.\r\n\r\nI also posted a Stack Overflow question which is related to updating more complex documents: http://stackoverflow.com/questions/29821448/rethinkdb-how-to-append-to-an-array-in-a-nested-structure\r\n\r\nI'd suggest thinking of complex examples: appends to arrays in nested fields, appends to nested fields found by filter(), updates that use subqueries, joins that expand nested documents, etc. \8212 but to start with, even your \"Ten-minute guide\" could be updated (ahem) to include an example that shows how to update the \"content\" of a blog post by \"William Adama\" with the title of \"We are at war\".\r\n"
+  , issueCommentId = 95647994
+  }

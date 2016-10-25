@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-19) 22 : 30 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103682493"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/770#issuecomment-103682493"
+  , issueCommentCreatedAt = 2015 (-05) (-19) 22 : 16 : 01 UTC
+  , issueCommentBody =
+      "This page will supersede (or enhance) the FAQ entry written for https://github.com/rethinkdb/docs/issues/725"
+  , issueCommentId = 103682493
+  }

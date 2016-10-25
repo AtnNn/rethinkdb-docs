@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-29) 21 : 58 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 904055
+        , simpleUserLogin = N "ZackBoe"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/904055?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ZackBoe"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41737547"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/287#issuecomment-41737547"
+  , issueCommentCreatedAt = 2014 (-04) (-29) 21 : 58 : 02 UTC
+  , issueCommentBody =
+      "Don't forget this same link needs to be swapped out on the [Community](http://rethinkdb.com/community/) page"
+  , issueCommentId = 41737547
+  }

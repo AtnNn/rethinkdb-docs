@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-26) 00 : 36 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/214572648"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1095#issuecomment-214572648"
+  , issueCommentCreatedAt = 2016 (-04) (-26) 00 : 36 : 03 UTC
+  , issueCommentBody =
+      "I can back that change out when I do the merge."
+  , issueCommentId = 214572648
+  }

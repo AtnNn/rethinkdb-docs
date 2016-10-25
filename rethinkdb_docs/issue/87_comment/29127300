@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-23) 06 : 51 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29127300"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/87#issuecomment-29127300"
+  , issueCommentCreatedAt = 2013 (-11) (-23) 06 : 51 : 21 UTC
+  , issueCommentBody =
+      "I just reviewed this OTS with @coffeemug, we made a few improvements.\r\n\r\n@neumino the Ubuntu installation instructions are now more explicit but I did not add an install from source section.\r\n\r\nI will merge this PR and close #67. Please re-open #67 if you think it should still be improved.\r\n\r\nThanks!"
+  , issueCommentId = 29127300
+  }

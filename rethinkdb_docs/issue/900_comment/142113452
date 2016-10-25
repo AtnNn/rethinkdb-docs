@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-21) 21 : 28 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/142113452"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/900#issuecomment-142113452"
+  , issueCommentCreatedAt = 2015 (-09) (-21) 21 : 28 : 12 UTC
+  , issueCommentBody =
+      "How about this as a rewrite for that section?\r\n\r\n> An `orderBy` command that uses a secondary index cannot be chained after `getAll`. You can only chain it after a `table` command. However, you can chain `orderBy` after a `between` command provided it uses the same index.\r\n"
+  , issueCommentId = 142113452
+  }

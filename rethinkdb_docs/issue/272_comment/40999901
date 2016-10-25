@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-22) 03 : 10 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40999901"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/272#issuecomment-40999901"
+  , issueCommentCreatedAt = 2014 (-04) (-22) 03 : 10 : 31 UTC
+  , issueCommentBody =
+      "The 500 tables is a special workload I think -- I happened to run into it because I was testing table creation with thinky.\r\nWe could keep what you wrote but say \"standard (but heavy) workload\"? (or something like that but better)\r\n\r\nAbout geo indexes, that works for me.\r\n\r\nAbout sharding, while it is not something you have to do every day, you may have to do it, and in this case, it's nice to know what's going to happen.\r\n\r\nAbout crashes, if you look at the crashes, they happen every time we release a new version, but things eventually and pretty quickly get smooth. I'm pretty sure that with a little more testing, we could avoid this transition period.\r\n"
+  , issueCommentId = 40999901
+  }

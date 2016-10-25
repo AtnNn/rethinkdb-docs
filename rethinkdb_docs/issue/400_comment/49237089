@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-16) 22 : 35 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49237089"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/400#issuecomment-49237089"
+  , issueCommentCreatedAt = 2014 (-07) (-16) 22 : 35 : 23 UTC
+  , issueCommentBody =
+      "It's how to use indexes to speed up queries. In this case, it's how to improve a `get` followed by `contains` (which is used as a kind of `or` operator).\r\n\r\nI would probably put that in the secondary index and not the cookbook since it seems a little advanced to me."
+  , issueCommentId = 49237089
+  }

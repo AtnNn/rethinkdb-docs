@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-06) 05 : 51 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/42269871"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/291#issuecomment-42269871"
+  , issueCommentCreatedAt = 2014 (-05) (-06) 05 : 51 : 56 UTC
+  , issueCommentBody =
+      "I put this in master because the existing doc generation makes a broken script that will not load, and none of the changes are incompatible with 1.12.  In addition, the `rarr` typo is live at the moment, but I guess it's not a huge deal."
+  , issueCommentId = 42269871
+  }

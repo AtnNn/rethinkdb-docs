@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-19) 23 : 09 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70577360"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/623#issuecomment-70577360"
+  , issueCommentCreatedAt = 2015 (-01) (-19) 23 : 09 : 41 UTC
+  , issueCommentBody =
+      "Queries don't always return documents, though. It might return just the value of a field:\r\n\r\n```js\r\nr = require('rethinkdb');\r\n\r\nr.connect({host: 'localhost', port: 28015}, function (err, conn) {\r\n\tif (err) throw err;\r\n\r\n\tr.table('foo')('name').run(conn, function (err, cursor) {\r\n\t\tif (err) throw err;\r\n\t\tvar fetchNext = function (err, res) {\r\n\t\t\tif (err) {\r\n\t\t\t\tconsole.log(err.message);\r\n\t\t\t} else {\r\n\t\t\t\tconsole.log(res);\r\n\t\t\t\tcursor.next(fetchNext);\r\n\t\t\t}\r\n\t\t}\r\n\t\tcursor.next(fetchNext);\r\n\t});\r\n});\r\n```\r\n\r\nIf one of the fields you iterated through actually had a `null` value in it, you'd want to be able to distinguish that from \"this field had an actual `null` in it\" and \"we have no more rows in the cursor.\"\r\n\r\n"
+  , issueCommentId = 70577360
+  }

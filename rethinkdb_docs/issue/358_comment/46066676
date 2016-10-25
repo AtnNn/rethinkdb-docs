@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-13) 22 : 26 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46066676"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/358#issuecomment-46066676"
+  , issueCommentCreatedAt = 2014 (-06) (-13) 22 : 26 : 42 UTC
+  , issueCommentBody =
+      "@coffeemug -- works for me.\r\n\r\nCould you just replace the hardcoded `next` with `v{{site.version.major}}.x`?"
+  , issueCommentId = 46066676
+  }

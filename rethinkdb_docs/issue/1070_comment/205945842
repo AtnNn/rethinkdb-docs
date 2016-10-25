@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-05) 18 : 49 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 75239
+        , simpleUserLogin = N "pdevine"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/75239?v=3"
+        , simpleUserUrl = "https://api.github.com/users/pdevine"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/205945842"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1070#issuecomment-205945842"
+  , issueCommentCreatedAt = 2016 (-04) (-05) 18 : 49 : 05 UTC
+  , issueCommentBody =
+      "Hey @danielmewes You should probably just close this PR and fix the doc manually.  I really just wanted to give you guys a heads up that there was a typo.  Thanks!"
+  , issueCommentId = 205945842
+  }

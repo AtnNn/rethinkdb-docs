@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-17) 00 : 21 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46254242"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/340#issuecomment-46254242"
+  , issueCommentCreatedAt = 2014 (-06) (-17) 00 : 21 : 56 UTC
+  , issueCommentBody =
+      "Done with https://github.com/rethinkdb/docs/pull/360"
+  , issueCommentId = 46254242
+  }

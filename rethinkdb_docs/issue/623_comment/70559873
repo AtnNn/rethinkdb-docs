@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-19) 21 : 01 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70559873"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/623#issuecomment-70559873"
+  , issueCommentCreatedAt = 2015 (-01) (-19) 21 : 01 : 36 UTC
+  , issueCommentBody =
+      "@jonathanong Can you explain that a bit more?\r\nThe problem is that with `null` you couldn't distinguish a query returning `null` (but potentially having more results) from the cursor being exhausted."
+  , issueCommentId = 70559873
+  }

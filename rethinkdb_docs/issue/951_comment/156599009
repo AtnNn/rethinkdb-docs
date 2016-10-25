@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-14) 00 : 29 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/156599009"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/951#issuecomment-156599009"
+  , issueCommentCreatedAt = 2015 (-11) (-14) 00 : 29 : 13 UTC
+  , issueCommentBody =
+      "Maybe we could add small icons to the sections that represent the major distributions for which the instructions apply? Probably for all the distributions that we list here http://rethinkdb.com/docs/install/ ?\r\n\r\nAdditionally, Ubuntu seems important enough to add an explicit warning box to the `systemd` section follow the `init.d` instructions instead on Ubuntu."
+  , issueCommentId = 156599009
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-19) 18 : 42 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/158151565"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/943#issuecomment-158151565"
+  , issueCommentCreatedAt = 2015 (-11) (-19) 18 : 42 : 53 UTC
+  , issueCommentBody =
+      "Reopening. @deontologician has just updated the Logstash plugin (https://github.com/rethinkdb/logstash-input-rethinkdb), so we need to actually update the article to describe how to use it with Elasticsearch.\r\n\r\n@deontologician and @chipotle could you connect please to make sure @chipotle has all the information he needs to write this?"
+  , issueCommentId = 158151565
+  }

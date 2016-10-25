@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-02) 23 : 03 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/237076347"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/500#issuecomment-237076347"
+  , issueCommentCreatedAt = 2016 (-08) (-02) 23 : 03 : 43 UTC
+  , issueCommentBody =
+      "@deoqc Sorry for my late response. `r.branch` would be the way to do this in ReQL.\r\nNote that there's a chance for a race-condition here, since you need to check uniqueness in two tables. You can atomically check for uniqueness in *one* table by simply trying to `insert` into it. The `insert` will fail if the primary key already exists, and otherwise perform the insert.\r\n\r\nRethinkDB doesn't support multi-table (or even multi-document) transactions, so in your case you might need to implement additional logic to resolve conflicts between concurrent inserts.\r\n\r\nIf you think that conflicting concurrent modifications will be rare, the `r.branch` solution where you do a `get` on each table might be good enough though.\r\n\r\nI'm not sure how this can be done in Thinky natively (pinging @neumino)."
+  , issueCommentId = 237076347
+  }

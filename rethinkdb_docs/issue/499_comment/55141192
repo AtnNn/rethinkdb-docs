@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-10) 16 : 21 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55141192"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/499#issuecomment-55141192"
+  , issueCommentCreatedAt = 2014 (-09) (-10) 16 : 21 : 21 UTC
+  , issueCommentBody =
+      "Here are the steps I have been using to test some things in VMs:\r\n1. `sudo curl -O 'http://people.centos.org/tru/devtools-2/' /etc/yum.repos.d/`\r\n2. `sudo sh -c 'echo \"enabled=1\" >> /etc/yum.repos.d/devtools-2.repo'`\r\n3. `sudo yum install openssl-devel devtoolset-2-gcc devtoolset-2-binutils devtoolset-2-gcc-c++`\r\n4. `scl enable devtoolset-2 bash` The new compiler is not the default, so this goes into an environment where it is.\r\n\r\nThen the usual:\r\n1. `git clone https://github.com/rethinkdb/rethinkdb.git`\r\n2. `cd rethinkdb`\r\n3. `./configure --allow-fetch`\r\n4. `make`"
+  , issueCommentId = 55141192
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-17) 06 : 51 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46272974"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/335#issuecomment-46272974"
+  , issueCommentCreatedAt = 2014 (-06) (-17) 06 : 51 : 38 UTC
+  , issueCommentBody =
+      "@AtnNn: this was unintentionally merged as part of the 1.13 push. Do you still have a concern about `lib64ncurses5-dev` -> `libncurses5-dev`?"
+  , issueCommentId = 46272974
+  }

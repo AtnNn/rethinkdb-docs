@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-29) 19 : 05 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 100886
+        , simpleUserLogin = N "jeregrine"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/100886?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jeregrine"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/116798304"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/796#issuecomment-116798304"
+  , issueCommentCreatedAt = 2015 (-06) (-29) 19 : 05 : 15 UTC
+  , issueCommentBody =
+      "No I have not. If you want to re-commit this as someone who has signed it,\nor yourself feel free.\n\nPlatformatech currently owns the copyright on the logo so you'd prolly want\nto talk to @josevalim first.\n\nOn Mon, Jun 29, 2015 at 1:25 PM, Watts Martin <notifications@github.com>\nwrote:\n\n> @jeregrine <https://github.com/jeregrine> -- Have you signed the\n> RethinkDB CLA <http://www.rethinkdb.com/community/cla/> yet? You don't\n> show up previously in git log --author, so I want to doublecheck.\n>\n> \8212\n> Reply to this email directly or view it on GitHub\n> <https://github.com/rethinkdb/docs/pull/796#issuecomment-116785065>.\n>\n"
+  , issueCommentId = 116798304
+  }

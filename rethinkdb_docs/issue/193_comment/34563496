@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-09) 02 : 29 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/34563496"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/193#issuecomment-34563496"
+  , issueCommentCreatedAt = 2014 (-02) (-09) 02 : 29 : 52 UTC
+  , issueCommentBody = "Great, thanks again @zyegfryed!"
+  , issueCommentId = 34563496
+  }

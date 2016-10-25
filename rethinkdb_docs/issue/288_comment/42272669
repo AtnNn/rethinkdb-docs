@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-06) 06 : 59 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/42272669"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-42272669"
+  , issueCommentCreatedAt = 2014 (-05) (-06) 06 : 59 : 09 UTC
+  , issueCommentBody =
+      "@Yoeori, from my end, the integration with the site was done correctly, nicely done.\r\n\r\nI've included a few notes on grammar / spelling within the instructions. Once those are corrected and @atnnn verifies the instructions work, we'll merge it in!"
+  , issueCommentId = 42272669
+  }

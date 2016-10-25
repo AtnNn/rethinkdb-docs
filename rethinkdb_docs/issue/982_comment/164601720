@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-15) 00 : 18 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/164601720"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/982#issuecomment-164601720"
+  , issueCommentCreatedAt = 2015 (-12) (-15) 00 : 18 : 00 UTC
+  , issueCommentBody =
+      "> Yes, the PNG file is optimized. :)\r\n\r\nThis made me chuckle Watts, may my PNG reign of terror know no end. :imp: \r\n\r\nI'll check this out tomorrow AM. "
+  , issueCommentId = 164601720
+  }

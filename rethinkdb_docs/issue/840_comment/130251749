@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-12) 10 : 32 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1430058
+        , simpleUserLogin = N "ntquyen"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1430058?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ntquyen"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/130251749"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/840#issuecomment-130251749"
+  , issueCommentCreatedAt = 2015 (-08) (-12) 10 : 32 : 49 UTC
+  , issueCommentBody =
+      "I wonder how the data sharding/partitioning is done when the primary key is of type array or different than string?"
+  , issueCommentId = 130251749
+  }

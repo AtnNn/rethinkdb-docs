@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-26) 06 : 15 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/56923514"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-56923514"
+  , issueCommentCreatedAt = 2014 (-09) (-26) 06 : 15 : 13 UTC
+  , issueCommentBody = "Yep, we missed this. /cc @chipotle "
+  , issueCommentId = 56923514
+  }

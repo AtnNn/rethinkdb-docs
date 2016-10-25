@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-17) 08 : 00 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46277988"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/364#issuecomment-46277988"
+  , issueCommentCreatedAt = 2014 (-06) (-17) 08 : 00 : 52 UTC
+  , issueCommentBody =
+      "FYI, the new instructions (to be uploaded tomorrow morning) will say `libncurses5-dev` and will drop `lib64ncurses5-dev`."
+  , issueCommentId = 46277988
+  }

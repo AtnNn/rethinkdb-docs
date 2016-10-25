@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-22) 21 : 47 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/213599661"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1023#issuecomment-213599661"
+  , issueCommentCreatedAt = 2016 (-04) (-22) 21 : 47 : 21 UTC
+  , issueCommentBody =
+      "@coffenbacher There is not currently. RethinkDB can be quite sensitive once parts of it are put into swap, so the warning is usually warranted. For example disconnects due to heartbeat timeouts are extremely common once parts of the rethinkdb process end up in swap.\r\n\r\nCould you reduce the RethinkDB cache size to below the default minimum value of 100 MB to maybe reduce the likelihood that it has to go into swap? This would probably give you a better performance trade-off.\r\n\r\nRegardless of whether there might be a way to reduce the usage of swap in your use case or not, is this issue getting in your way?"
+  , issueCommentId = 213599661
+  }

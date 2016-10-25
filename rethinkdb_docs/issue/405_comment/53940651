@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-29) 23 : 33 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 13807
+        , simpleUserLogin = N "miracle2k"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/13807?v=3"
+        , simpleUserUrl = "https://api.github.com/users/miracle2k"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53940651"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/405#issuecomment-53940651"
+  , issueCommentCreatedAt = 2014 (-08) (-29) 23 : 33 : 36 UTC
+  , issueCommentBody =
+      "> Just because we haven't implemented it yet.\r\n\r\nIs there a ticket where progress on this can be tracked? I couldn't find one."
+  , issueCommentId = 53940651
+  }

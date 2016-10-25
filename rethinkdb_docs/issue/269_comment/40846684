@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-18) 21 : 36 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40846684"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/269#issuecomment-40846684"
+  , issueCommentCreatedAt = 2014 (-04) (-18) 21 : 36 : 48 UTC
+  , issueCommentBody =
+      "Thanks - @ahruygt is still working on improving the illustration colors."
+  , issueCommentId = 40846684
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-11) 23 : 32 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51855084"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/439#issuecomment-51855084"
+  , issueCommentCreatedAt = 2014 (-08) (-11) 23 : 32 : 47 UTC
+  , issueCommentBody =
+      "@chipotle -- do you plan to add a new page for migrating indexes?\r\nOr do you plan to just add a paragraph on http://www.rethinkdb.com/docs/migration/ ?\r\n\r\nI need to link to the relevant page to the relevant pages on the web interface (for https://github.com/rethinkdb/rethinkdb/issues/2799)"
+  , issueCommentId = 51855084
+  }

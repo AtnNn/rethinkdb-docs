@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-04) 20 : 59 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/98848201"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/743#issuecomment-98848201"
+  , issueCommentCreatedAt = 2015 (-05) (-04) 20 : 59 : 26 UTC
+  , issueCommentBody =
+      "I'd like a little bit to put here in place of the current paragraph, which reads:\r\n\r\n> Available memory affects changefeed performance, and running multiple changefeeds on the same database may scale linearly at worst case. If you have an application with dozens (or hundreds or thousands) of clients that need real-time updating, rather than creating a changefeed for each client consider using a publish-subscribe model that distributes to the clients through a message exchange.\r\n\r\nIt sounds like the whole part about \"scale linearly at worst case\" isn't true, but if there are any concerns people should know about this would be the place to mention them. I can change the part about publis-subscribe to say something like \"If you need real-time updating for many clients with guaranteed delivery, consider using...\" Although that raises the question of what we do and don't guarantee with changefeeds and why (e.g., RabbitMQ offers scenarios where delivery acknowledgement is required and changefeeds don't)."
+  , issueCommentId = 98848201
+  }

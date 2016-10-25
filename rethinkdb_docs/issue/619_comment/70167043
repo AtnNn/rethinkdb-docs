@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-15) 21 : 39 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70167043"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/619#issuecomment-70167043"
+  , issueCommentCreatedAt = 2015 (-01) (-15) 21 : 39 : 59 UTC
+  , issueCommentBody =
+      "See #325. The \"get the source code\" section can be replaced by wget/untar and the build dependencies section is still required, but can be trimmed. I plan on doing this myself."
+  , issueCommentId = 70167043
+  }

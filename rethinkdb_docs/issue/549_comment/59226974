@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-15) 15 : 44 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59226974"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/549#issuecomment-59226974"
+  , issueCommentCreatedAt = 2014 (-10) (-15) 15 : 44 : 09 UTC
+  , issueCommentBody =
+      "Yes, you were. I honestly don't remember merging this request after uploading it. Argh. Sorry. Anyway, I'll ask about other config options -- those are the only ones I know of that are relevant to clusters."
+  , issueCommentId = 59226974
+  }

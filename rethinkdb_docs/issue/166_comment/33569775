@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-29) 09 : 49 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 801893
+        , simpleUserLogin = N "jurajmasar"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/801893?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jurajmasar"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33569775"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/166#issuecomment-33569775"
+  , issueCommentCreatedAt = 2014 (-01) (-29) 09 : 49 : 05 UTC
+  , issueCommentBody =
+      "Hello @mglukhovsky! Is there any news on this? Thanks!"
+  , issueCommentId = 33569775
+  }

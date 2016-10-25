@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-17) 23 : 52 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55978099"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/515#issuecomment-55978099"
+  , issueCommentCreatedAt = 2014 (-09) (-17) 23 : 52 : 07 UTC
+  , issueCommentBody =
+      "The first line of `between` is \"Get all documents between two keys.\" Maybe we can change this to use essentially the same wording: \"Get all documents between two dates\" and drop the bit about times. I don't think \"to return whether a date is between two other dates\" is the right phrasing; that sounds like it's a boolean test. The way it's phrased now really seems more explicit in describing `during` as an analogue to `between`."
+  , issueCommentId = 55978099
+  }

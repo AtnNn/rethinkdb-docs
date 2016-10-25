@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-01) 23 : 22 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144875607"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/907#issuecomment-144875607"
+  , issueCommentCreatedAt = 2015 (-10) (-01) 23 : 22 : 27 UTC
+  , issueCommentBody =
+      "> Is it worth editing the API signature for between and order_by to reflect that they do not return \"selection\" but actually return \"table_slice\"?\r\n\r\nProbably; otherwise it isn't obvious you can chain them after each other."
+  , issueCommentId = 144875607
+  }

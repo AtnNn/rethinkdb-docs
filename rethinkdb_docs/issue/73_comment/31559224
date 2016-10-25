@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-03) 22 : 29 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31559224"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/73#issuecomment-31559224"
+  , issueCommentCreatedAt = 2014 (-01) (-03) 22 : 29 : 32 UTC
+  , issueCommentBody =
+      "@coffeemug -- I think that case is a little different.  I sort of feel like ordering by an index shouldn't change the number of rows.  (Actually, ordering by a multi-index should change the number of rows, but aside from that I feel like it shouldn't.)"
+  , issueCommentId = 31559224
+  }

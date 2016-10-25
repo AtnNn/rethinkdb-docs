@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-22) 03 : 28 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29046439"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/94#issuecomment-29046439"
+  , issueCommentCreatedAt = 2013 (-11) (-22) 03 : 28 : 31 UTC
+  , issueCommentBody =
+      "I think I addressed all the comments people made.  @mglukhovsky -- let me know if things are approved so that I can copy-paste them around.\r\n\r\n(Also, since the 1.11 release is coming up super soon and this includes documentation of new features, I think we should wait to merge this in until the release.)"
+  , issueCommentId = 29046439
+  }

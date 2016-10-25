@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-19) 07 : 14 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94247713"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/718#issuecomment-94247713"
+  , issueCommentCreatedAt = 2015 (-04) (-19) 07 : 14 : 10 UTC
+  , issueCommentBody =
+      "Hi @betrisey, thanks for the pull request. If you haven't done this yet, would you mind signing our CLA? http://www.rethinkdb.com/community/cla/\r\n\r\n(pinging @chipotle for review)"
+  , issueCommentId = 94247713
+  }

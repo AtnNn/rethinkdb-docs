@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-18) 18 : 59 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103176770"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/760#issuecomment-103176770"
+  , issueCommentCreatedAt = 2015 (-05) (-18) 18 : 59 : 48 UTC
+  , issueCommentBody =
+      "Here is the documentation internal to the driver:\r\n```\r\n# Connection is a subclass of\r\n# [EventEmitter](http://nodejs.org/api/events.html#events_class_events_eventemitter),\r\n# and it will emit the following events:\r\n#\r\n# - `\"connect\"` is emitted by the subclasses `TcpConnection` and\r\n#   `HttpConnection` when they connect to the server successfully.\r\n# - `\"error\"` is emitted when protocol level errors occur (notably\r\n#    not query errors! Those are returned as arguments to the\r\n#    callback the user provides.) `\"error\"` will also be accompanied\r\n#    by a message indicating what went wrong.\r\n# - `\"close\"` is emitted when the connection is closed either through\r\n#    an error or by the user calling `connection.close()` explicitly\r\n# - `\"timeout\"` will be emitted by the `TcpConnection` subclass if the\r\n#    underlying socket times out for any reason.\r\n```"
+  , issueCommentId = 103176770
+  }

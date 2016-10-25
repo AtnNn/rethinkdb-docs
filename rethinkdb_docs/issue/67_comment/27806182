@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-05) 19 : 51 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 43867
+        , simpleUserLogin = N "jdoliner"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/43867?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jdoliner"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27806182"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/67#issuecomment-27806182"
+  , issueCommentCreatedAt = 2013 (-11) (-05) 19 : 51 : 37 UTC
+  , issueCommentBody =
+      "Yes, you should be able to find an example of the docs in the rethinkdb/rethinkdb repo history. It was in module.yaml."
+  , issueCommentId = 27806182
+  }

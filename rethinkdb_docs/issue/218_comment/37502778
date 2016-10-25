@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 06 : 04 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37502778"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/218#issuecomment-37502778"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 06 : 04 : 42 UTC
+  , issueCommentBody =
+      "I think that since @neumino is currently the defacto maintainer of the docs *and* the Javascript driver, he should have the final say over style when there are disagreements.\r\n\r\nAs far as my own opinion, I like @neumino's style more, but I think the point is moot because both aren't great. As soon as we get a dedicated docs maintainer, I think we should add visual support/control for expanding/collapsing sample input and output in the browser. We have to do the best we can for now, but I don't think we should worry about it too much.\r\n\r\nAlso -- I approve the review. I've given it a cursory glance (I have a *really* long day tomorrow and have to get to bed, which is challenging enough). Depending on how detailed @mlucy's review is, perhaps one more person (@atnnn?) should look at it."
+  , issueCommentId = 37502778
+  }

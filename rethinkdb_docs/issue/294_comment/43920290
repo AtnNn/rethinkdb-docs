@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 17 : 42 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43920290"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/294#issuecomment-43920290"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 17 : 42 : 37 UTC
+  , issueCommentBody =
+      "Sure, although I'll need steering on that. It may indeed be a few days\r\ndepending. :)\r\n\r\n\r\nOn Thu, May 22, 2014 at 10:32 AM, Michel <notifications@github.com> wrote:\r\n\r\n> A sequence can be a table, selection, stream, array. At least, this is\r\n> the current definition I am using in the data explorer:\r\n>\r\n> https://github.com/rethinkdb/rethinkdb/blob/next/admin/static/coffee/dataexplorer.coffee#L318\r\n>\r\n> And table.concat_map(function) would not return a table.\r\n>\r\n> The syntax you have in your branch now looks good to me\r\n>\r\n> stream.concat_map(function) -> stream\r\n> array.concat_map(function) -> array\r\n>\r\n> There is an issue for types that I wanted to do for quite some time but\r\n> somehow never found time to do it.\r\n>\r\n> @chipotle <https://github.com/chipotle> -- do you want try to tacke this?\r\n> I was planning to wait a few days for you to get a little more familiar\r\n> with RethinkDB but if you want to give a try, you are welcome to do so :)\r\n> #40 <https://github.com/rethinkdb/docs/issues/40>\r\n> I would be happy to help too.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub<https://github.com/rethinkdb/docs/issues/294#issuecomment-43919083>\r\n> .\r\n>"
+  , issueCommentId = 43920290
+  }

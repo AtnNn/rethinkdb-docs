@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-09) 21 : 44 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45548420"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/276#issuecomment-45548420"
+  , issueCommentCreatedAt = 2014 (-06) (-09) 21 : 44 : 58 UTC
+  , issueCommentBody =
+      "Merged into `v1.13` in commits 43a636c, a66d841, and dffdfce (see pull request #277)."
+  , issueCommentId = 45548420
+  }

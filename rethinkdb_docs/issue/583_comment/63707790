@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 20 : 28 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63707790"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/583#issuecomment-63707790"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 20 : 28 : 54 UTC
+  , issueCommentBody =
+      "Thank you for the fix @paramaggarwal ! It looks good.\r\n\r\n@chipotle can you merge and deploy this?"
+  , issueCommentId = 63707790
+  }

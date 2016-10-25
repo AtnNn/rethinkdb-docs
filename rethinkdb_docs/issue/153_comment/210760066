@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-16) 07 : 53 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10737628
+        , simpleUserLogin = N "rchordiya"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10737628?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rchordiya"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/210760066"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/153#issuecomment-210760066"
+  , issueCommentCreatedAt = 2016 (-04) (-16) 07 : 53 : 06 UTC
+  , issueCommentBody =
+      "I think this issue is already resolved by providing GitHub link at the bottom of every docs under the\r\nheading \"Star this project on GitHub\" am I right? or do we need to add something else?"
+  , issueCommentId = 210760066
+  }

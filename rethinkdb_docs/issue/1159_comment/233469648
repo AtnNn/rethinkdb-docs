@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-18) 21 : 49 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/233469648"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1159#issuecomment-233469648"
+  , issueCommentCreatedAt = 2016 (-07) (-18) 21 : 49 : 20 UTC
+  , issueCommentBody =
+      "Thanks for bringing it up and opening an issue!\r\n\r\nWe were indeed discussing this in https://github.com/rethinkdb/rethinkdb/issues/3992 but then lost track and didn't end up adding additional documentation (if I remember correctly). We should definitely do so. Pinging @chipotle ."
+  , issueCommentId = 233469648
+  }

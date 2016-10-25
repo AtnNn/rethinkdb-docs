@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-18) 21 : 38 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/233467068"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/500#issuecomment-233467068"
+  , issueCommentCreatedAt = 2016 (-07) (-18) 21 : 38 : 16 UTC
+  , issueCommentBody =
+      "@deoqc Is `>>[save]` a ReQL query? (e.g. `r.table(...).insert(...)`) or does it call Thinky functions directly? If it calls into Thinky, it might not run as part of the `branch` query, but will instead be executed once on the client-side, no matter what the branch is evaluated to."
+  , issueCommentId = 233467068
+  }

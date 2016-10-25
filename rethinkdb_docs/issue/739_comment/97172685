@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-28) 19 : 09 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97172685"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/739#issuecomment-97172685"
+  , issueCommentCreatedAt = 2015 (-04) (-28) 19 : 09 : 28 UTC
+  , issueCommentBody =
+      "@istiakk is this an example from the documentation?\r\n\r\nThe problem is probably with this line:\r\n```\r\nr.expr('total_page_loads').div('total_clicks')\r\n```\r\n\r\nYou're trying to divide two strings there. I assume this might be what you want:\r\n```js\r\nr.object(\r\n  \"total_page_loads\",\r\n  r.table(\"test_db\")(\"page_loads\").sum(),\r\n  \"total_clicks\",\r\n  r.table(\"test_db\")(\"clicks\").sum(),\r\n).merge({\r\n  aggre: r.row('total_page_loads').div(r.row('total_clicks'))\r\n})\r\n```\r\n\r\nor even simpler without `r.object`:\r\n```js\r\nr.expr({\r\n  \"total_page_loads\": r.table(\"test_db\")(\"page_loads\").sum(),\r\n  \"total_clicks\": r.table(\"test_db\")(\"clicks\").sum()\r\n}).merge({\r\n  aggre: r.row('total_page_loads').div(r.row('total_clicks'))\r\n})\r\n```\r\n\r\nNote that we have do compute `total_page_loads` and `total_clicks` first before we can refer to them in the next term."
+  , issueCommentId = 97172685
+  }

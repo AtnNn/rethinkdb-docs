@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-29) 21 : 31 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1688239
+        , simpleUserLogin = N "rundowncreator"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1688239?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rundowncreator"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144197350"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/905#issuecomment-144197350"
+  , issueCommentCreatedAt = 2015 (-09) (-29) 21 : 31 : 50 UTC
+  , issueCommentBody =
+      "Oh... I didn't realize the config options varied based on the language.  I'm using RethinkDB with PHP.  I'll switch to the Python docs.  Those seem to match up."
+  , issueCommentId = 144197350
+  }

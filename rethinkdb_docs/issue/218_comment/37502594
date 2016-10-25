@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 05 : 59 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37502594"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/218#issuecomment-37502594"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 05 : 59 : 18 UTC
+  , issueCommentBody =
+      "@mlucy Do you prefer this style?https://github.com/rethinkdb/docs/commit/020e3a1e92f1238b81c4b652efdefb7219ca426d#diff-ed1353106c39fa67e9bfed02a1256f45R1134\r\n\r\n"
+  , issueCommentId = 37502594
+  }

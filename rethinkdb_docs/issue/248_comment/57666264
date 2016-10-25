@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-02) 17 : 27 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57666264"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-57666264"
+  , issueCommentCreatedAt = 2014 (-10) (-02) 17 : 27 : 55 UTC
+  , issueCommentBody =
+      "It looks like the default values ensure that the initial batch will be one row -- `max_batch_rows` and `first_batch_scaledown_factor` are both 8. If you adjust `max_batch_rows` is there guidance we should give on what to change the scaledown factor to? Is there really an advantage to making `first_batch_scaledown_factor` user-tunable, rather than just automatically setting it to be the same as `max_batch_rows`? And if so, would you ever want to set it to anything other than `max_batch_rows` or 1, which (I think) would make the first batch perform the same as the following batches?"
+  , issueCommentId = 57666264
+  }

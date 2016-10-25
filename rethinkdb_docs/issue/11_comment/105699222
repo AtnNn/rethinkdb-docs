@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-26) 23 : 47 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/105699222"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-105699222"
+  , issueCommentCreatedAt = 2015 (-05) (-26) 23 : 47 : 42 UTC
+  , issueCommentBody =
+      "Now that we have changefeeds, `rethinkdb proxy` is extremely useful because it lets us deduplicate changefeed traffic between the actual cluster and the machine hosting the clients.  I think we should probably keep it, and should definitely document it in the meantime.  (If we decide not to keep it, we should make sure we have another way of deduplicating changefeed messages before dropping it.)\r\n\r\n@chipotle asked for a brief overview of what `rethinkdb proxy` does.  Basically it adds a node to the cluster that doesn't store any data.  So you can run this node on the same machine as your clients and connect to it over localhost.  This has three main uses:\r\n* It can save intracluster network traffic by routing your query straight to the correct machine.\r\n* It can do some processing itself, lessening CPU load on machines that store data on disk.\r\n* It can deduplicate changefeed messages send to it by other nodes in the cluster."
+  , issueCommentId = 105699222
+  }

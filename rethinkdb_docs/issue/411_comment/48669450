@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-10) 21 : 51 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7375749
+        , simpleUserLogin = N "KittyBot"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7375749?v=3"
+        , simpleUserUrl = "https://api.github.com/users/KittyBot"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48669450"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/411#issuecomment-48669450"
+  , issueCommentCreatedAt = 2014 (-07) (-10) 21 : 51 : 42 UTC
+  , issueCommentBody =
+      "I would like to tweet about these images. Let me know when this is ready and we can fashion it to 140 characters or less :) "
+  , issueCommentId = 48669450
+  }

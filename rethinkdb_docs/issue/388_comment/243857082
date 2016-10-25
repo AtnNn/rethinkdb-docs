@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-31) 18 : 30 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243857082"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/388#issuecomment-243857082"
+  , issueCommentCreatedAt = 2016 (-08) (-31) 18 : 30 : 13 UTC
+  , issueCommentBody =
+      "While I'm being conservative with what I delete, I took out rethinkdb-co, rdb-cursor-stream, and connect-rethinkdb due to obvious lack of maintenance and incompatibility reports with current RethinkDB versions, and also took out JugglingDB-RethinkDB due to the warnings in its README file which include, literally, \"JugglingDB is awfully maintained and I suggest you use another ORM.\""
+  , issueCommentId = 243857082
+  }

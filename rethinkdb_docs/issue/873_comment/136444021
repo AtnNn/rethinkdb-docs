@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-31) 17 : 54 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/136444021"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/873#issuecomment-136444021"
+  , issueCommentCreatedAt = 2015 (-08) (-31) 17 : 54 : 54 UTC
+  , issueCommentBody =
+      "Thanks for bringing this up @freiksenet.\r\nThis used to apply on the cluster level, since having a lot of tables/shards made meta operations (such as reconfiguring a table) slow. This limitation should no longer exist in RethinkDB 2.1, but I'm going to double check."
+  , issueCommentId = 136444021
+  }

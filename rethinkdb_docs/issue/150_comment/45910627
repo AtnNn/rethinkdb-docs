@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-12) 15 : 55 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45910627"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/150#issuecomment-45910627"
+  , issueCommentCreatedAt = 2014 (-06) (-12) 15 : 55 : 33 UTC
+  , issueCommentBody =
+      "Looking at the merge, I don't think that this is needed anymore, since the drivers no longer use ProtoBufs. Unless we are going to re-purpose this to re-write that file to reflect the new reality."
+  , issueCommentId = 45910627
+  }

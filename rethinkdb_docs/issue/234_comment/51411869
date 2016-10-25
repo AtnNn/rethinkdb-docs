@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 23 : 29 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51411869"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/234#issuecomment-51411869"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 23 : 29 : 26 UTC
+  , issueCommentBody =
+      "Sorry about #438, that was a duplicate of this issue."
+  , issueCommentId = 51411869
+  }

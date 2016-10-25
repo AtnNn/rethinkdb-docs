@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-16) 21 : 54 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140905820"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/887#issuecomment-140905820"
+  , issueCommentCreatedAt = 2015 (-09) (-16) 21 : 54 : 26 UTC
+  , issueCommentBody =
+      "This is essentially #598, complete with the same links, I think."
+  , issueCommentId = 140905820
+  }

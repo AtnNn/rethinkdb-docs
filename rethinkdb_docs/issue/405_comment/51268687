@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-05) 22 : 21 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51268687"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/405#issuecomment-51268687"
+  , issueCommentCreatedAt = 2014 (-08) (-05) 22 : 21 : 00 UTC
+  , issueCommentBody =
+      "The docs for `between` say it should return a selection, which I didn't think could be a table. Are there are any other commands this happens for, and is it something we should really have in the documentation? I was planning to address this by writing \"Currently, you cannot chain an `orderBy` using a secondary index after a `getAll` but only after a `table` (or another command that returns the `TABLE` data type)\" as one of the limitations, but would that be describing correct behavior, or describing current but incorrect-and-to-be-fixed behavior?"
+  , issueCommentId = 51268687
+  }

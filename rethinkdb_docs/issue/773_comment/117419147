@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-01) 03 : 02 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/117419147"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/773#issuecomment-117419147"
+  , issueCommentCreatedAt = 2015 (-07) (-01) 03 : 02 : 50 UTC
+  , issueCommentBody =
+      "https://github.com/rethinkdb/docs/blob/v2.1/0-about-rethinkdb/limitations.md also refers to \"the upcoming release of RethinkDB (2.1)\"."
+  , issueCommentId = 117419147
+  }

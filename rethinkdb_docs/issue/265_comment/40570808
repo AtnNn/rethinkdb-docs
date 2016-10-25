@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-16) 07 : 31 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40570808"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/265#issuecomment-40570808"
+  , issueCommentCreatedAt = 2014 (-04) (-16) 07 : 31 : 11 UTC
+  , issueCommentBody =
+      "Sorry for the error @ravi, I just pushed a fix for `durability` in `tableCreate`.\r\n\r\nLet us know if you have more questions."
+  , issueCommentId = 40570808
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-06) 20 : 56 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/36935829"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/209#issuecomment-36935829"
+  , issueCommentCreatedAt = 2014 (-03) (-06) 20 : 56 : 15 UTC
+  , issueCommentBody =
+      "The broken link was driving me crazy, so I temporarily removed it (the link to the code is still there). Closing this issue -- @Joe8Bit -- if the example comes back up, could you open another issue/pull request and we'll add the link back?"
+  , issueCommentId = 36935829
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-16) 04 : 37 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40562122"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/265#issuecomment-40562122"
+  , issueCommentCreatedAt = 2014 (-04) (-16) 04 : 34 : 34 UTC
+  , issueCommentBody =
+      "The example is wrong, it should be `{durability: 'soft'}`.\r\n\r\nThanks for reporting it, I'll fix that."
+  , issueCommentId = 40562122
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-20) 21 : 28 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35671053"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/203#issuecomment-35671053"
+  , issueCommentCreatedAt = 2014 (-02) (-20) 21 : 28 : 38 UTC
+  , issueCommentBody =
+      "As you have noticed, the javascript api uses camelCase instead of under_scores."
+  , issueCommentId = 35671053
+  }

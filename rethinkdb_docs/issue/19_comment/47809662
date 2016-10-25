@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-02) 17 : 36 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47809662"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/19#issuecomment-47809662"
+  , issueCommentCreatedAt = 2014 (-07) (-02) 17 : 36 : 38 UTC
+  , issueCommentBody =
+      "It looks like the general consensus was to document `r.any` and `r.all` for Python and Ruby, but note that they're deprecated in favor of `r.or(_)` and `r.and(_)`. Is that right? And `any` and `all` are prefix commands rather than infix, so: `r.any(True,False)` rather than `r,.expr(True).or(False)`?"
+  , issueCommentId = 47809662
+  }

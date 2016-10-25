@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-02) 23 : 22 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/153190257"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/935#issuecomment-153190257"
+  , issueCommentCreatedAt = 2015 (-11) (-02) 23 : 20 : 46 UTC
+  , issueCommentBody =
+      "There's also the alternative of using a `map` for finding and modifying the element in a single pass. It shouldn't make a difference for performance, but is sometimes nicer to write:\r\n\r\n```js\r\nlet update =\r\n  r.table(\"posts\")\r\n   .get(post_id)\r\n   .update({\r\n     comments: r.row(\"comments\").map((comment) => {\r\n         return r.branch(\r\n             comment(\"id\").eq(comment_id),\r\n             {test: 'updated!'},\r\n             {}\r\n         );\r\n       })\r\n   })\r\n```\r\n\r\nOne problem specific to the code above is that it fetches the post twice, once for `findCommentIndex` and once for `update`. This means that the operation is not atomic, and things might go wrong if there are any concurrent modifications to the post. The `map` version shown here doesn't have that problem."
+  , issueCommentId = 153190257
+  }

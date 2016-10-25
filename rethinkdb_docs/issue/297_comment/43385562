@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-16) 22 : 19 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43385562"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/297#issuecomment-43385562"
+  , issueCommentCreatedAt = 2014 (-05) (-16) 22 : 19 : 37 UTC
+  , issueCommentBody =
+      "@neumino -- to be clear, would you want `r.do` to take at least two arguments? For example, would you be ok with `r.expr(1).do(r.expr(1))`? I think that would be a reasonable change to make."
+  , issueCommentId = 43385562
+  }

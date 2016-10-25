@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 20 : 46 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43941832"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/294#issuecomment-43941832"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 20 : 46 : 15 UTC
+  , issueCommentBody =
+      "> Well, we should probably document the data types in user documentation [...] and we should probably start the API index files with something that explains the way to read the signatures.\r\n\r\nAgreed! I just opened #310 to track that."
+  , issueCommentId = 43941832
+  }

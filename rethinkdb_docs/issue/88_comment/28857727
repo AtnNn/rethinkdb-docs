@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-20) 01 : 57 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28857727"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/88#issuecomment-28857727"
+  , issueCommentCreatedAt = 2013 (-11) (-20) 01 : 57 : 22 UTC
+  , issueCommentBody =
+      "All mentions of `float` have been replaced with `double`."
+  , issueCommentId = 28857727
+  }

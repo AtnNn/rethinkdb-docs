@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-15) 23 : 00 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 17789
+        , simpleUserLogin = N "gchpaco"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17789?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gchpaco"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/67083011"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/607#issuecomment-67083011"
+  , issueCommentCreatedAt = 2014 (-12) (-15) 23 : 00 : 40 UTC
+  , issueCommentBody =
+      "FYI: MySQL is extremely confusing about this, but it is possible to do and it appears to use the bare Unicode Collation Algorithm as defined in Unicode technical standard 10, with tailoring by adding new character sets (?!).  I think something like this could be adapted for our use, but that's strictly speaking another ticket entirely."
+  , issueCommentId = 67083011
+  }

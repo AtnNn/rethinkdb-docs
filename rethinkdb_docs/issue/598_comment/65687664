@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-04) 19 : 26 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65687664"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/598#issuecomment-65687664"
+  , issueCommentCreatedAt = 2014 (-12) (-04) 19 : 26 : 44 UTC
+  , issueCommentBody =
+      "Nice idea @thelinuxlich .\r\n\r\nSee https://github.com/rethinkdb/rethinkdb/issues/1863#issue-25564559 . It's a relatively complicated thing and would need some work to really explain what it does and how to use it.\r\n\r\nI think there are some lower-hanging fruits in terms of expanding our documentation at the moment, but we should keep it in mind."
+  , issueCommentId = 65687664
+  }

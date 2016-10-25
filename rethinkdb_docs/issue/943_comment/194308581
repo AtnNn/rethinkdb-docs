@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-09) 14 : 02 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 16738382
+        , simpleUserLogin = N "stevns"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/16738382?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stevns"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/194308581"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/943#issuecomment-194308581"
+  , issueCommentCreatedAt = 2016 (-03) (-09) 14 : 02 : 32 UTC
+  , issueCommentBody =
+      "into rethinkDB? If so this is grande. Is this proprietary or can you share this?"
+  , issueCommentId = 194308581
+  }

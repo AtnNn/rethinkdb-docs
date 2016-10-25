@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-13) 23 : 29 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/79526489"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/675#issuecomment-79526489"
+  , issueCommentCreatedAt = 2015 (-03) (-13) 23 : 29 : 23 UTC
+  , issueCommentBody =
+      "@chipotle and I looked at this a little closer. It looks like the Python `docs.py` file in `next` is just very old. The `v1.16.2` branch has this, so my guess is that we have only been updating the release branches for a while.\r\n\r\n@chipotle is going to drop the latest version into `next` to fix this for the moment."
+  , issueCommentId = 79526489
+  }

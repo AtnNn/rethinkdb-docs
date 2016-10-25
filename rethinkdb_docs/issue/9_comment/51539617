@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-07) 22 : 13 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51539617"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-51539617"
+  , issueCommentCreatedAt = 2014 (-08) (-07) 22 : 13 : 39 UTC
+  , issueCommentBody =
+      "I have a skeleton document on this, but there are a lot of question marks to fill in -- most of which are based on questions raised in comments here that aren't explicitly answered anywhere. The answers to a lot of them might be \"it depends.\" :)\r\n\r\n- maximum number of databases per cluster\r\n- max number of shards\r\n- max number of tables per database or cluster ( \"< 1000\" was mentioned above, but...?)\r\n- max size of a document in a table (10M was mentioned, but that's not correct)\r\n- max size of a query (64M?)\r\n- minimum required storage per database\r\n- minimum required storage per table\r\n\r\n...and any other hard limits that I should include. MongoDB's page on this is pretty detailed, getting into things like how long table, DB and field names can be."
+  , issueCommentId = 51539617
+  }

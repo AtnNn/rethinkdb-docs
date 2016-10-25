@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 00 : 12 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43833050"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/294#issuecomment-43833050"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 00 : 12 : 22 UTC
+  , issueCommentBody =
+      "> I'm not sure what the rationale is for having two signatures, one that takes an array and one that takes a sequence; according to the data type docs I can find (rethinkdb/rethinkdb#1337), an array is a kind of sequence, right?\r\n\r\nYeah, the current docs are bad.  We use \"sequence\" to mean \"array or stream\".\r\n"
+  , issueCommentId = 43833050
+  }

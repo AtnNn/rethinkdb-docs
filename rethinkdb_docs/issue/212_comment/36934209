@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-06) 20 : 41 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/36934209"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/212#issuecomment-36934209"
+  , issueCommentCreatedAt = 2014 (-03) (-06) 20 : 41 : 19 UTC
+  , issueCommentBody =
+      "Can you link to an example where the code is all black? I actually see proper highlighting. (Do you mean that our color scheme is too grey, or that highlighting doesn't work?)"
+  , issueCommentId = 36934209
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-06) 22 : 39 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62064691"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/575#issuecomment-62064691"
+  , issueCommentCreatedAt = 2014 (-11) (-06) 22 : 39 : 08 UTC
+  , issueCommentBody =
+      "I might have implemented it, but I don't remember doing it.  It *should* have the same semantics as `index:'multi'` -- if the value of the field is an array, it considers it to belong to multiple groups (one for each element of the array), and if the field is any other type it treats that value as the group (rather than erroring).  It's debatable whether that's the best behavior, but that's what we're doing for indexes so we should do the same thing here.\r\n\r\nIf you're grouping by multiple fields, I would expect it to compute the cross product of all the indexes for the two fields and treat that as the set of groups for the row."
+  , issueCommentId = 62064691
+  }

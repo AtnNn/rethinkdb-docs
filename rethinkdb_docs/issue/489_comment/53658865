@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-28) 00 : 19 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53658865"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/489#issuecomment-53658865"
+  , issueCommentCreatedAt = 2014 (-08) (-28) 00 : 19 : 41 UTC
+  , issueCommentBody =
+      "Ah! I didn't know it was a real thing, my mistake. But I'm not sure I'll be the only making it -- `httpbin.org/get` looks like some kind of typo where the `://` got left out. I genuinely thought this was some kind of search and replace error. How about `http://httpbin.org/get` to make it clearer?"
+  , issueCommentId = 53658865
+  }

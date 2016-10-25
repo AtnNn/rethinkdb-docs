@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-06) 17 : 57 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58059668"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/533#issuecomment-58059668"
+  , issueCommentCreatedAt = 2014 (-10) (-06) 17 : 57 : 31 UTC
+  , issueCommentBody =
+      "Looking at the `r.row` documentation, this is actually mentioned there; it may just need to be rephrased. (I think a lot of our earlier documentation uses \"examples\" to show things that aren't mentioned anywhere else, and this is one of those cases.)"
+  , issueCommentId = 58059668
+  }

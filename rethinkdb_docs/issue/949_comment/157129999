@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-16) 18 : 35 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/157129999"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/949#issuecomment-157129999"
+  , issueCommentCreatedAt = 2015 (-11) (-16) 18 : 35 : 56 UTC
+  , issueCommentBody =
+      "It's also missing from http://rethinkdb.com/docs/async-connections/#python-with-tornado-or-twisted . Pinging @Tryneus for example code."
+  , issueCommentId = 157129999
+  }

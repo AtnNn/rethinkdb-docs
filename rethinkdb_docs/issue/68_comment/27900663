@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-06) 18 : 38 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27900663"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/68#issuecomment-27900663"
+  , issueCommentCreatedAt = 2013 (-11) (-06) 18 : 38 : 16 UTC
+  , issueCommentBody =
+      "Hum, I forgot to add an assets directory in the docs repo, so it's not possible for now.\r\nI just opened an issue for that -- https://github.com/rethinkdb/docs/issues/69\r\n\r\n@bitemyapp we'll take care of updating the docs for the Clojure driver for now.\r\nAwesome work by the way : )\r\n\r\n@mglukhovsky would you mind taking care of this update?"
+  , issueCommentId = 27900663
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-11) 20 : 02 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51832537"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/444#issuecomment-51832537"
+  , issueCommentCreatedAt = 2014 (-08) (-11) 20 : 01 : 46 UTC
+  , issueCommentBody =
+      "I should add that because of rethinkdb/rethinkdb#2791 `index_status` and `index_wait` now also return `multi` and `outdated` (both bools), corresponding to the `multi` optarg when the index was created, and whether the index is outdated in the current version of rethinkdb (respectively).\r\n\r\nYour understanding of this looks correct to me.  To answer your questions:\r\n\r\nUse cases:\r\n* You can export your secondary indexes alongside your data (for backup purposes), and restore them later.\r\n* You can create a new index on another table using the same function without knowing what the code is\r\n* This allows the rebuilding of outdated indexes with a fairly simple script\r\n\r\n`index_status` should return the `function`, `multi`, and `outdated` fields even if the index is not ready."
+  , issueCommentId = 51832537
+  }

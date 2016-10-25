@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-25) 22 : 59 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47169834"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/354#issuecomment-47169834"
+  , issueCommentCreatedAt = 2014 (-06) (-25) 22 : 59 : 46 UTC
+  , issueCommentBody =
+      "> I don't know about Ruby.\r\n\r\nIs the scope of this issue just adding a method to return a string containing a pretty-printed representation of the query?  If so, you can do this in Ruby already with `.inspect`."
+  , issueCommentId = 47169834
+  }

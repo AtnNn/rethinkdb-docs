@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-11) 21 : 30 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/111282790"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/787#issuecomment-111282790"
+  , issueCommentCreatedAt = 2015 (-06) (-11) 21 : 30 : 40 UTC
+  , issueCommentBody =
+      "If a shard is missing all of its replicas and then `unsafe_rollback_or_erase` is specified, then an arbitrary living replica will be chosen from a different shard, and the broken shard will be moved to that replica; and yes, just that single one.\r\n\r\nFor example, suppose shard 1 has replicas on machines `A` and `B`, and shard 2 has replicas on machines `C` and `D`. Now machines `A` and `B` disconnect, and the user runs `unsafe_rollback_and_erase`. Shard 1 will become empty and it will be hosted on `C` or `D` (but not both), while shard 2 will stay the way it is."
+  , issueCommentId = 111282790
+  }

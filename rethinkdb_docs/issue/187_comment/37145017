@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-10) 00 : 15 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37145017"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/187#issuecomment-37145017"
+  , issueCommentCreatedAt = 2014 (-03) (-10) 00 : 15 : 19 UTC
+  , issueCommentBody =
+      "Err. @neumino -- the update is great, but @mlucy also completely rewrote the docs for `reduce` as part of writing GMR docs. Sorry I didn't catch this and you guys had to do double work.\r\n\r\nI would suggest waiting on this pull request until the GMR docs get merged, and then diff the two and see if any of the changes here still make sense to add to the new docs."
+  , issueCommentId = 37145017
+  }

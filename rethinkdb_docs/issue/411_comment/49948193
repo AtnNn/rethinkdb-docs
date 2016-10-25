@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-23) 23 : 05 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49948193"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/411#issuecomment-49948193"
+  , issueCommentCreatedAt = 2014 (-07) (-23) 23 : 05 : 56 UTC
+  , issueCommentBody =
+      "This looks like it's an overlap with #413, except for the change feeds images, so I'm closing it."
+  , issueCommentId = 49948193
+  }

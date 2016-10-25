@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 21 : 28 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37589179"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/220#issuecomment-37589179"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 21 : 28 : 54 UTC
+  , issueCommentBody = "Fixed the bare backticks."
+  , issueCommentId = 37589179
+  }

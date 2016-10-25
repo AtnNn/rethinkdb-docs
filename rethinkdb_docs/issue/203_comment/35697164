@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-21) 03 : 58 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35697164"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/203#issuecomment-35697164"
+  , issueCommentCreatedAt = 2014 (-02) (-21) 03 : 58 : 27 UTC
+  , issueCommentBody =
+      "> This may be a terrible idea, but what if we defined all the `under_score` functions in js to throw an error saying to us `camelCase`?\r\n\r\nI think that in the absence of `methodMissing` this idea is repugnant to all the values we hold dear as a people. (i.e. I'm strongly opposed to it)"
+  , issueCommentId = 35697164
+  }

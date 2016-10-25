@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-20) 19 : 19 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46716580"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/157#issuecomment-46716580"
+  , issueCommentCreatedAt = 2014 (-06) (-20) 19 : 19 : 48 UTC
+  , issueCommentBody =
+      "The nested field syntax is documented in a cookbook recipe and I think it's referenced in a lot of commands. Are there other API docs where this needs to be added that you know off the top of your head?\r\n\r\nAlso, I've noticed that ReQL docs use \"filter\" where I'd be used to seeing \"query' in discussing SQL, as in \"filtering by date range\" rather than \"querying by date range.\" I know a lot of times you'd be using the `filter` command as the equivalent of `WHERE`, but I'm wondering if that section of the cookbook might be better called \"Querying\" or \"Selecting\" rather than \"Filtering\" to indicate that not everything covered in it is specific to the `filter` command -- the \"Filtering based on nested fields\" bit referenced here is more broadly applicable. It's more \"Specifying nested fields\" or \"Selecting on nested fields,\" isn't it?"
+  , issueCommentId = 46716580
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-02) 02 : 47 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1620357
+        , simpleUserLogin = N "nguyendn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1620357?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nguyendn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57574295"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/532#issuecomment-57574295"
+  , issueCommentCreatedAt = 2014 (-10) (-02) 02 : 45 : 41 UTC
+  , issueCommentBody =
+      "I'm using v.1.15 \r\n- The UI Admin: It works with both `return_changes` and `returnChanges`\r\n- The Js driver:  Only `return_changes` works, with returnChanges I have this error: `Unrecognized optional argument ``returnChanges``  `\r\n\r\n```\r\nframes: Array[0]length: 0__proto__: Array[0]message: \"Unrecognized optional argument `returnChanges` in:\8629r.table(\"accounts\").insert({name: \"Nguyen Duong\", password: null, token: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Im5ndXllbkB3ZWJhdHVyZXMuY29tIiwiaWF0IjoxNDEyMjE3NjUyLCJleHAiOjE0MTI4MjI0NTJ9.D2vret7R8dn_fQgi24eC9QVqiTTKhvlOIiam05PLNoM\", profilePhotoUrl: \"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50\", status: 1, createdAt: r.now(), updatedAt: r.now()}, {returnChanges: true})\8629                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     \"msg: \"Unrecognized optional argument `returnChanges`.\"name: \"RqlCompileError\"\r\n```"
+  , issueCommentId = 57574295
+  }

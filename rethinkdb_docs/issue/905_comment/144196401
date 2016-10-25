@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-29) 21 : 27 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144196401"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/905#issuecomment-144196401"
+  , issueCommentCreatedAt = 2015 (-09) (-29) 21 : 27 : 30 UTC
+  , issueCommentBody =
+      "In JavaScript, you give options in camelCase, rather than snake_case, so `primaryKey` is correct.\r\n\r\n(In practice, you can usually use snake_case, too, so `primary_key` also works. I'm not 100% sure that will work in all cases, though.)"
+  , issueCommentId = 144196401
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-17) 19 : 51 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/74739268"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/644#issuecomment-74739268"
+  , issueCommentCreatedAt = 2015 (-02) (-17) 19 : 51 : 39 UTC
+  , issueCommentBody =
+      "I'm expanding the description of the `default` optarg considerably and dropping the link to the `default()` command, because even if that's what it's using internally it doesn't have quite the same effect in practice: you can set it to a value other than `true`, `false` and `r.error()` but it doesn't seem like doing so is actually useful. (One might argue that the optarg might have been better named `skip`, but it's probably too late to do that.)\r\n\r\nAs for examples, though, I don't think we're really short on those -- `filter` just went through a fairly major reorganization and there's a whole section titled \"handling missing fields.\""
+  , issueCommentId = 74739268
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 15 : 07 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/95958943"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-95958943"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 15 : 07 : 30 UTC
+  , issueCommentBody =
+      "Are r.minval and r.maxval still for use only within `between`, or can they be serialized? I was trying to figure out how I'd sink documents for a secondary index I skim the top of, and it seemed like a good case for using r.maxval or Infinity - or is it possible to just allow those documents to opt out of the index altogether with a value like `null`?"
+  , issueCommentId = 95958943
+  }

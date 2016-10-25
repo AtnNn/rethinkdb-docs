@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-08) 20 : 13 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/146673056"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/910#issuecomment-146673056"
+  , issueCommentCreatedAt = 2015 (-10) (-08) 20 : 13 : 56 UTC
+  , issueCommentBody =
+      "Pinging @chipotle \r\nLooking at https://raw.githubusercontent.com/rethinkdb/docs/master/api/ruby/writing-data/replace.md there is an extra backtick at the beginning of the file. Could that be causing issues?"
+  , issueCommentId = 146673056
+  }

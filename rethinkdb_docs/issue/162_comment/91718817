@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-10) 23 : 43 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/91718817"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/162#issuecomment-91718817"
+  , issueCommentCreatedAt = 2015 (-04) (-10) 23 : 43 : 35 UTC
+  , issueCommentBody =
+      "@chipotle you can do something like this in Python:\r\n```py\r\nimport rethinkdb as r\r\no = {}\r\no[\"e\"] = o\r\nr.expr(o)\r\n.... throws the mentioned RqlDriverError\r\n```\r\n\r\nI don't think this is the typical case though. I agree that it's at least equally likely that users run into this because of objects or arrays that are simply deeply nested."
+  , issueCommentId = 91718817
+  }

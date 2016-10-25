@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 22 : 33 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37588900"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/220#issuecomment-37588900"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 21 : 26 : 09 UTC
+  , issueCommentBody =
+      "Hum, I'm not quite sure.\r\n\r\nI think in this case (or in general for one line result), command line style looks better.\r\nI don't really like the fact that I cannot select the query with a double click though.\r\n\r\nIn this case I'm not sure that code/result is better. So I'm ok with that -- so we can merge it as it is (modulo the missing `js`)"
+  , issueCommentId = 37588900
+  }

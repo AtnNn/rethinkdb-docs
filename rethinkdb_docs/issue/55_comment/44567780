@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 18 : 37 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44567780"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/55#issuecomment-44567780"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 18 : 37 : 25 UTC
+  , issueCommentBody =
+      "All options are available.\r\n\r\nThere are a few more related issues:\r\n- https://github.com/rethinkdb/docs/issues/155 -- add trouble shooting entry for `canonical-address`\r\n- https://github.com/rethinkdb/rethinkdb/issues/2250 and https://github.com/rethinkdb/rethinkdb/issues/1722 for `rethinkdb create`"
+  , issueCommentId = 44567780
+  }

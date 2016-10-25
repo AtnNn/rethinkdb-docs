@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-24) 20 : 28 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27026958"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/8#issuecomment-27026958"
+  , issueCommentCreatedAt = 2013 (-10) (-24) 20 : 28 : 50 UTC
+  , issueCommentBody =
+      "@neumino, can you review the install instructions for the remaining platforms and work with @atnnn to close this?"
+  , issueCommentId = 27026958
+  }

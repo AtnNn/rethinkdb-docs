@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-16) 16 : 05 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43348999"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/297#issuecomment-43348999"
+  , issueCommentCreatedAt = 2014 (-05) (-16) 16 : 05 : 15 UTC
+  , issueCommentBody =
+      "Is it safe to do an insert in the first argument and a get in the second?\r\n\r\nLike this:\r\n\r\n```js\r\nr.do(\r\n    r.db('test').table('test').insert({id: 1}),\r\n    r.db('test').table('test').get(1),\r\n    function(a, b) { \r\n       // Am I sure that `b` will be a document?\r\n   }\r\n)\r\n```\r\n\r\n"
+  , issueCommentId = 43348999
+  }

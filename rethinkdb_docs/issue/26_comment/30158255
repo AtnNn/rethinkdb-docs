@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-09) 18 : 30 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30158255"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/26#issuecomment-30158255"
+  , issueCommentCreatedAt = 2013 (-12) (-09) 18 : 30 : 53 UTC
+  , issueCommentBody =
+      "Working on this one. Things to do:\r\n\r\n- Use only one language (there is a mix of JavaScript and Python code now)\r\n- Add links to the API page\r\n- What is a compound index\r\n- Multi indexes\r\n- `orderBy` can take an index\r\n- `indexStatus`\r\n- Methods for secondary indexes must be atomic"
+  , issueCommentId = 30158255
+  }

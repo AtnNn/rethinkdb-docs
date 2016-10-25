@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-05) 22 : 00 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45280714"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/335#issuecomment-45280714"
+  , issueCommentCreatedAt = 2014 (-06) (-05) 22 : 00 : 26 UTC
+  , issueCommentBody =
+      "Does changing `lib64ncurses5-dev` to `libncurses5-dev` work on both 32 and 64 bit systems?"
+  , issueCommentId = 45280714
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-07) 17 : 07 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 44855
+        , simpleUserLogin = N "chrisvariety"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44855?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chrisvariety"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58220064"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-58220064"
+  , issueCommentCreatedAt = 2014 (-10) (-07) 17 : 07 : 10 UTC
+  , issueCommentBody =
+      "Dash format is whatever you like really -- I would recommend HTML from your actual docs for the prettiest format possible, e.g. looking at the Ember docs within Dash:\r\n\r\n![monosnap 2014-10-07 10-04-56](https://cloud.githubusercontent.com/assets/44855/4546491/1814e8ae-4e44-11e4-9ccf-fad508d2a928.png)\r\n\r\nYou can see it's pretty much just a download of the [Ember API Docs](http://emberjs.com/api/) with the sidebar removed and interpolated by Dash directly."
+  , issueCommentId = 58220064
+  }

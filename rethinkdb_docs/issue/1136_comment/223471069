@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-03) 01 : 48 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/223471069"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1136#issuecomment-223471069"
+  , issueCommentCreatedAt = 2016 (-06) (-03) 01 : 48 : 14 UTC
+  , issueCommentBody =
+      "@danielmewes -- I don't think any language preserves laziness through splicing, does it?  What's the equivalent JS `and` that behaves differently?"
+  , issueCommentId = 223471069
+  }

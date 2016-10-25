@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-18) 00 : 40 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/122461147"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-122461147"
+  , issueCommentCreatedAt = 2015 (-07) (-18) 00 : 40 : 06 UTC
+  , issueCommentBody =
+      "Just as an update to those monitoring this, I do have an \"unofficial\" repository with a kind of Rube Goldberg-esque script that builds three docsets, one for each language. It requires you to install `pandoc` first and to have checked out the docs repository.\r\n\r\nhttps://github.com/chipotle/reql-dash-build\r\n\r\nWe'll see about moving this into an \"official\" repository down the road, but if you're interested in testing it, you can see if the script works. (You will probably get a couple warnings.)"
+  , issueCommentId = 122461147
+  }

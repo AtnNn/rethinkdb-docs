@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-24) 00 : 56 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49955799"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/413#issuecomment-49955799"
+  , issueCommentCreatedAt = 2014 (-07) (-24) 00 : 56 : 39 UTC
+  , issueCommentBody =
+      "Ah, ok. I wasn't sure where that ended. I'll add them back in\r\n\r\n\r\nOn Wed, Jul 23, 2014 at 5:11 PM, Michael Glukhovsky <\r\nnotifications@github.com> wrote:\r\n\r\n> I think we're still waiting on adding in secondary index images again:\r\n> @deontologician <https://github.com/deontologician>, am I correct?\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/pull/413#issuecomment-49953045>.\r\n>"
+  , issueCommentId = 49955799
+  }

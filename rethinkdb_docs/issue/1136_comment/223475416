@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-03) 02 : 24 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/223475416"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1136#issuecomment-223475416"
+  , issueCommentCreatedAt = 2016 (-06) (-03) 02 : 24 : 51 UTC
+  , issueCommentBody =
+      "@danielmewes -- Ah!  I misunderstood, you're right that it's confusing.  (I thought you were comparing `r.args` in ReQL to `apply` in pure JS, not to using `apply` in JS to build ReQL terms.)"
+  , issueCommentId = 223475416
+  }

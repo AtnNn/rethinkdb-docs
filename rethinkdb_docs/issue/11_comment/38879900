@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-28) 01 : 13 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38879900"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-38879900"
+  , issueCommentCreatedAt = 2014 (-03) (-28) 01 : 13 : 05 UTC
+  , issueCommentBody =
+      "I still think `rethinkdb proxy` is useful for a few situations.  First, you can effectively separate the query parsing from the cache/storage layer.  That is, if you have a node that has a slow disk, but want to utilize its CPU and RAM, you can throw a proxy onto it.  In addition, you can have a proxy as an entry-point for queries into the cluster, which allows you to have to one place that clients can connect to without putting extra load onto the data servers (if that is your bottleneck), while still being assured that the node itself is not hosting data."
+  , issueCommentId = 38879900
+  }

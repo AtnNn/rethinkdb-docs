@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-24) 17 : 33 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47003048"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/316#issuecomment-47003048"
+  , issueCommentCreatedAt = 2014 (-06) (-24) 17 : 33 : 59 UTC
+  , issueCommentBody =
+      "The full example is in JavaScript\r\n\r\n```js\r\nr.table(\"pivotedMarks\").concatMap( function(doc) {\r\n    return doc.without(\"id\", \"name\").keys().map( function(course) {\r\n        return {\r\n            name: doc(\"name\"),\r\n            course: course,\r\n            mark: doc(course)\r\n        }\r\n    })\r\n})\r\n```"
+  , issueCommentId = 47003048
+  }

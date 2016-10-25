@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-25) 21 : 35 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27127947"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/34#issuecomment-27127947"
+  , issueCommentCreatedAt = 2013 (-10) (-25) 21 : 35 : 38 UTC
+  , issueCommentBody = "I still have to update all the examples."
+  , issueCommentId = 27127947
+  }

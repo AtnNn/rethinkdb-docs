@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-30) 19 : 11 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7118680
+        , simpleUserLogin = N "ahruygt"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7118680?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahruygt"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44688470"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/328#issuecomment-44688470"
+  , issueCommentCreatedAt = 2014 (-05) (-30) 19 : 11 : 22 UTC
+  , issueCommentBody = "OK- they have been flipped @chipotle  :)"
+  , issueCommentId = 44688470
+  }

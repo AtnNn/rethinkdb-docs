@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-29) 18 : 46 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41716393"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/287#issuecomment-41716393"
+  , issueCommentCreatedAt = 2014 (-04) (-29) 18 : 46 : 28 UTC
+  , issueCommentBody =
+      "Awesome, thanks @ZackBoe!\r\n\r\nLooks good to me, merging."
+  , issueCommentId = 41716393
+  }

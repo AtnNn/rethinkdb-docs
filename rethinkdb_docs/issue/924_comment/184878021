@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-16) 21 : 17 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/184878021"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/924#issuecomment-184878021"
+  , issueCommentCreatedAt = 2016 (-02) (-16) 21 : 17 : 01 UTC
+  , issueCommentBody =
+      "That sounds like a good idea.\n\nOn Tue, Feb 16, 2016 at 11:36 AM, Daniel Mewes <notifications@github.com>\nwrote:\n\n> Hmm missing optargs are a pretty significant limitation, because they make\n> it impossible to use any secondary indexes for example (unless your driver\n> already supports optargs in that particular case?).\n> I think the other limitations are ok, but (at least the basic) optional\n> argument should be supported for inclusion in the drivers list.\n>\n> @chipotle <https://github.com/chipotle> What do you think about changing\n> the \"Older community-supported drivers\" section into a \"Community-supported\n> drivers with limited features\" section?\n> We should also remove many drivers that are currently in there, because\n> they are still based on protocol buffers and we don't support those anymore\n> at all. Namely these would be the two Java drivers and the C driver. The\n> other ones appear to be using the JSON protocol, and would fit into the\n> \"limited feature drivers\" section.\n>\n> \8212\n> Reply to this email directly or view it on GitHub\n> <https://github.com/rethinkdb/docs/issues/924#issuecomment-184846196>.\n>\n"
+  , issueCommentId = 184878021
+  }

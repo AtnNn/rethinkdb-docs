@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-08) 19 : 00 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48384876"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/361#issuecomment-48384876"
+  , issueCommentCreatedAt = 2014 (-07) (-08) 19 : 00 : 57 UTC
+  , issueCommentBody =
+      "I have merged a fix for the problem with commit f0f6326. The solution there is to group all of the documentation strings into an array, and at import time apply them to the appropriate functions changing things slightly depending on the properties of the running version of Python. This change has been checked to working Python 2.6, 2.7, 3.2, and 3.4.\r\n\r\nI will add the new format that this generates to the `rethinkdb/rethinkdb` repository when [Python 3 support again](rethinkdb/rethinkdb#2502) gets merged in."
+  , issueCommentId = 48384876
+  }

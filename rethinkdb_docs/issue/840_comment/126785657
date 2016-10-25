@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-31) 19 : 00 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/126785657"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/840#issuecomment-126785657"
+  , issueCommentCreatedAt = 2015 (-07) (-31) 19 : 00 : 51 UTC
+  , issueCommentBody =
+      "That sounds correct @chipotle, the interesting commands are the ones that rely on sorting order (primarily `between`, but also `orderBy`).\r\n\r\nMentioning the \"compound key\" = \"array key\" identity in `between` sounds like a good idea to me."
+  , issueCommentId = 126785657
+  }

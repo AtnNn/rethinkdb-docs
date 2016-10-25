@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-24) 17 : 18 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47001122"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/270#issuecomment-47001122"
+  , issueCommentCreatedAt = 2014 (-06) (-24) 17 : 18 : 40 UTC
+  , issueCommentBody =
+      "Fixed in 0fd6e9176f7934b2733fd11fd8de71a909595b9f\r\nTo be pushed out in next www update (likely this afternoon)"
+  , issueCommentId = 47001122
+  }

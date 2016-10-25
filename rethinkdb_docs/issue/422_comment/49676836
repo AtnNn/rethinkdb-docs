@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-21) 22 : 49 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49676836"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/422#issuecomment-49676836"
+  , issueCommentCreatedAt = 2014 (-07) (-21) 22 : 49 : 27 UTC
+  , issueCommentBody =
+      "Sure -- we did one for the Rails integration tutorial. Let me know if\r\nthere's anything special you want to have called out.\r\n\r\n\r\nOn Mon, Jul 21, 2014 at 3:47 PM, Josh Kuhn <notifications@github.com> wrote:\r\n\r\n> forgot to @chipotle <https://github.com/chipotle> this. Also, @coffeemug\r\n> <https://github.com/coffeemug> mentioned we should do a blog post\r\n> announcing this page. Want to discuss?\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/pull/422#issuecomment-49676639>.\r\n>"
+  , issueCommentId = 49676836
+  }

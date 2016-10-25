@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-21) 21 : 25 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49666989"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/420#issuecomment-49666989"
+  , issueCommentCreatedAt = 2014 (-07) (-21) 21 : 17 : 17 UTC
+  , issueCommentBody =
+      "This has been merged but not deployed yet.\r\n\r\nOn Mon, Jul 21, 2014 at 2:00 PM, Slava Akhmechet <notifications@github.com>\r\nwrote:\r\n\r\n> @deontologician <https://github.com/deontologician> -- when merging\r\n> PRs/closing issues, could you add a quick comment on whether the changes\r\n> have been deployed or when they're scheduled for deployment?\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/pull/420#issuecomment-49664850>.\r\n>"
+  , issueCommentId = 49666989
+  }

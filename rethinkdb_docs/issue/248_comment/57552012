@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-01) 22 : 35 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57552012"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-57552012"
+  , issueCommentCreatedAt = 2014 (-10) (-01) 22 : 29 : 23 UTC
+  , issueCommentBody =
+      "Err sorry, I just read `ast.coffee` and not `net.coffee`.\r\n\r\nThe available options seem to be here:\r\nhttps://github.com/rethinkdb/rethinkdb/issues/2463#issuecomment-44584491\r\n\r\nI don't see nested options, so I'm a bit confused what the new syntax is."
+  , issueCommentId = 57552012
+  }

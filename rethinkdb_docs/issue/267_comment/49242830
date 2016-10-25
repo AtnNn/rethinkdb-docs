@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-16) 23 : 48 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49242830"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/267#issuecomment-49242830"
+  , issueCommentCreatedAt = 2014 (-07) (-16) 23 : 48 : 11 UTC
+  , issueCommentBody =
+      "There is not a doc issue for that as far as I've seen, no.\r\n\r\n\r\nOn Wed, Jul 16, 2014 at 4:41 PM, Etienne Laurin <notifications@github.com>\r\nwrote:\r\n\r\n> I don't think that fix is sufficient. It doesn't explicitly say that\r\n> migration is not required between point releases. On the contrary, the\r\n> first sentence is\r\n>\r\n> You must migrate your data before updating RethinkDB, since file formats\r\n> are currently incompatible between versions\r\n>\r\n> However, this issue is outdated. The page will have to be rewritten for\r\n> the next version of RethinkDB: data migration will be automatic when\r\n> upgrading from 1.13 (rethinkdb/rethinkdb#2563 (comment)\r\n> <https://github.com/rethinkdb/rethinkdb/issues/2563#issuecomment-47413437>).\r\n> Is there a doc issue for this?\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/267#issuecomment-49242343>.\r\n>"
+  , issueCommentId = 49242830
+  }

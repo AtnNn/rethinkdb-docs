@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-29) 05 : 30 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71971424"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-71971424"
+  , issueCommentCreatedAt = 2015 (-01) (-29) 05 : 30 : 45 UTC
+  , issueCommentBody =
+      "Dangit. The index files are committed in a new branch:\r\n\r\nhttps://github.com/rethinkdb/docs/tree/issue-464-index\r\n"
+  , issueCommentId = 71971424
+  }

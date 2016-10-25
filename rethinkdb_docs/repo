@@ -1,0 +1,40 @@
+Repo
+  { repoSshUrl = Just "git@github.com:rethinkdb/docs.git"
+  , repoDescription = Just "RethinkDB documentation"
+  , repoCreatedAt = Just 2013 (-09) (-11) 01 : 08 : 40 UTC
+  , repoHtmlUrl = "https://github.com/rethinkdb/docs"
+  , repoSvnUrl = Just "https://github.com/rethinkdb/docs"
+  , repoForks = Just 154
+  , repoHomepage = Just "http://rethinkdb.com/docs"
+  , repoFork = Just False
+  , repoGitUrl = Just "git://github.com/rethinkdb/docs.git"
+  , repoPrivate = False
+  , repoCloneUrl = Just "https://github.com/rethinkdb/docs.git"
+  , repoSize = Just 22467
+  , repoUpdatedAt = Just 2016 (-10) (-17) 17 : 50 : 24 UTC
+  , repoWatchers = Just 71
+  , repoOwner =
+      SimpleOwner
+        { simpleOwnerId = Id 1229647
+        , simpleOwnerLogin = N "rethinkdb"
+        , simpleOwnerUrl = "https://api.github.com/users/rethinkdb"
+        , simpleOwnerAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1229647?v=3"
+        , simpleOwnerType = OwnerOrganization
+        }
+  , repoName = N "docs"
+  , repoLanguage = Just (Language "CSS")
+  , repoMasterBranch = Nothing
+  , repoPushedAt = Just 2016 (-10) (-05) 05 : 39 : 08 UTC
+  , repoId = Id 12744481
+  , repoUrl = "https://api.github.com/repos/rethinkdb/docs"
+  , repoOpenIssues = Just 123
+  , repoHasWiki = Just True
+  , repoHasIssues = Just True
+  , repoHasDownloads = Just True
+  , repoParent = Nothing
+  , repoSource = Nothing
+  , repoHooksUrl =
+      "https://api.github.com/repos/rethinkdb/docs/hooks"
+  , repoStargazersCount = 71
+  }

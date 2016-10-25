@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-09) 00 : 19 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48415955"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/322#issuecomment-48415955"
+  , issueCommentCreatedAt = 2014 (-07) (-09) 00 : 19 : 07 UTC
+  , issueCommentBody =
+      "RethinkDB *theoretically* only accepts UTF-8.  In practice we don't check right now.  Future versions of RethinkDB will probably reject non-UTF-8 strings."
+  , issueCommentId = 48415955
+  }

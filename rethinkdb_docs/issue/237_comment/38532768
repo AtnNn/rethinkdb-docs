@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-25) 05 : 46 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38532768"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/237#issuecomment-38532768"
+  , issueCommentCreatedAt = 2014 (-03) (-25) 05 : 46 : 02 UTC
+  , issueCommentBody =
+      "Also note, this is a pull request into docs/1.12.x, we'd also have to merge it into docs/master (my guess is we'll be merging 1.12.x into master, correct?)."
+  , issueCommentId = 38532768
+  }

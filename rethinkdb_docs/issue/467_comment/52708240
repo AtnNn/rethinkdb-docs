@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 22 : 23 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52708240"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52708240"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 22 : 23 : 22 UTC
+  , issueCommentBody =
+      "We could make `r.http(..., result_format='auto')` return a binary if it tries and fails to put the result in a string."
+  , issueCommentId = 52708240
+  }

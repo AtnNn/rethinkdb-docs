@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-16) 23 : 43 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59447832"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/553#issuecomment-59447832"
+  , issueCommentCreatedAt = 2014 (-10) (-16) 23 : 43 : 29 UTC
+  , issueCommentBody =
+      "I'm not sure which article on Digital Ocean you're talking about -- the one on Michel's blog about CoreOS, Docker and Digital Ocean? That seems like it might be a separate thing -- it's a lot more involved than the PaaS deployments we're describing here."
+  , issueCommentId = 59447832
+  }

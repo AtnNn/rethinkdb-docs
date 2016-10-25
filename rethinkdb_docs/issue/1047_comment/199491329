@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-21) 21 : 21 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/199491329"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1047#issuecomment-199491329"
+  , issueCommentCreatedAt = 2016 (-03) (-21) 21 : 19 : 22 UTC
+  , issueCommentBody =
+      "@mglukhovsky since we plan on doing this in the future, do you want to list every single report under \"RethinkDB architecture\"? I was figuring we'd order most recent first in this new section. \r\n\r\nOr, if it lives under architecture, _only_ the most recent version is kept there, but one could find the older ones in the rethinkdb/performance-reports repo"
+  , issueCommentId = 199491329
+  }

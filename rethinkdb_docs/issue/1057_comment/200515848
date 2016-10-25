@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-23) 21 : 40 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/200515848"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1057#issuecomment-200515848"
+  , issueCommentCreatedAt = 2016 (-03) (-23) 19 : 47 : 53 UTC
+  , issueCommentBody =
+      "https://hub.docker.com/r/jlhawn/rethinkdb-tls/ has a good introduction on how to set things up.\r\n\r\n--\r\nUsually the first step is to generate a private key and matching certificate. This can be done with the OpenSSL command line tool, among others:\r\n```\r\nopenssl genrsa -out key.pem 2048\r\nopenssl req -new -x509 -key key.pem -out cert.pem -days 3650\r\n```\r\n\r\nThe second command will ask a few questions to identify the server. Most values can be ignored for testing purposes, but the \"Common name\" must match the hostname under which the server will be reachable for some clients to be able to connect (e.g. Python 3.5 appears to verify this). For local testing, we can specify it as \"localhost\".\r\n\r\n--\r\nThe easiest one is configuring the web UI for TLS:\r\n```\r\nrethinkdb --http-tls-key key.pem --http-tls-cert cert.pem\r\n```\r\nWith this set, the web UI needs to be accessed via `https://localhost:8080` (or whatever host+port is used). It will encrypt the connection, but it will *not* provide any additional security. In particular, anyone who can reach the server on an interface that is enabled via a `--bind` option can still access the web UI.\r\n\r\n--\r\nThe next one is client (driver) encryption, which can be enabled like this:\r\n```\r\nrethinkdb --driver-tls-key key.pem --driver-tls-cert cert.pem\r\n```\r\n\r\nThis enables encrypted driver connections. Usually the clients will need the certificate (cert.pem) that we use to verify the server's identity. For example in Python:\r\n```py\r\nimport rethinkdb as r\r\nr.connect(host=\"localhost\", port=28038, ssl={\"ca_certs\": \"cert.pem\"})\r\n```\r\n\r\nAs an additional step, client-side certificate authentication can be enabled:\r\n```\r\nrethinkdb --driver-tls-key key.pem --driver-tls-cert cert.pem --driver-tls-ca cert.pem\r\n```\r\nThis will make the server only accept clients that provide a certificate that was signed with `cert.pem` (or that is `cert.pem` itself). This can be used to secure the client port against unauthorized access. Currently our official clients don't support client-side certificates, or at least we don't have it documented and I'm not sure how to enable that option.\r\n\r\n--\r\nFinally, the intra-cluster communication can be encrypted:\r\n```\r\nrethinkdb --cluster-tls-key key.pem --cluster-tls-cert cert.pem --cluster-tls-ca cert.pem\r\n```\r\n\r\nNote that in this case, we always require the `--cluster-tls-ca` option. In this example, we're using our certificate as the CA certificate as well. We could also use a different CA certificate, and sign our `cert.pem` with that certificate. Other servers can only connect if they have a certificate signed by the provided CA certificate."
+  , issueCommentId = 200515848
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-20) 19 : 40 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63866469"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/568#issuecomment-63866469"
+  , issueCommentCreatedAt = 2014 (-11) (-20) 19 : 40 : 28 UTC
+  , issueCommentBody =
+      "I'm pretty sure the web site's been deployed since this fix went in -- but there's a couple fixes over the last few days that need to be deployed, so I'll do a push in a minute or two."
+  , issueCommentId = 63866469
+  }

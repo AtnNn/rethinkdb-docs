@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-10) 20 : 31 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62449787"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/576#issuecomment-62449787"
+  , issueCommentCreatedAt = 2014 (-11) (-10) 20 : 31 : 55 UTC
+  , issueCommentBody =
+      "> Here's where I disagree. `next`, `list` and the ability to loop over a cursor are a very important part of the API.\r\n\r\nMy impression has been that we don't have a \"Cursors\" section for any language but JavaScript because it exposes the cursor in a way the other two languages don't. I'm not sure it's even possible to use `next` in Python and Ruby with our cursors. (I tried in Python and after I figured out how to get a cursor object directly -- which I know that I'd normally ever do -- I was told `'Cursor' object has no attribute 'next'`.)\r\n\r\nIt's possible that a solution might be to have an API page simply called \"cursors\" that describes this access in Ruby and Python, and to either convert the JS documentation to the same style or, because it actually *does* have separate ReQL commands, leave it as-is.\r\n\r\n> When users see the JavaScript cursor methods and switch to Python, it gives the impression that the only thing you can do in Python with a cursor is close it.\r\n\r\nI think that may be a documentation bug, actually. You can only get to the `close` (cursor) command for those languages by going to JS and then switching to that page. It may be possible to close the cursor in those languages, although when I tried it in Python it didn't have any obvious effect (I could still iterate through the result set)."
+  , issueCommentId = 62449787
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 10 : 15 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2000696
+        , simpleUserLogin = N "1N50MN14"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2000696?v=3"
+        , simpleUserUrl = "https://api.github.com/users/1N50MN14"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46825578"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/381#issuecomment-46825578"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 09 : 58 : 27 UTC
+  , issueCommentBody =
+      "@coffeemug I don't think I ever did that; CLA signed now. Will fix the heading\r\n@neumino You're right, I can also confirm the installation instructions using trusty work\r\n\r\n"
+  , issueCommentId = 46825578
+  }

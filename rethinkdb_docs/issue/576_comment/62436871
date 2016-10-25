@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-10) 19 : 10 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62436871"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/576#issuecomment-62436871"
+  , issueCommentCreatedAt = 2014 (-11) (-10) 19 : 10 : 14 UTC
+  , issueCommentBody =
+      "The \"Data Types\" page has a section on \"Working With Streams\" which\r\ndescribes this in all three languages, including how to turn them into a\r\nlist. (There's also a cookbook recipe for turning streams into lists.)\r\n\r\n I'm for finding a way to document this better if it's confusing to users\r\n-- maybe the \"Working With Streams\" section needs to be its own page,\r\nalthough it's pretty short for that right now -- but Python/Ruby iterator\r\nmethods aren't part of the RethinkDB API. The `EventEmitter` methods are\r\ndocumented because they're RethinkDB-specific extensions to `EventEmitter`,\r\njust like the cursor commands.\r\n\r\nOn Mon, Nov 10, 2014 at 10:58 AM, Etienne Laurin <notifications@github.com>\r\nwrote:\r\n\r\n> I've seen many questions from users asking how to use cursors and how to\r\n> turn them into a list.\r\n>\r\n> Python and Ruby have iterators built into the language, and streams are\r\n> accessed through those native constructs\r\n>\r\n> Can we document this on the API page? Similar to JavaScript's EventEmitter\r\n> methods, for Python we could say Iterator methods and give examples of\r\n> next(cursor), list(cursor) and for row in cursor:\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/576#issuecomment-62434891>.\r\n>"
+  , issueCommentId = 62436871
+  }

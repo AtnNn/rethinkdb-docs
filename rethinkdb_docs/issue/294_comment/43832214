@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 00 : 02 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43832214"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/294#issuecomment-43832214"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 00 : 02 : 39 UTC
+  , issueCommentBody =
+      "This is a little tricky.\r\n\r\n\r\nThis returns an array\r\n```\r\nr.expr([1,2,3]).concatMap(function(i) {\r\n  return [1]\r\n})\r\n```\r\n\r\nThis also returns an array\r\n```\r\nr.expr([1,2,3]).concatMap(function(i) {\r\n  return r.table('test').getAll(i)\r\n})\r\n```\r\n\r\n\r\nThis returns a stream\r\n```\r\nr.table('test')('id').concatMap(function(i) {\r\n  return [1]\r\n})\r\n```\r\n\r\nThis also returns a stream\r\n```\r\nr.table('test')('id').concatMap(function(i) {\r\n  return r.table('test').getAll(i)\r\n})\r\n```\r\n\r\nI don't think `concatMap` can return a selection -- ping @mlucy, is that true?"
+  , issueCommentId = 43832214
+  }

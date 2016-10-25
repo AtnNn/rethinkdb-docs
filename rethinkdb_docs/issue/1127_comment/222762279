@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-31) 17 : 35 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/222762279"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1127#issuecomment-222762279"
+  , issueCommentCreatedAt = 2016 (-05) (-31) 17 : 35 : 52 UTC
+  , issueCommentBody =
+      "I've looked through related tickets, but I admit I can't figure out just where the client port and address are exposed by these changes. Is this something in the return values from `r.connect`?"
+  , issueCommentId = 222762279
+  }

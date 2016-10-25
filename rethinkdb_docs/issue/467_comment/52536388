@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-18) 18 : 43 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52536388"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52536388"
+  , issueCommentCreatedAt = 2014 (-08) (-18) 18 : 43 : 48 UTC
+  , issueCommentBody =
+      "Yep, like @chipotle said, you basically just do\r\n```\r\nr.http(<url>, {resultFormat: \"binary\"})\r\n```\r\nAnd you may skip the `resultFormat` optarg in most of the cases.\r\n\r\n\r\n`r.binary` is just a client term that convert a buffer to an object like `{$reql_type$: \"BINARY\", data: <base64string>}` and will not accept anything else than a buffer."
+  , issueCommentId = 52536388
+  }

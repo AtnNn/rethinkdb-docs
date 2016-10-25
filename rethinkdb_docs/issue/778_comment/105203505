@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-25) 10 : 45 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/105203505"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/778#issuecomment-105203505"
+  , issueCommentCreatedAt = 2015 (-05) (-25) 10 : 45 : 12 UTC
+  , issueCommentBody =
+      "(You could also mitigate it by running your clients on machine `A`, but some people like to keep their database servers separate from their application servers.)"
+  , issueCommentId = 105203505
+  }

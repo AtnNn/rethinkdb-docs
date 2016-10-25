@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-14) 21 : 36 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/196531178"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/962#issuecomment-196531178"
+  , issueCommentCreatedAt = 2016 (-03) (-14) 21 : 36 : 19 UTC
+  , issueCommentBody =
+      "This is true for normal servers as well.\n\nHowever on a normal server, there are more tasks that are not depending on\nthe core handling the connection, and will use their own model for\nmulti-thread distribution. So it's a little bit less relevant there,\ndepending on the workload.\n\nOn Mon, Mar 14, 2016 at 2:26 PM, Peter Hamilton <notifications@github.com>\nwrote:\n\n> Interesting. Is that true for normal cluster connections? (not just\n> proxies)\n>\n> \8212\n> Reply to this email directly or view it on GitHub\n> <https://github.com/rethinkdb/docs/issues/962#issuecomment-196527713>.\n>\n"
+  , issueCommentId = 196531178
+  }

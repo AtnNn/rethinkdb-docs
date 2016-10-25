@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-16) 20 : 22 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/122078657"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/820#issuecomment-122078657"
+  , issueCommentCreatedAt = 2015 (-07) (-16) 20 : 22 : 53 UTC
+  , issueCommentBody =
+      "I left that out of the command syntax on purpose because it was so unusual, but adding it as an additional line is a good idea, so I'll do that.\r\n\r\nThe quotes were removed in review, because they seemed unnecessary in this instance. I don't think we generally show string options with \"quotes\" unless the option takes mixed values (if it can be something like `true`, `false` and `\"self-destruct\"`)."
+  , issueCommentId = 122078657
+  }

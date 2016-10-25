@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-09) 22 : 26 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/163419960"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-163419960"
+  , issueCommentCreatedAt = 2015 (-12) (-09) 22 : 26 : 59 UTC
+  , issueCommentBody =
+      "@ntquyen We haven't really tested anything of that scale. I suspect that there won't be any problems if you stay below 100 proxies or so, but there might be some unexpected slowdowns when getting to a multitude of that.\r\nAlso note that proxies are not completely light-weight. While they need less RAM than \"proper\" RethinkDB servers, and don't need any storage, they will still need a significant amount of RAM for processing queries (depending on which types of queries you're running)."
+  , issueCommentId = 163419960
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-29) 23 : 00 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41742879"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/286#issuecomment-41742879"
+  , issueCommentCreatedAt = 2014 (-04) (-29) 23 : 00 : 57 UTC
+  , issueCommentBody =
+      "@coffeemug -- Sorting without an index should never be done on a table, even if it is a small one. If the table somehow grows, it will end up breaking their app in production.\r\n\r\nThe example I was using was sorting an array inside a document, which always has less than 100k documents and therefore will never trigger the \"RqlRuntimeError: Array size limit\".\r\n\r\nAny object if I rever this example?\r\nAll the rest looks good (and better) to me.\r\n"
+  , issueCommentId = 41742879
+  }

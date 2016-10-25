@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-16) 21 : 01 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43379065"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/297#issuecomment-43379065"
+  , issueCommentCreatedAt = 2014 (-05) (-16) 21 : 01 : 56 UTC
+  , issueCommentBody =
+      "What I'm kind of worried about `r.do(r.expr(1))` is that people could think that `do` can run a query (like `run` does).\r\n\r\nBut I am not sure that's the case, so I don't really have an opinion on that -- I was just surprised when it found that it was working."
+  , issueCommentId = 43379065
+  }

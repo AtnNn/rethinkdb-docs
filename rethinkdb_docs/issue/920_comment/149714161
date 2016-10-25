@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-20) 21 : 54 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/149714161"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/920#issuecomment-149714161"
+  , issueCommentCreatedAt = 2015 (-10) (-20) 21 : 54 : 33 UTC
+  , issueCommentBody =
+      "> The initial results will have a `new_val` field, but no `old_val`.\r\n\r\nWe also now have a concept of an \"uninitial\" result, which is a result with an `old_val` field but no `new_val`.  You get one of these when a document moves from a part of the range that has already been read by the initializer to a part of the range that hasn't.  It's different from a `delete` (represented by a `null` `new_val` field), but can be treated the same by clients that are just trying to maintain a running view of the data.  (It's different from a `delete` because `deletes` are often scarier.  For example, if you're getting changes on `table.between(0, 100, index: 'idx')`, a `delete` indicates that a document was either removed from the table or left the range `[0, 100)`, while an `uninitial_val` indicates that a document's index value changed to a part of the `[0, 100]` range we haven't read yet but is still in the range.)\r\n\r\n> Is the state document always sent or only when combined with `include_states`?\r\n\r\nOnly when `include_states` is set.\r\n\r\n> `include_initial` works for most if not all of the queries that currently support changefeeds (@mlucy are there any exceptions?).\r\n\r\nI don't think there should be.\r\n\r\n---\r\n\r\nSome things worth adding:\r\n\r\n* We're changing the default behavior of `.get.changes` and `.order_by.limit.changes`.  They used to return initial values by default, and now they don't (you have to set the optarg).\r\n\r\n* We've added an `on_uninitial_val` handler to the Ruby EventMachine interface that works similarly to `on_initial_val`.\r\n\r\n"
+  , issueCommentId = 149714161
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-20) 21 : 26 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35670811"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/204#issuecomment-35670811"
+  , issueCommentCreatedAt = 2014 (-02) (-20) 21 : 26 : 11 UTC
+  , issueCommentBody =
+      "Re-opening; I think we should fix the second signature, and add a warning or something at the top of the text since most of our functions won't turn streams into arrays like that."
+  , issueCommentId = 35670811
+  }

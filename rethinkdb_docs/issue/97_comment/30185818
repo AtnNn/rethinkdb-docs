@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-09) 23 : 35 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30185818"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/97#issuecomment-30185818"
+  , issueCommentCreatedAt = 2013 (-12) (-09) 23 : 35 : 51 UTC
+  , issueCommentBody =
+      "The docs don't mention the output.\r\n\r\nWorking on this."
+  , issueCommentId = 30185818
+  }

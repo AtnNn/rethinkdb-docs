@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-09) 07 : 58 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1430058
+        , simpleUserLogin = N "ntquyen"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1430058?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ntquyen"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/163144595"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-163144595"
+  , issueCommentCreatedAt = 2015 (-12) (-09) 07 : 58 : 36 UTC
+  , issueCommentBody =
+      "@larkost and @coffeemug  In a microservice system running containers, in my case is kubernetes. Should I have each microservice use its own `rethinkdb proxy` inside the pod? My concern is that could make hundreds of `rethinkdb proxy`, could that make the rethinkdb cluster performance worse or not at all?"
+  , issueCommentId = 163144595
+  }

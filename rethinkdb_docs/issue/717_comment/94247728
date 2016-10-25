@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-19) 07 : 14 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94247728"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/717#issuecomment-94247728"
+  , issueCommentCreatedAt = 2015 (-04) (-19) 07 : 14 : 50 UTC
+  , issueCommentBody =
+      "@chipotle I merged this in. Hope I did so into the correct branch?"
+  , issueCommentId = 94247728
+  }

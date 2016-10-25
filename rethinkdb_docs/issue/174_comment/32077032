@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-10) 23 : 20 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/32077032"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/174#issuecomment-32077032"
+  , issueCommentCreatedAt = 2014 (-01) (-10) 23 : 20 : 44 UTC
+  , issueCommentBody =
+      "I think the right way to do this is to specify `time_format:'raw'` when you run the query."
+  , issueCommentId = 32077032
+  }

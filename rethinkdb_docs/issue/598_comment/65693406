@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-04) 20 : 01 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5043
+        , simpleUserLogin = N "thelinuxlich"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5043?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thelinuxlich"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65693406"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/598#issuecomment-65693406"
+  , issueCommentCreatedAt = 2014 (-12) (-04) 20 : 01 : 01 UTC
+  , issueCommentBody =
+      "There is a MongoDB article which you can reuse in RethinkDB:\r\n\r\nhttp://docs.mongodb.org/manual/tutorial/perform-two-phase-commits/"
+  , issueCommentId = 65693406
+  }

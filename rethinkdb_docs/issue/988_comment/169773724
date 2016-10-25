@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-07) 18 : 58 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/169773724"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/988#issuecomment-169773724"
+  , issueCommentCreatedAt = 2016 (-01) (-07) 18 : 58 : 06 UTC
+  , issueCommentBody =
+      "Hi @bchavez , thanks for bringing that up.\r\n\r\nIn general RethinkDB doesn't make any difference between (secondary) indexes and the data itself when it comes to consistency semantics. The guarantees are exactly the same for all indexes, including the primary and all secondary indexes.\r\n\r\nMy suggestion would be to add a note to the document on secondary indexes http://rethinkdb.com/docs/secondary-indexes/javascript/ , rather than to the API docs of each write term.\r\nThe consistency guarantees are independent of the particular write term used."
+  , issueCommentId = 169773724
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-22) 02 : 59 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40999430"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/272#issuecomment-40999430"
+  , issueCommentCreatedAt = 2014 (-04) (-22) 02 : 59 : 21 UTC
+  , issueCommentBody =
+      "I'm not sure where these questions fit, but maybe we should mention them.\r\n- If you create 500 tables, you are probably going to run out of memory on a standard server. Maybe we should mention that?\r\n- Geo spatial indexes may be considered as a required feature since there is no work around?\r\n- Sharding while maintaining availability may be a required feature? since adding replica won't increase the throughput for reads.\r\n\r\nI would also mention data migration as part of the stability. It's our main problem now.\r\n\r\nI would replace \"You may encounter crashes under certain workloads\" with \"You shouldn't encoutner crashes\"."
+  , issueCommentId = 40999430
+  }

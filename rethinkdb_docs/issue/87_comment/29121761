@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-23) 01 : 07 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29121761"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/87#issuecomment-29121761"
+  , issueCommentCreatedAt = 2013 (-11) (-23) 01 : 07 : 48 UTC
+  , issueCommentBody =
+      "I made the instructions a little clearer and structured the python instructions a little more.\r\n\r\n@coffeemug can you please verify that the concerns you raised have been fixed."
+  , issueCommentId = 29121761
+  }

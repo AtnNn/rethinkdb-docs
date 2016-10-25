@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-29) 05 : 52 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71972801"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-71972801"
+  , issueCommentCreatedAt = 2015 (-01) (-29) 05 : 52 : 21 UTC
+  , issueCommentBody =
+      "They haven't -- I just created that branch a half hour ago and I don't have my home laptop set up for CodeReviewer."
+  , issueCommentId = 71972801
+  }

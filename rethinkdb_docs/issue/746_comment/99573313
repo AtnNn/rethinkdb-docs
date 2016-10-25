@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-06) 18 : 58 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/99573313"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/746#issuecomment-99573313"
+  , issueCommentCreatedAt = 2015 (-05) (-06) 18 : 58 : 46 UTC
+  , issueCommentBody =
+      "Is there an output type I should list in the `{% apibody %}` block and the `io` YAML header? I think those are necessary for the building scripts (at least for the data explorer).\r\n\r\nFor `asc` and `desc` we just alias to `order_by`; I'm wondering if we might be better off doing the same for `minval`/`maxval` and `between`."
+  , issueCommentId = 99573313
+  }

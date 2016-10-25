@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 18 : 39 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44568094"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/30#issuecomment-44568094"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 18 : 39 : 45 UTC
+  , issueCommentBody =
+      "Closing, we don't have a LTS for now, and there is no reason to keep this issue for now.\r\n\r\nWe also have a page for deprecated comments (like for `grouped_map_reduce`)\r\nhttp://www.rethinkdb.com/api/deprecated/1.12/\r\n"
+  , issueCommentId = 44568094
+  }

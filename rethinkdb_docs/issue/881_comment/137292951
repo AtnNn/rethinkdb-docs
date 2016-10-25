@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-03) 01 : 10 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/137292951"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/881#issuecomment-137292951"
+  , issueCommentCreatedAt = 2015 (-09) (-03) 01 : 10 : 16 UTC
+  , issueCommentBody =
+      "But yeah, you have to do a bunch of special handling for it, it can't just be used straight like other terms"
+  , issueCommentId = 137292951
+  }

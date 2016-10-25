@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-26) 21 : 58 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7561396
+        , simpleUserLogin = N "benmann"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7561396?v=3"
+        , simpleUserUrl = "https://api.github.com/users/benmann"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/175250661"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/943#issuecomment-175250661"
+  , issueCommentCreatedAt = 2016 (-01) (-26) 21 : 58 : 02 UTC
+  , issueCommentBody =
+      "Yeah that's exactly what I figured out :)\r\nI read everything I could gather about logstash configs yesterday and ended up with the config below, which heavily builds on your code. However two hard things remain: \r\n1) I'm not sure if `[field] != \"null\"`is correct (i guess not) but `[field] != null` throws an error. I'll try reversing and checking `![field]` tomorrow.\r\n2) I currently get an error in my output, which indicates that `action` has to be of `index, delete, etc..`  (as you also mentioned) which could be caused by 1) or something else I'm missing --> ?.\r\n\r\nIs there a \"correct\" way in logstash to check if a value is null? I think it's possible with a [ruby filter](https://www.elastic.co/guide/en/logstash/current/plugins-filters-ruby.html), but I'd prefer an easier solution if there is any. I also think the logstash docs could be more explicit on this :P\r\n\r\nI'll keep you posted.\r\n\r\ncurrent (failing) config:\r\n````\r\nlogstash/bin/logstash -e '\r\ninput {\r\n  rethinkdb{\r\n    host => \"localhost\"\r\n    port => 28015\r\n    auth_key => \"\"\r\n    watch_dbs => [\"cookiejar\"]\r\n    watch_tables => [\"cookiejar.Package\"]\r\n    backfill => true\r\n  }\r\n}\r\n\r\nfilter{\r\n  if [new_val] == \"null\" and [old_val] != \"null\" {\r\n    mutate {\r\n      replace => {\r\n        add_field => { \r\n          \"[@metadata][action]\" => \"delete\"\r\n          \"[@metadata][id]\" => \"%{[old_val][id]}\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n  else if [new_val] != \"null\" and [old_val] != \"null\" {\r\n    drop {\r\n      add_field => {\r\n         \"[@metadata][action]\" => \"update\"\r\n         \"[@metadata][id]\"     => \"%{[new_val][id]}\"\r\n      }\r\n    }\r\n  }\r\n  else if [new_val] != \"null\" and [old_val] == \"null\" {\r\n    drop {\r\n      add_field => {\r\n        \"[@metadata][action]\" => \"index\"\r\n        \"[@metadata][id]\"     => \"%{[new_val][id]}\"\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\noutput {\r\n  elasticsearch {\r\n    hosts => [\"localhost:9200\"]\r\n    index => \"packages\"\r\n    action => \"%{[@metadata][action]}\"\r\n    document_id => \"%[@metadata][id]\"\r\n    document_type => \"package\"\r\n  }\r\n  stdout {\r\n    codec => rubydebug{\r\n      metadata => true\r\n    }\r\n  }\r\n}'\r\n````"
+  , issueCommentId = 175250661
+  }

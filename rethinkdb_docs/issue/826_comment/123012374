@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-20) 20 : 03 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/123012374"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/826#issuecomment-123012374"
+  , issueCommentCreatedAt = 2015 (-07) (-20) 20 : 03 : 31 UTC
+  , issueCommentBody =
+      "I meant `r.row`, not `r.doc` (renamed the issue)"
+  , issueCommentId = 123012374
+  }

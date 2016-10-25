@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-14) 22 : 16 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63137912"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/578#issuecomment-63137912"
+  , issueCommentCreatedAt = 2014 (-11) (-14) 22 : 16 : 05 UTC
+  , issueCommentBody =
+      "I'll check the formal requirements.\r\n\r\nWe might also have to do some format conversion on the API docs for DevDocs, and we should check that we're able to efficiently maintain our docs there when we release updates.\r\n\r\n(pinging @chipotle for comments)"
+  , issueCommentId = 63137912
+  }

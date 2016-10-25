@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-27) 18 : 30 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96771607"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/730#issuecomment-96771607"
+  , issueCommentCreatedAt = 2015 (-04) (-27) 18 : 30 : 04 UTC
+  , issueCommentBody =
+      "Okay. I'm going to open a separate issue for that, and leave this issue for fixing the wording specifically in the changefeed document. (I don't think there's any value in adding extra examples, though, if the syntax is literally identical -- you just have to clarify that `id` or another primary index can be used where secondary indexes can go.)"
+  , issueCommentId = 96771607
+  }

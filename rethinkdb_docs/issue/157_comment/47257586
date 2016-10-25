@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-26) 17 : 55 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47257586"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/157#issuecomment-47257586"
+  , issueCommentCreatedAt = 2014 (-06) (-26) 17 : 55 : 20 UTC
+  , issueCommentBody =
+      "innerJoin/outerJoin don't work with the nested syntax. The predicate is just coerced to a boolean.\r\n\r\n@mlucy -- is it expected? "
+  , issueCommentId = 47257586
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-06) 20 : 44 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/36934521"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/212#issuecomment-36934521"
+  , issueCommentCreatedAt = 2014 (-03) (-06) 20 : 44 : 29 UTC
+  , issueCommentBody =
+      "Oh, you mean things like this -- http://www.rethinkdb.com/docs/examples/node-socket-chat/\r\n\r\nThis definitely used to work, so something's broken. That's really bad, could you look into why that is?"
+  , issueCommentId = 36934521
+  }

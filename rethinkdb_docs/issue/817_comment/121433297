@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-15) 00 : 14 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/121433297"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/817#issuecomment-121433297"
+  , issueCommentCreatedAt = 2015 (-07) (-15) 00 : 14 : 30 UTC
+  , issueCommentBody =
+      "It looks good to me, although you might want to mention that Ruby and Bundler are prerequisites.\r\n\r\nWe might want to expand on what the `io:` YAML header actually is at some point, by giving an actual example in the sample shown and explaining it. Not a priority, but it took me a while to figure it out. :)"
+  , issueCommentId = 121433297
+  }

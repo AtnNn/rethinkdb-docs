@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-08) 01 : 29 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28023880"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/68#issuecomment-28023880"
+  , issueCommentCreatedAt = 2013 (-11) (-08) 01 : 29 : 29 UTC
+  , issueCommentBody = "Deployed, closing."
+  , issueCommentId = 28023880
+  }

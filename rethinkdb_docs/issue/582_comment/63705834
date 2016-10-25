@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 20 : 15 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 44345
+        , simpleUserLogin = N "ukd1"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44345?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ukd1"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63705834"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-63705834"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 20 : 15 : 39 UTC
+  , issueCommentBody =
+      "@danielmewes thats still harder than installing it and having it start with default options. If the problem is just the default port, as easy option is to have the debian installer ask if this is ok or to specify the port. \r\n\r\nAlso, non-production is an interesting one. I'm running it in non prod on ubuntu - for testing / development - and I would find it painful to have to run it each time I needed it. "
+  , issueCommentId = 63705834
+  }

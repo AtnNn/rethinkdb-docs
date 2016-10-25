@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-06) 21 : 25 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58101993"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/537#issuecomment-58101993"
+  , issueCommentCreatedAt = 2014 (-10) (-06) 21 : 25 : 35 UTC
+  , issueCommentBody =
+      "So to clarify, your suggestion is to say \"Don't use auth_key\" ?"
+  , issueCommentId = 58101993
+  }

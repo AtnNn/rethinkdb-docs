@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-15) 22 : 38 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 17789
+        , simpleUserLogin = N "gchpaco"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17789?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gchpaco"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/67079943"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/607#issuecomment-67079943"
+  , issueCommentCreatedAt = 2014 (-12) (-15) 22 : 38 : 07 UTC
+  , issueCommentBody =
+      "@chipotle, here's the limitations:\r\n\r\nHappily: bytewise ordering in UTF-8 corresponds precisely to codepoint ordering.  It will always be consistent.\r\n\r\nUnhappily: codepoint ordering does not have any relationship whatsoever to any group's collation standards except the US.  In particular:\r\n```javascript\r\nr.expr([{name:'foo'},\r\n    {name:'fo\\u00e9'},\r\n    {name:'foe'},\r\n    {name:'fo\\u0065\\u0301'}\r\n]).orderBy('name')\r\n```\r\nbecomes\r\n```javascript\r\n[{\"name\":  \"foe\"} ,\r\n {\"name\":  \"fo\233\"} ,\r\n {\"name\":  \"foo\"} ,\r\n {\"name\":  \"fo\233\"}]\r\n```\r\n\r\nAdditional complications:\r\n- we do not normalize, which means that \233 as-represented-by-the-string \"\\u00e9\" and \233 as-represented-by-the-string \"\\u0065\\u0301\" are considered distinct in indexes and for the purposes of `eq`.  As seen above the one sorts after \"e\" but before \"f\" and the other sorts after \"z\".  I think this is awful but there's a separate issue for that.\r\n- RE2 understands Unicode to some degree; specifically it understands Unicode character classes.  This implies that `r.match` will also understand these, which is good.\r\n- `r.split` with an empty string argument currently does insane things with Unicode.  I hope to fix that in the next couple days, but right now it is pretty crazy.\r\n- upcasing / downcasing is done only on ASCII characters.  So `r.expr('foo\233').upcase()` is `\"FOO\233\"`."
+  , issueCommentId = 67079943
+  }

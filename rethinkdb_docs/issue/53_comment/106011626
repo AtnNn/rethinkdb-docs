@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-27) 17 : 51 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/106011626"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/53#issuecomment-106011626"
+  , issueCommentCreatedAt = 2015 (-05) (-27) 17 : 51 : 19 UTC
+  , issueCommentBody =
+      "This is something we're generally doing; I've gone through and added some more links to older commands."
+  , issueCommentId = 106011626
+  }

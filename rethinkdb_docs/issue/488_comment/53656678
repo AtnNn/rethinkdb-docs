@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-27) 23 : 48 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53656678"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/488#issuecomment-53656678"
+  , issueCommentCreatedAt = 2014 (-08) (-27) 23 : 48 : 59 UTC
+  , issueCommentBody =
+      "It's an interesting idea. We can set up a downloadable data set, perhaps. (I've already created one from the IMDb Top 250 movies -- it's not identical to the one in this blog post but it could probably do similar explorations.)"
+  , issueCommentId = 53656678
+  }

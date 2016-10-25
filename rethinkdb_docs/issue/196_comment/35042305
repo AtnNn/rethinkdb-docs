@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-14) 00 : 07 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1910549
+        , simpleUserLogin = N "hden"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1910549?v=3"
+        , simpleUserUrl = "https://api.github.com/users/hden"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35042305"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/196#issuecomment-35042305"
+  , issueCommentCreatedAt = 2014 (-02) (-14) 00 : 07 : 56 UTC
+  , issueCommentBody =
+      "Already done, https://github.com/rethinkdb/docs/pull/167#issuecomment-31384034"
+  , issueCommentId = 35042305
+  }

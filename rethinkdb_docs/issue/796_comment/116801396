@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-29) 19 : 18 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/116801396"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/796#issuecomment-116801396"
+  , issueCommentCreatedAt = 2015 (-06) (-29) 19 : 18 : 00 UTC
+  , issueCommentBody =
+      "I think using the logo in this instance would fall under fair use (especially since we're linking to an Elixir driver), but I shall defer to @mglukhovsky on that. I'll save the old placeholder logo just in case..."
+  , issueCommentId = 116801396
+  }

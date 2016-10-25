@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-28) 22 : 05 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97240151"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/742#issuecomment-97240151"
+  , issueCommentCreatedAt = 2015 (-04) (-28) 22 : 05 : 08 UTC
+  , issueCommentBody =
+      "It looks good to me, so once we have the CLA part checked off we can merge."
+  , issueCommentId = 97240151
+  }

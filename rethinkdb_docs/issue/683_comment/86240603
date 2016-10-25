@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 22 : 42 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/86240603"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/683#issuecomment-86240603"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 22 : 42 : 18 UTC
+  , issueCommentBody =
+      "Updated instructions for iterating over a cursor by @Tryneus are in the other thread https://github.com/rethinkdb/rethinkdb/issues/3974#issuecomment-86237331"
+  , issueCommentId = 86240603
+  }

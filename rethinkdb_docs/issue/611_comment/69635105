@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-12) 20 : 00 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/69635105"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/611#issuecomment-69635105"
+  , issueCommentCreatedAt = 2015 (-01) (-12) 20 : 00 : 23 UTC
+  , issueCommentBody =
+      "There are a *lot* of places in the API documentation where this shorthand is being used. What happens in the other cases? Changing them from relative links to fully-qualified ones might be better handled by the Python help documentation build script."
+  , issueCommentId = 69635105
+  }

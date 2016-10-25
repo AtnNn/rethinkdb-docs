@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-23) 02 : 54 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29124308"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/97#issuecomment-29124308"
+  , issueCommentCreatedAt = 2013 (-11) (-23) 02 : 54 : 10 UTC
+  , issueCommentBody =
+      "I think this has been merged. Can anyone confirm?"
+  , issueCommentId = 29124308
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-29) 18 : 28 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53913261"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/482#issuecomment-53913261"
+  , issueCommentCreatedAt = 2014 (-08) (-29) 18 : 28 : 12 UTC
+  , issueCommentBody =
+      "Fixed in rethinkdb/rethinkdb-www@5fce69e19ce765e06a98ef38f67a40e32118220d - because this issue is in the docs repository, it didn't get automatically closed. But it's fixed and deployed."
+  , issueCommentId = 53913261
+  }

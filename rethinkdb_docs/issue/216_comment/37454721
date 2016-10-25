@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-12) 19 : 43 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37454721"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/216#issuecomment-37454721"
+  , issueCommentCreatedAt = 2014 (-03) (-12) 19 : 43 : 23 UTC
+  , issueCommentBody =
+      "Hello @jamescostian \r\n\r\nRethinkDB doesn't support the syntax `y.z` to access nested fields.\r\nIn your case the query you are looking for is:\r\n```\r\nr.db('db').table('table').orderBy(r.asc( r.row(\"y\")(\"z\") )\r\n```\r\nor\r\n```\r\nr.db('db').table('table').orderBy(r.asc( function(doc) { return doc(\"y\")(\"z\") } )\r\n```\r\n\r\nWe will add an example for `orderBy` using a nested field.\r\nWe should probably add an example for `get_field` too.\r\n\r\nHope it helps, and thanks for reporting it!"
+  , issueCommentId = 37454721
+  }

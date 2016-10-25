@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-11) 20 : 20 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/155899282"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/941#issuecomment-155899282"
+  , issueCommentCreatedAt = 2015 (-11) (-11) 20 : 20 : 21 UTC
+  , issueCommentBody =
+      "Is this based off the master branch, or the v2.2 branch?"
+  , issueCommentId = 155899282
+  }

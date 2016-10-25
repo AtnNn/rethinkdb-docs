@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-16) 23 : 19 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49240668"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/267#issuecomment-49240668"
+  , issueCommentCreatedAt = 2014 (-07) (-16) 23 : 19 : 28 UTC
+  , issueCommentBody =
+      "It has, yes, whenever the next deploy after pull request #324 was merged in\r\nwas -- the only change @neumino made was to the \"Note\" box specifying it\r\nwas a major version.\r\n\r\n\r\nOn Wed, Jul 16, 2014 at 3:56 PM, Slava Akhmechet <notifications@github.com>\r\nwrote:\r\n\r\n> Reopening in case there is a mistake. @chipotle\r\n> <https://github.com/chipotle> -- could you specify whether the change has\r\n> been deployed (or when it will be)? (this seemed to confuse different\r\n> people on different occasions, so I think it's good practice to include\r\n> into the close comment)\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/267#issuecomment-49238854>.\r\n>"
+  , issueCommentId = 49240668
+  }

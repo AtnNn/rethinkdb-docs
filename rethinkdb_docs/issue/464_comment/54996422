@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-09) 16 : 23 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/54996422"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-54996422"
+  , issueCommentCreatedAt = 2014 (-09) (-09) 16 : 23 : 53 UTC
+  , issueCommentBody =
+      "I haven't heard anything about this other than this issue, and nobody's mentioned it as part of 1.15 -- is this actually scheduled for 1.15, or is it rescheduled for a future release?"
+  , issueCommentId = 54996422
+  }

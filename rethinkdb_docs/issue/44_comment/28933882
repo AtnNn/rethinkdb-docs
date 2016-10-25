@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-20) 21 : 40 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28933882"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/44#issuecomment-28933882"
+  , issueCommentCreatedAt = 2013 (-11) (-20) 21 : 40 : 24 UTC
+  , issueCommentBody =
+      "@neumino was kind enough to explain to me how the docs system works. I'm going to add `noreply_wait` and `sync` documentation to the docs repository."
+  , issueCommentId = 28933882
+  }

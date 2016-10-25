@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 20 : 04 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63704008"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-63704008"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 20 : 04 : 25 UTC
+  , issueCommentBody =
+      "@chipotle I really like the idea of having a separate \"How to start RethinkDB\" document that only provides a very brief quick start quide, including the option to start from a terminal. As you say, it should have links to the other page(s) for more details."
+  , issueCommentId = 63704008
+  }

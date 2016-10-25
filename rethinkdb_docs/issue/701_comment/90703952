@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-07) 19 : 17 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/90703952"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/701#issuecomment-90703952"
+  , issueCommentCreatedAt = 2015 (-04) (-07) 19 : 15 : 30 UTC
+  , issueCommentBody =
+      "If you need to do one thing after another, you would want to use `.do` to do sequencing:\r\n\r\n```python\r\nr.table(\"foo\").insert({'id': 3}).do(lambda result: r.branch(result['inserted'] != 0, r.some_subexpr, r.error))\r\n```\r\n\r\nThis is probably much less often needed than using `.do` to reuse results, but it's something you can't quite do without it.\r\n\r\nMy understanding is the same as your as far as \"map over one document\". Only use `do` if you need to reuse the result, otherwise you can just chain more terms. But I was thinking someone new to ReQL might google for mapping over one document, and it would be useful to have them land here."
+  , issueCommentId = 90703952
+  }

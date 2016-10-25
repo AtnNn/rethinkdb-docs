@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-30) 21 : 14 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243583076"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/388#issuecomment-243583076"
+  , issueCommentCreatedAt = 2016 (-08) (-30) 21 : 14 : 02 UTC
+  , issueCommentBody =
+      "The RQL Promise library hasn't been listed for a while, I don't think; I'm just going to delete rethinkdb-co, as its last update is from March 2014 (before this ticket was opened!) I'm also going to scan the other libraries to see if they're still being maintained.\r\n"
+  , issueCommentId = 243583076
+  }

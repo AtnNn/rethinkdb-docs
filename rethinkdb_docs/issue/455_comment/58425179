@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-08) 20 : 49 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58425179"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/455#issuecomment-58425179"
+  , issueCommentCreatedAt = 2014 (-10) (-08) 20 : 49 : 11 UTC
+  , issueCommentBody =
+      "I'm not sure I understand this -- if the split point is going to be the string value 'n', for instance, the proper syntax is `rethinkdb admin split shard da2cde32-2052-4a7f-a53f-2522be15a59f Sn`?\r\n\r\nThe command won't give you an error if the split point is *not* prefixed with 'S', so it's not very clear. (Also, the documentation doesn't really tell you that the split point is supposed to be a value in the primary key field, so that should probably be clarified.)"
+  , issueCommentId = 58425179
+  }

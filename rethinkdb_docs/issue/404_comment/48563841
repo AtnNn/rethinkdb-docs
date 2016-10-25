@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-10) 04 : 19 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 254523
+        , simpleUserLogin = N "metaflow"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/254523?v=3"
+        , simpleUserUrl = "https://api.github.com/users/metaflow"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48563841"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/404#issuecomment-48563841"
+  , issueCommentCreatedAt = 2014 (-07) (-10) 04 : 19 : 57 UTC
+  , issueCommentBody =
+      "@neumino yea.. I just wanted to check how do my changes look like for PR. So in my case it would be easier to just fix if something went wrong. On the other hand I can fix build (with your help ^_^) if it will be handy for anyone else. Otherwise let's close this issue and maybe add note in README."
+  , issueCommentId = 48563841
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-12) 20 : 41 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30459730"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/130#issuecomment-30459730"
+  , issueCommentCreatedAt = 2013 (-12) (-12) 20 : 41 : 54 UTC
+  , issueCommentBody =
+      "I'll have to update the python script since we changed the name for the command.\r\nWe can merge it in v1.12.x though. I'll open another PR for the python script."
+  , issueCommentId = 30459730
+  }

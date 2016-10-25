@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-18) 18 : 27 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52534058"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52534058"
+  , issueCommentCreatedAt = 2014 (-08) (-18) 18 : 27 : 33 UTC
+  , issueCommentBody =
+      "Note, it would be very cool if we had two examples:\r\n\r\n- How to read a small file and insert it as a field in a document\r\n- How to insert a file into a document via `r.http` (e.g. a gravatar icon)"
+  , issueCommentId = 52534058
+  }

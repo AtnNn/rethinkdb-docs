@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-27) 18 : 05 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/106015916"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-106015916"
+  , issueCommentCreatedAt = 2015 (-05) (-27) 18 : 05 : 19 UTC
+  , issueCommentBody =
+      "So: if you have a RethinkDB cluster, you can set up a proxy node on your application server and have the application connect to the proxy rather than to a (non-proxy) machine on the cluster. The proxy will route queries more efficiently, deduplicate changefeed messages and make sure queries don't get sent to unavailable nodes.\r\n\r\nIf you have more than one application server in this scenario, should each application server run its own proxy, or should there be only one machine running `rethinkdb proxy` in a cluster?"
+  , issueCommentId = 106015916
+  }

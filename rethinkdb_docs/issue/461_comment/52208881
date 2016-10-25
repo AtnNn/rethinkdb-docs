@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-14) 16 : 43 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52208881"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/461#issuecomment-52208881"
+  , issueCommentCreatedAt = 2014 (-08) (-14) 16 : 43 : 37 UTC
+  , issueCommentBody =
+      "Very few people should have to build RethinkDB from source.\r\nWe have binaries for all the platforms listed on our install page except for OpenSuse and Rasbian.\r\n\r\nI wouldn't consider this as part of a 1.14 requirement (though it wouldn't hurt to fix it)"
+  , issueCommentId = 52208881
+  }

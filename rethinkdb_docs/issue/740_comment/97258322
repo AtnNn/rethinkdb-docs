@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-28) 23 : 12 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97258322"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/740#issuecomment-97258322"
+  , issueCommentCreatedAt = 2015 (-04) (-28) 23 : 12 : 48 UTC
+  , issueCommentBody =
+      "`distinct` on a table isn't a no-op; it turns it from a table into a stream (so you can't do `table.distinct.get` for example).  But, yes, it doesn't change the content of the stream at all, and it isn't really useful; we just support it because we wanted `distinct` to be defined on all streams."
+  , issueCommentId = 97258322
+  }

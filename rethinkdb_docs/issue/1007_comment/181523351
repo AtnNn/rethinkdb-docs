@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-08) 19 : 07 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/181523351"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1007#issuecomment-181523351"
+  , issueCommentCreatedAt = 2016 (-02) (-08) 19 : 07 : 09 UTC
+  , issueCommentBody =
+      "I'll add `rethinkdb-cli` to the third party administration tool page (where other CLI/REPLs are) and the other two to the frameworks and libraries page."
+  , issueCommentId = 181523351
+  }

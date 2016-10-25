@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-21) 21 : 08 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/199486900"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1047#issuecomment-199486900"
+  , issueCommentCreatedAt = 2016 (-03) (-21) 21 : 07 : 27 UTC
+  , issueCommentBody =
+      "![capture d ecran 2016-03-21 14 06 51](https://cloud.githubusercontent.com/assets/863286/13934222/30fb4b66-ef6e-11e5-8c7d-70e108267935.png)\r\n\r\nThis needs review, but is ready to go as long as the sidebar is ready. @chipotle would you mind reviewing? \r\n"
+  , issueCommentId = 199486900
+  }

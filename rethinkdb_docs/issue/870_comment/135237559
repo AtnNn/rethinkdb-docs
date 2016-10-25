@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-27) 01 : 48 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/135237559"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/870#issuecomment-135237559"
+  , issueCommentCreatedAt = 2015 (-08) (-27) 01 : 48 : 04 UTC
+  , issueCommentBody =
+      "Good catch, thanks!\r\nMerging this.\r\n\r\n@chipotle you might want to check if this is correct for the other languages."
+  , issueCommentId = 135237559
+  }

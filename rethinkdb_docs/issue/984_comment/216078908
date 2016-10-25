@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-01) 22 : 45 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10737628
+        , simpleUserLogin = N "rchordiya"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10737628?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rchordiya"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/216078908"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/984#issuecomment-216078908"
+  , issueCommentCreatedAt = 2016 (-05) (-01) 22 : 45 : 10 UTC
+  , issueCommentBody =
+      "I have checked this issue on different mobile phones in chrome browser and found the following results. I think hamburger button is large enough. Please let me know if i am checking for correct issue.\r\n\r\n# Iphone 4(chrome browser)\r\n![img_2975](https://cloud.githubusercontent.com/assets/10737628/14944693/52a605e6-0fb0-11e6-88b7-006565feaa3f.JPG)\r\n\r\n# Iphone 6 plus(chrome browser)\r\n![img_2968](https://cloud.githubusercontent.com/assets/10737628/14944742/f2ff5c6c-0fb1-11e6-981e-2d6635471cd2.jpg)\r\n\r\n# Nexus 6P\r\n![whatsapp-image-20160416](https://cloud.githubusercontent.com/assets/10737628/14944773/3911e4d0-0fb3-11e6-9100-7a1849fa6b44.jpg)\r\n\r\n\r\n"
+  , issueCommentId = 216078908
+  }

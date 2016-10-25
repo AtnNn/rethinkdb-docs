@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-17) 00 : 14 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 573768
+        , simpleUserLogin = N "barosl"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/573768?v=3"
+        , simpleUserUrl = "https://api.github.com/users/barosl"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46253446"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/361#issuecomment-46253446"
+  , issueCommentCreatedAt = 2014 (-06) (-17) 00 : 09 : 44 UTC
+  , issueCommentBody =
+      "@grandquista Because the u'str' notation was introduced in Python 3.3, right? Well, personally I think Python 3.3 is the first \"stable\" version in the 3 series, because of its compatibility features. It has been almost two years since the release of 3.3, so we can just set the minimum requirement to 3.3... Will there be a problem? Many libraries I have seen also require >=3.3.\r\n\r\nIf we're going >=3.3, we have to state the required version on somewhere."
+  , issueCommentId = 46253446
+  }

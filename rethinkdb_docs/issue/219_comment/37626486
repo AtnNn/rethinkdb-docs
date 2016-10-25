@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-14) 08 : 42 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37626486"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/219#issuecomment-37626486"
+  , issueCommentCreatedAt = 2014 (-03) (-14) 08 : 42 : 14 UTC
+  , issueCommentBody =
+      "We should grep for `groupBy`/`group_by`/`groupedMapReduce`/`grouped_map_reduce`. I bet it shows up in other places in the docs and on the site.\r\n\r\nAlso note that we no longer have two versions of `count`, so we should update the index page with that in mind too.\r\n\r\n"
+  , issueCommentId = 37626486
+  }

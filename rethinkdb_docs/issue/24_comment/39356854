@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-02) 17 : 10 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/39356854"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/24#issuecomment-39356854"
+  , issueCommentCreatedAt = 2014 (-04) (-02) 17 : 10 : 50 UTC
+  , issueCommentBody =
+      "Some people have been looking for some information (someone this morning).\r\nHere a few things\r\n- The protobuf file https://github.com/rethinkdb/rethinkdb/blob/next/src/rdb_protocol/ql2.proto\r\nNote that if you don't want to use protobuf, you can wait for 1.13 which will let use straight JSON -- https://github.com/rethinkdb/rethinkdb/issues/1868\r\n- Tool to see your query, the protobuf message, the protobuf response and the response\r\nhttps://github.com/neumino/rethinkdb-driver-development\r\n- Sources of the three official drivers https://github.com/rethinkdb/rethinkdb/tree/next/drivers\r\nIf you are familiar with JavaScript, rethinkdbdash is probably easier to read -- https://github.com/neumino/rethinkdbdash\r\n- The post about lambda functions http://rethinkdb.com/blog/lambda-functions/\r\n- Google groups for driver developers -- https://groups.google.com/forum/?fromgroups#!forum/rethinkdb-dev\r\n- IRC: irc://irc.freenode.org/#rethinkdb"
+  , issueCommentId = 39356854
+  }

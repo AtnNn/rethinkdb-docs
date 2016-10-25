@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-23) 00 : 14 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 17579
+        , simpleUserLogin = N "Thibaut"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17579?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Thibaut"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/67907893"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/578#issuecomment-67907893"
+  , issueCommentCreatedAt = 2014 (-12) (-23) 00 : 14 : 14 UTC
+  , issueCommentBody =
+      "> Thank you a lot @Thibaut, this is awesome!\r\n\r\nThanks!\r\n\r\n> Have you thought about having separate documentation for the different client languages?\r\n\r\nUntil DevDocs supports doc versioning, I'd rather show a single version (to avoid cluttering the UI)."
+  , issueCommentId = 67907893
+  }

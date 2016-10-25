@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-30) 19 : 13 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/117309962"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/800#issuecomment-117309962"
+  , issueCommentCreatedAt = 2015 (-06) (-30) 19 : 13 : 38 UTC
+  , issueCommentBody =
+      "See https://github.com/rethinkdb/docs/pull/801#issuecomment-117309822 , unfortunately cannot merge this at the moment. But might be useful at a later time."
+  , issueCommentId = 117309962
+  }

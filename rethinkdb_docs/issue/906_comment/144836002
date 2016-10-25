@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-01) 20 : 19 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144836002"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/906#issuecomment-144836002"
+  , issueCommentCreatedAt = 2015 (-10) (-01) 20 : 19 : 22 UTC
+  , issueCommentBody =
+      "The only real use case is changing the default value based on the error message."
+  , issueCommentId = 144836002
+  }

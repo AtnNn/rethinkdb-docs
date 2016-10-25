@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-25) 22 : 07 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47165350"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/389#issuecomment-47165350"
+  , issueCommentCreatedAt = 2014 (-06) (-25) 22 : 07 : 32 UTC
+  , issueCommentBody =
+      "I've deleted two images (install_client_drivers and quickstart) that aren't being used now. I think those are it."
+  , issueCommentId = 47165350
+  }

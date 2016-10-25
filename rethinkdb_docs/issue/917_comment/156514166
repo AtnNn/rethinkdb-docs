@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-13) 18 : 39 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/156514166"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/917#issuecomment-156514166"
+  , issueCommentCreatedAt = 2015 (-11) (-13) 18 : 39 : 37 UTC
+  , issueCommentBody =
+      "I just wanted to ping again -- I haven't merged this pull request because I'm not sure whether you signed the CLA linked above, and even though it's just a one-word commit, AFAIK we're still required to get this."
+  , issueCommentId = 156514166
+  }

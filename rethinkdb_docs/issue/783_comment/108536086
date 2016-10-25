@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-03) 17 : 28 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/108536086"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/783#issuecomment-108536086"
+  , issueCommentCreatedAt = 2015 (-06) (-03) 17 : 28 : 03 UTC
+  , issueCommentBody =
+      "The code switcher is an interesting concept, but it'd require completely redoing the way documentation is processed. That's not necessarily a strike against it, but it's something to keep in mind.\r\n\r\nThere might be a way to add the language tag to the code blocks in pure CSS, or with a configuration option, but that may be more in @mglukhovsky's court."
+  , issueCommentId = 108536086
+  }

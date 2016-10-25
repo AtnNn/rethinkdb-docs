@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-03) 01 : 19 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/76867879"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/664#issuecomment-76867879"
+  , issueCommentCreatedAt = 2015 (-03) (-03) 01 : 19 : 30 UTC
+  , issueCommentBody =
+      "#### In `python`:\r\n\r\nThese exists a function `Cursor::next()` which accepts an optional argument `wait`, which may be a `bool`, `None`, or a number type.\r\n\r\n`cursor.next(wait=True)` (default):\r\nWait indefinitely for the next row of the cursor.\r\n\r\n`cursor.next(wait=False)`, `cursor.next(wait=None)`, `cursor.next(wait=0)`:\r\nNo wait will be performed.  If data is immediately available, it will be returned normally, or if data is not immediately available, `RqlDriverError(\"Timed out waiting for cursor response.\")` will be raised.\r\n\r\nIf `wait` is any number greater than `0`, the same behavior will occur except that we will wait up to `wait` seconds for data to become available before raising the `RqlDriverError`.\r\n\r\nIf the cursor is empty or completely exhausted and `next` is called, a `StopIteration` error will be raised.\r\n\r\n#### In `ruby`:\r\nThere exists a function `Cursor::next()` which accepts an optional argument, which may be `true`, `false`, `nil`, or a number type.\r\n\r\n`cursor.next(true)` (default):\r\nWait indefinitely for the next row of the cursor.\r\n\r\n`cursor.next(false)`, `cursor.next(nil)`, `cursor.next(0)`:\r\nNo wait will be performed.  If data is immediately available, it will be returned normally, or if data is not immediately available, `Timeout::Error(\"Timed out waiting for cursor response.\")` will be raised.\r\n\r\nIf the argument is any number greater than `0`, the same behavior will occur except that we will wait up to that many seconds for data to become available before raising the `Timeout::Error`.\r\n\r\nIf the cursor is empty or completely exhausted and `next` is called, a `StopIteration` error will be raised."
+  , issueCommentId = 76867879
+  }

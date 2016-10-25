@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-03) 19 : 01 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6533521
+        , simpleUserLogin = N "ramimoshe"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/6533521?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ramimoshe"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/230169405"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1149#issuecomment-230169405"
+  , issueCommentCreatedAt = 2016 (-07) (-03) 19 : 01 : 09 UTC
+  , issueCommentBody =
+      "OK, so what is the name of x in x.y.z\nOn Jul 3, 2016 21:49, \"Watts Martin\" <notifications@github.com> wrote:\n\n> Thanks for the pull request. RethinkDB isn't following semantic\n> versioning, though\8212the text as it is now is actually correct. 2.1.0 to\n> 2.1.1 is a minor release, but 2.1.0 to 2.2.0 is a major release.\n>\n> \8212\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/rethinkdb/docs/pull/1149#issuecomment-230168810>, or mute\n> the thread\n> <https://github.com/notifications/unsubscribe/AGOxkfbN-dX7OvsbFJ05BRKyVnwvkWvNks5qSAQxgaJpZM4JD1CC>\n> .\n>\n"
+  , issueCommentId = 230169405
+  }

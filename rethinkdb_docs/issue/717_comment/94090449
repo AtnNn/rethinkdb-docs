@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-17) 22 : 42 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94090449"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/717#issuecomment-94090449"
+  , issueCommentCreatedAt = 2015 (-04) (-17) 22 : 42 : 10 UTC
+  , issueCommentBody =
+      "Thank you @epc for fixing this!\r\nYour changes look good.\r\nOne last thing before we can merge them: Unless you've done so before, could you please sign our contributor agreement http://rethinkdb.com/community/cla/ ? We require this for legal reasons before we can merge any changes."
+  , issueCommentId = 94090449
+  }

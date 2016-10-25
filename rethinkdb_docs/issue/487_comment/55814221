@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-16) 21 : 11 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55814221"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/487#issuecomment-55814221"
+  , issueCommentCreatedAt = 2014 (-09) (-16) 21 : 11 : 15 UTC
+  , issueCommentBody =
+      "I agree with @AtnNn -- I followed the instructions and they work, so nothing is out of date, but I think our list of steps under \"Launching an instance\" is not only terse but in one case incomplete. (As near as I can tell, the only way to know the web UI's username is `rethinkdb` is to read farther down to the \"Changing the web UI password\" block\" and to know how `htpasswd` works.)"
+  , issueCommentId = 55814221
+  }

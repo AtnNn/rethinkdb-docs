@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-18) 18 : 41 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/233419683"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1156#issuecomment-233419683"
+  , issueCommentCreatedAt = 2016 (-07) (-18) 18 : 41 : 42 UTC
+  , issueCommentBody =
+      "There's nothing about upserts in the FAQ. As with #1155, this appears to be referencing the November 2012 blog post \"Answers to common questions about RethinkDB,\" which begins with a big italic warning block talking about how it's very out of date, and specifically mentions that the `insert` command now uses a different syntax for upserts.\r\n"
+  , issueCommentId = 233419683
+  }

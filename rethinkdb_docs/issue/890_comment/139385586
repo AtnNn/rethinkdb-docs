@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-10) 21 : 33 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/139385586"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/890#issuecomment-139385586"
+  , issueCommentCreatedAt = 2015 (-09) (-10) 21 : 33 : 12 UTC
+  , issueCommentBody =
+      "Ok, either your two bullet point proposal @dalanmiller or simply replacing the \"array\" by \"document\" in\r\n\r\n> Deleting, adding or updating a post requires loading the entire posts array, modifying it, and writing the entire document back to disk.\r\n\r\nsound good to me :)"
+  , issueCommentId = 139385586
+  }

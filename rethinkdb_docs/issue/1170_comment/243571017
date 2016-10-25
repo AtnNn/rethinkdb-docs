@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-30) 20 : 31 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243571017"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1170#issuecomment-243571017"
+  , issueCommentCreatedAt = 2016 (-08) (-30) 20 : 31 : 51 UTC
+  , issueCommentBody =
+      "Some of them are also slightly wrong. For example for `innerJoin`, the signature says\r\n```\r\nsequence.innerJoin(otherSequence, predicate_function) \8594 stream\r\narray.innerJoin(otherSequence, predicate_function) \8594 array\r\n```\r\n\r\nThe first one takes a `sequence` as an input, and the documentation says that it results in a `stream`. However I assume that this is only the case if the input is actually a `stream` as well. `sequence` would mean stream or array, and in the array case `innerJoin` does definitely not return a `stream` as is specified in the second line.\r\n\r\nEven though it generates some bloat in the signatures, I'm thinking that it might be best to never use the term `sequence` in the type signatures, and to instead split it up into `stream` and `array` everywhere.\r\n\r\nIt would a) be more consistent and b) would probably be easier to comprehend for users who are not familiar with what exactly constitutes a `sequence`."
+  , issueCommentId = 243571017
+  }

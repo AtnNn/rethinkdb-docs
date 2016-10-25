@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-18) 01 : 10 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37890072"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/222#issuecomment-37890072"
+  , issueCommentCreatedAt = 2014 (-03) (-18) 01 : 09 : 53 UTC
+  , issueCommentBody =
+      "Just pushed some fixes for the `io` field and for the order of the aggregation methods.\r\n\r\nI opened https://github.com/rethinkdb/docs/issues/223 for the format -- we should definitively look at that."
+  , issueCommentId = 37890072
+  }

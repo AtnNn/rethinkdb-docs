@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-24) 18 : 44 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33249340"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/185#issuecomment-33249340"
+  , issueCommentCreatedAt = 2014 (-01) (-24) 18 : 44 : 06 UTC
+  , issueCommentBody =
+      "I would be in favor of merging the people page in community (and update it by the way).\r\nHave a few links on the community page that points to new pages\r\n- Videos (and the current videos out from community + add the recent one\r\n- Contributions - And exhaustive list of all the people who sent a pull request that got merged\r\n- Frameworks/tools/libraries around RethinkDB -- Basically this page (http://rethinkdb.com/docs/frameworks-and-libraries/) but __way more pretty__."
+  , issueCommentId = 33249340
+  }

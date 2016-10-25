@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-10) 20 : 47 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48661969"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/411#issuecomment-48661969"
+  , issueCommentCreatedAt = 2014 (-07) (-10) 20 : 47 : 31 UTC
+  , issueCommentBody =
+      "@ahrugyt, two requests: could the clay label not have a transparent background? Could we try a different color for the clay that's a bit more fun?"
+  , issueCommentId = 48661969
+  }

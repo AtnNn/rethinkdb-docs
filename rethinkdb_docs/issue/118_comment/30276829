@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-10) 22 : 51 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30276829"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/118#issuecomment-30276829"
+  , issueCommentCreatedAt = 2013 (-12) (-10) 22 : 51 : 43 UTC
+  , issueCommentBody =
+      "I had forgotten about this PR. Taking a look now."
+  , issueCommentId = 30276829
+  }

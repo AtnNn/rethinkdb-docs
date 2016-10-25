@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-25) 19 : 51 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/159714805"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/962#issuecomment-159714805"
+  , issueCommentCreatedAt = 2015 (-11) (-25) 19 : 51 : 34 UTC
+  , issueCommentBody =
+      "The main documentation is the (short) section called [Running a proxy node](http://www.rethinkdb.com/docs/sharding-and-replication/#running-a-proxy-node) in the \"Scaling, sharding and replication\" document; that's also linked under the [Proxy nodes](http://www.rethinkdb.com/docs/optimization/#proxy-nodes) heading in \"Optimizing query performance,\" from the end of the \"Command line options\" document, and from [Scaling considerations](http://www.rethinkdb.com/docs/changefeeds/javascript/#scaling-considerations) in the main Changefeed documentation.\r\n\r\nThat section is relatively short, and if there's stuff that you think it's missing we can add it. (For instance, it doesn't address \"what the network config needs to look like.\") And if there are other places we need to link it, we can. Unless there's a *lot* missing I'm not sure whether this really needs to be in its own document, but if you don't think it belongs under \"Scaling\" maybe there's a case for a better location."
+  , issueCommentId = 159714805
+  }

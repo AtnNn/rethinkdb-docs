@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-25) 23 : 29 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27133311"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/36#issuecomment-27133311"
+  , issueCommentCreatedAt = 2013 (-10) (-25) 23 : 29 : 12 UTC
+  , issueCommentBody =
+      "The way to run `./configure` changes depending on the platform, so I'm not sure it's worth doing an include with some logic inside.\r\n\r\nIt will make it just more complicated to update."
+  , issueCommentId = 27133311
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-28) 10 : 38 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31294155"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/163#issuecomment-31294155"
+  , issueCommentCreatedAt = 2013 (-12) (-28) 10 : 38 : 29 UTC
+  , issueCommentBody =
+      "- Given a document, I want to insert if if there is no document saved with the primary key, or replace (and not update) the document if it exists. I don't remember who asked that and what exactly was the use case, but I think it was someone on IRC.\r\n\r\n\r\n- With 1.11.2, this query works fine\r\n```js\r\nr.db('test').table('test').get(1).replace({\r\n        id: 1,\r\n        value: r.js(\"Math.random()\")\r\n}).run(conn, callback)\r\n```\r\n\r\nI can pass an object `{nonAtomic: <boolean>}` as a second argument to replace, but it doesn't change anything (tested with Python and JavaScript). So it's probably a bug?\r\n\r\nFor https://github.com/rethinkdb/rethinkdb/issues/899, I'll open another pull request later."
+  , issueCommentId = 31294155
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-15) 23 : 16 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/226347338"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1141#issuecomment-226347338"
+  , issueCommentCreatedAt = 2016 (-06) (-15) 23 : 16 : 04 UTC
+  , issueCommentBody =
+      "Good points. I forgot that we're using these terms in error messages.\r\n\r\nI think in general ReQL error messages should use type denominators that match the return values of the `.typeOf()` command, which in turn I believe match what we use in the API docs and what we currently describe on https://rethinkdb.com/docs/data-types/ (except for capitalization).\r\nNote that those names differ a bit from what we use in `ql2.proto`. For example we write `SELECTION<OBJECT>` instead of `SINGLE_SELECTION`.\r\n\r\nI think most ReQL error messages already follow this schema.\r\n\r\nThat still leaves some type classes that we use in errors, but don't explain anywhere. `DATUM` is one, and there might be others.\r\n\r\nMaybe we should just add descriptions of `DATUM` and potentially other similar \"abstract\" types to the https://rethinkdb.com/docs/data-types/#rethinkdb-specific-data-types list?"
+  , issueCommentId = 226347338
+  }

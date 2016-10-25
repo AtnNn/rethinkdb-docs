@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-25) 05 : 51 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47062943"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/388#issuecomment-47062943"
+  , issueCommentCreatedAt = 2014 (-06) (-25) 05 : 51 : 37 UTC
+  , issueCommentBody =
+      "@chrisvariety, I agree that we should change the descriptions since we now support promises natively, good call. However, for users running older versions of RethinkDB, it still makes sense to include libraries like RQL Promise on this list.\r\n\r\n@neumino, can you improve the descriptions of these libraries?"
+  , issueCommentId = 47062943
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-13) 22 : 19 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52119797"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/461#issuecomment-52119797"
+  , issueCommentCreatedAt = 2014 (-08) (-13) 22 : 19 : 42 UTC
+  , issueCommentBody =
+      "Assigning to @chipotle -- this is important to fix as we have upcoming releases.\r\n\r\n@AtnNn, could you confirm these details? After this is done, we should also open a new issue to remove `m4` from the list of required packages once rethinkdb/rethinkdb#2676 is closed."
+  , issueCommentId = 52119797
+  }

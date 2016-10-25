@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-14) 06 : 56 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 243851
+        , simpleUserLogin = N "mafrosis"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/243851?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mafrosis"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43048232"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/295#issuecomment-43048232"
+  , issueCommentCreatedAt = 2014 (-05) (-14) 06 : 56 : 44 UTC
+  , issueCommentBody =
+      "Already done!\r\nOn 14 May 2014 16:56, \"Slava Akhmechet\" <notifications@github.com> wrote:\r\n\r\n> @mafrosis <https://github.com/mafrosis> -- thanks for the pull request!\r\n> Could you sign the CLA if you haven't already? (\r\n> http://rethinkdb.com/community/cla/)\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub<https://github.com/rethinkdb/docs/pull/295#issuecomment-43048208>\r\n> .\r\n>"
+  , issueCommentId = 43048232
+  }

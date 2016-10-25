@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-31) 19 : 25 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243873063"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1127#issuecomment-243873063"
+  , issueCommentCreatedAt = 2016 (-08) (-31) 19 : 25 : 30 UTC
+  , issueCommentBody =
+      "They are. I think the way this ticket was written initially confused me\8212this isn't something that needs to be added to driver documentation, it needs to be added to the `connect` API documentation."
+  , issueCommentId = 243873063
+  }

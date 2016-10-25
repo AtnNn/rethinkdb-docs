@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-10) 00 : 23 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/120180387"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/813#issuecomment-120180387"
+  , issueCommentCreatedAt = 2015 (-07) (-10) 00 : 23 : 23 UTC
+  , issueCommentBody =
+      "There are three occasions of this, based on a search for \"/images/[^doc]\" in the docs repository.\r\n\r\n```\r\nrethinkdb-vs-mongodb.md, line 98: /assets/images/screenshots/data_explorer_cropped.png\r\npaas.md, line 24: /assets/images/posts/2014-10-14-compose-newdep.png\r\nindex.html, line 34: /assets/images/videos/what-is-rethinkdb.png\r\n```\r\n\r\nThe last one is the landing page and a placeholder for a video, so it's probably not relevant here.\r\n\r\nFor the other two, if there are better places to copy or move them (I don't think the screenshot is actually referenced anywhere else and I'm not sure why I put it there), let me know where better places are and I'll move them -- the ontology under /images/docs/ is a little opaque to me."
+  , issueCommentId = 120180387
+  }

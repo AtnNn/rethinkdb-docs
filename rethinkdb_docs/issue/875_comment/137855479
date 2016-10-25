@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-04) 21 : 16 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/137855479"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/875#issuecomment-137855479"
+  , issueCommentCreatedAt = 2015 (-09) (-04) 21 : 16 : 33 UTC
+  , issueCommentBody =
+      "I've shuffled the various examples for `keys` and `values` to reflect `[ \"id\", \"mail\", \"name\" ]`."
+  , issueCommentId = 137855479
+  }

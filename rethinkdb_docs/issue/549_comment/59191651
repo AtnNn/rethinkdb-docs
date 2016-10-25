@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-15) 11 : 25 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59191651"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/549#issuecomment-59191651"
+  , issueCommentCreatedAt = 2014 (-10) (-15) 11 : 25 : 49 UTC
+  , issueCommentBody =
+      "@chipotle: was I supposed to review this before it was merged? :smiley: \r\n\r\nI'd like to see a minimal example I can copy paste from mentioning `bind=all` and `join=<IP of a node in your cluster>`. Are there any other options that are relevant for a basic cluster?"
+  , issueCommentId = 59191651
+  }

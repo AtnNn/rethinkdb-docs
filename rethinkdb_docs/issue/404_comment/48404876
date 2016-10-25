@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-08) 21 : 59 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48404876"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/404#issuecomment-48404876"
+  , issueCommentCreatedAt = 2014 (-07) (-08) 21 : 59 : 12 UTC
+  , issueCommentBody =
+      "@neumino: I don't have a ton of time to work on this now, but you can look at branch `mg_preview` and see if it works. It's a stale branch, but I think it was close to being ready last time I worked on it."
+  , issueCommentId = 48404876
+  }

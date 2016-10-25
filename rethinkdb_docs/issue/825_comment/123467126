@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 20 : 21 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/123467126"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/825#issuecomment-123467126"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 20 : 21 : 19 UTC
+  , issueCommentBody =
+      "Derp. @danielmewes pointed out I'd missed it. I was mostly just making sure i'd got the category right. Sorry about that!\r\n\r\nMore useful question -- have you signed the RethinkDB [CLA](http://www.rethinkdb.com/community/cla/) yet?"
+  , issueCommentId = 123467126
+  }

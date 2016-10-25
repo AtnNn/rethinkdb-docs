@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-02) 20 : 32 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/137236347"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/876#issuecomment-137236347"
+  , issueCommentCreatedAt = 2015 (-09) (-02) 20 : 32 : 27 UTC
+  , issueCommentBody =
+      "When you say \"connect the server back to the cluster to regain full health,\" what does this mean in terms of user action? Restarting the server with the `--join` option? And which server -- the one(s) with the replicas that aren't ready? What replication settings would need to be adjusted, the list of replicas in the `shard` key for a given table in `table_config`?\r\n\r\nSorry to ask questions about virtually every noun. :)"
+  , issueCommentId = 137236347
+  }

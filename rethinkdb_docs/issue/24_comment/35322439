@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-17) 21 : 01 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35322439"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/24#issuecomment-35322439"
+  , issueCommentCreatedAt = 2014 (-02) (-17) 21 : 01 : 05 UTC
+  , issueCommentBody =
+      "It would be nice to a list of things to implement for the next release too.\r\n\r\nSo people can update their driver the day we release a new version.\r\nI found a little hard to find what to implement for 1.12."
+  , issueCommentId = 35322439
+  }

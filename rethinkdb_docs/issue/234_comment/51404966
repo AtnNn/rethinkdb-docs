@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 22 : 12 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51404966"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/234#issuecomment-51404966"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 22 : 12 : 53 UTC
+  , issueCommentBody =
+      "I'm not sure I see the difference between what you've reopened this ticket for and what you opened ticket #438 for."
+  , issueCommentId = 51404966
+  }

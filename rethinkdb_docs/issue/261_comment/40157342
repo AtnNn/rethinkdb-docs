@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-10) 23 : 54 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40157342"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/261#issuecomment-40157342"
+  , issueCommentCreatedAt = 2014 (-04) (-10) 23 : 54 : 00 UTC
+  , issueCommentBody =
+      "> RethinkDB has a custom caching engine and can run on low-memory nodes with large amounts of on-disk data\r\n\r\nThis is still not true."
+  , issueCommentId = 40157342
+  }

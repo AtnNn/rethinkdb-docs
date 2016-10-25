@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-07) 19 : 27 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/162632963"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/972#issuecomment-162632963"
+  , issueCommentCreatedAt = 2015 (-12) (-07) 19 : 27 : 22 UTC
+  , issueCommentBody =
+      "Looks good, although the other files have the same bug -- I caught them. This is an old one, I think (those lines seem to be from October 2013). :)"
+  , issueCommentId = 162632963
+  }

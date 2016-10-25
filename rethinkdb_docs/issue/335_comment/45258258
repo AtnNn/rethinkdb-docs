@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-05) 18 : 44 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45258258"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/335#issuecomment-45258258"
+  , issueCommentCreatedAt = 2014 (-06) (-05) 18 : 44 : 42 UTC
+  , issueCommentBody =
+      "Looks good to me.\r\n@AtnNn -- anything that you want to change?\r\n\r\nI'll run some tests again for the build instructions post 1.13\r\n"
+  , issueCommentId = 45258258
+  }

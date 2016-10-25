@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-20) 06 : 26 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28866575"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/94#issuecomment-28866575"
+  , issueCommentCreatedAt = 2013 (-11) (-20) 06 : 26 : 17 UTC
+  , issueCommentBody =
+      "@mlucy yes, master is what is on the website.\r\nv.1.11.x is what's going to be merged in master as soon as we release 1.11"
+  , issueCommentId = 28866575
+  }

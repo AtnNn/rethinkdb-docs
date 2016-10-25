@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 19 : 48 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44576209"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/279#issuecomment-44576209"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 19 : 48 : 33 UTC
+  , issueCommentBody =
+      "`nth` is documented as taking a sequence, so that includes a selection -- maybe add a second example showing that, rather than just the array example?"
+  , issueCommentId = 44576209
+  }

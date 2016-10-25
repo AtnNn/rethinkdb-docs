@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-12) 22 : 23 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51986167"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/457#issuecomment-51986167"
+  , issueCommentCreatedAt = 2014 (-08) (-12) 22 : 23 : 57 UTC
+  , issueCommentBody =
+      "Where is the SQL-to-ReQL image going to be displayed?\r\n\r\nThe page is filled with tables with two columns."
+  , issueCommentId = 51986167
+  }

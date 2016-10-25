@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-18) 21 : 09 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 969456
+        , simpleUserLogin = N "webmasterkai"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/969456?v=3"
+        , simpleUserUrl = "https://api.github.com/users/webmasterkai"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/74948293"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/654#issuecomment-74948293"
+  , issueCommentCreatedAt = 2015 (-02) (-18) 21 : 09 : 09 UTC
+  , issueCommentBody =
+      "Sorry, I thought I did the CLA already. Done now."
+  , issueCommentId = 74948293
+  }

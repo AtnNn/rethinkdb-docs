@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-06) 18 : 25 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 320177
+        , simpleUserLogin = N "bitemyapp"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/320177?v=3"
+        , simpleUserUrl = "https://api.github.com/users/bitemyapp"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27899544"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/68#issuecomment-27899544"
+  , issueCommentCreatedAt = 2013 (-11) (-06) 18 : 25 : 14 UTC
+  , issueCommentBody =
+      "I've got the link added, but how do the images get added?\r\n\r\nNamely, I can't find:\r\n\r\n    <img src=\"/assets/images/docs/driver-languages/csharp.png\" />\r\n\r\nin the docs repo."
+  , issueCommentId = 27899544
+  }

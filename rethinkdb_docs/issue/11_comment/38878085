@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-28) 00 : 38 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38878085"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-38878085"
+  , issueCommentCreatedAt = 2014 (-03) (-28) 00 : 38 : 29 UTC
+  , issueCommentBody =
+      "Can someone explain to me what's a use case for rethinkdb proxy?\r\n\r\nI get what it does I think, but I can't think of what to do with it.\r\nI thought about using it to create to join two network to create a virtual network, but that doesn't work. It's the same problem as setting a ssh tunnel between two networks.\r\n\r\nIf I have 2 machines 1 and 2 in network A, start `rethinkdb proxy` on network A with `--bind all`, and have a machine 3 in network B that joins the proxy, I get:\r\n\r\n- 1 and 2 don't know about 3\r\n- 3 knows about 1 and 2 but can't connect to it."
+  , issueCommentId = 38878085
+  }

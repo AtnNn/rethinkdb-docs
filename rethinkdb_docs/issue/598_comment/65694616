@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-04) 20 : 08 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65694616"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/598#issuecomment-65694616"
+  , issueCommentCreatedAt = 2014 (-12) (-04) 20 : 08 : 16 UTC
+  , issueCommentBody =
+      "Unfortunately the Mongo docs are under a variant of the CC license that does not allow commercial use http://creativecommons.org/licenses/by-nc-sa/3.0/ , so we cannot use it."
+  , issueCommentId = 65694616
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-16) 18 : 47 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/157132785"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/948#issuecomment-157132785"
+  , issueCommentCreatedAt = 2015 (-11) (-16) 18 : 47 : 29 UTC
+  , issueCommentBody =
+      "This seems like it's a bit too short for a standalone article just about version numbers, but our only FAQ at this point is about RethinkDB architectural details. Maybe it does need to have an article in \"Getting Started\" after all?\r\n\r\nAnd, yes, I agree with @stuartpb -- the way we use version numbers really does come across as non-standard. If 2.1 \8594 2.2 can introduce a backwards-incompatible change, what would a jump from, say, 2.4 \8594 3.0 imply?"
+  , issueCommentId = 157132785
+  }

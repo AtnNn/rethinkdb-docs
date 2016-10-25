@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-29) 18 : 05 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/215832574"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1106#issuecomment-215832574"
+  , issueCommentCreatedAt = 2016 (-04) (-29) 18 : 05 : 48 UTC
+  , issueCommentBody =
+      "This pull request mixes fixes for #1028 (which is already closed now), #1099, #1011, #1067, and whatever issue \"documented limitations of interrupting a query' is. Could you open these as separate pull requests rather than all as one? We need to be able to review them separately for each issue."
+  , issueCommentId = 215832574
+  }

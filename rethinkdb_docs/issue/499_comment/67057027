@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-15) 20 : 11 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/67057027"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/499#issuecomment-67057027"
+  , issueCommentCreatedAt = 2014 (-12) (-15) 20 : 11 : 44 UTC
+  , issueCommentBody =
+      "@AtnNn at some point, could you take a look at this?\r\nShould we just change them to work for CentOS 7 and state that building on 6.5 requires installing your own GCC? Is there a backported GCC RPM that we could link to?"
+  , issueCommentId = 67057027
+  }

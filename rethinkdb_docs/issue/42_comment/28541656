@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-15) 01 : 57 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28541656"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/42#issuecomment-28541656"
+  , issueCommentCreatedAt = 2013 (-11) (-15) 01 : 57 : 58 UTC
+  , issueCommentBody =
+      "I added some comments.  Mostly style, but one or two were problems with the actual code in the examples (e.g. https://github.com/rethinkdb/docs/pull/42#discussion_r7680386)."
+  , issueCommentId = 28541656
+  }

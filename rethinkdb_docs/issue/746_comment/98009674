@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-01) 00 : 45 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/98009674"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/746#issuecomment-98009674"
+  , issueCommentCreatedAt = 2015 (-05) (-01) 00 : 45 : 16 UTC
+  , issueCommentBody =
+      "That is correct - `r.minval` and `r.maxval` are only useful for `between`, but we allow users to put them wherever they want in a query.  `r.asc` and `r.desc` are actually restricted to be the direct descendant of a `order_by` term (which has a few unfortunate side-effects, i.e. rethinkdb/rethinkdb#3188 and rethinkdb/rethinkdb#4143)."
+  , issueCommentId = 98009674
+  }

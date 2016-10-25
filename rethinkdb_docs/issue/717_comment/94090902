@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-17) 22 : 45 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94090902"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/717#issuecomment-94090902"
+  , issueCommentCreatedAt = 2015 (-04) (-17) 22 : 45 : 40 UTC
+  , issueCommentBody =
+      "Oops missed that.\r\nMerging. The fixes will go online as soon as we redeploy the website (this will happen on Monday I think)."
+  , issueCommentId = 94090902
+  }

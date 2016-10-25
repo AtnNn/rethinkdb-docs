@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-28) 22 : 29 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44473068"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/306#issuecomment-44473068"
+  , issueCommentCreatedAt = 2014 (-05) (-28) 22 : 29 : 16 UTC
+  , issueCommentBody =
+      "The \"control structures\" section right now doesn't make much sense.  `r.do` and `r.branch` make sense there, but `r.json`, `r.info`, and `r.js` don't so much.  I would break it up personally.\r\n\r\n(Also, I think @Tryneus should write the first draft of docs for this since he implemented the command.  It's easier not to miss things that way.)"
+  , issueCommentId = 44473068
+  }

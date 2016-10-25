@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-25) 18 : 29 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38602403"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/238#issuecomment-38602403"
+  , issueCommentCreatedAt = 2014 (-03) (-25) 18 : 29 : 04 UTC
+  , issueCommentBody =
+      "Should we just change this to be a multi-language doc and add a switcher?"
+  , issueCommentId = 38602403
+  }

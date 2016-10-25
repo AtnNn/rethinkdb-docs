@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-02) 23 : 54 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 326949
+        , simpleUserLogin = N "thinklinux"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/326949?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thinklinux"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/153196286"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/935#issuecomment-153196286"
+  , issueCommentCreatedAt = 2015 (-11) (-02) 23 : 54 : 10 UTC
+  , issueCommentBody =
+      "@danielmewes Thanks! More elegant and most important - atomic. Love it!"
+  , issueCommentId = 153196286
+  }

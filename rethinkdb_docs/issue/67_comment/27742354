@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-05) 02 : 13 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27742354"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/67#issuecomment-27742354"
+  , issueCommentCreatedAt = 2013 (-11) (-05) 02 : 13 : 08 UTC
+  , issueCommentBody =
+      "@jdoliner, could you expand on this? Is this documentation for the query profiler?"
+  , issueCommentId = 27742354
+  }

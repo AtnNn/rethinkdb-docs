@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-06) 21 : 36 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58103741"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/537#issuecomment-58103741"
+  , issueCommentCreatedAt = 2014 (-10) (-06) 21 : 36 : 50 UTC
+  , issueCommentBody =
+      "Personally, I think the presence of the auth_key is bound to confuse people into thinking it provides some reasonable measure of protection. I've seen several users mention they use it, and I'm betting they don't fall into one of the very specific categories above where it might be useful."
+  , issueCommentId = 58103741
+  }

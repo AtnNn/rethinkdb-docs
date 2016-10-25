@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-01) 03 : 03 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144603973"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/907#issuecomment-144603973"
+  , issueCommentCreatedAt = 2015 (-10) (-01) 03 : 03 : 12 UTC
+  , issueCommentBody =
+      "Ah, ok I just noticed this note at the bottom:\r\n\r\n> Note: If you chain between after order_by, the between command must use the index specified in order_by, and will default to that index. Trying to specify another index will result in a ReqlRuntimeError.\r\n\r\nSo it looks like this is a special case just for orderBy. In that case I think we should have at least one example, and the signature should reflect this fact"
+  , issueCommentId = 144603973
+  }

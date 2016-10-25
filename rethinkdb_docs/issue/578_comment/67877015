@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-22) 19 : 14 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/67877015"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/578#issuecomment-67877015"
+  , issueCommentCreatedAt = 2014 (-12) (-22) 19 : 14 : 24 UTC
+  , issueCommentBody =
+      "Thank you a lot @Thibaut, this is awesome!\r\n\r\nOut of curiosity: Have you thought about having separate documentation for the different client languages (JavaScript which is there now, Python, Ruby)? They are all very similar, but the syntax in the examples and the names of some parameters differ slightly (in JavaScript we use CamelCase, in Python and Ruby we use under_scores)."
+  , issueCommentId = 67877015
+  }

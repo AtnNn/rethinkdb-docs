@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-16) 18 : 46 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3856600
+        , simpleUserLogin = N "gamesbrainiac"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/3856600?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gamesbrainiac"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/157132552"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/949#issuecomment-157132552"
+  , issueCommentCreatedAt = 2015 (-11) (-16) 18 : 46 : 35 UTC
+  , issueCommentBody =
+      "Hey @Tryneus, I'd love to help with the documentation."
+  , issueCommentId = 157132552
+  }

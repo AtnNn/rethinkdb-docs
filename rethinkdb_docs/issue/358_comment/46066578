@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-13) 22 : 25 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46066578"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/358#issuecomment-46066578"
+  , issueCommentCreatedAt = 2014 (-06) (-13) 22 : 25 : 23 UTC
+  , issueCommentBody =
+      "@neumino -- sorry, I should have specified the context of this. @mlucy added a JSON spec file (which was reviewed separately and accepted), and I'm the messenger incorporating it into our docs/website. I agree with your comments, but I think we should do that separately.\r\n\r\nWould you mind if we merged it into the site, and then did a separate set of improvements? I opened an issue for that here -- #355."
+  , issueCommentId = 46066578
+  }

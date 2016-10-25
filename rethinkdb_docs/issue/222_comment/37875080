@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-17) 21 : 48 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37875080"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/222#issuecomment-37875080"
+  , issueCommentCreatedAt = 2014 (-03) (-17) 21 : 47 : 11 UTC
+  , issueCommentBody =
+      "BTW, after looking at the docs for `split` (for internal users, see `http://newton:8888/api/javascript/split/`), I think that the long form \"example/result\" is pretty bad.\r\n\r\n@mlucy's version would look way better and be way more readable for cases like `split` where there are short inputs, short outputs, and lots of examples.\r\n\r\nFor cases where there are longer (multiline) inputs and outputs, I think @neumino's version is a lot better."
+  , issueCommentId = 37875080
+  }

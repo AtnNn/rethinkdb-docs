@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-15) 23 : 01 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 67937
+        , simpleUserLogin = N "encryptio"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/67937?v=3"
+        , simpleUserUrl = "https://api.github.com/users/encryptio"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/226344971"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1141#issuecomment-226344971"
+  , issueCommentCreatedAt = 2016 (-06) (-15) 23 : 01 : 25 UTC
+  , issueCommentBody =
+      "This would be aimed at ReQL users who have little to no interest in writing drivers or working on the core, but do want to understand enough of the query execution engine to understand what the type errors they're seeing actually mean, and what \"Expected type X but found Y\" can be solved by _in general_ (not just in the specific query they're looking at).\r\n\r\nI also looked for this kind of documentation when I started experimenting with ReQL, and had to extrapolate `DATUM` myself, and still didn't really understand `SELECTION` and its buddies until I worked on the RethinkDB core myself."
+  , issueCommentId = 226344971
+  }

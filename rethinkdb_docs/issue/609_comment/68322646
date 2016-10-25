@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-30) 01 : 42 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 361432
+        , simpleUserLogin = N "ecki"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/361432?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ecki"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/68322646"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/609#issuecomment-68322646"
+  , issueCommentCreatedAt = 2014 (-12) (-30) 01 : 42 : 14 UTC
+  , issueCommentBody =
+      "I think it should also state that it is not allowed to use normal expression logic (as it cannot be serialized I guess). And maybe it should talk about boolean shortcut evaluation as well as grouping some more. I had a hard time to figure out (to write above SO answer) if `get(\"a\").hasField().not().or get(\"a\").eq(\"xx\")`   would somehow be allowed."
+  , issueCommentId = 68322646
+  }

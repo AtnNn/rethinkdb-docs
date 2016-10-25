@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-09) 18 : 46 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/163354433"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/971#issuecomment-163354433"
+  , issueCommentCreatedAt = 2015 (-12) (-09) 18 : 46 : 58 UTC
+  , issueCommentBody =
+      "Note: The changefeeds article needs to be updated with the current version (all of them need to be double-checked, but that one is slightly out of date wrt new functionality).\r\n\r\nThe Ten Minute Guide document was reviewed as part of #901 and won't be part of this code review."
+  , issueCommentId = 163354433
+  }

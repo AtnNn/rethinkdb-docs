@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-27) 08 : 00 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10736369
+        , simpleUserLogin = N "gangadharyelwande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10736369?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gangadharyelwande"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/215001299"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1083#issuecomment-215001299"
+  , issueCommentCreatedAt = 2016 (-04) (-27) 08 : 00 : 04 UTC
+  , issueCommentBody =
+      "Hi,\nI am working on this issue.\nhttps://github.com/rethinkdb/docs/issues/615\n\nI have a doubt. Do we have to to this documentation only for python or same\ndocument will be for all platforms like Java,Javascript etc\n\nWaiting for your reply\n\nThanks,\nGangadhar\n\nOn Tue, Apr 26, 2016 at 11:06 AM, Watts Martin <notifications@github.com>\nwrote:\n\n> Closed #1083 <https://github.com/rethinkdb/docs/pull/1083>.\n>\n> \8212\n> You are receiving this because you were mentioned.\n> Reply to this email directly or view it on GitHub\n> <https://github.com/rethinkdb/docs/pull/1083#event-641869757>\n>\n"
+  , issueCommentId = 215001299
+  }

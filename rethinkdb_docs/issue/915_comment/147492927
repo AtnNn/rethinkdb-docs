@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-12) 19 : 05 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/147492927"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/915#issuecomment-147492927"
+  , issueCommentCreatedAt = 2015 (-10) (-12) 19 : 05 : 06 UTC
+  , issueCommentBody =
+      "This is actually (I think) a bug in a script in the private WWW repository. I'm leaving this bug open so we can report if/when it's fixed, and because there's a non-zero chance we'll need to make a matching fix in here for the standalone docs site build."
+  , issueCommentId = 147492927
+  }

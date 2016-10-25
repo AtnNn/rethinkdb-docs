@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-23) 21 : 58 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44065079"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/308#issuecomment-44065079"
+  , issueCommentCreatedAt = 2014 (-05) (-23) 21 : 58 : 54 UTC
+  , issueCommentBody =
+      "Talked a little with @AtnNn during lunch.\r\n\r\nI removed the instructions to create a SWAP or to create a new ext4 partition."
+  , issueCommentId = 44065079
+  }

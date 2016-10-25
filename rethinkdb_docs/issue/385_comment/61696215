@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-04) 19 : 11 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61696215"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/385#issuecomment-61696215"
+  , issueCommentCreatedAt = 2014 (-11) (-04) 19 : 11 : 04 UTC
+  , issueCommentBody =
+      "The page now says:\r\n\r\n### Highlights\r\n\r\n* Intuitive query language\r\n* Automatically parallelized queries\r\n* Simple administration tools\r\n"
+  , issueCommentId = 61696215
+  }

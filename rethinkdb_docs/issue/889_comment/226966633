@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-18) 21 : 43 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 81279
+        , simpleUserLogin = N "fastestOrange"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/81279?v=3"
+        , simpleUserUrl = "https://api.github.com/users/fastestOrange"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/226966633"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/889#issuecomment-226966633"
+  , issueCommentCreatedAt = 2016 (-06) (-18) 21 : 43 : 50 UTC
+  , issueCommentBody =
+      "Been digging into the documentation recently and what I'm trying to understand is that given a table or two tables, certain operations/queries produce a certain result.  \r\n\r\nThe process of assembling a mental model of how all the pieces work together would be greatly aided by a single complex data structure that I could reference. The various table and model structures - blogs, marvel heroes, users, etc - just add another layer of complexity. One data structure able to be referenced from any query/transformation code sample would help a lot. "
+  , issueCommentId = 226966633
+  }

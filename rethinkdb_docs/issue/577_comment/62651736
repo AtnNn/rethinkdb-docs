@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-12) 00 : 48 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62651736"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/577#issuecomment-62651736"
+  , issueCommentCreatedAt = 2014 (-11) (-12) 00 : 48 : 30 UTC
+  , issueCommentBody =
+      "After more consideration I am fine with this staying."
+  , issueCommentId = 62651736
+  }

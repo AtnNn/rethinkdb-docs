@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-07) 05 : 17 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/77674332"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/667#issuecomment-77674332"
+  , issueCommentCreatedAt = 2015 (-03) (-07) 05 : 17 : 59 UTC
+  , issueCommentBody =
+      "The [system tables](http://rethinkdb.com/docs/system-tables/) document describes the structure of `table_status` and `server_status`."
+  , issueCommentId = 77674332
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-25) 21 : 03 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/214521163"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1098#issuecomment-214521163"
+  , issueCommentCreatedAt = 2016 (-04) (-25) 21 : 03 : 56 UTC
+  , issueCommentBody =
+      "The `update` page goes into some detail on how to update nested fields, and the use case you're talking about is the one that has the example of adding another note to Bob Smith's record--except that that example doesn't show what happens if the `notes` field doesn't exist, which is the error that you hit. So I think we should update that example.\r\n\r\nBut, actually, there _is_ a less fiddly way to do this: the [default](http://rethinkdb.com/api/javascript/default/) command. For your example, I think what you'd want would be something like:\r\n\r\n```js\r\npromiseAddUserToGroup: function (userId, groupId) {\r\n  return this.registry.dbConnectionPromise.then(function (dbConnection) {\r\n    var membership = {groupId: groupId};\r\n    return r.table('users').get(userId).update(\r\n      {memberships: r.row('memberships').default([]).append(membership)}\r\n    );\r\n  });\r\n}\r\n```"
+  , issueCommentId = 214521163
+  }

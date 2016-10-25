@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-01) 19 : 34 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 67937
+        , simpleUserLogin = N "encryptio"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/67937?v=3"
+        , simpleUserUrl = "https://api.github.com/users/encryptio"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/161070150"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/958#issuecomment-161070150"
+  , issueCommentCreatedAt = 2015 (-12) (-01) 19 : 27 : 12 UTC
+  , issueCommentBody =
+      "Older related ticket: rethinkdb/rethinkdb#2941 (NB: the process in 2941 is outdated and no longer works, but it is a related problem)"
+  , issueCommentId = 161070150
+  }

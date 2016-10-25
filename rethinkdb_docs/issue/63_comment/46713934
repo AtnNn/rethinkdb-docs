@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-20) 18 : 54 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46713934"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/63#issuecomment-46713934"
+  , issueCommentCreatedAt = 2014 (-06) (-20) 18 : 54 : 34 UTC
+  , issueCommentBody = "Files for other languages need to be added"
+  , issueCommentId = 46713934
+  }

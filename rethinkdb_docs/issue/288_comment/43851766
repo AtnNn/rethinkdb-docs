@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 06 : 07 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43851766"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-43851766"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 06 : 07 : 35 UTC
+  , issueCommentBody =
+      "@neumino since the libraries in `build/external/*/lib` have already been built, you can delete `build/external/*/build`. That will free some space, but I don't know if it'll be enough."
+  , issueCommentId = 43851766
+  }

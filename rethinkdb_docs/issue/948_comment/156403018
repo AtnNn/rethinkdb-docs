@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-13) 11 : 28 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 32073
+        , simpleUserLogin = N "bryanlarsen"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/32073?v=3"
+        , simpleUserUrl = "https://api.github.com/users/bryanlarsen"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/156403018"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/948#issuecomment-156403018"
+  , issueCommentCreatedAt = 2015 (-11) (-13) 11 : 28 : 17 UTC
+  , issueCommentBody =
+      "Cool, just as long as that's up front and clear.   Strictly following semver implies quickly increasing major version numbers, so there are very good reasons not to follow semver.   But semver is quickly becoming an accepted practice, so if you don't follow it, stating that clearly and up front is probably a good idea."
+  , issueCommentId = 156403018
+  }

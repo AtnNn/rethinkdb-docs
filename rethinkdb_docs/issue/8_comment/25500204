@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-08) 06 : 48 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/25500204"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/8#issuecomment-25500204"
+  , issueCommentCreatedAt = 2013 (-10) (-01) 23 : 04 : 05 UTC
+  , issueCommentBody =
+      "I updated the instructions for the following distros on master:\r\n\r\n* Centos\r\n* Debian\r\n* Fedora\r\n* OS X\r\n* Ubuntu\r\n\r\nStill missing are:\r\n\r\n* [x] Arch\r\n* [ ] Gentoo\r\n* [x] Mint\r\n* [x] OpenSuse"
+  , issueCommentId = 25500204
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-11) 18 : 24 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/130003294"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/850#issuecomment-130003294"
+  , issueCommentCreatedAt = 2015 (-08) (-11) 18 : 24 : 19 UTC
+  , issueCommentBody =
+      "We do -- I can do that pre-merge without a problem. (I thought I'd actually removed this reference already, but it might have been in another document about changefeeds.)"
+  , issueCommentId = 130003294
+  }

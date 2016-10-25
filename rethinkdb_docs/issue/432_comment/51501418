@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-07) 17 : 08 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51501418"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/432#issuecomment-51501418"
+  , issueCommentCreatedAt = 2014 (-08) (-07) 17 : 08 : 03 UTC
+  , issueCommentBody =
+      "I'm assigning this to Tryneus for the first draft, or at least a sufficiently long explanatory comment. :)"
+  , issueCommentId = 51501418
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-04) 21 : 35 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/77254237"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/653#issuecomment-77254237"
+  , issueCommentCreatedAt = 2015 (-03) (-04) 21 : 35 : 06 UTC
+  , issueCommentBody =
+      "@chipotle -- sorry, missed your question until now; `.get_all.changes` doesn't return an initial value, and union just does whatever the things you're unioning does (so if you union two `.orderby.limit` streams, it will return an initial value, if you union two `.table` streams it won't)."
+  , issueCommentId = 77254237
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-16) 18 : 49 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59410555"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/554#issuecomment-59410555"
+  , issueCommentCreatedAt = 2014 (-10) (-16) 18 : 49 : 06 UTC
+  , issueCommentBody =
+      "Oop.\r\n\r\nOn Thu, Oct 16, 2014 at 11:48 AM, Daniel Mewes <notifications@github.com>\r\nwrote:\r\n\r\n> Reopened #554 <https://github.com/rethinkdb/docs/issues/554>.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/554#event-179615479>.\r\n>"
+  , issueCommentId = 59410555
+  }

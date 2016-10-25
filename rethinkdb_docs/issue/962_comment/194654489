@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-10) 04 : 12 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1276278
+        , simpleUserLogin = N "williamstein"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1276278?v=3"
+        , simpleUserUrl = "https://api.github.com/users/williamstein"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/194654489"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/962#issuecomment-194654489"
+  , issueCommentCreatedAt = 2016 (-03) (-10) 04 : 12 : 47 UTC
+  , issueCommentBody =
+      "This is fantastic!!   Things to maybe expand on:\r\n\r\n- Emphasize that you can add/remove proxies at any time without any impact on cluster stability (unlike normal nodes).\r\n- Say something about relationship with connection pools; for example, with SageMathCloud I have a (complicated?) connection pool system, where applications make lots of connections to the database, round robin queries using each, destroy connections that are slow, etc.  I used this before using proxy nodes.   I switched to proxy nodes and I'm *still* using this connection pool, but maybe it is completely not necessary?\r\n- Maybe say something about how potentially more data gets transferred over the network in some cases.  Where it says \"For any write operation to a table with active changefeeds,...\" you give the optimal best case situation.  But isn't there a worst case -- maybe the client is listening for a very specific change, and 99.99% of updates to the table don't trigger that; however, with a proxy node, all of those changes get sent to the proxy node. For my personal use case (everything on a local super fast free network inside Google Compute Engine), even this worst case is *fine*, since the network is so good.  But it could matter for some multi-data center deployments.\r\n"
+  , issueCommentId = 194654489
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-13) 22 : 29 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46066891"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/355#issuecomment-46066891"
+  , issueCommentCreatedAt = 2014 (-06) (-13) 22 : 29 : 49 UTC
+  , issueCommentBody =
+      "To quote my comment in #358:\r\n\r\nI think there's some confusion about what this document is supposed to do. Is this supposed to document ReQL as a protocol, or document how to translate between the protobuf format driver developers are currently using and the JSON protocol? I wrote it to do the second; doing the first will produce a much longer document (since it will also have to include all the documentation in ql2.proto)."
+  , issueCommentId = 46066891
+  }

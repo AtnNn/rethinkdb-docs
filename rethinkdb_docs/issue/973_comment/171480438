@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-14) 00 : 16 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/171480438"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/973#issuecomment-171480438"
+  , issueCommentCreatedAt = 2016 (-01) (-14) 00 : 16 : 23 UTC
+  , issueCommentBody =
+      "This is actually documented in the `row` command API docs already, but I think it could be highlighted better than it is. I'll shuffle things around a bit as well as adding something to the troubleshooting docs."
+  , issueCommentId = 171480438
+  }

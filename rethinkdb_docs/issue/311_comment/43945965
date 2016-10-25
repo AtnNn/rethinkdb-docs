@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 21 : 24 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43945965"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/311#issuecomment-43945965"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 21 : 24 : 17 UTC
+  , issueCommentBody =
+      "Yes, the above works. You can also do things like this:\r\n\r\n```javascript\r\nfoo.pluck({a: ['b', {c: 'd'}]})\r\n```"
+  , issueCommentId = 43945965
+  }

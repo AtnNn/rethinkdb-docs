@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-08) 21 : 13 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51658344"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/432#issuecomment-51658344"
+  , issueCommentCreatedAt = 2014 (-08) (-08) 21 : 13 : 48 UTC
+  , issueCommentBody =
+      "Reassigning to @chipotle, let me know if you need any more info."
+  , issueCommentId = 51658344
+  }

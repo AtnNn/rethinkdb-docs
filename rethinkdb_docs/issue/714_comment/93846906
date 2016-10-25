@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-16) 21 : 46 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/93846906"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/714#issuecomment-93846906"
+  , issueCommentCreatedAt = 2015 (-04) (-16) 21 : 46 : 09 UTC
+  , issueCommentBody =
+      "Moved this to https://github.com/rethinkdb/www-thoughtbot/issues/71 , since it's probably not an issue with the docs themselves."
+  , issueCommentId = 93846906
+  }

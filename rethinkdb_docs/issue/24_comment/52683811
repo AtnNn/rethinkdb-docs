@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 19 : 11 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52683811"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/24#issuecomment-52683811"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 19 : 11 : 06 UTC
+  , issueCommentBody =
+      "Relevant questions:\r\nhttp://stackoverflow.com/questions/25174014/are-queries-sent-by-same-connection-executed-paralleled\r\nhttp://stackoverflow.com/questions/24816337/can-i-execute-start-query-and-continue-query-discontinuously\r\nhttp://stackoverflow.com/questions/23467729/rethinkdb-protocol-why-number-data-type-defined-as-double\r\nhttp://stackoverflow.com/questions/25375082/when-will-rethinkdb-return-a-cursor"
+  , issueCommentId = 52683811
+  }

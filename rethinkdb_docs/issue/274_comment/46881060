@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 18 : 11 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46881060"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-46881060"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 18 : 11 : 18 UTC
+  , issueCommentBody =
+      "The version in the gist looks good.\r\n\r\n@chipotle can you take care of getting this on our website? Not sure if we have to change the format for making this a troubleshooting entry, but I think it's fine if we just link to it and have it as a separate page.\r\n\r\nPresumably @mglukhovsky should review it before it goes online?"
+  , issueCommentId = 46881060
+  }

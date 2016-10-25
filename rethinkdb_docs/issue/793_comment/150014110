@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-21) 20 : 23 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7118680
+        , simpleUserLogin = N "ahruygt"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7118680?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahruygt"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/150014110"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/793#issuecomment-150014110"
+  , issueCommentCreatedAt = 2015 (-10) (-21) 20 : 23 : 31 UTC
+  , issueCommentBody =
+      "Can someone let me know if I'm doing this correctly?  These are my first pull requests...."
+  , issueCommentId = 150014110
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-09) 02 : 38 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/110201467"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/770#issuecomment-110201467"
+  , issueCommentCreatedAt = 2015 (-06) (-09) 02 : 38 : 41 UTC
+  , issueCommentBody =
+      "> If a \"majority\" read ever sees a write, then the write will never be rolled back. I don't see how network failure is related to this.\r\n\r\nThat's true, but such a write might still have returned an indeterminate failure result. Hence a write that fails indeterminately might not only be seen by `\"single\"` and `\"outdated\"`, but also by `\"majority\"` reads.\r\nNon-transitive network failure was maybe not the best example. Just consider the case where the parsing node that handles a majority write loses connectivity to the rest of the cluster before it can receive sufficient acks. Then the write will fail indeterminately, but a majority read over another node might still very well reach a majority and see the write."
+  , issueCommentId = 110201467
+  }

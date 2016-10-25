@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-19) 21 : 54 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 811954
+        , simpleUserLogin = N "danielcompton"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/811954?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielcompton"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103678857"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/768#issuecomment-103678857"
+  , issueCommentCreatedAt = 2015 (-05) (-19) 21 : 53 : 28 UTC
+  , issueCommentBody =
+      "Thanks @AtnNn, this is quite helpful for seeing the changes to the wire protocol. Is there anywhere describing the differences in behaviour between v03 and v04?\r\n\r\n> Note: All instructions below assume a protocol of V0_3 or higher.\r\n\r\nfrom http://rethinkdb.com/docs/writing-drivers/ implies that unless otherwise stated V0_3 and V0_4 have the same connection behaviour.\r\n\r\n> Starting with RethinkDB 2.0 (V0_4), the server will process multiple queries in parallel rather than sequentially, and there is no guarantee that a read following a write on the same connection will \8220see\8221 the results of the write as long as it\8217s successful. \r\n\r\nIs there any more discussion on this behaviour, and are there any other changes to the behaviour of the spec between V0_3 and V0_4?\r\n\r\nLooking at the 2.0.0 release notes I couldn't see any mention of the new protocol. \r\n\r\nReally appreciate the work you guys do, thanks for your hard work.\r\n\r\nEDIT: at the end of writing this post I found https://groups.google.com/d/msg/rethinkdb-dev/3qxVOW05Y58/5hdYK7qSIOgJ which looks like what I was after. This is great but not particularly discoverable."
+  , issueCommentId = 103678857
+  }

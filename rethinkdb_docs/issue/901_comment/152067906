@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-29) 03 : 44 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3852894
+        , simpleUserLogin = N "igorlukanin"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/3852894?v=3"
+        , simpleUserUrl = "https://api.github.com/users/igorlukanin"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/152067906"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-152067906"
+  , issueCommentCreatedAt = 2015 (-10) (-29) 03 : 44 : 30 UTC
+  , issueCommentBody =
+      "Just a quick note\8212there should be a place in docs for POJO support which was added by this PR: https://github.com/rethinkdb/rethinkdb/pull/4889"
+  , issueCommentId = 152067906
+  }

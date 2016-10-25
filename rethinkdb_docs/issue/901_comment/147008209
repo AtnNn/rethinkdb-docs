@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-09) 23 : 09 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/147008209"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-147008209"
+  , issueCommentCreatedAt = 2015 (-10) (-09) 23 : 09 : 32 UTC
+  , issueCommentBody =
+      "for that one, try:\r\n\r\n```java\r\nfor(Map<String, Object> doc : r.table(\"marvel\").run<Cursor<Map<String,Object>>(conn)) {\r\n    System.out.println(doc);\r\n}\r\n```\r\n\r\nI haven't tested this, but I think it should work"
+  , issueCommentId = 147008209
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-05) 02 : 26 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/54574710"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/446#issuecomment-54574710"
+  , issueCommentCreatedAt = 2014 (-09) (-05) 02 : 26 : 49 UTC
+  , issueCommentBody =
+      "Updated the last paragaph to reflect the introduction of the `polygon_sub` term to replace the overloaded `sub`."
+  , issueCommentId = 54574710
+  }

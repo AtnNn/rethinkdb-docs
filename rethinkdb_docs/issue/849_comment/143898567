@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-28) 23 : 11 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/143898567"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/849#issuecomment-143898567"
+  , issueCommentCreatedAt = 2015 (-09) (-28) 23 : 11 : 05 UTC
+  , issueCommentBody =
+      "Howdy @kureikain! I'd like to offer my services as a proofreader to iron out some of the grammatical parts of your book. Would you mind emailing me at dalanmiller@rethinkdb.com and let me know how I can get the source files for editing? Or do you have all the material in a repo somewhere?  "
+  , issueCommentId = 143898567
+  }

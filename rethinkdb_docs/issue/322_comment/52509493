@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-18) 15 : 36 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52509493"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/322#issuecomment-52509493"
+  , issueCommentCreatedAt = 2014 (-08) (-18) 15 : 36 : 17 UTC
+  , issueCommentBody =
+      "We do appreciate it, and I'm going to do an edit -- a lot of our users don't have English as their first language and that's important feedback. (And I'll definitely remove the \"generally.\")\r\n\r\nWhat do you think about @mlucy's suggestion in the comment above yours?"
+  , issueCommentId = 52509493
+  }

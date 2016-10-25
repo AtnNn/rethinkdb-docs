@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-28) 00 : 11 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53658296"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/489#issuecomment-53658296"
+  , issueCommentCreatedAt = 2014 (-08) (-28) 00 : 11 : 37 UTC
+  , issueCommentBody =
+      "The `js` at the beginning of a block like that tells the formatter to use javascript syntax highlighting."
+  , issueCommentId = 53658296
+  }

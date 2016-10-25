@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-23) 21 : 19 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124243265"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/824#issuecomment-124243265"
+  , issueCommentCreatedAt = 2015 (-07) (-23) 21 : 19 : 25 UTC
+  , issueCommentBody =
+      "I tried `r.table('games').filter()` in version 2.0.3's data explorer earlier today and it returns an `RqlDriverError`, which I assumed was, more or less, \"the driver can't serialize this query properly.\" Will this be a `CompileError` in 2.1, or is it going to be somewhat driver-dependent?"
+  , issueCommentId = 124243265
+  }

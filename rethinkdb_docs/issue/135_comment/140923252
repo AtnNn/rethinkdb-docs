@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-16) 23 : 17 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140923252"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/135#issuecomment-140923252"
+  , issueCommentCreatedAt = 2015 (-09) (-16) 23 : 17 : 23 UTC
+  , issueCommentBody =
+      "This ticket predates the current docs for `do`; while there's still no example that chains off a datum like the example above, I don't think we need one. (I'd actually argue that since such an example is pretty far off from the use cases we describe `do` as being good for, it might be counterproductive.)\r\n\r\nIf someone feels really strongly about this, we can re-open it."
+  , issueCommentId = 140923252
+  }

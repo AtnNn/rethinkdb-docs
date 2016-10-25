@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-20) 08 : 02 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30994403"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-30994403"
+  , issueCommentCreatedAt = 2013 (-12) (-20) 08 : 02 : 06 UTC
+  , issueCommentBody =
+      "@or-else -- thanks for chiming in. We'll bump the priority of this doc and will try to write it ASAP. To answer some of your specific questions:\r\n\r\n> I wonder if the limit on the number of dbs/tables is going to be addressed in any way in 1.12.\r\n\r\nTo some degree, yes. There is no hard limit in RethinkDB, but there are some bottlenecks in cluster metadata propagation that scale with the number of tables. We've fixed many of the problems in 1.12 so you should see a drastic improvement, but table addition still has a linear effect on some operations. This caps the number of tables quite significantly. I don't know off the top of my head what the number is, but it's probably < 1000 tables for now.\r\n\r\n> will it ever be possible to have, say 100K tables in a single database? In 1000 databases? Will it be possible to have 1K databases? 10K databases?\r\n\r\nYes. At the moment RethinkDB is very useful for many customers with medium-sized workloads, so we're working hard to wrap up stability and last minute performance fixes in preparation for an LTS release. We do plan to remove relevant bottlenecks to allow for constant (or log time) effect from adding dbs/tables, but this functionality is about a year away."
+  , issueCommentId = 30994403
+  }

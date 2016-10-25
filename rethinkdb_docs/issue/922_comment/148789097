@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-16) 18 : 12 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/148789097"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/922#issuecomment-148789097"
+  , issueCommentCreatedAt = 2015 (-10) (-16) 18 : 12 : 41 UTC
+  , issueCommentBody =
+      "So for upgrading from 1.8\8211\&1.12, you'll need to follow the \"migrating old data\" directions we already have -- those should let you migrate directly from those versions up to 2.1, right?\r\n\r\nAnd we still have a link to the [deprecated migration script](https://github.com/rethinkdb/rethinkdb/tree/02b4f29e1e7f15b3edffcb68bf015578ec5783ab/scripts/migration) for version 1.7 or earlier. Does that require you to upgrade to an earlier version and then upgrade from there, or can it work to upgrade directly to 2.1?"
+  , issueCommentId = 148789097
+  }

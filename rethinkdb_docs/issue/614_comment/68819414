@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-06) 02 : 56 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 690517
+        , simpleUserLogin = N "mike-marcacci"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/690517?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mike-marcacci"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/68819414"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/614#issuecomment-68819414"
+  , issueCommentCreatedAt = 2015 (-01) (-06) 02 : 56 : 49 UTC
+  , issueCommentBody =
+      "Hi @danielmewes, just filled it out! That's a funny query on the `community/cla/thanks/` page :)"
+  , issueCommentId = 68819414
+  }

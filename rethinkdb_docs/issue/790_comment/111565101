@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-12) 17 : 23 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/111565101"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/790#issuecomment-111565101"
+  , issueCommentCreatedAt = 2015 (-06) (-12) 17 : 23 : 06 UTC
+  , issueCommentBody =
+      "A search of the docs repository shows that as the only uncaught reference. I'll leave the note about how to do SSH access to an AMI, but change the rest of the \"Instance administration\" section to simply tell people to use the web UI for admin tasks."
+  , issueCommentId = 111565101
+  }

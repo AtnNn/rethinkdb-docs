@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-18) 22 : 01 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/132368901"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/867#issuecomment-132368901"
+  , issueCommentCreatedAt = 2015 (-08) (-18) 22 : 01 : 17 UTC
+  , issueCommentBody =
+      "Yep, it appears to be a case issue. \"language: JavaScript\" works;\n\"language: Javascript\" makes the sidebar go away.\n\n\nOn Tue, Aug 18, 2015 at 2:52 PM, Daniel Mewes <notifications@github.com>\nwrote:\n\n> It also only seems to happen for the JavaScript version by the way. Python\n> and Ruby seem to have the sidebar.\n>\n> \8212\n> Reply to this email directly or view it on GitHub\n> <https://github.com/rethinkdb/docs/issues/867#issuecomment-132367312>.\n>\n"
+  , issueCommentId = 132368901
+  }

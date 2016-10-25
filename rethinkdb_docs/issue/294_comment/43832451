@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 00 : 05 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43832451"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/294#issuecomment-43832451"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 00 : 05 : 37 UTC
+  , issueCommentBody =
+      "> The command seems to return a stream, not a sequence, based on r.typeOf() output.\r\n\r\nHere is how this works:\r\n\r\n```javascript\r\nr.expr([1, 2, 3]).concatMap(function(row) { return [1, 2] }).typeOf()\r\n\"ARRAY\"\r\n\r\nr.table('foo').concatMap(function(row) { return [1, 2] }).typeOf()\r\n\"STREAM\"\r\n```\r\n\r\nSo if you run the command on an array, you get an array back; if you run it on a stream, you get a stream. Most RethinkDB commands that return sequences work that way. Some commands return an array regardless of whether you call them on a stream or an array -- usually it's because they have to load everything into memory to work.\r\n\r\nSo far if you can call a command on any sequence (stream, array, or selection) and it always returns the same type you called it on, we just say `sequence.command() -> sequence` in the docs for brevity (this way you don't need three signatures for the same command). If you call a command on, say, a stream, and it returns something other than a stream, we use a more precise type signature in the docs (e.g. `stream.command() -> array`).\r\n\r\nSome commands return the same type as what you called them on, except in one case. For example, if you call them on a table or a stream they return a stream, but if you call them on an array, they return an array. `innerJoin` is an example -- in this case we started with a `sequence.command() -> sequence` signature, and add an array signature after that to indicate that the behavior is different for arrays.\r\n\r\nHope this makes sense (it's a bit complex). Please ask if something isn't clear, or if it's suboptimal and you'd like to change it!"
+  , issueCommentId = 43832451
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-23) 21 : 41 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/200554381"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1057#issuecomment-200554381"
+  , issueCommentCreatedAt = 2016 (-03) (-23) 21 : 41 : 17 UTC
+  , issueCommentBody =
+      "(Also mentioning @jlhawn to note the command line argument changes)"
+  , issueCommentId = 200554381
+  }

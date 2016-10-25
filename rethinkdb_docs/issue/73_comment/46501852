@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 22 : 18 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46501852"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/73#issuecomment-46501852"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 22 : 18 : 48 UTC
+  , issueCommentBody =
+      "It looks like objects (and I presume arrays?) behave the same way as null\r\nin this respect. If documents have objects or `null` in a field that has a\r\nsecondary index on it, those documents won't be returned, but strings and\r\nnumbers will.\r\n\r\nWhen you say pseudo types, what does that mean for secondary indexes?\r\n\r\n\r\nOn Wed, Jun 18, 2014 at 3:13 PM, Michel <notifications@github.com> wrote:\r\n\r\n> @chipotle <https://github.com/chipotle> -- the tricky part here is:\r\n> Suppose you have an index created on the field foo. If a document's field\r\n> foo maps to null, you won't see it in\r\n>\r\n> r.table(\"test\").orderBy({index: \"foo\"})\r\n>\r\n> (since it's not stored in the secondary index)\r\n>\r\n> We don't store objects, but we store pseudo types though.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/73#issuecomment-46501314>.\r\n>"
+  , issueCommentId = 46501852
+  }

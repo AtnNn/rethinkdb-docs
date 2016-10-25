@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-03) 23 : 46 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 801893
+        , simpleUserLogin = N "jurajmasar"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/801893?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jurajmasar"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/34014997"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/166#issuecomment-34014997"
+  , issueCommentCreatedAt = 2014 (-02) (-03) 23 : 46 : 25 UTC
+  , issueCommentBody =
+      "This issue can be closed now, since my pull request #191 has been merged. Thanks for cooperation everybody!"
+  , issueCommentId = 34014997
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-08) 21 : 03 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48399244"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/364#issuecomment-48399244"
+  , issueCommentCreatedAt = 2014 (-07) (-08) 21 : 03 : 44 UTC
+  , issueCommentBody =
+      "Were those new instructions uploaded? The page on the site still refers to `lib64ncurses5-dev`."
+  , issueCommentId = 48399244
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-27) 00 : 14 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29349542"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/32#issuecomment-29349542"
+  , issueCommentCreatedAt = 2013 (-11) (-27) 00 : 14 : 05 UTC
+  , issueCommentBody =
+      "Fix in PR -- https://github.com/rethinkdb/rethinkdb-example-nodejs-chat/pull/4"
+  , issueCommentId = 29349542
+  }

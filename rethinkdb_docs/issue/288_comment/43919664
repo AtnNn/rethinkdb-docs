@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 17 : 37 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43919664"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-43919664"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 17 : 37 : 20 UTC
+  , issueCommentBody =
+      "The build is done, and I tried a few queries and everything seems to work fine.\r\n\r\n@AtnNn -- quick question for you. My build is in `build/release_notcmalloc`. Is there a reason for it no to be in `build/release`?\r\n\r\nI'll push some fixes for the document."
+  , issueCommentId = 43919664
+  }

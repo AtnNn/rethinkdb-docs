@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-14) 18 : 16 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/93005809"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/710#issuecomment-93005809"
+  , issueCommentCreatedAt = 2015 (-04) (-14) 18 : 16 : 16 UTC
+  , issueCommentBody =
+      "It seems reasonable. The big caveat is the API docs, as you mentioned -- it *would* make the source document complex, but at the same time that's where this might be the most helpful, since the API docs are nearly-identical text with language-specific examples. Although I would probably add a ``{{#cc \"camelCase\" }}`` tag or something similar that outputs `camelCase` or `camel_case` depending on the language chosen, because doing that in text with a series of conditionals would get very verbose very quickly."
+  , issueCommentId = 93005809
+  }

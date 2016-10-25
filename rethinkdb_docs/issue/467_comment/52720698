@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-20) 00 : 38 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52720698"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52720698"
+  , issueCommentCreatedAt = 2014 (-08) (-20) 00 : 38 : 54 UTC
+  , issueCommentBody =
+      "Ideally we would validate all strings like that, but we currently don't and haven't ever done that, and I think it would be very unexpected behavior to only validate strings that arrive from `r.http` and nowhere else.  We also can't change it anywhere else without potentially breaking users' applications, so that kind of a change would need to be in a new major version of the query language (e.g. 2.0)."
+  , issueCommentId = 52720698
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-05) 20 : 59 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/54680718"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/488#issuecomment-54680718"
+  , issueCommentCreatedAt = 2014 (-09) (-05) 20 : 59 : 29 UTC
+  , issueCommentBody =
+      ":+1: -- sorry for being a terrible reviewer\r\n\r\nI have two notes:\r\n\r\n- We should title it \"Useful RethinkDB commands for exploring data\" and add it under the title \"Data exploration\" under \"RethinkDB in practice\".\r\n- We should write a blog post summarizing this and linking to the article.\r\n\r\nPlease coordinate with @KittyBot when it's deployed so she can tweet about it, and I'll submit to HN."
+  , issueCommentId = 54680718
+  }

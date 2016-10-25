@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-25) 18 : 12 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38600413"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/237#issuecomment-38600413"
+  , issueCommentCreatedAt = 2014 (-03) (-25) 18 : 12 : 05 UTC
+  , issueCommentBody =
+      "Err my comment was lost.\r\n\r\nLooks good, I merged it.\r\nI just pushed master to v1.11.x\r\n\r\nAs soon as we release, we can merge v1.12.x in master.\r\nI'll merge master in v1.12.x just before v1.13."
+  , issueCommentId = 38600413
+  }

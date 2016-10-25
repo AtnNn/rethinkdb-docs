@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-23) 22 : 25 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41222481"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/275#issuecomment-41222481"
+  , issueCommentCreatedAt = 2014 (-04) (-23) 22 : 25 : 42 UTC
+  , issueCommentBody =
+      "Another solution would be to give `timeFormat`  multiple possible values like `raw`, `time`, `datetime` in ruby."
+  , issueCommentId = 41222481
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-17) 18 : 38 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55940025"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/494#issuecomment-55940025"
+  , issueCommentCreatedAt = 2014 (-09) (-17) 18 : 38 : 58 UTC
+  , issueCommentBody =
+      "Also, while this works with the movie data set that I have (imported from the data exploration article)\r\n\r\n```js\r\nr.object(\r\n    'average_year', r.table('movies')('year').avg(),\r\n    'total_votes', r.table('movies')('votes').sum()\r\n)\r\n```\r\n\r\nWhen I try a map-reduce query that's based on the one you wrote in that question response\r\n\r\n```js\r\nr.table('movies').orderBy('rank').limit(25).map(function (doc) {\r\n  return { total_votes: doc('votes'), total_year: doc('year'), count: 1 };\r\n}).reduce(function (left, right) {\r\n  return {\r\n    total_votes: left('total_votes').add(right('total_votes')),\r\n    total_year: left('total_year').add(right('total_year')),\r\n    count: left('count').add(right('count'))\r\n  };\r\n}).map(function (res) {\r\n  return {\r\n    total_votes: res('total_votes'),\r\n    average_year: res('total_year').div(res('count'))\r\n  };\r\n})\r\n```\r\n\r\nI get the error `RqlRuntimeError: Cannot convert OBJECT to SEQUENCE`.\r\n"
+  , issueCommentId = 55940025
+  }

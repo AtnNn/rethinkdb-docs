@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-29) 18 : 43 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97536168"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/744#issuecomment-97536168"
+  , issueCommentCreatedAt = 2015 (-04) (-29) 18 : 42 : 07 UTC
+  , issueCommentBody =
+      "Oh never mind. The issue is with `date`. I see.\r\n\r\nFor completeness:\r\n```js\r\nr.time(1986, 11, 3, \"+00:00\").date()\r\nMon Nov 03 1986 00:00:00 GMT+00:00\r\nr.time(1986, 11, 3, \"+02:00\").date()\r\nMon Nov 03 1986 02:00:00 GMT+02:00\r\n```"
+  , issueCommentId = 97536168
+  }

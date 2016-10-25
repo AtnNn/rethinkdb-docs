@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-17) 22 : 43 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 85881
+        , simpleUserLogin = N "epc"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/85881?v=3"
+        , simpleUserUrl = "https://api.github.com/users/epc"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94090664"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/717#issuecomment-94090664"
+  , issueCommentCreatedAt = 2015 (-04) (-17) 22 : 43 : 39 UTC
+  , issueCommentBody =
+      "Yes\8230as noted in my comment I've signed the CLA previously."
+  , issueCommentId = 94090664
+  }

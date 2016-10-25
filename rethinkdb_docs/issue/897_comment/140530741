@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-15) 20 : 38 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 151924
+        , simpleUserLogin = N "sontek"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/151924?v=3"
+        , simpleUserUrl = "https://api.github.com/users/sontek"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140530741"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/897#issuecomment-140530741"
+  , issueCommentCreatedAt = 2015 (-09) (-15) 20 : 38 : 02 UTC
+  , issueCommentBody =
+      "@chipotle Yeah, I see what you are saying.  If there are some type of analytics behind the scenes that you can look at to see which pages are most popular that might give you a good sense of where to place the information.\r\n\r\nMy work flow went like this:\r\n\r\n1. pip install rethinkdb\r\n2. Go through 10 minute guide\r\n3. Start writing my application, find errors, search and land on the cookbook\r\n4. Have the driver start blowing up in random ways because I'm using threads.\r\n\r\nSo the pages I had landed on from an SEO standpoint wee:\r\n\r\nhttps://rethinkdb.com/api/python/\r\nhttps://rethinkdb.com/docs/cookbook/python/\r\nhttps://www.rethinkdb.com/docs/guide/python/\r\n\r\nand from those I never had to look at the documentation again because I had a decent understanding of the framework and good use my repl from there:\r\n\r\n```python\r\nIn [1]: import rethinkdb as r\r\n\r\nIn [2]: r.connect??\r\nType:        function\r\nString form: <function connect at 0x7f35b9153c80>\r\nFile:        /home/sontek/venvs/rethinkdb/src/rethinkdb/drivers/python/rethinkdb/net.py\r\nDefinition:  r.connect(host='localhost', port=28015, db=None, auth_key='', timeout=20, ssl={}, **kwargs)\r\nSource:\r\ndef connect(host='localhost', port=28015, db=None, auth_key=\"\", timeout=20, ssl=dict(), **kwargs):\r\n    global connection_type\r\n    conn = connection_type(host, port, db, auth_key, timeout, ssl, **kwargs)\r\n    return conn.reconnect(timeout=timeout)\r\n```\r\n\r\nBut as you can see here, even the docstring of connect doesn't mention that it isn't threadsafe.  So I want to make sure thats its mentioned in an area that is practical and will actually be viewed by most people.  Even if it doesn't strike us as the right place to put it.\r\n\r\nI'm willing to admit that my path to this may have been the non-common path though, I'm just providing  some anecdotal evidence"
+  , issueCommentId = 140530741
+  }

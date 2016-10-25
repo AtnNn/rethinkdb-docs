@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-03) 01 : 28 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47857318"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/19#issuecomment-47857318"
+  , issueCommentCreatedAt = 2014 (-07) (-03) 01 : 28 : 58 UTC
+  , issueCommentBody =
+      "I don't know about other drivers, but in Ruby, `r.any` and `r.all` behave exactly the same as `r.or` and `r.and`.  Also, all of those can be used both prefix and infix (`r.and(1, 2)`, `r(1).and(2)`, etc.).\r\n\r\nIMO `and`/`or` should be usable prefix and infix in the other drivers too."
+  , issueCommentId = 47857318
+  }

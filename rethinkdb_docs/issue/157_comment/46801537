@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 02 : 32 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46801537"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/157#issuecomment-46801537"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 02 : 32 : 10 UTC
+  , issueCommentBody =
+      "> Are there other API docs where this needs to be added that you know off the top of your head?\r\n\r\nI can't think of any off the top of my head -- you'd have to do a bit of an audit, but basically it's relevant to any command where the user would specify a field name as a string (e.g. `eqJoin`, `pluck`, `orderBy`, `group`, etc.) We haven't actually implemented support for this in all commands, so generally when you look at a command there are a few possibilities:\r\n\r\n- You can pass a field name as a string (e.g. `age`). In this case you should open an issue saying \"allow nested field syntax in command X\".\r\n- You can pass a function (e.g. `lambda row: row['person']['age']`).\r\n- You can pass an object syntax (e.g. `{ person: 'age' }` or `{ person: { 'age': true}}`) \r\n- Some combination of above\r\n\r\nThe object syntax allows selecting multiple attributes so it doesn't make sense in many commands, but each command should at least support the first two syntaxes. If you run into one that doesn't, please open an issue. Also, if you run into one that you think should support the third syntax, open an issue too! (If you mistakingly open one, no worries, I'll just close it)\r\n\r\n> Also, I've noticed that ReQL docs use \"filter\" where I'd be used to seeing \"query' in discussing SQL, as in \"filtering by date range\" rather than \"querying by date range.\"\r\n\r\nI like \"filtering\" more, but I realize that's internal terminology and we might want to say \"querying\" instead. I don't have a strong opinion on that -- I only slightly prefer \"filtering\" to \"querying\" because it's more precise. I personally don't like \"selecting\" because it comes particularly close to SQL and we don't have a `select` command or anything so I personally find it confusing, and a bit esthetically unpleasant. Also, many people who come to RethinkDB don't know SQL (it's surprising, but true), so the word \"select\" doesn't have much meaning to them."
+  , issueCommentId = 46801537
+  }

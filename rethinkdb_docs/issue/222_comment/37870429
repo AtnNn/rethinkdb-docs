@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-17) 21 : 08 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37870429"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/222#issuecomment-37870429"
+  , issueCommentCreatedAt = 2014 (-03) (-17) 21 : 08 : 38 UTC
+  , issueCommentBody =
+      "How does this order sound?\r\n- group\r\n- ungroup\r\n- reduce\r\n- count\r\n- sum\r\n- avg\r\n- min\r\n- max\r\n- contains\r\n- distinct\r\n\r\nFor the examples, the reason I removed them is also to keep a \"not too long\" index page.\r\nThe point of the index is to be able to quickly scroll through all the method and find the one you want.\r\nIf the user then needs more information, they should visit the page dedicated to the command. So far we don't have any result on the index page.\r\nPing @coffeemug @mglukhovsky -- any thoughts on the last point?"
+  , issueCommentId = 37870429
+  }

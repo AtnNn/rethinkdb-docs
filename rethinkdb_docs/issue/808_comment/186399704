@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-19) 20 : 49 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/186399704"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/808#issuecomment-186399704"
+  , issueCommentCreatedAt = 2016 (-02) (-19) 20 : 49 : 17 UTC
+  , issueCommentBody =
+      "We've also added a `\"_debug_recommit\"` option for emergency repair, i.e. `.reconfigure({emergencyRepair: \"_debug_recommit\"})`. It can sometimes help to recover from stuck table states. Like the other emergency repair commands, it comes at the risk of breaking consistency guarantees, though no data should get lost. What the command does is simply recommit whatever the current table configuration is as a new configuration, so that the machinery that executes the configuration can start over."
+  , issueCommentId = 186399704
+  }

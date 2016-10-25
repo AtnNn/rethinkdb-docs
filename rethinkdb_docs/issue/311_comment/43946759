@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 21 : 32 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43946759"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/311#issuecomment-43946759"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 21 : 32 : 08 UTC
+  , issueCommentBody =
+      "> foo.pluck({a: ['b', {c: 'd'}]})\r\n\r\nI really think this syntax is insane and make just things confusing.\r\n\r\n\r\nWhat would you expect this query to return?\r\n```\r\nr.expr({\r\n  a: {\r\n    b: {\r\n      c: {\r\n        d: {\r\n          e:1\r\n        },\r\n        dd: 2\r\n      }\r\n    }\r\n  }\r\n}).pluck({a: ['b', {c: 'd'}]})\r\n```"
+  , issueCommentId = 43946759
+  }

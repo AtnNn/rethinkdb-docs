@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-30) 16 : 34 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 474389
+        , simpleUserLogin = N "ultrabug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/474389?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ultrabug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/222525091"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/949#issuecomment-222525091"
+  , issueCommentCreatedAt = 2016 (-05) (-30) 16 : 34 : 04 UTC
+  , issueCommentBody =
+      ":+1: please, some example for us n00bs would be greatly appreciated too :)"
+  , issueCommentId = 222525091
+  }

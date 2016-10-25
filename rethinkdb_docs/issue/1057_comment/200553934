@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-23) 21 : 39 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/200553934"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1057#issuecomment-200553934"
+  , issueCommentCreatedAt = 2016 (-03) (-23) 21 : 39 : 26 UTC
+  , issueCommentBody =
+      "@chipotle My fixes for https://github.com/rethinkdb/rethinkdb/issues/5554 which are currently in code review change the server arguments as follows:\r\n\r\n```\r\nTLS options:\r\n  --http-tls-key key_filename                 private key to use for web\r\n                                              administration console TLS\r\n  --http-tls-cert cert_filename               certificate to use for web\r\n                                              administration console TLS\r\n  --driver-tls-key key_filename               private key to use for client driver\r\n                                              connection TLS\r\n  --driver-tls-cert cert_filename             certificate to use for client driver\r\n                                              connection TLS\r\n  --driver-tls-ca ca_filename                 CA certificate bundle used to verify\r\n                                              client certificates; TLS client\r\n                                              authentication disabled if omitted\r\n  --cluster-tls-key key_filename              private key to use for intra-cluster\r\n                                              connection TLS\r\n  --cluster-tls-cert cert_filename            certificate to use for intra-cluster\r\n                                              connection TLS\r\n  --cluster-tls-ca ca_filename                CA certificate bundle used to verify\r\n                                              cluster peer certificates\r\n  --tls-ciphers cipher_list                   specify a list of TLS ciphers to use;\r\n                                              default is 'EECDH+AESGCM'\r\n  --tls-ecdh-curve curve_name                 specify a named elliptic curve to use\r\n                                              for ECDHE; default is 'prime256v1'\r\n  --tls-dhparams dhparams_filename            provide parameters for DHE key\r\n                                              agreement; REQUIRED if using DHE\r\n                                              cipher suites; at least 2048-bit\r\n                                              recommended\r\n```\r\n\r\nThis makes enabling TLS implicit (once the `*-tls-key` and `*-tls-cert` arguments are provided, it's automatically enabled). I also renamed `--web-tls-*` arguments to `--http-tls-*` arguments for consistency with other server options (I don't remember if I originally recommended the `web` one in the pull request, but on second look I found that we use `http` almost everywhere else at the moment).\r\n\r\nI'm going to update my examples above."
+  , issueCommentId = 200553934
+  }

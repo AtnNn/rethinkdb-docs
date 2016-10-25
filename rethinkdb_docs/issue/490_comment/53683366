@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-28) 07 : 40 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 139396
+        , simpleUserLogin = N "wojons"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/139396?v=3"
+        , simpleUserUrl = "https://api.github.com/users/wojons"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53683366"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/490#issuecomment-53683366"
+  , issueCommentCreatedAt = 2014 (-08) (-28) 07 : 40 : 38 UTC
+  , issueCommentBody =
+      "I think i am miss reading it the way i read it is that all types of migration does not work seemlessly but its not like there is a 2.0 version of rethinkdb yet if this makes any sense."
+  , issueCommentId = 53683366
+  }

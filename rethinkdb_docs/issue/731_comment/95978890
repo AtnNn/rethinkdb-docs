@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 17 : 03 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/95978890"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-95978890"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 16 : 02 : 38 UTC
+  , issueCommentBody =
+      "I can post in more detail in the Google group, but what I'm trying to indicate, regarding the subject of this issue, is that it isn't clear from the current secondary index / getAll docs how to represent, query (or avoid querying), and/or join with ~~missing or~~ partial indices, or if such cases are even valid.\r\n\r\n*(Edit: rethinkdb/rethinkdb#1032 makes the situation around missing / null value indices significantly clearer.)*\r\n\r\nFor instance, if I have a table where I have done\r\n\r\n`r.table('posts').indexCreate(\"location\", [r.row(\"articleId\"), r.row(\"commentId\")])`\r\n\r\nAnd then I push a few documents, including a document with an `articleId` but no `commentId` (ie. because it refers to the \"article\" itself):\r\n\r\n```\r\n{id:'foo', articleId: 'def678', commentId: 'mugugaipan'}\r\n{id:'baz', articleId: 'abc123', commentId: 'specificco'}\r\n{id:'jar', articleId: 'abc123'}\r\n```\r\n\r\nand then I have a few more documents in another table ('watchers'), including one that refers to the no-comment object `jar`:\r\n\r\n```\r\n{id:'foo2', foreignArticleId: 'def678', foreignCommentId: 'mugugaipan'}\r\n{id:'baz6', foreignArticleId: 'abc123', foreignCommentId: 'specificco'}\r\n{id:'baz19', foreignArticleId: 'abc123', foreignCommentId: 'specificco'}\r\n{id:'jar7', foreignArticleId: 'abc123'}\r\n```\r\n\r\nAnd then I run a `join` on this compound index:\r\n\r\n`r.table('watchers').join([r.row('foreignArticleId'),r.row('foreignCommentId')],'posts',{index:'location'})`\r\n\r\nfor `jar7`, will this join just join `jar`, or will it join `jar` and `baz`? "
+  , issueCommentId = 95978890
+  }

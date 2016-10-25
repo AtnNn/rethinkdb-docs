@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-29) 00 : 36 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41630996"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-41630996"
+  , issueCommentCreatedAt = 2014 (-04) (-29) 00 : 36 : 45 UTC
+  , issueCommentBody =
+      "Once the JSON protocol gets in, the only hard limit left is the limit on arrays.\r\n\r\nThen all the other limits are kind of fuzzy, and I roughly know how many tables my laptop can take, but not a DO droplet or a AWS machine.\r\nSo it's basically kind of hard and \r\n- I want to write about types first -- https://github.com/rethinkdb/docs/issues/40 \r\n- I have a lot of small little things to do (promises etc.)\r\n\r\nSo I probably won't have time to do it soon, but I will."
+  , issueCommentId = 41630996
+  }

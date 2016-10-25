@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-18) 21 : 23 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28739261"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/83#issuecomment-28739261"
+  , issueCommentCreatedAt = 2013 (-11) (-18) 21 : 23 : 14 UTC
+  , issueCommentBody =
+      "While we are fixing dates, we should mention that `time` take a year between 1400 and 10000."
+  , issueCommentId = 28739261
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-21) 20 : 12 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/123464272"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/825#issuecomment-123464272"
+  , issueCommentCreatedAt = 2015 (-07) (-21) 20 : 12 : 43 UTC
+  , issueCommentBody =
+      "Hi, and thanks for the pull request. Does this driver support changefeeds? The `changes` term isn't listed in the README file, so I'm not sure."
+  , issueCommentId = 123464272
+  }

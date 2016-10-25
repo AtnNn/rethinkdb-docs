@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-09) 02 : 15 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/110198916"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/770#issuecomment-110198916"
+  , issueCommentCreatedAt = 2015 (-06) (-09) 02 : 15 : 30 UTC
+  , issueCommentBody =
+      "> However, there has been some discussion of changing this behavior. See rethinkdb/rethinkdb#3992.\r\n\r\nNote that this will either not happen for 2.1, or it will happen in a way which we wouldn't want to document. So as far as the 2.1 documentation is concerned, those operations are definitely not guaranteed to be atomic as a whole (and it's unclear if that will change)."
+  , issueCommentId = 110198916
+  }

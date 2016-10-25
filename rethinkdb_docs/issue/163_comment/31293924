@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-28) 10 : 19 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31293924"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/163#issuecomment-31293924"
+  , issueCommentCreatedAt = 2013 (-12) (-28) 10 : 19 : 37 UTC
+  , issueCommentBody =
+      "Thanks @neumino -- I'll review tomorrow.\r\n\r\nA couple of questions:\r\n\r\n* What do you mean by \"cannot do upsert like a replace\"?  If you mean that you cannot do an upsert operation by calling the `replace` command, that's true, and that's by design. You can do it by calling `insert` with the upsert flag set.\r\n* What do you mean by `nonAtomic` flag doesn't exist in `replace`? I just checked it and it exists and works.\r\n\r\nAlso, we won't fix #899 in the near future FYI. If you write up a recipe for it, could you make it a separate pull request?"
+  , issueCommentId = 31293924
+  }

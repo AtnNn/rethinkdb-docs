@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-01) 05 : 32 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 179770
+        , simpleUserLogin = N "mscook"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/179770?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mscook"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44768151"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/197#issuecomment-44768151"
+  , issueCommentCreatedAt = 2014 (-06) (-01) 05 : 32 : 19 UTC
+  , issueCommentBody =
+      "After much ado it appears I have found why the C++ backend fails on newer Ubuntu's.\r\n\r\nThe package installed by apt \"python-protobuf\" takes precedence in the search path. I found after compiling the C++ backend a simple -\r\n\r\nsudo apt-get remove python-protobuf\r\n\r\nwill do the trick (C++ backend).\r\n"
+  , issueCommentId = 44768151
+  }

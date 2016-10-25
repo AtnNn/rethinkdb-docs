@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-15) 22 : 48 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/102542451"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/764#issuecomment-102542451"
+  , issueCommentCreatedAt = 2015 (-05) (-15) 22 : 48 : 58 UTC
+  , issueCommentBody =
+      "You are correct. We need to update the FAQ (pinging @chipotle)."
+  , issueCommentId = 102542451
+  }

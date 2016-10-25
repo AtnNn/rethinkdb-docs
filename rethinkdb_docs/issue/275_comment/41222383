@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-23) 22 : 24 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41222383"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/275#issuecomment-41222383"
+  , issueCommentCreatedAt = 2014 (-04) (-23) 22 : 24 : 21 UTC
+  , issueCommentBody =
+      "One way to fix it would be to have a field in the pseudotype reserved for the drivers and opaque to the server (but also that's persisted by the server). This way the driver can store a flag and pick the right type. I'm not sure if we want to do this, but it sounds like a good idea to support it in pseudotypes in general."
+  , issueCommentId = 41222383
+  }

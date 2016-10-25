@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 20 : 59 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44584375"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-44584375"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 20 : 59 : 54 UTC
+  , issueCommentBody =
+      "I'm a fan of Ruby's approach -- having the output follow the input makes complete sense to me, and makes the documentation feel terser (fewer code blocks visual on the page)."
+  , issueCommentId = 44584375
+  }

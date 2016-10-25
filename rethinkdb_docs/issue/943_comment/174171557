@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-23) 11 : 00 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7561396
+        , simpleUserLogin = N "benmann"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7561396?v=3"
+        , simpleUserUrl = "https://api.github.com/users/benmann"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/174171557"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/943#issuecomment-174171557"
+  , issueCommentCreatedAt = 2016 (-01) (-23) 11 : 00 : 05 UTC
+  , issueCommentBody =
+      "I'm really glad I stumbled upon this!\r\nI'm using the [input plugin](https://github.com/rethinkdb/logstash-input-rethinkdb) in combination with Netflix' Falcor.. writes go to Rethink and reads through elasticsearch, so of course I have to maintain parity between the DBs at all time.\r\n\r\nReads work like a charm and newly created entries are mirrored to elasticsearch (almost) as expected, however deleting is not mirrored to ES at all. After fumbling with Falcors cache invalidation for almost a day and then deciding to remove logstash and implement it myself, I realized this might be logstash's fault. I am currently not using any filters in my conifg and this already required me to change all my ES queries to look for the `new_val` fields as below. That's the first point where I'm rather confused if it is intended or I'm just working against a badly configured logstash.\r\n\r\nThe second point as mentioned is that deletions are done in Rethink but not mirrored to ES. I guess my real question is if that is possibly due a badly configured logstash between the DBs. Also note the config pasted by @deontologician above contains an error in line 15 (`dro` - third line in filter)\r\n\r\nSome more info about the setup: I'm using [Thinky](https://thinky.io/) as a wrapper and my primaryIndex is `name` and not `id` as per default. Also here's [the repo](https://github.com/BenMann/cookiejar) and [an overview](https://github.com/BenMann/cookiejar/issues/2) of the whole thing we're (I am) building.\r\n\r\nI would really appreciate any help on this and also volunteer to write a draft for your docs if I get this right.\r\n\r\n--\r\n\r\n\r\nUsing [Thinky](https://thinky.io/), this is how I delete from Rethink (this works but is not mirrored in ES):\r\n````\r\nPackage.get(packName).delete().run().then(function(res){ ...\r\n````\r\nMy logstash config:\r\n```\r\ninput {rethinkdb\r\n   {host => \"localhost\"\r\n    port => 28015\r\n    auth_key => \"\"\r\n    watch_dbs => [\"cookiejar\"]\r\n    watch_tables => [\"cookiejar.Package\"]\r\n    backfill => true\r\n    }}\r\noutput {\r\n  elasticsearch {\r\n    hosts => [\"localhost:9200\"]\r\n    index => \"packages\"\r\n    document_type => \"package\"\r\n    template => \"_logstash/logstash.conf\"\r\n    template_overwrite => true\r\n  }\r\n  stdout { codec => json_lines }\r\n}\r\n```\r\n\r\nThis is how I query ES currently (note the `new_val`):\r\n```\r\n  return elastic.search({\r\n    index: \"packages\",\r\n    type: \"package\",\r\n    size: config.defaultSize,\r\n    body: {\r\n      query: {\r\n        \"multi_match\" : {\r\n          \"query\": packName,\r\n          \"type\": \"best_fields\",\r\n          \"fields\": [\"new_val.name\", \"new_val.description\", \"new_val.keywords\", \"new_val.owner\"],\r\n          \"minimum_should_match\": \"25%\",\r\n          \"fuzziness\" : 2,\r\n        }\r\n      }\r\n    }\r\n  }).then(function(searchresult) {\r\n```"
+  , issueCommentId = 174171557
+  }

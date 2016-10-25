@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-22) 04 : 47 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29048743"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/94#issuecomment-29048743"
+  , issueCommentCreatedAt = 2013 (-11) (-22) 04 : 47 : 21 UTC
+  , issueCommentBody =
+      "In `rethinkdb/docs`, we merge master into v1.11.x, generate a JSON file for the data explorer, then check that into next of `rethinkdb/rethinkdb` before release. \r\n\r\nPost-release, we merge the v1.11.x branch of `rethinkdb/docs` back into master and deploy. Does that make sense?"
+  , issueCommentId = 29048743
+  }

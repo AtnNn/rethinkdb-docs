@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 14 : 59 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/95956146"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-95956146"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 14 : 59 : 39 UTC
+  , issueCommentBody =
+      "Also, r.minval and r.maxval should probably be listed somewhere in the main API documentation - right now they're only tucked away in the long-form docs for `between`, IIRC."
+  , issueCommentId = 95956146
+  }

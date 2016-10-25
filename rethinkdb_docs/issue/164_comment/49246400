@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-17) 00 : 43 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49246400"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/164#issuecomment-49246400"
+  , issueCommentCreatedAt = 2014 (-07) (-17) 00 : 43 : 07 UTC
+  , issueCommentBody =
+      "Isn't it quite dangerous to directly have your iOS device connect to your database?\r\nIt's like giving a browser the credential to write in your database.\r\n\r\n(I'm not saying that we shouldn't add it, just wondering if I'm missing something)"
+  , issueCommentId = 49246400
+  }

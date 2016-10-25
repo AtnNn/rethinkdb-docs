@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-27) 17 : 34 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/125282040"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/832#issuecomment-125282040"
+  , issueCommentCreatedAt = 2015 (-07) (-27) 17 : 34 : 28 UTC
+  , issueCommentBody =
+      "The examples I used were taken from the original writeup Graham did; I remember he changed the code substantially after the first draft, and I think added the `yield connection` then. I don't know if that was due to a change in Python or Tornado, though."
+  , issueCommentId = 125282040
+  }

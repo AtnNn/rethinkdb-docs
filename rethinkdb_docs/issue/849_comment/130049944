@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-11) 20 : 13 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/130049944"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/849#issuecomment-130049944"
+  , issueCommentCreatedAt = 2015 (-08) (-11) 20 : 13 : 11 UTC
+  , issueCommentBody =
+      "Hi @kureikain, that's really awesome!\r\n\r\nI took a really quick look and the contents and structure sound interesting and useful. I haven't gone very deep into the contents yet.\r\n\r\nOne thing I noticed is that the grammar and spelling can use some improvements. Do you know someone who could do a proof read with respect to these aspects?"
+  , issueCommentId = 130049944
+  }

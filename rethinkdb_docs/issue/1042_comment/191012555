@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-02) 01 : 38 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 952451
+        , simpleUserLogin = N "nighelles"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/952451?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nighelles"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/191012555"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1042#issuecomment-191012555"
+  , issueCommentCreatedAt = 2016 (-03) (-02) 01 : 38 : 30 UTC
+  , issueCommentBody =
+      "Example issue\r\n```\r\n{\r\n\"critical\": false ,\r\n\"description\": \"There are currently servers that cannot see every server in the cluster. This may cause table availability issues.\" ,\r\n\"id\":  \"5ca75800-8f5a-58cf-947c-a5ed2545e96e\" ,\r\n\"info\": {\r\n\"message\":  \"Server connectivity is non-transitive.\" ,\r\n\"servers\": [\r\n\"newton_ase\" ,\r\n\"newton_j5r\"\r\n]\r\n} ,\r\n\"type\":  \"non_transitive_error\"\r\n}\r\n```"
+  , issueCommentId = 191012555
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-13) 01 : 40 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52000334"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/457#issuecomment-52000334"
+  , issueCommentCreatedAt = 2014 (-08) (-13) 01 : 40 : 10 UTC
+  , issueCommentBody =
+      "Could we get a server up to take a look at this? buildbot skipped this branch."
+  , issueCommentId = 52000334
+  }

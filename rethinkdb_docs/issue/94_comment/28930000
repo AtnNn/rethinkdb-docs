@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-20) 20 : 54 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28930000"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/94#issuecomment-28930000"
+  , issueCommentCreatedAt = 2013 (-11) (-20) 20 : 54 : 54 UTC
+  , issueCommentBody =
+      "\"Closing a connection cancels all outstanding requests and frees the memory associated with any open cursors.\" in the description of `close` does not apply anymore.\r\n\r\nCompare the updated description of close in the module.yaml file:\r\n```\r\nClose an open connection. Closing a connection waits until all outstanding requests\r\nare finished and frees the memory associated with them.\r\nYou can change the behavior of `close` to terminate the connection immediately by passing\r\nan argument. All outstanding requests are canceled in that case.\r\n```"
+  , issueCommentId = 28930000
+  }

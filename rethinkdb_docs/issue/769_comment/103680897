@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-19) 22 : 05 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103680897"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/769#issuecomment-103680897"
+  , issueCommentCreatedAt = 2015 (-05) (-19) 22 : 05 : 38 UTC
+  , issueCommentBody =
+      "That sounds like a good idea.\r\nWe should not invest too much time though before we haven't improved the error type hierarchy on the server and in the clients."
+  , issueCommentId = 103680897
+  }

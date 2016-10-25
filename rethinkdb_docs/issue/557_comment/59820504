@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-20) 18 : 55 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59820504"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/557#issuecomment-59820504"
+  , issueCommentCreatedAt = 2014 (-10) (-20) 18 : 55 : 26 UTC
+  , issueCommentBody =
+      "This looks good. Have you signed the contributor agreement, @kureikain?"
+  , issueCommentId = 59820504
+  }

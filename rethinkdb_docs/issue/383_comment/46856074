@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 14 : 57 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46856074"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/383#issuecomment-46856074"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 14 : 57 : 24 UTC
+  , issueCommentBody =
+      "My bad, I deployed the website this morning and the pull on the website repository failed. \r\n\r\nJust redeployed, it's fixed now.\r\nThanks @brettgriffin letting us know."
+  , issueCommentId = 46856074
+  }

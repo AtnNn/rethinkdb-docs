@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-09) 02 : 13 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/110198743"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/770#issuecomment-110198743"
+  , issueCommentCreatedAt = 2015 (-06) (-09) 02 : 13 : 28 UTC
+  , issueCommentBody =
+      "> Currently, .filter(), .get_all() and other such operations will execute as separate atomic operations from .update() and other mutation operations.\r\n\r\nMinor correction: The operation in `filter` isn't necessarily atomic itself."
+  , issueCommentId = 110198743
+  }

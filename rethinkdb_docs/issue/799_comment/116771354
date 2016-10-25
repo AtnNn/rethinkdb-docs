@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-29) 17 : 39 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/116771354"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/799#issuecomment-116771354"
+  , issueCommentCreatedAt = 2015 (-06) (-29) 17 : 39 : 11 UTC
+  , issueCommentBody =
+      "Pinging @chipotle for review. I think we need to polish this a bit, but I like the idea of adding this information and example."
+  , issueCommentId = 116771354
+  }

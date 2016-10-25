@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-17) 02 : 04 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49250942"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/267#issuecomment-49250942"
+  , issueCommentCreatedAt = 2014 (-07) (-17) 02 : 04 : 07 UTC
+  , issueCommentBody =
+      "Putting in the 1.14 milestone so we can do this before the release."
+  , issueCommentId = 49250942
+  }

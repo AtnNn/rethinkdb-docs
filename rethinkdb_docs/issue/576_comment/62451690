@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-10) 20 : 44 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62451690"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/576#issuecomment-62451690"
+  , issueCommentCreatedAt = 2014 (-11) (-10) 20 : 44 : 32 UTC
+  , issueCommentBody =
+      "> I'm not sure it's even possible to use next in Python and Ruby with our cursors.\r\n\r\nPerhaps you have an older version of the driver? this seems to work for me:\r\n\r\n```\r\n>>> cursor = r.table('foo').run()\r\n>>> cursor\r\n<rethinkdb.net.Cursor object at 0x2897ed0>\r\n>>> next(cursor)\r\n{u'foo': u'bar', u'id': u'000f6d2d-e915-48af-9576-38ae8248db7a'}\r\n>>> cursor.next()\r\n{u'foo': u'bar', u'id': u'002fc006-4afa-444e-a930-5aae09c1e6a9'}\r\n```\r\n\r\nHowever `cursor.close()` doesn't seem to have any effect. @Tryneus's review may have fixed that."
+  , issueCommentId = 62451690
+  }

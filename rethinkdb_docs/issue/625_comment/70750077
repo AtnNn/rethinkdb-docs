@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-20) 22 : 44 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70750077"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/625#issuecomment-70750077"
+  , issueCommentCreatedAt = 2015 (-01) (-20) 22 : 44 : 09 UTC
+  , issueCommentBody =
+      "Ah, that's even better. I'll update the query. I don't have an auth key, and I get `null` not `false`, so I assumed it would "
+  , issueCommentId = 70750077
+  }

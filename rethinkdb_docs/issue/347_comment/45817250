@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-12) 00 : 28 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45817250"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/347#issuecomment-45817250"
+  , issueCommentCreatedAt = 2014 (-06) (-12) 00 : 28 : 32 UTC
+  , issueCommentBody =
+      "For the python docs, this change is required in `gen_python.py`.\r\n\r\n```\r\n-    '[] (nth)': [(query, 'nth')],\r\n -    '[] (slice)': [(query, 'slice')],\r\n +    'nth, []': [(query, 'nth')],\r\n +    'slice, []': [(query, 'slice')],\r\n```\r\n\r\nFor the \177 character, I'm not sure what to do.\r\nIf I replace it with its HTML special char, it doesn't get proprely printed on the website (jekyll is going to escape the content between backticks. I guess I'll remove the backticks for now?\r\n"
+  , issueCommentId = 45817250
+  }

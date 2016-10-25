@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-27) 21 : 47 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29422924"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/113#issuecomment-29422924"
+  , issueCommentCreatedAt = 2013 (-11) (-27) 21 : 47 : 32 UTC
+  , issueCommentBody =
+      "@mlucy -- what specifically are you suggesting we mention in `filter`?"
+  , issueCommentId = 29422924
+  }

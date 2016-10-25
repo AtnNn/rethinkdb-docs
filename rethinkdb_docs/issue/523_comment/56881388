@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-25) 20 : 47 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/56881388"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/523#issuecomment-56881388"
+  , issueCommentCreatedAt = 2014 (-09) (-25) 20 : 47 : 02 UTC
+  , issueCommentBody = "@neumino, could you deploy this?"
+  , issueCommentId = 56881388
+  }

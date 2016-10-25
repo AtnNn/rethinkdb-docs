@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-09) 21 : 17 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45545536"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/277#issuecomment-45545536"
+  , issueCommentCreatedAt = 2014 (-06) (-09) 21 : 17 : 50 UTC
+  , issueCommentBody =
+      "Can you merge it in v1.13?\r\n\r\nI merged master in v1.13 a few days ago, so there shouldn't be conflict."
+  , issueCommentId = 45545536
+  }

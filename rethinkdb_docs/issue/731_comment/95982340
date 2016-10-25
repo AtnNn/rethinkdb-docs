@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 16 : 16 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/95982340"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-95982340"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 16 : 16 : 41 UTC
+  , issueCommentBody =
+      "It's especially confusing regarding the relationship between rethinkdb/rethinkdb#955 and rethinkdb/rethinkdb#1032, which is also listed as a \"limitation\" that seems like it gives desirable behavior. (And what does not indexing null values mean in the context of compound indices?)"
+  , issueCommentId = 95982340
+  }

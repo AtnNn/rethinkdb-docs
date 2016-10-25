@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-11) 07 : 51 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/170457059"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/996#issuecomment-170457059"
+  , issueCommentCreatedAt = 2016 (-01) (-11) 07 : 51 : 43 UTC
+  , issueCommentBody =
+      "I'm closing this as a duplicate of #994, which is for doing both of your suggestions (the list of strings `typeOf` returns and a link to the data types document). This is definitely a good idea and coming shortly. :)"
+  , issueCommentId = 170457059
+  }

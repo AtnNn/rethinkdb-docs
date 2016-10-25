@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-14) 18 : 50 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52225698"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/264#issuecomment-52225698"
+  , issueCommentCreatedAt = 2014 (-08) (-14) 18 : 50 : 09 UTC
+  , issueCommentBody =
+      "Specifically in the case of the OOM killer there is nothing in the RethinkDB log. Unfortunately when the kernel's OOM killer chooses to snipe the process, it just does a kill 9 and doesn't give any opportunity to log anything."
+  , issueCommentId = 52225698
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-24) 17 : 54 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 147397
+        , simpleUserLogin = N "caoimhghin"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/147397?v=3"
+        , simpleUserUrl = "https://api.github.com/users/caoimhghin"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/56711385"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/520#issuecomment-56711385"
+  , issueCommentCreatedAt = 2014 (-09) (-24) 17 : 54 : 21 UTC
+  , issueCommentBody = "Signed!"
+  , issueCommentId = 56711385
+  }

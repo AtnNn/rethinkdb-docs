@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-14) 19 : 13 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140180098"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/881#issuecomment-140180098"
+  , issueCommentCreatedAt = 2015 (-09) (-14) 19 : 13 : 06 UTC
+  , issueCommentBody =
+      "@chipotle -- if you type `.run(db='blog')` it gets sent to the server as a global optarg, the query isn't rewritten."
+  , issueCommentId = 140180098
+  }

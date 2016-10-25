@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-06) 18 : 43 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 320177
+        , simpleUserLogin = N "bitemyapp"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/320177?v=3"
+        , simpleUserUrl = "https://api.github.com/users/bitemyapp"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27901139"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/68#issuecomment-27901139"
+  , issueCommentCreatedAt = 2013 (-11) (-06) 18 : 43 : 19 UTC
+  , issueCommentBody =
+      "@neumino no no no, @cesarbp did all the work. Especially on the nice query API.\r\n\r\nI just wrote the connections stuff.\r\n\r\nThanks for taking care of this, I leave it to your capable hands."
+  , issueCommentId = 27901139
+  }

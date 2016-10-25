@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-02) 20 : 47 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7118680
+        , simpleUserLogin = N "ahruygt"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7118680?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahruygt"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44888902"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/328#issuecomment-44888902"
+  , issueCommentCreatedAt = 2014 (-06) (-02) 20 : 47 : 15 UTC
+  , issueCommentBody =
+      "ping @coffeemug  are you free for a quick meeting about web stuff within the next hour?\r\n"
+  , issueCommentId = 44888902
+  }

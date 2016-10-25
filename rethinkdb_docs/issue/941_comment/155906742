@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-11) 20 : 53 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/155906742"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/941#issuecomment-155906742"
+  , issueCommentCreatedAt = 2015 (-11) (-11) 20 : 53 : 54 UTC
+  , issueCommentBody =
+      "I can just merge this into master when I merge in the 2.2 branch."
+  , issueCommentId = 155906742
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-19) 10 : 34 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 11692610
+        , simpleUserLogin = N "jouerose"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/11692610?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jouerose"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/211849314"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1088#issuecomment-211849314"
+  , issueCommentCreatedAt = 2016 (-04) (-19) 10 : 34 : 39 UTC
+  , issueCommentBody =
+      "Actually it does work but it is the suggested completion that does not have `.table` as a method"
+  , issueCommentId = 211849314
+  }

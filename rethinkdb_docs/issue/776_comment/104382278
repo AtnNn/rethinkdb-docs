@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-21) 18 : 37 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/104382278"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/776#issuecomment-104382278"
+  , issueCommentCreatedAt = 2015 (-05) (-21) 18 : 37 : 57 UTC
+  , issueCommentBody =
+      "For reference, the publish subscribe article is here: http://rethinkdb.com/docs/publish-subscribe/javascript/"
+  , issueCommentId = 104382278
+  }

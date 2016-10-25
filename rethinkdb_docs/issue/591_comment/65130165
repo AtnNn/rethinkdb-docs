@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-01) 20 : 35 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65130165"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/591#issuecomment-65130165"
+  , issueCommentCreatedAt = 2014 (-12) (-01) 20 : 35 : 28 UTC
+  , issueCommentBody =
+      "Oh wow, that's really old. Good catch @chrisvariety .\r\nI agree that we should show a warning at the top of this blog post (or maybe of all blog posts older than a certain age?), saying that some of the information in it is outdated."
+  , issueCommentId = 65130165
+  }

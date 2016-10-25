@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-26) 02 : 53 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/189087062"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1036#issuecomment-189087062"
+  , issueCommentCreatedAt = 2016 (-02) (-26) 02 : 53 : 05 UTC
+  , issueCommentBody =
+      "This isn't really formulated as an issue for the documentation. Are you suggesting that we clarify when `delete()` can be used and when not?\r\n\r\nCan you explain a bit what you're intending to do with this query?\r\nWhat's the schema of the `tasks` table?\r\n\r\nThe `filter` in your query seems to apply to a nested array (`image`). `delete()` is to delete a whole document, not individual entries in an array. To delete certain elements in the array, you should use something like this:\r\n```js\r\nr.db('stf').table('tasks').get('abcd').update(function(doc) {\r\n    return { image: doc('image').filter(function(element) {\r\n        return element(pcgg).ne('abcdefg');\r\n    })};\r\n  })\r\n```\r\n(only the documents where `pcgg` is not equal to `abcdefg` will be left in the array after this)\r\n\r\nhttps://github.com/rethinkdb/rethinkdb/issues/2692 is going to make operations like this easier."
+  , issueCommentId = 189087062
+  }

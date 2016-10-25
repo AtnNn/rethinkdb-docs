@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-28) 22 : 29 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44473042"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/306#issuecomment-44473042"
+  , issueCommentCreatedAt = 2014 (-05) (-28) 22 : 29 : 00 UTC
+  , issueCommentBody =
+      "`r.http` can return a string or an object, so you can chain things like `do`, `keys()` etc."
+  , issueCommentId = 44473042
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-25) 23 : 39 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 43867
+        , simpleUserLogin = N "jdoliner"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/43867?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jdoliner"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27133701"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/24#issuecomment-27133701"
+  , issueCommentCreatedAt = 2013 (-10) (-25) 23 : 39 : 47 UTC
+  , issueCommentBody =
+      "Check CR review 992 for examples of what drivers can do to optimize performance."
+  , issueCommentId = 27133701
+  }

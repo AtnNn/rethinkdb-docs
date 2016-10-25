@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-27) 03 : 00 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53521551"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/485#issuecomment-53521551"
+  , issueCommentCreatedAt = 2014 (-08) (-27) 03 : 00 : 26 UTC
+  , issueCommentBody =
+      "This works in Python3 or Python2 after `from __future__ import print_function`\r\n\r\n```\r\n# WRONG: Get all users older than 30 using the `if` statement\r\nr.table('users').filter(lambda user:\r\n    print(\"Testing\")     # WRONG: this will only execute once on the client\r\n    or (True if user['age'] > 30 else False)\r\n    ).run(conn)\r\n```"
+  , issueCommentId = 53521551
+  }

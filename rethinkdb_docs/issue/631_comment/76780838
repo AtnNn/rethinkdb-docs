@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-02) 18 : 57 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/76780838"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/631#issuecomment-76780838"
+  , issueCommentCreatedAt = 2015 (-03) (-02) 18 : 57 : 12 UTC
+  , issueCommentBody =
+      "My last suggestion for documentation restructuring had these in \"Administration\". Perhaps we should move the \"System tables\" section from there into the ReQL section and add \"Monitoring\" and \"Job control\" to Administration instead, although I'm not sure doing that would give us a real benefit in clarity.\r\n\r\nhttps://gist.github.com/c3a4daf1b7e25fb5b4cd.git"
+  , issueCommentId = 76780838
+  }

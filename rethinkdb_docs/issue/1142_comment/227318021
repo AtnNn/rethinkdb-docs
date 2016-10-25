@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-21) 01 : 38 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/227318021"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1142#issuecomment-227318021"
+  , issueCommentCreatedAt = 2016 (-06) (-21) 01 : 38 : 55 UTC
+  , issueCommentBody =
+      "We could go ahead and just add the values `asyncio` and `gevent` to the http://rethinkdb.com/api/python/set_loop_type API document, without providing any real documentation on how to use the driver with these backends.\r\n\r\nIt's not ideal, but since @Tryneus is still heavily occupied with Horizon-related work, it might be a short improvement for the short term. Going to re-open this with this limited scope."
+  , issueCommentId = 227318021
+  }

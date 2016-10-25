@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-07) 17 : 22 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/231147644"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-231147644"
+  , issueCommentCreatedAt = 2016 (-07) (-07) 17 : 22 : 25 UTC
+  , issueCommentBody =
+      "It is still up, but it's been kind of shoved to the back burner due to other projects, unfortunately. We'd still like to get into the official Dash repository some day, but in the meantime you can build the doc sets yourself with the project I linked to in a previous comment. I just double-checked, and it still builds. (Still with two mysterious pandoc warnings when building JavaScript that I will eventually track down...)"
+  , issueCommentId = 231147644
+  }

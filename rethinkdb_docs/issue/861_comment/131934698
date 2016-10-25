@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-17) 19 : 18 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/131934698"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/861#issuecomment-131934698"
+  , issueCommentCreatedAt = 2015 (-08) (-17) 19 : 18 : 40 UTC
+  , issueCommentBody =
+      "This is a great idea. We should definitely have documentation on that, as it sometimes causes unexpected changes in query performance."
+  , issueCommentId = 131934698
+  }

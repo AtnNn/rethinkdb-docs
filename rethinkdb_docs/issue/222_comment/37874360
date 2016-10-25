@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-17) 21 : 39 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37874360"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/222#issuecomment-37874360"
+  , issueCommentCreatedAt = 2014 (-03) (-17) 21 : 39 : 54 UTC
+  , issueCommentBody =
+      "I think we should (and will) spend a week to design a UI control that will present things properly and make this problem go away. After that, I think we should keep results in the index; people will be able to quickly mouse over them and see full input/output.\r\n\r\nI don't think we should present a collapsed result. For the time being I think we should go with whatever @neumino decides to do."
+  , issueCommentId = 37874360
+  }

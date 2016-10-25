@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-15) 22 : 59 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1149551
+        , simpleUserLogin = N "cjhveal"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1149551?v=3"
+        , simpleUserUrl = "https://api.github.com/users/cjhveal"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/226344691"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1141#issuecomment-226344691"
+  , issueCommentCreatedAt = 2016 (-06) (-15) 22 : 59 : 55 UTC
+  , issueCommentBody =
+      "@danielmewes I'm in particular a ReQL user (not driver developer) that was confused by the errors involving `DATUM` and couldn't find it in the documentation. I didn't think to look under the driver development docs. I knew that sometimes those errors could be fixed with a `.coerceTo('ARRAY')` and sometimes with `.coerceTo('DATUM')` but didn't understand what if any the difference was."
+  , issueCommentId = 226344691
+  }

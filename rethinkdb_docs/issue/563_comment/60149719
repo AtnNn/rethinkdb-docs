@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-22) 20 : 28 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/60149719"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/563#issuecomment-60149719"
+  , issueCommentCreatedAt = 2014 (-10) (-22) 20 : 28 : 52 UTC
+  , issueCommentBody =
+      "Also we are going to wait for the other extensions to change feeds getting in that @mlucy is currently working on. So it might make sense to do the docs for this and those in one batch."
+  , issueCommentId = 60149719
+  }

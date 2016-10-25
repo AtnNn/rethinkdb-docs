@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 21 : 54 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43948990"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/307#issuecomment-43948990"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 21 : 54 : 36 UTC
+  , issueCommentBody =
+      "I don't think so.  It's important that `filter` preserves the selection property.  Some other functions (like `concat_map`) don't."
+  , issueCommentId = 43948990
+  }

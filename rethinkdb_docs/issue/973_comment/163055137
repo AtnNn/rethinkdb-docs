@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-08) 23 : 26 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/163055137"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/973#issuecomment-163055137"
+  , issueCommentCreatedAt = 2015 (-12) (-08) 23 : 26 : 47 UTC
+  , issueCommentBody = "Agreed! :+1: "
+  , issueCommentId = 163055137
+  }

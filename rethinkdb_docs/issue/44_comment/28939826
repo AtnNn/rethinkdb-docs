@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-20) 22 : 49 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28939826"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/44#issuecomment-28939826"
+  , issueCommentCreatedAt = 2013 (-11) (-20) 22 : 49 : 00 UTC
+  , issueCommentBody =
+      "There's now a pull request https://github.com/rethinkdb/docs/pull/95 for `noreply_wait` and `sync` API docs."
+  , issueCommentId = 28939826
+  }

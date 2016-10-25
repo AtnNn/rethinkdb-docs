@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-16) 18 : 25 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49206449"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/414#issuecomment-49206449"
+  , issueCommentCreatedAt = 2014 (-07) (-16) 18 : 25 : 31 UTC
+  , issueCommentBody =
+      "It changes correctly now. (And the indicator actually says \"JavaScript\" now instead of \"Javascript.\" Did you notice it's been wrong all along?)"
+  , issueCommentId = 49206449
+  }

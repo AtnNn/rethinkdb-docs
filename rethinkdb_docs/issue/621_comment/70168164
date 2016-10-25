@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-15) 21 : 46 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70168164"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/621#issuecomment-70168164"
+  , issueCommentCreatedAt = 2015 (-01) (-15) 21 : 46 : 48 UTC
+  , issueCommentBody =
+      "Replacing `val` with `val.do{|x| r.branch(test(x), x, r.error(\"...\"))}` to add asserts to your queries."
+  , issueCommentId = 70168164
+  }

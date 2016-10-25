@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-07) 01 : 04 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/77663899"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/665#issuecomment-77663899"
+  , issueCommentCreatedAt = 2015 (-03) (-07) 01 : 04 : 17 UTC
+  , issueCommentBody =
+      "I think branches might be nice, so we can easily compare across versions. The build process could just have a list of branches it will build docs for and the end result would keep them in separate directories for serving"
+  , issueCommentId = 77663899
+  }

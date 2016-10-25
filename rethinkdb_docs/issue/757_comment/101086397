@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-12) 01 : 14 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/101086397"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/757#issuecomment-101086397"
+  , issueCommentCreatedAt = 2015 (-05) (-12) 01 : 14 : 05 UTC
+  , issueCommentBody =
+      "Thanks for the suggestion @rocketraman . That sounds useful, especially because it demonstrates the use of `ungroup()` which might not be obvious.\r\n\r\nI think the query should be\r\n```js\r\nr.table('movies').group('title').count().ungroup()\r\n .filter(r.row('reduction').gt(1))\r\n```\r\nright?"
+  , issueCommentId = 101086397
+  }

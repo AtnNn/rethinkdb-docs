@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-12) 21 : 21 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/101425551"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/762#issuecomment-101425551"
+  , issueCommentCreatedAt = 2015 (-05) (-12) 21 : 21 : 15 UTC
+  , issueCommentBody =
+      "I'm going to merge this with #736, since they're both small changes to the same documents--which I'm working on at the moment--and it'll be easier to review them together."
+  , issueCommentId = 101425551
+  }

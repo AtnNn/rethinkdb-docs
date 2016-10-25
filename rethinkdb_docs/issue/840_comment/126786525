@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-31) 19 : 04 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/126786525"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/840#issuecomment-126786525"
+  , issueCommentCreatedAt = 2015 (-07) (-31) 19 : 04 : 05 UTC
+  , issueCommentBody =
+      "`between` definitely talks about primary keys -- it defaults to `id`. It doesn't look like `orderBy` has a default for `index`, so it'd be a good idea to note there that you can use the primary key if you want to."
+  , issueCommentId = 126786525
+  }

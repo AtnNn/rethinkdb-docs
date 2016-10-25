@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-25) 07 : 37 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/115148712"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/796#issuecomment-115148712"
+  , issueCommentCreatedAt = 2015 (-06) (-25) 07 : 37 : 16 UTC
+  , issueCommentBody =
+      "Thanks for the pull request @suparngp!\r\nWe should actually move the driver up to the \"Current community-supported drivers\" section of the page.\r\nIf you like, feel free to update your pull request. We can also pick it up from here though."
+  , issueCommentId = 115148712
+  }

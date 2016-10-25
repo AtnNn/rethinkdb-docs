@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-07) 14 : 51 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 44855
+        , simpleUserLogin = N "chrisvariety"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44855?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chrisvariety"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58196848"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-58196848"
+  , issueCommentCreatedAt = 2014 (-10) (-07) 14 : 51 : 40 UTC
+  , issueCommentBody =
+      ":+1: would love to see this happen. I've actually tried myself a bunch of times, but it was surprisingly complicated without intimate RethinkDB docs knowledge.\r\n\r\nIt doesn't look like you would be the first to split up by language, e.g.\r\n\r\n![Google App Engine](https://cloud.githubusercontent.com/assets/44855/4544211/570e01f2-4e31-11e4-9666-a9c54f9bf320.png)"
+  , issueCommentId = 58196848
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-28) 22 : 09 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44471297"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/306#issuecomment-44471297"
+  , issueCommentCreatedAt = 2014 (-05) (-28) 22 : 09 : 52 UTC
+  , issueCommentBody =
+      "What API subheading does this belong in? It seems most like \"document manipulation\" but I'm not positive.\r\n\r\nAlso, @Tryneus will need to document (even if it's just in a reply here) anything that isn't in a comment in rdb_protocol/terms/http.cc, or tell me I need to be looking somewhere else entirely. :)"
+  , issueCommentId = 44471297
+  }

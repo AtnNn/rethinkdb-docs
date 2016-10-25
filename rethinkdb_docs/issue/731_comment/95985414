@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 16 : 27 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/95985414"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-95985414"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 16 : 27 : 35 UTC
+  , issueCommentBody =
+      "Also, while we're on the subject of issues with the sindex documentation, rethinkdb/rethinkdb#2773 should be mentioned in the same breath as rethinkdb/rethinkdb#1032 for the paragraph on how secondary indices can't be null *or objects*."
+  , issueCommentId = 95985414
+  }

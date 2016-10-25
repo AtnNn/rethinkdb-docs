@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-26) 20 : 43 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/105659159"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/24#issuecomment-105659159"
+  , issueCommentCreatedAt = 2015 (-05) (-26) 20 : 43 : 14 UTC
+  , issueCommentBody =
+      "We have a \"Writing Drivers\" document. Specific problems/requests for enhancement in that should get more specific issues opened (e.g., #768)."
+  , issueCommentId = 105659159
+  }

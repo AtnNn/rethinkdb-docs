@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-17) 22 : 05 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/185428439"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1010#issuecomment-185428439"
+  , issueCommentCreatedAt = 2016 (-02) (-17) 22 : 05 : 05 UTC
+  , issueCommentBody =
+      "I presume the 8 MB overhead is part of the \"internal metadata\" the memory usage documentation talks about. But is it that the metadata for blocks in RethinkDB will always take up a minimum of 8 MB overhead per table, or is it 8 MB of overhead in _addition_ to the 28 bytes per block? (And is that 28 bytes per block still correct, since it says \"as of RethinkDB 1.13\"?)"
+  , issueCommentId = 185428439
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-11) 01 : 10 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45691375"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/340#issuecomment-45691375"
+  , issueCommentCreatedAt = 2014 (-06) (-11) 01 : 10 : 12 UTC
+  , issueCommentBody =
+      "I think we should add a full page. We'll eventually expand it with information on how to get started with some web frameworks and stuff."
+  , issueCommentId = 45691375
+  }

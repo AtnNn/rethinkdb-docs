@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 17 : 22 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43917948"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/294#issuecomment-43917948"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 17 : 22 : 10 UTC
+  , issueCommentBody =
+      "Well, we should probably document the data types in user documentation --\r\nif it's there it's not immediately obvious where -- and we should probably\r\nstart the API index files with something that explains the way to read the\r\nsignatures. Neither of these are strictly related to concat_map but it can\r\nbe a bit confusing now. (We use \"expr\" to indicate expressions but also\r\nfunctions, except sometimes we call functions functions, and other times we\r\nrefer to predicates and I'm not entirely sure what we use that to mean,\r\netc.)\r\n\r\nAs for concat_map, it's possible that what we're doing now can't represent\r\nthis perfectly. Maybe we want to simply say something like:\r\n\r\nsequence.concat_map(function) -> sequence\r\n\r\nAnd just document which one you get back in the full description. (Which I\r\nthink is \"whatever kind of sequence you give as an input,\" right?)\r\n\r\n\r\nOn Wed, May 21, 2014 at 6:38 PM, Slava Akhmechet\r\n<notifications@github.com>wrote:\r\n\r\n> We use \"sequence\" to mean \"array or stream\".\r\n>\r\n> I think the original intention was to include selection into sequence, so\r\n> a sequence would mean table/selection, stream, array, etc. However, if you\r\n> pass a selection to concatMap, you don't get a selection back, so saying sequence.concatMap()\r\n> -> sequence isn't strictly correct.\r\n>\r\n> I'm not sure if this type of nitpicking makes the documentation better or\r\n> worse. @chipotle <https://github.com/chipotle> -- as a newcomer to the\r\n> doc system, does this make sense? What do you think we should do?\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub<https://github.com/rethinkdb/docs/issues/294#issuecomment-43839466>\r\n> .\r\n>"
+  , issueCommentId = 43917948
+  }

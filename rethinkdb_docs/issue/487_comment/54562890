@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-05) 00 : 09 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/54562890"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/487#issuecomment-54562890"
+  , issueCommentCreatedAt = 2014 (-09) (-05) 00 : 09 : 14 UTC
+  , issueCommentBody =
+      "I have successfully followed the instructions. I did not notice anything wrong or different. The actual page looks exactly like in the screenshot in the article."
+  , issueCommentId = 54562890
+  }

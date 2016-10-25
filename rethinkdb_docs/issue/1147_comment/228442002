@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-24) 19 : 39 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 877936
+        , simpleUserLogin = N "marshall007"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/877936?v=3"
+        , simpleUserUrl = "https://api.github.com/users/marshall007"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/228442002"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1147#issuecomment-228442002"
+  , issueCommentCreatedAt = 2016 (-06) (-24) 19 : 39 : 01 UTC
+  , issueCommentBody =
+      "I would imagine all the ones added in rethinkdb/rethinkdb#4846 were never documented either:\r\n\r\n- `group`\r\n- `reduce`\r\n- `count`\r\n- `sum`\r\n- `avg`\r\n- `min`\r\n- `max`\r\n- `distinct`\r\n- `contains`"
+  , issueCommentId = 228442002
+  }

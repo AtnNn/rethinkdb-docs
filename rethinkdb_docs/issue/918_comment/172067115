@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-15) 19 : 54 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/172067115"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/918#issuecomment-172067115"
+  , issueCommentCreatedAt = 2016 (-01) (-15) 19 : 54 : 45 UTC
+  , issueCommentBody =
+      "@karlrasche if I am understanding your question completely, there should not be any issues. You can start servers serially, each one joining to the server before it (and thus to all other running servers in the cluster), or you can start a singe server, and then join all of the servers to only that one.\r\n\r\nOr you can do what @danielmewes was referencing: give each starting server a `--join` option for each of the servers (running or not) in your cluster. The starting server will then try to connect to all of the given servers, plus any servers it learns about when connecting to any of those.\r\n\r\nThe only weird situation is if you have two running clusters (even clusters of 1 node) that don't know about each other and you join a new server to both of them. It will wind up introducing the two clusters to each other, grouping them together into one cluster. This can have some odd side-effects, specifically if you happen to have databases or tables with the same names in both of the original clusters."
+  , issueCommentId = 172067115
+  }

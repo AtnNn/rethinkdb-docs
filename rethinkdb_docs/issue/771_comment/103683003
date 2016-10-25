@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-19) 22 : 19 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103683003"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/771#issuecomment-103683003"
+  , issueCommentCreatedAt = 2015 (-05) (-19) 22 : 19 : 31 UTC
+  , issueCommentBody =
+      "It should explain under which conditions auto-failover is possible, and for example mention that it might not work under non-transitive loss of connectivity (@timmaxw knows the details).\r\n\r\nIt should also explain how to recover from cases where auto-failover cannot resolve the situation, pending on https://github.com/rethinkdb/rethinkdb/issues/3893"
+  , issueCommentId = 103683003
+  }

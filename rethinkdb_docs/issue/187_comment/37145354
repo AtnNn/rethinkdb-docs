@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-10) 00 : 28 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37145354"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/187#issuecomment-37145354"
+  , issueCommentCreatedAt = 2014 (-03) (-10) 00 : 28 : 47 UTC
+  , issueCommentBody =
+      "I thought about canceling it too.\r\nLet's just wait for now, `group` comes first."
+  , issueCommentId = 37145354
+  }

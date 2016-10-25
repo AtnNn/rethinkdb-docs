@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-18) 23 : 42 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40853728"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/269#issuecomment-40853728"
+  , issueCommentCreatedAt = 2014 (-04) (-18) 23 : 42 : 20 UTC
+  , issueCommentBody =
+      "Pinging @neumino -- I added new illustrations and made some fixes to actual docs. Please review."
+  , issueCommentId = 40853728
+  }

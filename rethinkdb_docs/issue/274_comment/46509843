@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-19) 00 : 04 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46509843"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-46509843"
+  , issueCommentCreatedAt = 2014 (-06) (-19) 00 : 04 : 33 UTC
+  , issueCommentBody =
+      "Here's a revised draft -\r\nhttps://gist.github.com/chipotle/00c4ae57fe677f8892f1 - it's edited a bit\r\nbut not revised wholesale. (I don't have the screenshot in there yet,\r\neither.)\r\n\r\nWhere should this go in the documentation, do you think? A new section in\r\n\"RethinkDB in practice\"?\r\n\r\n\r\nOn Wed, Jun 18, 2014 at 4:04 PM, Daniel Mewes <notifications@github.com>\r\nwrote:\r\n\r\n> This is the screenshot I mention in the Gist. Feel free to use it or not,\r\n> whatever makes more sense.\r\n> [image: log cache size]\r\n> <https://cloud.githubusercontent.com/assets/505365/3321788/e537fc5e-f73c-11e3-9bf3-7c66290624aa.png>\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/274#issuecomment-46505671>.\r\n>"
+  , issueCommentId = 46509843
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-23) 22 : 41 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71279078"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/605#issuecomment-71279078"
+  , issueCommentCreatedAt = 2015 (-01) (-23) 22 : 41 : 48 UTC
+  , issueCommentBody =
+      "Re-assigning back to me, as @mlucy wrote up some docs for `squash`. Are the other mentioned points things that need to be documented beyond a note in the `changes()` documentation about working with those commands now?"
+  , issueCommentId = 71279078
+  }

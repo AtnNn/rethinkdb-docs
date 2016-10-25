@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-16) 01 : 45 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28616932"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/80#issuecomment-28616932"
+  , issueCommentCreatedAt = 2013 (-11) (-16) 01 : 45 : 19 UTC
+  , issueCommentBody =
+      "We just need to add them on the website.\r\n\r\nSee https://github.com/rethinkdb/rethinkdb/issues/1163#issuecomment-21287769"
+  , issueCommentId = 28616932
+  }

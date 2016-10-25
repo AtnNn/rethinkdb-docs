@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-26) 17 : 43 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/105615504"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/778#issuecomment-105615504"
+  , issueCommentCreatedAt = 2015 (-05) (-26) 17 : 43 : 29 UTC
+  , issueCommentBody =
+      "Issue #11 has been open since late 2013 on \"document `rethinkdb proxy`\" and most of the discussion in it has been along the lines of \"do we even need this,\" so I haven't followed up on it. It might be a good idea for an engineer to write up a paragraph describing exactly what the `proxy` command does -- I don't fully understand it -- and add this to a few places in the docs, including changefeed docs.\r\n\r\nAlso, #11 suggests that the 2.1 Raft implementation may render this all moot -- although if we're going to have to find a way to keep the 2.0 documentation around in addition to the 2.1 docs, we'll still need to document the way to do this in 2.0."
+  , issueCommentId = 105615504
+  }

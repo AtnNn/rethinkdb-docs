@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-30) 18 : 30 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97910204"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-97910204"
+  , issueCommentCreatedAt = 2015 (-04) (-30) 18 : 30 : 53 UTC
+  , issueCommentBody =
+      "> I'd say this error behavior should be described up-front in the docs on secondary indices, ie. with a mention in the examples for complex (expression-based) indexes\r\n\r\nI've been digging through this and I confess I've gotten a bit lost. What error behavior are we talking about documenting? The suggestion to use `r.error` as the official way of deliberately omitting documents from secondary indexes?"
+  , issueCommentId = 97910204
+  }

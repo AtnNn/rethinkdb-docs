@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-14) 22 : 59 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/164587463"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/981#issuecomment-164587463"
+  , issueCommentCreatedAt = 2015 (-12) (-14) 22 : 59 : 54 UTC
+  , issueCommentBody =
+      "@encryptio: I think the reason we didn't use the Gopher is that he doesn't scale down well, so it looks fairly unattractive as an icon."
+  , issueCommentId = 164587463
+  }

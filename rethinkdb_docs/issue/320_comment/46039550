@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-13) 17 : 43 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46039550"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/320#issuecomment-46039550"
+  , issueCommentCreatedAt = 2014 (-06) (-13) 17 : 43 : 18 UTC
+  , issueCommentBody =
+      "Ok, I opened #355 to improve the spec. If you find yourself with nothing to do, could you take a crack at it?"
+  , issueCommentId = 46039550
+  }

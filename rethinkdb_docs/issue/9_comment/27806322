@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-05) 19 : 52 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27806322"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-27806322"
+  , issueCommentCreatedAt = 2013 (-11) (-05) 19 : 52 : 38 UTC
+  , issueCommentBody =
+      "There are practical limits.\r\n\r\n* Each database requires an entry in the cluster metadata system, which currently has propagation bottlenecks. Until we solve this problem (we should soon), adding new databases will slow down cluster administration operations.\r\n* Each table is pretty heavy -- it requires a few megabytes of disk space and an entry in the metadata system. Tables aren't a lightweight object, so there are limitations on this front.\r\n\r\nI don't know what the precise limitation is -- you can probably get away with hundreds, but not thousands. We're working on resolving bottlenecks now, so it's very possible that these limitations will go away. However, we're not actively working towards allowing essentially unlimited number of tables and databases (Rethink wasn't designed with this in mind), so we can't promise the limitations will go away in the near future."
+  , issueCommentId = 27806322
+  }

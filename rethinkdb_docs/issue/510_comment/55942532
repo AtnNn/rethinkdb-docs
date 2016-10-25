@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-17) 18 : 57 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55942532"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/510#issuecomment-55942532"
+  , issueCommentCreatedAt = 2014 (-09) (-17) 18 : 57 : 05 UTC
+  , issueCommentBody =
+      "Sorry, I just realized that we were generating `code` blocks, and not `pre` blocks. It was like if we had just single ticks everywhere.\r\n\r\n@AtnNn -- I went with your solution of adding 4 spaces for these blocks.\r\nI did try to use misaka, but the results were the same (it was not properly parsing the triple ticks).\r\nI opened https://github.com/rethinkdb/docs/issues/513 -- we should just eventually rewrite the script in ruby and use the exact same markdown parser as the website."
+  , issueCommentId = 55942532
+  }

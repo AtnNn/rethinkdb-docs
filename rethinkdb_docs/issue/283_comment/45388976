@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-06) 22 : 04 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45388976"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/283#issuecomment-45388976"
+  , issueCommentCreatedAt = 2014 (-06) (-06) 22 : 04 : 32 UTC
+  , issueCommentBody =
+      "Very good, although even busier and more brain-crunching than I expected \nit would be. (\"Intensive\" was a good description for it.) I expected I \nmight be able to do something with `eq_join` when I saw these messages \nearlier this week, but so far the answer is \"no, you really won't have \ntime for that.\" :)\n\nSlava Akhmechet wrote:\n>\n> @chipotle <https://github.com/chipotle> -- how's the workshop?!\n>\n> \8212\n> Reply to this email directly or view it on GitHub \n> <https://github.com/rethinkdb/docs/issues/283#issuecomment-45361790>.\n>"
+  , issueCommentId = 45388976
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-12) 02 : 38 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45824142"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/351#issuecomment-45824142"
+  , issueCommentCreatedAt = 2014 (-06) (-12) 02 : 38 : 36 UTC
+  , issueCommentBody =
+      "This is hosted on `newton:31420` if anyone wants to check it out there."
+  , issueCommentId = 45824142
+  }

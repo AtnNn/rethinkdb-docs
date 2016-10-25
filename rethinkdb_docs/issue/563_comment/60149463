@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-22) 20 : 27 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/60149463"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/563#issuecomment-60149463"
+  , issueCommentCreatedAt = 2014 (-10) (-22) 20 : 27 : 11 UTC
+  , issueCommentBody =
+      "Small update: We will definitely not ship this without the other changes. So it should be handled just like the other documentation issues that are for 1.16."
+  , issueCommentId = 60149463
+  }

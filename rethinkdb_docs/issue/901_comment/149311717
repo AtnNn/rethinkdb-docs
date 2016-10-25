@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-19) 18 : 54 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/149311717"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-149311717"
+  , issueCommentCreatedAt = 2015 (-10) (-19) 18 : 54 : 32 UTC
+  , issueCommentBody =
+      "With `r.error`, I just found that the Python -> Java script converts\r\n\r\n```py\r\nr.table('marvel').get('IronMan').do(\r\n    lambda ironman: r.branch(ironman['victories'] < ironman['battles'],\r\n                             r.error('impossible code path'),\r\n                             ironman)\r\n).run(conn)\r\n```\r\n\r\nInto\r\n\r\n```java\r\nr.table(\"marvel\").get(\"IronMan\").do_(\r\n    ironman -> r.branch(\r\n        ironman.g(\"victories\").lt(ironman.g(\"battles\")),\r\n        r.error(),\r\n        ironman\r\n    )\r\n).run(conn)\r\n```\r\n\r\n-- i.e., it deletes the argument in `error()`. Is this a bug in the script or does Java not take arguments here?"
+  , issueCommentId = 149311717
+  }

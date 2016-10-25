@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-19) 23 : 11 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70577491"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/623#issuecomment-70577491"
+  , issueCommentCreatedAt = 2015 (-01) (-19) 23 : 11 : 04 UTC
+  , issueCommentBody =
+      "I'm going to close this because it doesn't belong in the docs repo, and we cannot change it to `null` for the reasons pointed out.\r\nPlease feel free to re-open in https://github.com/rethinkdb/rethinkdb/issues/ if you think we could find a better interface for passing on the information that a cursor has been exhausted."
+  , issueCommentId = 70577491
+  }

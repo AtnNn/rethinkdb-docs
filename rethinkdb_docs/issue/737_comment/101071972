@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-11) 23 : 12 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/101071972"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/737#issuecomment-101071972"
+  , issueCommentCreatedAt = 2015 (-05) (-11) 23 : 12 : 57 UTC
+  , issueCommentBody =
+      "Pinging @danielmewes for these. My general sense is that #1 is \"no,\" but I'm less certain about #3 and have no idea about #2."
+  , issueCommentId = 101071972
+  }

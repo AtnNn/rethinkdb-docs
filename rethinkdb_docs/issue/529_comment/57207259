@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-29) 18 : 36 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57207259"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/529#issuecomment-57207259"
+  , issueCommentCreatedAt = 2014 (-09) (-29) 18 : 36 : 49 UTC
+  , issueCommentBody =
+      "@gchpaco -- when has this been added to the codebase? Can you link to the relevant issue/commit?"
+  , issueCommentId = 57207259
+  }

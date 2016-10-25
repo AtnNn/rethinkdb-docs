@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-18) 21 : 16 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/172655736"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/918#issuecomment-172655736"
+  , issueCommentCreatedAt = 2016 (-01) (-18) 21 : 16 : 00 UTC
+  , issueCommentBody =
+      "We don't currently have a lot of testing in that area, but there are no issues in that area that I am aware of. Thus far I have always seen it pretty robust in that area."
+  , issueCommentId = 172655736
+  }

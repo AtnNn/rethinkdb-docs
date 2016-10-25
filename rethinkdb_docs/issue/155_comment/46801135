@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 02 : 21 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46801135"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/155#issuecomment-46801135"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 02 : 21 : 43 UTC
+  , issueCommentBody =
+      "Imagine you start RethinkDB in two datacenters US and EU. Each datacenter has a NAT, so the internal machines get IPs like 192.168.0.1, 192.168.0.2, etc. However, the external IP is different (like 24.22.3.117). You start a RethinkDB node in US and another in EU, but you get an error because each node doesn't know its external address. For example, the US node tells the EU node it can reach it via 192.168.0.5, while in fact that address is internal and isn't reachable externally. So the user has to explicitly tell each node what its external (canonical) address is by passing `--canonical-address`.\r\n\r\n@Tryneus implemented this feature and can tell you more about it (I can too). Just ask if you have more questions!"
+  , issueCommentId = 46801135
+  }

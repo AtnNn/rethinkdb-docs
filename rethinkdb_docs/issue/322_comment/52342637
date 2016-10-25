@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-15) 18 : 40 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1493286
+        , simpleUserLogin = N "mancze"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1493286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mancze"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52342637"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/322#issuecomment-52342637"
+  , issueCommentCreatedAt = 2014 (-08) (-15) 18 : 40 : 23 UTC
+  , issueCommentBody =
+      "I think current documentation of strings is very confusing. \r\n\r\n> Strings are (generally) UTF-8 strings:  \"superhero\" ,  \"the quick brown fox\" ,  \"\252nn\235c\235ss\228r\255 \252ml\228\252ts\" . \r\n\r\n\"(generally) utf-8 strings\"? What that does even mean? And the examples demonstrate what? I know how string looks like.\r\n\r\n> Strings in RethinkDB can't contain the  null  character. \r\n\r\nWhich may appear in UTF-8 strings anywhere. So this is what previous \"generally\" mean?\r\n\r\n> While it's possible to insert a string in RethinkDB that is not valid UTF-8, many ReQL operations assume that strings are UTF-8 encoded,...\r\n\r\nHuh, this does not follow up on previous statements or does it? Or is this what that \"generally\" meant? Which non UTF-8 compliant strings might be inserted? Is it relevant? Might we be [concerned about security](http://tools.ietf.org/html/rfc3629#section-10)?\r\n\r\n> ... and future versions of RethinkDB may enforce UTF-8 encoding.\r\n\r\nWith or without null-s?\r\n\r\nThe bullet list mentioned by @AtnNn here is much more exhaustive and precise. I think the documentation should include that bullet list and|or be rephrased more to something like:\r\n\r\n> RethinkDB accept any UTF-8 string which does not contain null character (mentioned as non-null UTF-8 in further reading). Null character is not accepted [and this is not expected or planned to change|but we plan to fix this limitation in future versions]. Any other Unicode characters (including control characters) are valid.\r\n> Currently strings are not checked whether they are valid UTF-8 strings. However many ReQL operations assume that strings are [non-null UTF-8|UTF-8] encoded, and future versions of RethinkDB may enforce [non-null UTF-8|UTF-8] encoding."
+  , issueCommentId = 52342637
+  }

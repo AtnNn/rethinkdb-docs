@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 20 : 41 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44582360"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-44582360"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 20 : 41 : 32 UTC
+  , issueCommentBody =
+      "Apart from bugs, there is still overhead linear in the data size, linear in the number of tables in the cluster, and linear in the number of concurrently run queries.\r\nI can write up a summary of the factors involved."
+  , issueCommentId = 44582360
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-28) 19 : 33 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 210896
+        , simpleUserLogin = N "alpacaaa"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/210896?v=3"
+        , simpleUserUrl = "https://api.github.com/users/alpacaaa"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27247300"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/46#issuecomment-27247300"
+  , issueCommentCreatedAt = 2013 (-10) (-28) 19 : 33 : 40 UTC
+  , issueCommentBody = "CLA signed, keep up the awesome work guys!"
+  , issueCommentId = 27247300
+  }

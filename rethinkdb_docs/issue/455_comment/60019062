@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-22) 00 : 08 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/60019062"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/455#issuecomment-60019062"
+  , issueCommentCreatedAt = 2014 (-10) (-22) 00 : 08 : 54 UTC
+  , issueCommentBody =
+      "Is that something we should attempt to document, or just wait until the new admin interface makes that easier? If the new admin interface does make it easier. :)"
+  , issueCommentId = 60019062
+  }

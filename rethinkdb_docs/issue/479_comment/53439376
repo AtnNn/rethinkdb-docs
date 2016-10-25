@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-26) 15 : 33 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53439376"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/479#issuecomment-53439376"
+  , issueCommentCreatedAt = 2014 (-08) (-26) 15 : 27 : 32 UTC
+  , issueCommentBody =
+      "Weird. That looks like it may be the result of a missed merge conflict from yesterday. (The faq.md I just pulled from source control is fine, just to make things a little more strange, so I'll have to see if I can figure out what's up when I get into the office.)"
+  , issueCommentId = 53439376
+  }

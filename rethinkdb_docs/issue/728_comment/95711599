@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-23) 20 : 33 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 27258
+        , simpleUserLogin = N "jessmartin"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/27258?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jessmartin"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/95711599"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/728#issuecomment-95711599"
+  , issueCommentCreatedAt = 2015 (-04) (-23) 20 : 33 : 04 UTC
+  , issueCommentBody = "Hah! Nope.\r\n\r\nI _had_ not. I just did."
+  , issueCommentId = 95711599
+  }

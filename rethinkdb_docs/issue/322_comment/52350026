@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-15) 19 : 50 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52350026"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/322#issuecomment-52350026"
+  , issueCommentCreatedAt = 2014 (-08) (-15) 19 : 50 : 15 UTC
+  , issueCommentBody =
+      "I'm trying to figure out how to address this and stick to the style in use in the document. We explicitly tell you everything that's in @AtnNn's bullet list: we accept strings that are *almost* UTF-8 except for not permitting the `null` character; RethinkDB will let you insert strings with different encodings, but you probably shouldn't, because many operations assume UTF-8 and we might enforce it later on.\r\n\r\nIt seems to me that the sticking point may be that \"(generally)\" is confusing -- I put it in there because they're *not* UTF-8 strings, technically, but it can be reworded. Perhaps just dropping it is the right fix, since the next sentence explicitly reads \"Strings in RethinkDB can't contain the `null` character.\""
+  , issueCommentId = 52350026
+  }

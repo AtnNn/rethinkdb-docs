@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-30) 20 : 52 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243576969"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/969#issuecomment-243576969"
+  , issueCommentCreatedAt = 2016 (-08) (-30) 20 : 52 : 37 UTC
+  , issueCommentBody =
+      "@kureikain sorry this has fallen through the cracks. Had we actually gotten back to you about this (I feel like probably not)?"
+  , issueCommentId = 243576969
+  }

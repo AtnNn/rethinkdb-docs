@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 18 : 34 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44567423"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/19#issuecomment-44567423"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 18 : 34 : 28 UTC
+  , issueCommentBody =
+      "I think we decided at some point that `r.or_` was moire Python-like than `r.any`, but I can't find the issue about it.\r\n\r\nCan someone comment about it? Should we write about `r.any` or `r.or_`?\r\nPing @Tryneus -- I think you were the one who talked about `r.or_`."
+  , issueCommentId = 44567423
+  }

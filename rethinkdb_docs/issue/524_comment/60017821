@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-21) 23 : 53 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/60017821"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/524#issuecomment-60017821"
+  , issueCommentCreatedAt = 2014 (-10) (-21) 23 : 53 : 42 UTC
+  , issueCommentBody =
+      "I missed this when it got assigned somehow -- sorry. Here's a potential introductory paragraph (well, two)."
+  , issueCommentId = 60017821
+  }

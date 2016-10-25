@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-01) 17 : 21 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47019561"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-47019561"
+  , issueCommentCreatedAt = 2014 (-06) (-24) 19 : 32 : 11 UTC
+  , issueCommentBody =
+      "Okay, the slightly-rewritten bit from above, then:\r\n\r\nWhen showing both a command and its output, if the ReQL command is short (a\r\nline or two) then display them using a single code block. For Javascript,\r\nseparate command and output with a comment.\r\n\r\n```js\r\n> r.expr({foo: 1}).add({bar: 2}).run(conn, callback)\r\n// result passed to callback\r\n{ \"foo\": 1, \"bar\": 2 }\r\n```\r\n\r\nFor other languages, the separation comment is not necessary.\r\n\r\n```py\r\n> r.expr({'foo': 1}).add({'bar': 2}).run(conn)\r\n{ 'foo': 1, 'bar': 2 }\r\n```\r\n"
+  , issueCommentId = 47019561
+  }

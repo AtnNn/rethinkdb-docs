@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-28) 22 : 26 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44472795"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/306#issuecomment-44472795"
+  , issueCommentCreatedAt = 2014 (-05) (-28) 22 : 26 : 04 UTC
+  , issueCommentBody =
+      "I think it might be better to not have a section with just one entry for now, so maybe stick with \"control structures.\" What's the command signature of this? From Michel's description it doesn't sound like it's something you call via chaining, so I'd imagine it's something like\r\n\r\n    r.http(url[, options]) -> object\r\n\r\nwhere the options are specified similar to `run`?"
+  , issueCommentId = 44472795
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-02) 21 : 10 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/89045320"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/116#issuecomment-89045320"
+  , issueCommentCreatedAt = 2015 (-04) (-02) 21 : 10 : 11 UTC
+  , issueCommentBody =
+      "@chipotle -- it looks like this:\r\n```rb\r\nr.connect(host: 'newton') {|conn|\r\n  r.table('test').insert(...).run(conn)\r\n} # `conn` is closed when the block exits.\r\n```"
+  , issueCommentId = 89045320
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 16 : 56 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63673140"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-63673140"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 16 : 56 : 20 UTC
+  , issueCommentBody =
+      "I actually moved the config options to the top in a recent revision because they were common to any startup method and it seemed people were occasionally missing them completely. But we probably need to rethink the way this is organized, starting with what it's really being used for -- if this really needs to be the \"How to start RethinkDB\" document, for instance, then starting by mentioning how to run it locally makes sense. Then perhaps you move from that into \"how to run RethinkDB as a service\" -- which is really what this document is about -- and then \"how to run a RethinkDB cluster.\" That way each section is building on the one before. Maybe each section should be its own page, and configuration options should get their own page, too, with appropriate links between them all."
+  , issueCommentId = 63673140
+  }

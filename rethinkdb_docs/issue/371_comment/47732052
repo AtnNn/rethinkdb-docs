@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-02) 02 : 47 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47732052"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/371#issuecomment-47732052"
+  , issueCommentCreatedAt = 2014 (-07) (-02) 02 : 47 : 24 UTC
+  , issueCommentBody =
+      "Many of the changes here are contrary to the conclusion in #327, and I see other doc clarification discussions making parts of the changes I have proposed here. I am withdrawing the PR."
+  , issueCommentId = 47732052
+  }

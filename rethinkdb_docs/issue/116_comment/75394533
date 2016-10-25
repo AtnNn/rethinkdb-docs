@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-21) 21 : 43 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/75394533"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/116#issuecomment-75394533"
+  , issueCommentCreatedAt = 2015 (-02) (-21) 21 : 43 : 28 UTC
+  , issueCommentBody =
+      "This would still be good to do.  @chipotle, do you know if this ever made it on to the site?"
+  , issueCommentId = 75394533
+  }

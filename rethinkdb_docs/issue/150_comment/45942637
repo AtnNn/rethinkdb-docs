@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-12) 20 : 19 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45942637"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/150#issuecomment-45942637"
+  , issueCommentCreatedAt = 2014 (-06) (-12) 20 : 19 : 47 UTC
+  , issueCommentBody =
+      "Ah got it. In that case this issue is superseded by #309 and we should close this."
+  , issueCommentId = 45942637
+  }

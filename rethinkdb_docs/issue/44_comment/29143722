@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-23) 22 : 47 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29143722"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/44#issuecomment-29143722"
+  , issueCommentCreatedAt = 2013 (-11) (-23) 22 : 47 : 37 UTC
+  , issueCommentBody = "Merged, closing."
+  , issueCommentId = 29143722
+  }

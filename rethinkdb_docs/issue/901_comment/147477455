@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-12) 18 : 05 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/147477455"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-147477455"
+  , issueCommentCreatedAt = 2015 (-10) (-12) 18 : 05 : 53 UTC
+  , issueCommentBody =
+      "Here's another question:\r\n\r\n```java\r\nr.table('marvel').between(10, 20).optArg('rightBound', 'closed').run(conn);\r\n```\r\n\r\nOr\r\n\r\n```java\r\nr.table('marvel').between(10, 20).optArg('right_bound', 'closed').run(conn);\r\n```\r\n\r\nI've been assuming the former, but I've noticed the Python script does the latter."
+  , issueCommentId = 147477455
+  }

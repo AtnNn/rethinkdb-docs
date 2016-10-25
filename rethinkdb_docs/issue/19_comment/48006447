@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-04) 03 : 39 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48006447"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/19#issuecomment-48006447"
+  , issueCommentCreatedAt = 2014 (-07) (-04) 03 : 39 : 36 UTC
+  , issueCommentBody =
+      "> We should fix that in the driver.\r\n\r\nI opened an issue: https://github.com/rethinkdb/rethinkdb/issues/2659"
+  , issueCommentId = 48006447
+  }

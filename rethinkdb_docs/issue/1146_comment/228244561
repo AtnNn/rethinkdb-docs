@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-24) 02 : 47 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/228244561"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1146#issuecomment-228244561"
+  , issueCommentCreatedAt = 2016 (-06) (-24) 02 : 47 : 53 UTC
+  , issueCommentBody =
+      "Screenshot of what the service looks like in Windows' service manager after being installed by `rethinkdb.exe install-service`:\r\n![rethinkdb service](https://cloud.githubusercontent.com/assets/505365/16326426/5894d262-397b-11e6-9176-8a865ddc50d5.PNG)\r\n"
+  , issueCommentId = 228244561
+  }

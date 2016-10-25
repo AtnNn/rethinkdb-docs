@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-20) 22 : 47 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/104065091"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/768#issuecomment-104065091"
+  , issueCommentCreatedAt = 2015 (-05) (-20) 22 : 47 : 27 UTC
+  , issueCommentBody =
+      "Could we post the per-release driver developer notes that @mlucy sends out on the site somewhere?"
+  , issueCommentId = 104065091
+  }

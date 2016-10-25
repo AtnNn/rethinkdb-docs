@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-05) 22 : 49 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/99253654"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/734#issuecomment-99253654"
+  , issueCommentCreatedAt = 2015 (-05) (-05) 22 : 49 : 24 UTC
+  , issueCommentBody =
+      "Values of different types sort in the same order as their type names.  (So if `x` and `y` are different types, `x <=> y == x.type_of() <=> y.type_of()`.)"
+  , issueCommentId = 99253654
+  }

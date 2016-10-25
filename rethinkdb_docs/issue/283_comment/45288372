@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-05) 23 : 37 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45288372"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/283#issuecomment-45288372"
+  , issueCommentCreatedAt = 2014 (-06) (-05) 23 : 37 : 31 UTC
+  , issueCommentBody =
+      "I could have sworn @chipotle was working on this. @neumino @mlucy -- you've been reviewing the API docs, do you know the state of this?"
+  , issueCommentId = 45288372
+  }

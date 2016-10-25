@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-25) 17 : 59 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53301458"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/476#issuecomment-53301458"
+  , issueCommentCreatedAt = 2014 (-08) (-25) 17 : 59 : 29 UTC
+  , issueCommentBody =
+      "A feed is an infinite cursor, so it's a matter of clarity rather than correctness. I think being explicit and saying `feed` when that's what we return is slightly better, as long as we're clear that a feed is just an infinite cursor."
+  , issueCommentId = 53301458
+  }

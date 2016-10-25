@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-23) 18 : 51 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49917950"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/427#issuecomment-49917950"
+  , issueCommentCreatedAt = 2014 (-07) (-23) 18 : 51 : 43 UTC
+  , issueCommentBody = "OK, I'll make some more modifications"
+  , issueCommentId = 49917950
+  }

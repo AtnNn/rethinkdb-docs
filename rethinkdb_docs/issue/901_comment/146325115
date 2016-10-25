@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-07) 20 : 55 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/146325115"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-146325115"
+  , issueCommentCreatedAt = 2015 (-10) (-07) 20 : 55 : 09 UTC
+  , issueCommentBody =
+      "You'll notice it sends the 12 + 3 to the server, whereas python would evaluate that before sending it. There are other corner cases like that, but in general it assumes all operators are ReQL, so you'll have to probably give the output a once over to see if it makes sense"
+  , issueCommentId = 146325115
+  }

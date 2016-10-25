@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-20) 21 : 15 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/84149478"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/679#issuecomment-84149478"
+  , issueCommentCreatedAt = 2015 (-03) (-20) 21 : 15 : 08 UTC
+  , issueCommentBody =
+      "I think I might need a description of a use case for the `non_atomic` flag; @mlucy's suggested rephrasing really just changes \"non-atomic\" to \"non-deterministic,\" and the example that begins \"What we mean by atomic...\" above doesn't give two queries that are identical save for the value of `non_atomic`, which makes the distinction kind of murky. What's the difference in practice between\r\n\r\n\tr.table('test').get(0).update({n: r.row('n').add(r.table('constants').get(1)['val'])}, non_atomic=true)\r\n\r\nand\r\n\r\n\tr.table('test').get(0).update({n: r.row('n').add(r.table('constants').get(1)['val'])})\r\n\r\nthat would make you want to specify `true` in the first case?"
+  , issueCommentId = 84149478
+  }

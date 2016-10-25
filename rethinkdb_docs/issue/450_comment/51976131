@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-12) 20 : 56 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51976131"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/450#issuecomment-51976131"
+  , issueCommentCreatedAt = 2014 (-08) (-12) 20 : 56 : 56 UTC
+  , issueCommentBody =
+      "I'm going through and updating the links and content in general -- while the others aren't blatantly broken, they're not up to date, and it looks like some of the other information is simply wrong now. For instance, MongoDB switched to V8 in v2.4 and its MapReduce is no longer single threaded; there are only 10 officially supported drivers listed on their site, not 13; and I'm not sure we should talk about either our wire protocol or theirs -- we no longer use Protocol Buffers and their \"wire protocol\" is now described as \"legacy,\" suggesting they're moving away from it, too. "
+  , issueCommentId = 51976131
+  }

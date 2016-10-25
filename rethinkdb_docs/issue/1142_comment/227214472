@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-20) 17 : 41 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/227214472"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1142#issuecomment-227214472"
+  , issueCommentCreatedAt = 2016 (-06) (-20) 17 : 41 : 00 UTC
+  , issueCommentBody =
+      "This is essentially a duplicate of long-standing open issues #949 (asyncio) and #1019 (gevent). These are assigned to @Tryneus and they're presumably waiting for him to have enough free cycles to describe this, unless someone else knows enough to do a first draft."
+  , issueCommentId = 227214472
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 16 : 32 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/95984237"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-95984237"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 16 : 22 : 09 UTC
+  , issueCommentBody =
+      "Regarding my question about omitting documents from a secondary index, using null is/was a way to do that, but there's movement toward making `null` a discrete value (with a place in sorting) for secondary indices - https://github.com/rethinkdb/rethinkdb/issues/1032#issuecomment-39614296 seems to imply the way forward for excluding docs from a secondary index is to use a complex expression that will generate an *error* for these cases (which strikes me as a little weird, if for no other reason than that when I think \"error\", I think \"anomalous operation that gets flagged and logged and might halt the caller\", not \"normal result value\")."
+  , issueCommentId = 95984237
+  }

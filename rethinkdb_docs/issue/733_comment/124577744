@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-24) 16 : 53 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124577744"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/733#issuecomment-124577744"
+  , issueCommentCreatedAt = 2015 (-07) (-24) 16 : 53 : 08 UTC
+  , issueCommentBody =
+      "There's an \"improve cluster management documentation\" ticket open as well, #631. Given that we do have documentation that explicitly addresses scaling in its tile now, I'd like to go ahead and close this ticket. I know the phrase \"multi-datacenter\" doesn't appear in the sidebar, but it doesn't appear in MongoDB's doc sidebar, either (or MySQL's, for that matter); I think users will be able to find it. We'll also reference it in the cluster management docs when they're written."
+  , issueCommentId = 124577744
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-01) 23 : 35 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/204607955"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1068#issuecomment-204607955"
+  , issueCommentCreatedAt = 2016 (-04) (-01) 23 : 35 : 50 UTC
+  , issueCommentBody =
+      "Oh I missed https://github.com/rethinkdb/docs/issues/1065..."
+  , issueCommentId = 204607955
+  }

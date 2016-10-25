@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-12) 17 : 41 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/101361990"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/755#issuecomment-101361990"
+  , issueCommentCreatedAt = 2015 (-05) (-12) 17 : 41 : 43 UTC
+  , issueCommentBody =
+      "As @larkost pointed out yesterday, my phrasing was bad there -- all connections are asynchronous in JS, and the issue is that if you followed this pattern in production code the `connection` variable might not have finished initializing before you use it. I still think the infobox is the way to go here."
+  , issueCommentId = 101361990
+  }

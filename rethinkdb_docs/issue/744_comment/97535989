@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-29) 18 : 41 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97535989"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/744#issuecomment-97535989"
+  , issueCommentCreatedAt = 2015 (-04) (-29) 18 : 41 : 20 UTC
+  , issueCommentBody =
+      "Hmm it's working for me on 2.0.0:\r\n```\r\nr.time(1986, 11, 3, \"+00:00\").toEpochTime()\r\n531360000\r\nr.time(1986, 11, 3, \"+02:00\").toEpochTime()\r\n531352800\r\n```\r\n\r\nWhich outputs are you getting?"
+  , issueCommentId = 97535989
+  }

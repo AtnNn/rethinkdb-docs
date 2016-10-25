@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-01) 18 : 01 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41936722"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-41936722"
+  , issueCommentCreatedAt = 2014 (-05) (-01) 18 : 01 : 46 UTC
+  , issueCommentBody =
+      "Thanks, this will be very helpful for other users.\r\n\r\nI have some comments about this section:\r\n\r\n> ```\r\n> cd rethinkdb\r\n> ./configure --without-tcmalloc --allow-fetch\r\n> nano external/v8_3.22.24.17/third_party/icu/make\r\n> ```\r\n>\r\n> In the make file, remove all the text -m32 that you can find in the first part of the document\r\n\r\n* `./configure` does not fetch anything. The `external/v8_3.22.24.17` can be fetched by adding a `make fetch-v8` step.\r\n* There is no file called `third_party/icu/make` in the v8 source. Did you mean to specify a different file?\r\n* Could it be replaced by a call to `sed -i`? That would be easier to use.\r\n\r\nCan you explain why that step was necessary? I would like to modify the rethinkdb build scripts so that this step is not required in future versions of rethinkdb.\r\n"
+  , issueCommentId = 41936722
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-13) 19 : 27 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46050710"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/354#issuecomment-46050710"
+  , issueCommentCreatedAt = 2014 (-06) (-13) 19 : 27 : 25 UTC
+  , issueCommentBody =
+      "@neumino -- I don't quite understand what change you'd like with this issue. What exactly do you want to add to the docs?"
+  , issueCommentId = 46050710
+  }

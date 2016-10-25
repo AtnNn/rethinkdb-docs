@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 06 : 13 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43852061"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-43852061"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 06 : 13 : 48 UTC
+  , issueCommentBody =
+      "I've created a new partition that should be more than enough.\r\n\r\nIt's currently building `node`, so I'll leave him finish it before deleting anything in external :-)"
+  , issueCommentId = 43852061
+  }

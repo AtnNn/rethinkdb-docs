@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-07) 16 : 49 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 88676
+        , simpleUserLogin = N "aderyabin"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/88676?v=3"
+        , simpleUserUrl = "https://api.github.com/users/aderyabin"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/77697620"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/668#issuecomment-77697620"
+  , issueCommentCreatedAt = 2015 (-03) (-07) 16 : 49 : 35 UTC
+  , issueCommentBody =
+      "Yes, `each` is ruby way. But `cursor.next` is also [available](https://github.com/rethinkdb/rethinkdb/blob/next/drivers/ruby/lib/net.rb#L115)"
+  , issueCommentId = 77697620
+  }

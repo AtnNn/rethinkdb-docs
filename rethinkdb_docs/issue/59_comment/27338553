@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-29) 20 : 08 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27338553"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/59#issuecomment-27338553"
+  , issueCommentCreatedAt = 2013 (-10) (-29) 20 : 08 : 26 UTC
+  , issueCommentBody =
+      "Good catch, @tyleregeto, thank you for the pull request. Could you please sign the CLA (http://rethinkdb.com/community/cla/) if you haven't already? Thanks!"
+  , issueCommentId = 27338553
+  }

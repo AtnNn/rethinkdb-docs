@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-11) 21 : 01 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30363531"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/130#issuecomment-30363531"
+  , issueCommentCreatedAt = 2013 (-12) (-11) 21 : 01 : 02 UTC
+  , issueCommentBody =
+      "Oh, sorry, this and #131 were meant to be merged into v1.12.x, which I had branched off of.  I don't think these changes need a point release.  Is there a way to change the destination branch, or should I close this and make a new one?"
+  , issueCommentId = 30363531
+  }

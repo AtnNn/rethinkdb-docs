@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-03) 18 : 57 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/153453959"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/937#issuecomment-153453959"
+  , issueCommentCreatedAt = 2015 (-11) (-03) 18 : 57 : 58 UTC
+  , issueCommentBody =
+      "This affects the following files:\r\napi/javascript/manipulating-tables/index_status.md\r\napi/python/manipulating-tables/index_status.md\r\napi/ruby/manipulating-tables/index_status.md"
+  , issueCommentId = 153453959
+  }

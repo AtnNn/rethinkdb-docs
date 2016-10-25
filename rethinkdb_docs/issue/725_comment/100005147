@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-07) 20 : 18 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/100005147"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/725#issuecomment-100005147"
+  , issueCommentCreatedAt = 2015 (-05) (-07) 20 : 18 : 25 UTC
+  , issueCommentBody =
+      "@chipotle -- sent you an email. I kept Tim's draft, but added one more sentence to indicate that we'll be offering more control soon."
+  , issueCommentId = 100005147
+  }

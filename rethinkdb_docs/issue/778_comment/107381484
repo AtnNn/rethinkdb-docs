@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-01) 09 : 39 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/107381484"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/778#issuecomment-107381484"
+  , issueCommentCreatedAt = 2015 (-06) (-01) 09 : 39 : 14 UTC
+  , issueCommentBody =
+      "Should the drivers maybe do some changefeed deduplication themselves? Is there an open issue for that?"
+  , issueCommentId = 107381484
+  }

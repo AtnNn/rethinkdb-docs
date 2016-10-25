@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-27) 17 : 36 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53610996"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/484#issuecomment-53610996"
+  , issueCommentCreatedAt = 2014 (-08) (-27) 17 : 36 : 51 UTC
+  , issueCommentBody =
+      "This seems like it'd be a good document -- I'm wondering whether it should\r\nbe a standalone document or an expansion/rewrite of the \"Create a cluster\r\non system startup\" document we already have. Or both. To me, \"cluster\"\r\nimplies \"more than one\" to begin with; we could rename the document\r\n\"Starting RethinkDB,\" reorganize what's there a little, and include a\r\nsection on what parameters you pass to each server to make them into a\r\ncluster. (AFAIK, there's not actually a lot to that, which is why it seems\r\nlike it might be better as just a section in a longer document -- but I\r\ncould wrong.)\r\n\r\n\r\nOn Wed, Aug 27, 2014 at 2:10 AM, Slava Akhmechet <notifications@github.com>\r\nwrote:\r\n\r\n> Note, rethinkdb/rethinkdb#281\r\n> <https://github.com/rethinkdb/rethinkdb/issues/281> is relevant here;\r\n> we'll have to change the doc once that's implemented.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/484#issuecomment-53544404>.\r\n>"
+  , issueCommentId = 53610996
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-04) 00 : 25 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 67937
+        , simpleUserLogin = N "encryptio"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/67937?v=3"
+        , simpleUserUrl = "https://api.github.com/users/encryptio"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/137607497"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/875#issuecomment-137607497"
+  , issueCommentCreatedAt = 2015 (-09) (-04) 00 : 25 : 40 UTC
+  , issueCommentBody =
+      "The docs in 8473ac2f4b387003df48b6dc3f53ff9ac2f34d28 are a little misleading; the object `{ id: 1, name: \"fred\", email: \"fred@example.com\" }` would be ordered as `{ email: \"fred@example.com\", id: 1, name: \"fred\" }` in the database (asciibetically by key.)\r\n\r\nThat makes `keys()` return the order `[\"email\", \"id\", \"name\"]` and `values()` return the order `[\"fred@example.com, 1, \"fred\"]`.\r\n\r\nPerhaps replacing `email` with another field that starts after \"i\" would make the object nicer to read (because having the `id` in the middle feels weird)"
+  , issueCommentId = 137607497
+  }

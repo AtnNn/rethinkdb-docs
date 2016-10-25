@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-27) 07 : 09 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38774564"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/197#issuecomment-38774564"
+  , issueCommentCreatedAt = 2014 (-03) (-27) 07 : 09 : 17 UTC
+  , issueCommentBody =
+      "In case of a virtualenv, you should not run the commands with sudo (or use `sudo apt-get install python-protobuf`) or you may get out of the virtual env.\r\n\r\nThese instructions worked for me (on Arch)\r\n```\r\nvirtualenv-2.7 ./\r\nsource bin/activate\r\nexport PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=cpp\r\npython -c 'from google.protobuf.internal import cpp_message' ||   protoc --version && pbver=$(protoc --version | \\\r\nawk '{ print $2 }') && wget http://protobuf.googlecode.com/files/protobuf-$pbver.tar.gz &&   tar xf protobuf-$pbver.tar.gz && cd protobuf-$pbver/python &&   PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=cpp python setup.py build\r\nPROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=cpp python setup.py install\r\npip install rethinkdb\r\npython -c \"import rethinkdb as r; print r.protobuf_implementation\"\r\n```"
+  , issueCommentId = 38774564
+  }

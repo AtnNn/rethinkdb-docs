@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-01) 23 : 10 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/50944546"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/439#issuecomment-50944546"
+  , issueCommentCreatedAt = 2014 (-08) (-01) 23 : 10 : 59 UTC
+  , issueCommentBody =
+      "How do you see this being documented? A troubleshooting entry explaining what to do when this migration happens and/or the error message referred to in rethinkdb/rethinkdb#2789 shows up?"
+  , issueCommentId = 50944546
+  }

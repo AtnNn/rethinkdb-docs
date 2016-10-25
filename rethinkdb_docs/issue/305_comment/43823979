@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-21) 22 : 44 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43823979"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/305#issuecomment-43823979"
+  , issueCommentCreatedAt = 2014 (-05) (-21) 22 : 44 : 00 UTC
+  , issueCommentBody =
+      "@chipotle -- I thought this was done in the internal code review 1527. Is there a reason for this pull request?"
+  , issueCommentId = 43823979
+  }

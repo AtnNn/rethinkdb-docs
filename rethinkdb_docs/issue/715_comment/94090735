@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-17) 22 : 43 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94090735"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/715#issuecomment-94090735"
+  , issueCommentCreatedAt = 2015 (-04) (-17) 22 : 43 : 55 UTC
+  , issueCommentBody =
+      "Hi @mike-marcacci, thank you for the great feedback.\r\nWhich aspects of the old sidebar did you like specifically?\r\n\r\n(pinging @mglukhovsky )"
+  , issueCommentId = 94090735
+  }

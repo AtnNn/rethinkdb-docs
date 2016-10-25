@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-14) 18 : 40 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/232754487"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1155#issuecomment-232754487"
+  , issueCommentCreatedAt = 2016 (-07) (-14) 18 : 39 : 58 UTC
+  , issueCommentBody =
+      "Actually, this blog post is from 2012 and begins with a bold italic warning about it all being outdated. I don't think there's a whole lot of value in keeping it updated with new information. (Although the notion of expanding the existing FAQ with some of these questions still stands.)\r\n"
+  , issueCommentId = 232754487
+  }

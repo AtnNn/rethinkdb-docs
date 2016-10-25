@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-24) 01 : 21 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46922125"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-46922125"
+  , issueCommentCreatedAt = 2014 (-06) (-24) 01 : 21 : 13 UTC
+  , issueCommentBody =
+      "Here is the syntax I think we should use for short expressions:\r\n\r\nJS syntax:\r\n\r\n```js\r\n> r.expr({foo: \"bar\"}).run(conn, callback)\r\n// result passed to callback\r\n{foo: \"bar\"}\r\n```\r\n\r\nPython/Ruby syntaxes:\r\n\r\n```py\r\n> r.expr({\"foo\": \"bar\"}).run(conn)\r\n{\"foo\": \"bar\"}\r\n```\r\n\r\nFor longer ones, it makes sense to have a separate code block with a result (like we do now). Could we settle on that? (This is easy to bikeshed, but I think we should just stick with this)"
+  , issueCommentId = 46922125
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-07) 07 : 32 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58147239"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-58147239"
+  , issueCommentCreatedAt = 2014 (-10) (-07) 07 : 32 : 36 UTC
+  , issueCommentBody =
+      "I looked into this (briefly) already -- I'm a Dash user myself.\r\n\r\nThe challenge is that ReQL isn't like other languages you'd drop into Dash, or even like other language-specific libraries/frameworks like Node or Rails -- what we really have are three libraries for three languages, and I don't think there's a way to implement the language switcher within Dash. Do we generate three docsets for \"ReQL JavaScript,\" \"ReQL Python\" and \"ReQL Ruby?\" Generate one ReQL docset that lists each command three times? Merge the commands together? I suspect three separate docsets is probably the least worst option, both in terms of creation time and usability for developers, but I'm not sure what your take is on that."
+  , issueCommentId = 58147239
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-26) 08 : 45 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2376150
+        , simpleUserLogin = N "alexdown"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2376150?v=3"
+        , simpleUserUrl = "https://api.github.com/users/alexdown"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/64531129"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/586#issuecomment-64531129"
+  , issueCommentCreatedAt = 2014 (-11) (-26) 08 : 45 : 00 UTC
+  , issueCommentBody =
+      "Hi @chipotle . Rationale for changing the tense instead of deleting the whole paragraph was that [from this comment](https://github.com/rethinkdb/rethinkdb/issues/20#issuecomment-32591365) it seems the issue was closed but the root cause not found. Hence, it may reappear on another configuration that uses ReiserFS with journaling enabled..."
+  , issueCommentId = 64531129
+  }

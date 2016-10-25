@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 02 : 30 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 455594
+        , simpleUserLogin = N "ajselvig"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/455594?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ajselvig"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46389855"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/368#issuecomment-46389855"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 02 : 30 : 09 UTC
+  , issueCommentBody =
+      "Much better, thanks.\r\nOn Jun 17, 2014 7:06 PM, \"Watts\" <notifications@github.com> wrote:\r\n\r\n> Closed #368 <https://github.com/rethinkdb/docs/issues/368>.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/368#event-132442711>.\r\n>"
+  , issueCommentId = 46389855
+  }

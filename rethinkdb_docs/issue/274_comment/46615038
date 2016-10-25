@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-19) 20 : 52 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46615038"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-46615038"
+  , issueCommentCreatedAt = 2014 (-06) (-19) 20 : 52 : 35 UTC
+  , issueCommentBody =
+      "I think this would be best as an entry under \"Deploying RethinkDB\".\r\n\r\nWe could also add an entry \"My server is running out of memory\" to http://rethinkdb.com/docs/troubleshooting/ and link to the document in the answer."
+  , issueCommentId = 46615038
+  }

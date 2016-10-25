@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-25) 20 : 51 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/56881936"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/522#issuecomment-56881936"
+  , issueCommentCreatedAt = 2014 (-09) (-25) 20 : 51 : 08 UTC
+  , issueCommentBody = "Fixed, thanks @danielmewes!"
+  , issueCommentId = 56881936
+  }

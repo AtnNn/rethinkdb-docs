@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-06) 18 : 41 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/90191931"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/701#issuecomment-90191931"
+  , issueCommentCreatedAt = 2015 (-04) (-06) 18 : 41 : 45 UTC
+  , issueCommentBody =
+      "I think you need to capture the notion of \"evaluate an expression\" to explain what `do` is for -- you're applying a function to one more values returned from ReQL queries.\r\n\r\nPerhaps as a draft: \"Call an anonymous function using return values from other ReQL commands or queries as arguments.\""
+  , issueCommentId = 90191931
+  }

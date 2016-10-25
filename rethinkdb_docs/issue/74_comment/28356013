@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-13) 02 : 05 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28356013"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/74#issuecomment-28356013"
+  , issueCommentCreatedAt = 2013 (-11) (-13) 02 : 05 : 40 UTC
+  , issueCommentBody =
+      "I agree that the docs could be better:\r\n\r\n```\r\n  --user                      Install using the user scheme.\r\n```\r\n\r\nIt installs the package for a single user instead of system-wide. On my workstation it installs to `~/.local/lib`."
+  , issueCommentId = 28356013
+  }

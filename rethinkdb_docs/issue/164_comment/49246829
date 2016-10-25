@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-17) 00 : 50 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49246829"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/164#issuecomment-49246829"
+  , issueCommentCreatedAt = 2014 (-07) (-17) 00 : 50 : 22 UTC
+  , issueCommentBody =
+      "It's Objective-C (and presumably Cocoa) but not iOS-specific, as far as I can see -- it could be running on a Mac, right?\r\n"
+  , issueCommentId = 49246829
+  }

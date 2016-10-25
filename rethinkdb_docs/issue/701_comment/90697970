@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-07) 18 : 58 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/90697970"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/701#issuecomment-90697970"
+  , issueCommentCreatedAt = 2015 (-04) (-07) 18 : 58 : 41 UTC
+  , issueCommentBody =
+      "I'm having trouble transmogrifying these into concrete examples. To wit, I'm not sure when would you ever use `do` when you *didn't* need to reuse the result of the query being passed in.\r\n\r\nHere's the first of the two existing examples, for instance:\r\n\r\n```py\r\nr.table('players').get('86be93eb-a112-48f5-a829-15b2cb49de1d').do(\r\n    lambda player: player['gross_score'] - player['course_handicap']\r\n).run(conn)\r\n```\r\n\r\nThis doesn't use the specific phrase \"map over one document,\" but that's what it's doing. However, the reason this is in `do` is because you need to use `player` twice, right? If that query above had a fixed course handicap, you wouldn't need `do` at all:\r\n\r\n```py\r\nr.table('players').get('86be93eb-a112-48f5-a829-15b2cb49de1d'\r\n    )['gross_score'].sub(5).run(conn)\r\n```\r\n\r\nAre there any use cases for \"mapping over one document\" *without* reusing results? I've been combing documentation, examples, and blog posts, and haven't found one yet.\r\n\r\nIs it possible that the best way to describe *all* the use cases of `do` is that it's for managing variable scope? Yes, it's a single-element map, but what you're actually using it for is the ReQL equivalent of Python's `with...as` construct."
+  , issueCommentId = 90697970
+  }

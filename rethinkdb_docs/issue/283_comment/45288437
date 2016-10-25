@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-05) 23 : 38 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45288437"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/283#issuecomment-45288437"
+  , issueCommentCreatedAt = 2014 (-06) (-05) 23 : 38 : 40 UTC
+  , issueCommentBody =
+      "He opened a review for this, but there are a few bugs that needs to be taken care of first."
+  , issueCommentId = 45288437
+  }

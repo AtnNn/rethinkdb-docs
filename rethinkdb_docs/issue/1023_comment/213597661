@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-22) 21 : 42 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 245867
+        , simpleUserLogin = N "coffenbacher"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/245867?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffenbacher"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/213597661"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1023#issuecomment-213597661"
+  , issueCommentCreatedAt = 2016 (-04) (-22) 21 : 42 : 45 UTC
+  , issueCommentBody =
+      "Is there a way to disable this warning? We're intentionally using swap on SSD for our workload. Unless I'm misunderstanding the performance impact, and no swap (with no additional RAM) would be better than some swap? \r\n\r\nObviously trading RAM for swap would be ideal, but we're (1) performing fine already and it's (2) cost-prohibitive for us to scale the RAM on this node.\r\n"
+  , issueCommentId = 213597661
+  }

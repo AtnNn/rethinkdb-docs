@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-22) 23 : 41 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41109393"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-41109393"
+  , issueCommentCreatedAt = 2014 (-04) (-22) 23 : 41 : 10 UTC
+  , issueCommentBody =
+      "With a single instance of RethinkDB 1.12.3 with a 500 MiB cache on Ubuntu Precise x86_64, the VIRT memory usage is:\r\n\r\nA new instance: 276 MiB\r\nCreating 10 tables: 375 MiB\r\nInserting 4'000'000 documents: 784 MiB\r\n10 concurrent serial_mix: 824 MiB\r\n20 concurrent serial_mix: 851 MiB\r\n100 concurrent serial_mix: 903 MiB\r\n5 concurrent `.sample(1)`: 909 MiB\r\n10 concurrent `.sample(1)`: 1010 MiB\r\n100 concurrent `.sample(1)`: 2537 MiB\r\nRestart server: 386 MiB\r\nCreate 90 more tables: 1040 MiB"
+  , issueCommentId = 41109393
+  }

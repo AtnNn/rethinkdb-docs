@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 04 : 48 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46806098"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/381#issuecomment-46806098"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 04 : 48 : 56 UTC
+  , issueCommentBody =
+      "Mint 16 is based on Saucy, but isn't Mint 17 based on Trusty?\r\nhttp://en.wikipedia.org/wiki/List_of_Linux_Mint_releases\r\n\r\n\r\nShouldn't we have for Mint 17\r\n```\r\necho \"deb http://download.rethinkdb.com/apt trusty main\" | sudo tee /etc/apt/sources.list.d/rethinkdb.list\r\n```\r\n"
+  , issueCommentId = 46806098
+  }

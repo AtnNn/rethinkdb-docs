@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-15) 19 : 44 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/93544727"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/713#issuecomment-93544727"
+  , issueCommentCreatedAt = 2015 (-04) (-15) 19 : 44 : 03 UTC
+  , issueCommentBody =
+      "Ah ha. The new version of the site we released with 2.0 uses a different Markdown renderer, and in some places it's a little less forgiving than the previous one -- the bug here is that the \"```\" from the code block and the \"# Compile from Source #\" don't have a blank line between them. Thanks for catching that!"
+  , issueCommentId = 93544727
+  }

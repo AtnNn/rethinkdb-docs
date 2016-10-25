@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 21 : 51 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43948693"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/294#issuecomment-43948693"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 21 : 51 : 08 UTC
+  , issueCommentBody =
+      "> We use \"expr\" to indicate expressions but also functions, except sometimes we call functions functions, and other times we refer to predicates and I'm not entirely sure what we use that to mean, etc.\r\n\r\nWe use \"predicate\" to mean \"function that returns a boolean\"."
+  , issueCommentId = 43948693
+  }

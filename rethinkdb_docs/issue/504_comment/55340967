@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-11) 22 : 58 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 116414
+        , simpleUserLogin = N "cmattson"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/116414?v=3"
+        , simpleUserUrl = "https://api.github.com/users/cmattson"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55340967"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/504#issuecomment-55340967"
+  , issueCommentCreatedAt = 2014 (-09) (-11) 22 : 58 : 22 UTC
+  , issueCommentBody = "CLA is signed and submitted! :+1: "
+  , issueCommentId = 55340967
+  }

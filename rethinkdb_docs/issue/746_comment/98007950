@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-01) 00 : 26 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/98007950"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/746#issuecomment-98007950"
+  , issueCommentCreatedAt = 2015 (-05) (-01) 00 : 26 : 13 UTC
+  , issueCommentBody =
+      "@Tryneus will know for sure, but I think they only work in `between`.\r\nOther terms of similar scope are `r.asc` and `r.desc` for `order_by`."
+  , issueCommentId = 98007950
+  }

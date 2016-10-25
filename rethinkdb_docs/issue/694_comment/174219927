@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-23) 20 : 46 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 4934732
+        , simpleUserLogin = N "MarkHerhold"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/4934732?v=3"
+        , simpleUserUrl = "https://api.github.com/users/MarkHerhold"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/174219927"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/694#issuecomment-174219927"
+  , issueCommentCreatedAt = 2016 (-01) (-23) 20 : 46 : 54 UTC
+  , issueCommentBody =
+      "I think this should be added to the JS docs as well.\r\n\r\nhttps://github.com/rethinkdb/docs/blob/master/api/javascript/writing-data/replace.md\r\n\r\nI was reading the `update` docs and saw an example (called `Example: Perform a conditional update.`) and looked for the same conditional update in the `replace` docs, which was not present, so I assumed that `replace` did not support conditional evaluations. :facepunch: "
+  , issueCommentId = 174219927
+  }

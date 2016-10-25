@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-11) 19 : 16 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62600943"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/573#issuecomment-62600943"
+  , issueCommentCreatedAt = 2014 (-11) (-11) 19 : 16 : 02 UTC
+  , issueCommentBody =
+      "@chipotle \r\n> So: always write \"primary replica\" and \"secondary replica\" and replace any use of \"primary\" and \"secondary\" existing in the documentation (when it refers to servers) with that phrase?\r\n\r\nYes, that sounds right :+1: "
+  , issueCommentId = 62600943
+  }

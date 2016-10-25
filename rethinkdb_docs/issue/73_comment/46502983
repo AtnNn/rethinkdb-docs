@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 22 : 30 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46502983"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/73#issuecomment-46502983"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 22 : 30 : 40 UTC
+  , issueCommentBody =
+      "I believe that's true.  (Also, just for future reference, the different types sort alphabetically by their names -- \"Array\" is first because it starts with an \"A\".)"
+  , issueCommentId = 46502983
+  }

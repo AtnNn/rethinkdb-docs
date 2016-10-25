@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-11) 23 : 37 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/139687156"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/881#issuecomment-139687156"
+  , issueCommentCreatedAt = 2015 (-09) (-11) 23 : 37 : 16 UTC
+  , issueCommentBody =
+      "There's an \"Implicit variables\" section in the existing driver documentation which talks about `IMPLICIT_VAR` and how to wrap the `r.row(x)` argument -- if there's more that should be added there specifically, let me know."
+  , issueCommentId = 139687156
+  }

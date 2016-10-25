@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-01) 18 : 09 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144803894"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/906#issuecomment-144803894"
+  , issueCommentCreatedAt = 2015 (-10) (-01) 18 : 09 : 39 UTC
+  , issueCommentBody =
+      "Is there a use case for this in its function form?"
+  , issueCommentId = 144803894
+  }

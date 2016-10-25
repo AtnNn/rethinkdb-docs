@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-12) 17 : 27 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28314176"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/4#issuecomment-28314176"
+  , issueCommentCreatedAt = 2013 (-11) (-12) 17 : 27 : 41 UTC
+  , issueCommentBody =
+      "From https://github.com/rethinkdb/rethinkdb/issues/1635\r\n>  On: http://www.rethinkdb.com/docs/install/ubuntu/\r\n>  1) For compiling the code, make sure to run: make install\r\n>  2) Also, the sudo apt-get line copies as multiple lines, without the \\ line break the previous code uses.\r\n>  3) If you need to update nodejs to the latest stable, but don't have/want to use the package, you can run:\r\n\r\n>  sudo npm install -g n\r\n>  sudo n stable\r\n\r\nI haven't tested the `make install` command on any OS, but I don't mind adding it."
+  , issueCommentId = 28314176
+  }

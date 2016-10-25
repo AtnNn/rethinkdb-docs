@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-15) 22 : 06 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49099492"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/415#issuecomment-49099492"
+  , issueCommentCreatedAt = 2014 (-07) (-15) 22 : 06 : 19 UTC
+  , issueCommentBody =
+      "Also note https://github.com/rethinkdb/rethinkdb/issues/1168 which will eventually address this issue directly in ReQL. It's worth mentioning this issue next to the example."
+  , issueCommentId = 49099492
+  }

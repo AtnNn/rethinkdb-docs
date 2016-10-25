@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-01) 09 : 36 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/107380983"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/759#issuecomment-107380983"
+  , issueCommentCreatedAt = 2015 (-06) (-01) 09 : 35 : 37 UTC
+  , issueCommentBody =
+      "I think the docs need to explain what kind of streams `changes` works on (I didn't realize 2.0 started allowing them on `getAll` until I read the changelog). Also, I think the body of the text needs some updates:\r\n\r\n>```js\r\n// Note that this will have to look at and discard all the changes to\r\n// rows besides Bob's.  This is currently no way to filter with an index\r\n// on changefeeds.\r\nr.table('test').changes().filter(r.row('new_val')('name').eq('Bob')).run(conn, callback)\r\n```"
+  , issueCommentId = 107380983
+  }

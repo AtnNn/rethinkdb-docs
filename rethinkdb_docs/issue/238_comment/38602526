@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-25) 18 : 30 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38602526"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/238#issuecomment-38602526"
+  , issueCommentCreatedAt = 2014 (-03) (-25) 18 : 30 : 05 UTC
+  , issueCommentBody =
+      "That would require a little more work, but it's doable."
+  , issueCommentId = 38602526
+  }

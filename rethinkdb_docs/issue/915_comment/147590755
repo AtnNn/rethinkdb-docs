@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-13) 03 : 58 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/147590755"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/915#issuecomment-147590755"
+  , issueCommentCreatedAt = 2015 (-10) (-13) 03 : 58 : 47 UTC
+  , issueCommentBody =
+      "@marshall007, thanks for reporting -- this exposed several other lurking bugs. Should be fixed now (and a \"back to top\" link now appears on all API docs for terms)."
+  , issueCommentId = 147590755
+  }

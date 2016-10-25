@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-28) 20 : 17 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33520070"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/66#issuecomment-33520070"
+  , issueCommentCreatedAt = 2014 (-01) (-28) 20 : 17 : 04 UTC
+  , issueCommentBody =
+      "I assume that since #188 only addresses adding `and`, not `or`, this issue is not yet ready to be closed. Correct?"
+  , issueCommentId = 33520070
+  }

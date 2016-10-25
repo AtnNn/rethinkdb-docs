@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 22 : 27 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52708840"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52708840"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 22 : 27 : 41 UTC
+  , issueCommentBody =
+      "I thought about that for a bit.  The downside is that if you have binary data which happens not to contain a NULL byte, you'll get a string, and otherwise you'll get binary data.  So the return type will randomly change in production based on the actual data you're getting, which means your code will probably break."
+  , issueCommentId = 52708840
+  }

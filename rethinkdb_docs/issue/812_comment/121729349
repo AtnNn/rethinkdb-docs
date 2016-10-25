@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-15) 20 : 00 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 167416
+        , simpleUserLogin = N "VeXocide"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/167416?v=3"
+        , simpleUserUrl = "https://api.github.com/users/VeXocide"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/121729349"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/812#issuecomment-121729349"
+  , issueCommentCreatedAt = 2015 (-07) (-15) 20 : 00 : 43 UTC
+  , issueCommentBody =
+      "The field will be present with a value of `[]`."
+  , issueCommentId = 121729349
+  }

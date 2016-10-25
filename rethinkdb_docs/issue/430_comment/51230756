@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-05) 17 : 27 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51230756"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/430#issuecomment-51230756"
+  , issueCommentCreatedAt = 2014 (-08) (-05) 17 : 27 : 16 UTC
+  , issueCommentBody =
+      "Is there a place to check what the numbers here are definitively?\r\n\r\n- maximum length for primary key (and by \"maximum\" is that \"we throw away everything after this length,\" or \"try to use a key longer than this and it doesn't work\")\r\n- what the certain length of that common prefix is for secondary keys\r\n- ideally, a number for \"many\" in \"many secondary keys\" in (b) above"
+  , issueCommentId = 51230756
+  }

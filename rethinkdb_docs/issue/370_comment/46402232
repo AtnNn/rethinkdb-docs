@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 07 : 01 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46402232"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/370#issuecomment-46402232"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 07 : 01 : 45 UTC
+  , issueCommentBody =
+      "From #184\r\n> i spent some time looking at the coerce examples to see how to convert to time. (because of the order I read the docs). I'd have enjoyed a pointer to time()\r\n"
+  , issueCommentId = 46402232
+  }

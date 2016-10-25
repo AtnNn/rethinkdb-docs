@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-19) 01 : 06 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28756726"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/86#issuecomment-28756726"
+  , issueCommentCreatedAt = 2013 (-11) (-19) 01 : 06 : 41 UTC
+  , issueCommentBody =
+      "This still applies to the instructions here: http://rethinkdb.com/docs/build/, reopening.\r\n\r\nThanks for opening the issue on rethinkdb/rethinkdb!"
+  , issueCommentId = 28756726
+  }

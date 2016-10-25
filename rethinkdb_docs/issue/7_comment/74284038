@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-13) 16 : 44 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/74284038"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/7#issuecomment-74284038"
+  , issueCommentCreatedAt = 2015 (-02) (-13) 16 : 44 : 13 UTC
+  , issueCommentBody = "@afiskon it's a private repo at the moment."
+  , issueCommentId = 74284038
+  }

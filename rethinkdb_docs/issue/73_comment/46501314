@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 22 : 13 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46501314"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/73#issuecomment-46501314"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 22 : 13 : 03 UTC
+  , issueCommentBody =
+      "@chipotle -- the tricky part here is:\r\nSuppose you have an index created on the field `foo`. If a document's field `foo` maps to `null`, you won't see it in\r\n```\r\nr.table(\"test\").orderBy({index: \"foo\"})\r\n```\r\n\r\n(since it's not stored in the secondary index)\r\n\r\nWe don't store objects, but we store pseudo types though."
+  , issueCommentId = 46501314
+  }

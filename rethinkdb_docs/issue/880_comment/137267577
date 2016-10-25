@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-02) 22 : 55 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/137267577"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/880#issuecomment-137267577"
+  , issueCommentCreatedAt = 2015 (-09) (-02) 22 : 55 : 18 UTC
+  , issueCommentBody =
+      "I think if it's a legal way of using the term we should list it in the signature.  (Separate from that, I personally use `r.table_create` a lot.  I think it's pretty common to want to quickly create a table for testing when you're using RethinkDB interactively.)"
+  , issueCommentId = 137267577
+  }

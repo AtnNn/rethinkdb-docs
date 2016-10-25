@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-02) 07 : 35 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1620357
+        , simpleUserLogin = N "nguyendn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1620357?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nguyendn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57593644"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/532#issuecomment-57593644"
+  , issueCommentCreatedAt = 2014 (-10) (-02) 07 : 34 : 44 UTC
+  , issueCommentBody =
+      "@coffeemug:  Oh, it is rethinkdb@1.13.0-3. Really sorry, I am going to update it and test everything again."
+  , issueCommentId = 57593644
+  }

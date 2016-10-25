@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-20) 21 : 11 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/104040636"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/775#issuecomment-104040636"
+  , issueCommentCreatedAt = 2015 (-05) (-20) 21 : 11 : 41 UTC
+  , issueCommentBody =
+      "@danielcompton one more thing: We require a CLA for legal reasons before we can merge pull requests. Would you mind signing at http://rethinkdb.com/community/cla/ ?\r\n\r\nThanks by the way for your patch!"
+  , issueCommentId = 104040636
+  }

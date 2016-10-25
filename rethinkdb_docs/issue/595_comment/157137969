@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-16) 19 : 07 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/157137969"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/595#issuecomment-157137969"
+  , issueCommentCreatedAt = 2015 (-11) (-16) 19 : 07 : 28 UTC
+  , issueCommentBody =
+      "`rethinkdb admin` has been gone for a while, and nobody has asked about this as far as I know. Closing."
+  , issueCommentId = 157137969
+  }

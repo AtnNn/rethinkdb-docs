@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-01) 18 : 08 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 285744
+        , simpleUserLogin = N "Yoeori"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/285744?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Yoeori"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41937414"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-41937414"
+  , issueCommentCreatedAt = 2014 (-05) (-01) 18 : 08 : 11 UTC
+  , issueCommentBody =
+      "When I compiled it this way it did automaticly download v8 and there was a file third_party/icu/make?\r\n\r\nThe removal of -m32 was necessary becouse raspbian doesn't recognize it, so instead it would just throw errors arround."
+  , issueCommentId = 41937414
+  }

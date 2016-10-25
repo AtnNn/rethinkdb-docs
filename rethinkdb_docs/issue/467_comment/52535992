@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-18) 18 : 40 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52535992"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52535992"
+  , issueCommentCreatedAt = 2014 (-08) (-18) 18 : 40 : 58 UTC
+  , issueCommentBody =
+      "If you use r.http('http://www.gravatar.com/avatar/18b515cae379d4333296db7121b80458', result_format='binary'), that's supposed to return a binary object directly, right? So you wouldn't need the r.binary() wrapper around it -- you'd just use the binary result_format argument. Or is this incorrect?"
+  , issueCommentId = 52535992
+  }

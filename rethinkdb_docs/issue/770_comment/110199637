@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-09) 02 : 22 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/110199637"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/770#issuecomment-110199637"
+  , issueCommentCreatedAt = 2015 (-06) (-09) 02 : 22 : 52 UTC
+  , issueCommentBody =
+      "> If it fails indeterminately, it's in a sort of a limbo state; reads run in \"single\" or \"outdated\" modes might see it, but when the network failure or crash that caused the problem is resolved, the write might or might not be rolled back.\r\n\r\nNote that even `\"majority\"` reads can see the write (at least) if the network failure is non-transitive."
+  , issueCommentId = 110199637
+  }

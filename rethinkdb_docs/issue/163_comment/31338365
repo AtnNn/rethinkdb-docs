@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-30) 09 : 22 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31338365"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/163#issuecomment-31338365"
+  , issueCommentCreatedAt = 2013 (-12) (-30) 09 : 22 : 41 UTC
+  , issueCommentBody =
+      "Amazing work overall. I'm nitpicking on many things in my line-by-line comments because I think consistency is extremely important for a coherent user experience and can make enormous difference. I think we should significantly increase the level of nit-pickiness on docs (which I'll do when we get people dedicated to them) because of dramatic difference it can make, but don't let these comments take away from the very awesome work you're doing!"
+  , issueCommentId = 31338365
+  }

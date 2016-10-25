@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-11) 05 : 54 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30296673"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/131#issuecomment-30296673"
+  , issueCommentCreatedAt = 2013 (-12) (-11) 05 : 54 : 00 UTC
+  , issueCommentBody =
+      "@mglukhovsky, I considered it an issue of discovery.  If someone is writing queries, there is nothing right now to indicate it is even possible to use `.ne`, for example.  Furthermore, if someone is reading old code and runs across a `.ne`, this diff will make it much easier to find the documentation for it."
+  , issueCommentId = 30296673
+  }

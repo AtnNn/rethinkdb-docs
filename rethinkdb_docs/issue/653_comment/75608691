@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-23) 19 : 04 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/75608691"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/653#issuecomment-75608691"
+  , issueCommentCreatedAt = 2015 (-02) (-23) 19 : 04 : 37 UTC
+  , issueCommentBody =
+      "Do either of these changefeeds return an initial value?"
+  , issueCommentId = 75608691
+  }

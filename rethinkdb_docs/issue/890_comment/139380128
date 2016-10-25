@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-10) 21 : 10 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/139380128"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/890#issuecomment-139380128"
+  , issueCommentCreatedAt = 2015 (-09) (-10) 21 : 10 : 59 UTC
+  , issueCommentBody =
+      "I agree @chipotle but it would need to say:\r\n\r\n> Deleting, adding or updating a post requires loading the entire `posts` array, modifying it, and writing the entire **document** back to disk.\r\n\r\nBecause modifying a document field requires rewriting the entire document back to disk. This point was my primary concern for the PR and I'd be good with this change. "
+  , issueCommentId = 139380128
+  }

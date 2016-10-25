@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-26) 20 : 16 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57014630"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/526#issuecomment-57014630"
+  , issueCommentCreatedAt = 2014 (-09) (-26) 20 : 16 : 50 UTC
+  , issueCommentBody =
+      "Yeah, this is definitely not a full solution to backwards incompatible changes. But the vast majority of changes are purely additional, and I think this helps a lot with that aspect"
+  , issueCommentId = 57014630
+  }

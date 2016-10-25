@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-04) 19 : 44 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61701704"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-61701704"
+  , issueCommentCreatedAt = 2014 (-11) (-04) 19 : 44 : 58 UTC
+  , issueCommentBody =
+      "We should probably discuss this elsewhere, but just to avoid some confusion: `rethinkdb proxy` is quite different from a connection pool.\r\n\r\nThey have one use case in common: If some server in the cluster dies, the connection will automatically be routed to a different node (this assumes that the proxy server runs on the same machine as the application server and they never die independently from each other).\r\n\r\nHowever arguably the main use case of `rethinkdb proxy` is to reduce network traffic, latency and overhead by routing queries directly to the right node(s). A connection pool cannot do this.\r\nA connection pool has a completely different main use case, which is reducing the overhead of connection setup. A `rethinkdb proxy` node cannot do this.\r\n\r\nThat being said, reducing the degree of special casing for `rethinkdb proxy` would be really good. We cannot just make it a regular cluster node right now because of how the cluster behaves if one of its members go down (and proxy nodes should be allowed to go down). This is going to change with the Raft transition, and at that point I imagine we can get rid of the special proxy node. Users could still get the same functionality by starting a regular server with a special tag that isn't used for any tables."
+  , issueCommentId = 61701704
+  }

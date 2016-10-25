@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-21) 06 : 12 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40918385"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/159#issuecomment-40918385"
+  , issueCommentCreatedAt = 2014 (-04) (-21) 06 : 12 : 11 UTC
+  , issueCommentBody =
+      "We also need to add an example with a descending order using an index.\r\n\r\nPeople have been running into this a little too often. I'll fix it tomorrow."
+  , issueCommentId = 40918385
+  }

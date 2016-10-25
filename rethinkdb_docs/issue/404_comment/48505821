@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-09) 17 : 21 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48505821"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/404#issuecomment-48505821"
+  , issueCommentCreatedAt = 2014 (-07) (-09) 17 : 21 : 51 UTC
+  , issueCommentBody =
+      "`mg_preview` doesn't contain anything more than `master` to build the docs.\r\n\r\n\r\nTo currently start Jekyll based on the docs repository only, we need:\r\n- Include a config file to tell Jekyll to use Redcarpet + tables\r\n- Copy _includes/recipe-forms.html from www to docs\r\n- Copy the plugins\r\n\r\nThen Jekyll start without complaining but:\r\n- The links to images are broken\r\n- It doesn't come with a template\r\n\r\n\r\nFixing the images would require to properly create a assert/images directory I think.\r\nAdding a template, css etc. should be doable I think.\r\n\r\n\r\n@metaflow -- do you want to have the docs offline? Or is it to be able to send nice pull requests?"
+  , issueCommentId = 48505821
+  }

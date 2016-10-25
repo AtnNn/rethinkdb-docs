@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-25) 23 : 35 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/159755385"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/962#issuecomment-159755385"
+  , issueCommentCreatedAt = 2015 (-11) (-25) 23 : 35 : 50 UTC
+  , issueCommentBody =
+      "OK, cool!  I actually missed that while look for docs somehow.  I think once rethinkdb/rethinkdb#5138 is in we should update that section with information on how to automatically start a proxy node (and probably also add some information about the network configuration while we're in there).  Assigning to myself in the meantime."
+  , issueCommentId = 159755385
+  }

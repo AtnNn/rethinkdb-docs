@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 19 : 25 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 44345
+        , simpleUserLogin = N "ukd1"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44345?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ukd1"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63676200"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-63676200"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 17 : 13 : 17 UTC
+  , issueCommentBody =
+      "Perhaps I'm missing something - can one of you answer why it shouldn't just start with default config and show a nice irk to the admin panel?"
+  , issueCommentId = 63676200
+  }

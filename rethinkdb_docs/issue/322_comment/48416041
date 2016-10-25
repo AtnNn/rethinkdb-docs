@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-09) 00 : 20 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48416041"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/322#issuecomment-48416041"
+  , issueCommentCreatedAt = 2014 (-07) (-09) 00 : 20 : 38 UTC
+  , issueCommentBody =
+      "Ah. Maybe we should document it that way, or at least note that even if you\r\ncan store a UTF-8 string in the database you probably shouldn't. :)\r\n\r\n\r\nOn Tue, Jul 8, 2014 at 5:19 PM, Michael Lucy <notifications@github.com>\r\nwrote:\r\n\r\n> RethinkDB *theoretically* only accepts UTF-8. In practice we don't check\r\n> right now. Future versions of RethinkDB will probably reject non-UTF-8\r\n> strings.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/322#issuecomment-48415955>.\r\n>"
+  , issueCommentId = 48416041
+  }

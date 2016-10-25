@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-15) 00 : 03 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/121432074"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/404#issuecomment-121432074"
+  , issueCommentCreatedAt = 2015 (-07) (-15) 00 : 03 : 14 UTC
+  , issueCommentBody =
+      "I've finally gotten around to this: you can build and serve a standalone Jekyll site using the command `rake`. The README will be updated shortly with instructions.\r\n\r\nIf you'd like to try it now, make sure to run `rake init` to set up your build environment, and then `rake` to build and serve the site."
+  , issueCommentId = 121432074
+  }

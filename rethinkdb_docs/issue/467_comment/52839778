@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-20) 20 : 35 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52839778"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52839778"
+  , issueCommentCreatedAt = 2014 (-08) (-20) 20 : 35 : 09 UTC
+  , issueCommentBody =
+      "@deontologician, does that mean you support my suggestion to have `r.http` produce a binary object when `result_format='auto'` and creating a string fails?  (Note: this should only happen for invalid JSON-P and unrecognized `Content-Type`s from the above list)\r\n\r\n@mlucy, it doesn't seem that having `result_format='auto'` work in this way is much different than how we handle JSON-P."
+  , issueCommentId = 52839778
+  }

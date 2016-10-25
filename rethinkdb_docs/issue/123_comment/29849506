@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-04) 21 : 52 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29849506"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/123#issuecomment-29849506"
+  , issueCommentCreatedAt = 2013 (-12) (-04) 21 : 52 : 39 UTC
+  , issueCommentBody =
+      "`merge` is probably going to take a function in 1.12."
+  , issueCommentId = 29849506
+  }

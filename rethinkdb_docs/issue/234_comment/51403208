@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 21 : 56 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51403208"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/234#issuecomment-51403208"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 21 : 56 : 30 UTC
+  , issueCommentBody =
+      "The generated docs are still ugly. `gen_python.py` currently prefixes `>>> ` to the first line of each python code snippet, and `... ` to the other lines.\r\n\r\nI propose removing that behaviour and just writing the queries as is.\r\n\r\nThe current format looks good on multiline queries:\r\n\r\n```\r\n>>> r.table('users').filter(\r\n...     lambda users: r.not_(users.has_fields('flag'))\r\n... ).run(conn)\r\n```\r\n\r\nBut looks bad when there is another query or results in the same code block:\r\n\r\n```\r\n>>> (r.expr(2) <= 2).run(conn)\r\n... r.expr(2).le(2).run(conn)\r\n```\r\n\r\n```\r\n>>> > r.expr(['a','b','c','d','e','f']).delete_at(1).run(conn)\r\n... \r\n... ['a', 'c', 'd', 'e', 'f']\r\n```\r\n\r\nThere is a disadvantage of removing these prefixes. It is harder to distinguish code blocks and text."
+  , issueCommentId = 51403208
+  }

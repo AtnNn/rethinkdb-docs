@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-19) 07 : 11 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94247616"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/719#issuecomment-94247616"
+  , issueCommentCreatedAt = 2015 (-04) (-19) 07 : 11 : 48 UTC
+  , issueCommentBody =
+      "A few more:\r\n* the `getField` type signatures use the bracket term `sequence(attr)` instead of `sequence.getField(attr)`. These are now slightly different terms.\r\n* `toJsonString, toJSON` example uses inconsistent capitalization: `toJson`.\r\n* `insert`, `update` and `replace` refer to `json` in their type signatures. It should probably say `object`.\r\n* The batch `insert` signature is ambiguously written as `[json]`. We use square brackets elsewhere to mark optional arguments, so I think it should be `[object1, object2, ...]` instead to make clear that it's an array of multiple documents."
+  , issueCommentId = 94247616
+  }

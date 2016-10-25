@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 23 : 04 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52712814"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52712814"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 23 : 04 : 11 UTC
+  , issueCommentBody =
+      "@Tryneus: how do we currently detect the result format when it's set to `auto`?  Detecting based on the content-type seems very different from detecting based on the presence or absence of a null byte.\r\n\r\n@deontologician: I don't quite follow.  If the content-type says it's binary data, shouldn't we just return binary data?  Do we not currently do that?"
+  , issueCommentId = 52712814
+  }

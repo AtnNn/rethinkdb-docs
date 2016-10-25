@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-02) 20 : 47 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44888912"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-44888912"
+  , issueCommentCreatedAt = 2014 (-06) (-02) 20 : 47 : 20 UTC
+  , issueCommentBody =
+      "I think it's non negligeable for people starting to use Node.\r\nSee http://stackoverflow.com/questions/21359971/rethinkdb-node-js-driver-not-correctly-initializing-global-connection-variable\r\n\r\n\r\nAlso we are going to return promises with 1.13, and I would prefer people not to think that they are some kind of futures or anything magic that will hold the result of the query.\r\n"
+  , issueCommentId = 44888912
+  }

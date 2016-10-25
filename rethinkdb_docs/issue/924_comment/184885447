@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-16) 21 : 42 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 181337
+        , simpleUserLogin = N "pixelspark"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/181337?v=3"
+        , simpleUserUrl = "https://api.github.com/users/pixelspark"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/184885447"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/924#issuecomment-184885447"
+  , issueCommentCreatedAt = 2016 (-02) (-16) 21 : 42 : 40 UTC
+  , issueCommentBody =
+      "@danielmewes I will look into supporting optargs as soon as I can find the time!"
+  , issueCommentId = 184885447
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-10) 18 : 24 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/218246490"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1118#issuecomment-218246490"
+  , issueCommentCreatedAt = 2016 (-05) (-10) 18 : 24 : 54 UTC
+  , issueCommentBody =
+      "Thanks @gangadharyelwande . Could you remove the changes that are unrelated to #1117 from this PR, or open a new one with only that commit? You can do this by creating a new branch in git and then using `git cherry-pick bee729a` to pick only that one commit."
+  , issueCommentId = 218246490
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-18) 20 : 30 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28734878"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/42#issuecomment-28734878"
+  , issueCommentCreatedAt = 2013 (-11) (-18) 20 : 30 : 01 UTC
+  , issueCommentBody =
+      "I fixed everything I think, except the `.map{ |post|` since that seems to be what we use.\r\n@mlucy if you think we should change it, I would be happy to do it.\r\n\r\nWhile replacing `null` with `None` and `nil` in Python/Ruby, I did a quick check on the other files. I just pushed it on the same branch."
+  , issueCommentId = 28734878
+  }

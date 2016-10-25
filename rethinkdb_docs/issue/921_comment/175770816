@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-27) 17 : 57 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/175770816"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/921#issuecomment-175770816"
+  , issueCommentCreatedAt = 2016 (-01) (-27) 17 : 57 : 39 UTC
+  , issueCommentBody =
+      "We should also talk about the idea of using a non-voting replica to collect all of the data on a single server, which could then be isolated (to force quiescence) and used for the backup process."
+  , issueCommentId = 175770816
+  }

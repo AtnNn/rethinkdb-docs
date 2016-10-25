@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-11) 19 : 16 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10092343
+        , simpleUserLogin = N "dineyw23"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10092343?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dineyw23"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/208508822"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1079#issuecomment-208508822"
+  , issueCommentCreatedAt = 2016 (-04) (-11) 19 : 16 : 05 UTC
+  , issueCommentBody =
+      "Yes @chipotle , I have signed it.\r\n\r\nI have contributed to this repo before.\r\n\r\nThanks."
+  , issueCommentId = 208508822
+  }

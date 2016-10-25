@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-27) 18 : 17 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53616885"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/484#issuecomment-53616885"
+  , issueCommentCreatedAt = 2014 (-08) (-27) 18 : 17 : 13 UTC
+  , issueCommentBody =
+      "I think we should have a standalone \"Cluster setup best practices\" document (or something like that). It's non-trivial to a lot of people, and have a nice document that explains the dos and don't would help a lot to reassure people that their setup is good."
+  , issueCommentId = 53616885
+  }

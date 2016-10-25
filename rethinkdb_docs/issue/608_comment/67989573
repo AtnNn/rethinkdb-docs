@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-23) 19 : 34 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/67989573"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/608#issuecomment-67989573"
+  , issueCommentCreatedAt = 2014 (-12) (-23) 19 : 34 : 33 UTC
+  , issueCommentBody =
+      "Thank you for the pull request @aderyabin, good catch.\r\nIf you haven't done this already, would you mind signing our contributor agreement? http://rethinkdb.com/community/cla/\r\n\r\nIt might take us a little bit longer to merge this because of the holidays, but we'll try to get it in soon.\r\n\r\n@chipotle can you take a look at @aderyabin's patch?"
+  , issueCommentId = 67989573
+  }

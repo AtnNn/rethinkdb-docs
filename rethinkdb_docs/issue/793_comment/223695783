@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-03) 21 : 12 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/223695783"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/793#issuecomment-223695783"
+  , issueCommentCreatedAt = 2016 (-06) (-03) 21 : 12 : 19 UTC
+  , issueCommentBody =
+      "Yes. @ahruygt, I think we need to rework of some of the images -- this is almost ready to go. Can we chat about it next week?"
+  , issueCommentId = 223695783
+  }

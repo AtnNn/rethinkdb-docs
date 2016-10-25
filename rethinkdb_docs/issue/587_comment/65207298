@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-02) 10 : 03 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 85881
+        , simpleUserLogin = N "epc"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/85881?v=3"
+        , simpleUserUrl = "https://api.github.com/users/epc"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65207298"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/587#issuecomment-65207298"
+  , issueCommentCreatedAt = 2014 (-12) (-02) 10 : 03 : 34 UTC
+  , issueCommentBody =
+      "Yes.  See pull #418 for my earlier contribution.\r\n\r\nOn Monday, December 1, 2014, Daniel Mewes <notifications@github.com> wrote:\r\n\r\n> Hi @epc <https://github.com/epc> , thank you for the pull request.\r\n> Have you already signed our Contributor License Agreement?\r\n> http://rethinkdb.com/community/cla/\r\n> (sorry, I know it's annoying for a minor edit like this, but unfortunately\r\n> required for legal reasons)\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/pull/587#issuecomment-65122977>.\r\n>\r\n\r\n\r\n-- \r\n-ed costello\r\n+19179752073\r\nTwitter <https://twitter.com/epc> \8226 LinkedIn\r\n<https://www.linkedin.com/in/epcostello> \8226 Github <https://github.com/epc>"
+  , issueCommentId = 65207298
+  }

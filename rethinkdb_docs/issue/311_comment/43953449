@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 22 : 49 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43953449"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/311#issuecomment-43953449"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 22 : 49 : 15 UTC
+  , issueCommentBody =
+      "What makes that a no-op? When I cut and paste Michel's \"what would you\r\nexpect this to return\" query I get:\r\n\r\n{\"a\":{\"b\":{\"c\":{\"d\":{\"e\":1},\"dd\":2}}}}\r\n\r\nSo I may not be following this.\r\n\r\nI also noticed that if I replace\r\n\r\n.pluck({a: ['b', {c: 'd'}]})\r\n\r\nwith\r\n\r\n.pluck({a: ['b', {c: 'banana'}]})\r\n\r\nthen I get the same result.\r\n\r\n\r\n\r\nOn Thu, May 22, 2014 at 2:47 PM, Michael Lucy <notifications@github.com>wrote:\r\n\r\n> What would you expect this query to return?\r\n>\r\n> That should be a no-op, right? There's no c directly inside the a, so\r\n> it's identical to .pluck({a: ['b']}).\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub<https://github.com/rethinkdb/docs/issues/311#issuecomment-43948301>\r\n> .\r\n>"
+  , issueCommentId = 43953449
+  }

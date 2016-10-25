@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-08) 18 : 19 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48378976"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/332#issuecomment-48378976"
+  , issueCommentCreatedAt = 2014 (-07) (-08) 18 : 19 : 00 UTC
+  , issueCommentBody =
+      "One clarification: I noticed that in the `db` command it doesn't mention what happens when you don't specify a database at all, i.e., just call run `r.table('foo').run()` or the like. It *looks* like what happens is that the command is run against the most recently-selected database. Is that correct, and is it worth documenting?"
+  , issueCommentId = 48378976
+  }

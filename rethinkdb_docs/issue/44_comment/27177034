@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-27) 19 : 29 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27177034"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/44#issuecomment-27177034"
+  , issueCommentCreatedAt = 2013 (-10) (-27) 19 : 29 : 11 UTC
+  , issueCommentBody =
+      "The code review actually contains the necessary changes to the API docs. There might be other places in the documentation though which need updating."
+  , issueCommentId = 27177034
+  }

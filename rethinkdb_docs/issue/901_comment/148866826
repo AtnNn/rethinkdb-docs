@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-16) 23 : 47 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/148866826"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-148866826"
+  , issueCommentCreatedAt = 2015 (-10) (-16) 23 : 47 : 24 UTC
+  , issueCommentBody =
+      "One difference between the Java and other drivers that's relevant for the `run` documentation:\r\nOur other drivers accept a `noreply=True` option to `run`. The Java driver doesn't accept this option. Instead there is a special method `runNoReply(conn)` to run noreply queries. `runNoReply` works like `run(conn)`, but returns `void` instead."
+  , issueCommentId = 148866826
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 16 : 19 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44551014"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/219#issuecomment-44551014"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 16 : 19 : 28 UTC
+  , issueCommentBody =
+      "Thins were fixed.\r\nFor contains, I opened https://github.com/rethinkdb/docs/issues/323"
+  , issueCommentId = 44551014
+  }

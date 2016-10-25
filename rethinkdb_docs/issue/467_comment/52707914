@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 22 : 21 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52707914"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52707914"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 22 : 21 : 06 UTC
+  , issueCommentBody =
+      "@deontologician: if you mean \"is it technically feasible\", then the answer is yes, but it would be bad because that's not how our type system works in general.  We'd have to hard-code that combination, and it would be extremely confusing because `r.binary(r.http())` would work but e.g. `r.binary(\"PREFIX\" + r.http())` still wouldn't.  (In general, having the return type of a term depend on the term calling it seems confusing to me.)"
+  , issueCommentId = 52707914
+  }

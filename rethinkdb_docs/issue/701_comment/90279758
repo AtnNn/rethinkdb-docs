@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-06) 23 : 16 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/90279758"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/701#issuecomment-90279758"
+  , issueCommentCreatedAt = 2015 (-04) (-06) 23 : 16 : 20 UTC
+  , issueCommentBody =
+      "Well, we have two examples already, including one sort of like that:\r\n\r\n```rb\r\nr.table('players').get('f19b5f16-ef14-468f-bd48-e194761df255').do { |player|\r\n    player['gross_score'] - player['course_handicap']\r\n}.run(conn)\r\n```\r\n\r\nI'm not entirely sure what to in the context of #620 -- the examples we have involve using the results of queries in the function and doing branching. Maybe there's a more complex example that we could come up with, but there's only one example using `do` in the cookbook I could find and while the *overall* example is complex, the function being passed to `do` is still fairly straightforward."
+  , issueCommentId = 90279758
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-11) 22 : 21 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45807984"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/346#issuecomment-45807984"
+  , issueCommentCreatedAt = 2014 (-06) (-11) 22 : 21 : 35 UTC
+  , issueCommentBody =
+      "Do we absolutely need two different files for docs? Is there a common syntax for `func` in python 2 and 3?"
+  , issueCommentId = 45807984
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-16) 19 : 02 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59412621"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/553#issuecomment-59412621"
+  , issueCommentCreatedAt = 2014 (-10) (-16) 19 : 02 : 19 UTC
+  , issueCommentBody =
+      "I'd fold \"deploying on AWS\" into the article, but put Compose first (because it's dramatically easier to do). You can borrow copy for the Compose section from our blog post that @segphault wrote.\r\n\r\nNot sure about dotCloud, but my immediate instinct would be not to include it. It isn't actually a good practical way to deploy Rethink in the cloud."
+  , issueCommentId = 59412621
+  }

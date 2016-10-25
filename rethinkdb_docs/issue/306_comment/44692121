@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-30) 19 : 48 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44692121"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/306#issuecomment-44692121"
+  , issueCommentCreatedAt = 2014 (-05) (-30) 19 : 48 : 02 UTC
+  , issueCommentBody =
+      "This is on its own little branch (issue-306-r.http) - I haven't opened a code review for it, but it's there as a possible start."
+  , issueCommentId = 44692121
+  }

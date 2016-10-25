@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 22 : 41 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96081593"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-96081593"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 22 : 19 : 38 UTC
+  , issueCommentBody =
+      "This error behavior is something I feel the docs kind of gloss over right now: the JavaScript (and Lua) programmer in me translates `[r.row('foo'), r.row('bar')]` to `[row.foo, row.bar]` which would evaluate to something like `['value', undefined]`, which has equivalent access semantics to `['value']` (although the `length` of the former, in JS, is still 2). So what I intuitively \"expect\" is somewhat muddled, but the idea that getting a missing field will result in an *error*, which causes the expression to fail and (silently) omit the row from the index (as we're currently discussing in rethinkdb/rethinkdb#1032), is not what I would predict (for all I would guess, these errors would get triggered on insertion and get forwarded back to my client as a failed transaction).\r\n\r\nI'd say this error behavior should be described up-front in the docs on secondary indices, ie. with a mention in the examples for complex (expression-based) indexes, and then a whole section describing how errors get handled in index creation (with links to issues like rethinkdb/rethinkdb#4118) and how that may or may not be what you want (link to rethinkdb/rethinkdb#4121)."
+  , issueCommentId = 96081593
+  }

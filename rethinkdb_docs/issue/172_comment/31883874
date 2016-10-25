@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-08) 22 : 38 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31883874"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/172#issuecomment-31883874"
+  , issueCommentCreatedAt = 2014 (-01) (-08) 22 : 38 : 44 UTC
+  , issueCommentBody =
+      "I usually use them to mean different things -- a document is any JSON document, a row is a JSON document stored in a table."
+  , issueCommentId = 31883874
+  }

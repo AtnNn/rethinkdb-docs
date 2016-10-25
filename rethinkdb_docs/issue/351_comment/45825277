@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-12) 03 : 02 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45825277"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/351#issuecomment-45825277"
+  , issueCommentCreatedAt = 2014 (-06) (-12) 03 : 02 : 02 UTC
+  , issueCommentBody =
+      "Could we do this in ccollab instead since it's so large?"
+  , issueCommentId = 45825277
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-30) 19 : 25 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/50666689"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/436#issuecomment-50666689"
+  , issueCommentCreatedAt = 2014 (-07) (-30) 19 : 25 : 44 UTC
+  , issueCommentBody =
+      "Also noticed one of the python snippets uses javascript comment syntax:\r\n\r\n```python\r\nr.table(\"pages\").update(lambda page:\r\n    r.branch(page[\"countable\"] == True,          // if the page is countable\r\n             { \"views\": page[\"views\"] + 1 },     // increment the view count\r\n             {}                                  // else do nothing\r\n    )), {\"return_vals\": True}).run()\r\n```\r\n\r\nThe `//` should be `#`"
+  , issueCommentId = 50666689
+  }

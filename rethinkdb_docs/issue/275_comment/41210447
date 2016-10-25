@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-23) 20 : 28 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41210447"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/275#issuecomment-41210447"
+  , issueCommentCreatedAt = 2014 (-04) (-23) 20 : 28 : 17 UTC
+  , issueCommentBody =
+      "Specifically:\r\n* We don't want to support both `Time` and `DateTime` because there's only one time type on the server, and it would be confusing to insert a `DateTime` and get back a `Time` or vice-versa.\r\n* The solution is to use `to_time` and `to_datetime` to convert before inserting and after retrieving respectively."
+  , issueCommentId = 41210447
+  }

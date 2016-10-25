@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-23) 19 : 08 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/159029542"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/959#issuecomment-159029542"
+  , issueCommentCreatedAt = 2015 (-11) (-23) 19 : 04 : 24 UTC
+  , issueCommentBody =
+      "It looks like that example is definitely JS everywhere, although the others seem to be okay. I'll fix that as part of this."
+  , issueCommentId = 159029542
+  }

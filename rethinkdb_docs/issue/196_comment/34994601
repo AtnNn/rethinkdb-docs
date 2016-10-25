@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-13) 16 : 16 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/34994601"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/196#issuecomment-34994601"
+  , issueCommentCreatedAt = 2014 (-02) (-13) 16 : 16 : 09 UTC
+  , issueCommentBody =
+      "Thanks @hden for writing the middleware!\r\n\r\nCould you please fill out the CLA (http://rethinkdb.com/community/cla/) so we can merge this in?\r\n"
+  , issueCommentId = 34994601
+  }

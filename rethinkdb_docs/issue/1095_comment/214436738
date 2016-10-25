@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-25) 16 : 45 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/214436738"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1095#issuecomment-214436738"
+  , issueCommentCreatedAt = 2016 (-04) (-25) 16 : 45 : 38 UTC
+  , issueCommentBody =
+      "Thanks for the contribution! (We'll have to change the api_javascript.yml file back, though; the permalink of \"coerce_to\" is correct in that case\8212it's the \"name\" field that has to be \"coerceTo\" in that file, which it already was.)\r\n\r\nHave you signed the [RethinkDB CLA](http://www.rethinkdb.com/community/cla/) yet? If you have, just leave a note here -- otherwise, please leave a note after it's signed."
+  , issueCommentId = 214436738
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-13) 23 : 57 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52127861"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/461#issuecomment-52127861"
+  , issueCommentCreatedAt = 2014 (-08) (-13) 23 : 57 : 46 UTC
+  , issueCommentBody = "I'm fine with that."
+  , issueCommentId = 52127861
+  }

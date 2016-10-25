@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-09) 00 : 01 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/110177557"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/772#issuecomment-110177557"
+  , issueCommentCreatedAt = 2015 (-06) (-09) 00 : 00 : 22 UTC
+  , issueCommentBody =
+      "* There are two changes to `rethinkdb.table_config` (and `r.table().config()` too, of course):\r\n    * Each shard subdocument of `rethinkdb.table_config` now has a new field called `nonvoting_replicas`. It must be a subset of the existing `replicas` field. It may be empty, or omitted, in which case it's treated as empty. The primary replica must not be a nonvoting replica.\r\n    * The `write_acks` field must be `\"single\"` or `\"majority\"`; it is no longer allowed to be a list of more detailed specifications.\r\n\r\n    Here's an example of what a `table_config` document looks like now:\r\n    ```js\r\n    {\r\n        id: \"3fd6c63b-d184-4208-bc6e-e9add903c300\",\r\n        db: \"test\",\r\n        name: \"hi\",\r\n        primary_key: \"id\",\r\n        shards: [\r\n            {\r\n                replicas: [\"companion_cube\"],\r\n                primary_replica: \"companion_cube\",\r\n                nonvoting_replicas: []\r\n            }\r\n        ],\r\n        durability: \"hard\",\r\n        write_acks: \"majority\"\r\n    }\r\n    ```     \r\n\r\n* `reconfigure()` has a new optarg `nonvoting_replica_tags`. Replicas with these tags will be put in the `nonvoting_replicas` list of the resulting config. For example, one might write:\r\n    ```js\r\n    table.reconfigure({\r\n        shards: 2,\r\n        replicas: {\"us_east\": 2, \"us_west\": 1},\r\n        primary_replica_tag: \"us_east\",\r\n        nonvoting_replica_tags: [\"us_west\"]})\r\n    ```\r\n    The reconfigure command has also been overloaded to support emergency repair functionality. This is triggered by a new optarg `emergency_repair`, which will be documented elsewhere.\r\n\r\n* There are two major changes to `rethinkdb.table_status` (and `r.table().status()` too):\r\n    * The `primary_replica` field is now a list of zero, one, or multiple servers, called `primary_replicas`. If it contains multiple servers, that means that different parts of the shard are being served by different primaries. This is a temporary condition.\r\n    * The possible values of the `state` field have changed. The new values are as follows:\r\n        * `ready`, `transitioning`: The same as before.\r\n        * `backfilling`: Same as the old `backfilling_data`.\r\n        * `disconnected`: Same as the old `missing`.\r\n        * `waiting_for_primary`: Same as the old `looking_for_primary`.\r\n        * `waiting_for_quorum`: The primary is waiting for a quorum of the table's replicas to be available before it starts accepting writes.\r\n\r\n    Here's an example of what a `table_status` document looks like now:\r\n    ```js\r\n    {\r\n        id: \"3fd6c63b-d184-4208-bc6e-e9add903c300\",\r\n        db: \"test\",\r\n        name: \"hi\",\r\n        shards: [\r\n            {\r\n                replicas: [\r\n                    {server: \"companion_cube\", state: \"ready\"}\r\n                ],\r\n                primary_replicas: [\"companion_cube\"]\r\n            }\r\n        ],\r\n        status: {\r\n            all_replicas_ready: true,\r\n            ready_for_outdated_reads: true,\r\n            ready_for_reads: true,\r\n            ready_for_writes: true\r\n        }\r\n    }\r\n    ```"
+  , issueCommentId = 110177557
+  }

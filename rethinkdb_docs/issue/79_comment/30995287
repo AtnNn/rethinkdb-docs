@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-20) 08 : 26 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30995287"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/79#issuecomment-30995287"
+  , issueCommentCreatedAt = 2013 (-12) (-20) 08 : 26 : 46 UTC
+  , issueCommentBody =
+      "There are a few more problems with this page:\r\n\r\n* Not all config settings are listed there. We should either say \"most important settings are here, for more see the example file\" an link them to the file on github, or we should list all the settings.\r\n* People are still having trouble setting up actual clusters. We should have a primer/walkthrough -- \"Here are the concrete steps you go through to set up a cluster of four RethinkDB nodes with init.d\" (may be this should be another document)."
+  , issueCommentId = 30995287
+  }

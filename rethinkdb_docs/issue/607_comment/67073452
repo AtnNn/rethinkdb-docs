@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-15) 21 : 56 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/67073452"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/607#issuecomment-67073452"
+  , issueCommentCreatedAt = 2014 (-12) (-15) 21 : 55 : 47 UTC
+  , issueCommentBody =
+      "@gchpaco can give more details about the implications this has if necessary."
+  , issueCommentId = 67073452
+  }

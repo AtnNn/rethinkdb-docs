@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-24) 17 : 30 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124588424"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/700#issuecomment-124588424"
+  , issueCommentCreatedAt = 2015 (-07) (-24) 17 : 30 : 52 UTC
+  , issueCommentBody =
+      "The \"[Consistency guarantees](http://docs.rethinkdb.com/2.1/docs/consistency/)\" document in the upcoming 2.1 release addresses this -- certain *operations* are atomic, but whether or not a *query* is atomic gets more complicated. This document gets into the hows and whys, and gives some advice on how to keep queries atomic."
+  , issueCommentId = 124588424
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-29) 23 : 16 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144218126"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/906#issuecomment-144218126"
+  , issueCommentCreatedAt = 2015 (-09) (-29) 23 : 16 : 27 UTC
+  , issueCommentBody =
+      "The function form isn't particularly useful since `default` only catches non-existence errors (the original spec was more ambitions), but basically you can put whatever code you want in there, and if the function accepts an argument then we pass it the string text of the error message:\r\n\r\n```rb\r\nirb(main):7500:0> r(1).add(nil).default{|err| err}.run\r\n\"Expected type NUMBER but found NULL.\"\r\n```"
+  , issueCommentId = 144218126
+  }

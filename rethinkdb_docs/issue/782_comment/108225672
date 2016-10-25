@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-03) 07 : 19 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/108225672"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/782#issuecomment-108225672"
+  , issueCommentCreatedAt = 2015 (-06) (-03) 07 : 19 : 34 UTC
+  , issueCommentBody =
+      "@danielcompton -- that's accurate.  The global `db` optarg is only used if you write `r.table` instead of `r.db(...).table`.\r\n\r\nIn general I would strongly advise against running untrusted queries right now.  (After https://github.com/rethinkdb/rethinkdb/issues/218 or a similar issue gets in it will be a lot safer.)"
+  , issueCommentId = 108225672
+  }

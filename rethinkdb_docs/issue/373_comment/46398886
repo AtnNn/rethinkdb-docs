@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 06 : 00 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 19658
+        , simpleUserLogin = N "seratch"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/19658?v=3"
+        , simpleUserUrl = "https://api.github.com/users/seratch"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46398886"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/373#issuecomment-46398886"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 06 : 00 : 05 UTC
+  , issueCommentBody =
+      "I looked at the following page but the links also point unexpected URLs (as same as the markdown source).\r\n\r\nhttp://rethinkdb.com/faq/#what-are-the-main-differences-from-other-nosq\r\n"
+  , issueCommentId = 46398886
+  }

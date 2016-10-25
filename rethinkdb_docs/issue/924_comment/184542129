@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-16) 06 : 28 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 181337
+        , simpleUserLogin = N "pixelspark"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/181337?v=3"
+        , simpleUserUrl = "https://api.github.com/users/pixelspark"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/184542129"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/924#issuecomment-184542129"
+  , issueCommentCreatedAt = 2016 (-02) (-16) 06 : 28 : 29 UTC
+  , issueCommentBody =
+      "@danielmewes geospatial commands and optional arguments are indeed missing right now. I think  those can be added fairly easily. "
+  , issueCommentId = 184542129
+  }

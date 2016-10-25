@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 18 : 03 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63684437"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-63684437"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 18 : 03 : 09 UTC
+  , issueCommentBody =
+      "@ukd1 - Do you mean the server should start with a default config file and show that link? I'd like to reorganize this section of the documentation either way, but you might be suggesting a change to the server itself rather than the docs. Which is a great question, I just want to make sure it's actually what you're asking. :)"
+  , issueCommentId = 63684437
+  }

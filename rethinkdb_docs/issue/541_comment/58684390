@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-10) 17 : 01 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58684390"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-58684390"
+  , issueCommentCreatedAt = 2014 (-10) (-10) 17 : 01 : 29 UTC
+  , issueCommentBody =
+      "There's a first pass at this at in the issue-541-dash-docs branch (2c4ff53141be595d8b5c3d72a238cd649e1a927b). Right now that creates a `_dash` top-level directory with the script and support files, and creates the docsets in a `build` directory under that.\r\n\r\nAlso, right now this requires Pandoc to be installed (it'll warn you if it isn't; it's in Homebrew) and zsh (which comes installed on OS X), although we can probably abstract out the zsh-specific bits. (I suspect that's only the filename munging.)"
+  , issueCommentId = 58684390
+  }

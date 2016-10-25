@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-29) 20 : 09 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 9854
+        , simpleUserLogin = N "brandondrew"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/9854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/brandondrew"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/64963656"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/589#issuecomment-64963656"
+  , issueCommentCreatedAt = 2014 (-11) (-29) 20 : 09 : 51 UTC
+  , issueCommentBody = "See #588 "
+  , issueCommentId = 64963656
+  }

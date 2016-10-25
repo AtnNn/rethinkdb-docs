@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 22 : 39 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96084685"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-96084685"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 22 : 31 : 16 UTC
+  , issueCommentBody =
+      "On the subject of compound indexes: are you saying there's nothing special about compound indexes, in terms of how they're implemented and what perf characteristics they have, versus any other ReQL expression (except that more complex ReQL expressions may take longer to evaluate by virtue of being more complex)?\r\n\r\nIf so, I'd say they shouldn't have their own heading in the secondary index docs - at least, not where they are right now, where they come between simple indexes and multi indexes (and *separate* from the section on expressions). They should be listed as an example of \"a common case of defining an index by an expression\", possibly as the lead-in into the section on more complicated expressions. \r\n\r\nThe notion of array equivalence (when an index is not defined as `multi`) should probably be raised as an example within the section on simple indexes, as this is another feature that can be counter-intuitive, if starting from a language-semantics (JavaScript) mindset (where `['a','b','c'] != ['a','b','c']`). I think this would work well near the end of the section, acting as a lead-in to the contrasting `multi` behavior (so, kind of like it is now, except using a field with array values rather than a ReQL expression, so as to provide a gentler learning curve for the later section on expression-based indexes).\r\n\r\nAlso, from what I've gleaned from the docs and this discussion, I can't answer the question of which index expression I'd be better off using, the default-null-for-missing-fields version or the branch-to-use-different-length-arrays version. Is one going to have significantly better perf characteristics?"
+  , issueCommentId = 96084685
+  }

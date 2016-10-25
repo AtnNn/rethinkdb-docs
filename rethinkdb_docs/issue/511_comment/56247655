@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-19) 23 : 17 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/56247655"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/511#issuecomment-56247655"
+  , issueCommentCreatedAt = 2014 (-09) (-19) 23 : 17 : 10 UTC
+  , issueCommentBody =
+      "Hum, I paste the whole thing instead of just a query.\r\n\r\nThis is the relevant part:\r\n\r\n```\r\n            r.table(\"aggregated\").get(r.expr(change.new_val.date).date()).replace(function(doc) {\r\n                return doc.default({id: r.expr(change.new_val.date).date(), count: 0}).merge(function(valid_doc) { // if the doc doesn't exist, we replace it using `default`\r\n                    return {count: valid_doc(\"count\").add(1) } // increment `count`\r\n                })\r\n            }).run().error(console.log)\r\n```\r\n\r\nI would put it in the cookbook.\r\n\r\nThe use case is you want to increment a counter, and set it to 0 if it doesn't exist.\r\nThe gist I wrote was to keep some aggregated results of some raw data."
+  , issueCommentId = 56247655
+  }

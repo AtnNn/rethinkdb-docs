@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-07) 16 : 32 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1051644
+        , simpleUserLogin = N "mkautzmann"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1051644?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mkautzmann"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/231134030"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-231134030"
+  , issueCommentCreatedAt = 2016 (-07) (-07) 16 : 32 : 36 UTC
+  , issueCommentBody =
+      "Is this issue still up? I'm a Dash user too and I would really appreciate the effort to put the docs officially on Dash. RethinkDB is the last piece of my stack that isn't on Dash yet.\r\n\r\nGreat work on the docs though. It is really easy to get started with RethinkDB."
+  , issueCommentId = 231134030
+  }

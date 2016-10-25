@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-15) 02 : 18 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59148995"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/394#issuecomment-59148995"
+  , issueCommentCreatedAt = 2014 (-10) (-15) 02 : 18 : 36 UTC
+  , issueCommentBody =
+      "I think this would become a lot more powerful in combination with https://github.com/rethinkdb/rethinkdb/issues/2953 .\r\nIt might make sense to wait with this until we have persistent/fault-tolerant change feeds."
+  , issueCommentId = 59148995
+  }

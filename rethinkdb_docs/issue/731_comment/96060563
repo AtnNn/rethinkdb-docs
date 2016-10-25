@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 20 : 46 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96060563"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-96060563"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 20 : 46 : 57 UTC
+  , issueCommentBody =
+      "@stuartpb you can deduce the behavior of the query under those functions as follows:\r\n\r\n1. The document `jar` in the `posts` table will now be indexed under this value:\r\n`['abc123', null]`\r\n\r\n2. During the join, the document `jar7` from the `watchers` table will lead to a lookup of the key `['abc123', null]`. `eq_join` does an equality lookup, so it will match exactly the document `jar` and none of the others, since `['abc123', null] = ['abc123', null]` but not for example `['abc123', null] = ['abc123', specificco]`. There really is no magic to this. Arrays are equal if they are the same length and all of their elements are equal. `null` is just a value like any other, and since it's inside of an array here it isn't affected by #1032. Incidentally, that is why we want to fix #1032, since secondary indexes currently break that rule by making `null` special which is bad and confusing.\r\n"
+  , issueCommentId = 96060563
+  }

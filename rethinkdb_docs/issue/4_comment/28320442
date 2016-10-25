@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-12) 18 : 39 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28320442"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/4#issuecomment-28320442"
+  , issueCommentCreatedAt = 2013 (-11) (-12) 18 : 39 : 37 UTC
+  , issueCommentBody =
+      "Another problem with `make install` is that it installs some scripts that have hardcoded paths. "
+  , issueCommentId = 28320442
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-24) 01 : 18 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46921979"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-46921979"
+  , issueCommentCreatedAt = 2014 (-06) (-24) 01 : 18 : 16 UTC
+  , issueCommentBody =
+      "> It's pretty long to be an entry in the troubleshooting document, which is why I figured it would be a separate document.\r\n\r\n> I thought we would have it on a page of its own, but have a link on the Troubleshooting page.\8206\r\n\r\nAh, that makes sense to me. I wouldn't add a specific \"Memory consumption\" link to the docs navbar on the right, unless it's a more general \"Limitations\" document."
+  , issueCommentId = 46921979
+  }

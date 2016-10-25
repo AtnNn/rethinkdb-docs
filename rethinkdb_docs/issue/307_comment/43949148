@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 21 : 56 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43949148"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/307#issuecomment-43949148"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 21 : 56 : 14 UTC
+  , issueCommentBody =
+      "> It's important that filter preserves the `selection` property.\r\n\r\nNormally when we say `sequence.fn() -> sequence` in the docs, it means that it will return exactly the same type as what the command was called on. So if you call it on a selection, you get a selection back. At least that's the notation I've always been assuming."
+  , issueCommentId = 43949148
+  }

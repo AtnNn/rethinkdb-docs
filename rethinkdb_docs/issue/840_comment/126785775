@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-31) 19 : 01 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/126785775"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/840#issuecomment-126785775"
+  , issueCommentCreatedAt = 2015 (-07) (-31) 19 : 01 : 18 UTC
+  , issueCommentBody =
+      "(... and also mentioning that this can be done with the primary index as well, not just with secondary indexes)"
+  , issueCommentId = 126785775
+  }

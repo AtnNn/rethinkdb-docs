@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-24) 00 : 00 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46917322"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/289#issuecomment-46917322"
+  , issueCommentCreatedAt = 2014 (-06) (-24) 00 : 00 : 08 UTC
+  , issueCommentBody = "Will be pushed in next www update."
+  , issueCommentId = 46917322
+  }

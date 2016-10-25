@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 22 : 22 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52708092"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52708092"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 22 : 22 : 20 UTC
+  , issueCommentBody =
+      "@Tryneus: If we did want to do this, we'd probably do it at compile-time in `binary_term_t`s constructor (we'd look at the source code for its arguments and add the `binary` optarg to `http` calls).  `eval_flags_t` is evil and needs to die."
+  , issueCommentId = 52708092
+  }

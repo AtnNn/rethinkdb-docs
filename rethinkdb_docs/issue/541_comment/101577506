@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-13) 08 : 48 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3856600
+        , simpleUserLogin = N "gamesbrainiac"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/3856600?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gamesbrainiac"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/101577506"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-101577506"
+  , issueCommentCreatedAt = 2015 (-05) (-13) 08 : 48 : 07 UTC
+  , issueCommentBody = "+1 this would be awesome to have."
+  , issueCommentId = 101577506
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 17 : 52 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44562306"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/144#issuecomment-44562306"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 17 : 52 : 59 UTC
+  , issueCommentBody = "Closing as duplicate of #146 "
+  , issueCommentId = 44562306
+  }

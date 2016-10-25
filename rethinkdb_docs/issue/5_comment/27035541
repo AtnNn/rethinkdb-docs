@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-24) 22 : 04 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27035541"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/5#issuecomment-27035541"
+  , issueCommentCreatedAt = 2013 (-10) (-24) 22 : 04 : 30 UTC
+  , issueCommentBody =
+      "I just tried again on raring\r\n\r\nLess 1.4.0 requires node >= 0.8.0 so all versions of Ubuntu should have to upgrade node.\r\n\r\nI'm checking older distributions to make sure that we require everyone to update node."
+  , issueCommentId = 27035541
+  }

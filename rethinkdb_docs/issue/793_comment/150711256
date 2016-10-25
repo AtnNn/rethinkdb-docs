@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-23) 22 : 57 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7118680
+        , simpleUserLogin = N "ahruygt"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7118680?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahruygt"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/150711256"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/793#issuecomment-150711256"
+  , issueCommentCreatedAt = 2015 (-10) (-23) 22 : 57 : 03 UTC
+  , issueCommentBody =
+      "@mglukhovsky I believe this PR is ready to go. Some of the old illustrations are still on the site- I have only updated a good amount of them with a new *style*.    The older versions are mostly deeper in the api documentation."
+  , issueCommentId = 150711256
+  }

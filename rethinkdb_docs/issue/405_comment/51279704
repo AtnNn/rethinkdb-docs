@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 00 : 24 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51279704"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/405#issuecomment-51279704"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 00 : 24 : 54 UTC
+  , issueCommentBody =
+      "I think we need a new type in our type system.  `between` should return something halfway between a table and a selection (I've proposed TABLE_SLICE in the past).  So `between` currently can take a table and return a \"table\", but the second table isn't quite the same as most tables (e.g. you can't call `between` on it again).  So there's really no good way to document this right now; I would continue to lie and say that `between` returns a selection in the docs, and mention that an indexed `order_by` can be chained after a `between` as a special case."
+  , issueCommentId = 51279704
+  }

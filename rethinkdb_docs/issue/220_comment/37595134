@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 22 : 32 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37595134"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/220#issuecomment-37595134"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 22 : 32 : 10 UTC
+  , issueCommentBody =
+      "FWIW, I'm a fan of the prompt / response style.\r\n\r\nAdding the \"Response\" text increases the visual distance between the code and the result, and separating them makes it feel like there are 2x more code samples (makes it seem more intimidating visually)."
+  , issueCommentId = 37595134
+  }

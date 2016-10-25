@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-21) 21 : 11 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7118680
+        , simpleUserLogin = N "ahruygt"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7118680?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahruygt"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/150025399"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/793#issuecomment-150025399"
+  , issueCommentCreatedAt = 2015 (-10) (-21) 21 : 11 : 14 UTC
+  , issueCommentBody =
+      "Great!  I'll harass @mglukhovsky if I don't hear anything ;)  Thank you, Watts."
+  , issueCommentId = 150025399
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-26) 04 : 50 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 8921895
+        , simpleUserLogin = N "ha1331"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/8921895?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ha1331"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/242629789"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1170#issuecomment-242629789"
+  , issueCommentCreatedAt = 2016 (-08) (-26) 04 : 50 : 49 UTC
+  , issueCommentBody =
+      "@chipotle huh? I started looking at random position and stopped after these:\r\n`filter` has selection, stream, array http://rethinkdb.com/api/javascript/#filter\r\n`innerJoin` & `outerJoin` has sequence and array http://rethinkdb.com/api/javascript/#inner_join\r\n`map` has sequence1, array1, r.map http://rethinkdb.com/api/javascript/#map\r\n`skip` & `limit` has sequence and array http://rethinkdb.com/api/javascript/#skip\r\n\r\nTho I don't really mind. I was coming from the perspective of new users who might be confused about sequences in the first place, seeing how we usually talk about them and mean the stuff that comes from the table and the fact that some functions specify them and then this one doesn't. I kind of would read that as \"doesn't seem to work with arrays\"."
+  , issueCommentId = 242629789
+  }

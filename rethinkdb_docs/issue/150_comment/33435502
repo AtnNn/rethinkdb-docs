@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-27) 23 : 24 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33435502"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/150#issuecomment-33435502"
+  , issueCommentCreatedAt = 2014 (-01) (-27) 23 : 24 : 35 UTC
+  , issueCommentBody =
+      "@atnnn, I'm not really familiar with OSX. Should we merge this?\r\n\r\n@vinceprignano , could you sign our CLA (http://rethinkdb.com/community/cla), so we can get the ball rolling. Thanks for your pull request!"
+  , issueCommentId = 33435502
+  }

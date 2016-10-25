@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-28) 22 : 48 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27264459"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/55#issuecomment-27264459"
+  , issueCommentCreatedAt = 2013 (-10) (-28) 22 : 48 : 15 UTC
+  , issueCommentBody =
+      "Few things about this page:\r\n- You need to change the owner of `rethinkdb_data`\r\n- We don't mention the canonical address argument (which is useful)"
+  , issueCommentId = 27264459
+  }

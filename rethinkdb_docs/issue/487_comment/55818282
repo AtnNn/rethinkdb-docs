@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-16) 21 : 42 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55818282"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/487#issuecomment-55818282"
+  , issueCommentCreatedAt = 2014 (-09) (-16) 21 : 42 : 53 UTC
+  , issueCommentBody =
+      "Browsers should show a message when trying to log in. The message currently says\r\n\r\n> Log in as user rethinkdb with your chosen password\r\n\r\nIt is defined in [packaging/ami/build-ami-files/nginx.conf](https://github.com/rethinkdb/rethinkdb/blob/next/packaging/ami/build-ami-files/nginx.conf). The other files in that folder contain the setup scripts and the wizard."
+  , issueCommentId = 55818282
+  }

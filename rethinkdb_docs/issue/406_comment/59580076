@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-17) 21 : 38 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 44855
+        , simpleUserLogin = N "chrisvariety"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44855?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chrisvariety"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59580076"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/406#issuecomment-59580076"
+  , issueCommentCreatedAt = 2014 (-10) (-17) 21 : 38 : 34 UTC
+  , issueCommentBody =
+      ":+1: This would be super.\r\n\r\nSwiftype is a popular service for adding this functionality: https://swiftype.com/\r\n\r\nThey power Ember.JS search and a bunch of other projects: http://emberjs.com/ (top right)\r\n\r\nThey offer free plans for OSS."
+  , issueCommentId = 59580076
+  }

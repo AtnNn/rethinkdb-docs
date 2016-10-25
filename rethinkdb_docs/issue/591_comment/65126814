@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-01) 20 : 12 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 44855
+        , simpleUserLogin = N "chrisvariety"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44855?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chrisvariety"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65126814"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/591#issuecomment-65126814"
+  , issueCommentCreatedAt = 2014 (-12) (-01) 20 : 12 : 40 UTC
+  , issueCommentBody =
+      "This blog post shows up via google (first result for \"rethinkdb upsert\"), and I'd say it is not obvious that it is a blog post: http://www.rethinkdb.com/blog/answers-to-common-questions/ \r\n\r\nHas a lot of other very outdated info as well. Might be good to either kill the blog post entirely or add a warning somewhere that it is outdated or update the blog post."
+  , issueCommentId = 65126814
+  }

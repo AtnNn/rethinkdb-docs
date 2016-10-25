@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-18) 23 : 05 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/83219452"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/678#issuecomment-83219452"
+  , issueCommentCreatedAt = 2015 (-03) (-18) 23 : 05 : 36 UTC
+  , issueCommentBody =
+      "Since you opened #682 with the changes from @danielmewes I'm closing this pull request, and using the other one."
+  , issueCommentId = 83219452
+  }

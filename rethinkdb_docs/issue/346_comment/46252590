@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-16) 23 : 55 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46252590"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/346#issuecomment-46252590"
+  , issueCommentCreatedAt = 2014 (-06) (-16) 23 : 55 : 58 UTC
+  , issueCommentBody = "Closing in favor of #361."
+  , issueCommentId = 46252590
+  }

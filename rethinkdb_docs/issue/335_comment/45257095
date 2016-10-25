@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-05) 18 : 34 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45257095"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/335#issuecomment-45257095"
+  , issueCommentCreatedAt = 2014 (-06) (-05) 18 : 34 : 43 UTC
+  , issueCommentBody = "Made the `fetch` change."
+  , issueCommentId = 45257095
+  }

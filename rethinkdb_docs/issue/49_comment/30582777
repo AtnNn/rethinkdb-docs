@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-14) 18 : 31 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30582777"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/49#issuecomment-30582777"
+  , issueCommentCreatedAt = 2013 (-12) (-14) 18 : 31 : 46 UTC
+  , issueCommentBody =
+      "We have some docs about how to insert native dates with python on the dates and times pages\r\nhttp://www.rethinkdb.com/docs/dates-and-times/ (at the bottom)\r\n\r\n"
+  , issueCommentId = 30582777
+  }

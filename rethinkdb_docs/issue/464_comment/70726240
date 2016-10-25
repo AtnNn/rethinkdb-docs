@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-20) 20 : 25 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70726240"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-70726240"
+  , issueCommentCreatedAt = 2015 (-01) (-20) 20 : 25 : 26 UTC
+  , issueCommentBody =
+      "This covers everything that I knew of as of Thursday, 1/15 -- please open new doc tickets for anything that's missing and/or changed since then. (For instance, the `jobs` table isn't documented yet, but I'm not sure that it's finished yet, as rethinkdb/rethinkdb#3115 is still open.)"
+  , issueCommentId = 70726240
+  }

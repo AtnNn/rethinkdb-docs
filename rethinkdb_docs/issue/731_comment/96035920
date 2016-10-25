@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 18 : 57 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96035920"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-96035920"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 18 : 57 : 49 UTC
+  , issueCommentBody =
+      "@stuartpb \r\n> And then I run a join on this compound index:\r\n> \r\n> `r.table('watchers').join([r.row('foreignArticleId'),r.row('foreignCommentId')],'posts',{index:'location'})`\r\n> \r\n> for jar7, will this join just join jar, or will it join jar and baz? \r\n\r\nIt will join nothing for `jar7` because the join function errors on that document and so it cannot determine its join key.\r\nFor a similar reason, `jar` can actually never be joined with anything because it will not appear in the secondary index since the secondary index function cannot be evaluated on it. You have to use `default` in the secondary index function if you want to handle missing fields and index those documents in a different way instead."
+  , issueCommentId = 96035920
+  }

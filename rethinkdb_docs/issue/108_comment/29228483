@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-25) 18 : 34 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29228483"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/108#issuecomment-29228483"
+  , issueCommentCreatedAt = 2013 (-11) (-25) 18 : 34 : 31 UTC
+  , issueCommentBody = "Looks good to me."
+  , issueCommentId = 29228483
+  }

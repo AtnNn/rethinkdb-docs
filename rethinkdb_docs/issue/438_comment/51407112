@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 22 : 34 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51407112"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/438#issuecomment-51407112"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 22 : 34 : 42 UTC
+  , issueCommentBody =
+      "I don't feel that this is my domain. I will do one style in the testing framework, but don't feel that we necessarily have to match the testing framework to our published examples."
+  , issueCommentId = 51407112
+  }

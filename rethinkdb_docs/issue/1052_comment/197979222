@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-17) 17 : 12 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/197979222"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1052#issuecomment-197979222"
+  , issueCommentCreatedAt = 2016 (-03) (-17) 17 : 12 : 13 UTC
+  , issueCommentBody =
+      "Thanks for signing the CLA! And, yes, I think the first `arenas` should be `players` there; I'll make that change as well."
+  , issueCommentId = 197979222
+  }

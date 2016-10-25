@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-13) 18 : 35 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/92454692"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/694#issuecomment-92454692"
+  , issueCommentCreatedAt = 2015 (-04) (-13) 18 : 35 : 08 UTC
+  , issueCommentBody =
+      "This sounds more like a cookbook recipe than an additional example for the `replace` command."
+  , issueCommentId = 92454692
+  }

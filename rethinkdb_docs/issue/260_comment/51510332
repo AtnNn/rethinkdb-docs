@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-07) 18 : 15 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51510332"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/260#issuecomment-51510332"
+  , issueCommentCreatedAt = 2014 (-08) (-07) 18 : 15 : 09 UTC
+  , issueCommentBody =
+      "I'm putting this in the 1.14 milestone so I'm working with the updated migration document."
+  , issueCommentId = 51510332
+  }

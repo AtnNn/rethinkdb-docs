@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-08) 19 : 23 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/91010991"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/704#issuecomment-91010991"
+  , issueCommentCreatedAt = 2015 (-04) (-08) 19 : 23 : 43 UTC
+  , issueCommentBody =
+      "Thank you for your pull request @babo.\r\n@chipotle can you take a look at his patch? @babo has already signed the CLA."
+  , issueCommentId = 91010991
+  }

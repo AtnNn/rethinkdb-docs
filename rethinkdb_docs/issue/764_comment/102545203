@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-15) 23 : 11 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/102545203"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/764#issuecomment-102545203"
+  , issueCommentCreatedAt = 2015 (-05) (-15) 23 : 11 : 44 UTC
+  , issueCommentBody =
+      "Actually, it looks like that paragraph should have been deleted in favor of\nthe (relatively new) paragraph immediately above it which ends \"Users\ncannot set shard points manually.\"\n\nOn Fri, May 15, 2015 at 3:48 PM, Daniel Mewes <notifications@github.com>\nwrote:\n\n> You are correct. We need to update the FAQ (pinging @chipotle\n> <https://github.com/chipotle>).\n>\n> \8212\n> Reply to this email directly or view it on GitHub\n> <https://github.com/rethinkdb/docs/issues/764#issuecomment-102542451>.\n>\n"
+  , issueCommentId = 102545203
+  }

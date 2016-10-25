@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 00 : 06 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46381636"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/368#issuecomment-46381636"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 00 : 06 : 51 UTC
+  , issueCommentBody =
+      "Addressed in ae833563390be19704f25008e25f71b16563a708 -- it will hopefully be more clear until 1.14 gets here."
+  , issueCommentId = 46381636
+  }

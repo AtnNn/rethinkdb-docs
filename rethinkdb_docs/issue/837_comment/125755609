@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-28) 21 : 13 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/125755609"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/837#issuecomment-125755609"
+  , issueCommentCreatedAt = 2015 (-07) (-28) 21 : 13 : 06 UTC
+  , issueCommentBody =
+      "No -- the images have been copied, so the old links will still work. I think one of the images can be deleted safely from the www/ repository, but I'll test that separately. (The other one is used in a blog post, so I'd planed to just leave the second copy alone.)"
+  , issueCommentId = 125755609
+  }

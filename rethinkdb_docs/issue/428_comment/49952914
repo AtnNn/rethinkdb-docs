@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-24) 00 : 09 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49952914"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/428#issuecomment-49952914"
+  , issueCommentCreatedAt = 2014 (-07) (-24) 00 : 09 : 43 UTC
+  , issueCommentBody =
+      "We used to create branches for docs for new versions (e.g. a branch named 1.14), and then we would merge it into master when it was released. I think that's still true. We could do the same for minor releases -- this could be merged into a branch named 1.13.4. Does that work?"
+  , issueCommentId = 49952914
+  }

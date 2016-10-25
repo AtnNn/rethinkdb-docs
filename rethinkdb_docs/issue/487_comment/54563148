@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-05) 00 : 12 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/54563148"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/487#issuecomment-54563148"
+  , issueCommentCreatedAt = 2014 (-09) (-05) 00 : 12 : 50 UTC
+  , issueCommentBody =
+      "However I noticed that the instructions are very terse. It might help to rewrite them."
+  , issueCommentId = 54563148
+  }

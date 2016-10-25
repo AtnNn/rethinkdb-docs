@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-16) 22 : 27 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43386072"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/297#issuecomment-43386072"
+  , issueCommentCreatedAt = 2014 (-05) (-16) 22 : 27 : 43 UTC
+  , issueCommentBody =
+      "> I would expect `r.do` should take at least two arguments.\r\n\r\nThat sounds reasonable. Let's see what @mlucy has to say in case we missed something.\r\n\r\n> And I would expect `r.expr(1).do(r.expr(1))` to throw an error because the first argument of `do` is not a function.\r\n\r\nI disagree. Being able to say `x.do(1)` is really nice in case you just want to get a constant back. We plan to support a similar syntax in `map` (e.g. `x.map(1)`), so I'd keep it in `do`."
+  , issueCommentId = 43386072
+  }

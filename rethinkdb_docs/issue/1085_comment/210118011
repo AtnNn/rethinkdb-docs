@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-14) 19 : 45 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/210118011"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1085#issuecomment-210118011"
+  , issueCommentCreatedAt = 2016 (-04) (-14) 19 : 45 : 13 UTC
+  , issueCommentBody =
+      "Yep, that's the problem -- we have a custom `{% apibody %}` Jekyll tag we use in the API pages that _does_ handle HTML entities, but that block isn't styled correctly when I use it here. I'll just stick to the code block but use the actual Unicode character \"\8594\" there. (It's not the first place in the docs there's a Unicode character rather than an entity code, so there's precedence...)"
+  , issueCommentId = 210118011
+  }

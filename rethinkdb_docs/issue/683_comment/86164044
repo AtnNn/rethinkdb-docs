@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 18 : 41 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/86164044"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/683#issuecomment-86164044"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 18 : 41 : 25 UTC
+  , issueCommentBody = "Ah right @Tryneus, updated the snippet."
+  , issueCommentId = 86164044
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-21) 23 : 53 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43831462"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/294#issuecomment-43831462"
+  , issueCommentCreatedAt = 2014 (-05) (-21) 23 : 53 : 08 UTC
+  , issueCommentBody =
+      "I'm not sure what the rationale is for having two signatures, one that takes an array and one that takes a sequence; according to the data type docs I can find (rethinkdb/rethinkdb#1337), an array is a kind of sequence, right? I'm wondering how this has been handled in documentation so far -- that description of the data types suggests that any command that takes a sequence takes an array. (Or a stream, or a selection.)\r\n\r\nThe command seems to return a stream, not a sequence, based on r.typeOf() output.\r\n\r\nI wanted to make the description a little bit clearer, and came up with:\r\n\r\n> Concatenate one or more sequences or arrays into a single sequence using a mapping function. This works in a similar fashion as `map`, but each element of the sequence the mapping function is applied to is itself a sequence rather than a single value.\r\n\r\nThis appears to be right for the one example I tried it with.\r\n\r\nIs concatMap still up for renaming as was mentioned in rethinkdb/rethinkdb#334 or has it been deemed an acceptable name? :)"
+  , issueCommentId = 43831462
+  }

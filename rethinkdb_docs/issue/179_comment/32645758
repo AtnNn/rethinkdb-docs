@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-17) 21 : 00 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/32645758"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/179#issuecomment-32645758"
+  , issueCommentCreatedAt = 2014 (-01) (-17) 21 : 00 : 00 UTC
+  , issueCommentBody =
+      "The output could be an array if there are capture groups, FYI."
+  , issueCommentId = 32645758
+  }

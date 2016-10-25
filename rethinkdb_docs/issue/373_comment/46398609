@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 05 : 53 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46398609"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/373#issuecomment-46398609"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 05 : 53 : 53 UTC
+  , issueCommentBody =
+      "Those links don't work when you're looking at Github's rendered Markdown source, but they are actually correct when the documentation site is built -- look at the actual web site at <http://rethinkdb.com/faq/>."
+  , issueCommentId = 46398609
+  }

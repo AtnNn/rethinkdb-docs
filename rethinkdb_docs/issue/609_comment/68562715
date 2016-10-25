@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-02) 21 : 11 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/68562715"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/609#issuecomment-68562715"
+  , issueCommentCreatedAt = 2015 (-01) (-02) 21 : 11 : 54 UTC
+  , issueCommentBody =
+      "Just noticed that we currently document the `or` non-existence question in our \"Troubleshooting\" article http://www.rethinkdb.com/docs/troubleshooting/#filters-with-or-return-incorrect/unexpected-r\r\n\r\nIt still should be included in the `filter` docs I think."
+  , issueCommentId = 68562715
+  }

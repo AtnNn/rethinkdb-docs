@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-13) 15 : 24 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52063928"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/457#issuecomment-52063928"
+  , issueCommentCreatedAt = 2014 (-08) (-13) 15 : 24 : 59 UTC
+  , issueCommentBody =
+      "If I just manually run that version on BuildBot would that work?\r\n\r\nSent from my iPhone\r\n\r\n> On Aug 12, 2014, at 6:40 PM, Michael Glukhovsky <notifications@github.com> wrote:\r\n> \r\n> Could we get a server up to take a look at this? buildbot skipped this branch.\r\n> \r\n> \8212\r\n> Reply to this email directly or view it on GitHub."
+  , issueCommentId = 52063928
+  }

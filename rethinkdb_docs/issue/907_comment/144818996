@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-01) 19 : 08 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144818996"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/907#issuecomment-144818996"
+  , issueCommentCreatedAt = 2015 (-10) (-01) 19 : 08 : 04 UTC
+  , issueCommentBody =
+      "How should we reflect this in a signature? `between` doesn't work on selections:\r\n\r\n```\r\nr.table('players').filter({course_handicap: 4}).between(100,102)\r\n\r\ne: Expected type TABLE_SLICE but found SELECTION:\r\nSELECTION ON table(players) in:\r\nr.table(\"players\").filter({course_handicap: 4}).between(100, 102)\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                  \r\n```\r\n\r\n(I've never even heard of `TABLE_SLICE` before, and it's not documented anywhere.)"
+  , issueCommentId = 144818996
+  }

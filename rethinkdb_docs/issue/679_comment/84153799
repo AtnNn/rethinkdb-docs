@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-20) 21 : 31 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/84153799"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/679#issuecomment-84153799"
+  , issueCommentCreatedAt = 2015 (-03) (-20) 21 : 31 : 28 UTC
+  , issueCommentBody =
+      "Okay, I think maybe that's the key that was missing: if you *don't* specify `non_atomic` on a query that's non-deterministic, RethinkDB will raise an error."
+  , issueCommentId = 84153799
+  }

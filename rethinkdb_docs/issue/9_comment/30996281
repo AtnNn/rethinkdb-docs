@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-20) 08 : 51 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5938143
+        , simpleUserLogin = N "or-else"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5938143?v=3"
+        , simpleUserUrl = "https://api.github.com/users/or-else"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30996281"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-30996281"
+  , issueCommentCreatedAt = 2013 (-12) (-20) 08 : 51 : 32 UTC
+  , issueCommentBody =
+      "Slava, thank you for the quick response. \r\n\r\nLet me clarify what I'm trying to figure out. Suppose I have 1000 customers, each customer has 5-100 document categories/tables, 20 on average. The data has to be isolated. I see two ways of isolating it with RethinkDB: \r\n\r\n* one Rethink instance per customer\r\nI believe this scenario is possible. On the downside it seems to be hard operationally: management of 1K instances is a substantial task, particularly considering that most of the instances will see low level of activity but will consume resources anyway. The frontend with business logic has to be instantiated per client too otherwise connection pooling will become a big problem.\r\n\r\n* single cluster with one db per customer.\r\nThis scenario seems a lot more attractive: better use or resources, easier administration. But apparently it's not possible right now.\r\n\r\n> I don't know off the top of my head what the number is, but it's probably < 1000 tables for now\r\n\r\nIs it per db or per cluster?\r\nWhat ops exactly do you have in mind when you say \"has a linear effect on some operations\"? Latency of CRUD ops? Latency of table creation/deletion?"
+  , issueCommentId = 30996281
+  }

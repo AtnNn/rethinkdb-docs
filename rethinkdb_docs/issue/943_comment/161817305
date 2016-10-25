@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-03) 23 : 04 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/161817305"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/943#issuecomment-161817305"
+  , issueCommentCreatedAt = 2015 (-12) (-03) 23 : 04 : 13 UTC
+  , issueCommentBody =
+      "I poked at this slightly, but didn't have time to finish it. I'm pasting a partial config here so it won't get lost:\r\n\r\n```\r\n\r\ninput {\r\n    rethinkdb {\r\n        host => \"localhost\"\r\n        port => 28015\r\n        auth_key => \"\"\r\n        watch_dbs => [\"db1\", \"db2\"]\r\n        watch_tables => [\"test.foo\", \"db2.baz\"]\r\n        backfill => true\r\n    }\r\n}\r\n\r\nfilter {\r\n    mutate {rename => { \"[db]\" => \"[@metadata][index]\"\r\n                        \"[table]\" => \"[@metadata][document_type]\"\r\n            dro\r\n           }\r\n    if new_val == null and old_val != null {\r\n        mutate {\r\n            replace => { \"\r\n            add_field => { \"[@metadata][action]\" => \"delete\"\r\n                           \"[@metadata][id]      => \"%{[old_val][id]}\"\r\n                         }\r\n        }\r\n    } else if new_val != null and old_val != null {\r\n        drop { add_field => {\r\n                       \"[@metadata][action]\" => \"update\"\r\n                       \"[@metadata][id]      => \"%{[new_val][id]}\" }\r\n        }\r\n    } else if new_val != null and old_val == null {\r\n        drop { add_field => {\r\n                       \"[@metadata][action]\" => \"index\"\r\n                       \"[@metadata][id]      => \"%{[new_val][id]}\" }\r\n        }\r\n    } else {\r\n        drop { }\r\n    }\r\n}\r\n\r\noutput {\r\n    elasticsearch {\r\n        hosts => [\"localhost:9200\"]\r\n        action => \"%{[@metadata][action]}\"\r\n        id => \"%{[@metadata][id]}\"\r\n        index => \"%{[@metadata][index]}\"\r\n        document_type => \"%{[@metadata][document_type]}\"\r\n    }\r\n}\r\n```"
+  , issueCommentId = 161817305
+  }

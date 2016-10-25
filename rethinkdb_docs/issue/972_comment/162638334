@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-07) 19 : 46 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/162638334"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/972#issuecomment-162638334"
+  , issueCommentCreatedAt = 2015 (-12) (-07) 19 : 46 : 26 UTC
+  , issueCommentBody =
+      "Hmm somehow my search filter didn't find the ones in the other languages. Thanks for double-checking and fixing those too!"
+  , issueCommentId = 162638334
+  }

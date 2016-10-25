@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 19 : 51 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44576570"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-44576570"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 19 : 51 : 32 UTC
+  , issueCommentBody =
+      "I still think we need a page on resource requirements, but for a different reason now. Before people had to specify memory limits manually which was terrible. Now that this problem is gone, people still wonder -- how much disk space do things take, how much RAM overheard, etc. I think it would make a lot of difference if we had an honest page describing these overheads to people and may be some best practices. I can open another issue for it and close this one if you'd like, but I think this basically captures what we need."
+  , issueCommentId = 44576570
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-15) 18 : 04 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 17579
+        , simpleUserLogin = N "Thibaut"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17579?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Thibaut"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63181588"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/578#issuecomment-63181588"
+  , issueCommentCreatedAt = 2014 (-11) (-15) 18 : 04 : 36 UTC
+  , issueCommentBody =
+      "Hey guys\r\n\r\nI'd be happy to add RethinkDB's documentation to DevDocs. The CC BY-SA license is perfect.\r\n\r\n> We might also have to do some format conversion on the API docs for DevDocs\r\n\r\nThe build process isn't standardized (yet). At the moment DevDocs is just a collection of scrapers that I maintain and update on a regular basis. Since your docs have good markup, headings, and URLs, it shouldn't be too hard to add them.\r\n\r\n> and we should check that we're able to efficiently maintain our docs there when we release updates.\r\n\r\nI do a batch of updates every week-end. If the markup of the source doesn't change significantly it takes just one command to update the docs.\r\n\r\nLet me know if you want me to create the scraper (a [donation](https://gratipay.com/Thibaut/) is appreciated but not required ;))."
+  , issueCommentId = 63181588
+  }

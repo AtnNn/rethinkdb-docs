@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-29) 18 : 18 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/116782601"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/796#issuecomment-116782601"
+  , issueCommentCreatedAt = 2015 (-06) (-29) 18 : 18 : 26 UTC
+  , issueCommentBody =
+      "Thanks -- I'm updating the request with the move and a change to the author list, as well as replacing our \"we have no logo\" placeholder with the actual Elixir logo. :)"
+  , issueCommentId = 116782601
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-07) 20 : 58 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/162660294"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/955#issuecomment-162660294"
+  , issueCommentCreatedAt = 2015 (-12) (-07) 20 : 58 : 18 UTC
+  , issueCommentBody =
+      "I think the sentences are ok, but I think changing the argument names in the API signatures is a good idea.\r\nWhen scanning over the API signatures in the API index, users might not immediately realize that these commands are about arrays, rather than secondary indexes."
+  , issueCommentId = 162660294
+  }

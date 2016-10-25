@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 21 : 59 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43949419"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/307#issuecomment-43949419"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 21 : 59 : 12 UTC
+  , issueCommentBody =
+      "I don't think we've actually been doing that.  I would bet there are a lot of places in the docs where we write `sequence.fn() -> sequence` where `fn` doesn't preserve selections.  (Also, that would still be incorrect because a table is a type of sequence and `table.filter` doesn't return a table, it returns a selection.)\r\n\r\nIn my mind table degrades to selection degrades to stream degrades to sequence, and array degrades to sequence.  So `selection -> selection` means \"a selection or a table will return a selection\", while `stream -> stream` means \"a stream, selection, or table will return a stream\", and `sequence -> sequence` means \"a stream, selection, or table will return a stream, while an array will return an array\"."
+  , issueCommentId = 43949419
+  }

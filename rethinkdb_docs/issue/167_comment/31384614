@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-31) 05 : 31 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31384614"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/167#issuecomment-31384614"
+  , issueCommentCreatedAt = 2013 (-12) (-31) 05 : 31 : 21 UTC
+  , issueCommentBody =
+      "Ok, merged. It'll be on rethinkdb.com next time someone pushes the site (I can't do it from here)."
+  , issueCommentId = 31384614
+  }

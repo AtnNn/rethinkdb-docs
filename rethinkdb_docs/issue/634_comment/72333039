@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-31) 19 : 46 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/72333039"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/634#issuecomment-72333039"
+  , issueCommentCreatedAt = 2015 (-01) (-31) 19 : 46 : 52 UTC
+  , issueCommentBody =
+      "Actually, the `tableCreate` index entry is just wrong. I've been using a style of just including the first paragraph of a command description in the index along with a quick example, and leaving the options on the command's detail page you get to with \"read more\"; I didn't notice this one still had the whole bullet point list of options in the index I'd be inclined to just remove everything between \"...a collection of JSON documents\" and the example.\r\n\r\nThere aren't any other mentions of datacenters on the index, but the phrase occurs in a few other places: architecture, both comparison documents, and the intro to ReQL page. It's talking about them in the abstract rather than the now-gone `datacenter` option, but it's possible some of them should be rephrased."
+  , issueCommentId = 72333039
+  }

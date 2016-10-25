@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 01 : 36 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 17789
+        , simpleUserLogin = N "gchpaco"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17789?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gchpaco"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/85775420"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/683#issuecomment-85775420"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 01 : 36 : 57 UTC
+  , issueCommentBody =
+      "Amended version with the new treatment of cancellation of coroutines follows."
+  , issueCommentId = 85775420
+  }

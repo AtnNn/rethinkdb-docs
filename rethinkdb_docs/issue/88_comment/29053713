@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-22) 07 : 35 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29053713"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/88#issuecomment-29053713"
+  , issueCommentCreatedAt = 2013 (-11) (-22) 07 : 35 : 58 UTC
+  , issueCommentBody =
+      "ping @neumino and @mlucy -- I'd like to get this in before v1.11 release."
+  , issueCommentId = 29053713
+  }

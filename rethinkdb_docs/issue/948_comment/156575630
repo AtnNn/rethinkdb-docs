@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-13) 22 : 24 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/156575630"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/948#issuecomment-156575630"
+  , issueCommentCreatedAt = 2015 (-11) (-13) 22 : 24 : 04 UTC
+  , issueCommentBody =
+      "A small correction: We don't actually have a release with \"longterm support\" yet.\r\n\r\nIf breaking changes are not an option at all, the best bet is usually to stay on the latest point release of whatever version your app uses, e.g. 2.0.5 would be the latest release we've made for the 2.0.x series. However those releases usually don't receive bug fixes anymore once the next \r\n\r\nFor users who absolutely rely on a specific feature release (e.g. 2.0.x or 2.1.x), we can offer to manually backport critical fixes that affect them as part of a commercial support contract."
+  , issueCommentId = 156575630
+  }

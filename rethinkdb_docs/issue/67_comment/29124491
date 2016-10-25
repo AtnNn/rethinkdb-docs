@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-23) 03 : 04 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29124491"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/67#issuecomment-29124491"
+  , issueCommentCreatedAt = 2013 (-11) (-23) 03 : 04 : 52 UTC
+  , issueCommentBody =
+      "I don't think so.  There was some confusion with changes that were made in the old docs system (like this one) and were never ported to the new one."
+  , issueCommentId = 29124491
+  }

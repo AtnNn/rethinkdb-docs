@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-16) 06 : 49 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/32445967"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/178#issuecomment-32445967"
+  , issueCommentCreatedAt = 2014 (-01) (-16) 06 : 49 : 13 UTC
+  , issueCommentBody =
+      "Ok, thanks for the clarification. The actual change looks good to me."
+  , issueCommentId = 32445967
+  }

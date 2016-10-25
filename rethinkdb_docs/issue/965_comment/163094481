@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-09) 03 : 30 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/163094481"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/965#issuecomment-163094481"
+  , issueCommentCreatedAt = 2015 (-12) (-09) 03 : 30 : 59 UTC
+  , issueCommentBody =
+      "@chipotle: I reopened this issue, because the Java docs for changefeeds are based on the older JavaScript article, and don't include these changes."
+  , issueCommentId = 163094481
+  }

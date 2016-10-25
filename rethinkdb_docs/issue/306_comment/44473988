@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-28) 22 : 40 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44473988"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/306#issuecomment-44473988"
+  , issueCommentCreatedAt = 2014 (-05) (-28) 22 : 40 : 12 UTC
+  , issueCommentBody =
+      "From what I can see we leave the `.run` out of the signature but put it in the examples, unless this is a special case. By \"call via chaining\" I meant that it looks like `http` is something that has to be called on `r.`, not a previous command -- you can do `r.http().something()` but not `r.something().http()`, right?\r\n\r\nFor a section that included `r.json`, `r.info`, `r.http` and friends, maybe \"Expressions\" is the right term?\r\n\r\n(And it's probably a good idea for developers to do a first pass on docs, for the reason @mlucy mentioned.)"
+  , issueCommentId = 44473988
+  }

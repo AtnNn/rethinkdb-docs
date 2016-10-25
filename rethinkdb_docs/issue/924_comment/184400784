@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-15) 21 : 19 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 181337
+        , simpleUserLogin = N "pixelspark"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/181337?v=3"
+        , simpleUserUrl = "https://api.github.com/users/pixelspark"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/184400784"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/924#issuecomment-184400784"
+  , issueCommentCreatedAt = 2016 (-02) (-15) 21 : 19 : 30 UTC
+  , issueCommentBody =
+      "By the way, [this file](https://github.com/pixelspark/rethink-swift/blob/master/Rethink/Rethink.swift) lists all ReQL terms that are currently supported."
+  , issueCommentId = 184400784
+  }

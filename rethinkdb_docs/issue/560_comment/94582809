@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-20) 22 : 21 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94582809"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/560#issuecomment-94582809"
+  , issueCommentCreatedAt = 2015 (-04) (-20) 22 : 21 : 08 UTC
+  , issueCommentBody =
+      "The new web site design has a new community page."
+  , issueCommentId = 94582809
+  }

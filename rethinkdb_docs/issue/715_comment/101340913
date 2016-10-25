@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-12) 16 : 31 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 12414375
+        , simpleUserLogin = N "robirugg"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/12414375?v=3"
+        , simpleUserUrl = "https://api.github.com/users/robirugg"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/101340913"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/715#issuecomment-101340913"
+  , issueCommentCreatedAt = 2015 (-05) (-12) 16 : 31 : 47 UTC
+  , issueCommentBody = "(eu) ()"
+  , issueCommentId = 101340913
+  }

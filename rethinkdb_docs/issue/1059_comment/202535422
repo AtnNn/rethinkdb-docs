@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-28) 19 : 13 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/202535422"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1059#issuecomment-202535422"
+  , issueCommentCreatedAt = 2016 (-03) (-28) 19 : 13 : 29 UTC
+  , issueCommentBody =
+      "1. General concepts\r\n====\r\n\r\n__Users__\r\nRethinkDB 2.3's permissions system is based around users.\r\n\r\nWhen starting a completely fresh cluster, there is a default \"admin\" user out of the box. The \"admin\" user always has full permissions. It cannot be deleted.\r\nWhen just starting a cluster, the \"admin\" user has an empty password, though you can override the initial password through the `--initial-password` (or `--initial-pw`, argument name still needs to be decided) command line argument (see proposal 1 from https://github.com/rethinkdb/rethinkdb/issues/5490 ).\r\n\r\nYou can create additional users by inserting into the `\"users\"` system table. A newly created user (other than the default-created \"admin\") has no permissions by default at all. Permissions need to be added separately through the `r.grant` command or by inserting into the `\"permissions\"` system table.\r\n\r\nEvery user has a unique user name (a string), and a password. The password can be empty, or it can be an arbitrary string. A password can be set, but cannot be retrieved again afterwards (it's internally stored in a salted and then hashed form).\r\n\r\nWhen connecting through the client (driver) port, user authentication is performed based on a user name and password passed into the driver's `connect` method. If no user and password is specified, the \"admin\" user with an empty password is assumed by the driver.\r\n\r\nUser authentication is *not* performed when using the web UI (HTTP port), nor can it be used to protect from an attacker who is able to connect to the cluster poster. The web UI always runs with full privileges, as if it was logged in as \"admin\".\r\n\r\n__Permissions__\r\n\r\nThere are four different permissions:\r\n* `\"read\"` allows reading the data in a table\r\n* `\"write\"` allows modifying the data in a table (including inserting, replacing and deleting)\r\n* `\"config\"` allows changing the cluster configuration of a table, e.g. by running `reconfigure(), rebalance() or config().update()`. It also allows creating and dropping secondary indexes. If a user has `\"config\"` permissions on a database, they can additionally create and drop tables in the database. If they have `\"config\"` permissions on the global level, they can create and drop databases (dropping only works if they also have `\"config\"` permissions for each table inside the database). @VeXocide I'm unsure about the details here. Do users also need `\"write\"` permissions on the table to drop the table?\r\n* `\"connect\"` determines whether a user is allowed to \"open connections\". Right now the only effect this has is whether or not a user can use `r.http`. One reason for why this is important is because `r.http` can be used by an attacker to circumvent firewall restrictions. For example it could be used to run queries through the server's local http / web UI interface with full \"admin\" privileges.\r\n\r\n__Scopes__\r\n\r\nAll permissions except for `\"connect\"` can be specified on different scopes. If a permission is specified at a more granular scope, it overrides any setting at the coarser scope. (Note that permissions can be set to `true` or `false` at any scope, or not specified at all in which case the setting from the coarser scope is inherited.)\r\n`\"connect\"` can only be specified at the global scope.\r\n\r\nThe three scopes are:\r\n* global\r\n* database\r\n* table"
+  , issueCommentId = 202535422
+  }

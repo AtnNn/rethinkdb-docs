@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-10) 20 : 59 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/139377220"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/890#issuecomment-139377220"
+  , issueCommentCreatedAt = 2015 (-09) (-10) 20 : 59 : 36 UTC
+  , issueCommentBody =
+      "I'm really starting to wonder if this is all overthinking things a bit. :)\r\n\r\nWhat we have now reads:\r\n\r\n> Any operation on an author document requires loading all posts into memory. Any update to the document requires rewriting the full array to disk.\r\n\r\nPersonally, I don't see a big problem with that line; this comes under the heading \"Disadvantages of using embedded arrays\" with respect to modeling relationships (i.e., the `author` document has a field called `posts` that contains an array of all the posts by that author).\r\n\r\n> Deleting, adding or updating a post requires loading the entire `posts` array, modifying it, and writing the entire array back to disk.\r\n"
+  , issueCommentId = 139377220
+  }

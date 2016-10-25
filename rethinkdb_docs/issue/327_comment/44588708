@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 21 : 38 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44588708"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-44588708"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 21 : 38 : 06 UTC
+  , issueCommentBody =
+      "I think I like the separation based on output size, too -- if it's\r\nreturning just one line, it could be grouped with the code that runs it.\r\nThe only question is whether the \">\" prefix to distinguish input from\r\noutput is the right thing, but I suspect it will be pretty clear to most\r\npeople.\r\n\r\n\r\nOn Thu, May 29, 2014 at 2:15 PM, Slava Akhmechet <notifications@github.com>\r\nwrote:\r\n\r\n> I agree with @neumino <https://github.com/neumino> -- I think that for\r\n> one-liners having the result printed inline is clearly better, and for\r\n> large output having the result printed on a separate line is clearly\r\n> better. There is a fuzzy line somewhere in the middle where we should\r\n> switch modes, but I'm not sure how big the output has to be for that to\r\n> happen -- we can deal with it on case-by-case basis.\r\n>\r\n> In this particular example (split) I think we should switch Javascript to\r\n> use the inline notation -- it seems clearly better. I can see how printing\r\n> small output inline could be confusing for Node users, but I think that's\r\n> ok -- they only have to learn what's going on once, and can benefit from a\r\n> compact notation forever after that.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/327#issuecomment-44586129>.\r\n>"
+  , issueCommentId = 44588708
+  }

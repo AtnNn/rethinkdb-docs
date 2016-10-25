@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-06) 05 : 49 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 8237
+        , simpleUserLogin = N "captainpete"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/8237?v=3"
+        , simpleUserUrl = "https://api.github.com/users/captainpete"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/127114179"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/841#issuecomment-127114179"
+  , issueCommentCreatedAt = 2015 (-08) (-03) 03 : 44 : 27 UTC
+  , issueCommentBody =
+      "Most welcome! I read the CLA but have yet to get permission from the employer, which I'm working on."
+  , issueCommentId = 127114179
+  }

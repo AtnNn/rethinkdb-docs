@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-22) 18 : 59 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49784710"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/424#issuecomment-49784710"
+  , issueCommentCreatedAt = 2014 (-07) (-22) 18 : 59 : 59 UTC
+  , issueCommentBody =
+      "I think this is part of @AtnNn's TODO list for a release.\r\nHe probably has that in his \"one click\" release flow though."
+  , issueCommentId = 49784710
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-24) 17 : 40 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47003811"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/387#issuecomment-47003811"
+  , issueCommentCreatedAt = 2014 (-06) (-24) 17 : 40 : 18 UTC
+  , issueCommentBody =
+      "Looks good. I didn't know about this blog entry -- I wasn't sure if the FAQ links were simply titled incorrectly!"
+  , issueCommentId = 47003811
+  }

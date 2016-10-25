@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-18) 19 : 40 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52543751"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52543751"
+  , issueCommentCreatedAt = 2014 (-08) (-18) 19 : 40 : 27 UTC
+  , issueCommentBody =
+      "Opened rethinkdb/rethinkdb#2931 for adding `r.binary` on the server.  For the most part it's just another way of writing `coerce_to('binary')`."
+  , issueCommentId = 52543751
+  }

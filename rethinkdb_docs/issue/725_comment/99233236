@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-05) 21 : 47 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/99233236"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/725#issuecomment-99233236"
+  , issueCommentCreatedAt = 2015 (-05) (-05) 21 : 47 : 43 UTC
+  , issueCommentBody =
+      "Ping @chipotle. I think it's important to disclose this limitation in the docs. We should do it asap for various reasons that are far too obvious and numerous to list here (but if you'd still like me to list them, ping me on slack)."
+  , issueCommentId = 99233236
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 21 : 14 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46495164"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/73#issuecomment-46495164"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 21 : 14 : 44 UTC
+  , issueCommentBody =
+      "Secondary indexes evidently don't store null -- is that the only case of a value that they don't store? And is the effect in all cases that documents with a null value in that index field aren't returned?"
+  , issueCommentId = 46495164
+  }

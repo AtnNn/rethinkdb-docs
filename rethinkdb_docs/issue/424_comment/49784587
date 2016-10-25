@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-22) 18 : 59 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49784587"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/424#issuecomment-49784587"
+  , issueCommentCreatedAt = 2014 (-07) (-22) 18 : 59 : 05 UTC
+  , issueCommentBody =
+      "Please note that once these changes are made the new files for `docs/rql/reql_docs.json` and `drivers/python/rethinkdb/docs.py` should be generated using the scripts in `_scripts`, and updates in the main repository as well."
+  , issueCommentId = 49784587
+  }

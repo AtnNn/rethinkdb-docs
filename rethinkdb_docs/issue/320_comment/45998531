@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-13) 10 : 53 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45998531"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/320#issuecomment-45998531"
+  , issueCommentCreatedAt = 2014 (-06) (-13) 10 : 53 : 48 UTC
+  , issueCommentBody =
+      "@coffeemug -- it's already through code review (CR 1636).  I'm not sure whether or not I'm happy with it -- I think it's a little confusing, but it isn't worse than our old driver docs, and making it non-confusing would probably be a bit of work (and produce a much longer document that goes into detail on the translation between the query a user types and the protobuf that should be produced)."
+  , issueCommentId = 45998531
+  }

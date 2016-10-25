@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-26) 21 : 23 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/175236082"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/943#issuecomment-175236082"
+  , issueCommentCreatedAt = 2016 (-01) (-26) 21 : 23 : 18 UTC
+  , issueCommentBody =
+      "The logstash filter has to do a bit of work to translate `new_val: null` from a changefeed into `action: \"delete\"`([see here](https://www.elastic.co/guide/en/logstash/current/plugins-outputs-elasticsearch.html#plugins-outputs-elasticsearch-action)) when it's passed to the elasticsearch plugin. Since logstash isn't specific to exporting from RethinkDB to ElasticSearch, the interface is more general.  My config above is a start at getting this working, using hidden variables that won't be persisted in the document sent to elasticsearch. \r\n\r\nOne thing that will make writing the filter less painful is rethinkdb/rethinkdb#5188, which makes it more direct to translate a change type into an elasticsearch-output action"
+  , issueCommentId = 175236082
+  }

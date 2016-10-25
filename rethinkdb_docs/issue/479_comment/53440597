@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-26) 15 : 35 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53440597"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/479#issuecomment-53440597"
+  , issueCommentCreatedAt = 2014 (-08) (-26) 15 : 35 : 35 UTC
+  , issueCommentBody =
+      "That shouldn't be, because we merged v1.14 into master, but didn't push the site. Someone may have pushed the site with local unmerged conflicts -- luckily, easily fixed."
+  , issueCommentId = 53440597
+  }

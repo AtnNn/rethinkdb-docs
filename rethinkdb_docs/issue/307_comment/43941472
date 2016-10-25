@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 20 : 42 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43941472"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/307#issuecomment-43941472"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 20 : 42 : 55 UTC
+  , issueCommentBody =
+      "I think we should just say `sequence.filter(predicate[, {default: false}]) \8594 sequence` and drop the other two lines."
+  , issueCommentId = 43941472
+  }

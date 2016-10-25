@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 22 : 16 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51405394"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/438#issuecomment-51405394"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 22 : 16 : 55 UTC
+  , issueCommentBody =
+      "This is probably in @larkost's domain, since it's more of a tooling issue.\r\n\r\nIn theory, at least, we settled on the formatting that's described in #327 -- given that, I think the best way to generate the Python example code might be to simply prepend it with four spaces so it's indented from the surrounding text."
+  , issueCommentId = 51405394
+  }

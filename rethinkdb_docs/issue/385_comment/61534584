@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-03) 19 : 35 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61534584"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/385#issuecomment-61534584"
+  , issueCommentCreatedAt = 2014 (-11) (-03) 19 : 35 : 15 UTC
+  , issueCommentBody = "My last email to Amazon has gone unanswered."
+  , issueCommentId = 61534584
+  }

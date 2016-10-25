@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-12) 19 : 00 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45933918"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/150#issuecomment-45933918"
+  , issueCommentCreatedAt = 2014 (-06) (-12) 19 : 00 : 39 UTC
+  , issueCommentBody =
+      "If you look at the [whole file view](https://github.com/rethinkdb/docs/blob/d3d6495a43645c74fd5ce3b805628f8d7a448504/1-get-started/drivers/performance.md), it becomes clear that this is speeding up the Python driver by having the ProtoBuf binary installed. Besides, for building we will automatically pull down the ProtoBufs source, and you what we need to build without ever installing to the local system. I can confirm that that works correctly on MacOS."
+  , issueCommentId = 45933918
+  }

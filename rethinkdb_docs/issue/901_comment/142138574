@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-21) 23 : 40 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/142138574"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-142138574"
+  , issueCommentCreatedAt = 2015 (-09) (-21) 23 : 40 : 36 UTC
+  , issueCommentBody =
+      "Some differences off the top of my head (these are more notes to myself to expand later than really helpful to others):\r\n\r\n`r.connection` instead of `r.connect`. It returns a builder object, which you then call `.connect` on when you've initialized it.\r\n\r\n`r.hashMap` and `r.array` helpers for creating hashmaps and arrays\r\n\r\n`r.row` is not implemented since lambda syntax is very concise\r\n\r\nSome terms (like `contains`) don't take a truly variable number of arguments. They are expanded somewhat into a finite number of different signatures.\r\n\r\noptargs are added to a term not as a positional argument, but with a method, like:\r\n\r\n```java\r\nr.table(\"foo\").getAll(\"bar\").optArg(\"index\", \"barVal\")\r\n```\r\n\r\nThere's no operator overloading, so all math terms are like the javascript driver.\r\n\r\nThis isn't Java driver specific, but the lambda syntax is like:\r\n\r\n```java\r\nexpr.map(x -> x.add(2))\r\nexpr.reduce((left, right) -> left.add(right))\r\n```\r\n"
+  , issueCommentId = 142138574
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-29) 05 : 50 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71972659"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-71972659"
+  , issueCommentCreatedAt = 2015 (-01) (-29) 05 : 50 : 17 UTC
+  , issueCommentBody =
+      "Thanks for checking @chipotle . I just merged the branch into v1.16 so we can build the Data Explorer docs. We should double check the changes tomorrow though, since I couldn't find whether they've gone through code review or now."
+  , issueCommentId = 71972659
+  }

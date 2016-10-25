@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-21) 22 : 33 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/199518529"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1047#issuecomment-199518529"
+  , issueCommentCreatedAt = 2016 (-03) (-21) 22 : 32 : 50 UTC
+  , issueCommentBody =
+      "[Doing it here would be best] (https://docs.google.com/document/d/15vPsdB8YyynQYcmvWlb_MTjBb1lDY_Z6eeIl7T_NZx0/edit#) as there's now three places I need to go modify. \r\n"
+  , issueCommentId = 199518529
+  }

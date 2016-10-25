@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-31) 01 : 33 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/203702886"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1058#issuecomment-203702886"
+  , issueCommentCreatedAt = 2016 (-03) (-31) 01 : 13 : 22 UTC
+  , issueCommentBody =
+      ". @mlucy pointed out that our actual implementation has a few differences to what is described in https://github.com/rethinkdb/rethinkdb/issues/5406#issuecomment-185980303 when it comes to how the authentication data is encoded. He also pointed out that we should probably document the format of the `nonce` we are using (18 (*edit*) random bytes base64 encoded).\r\n\r\n@chipotle I recommend waiting for @VeXocide to fill in the details of the actual protocol on this one."
+  , issueCommentId = 203702886
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-11) 20 : 04 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30358182"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/131#issuecomment-30358182"
+  , issueCommentCreatedAt = 2013 (-12) (-11) 20 : 04 : 46 UTC
+  , issueCommentBody =
+      "I recently discovered that we had aliases in Python when working on the script to generate the python docs, but didn't have to push an update for that.\r\n\r\nI just reviewed the changes, that looks good.\r\n\r\n\r\nI have an issue with multiple names in the h1 tags, it breaks the script to generate the python docs. Looking at it now."
+  , issueCommentId = 30358182
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-02) 19 : 00 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/118128786"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/809#issuecomment-118128786"
+  , issueCommentCreatedAt = 2015 (-07) (-02) 19 : 00 : 40 UTC
+  , issueCommentBody =
+      "Thanks for the pull request @brandonhamilton!\r\nHave you already signed http://rethinkdb.com/community/cla/ ?\r\n\r\n@chipotle could you please review the patch?\r\nWhich size do we usually have the icons in? This one seems bigger than necessary for that page."
+  , issueCommentId = 118128786
+  }

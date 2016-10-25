@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-14) 08 : 06 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37624494"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/219#issuecomment-37624494"
+  , issueCommentCreatedAt = 2014 (-03) (-14) 08 : 06 : 55 UTC
+  , issueCommentBody =
+      "There are a few more things\r\n- Remove reference of groupBy/groupedMapReduce in the files index.md\r\n- Remove aggregators\r\n- Add max/min/more? in index.md"
+  , issueCommentId = 37624494
+  }

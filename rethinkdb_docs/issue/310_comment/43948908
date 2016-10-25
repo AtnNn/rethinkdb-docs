@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 21 : 53 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43948908"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/310#issuecomment-43948908"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 21 : 53 : 39 UTC
+  , issueCommentBody =
+      "We have old (and probably not-quite-right) docs here: https://github.com/rethinkdb/rethinkdb/blob/170b6f3f192b7049f962296e0b167e91d2094dcc/src/rdb_protocol/ql2.proto#L218\r\n\r\nThat list is missing `time` types and the result of `r.literal` (although we should probably just not document the latter)."
+  , issueCommentId = 43948908
+  }

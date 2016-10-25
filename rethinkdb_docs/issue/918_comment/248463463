@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-20) 23 : 11 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5320981
+        , simpleUserLogin = N "goors"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5320981?v=3"
+        , simpleUserUrl = "https://api.github.com/users/goors"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/248463463"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/918#issuecomment-248463463"
+  , issueCommentCreatedAt = 2016 (-09) (-20) 23 : 11 : 04 UTC
+  , issueCommentBody =
+      "@chipotle I am going crazy. Can you tell me more about this: \"n replica per shard\"?\r\n\r\nWhat is difference in having 1 or 6 replicas per shard?\r\n\r\nWhat if I should down 5 servers and leave only one? What happens to data since data are sharded on 6 servers?"
+  , issueCommentId = 248463463
+  }

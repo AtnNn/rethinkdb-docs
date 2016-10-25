@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-20) 21 : 16 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52845556"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52845556"
+  , issueCommentCreatedAt = 2014 (-08) (-20) 21 : 16 : 50 UTC
+  , issueCommentBody =
+      "I'm taking this out of the 1.14 docs milestone because I don't think it should be a release blocker. (The docs for `r.binary` itself with examples are already there, and the article's written and in review. And doesn't use `r.binary(r.http())` in it!)"
+  , issueCommentId = 52845556
+  }

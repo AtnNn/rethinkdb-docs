@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-19) 23 : 56 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5043
+        , simpleUserLogin = N "thelinuxlich"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5043?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thelinuxlich"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/83813107"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/598#issuecomment-83813107"
+  , issueCommentCreatedAt = 2015 (-03) (-19) 23 : 56 : 37 UTC
+  , issueCommentBody =
+      "@Timer very nice, looking at your code, you could do almost everything with ReQL server-side in one step instead of using async.waterfall"
+  , issueCommentId = 83813107
+  }

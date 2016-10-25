@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-19) 19 : 57 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 478118
+        , simpleUserLogin = N "bchavez"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/478118?v=3"
+        , simpleUserUrl = "https://api.github.com/users/bchavez"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/186379647"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/916#issuecomment-186379647"
+  , issueCommentCreatedAt = 2016 (-02) (-19) 19 : 57 : 20 UTC
+  , issueCommentBody =
+      ":+1: I was just about to submit an API doc usability issue on this."
+  , issueCommentId = 186379647
+  }

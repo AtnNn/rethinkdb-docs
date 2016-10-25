@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-16) 08 : 22 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55710742"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/508#issuecomment-55710742"
+  , issueCommentCreatedAt = 2014 (-09) (-16) 08 : 22 : 40 UTC
+  , issueCommentBody =
+      "Err, sorry, realized this isn't a pull request. @kureikain -- could you submit a pull request to include the integrations into the docs? Here is a relevant file -- https://github.com/rethinkdb/docs/blob/master/4-rethinkdb-in-practice/frameworks-and-libraries.md."
+  , issueCommentId = 55710742
+  }

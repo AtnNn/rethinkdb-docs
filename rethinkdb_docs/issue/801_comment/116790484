@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-29) 18 : 36 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/116790484"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/801#issuecomment-116790484"
+  , issueCommentCreatedAt = 2015 (-06) (-29) 18 : 36 : 21 UTC
+  , issueCommentBody =
+      "At the moment, we're (mostly) using documents like this and the Map-Reduce document as general explanations of the way RethinkDB does things and relying on the language-specific API documentation to give more detailed examples in the user's language. It's probably worth converting all these documents to use the language switcher -- it's just how to prioritize that. But we should probably do each one all the way when we do it, and we might want to wait to see if the way we store multiple languages is going to be changing. (I don't have a plan for that yet, but I'm not sure if @mglukhovsky might.)"
+  , issueCommentId = 116790484
+  }

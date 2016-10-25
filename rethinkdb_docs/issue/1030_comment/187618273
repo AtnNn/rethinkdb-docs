@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-23) 09 : 25 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10092343
+        , simpleUserLogin = N "dineyw23"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10092343?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dineyw23"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/187618273"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1030#issuecomment-187618273"
+  , issueCommentCreatedAt = 2016 (-02) (-23) 09 : 25 : 03 UTC
+  , issueCommentBody =
+      "Newbie here (*Apologies*), how does taking up this issue work? \r\n1. Reproduced it.\r\n2. I understand why `{nonAtomic: true}` argument should be provided.\r\n3. Should an explanation be added to the doc or just edit the update statement? \r\n\r\nThanks.\r\n\r\n"
+  , issueCommentId = 187618273
+  }

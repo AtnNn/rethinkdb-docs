@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-02) 07 : 29 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57593289"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-57593289"
+  , issueCommentCreatedAt = 2014 (-10) (-02) 07 : 29 : 41 UTC
+  , issueCommentBody =
+      "@chipotle -- it's perceived latency. What happens is, people type a query in the repl, run it, and measure how long it takes to get the first batch. They then treat it as an indication of RethinkDB performance. Of course what really happens is that there is a tradeoff between latency and throughput, but that's not generally how people think.\r\n\r\nSo the scaledown factor gives people the first batch quickly to improve perceived latency in repl interactions, and then starts optimizing for throughput for future batches. This turns out to hit a great balance between perceived vs. real latency/throughput performance."
+  , issueCommentId = 57593289
+  }

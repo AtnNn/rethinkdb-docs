@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-15) 19 : 10 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59259101"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/394#issuecomment-59259101"
+  , issueCommentCreatedAt = 2014 (-10) (-15) 19 : 10 : 34 UTC
+  , issueCommentBody =
+      "I actually already wrote this up, I guess I just missed this issue. @danielmewes should this be the issue for a second look at the topic after 2953?"
+  , issueCommentId = 59259101
+  }

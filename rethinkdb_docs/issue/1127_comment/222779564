@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-31) 18 : 34 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/222779564"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1127#issuecomment-222779564"
+  , issueCommentCreatedAt = 2016 (-05) (-31) 18 : 34 : 55 UTC
+  , issueCommentBody =
+      "This is the syntax in the various drivers, where `conn` is a connection object in each case. In all cases except Java, the `clientPort` is an integer and `clientAddress` is a string.\r\n\r\nJavaScript\r\n```js\r\n// Note: These are properties of the connection, not methods\r\nconn.clientPort\r\nconn.clientAddress\r\n```\r\n\r\nPython\r\n```py\r\nconn.client_port()\r\nconn.client_address()\r\n```\r\n\r\nRuby\r\n```ruby\r\n# These are methods, you can optionally use `()`\r\nconn.client_port\r\nconn.client_address\r\n```\r\n\r\nJava\r\n```java\r\nconn.clientPort() // Returns Optional<Integer>\r\nconn.clientAddress() // Returns Optional<SocketAddress>\r\n```\r\n\r\nThe client port is the outgoing TCP port that the connection uses on the client-side. It is randomly assigned by the operating system, and can be used to match client entries in the `r.db('rethinkdb').table('jobs')` table to a client process."
+  , issueCommentId = 222779564
+  }

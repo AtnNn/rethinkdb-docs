@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-15) 18 : 28 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/239885846"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/958#issuecomment-239885846"
+  , issueCommentCreatedAt = 2016 (-08) (-15) 18 : 28 : 16 UTC
+  , issueCommentBody =
+      "@paralin See https://github.com/rethinkdb/rethinkdb/issues/2873#issuecomment-157641498\r\n\r\nYou can use `table.wait({waitFor: \"all_replicas_ready\"})` (https://github.com/rethinkdb/rethinkdb/issues/2873#issuecomment-157641498) to automate the third step."
+  , issueCommentId = 239885846
+  }

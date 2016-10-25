@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-07) 19 : 53 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/25839472"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/8#issuecomment-25839472"
+  , issueCommentCreatedAt = 2013 (-10) (-07) 19 : 53 : 44 UTC
+  , issueCommentBody =
+      "For 64 bit linux images, I have recently started using docker instead of VirtualBox. I have built images for Lucid, Precise, Quantal and Centos. You can use them on newton (`sudo docker images` for the list, `sudo docker run -i -t lucid bash` to run bash in lucid).\r\n\r\nUnfortunately some of the unit tests don't run inside docker (#1059), and it doesn't work for OS X, FreeBSD or older Linux kernels. But when it does work it is great for testing the install and build process because everything is snapshotted. Rolling back to and tagging previous system states is easy.\r\n\r\nBuilding an image isn't as easy as popping in a cd, but it shouldn't be too hard to build a Mint or an OpenSuse docker image."
+  , issueCommentId = 25839472
+  }

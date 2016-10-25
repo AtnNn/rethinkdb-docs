@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-25) 16 : 26 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 159819
+        , simpleUserLogin = N "cefn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/159819?v=3"
+        , simpleUserUrl = "https://api.github.com/users/cefn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/214429501"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1098#issuecomment-214429501"
+  , issueCommentCreatedAt = 2016 (-04) (-25) 16 : 26 : 47 UTC
+  , issueCommentBody =
+      "Here's a functional example which uses r.branch explicitly to handle the two cases of insert or upsert...\r\n\r\n```javascript\r\n    promiseAddUserToGroup:function(userId, groupId){\r\n        return this.registry.dbConnectionPromise.then(function(dbConnection){\r\n            var membership = {groupId:groupId};\r\n            return r.table(\"users\").get(userId).update(\r\n                    r.branch(\r\n                        r.row.hasFields(\"memberships\"),\r\n                        {memberships:r.row(\"memberships\").append(membership)},\r\n                        {memberships:[membership]}\r\n                    )\r\n                )\r\n                .run(dbConnection)\r\n        })\r\n    }\r\n```\r\n\r\nIs there a less fiddly way to do it?"
+  , issueCommentId = 214429501
+  }

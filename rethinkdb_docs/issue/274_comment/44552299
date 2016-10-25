@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 16 : 29 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44552299"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-44552299"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 16 : 29 : 36 UTC
+  , issueCommentBody =
+      "The default cache size should be good now.\r\n\r\nIf people run into memory issues, it's more a server bug now right?\r\nPing @danielmewes  -- any thoughts on that?"
+  , issueCommentId = 44552299
+  }

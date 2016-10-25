@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-26) 20 : 21 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/189466402"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1008#issuecomment-189466402"
+  , issueCommentCreatedAt = 2016 (-02) (-26) 20 : 21 : 05 UTC
+  , issueCommentBody =
+      "@chipotle A typical example for the reduce-style variant is concatenating strings from an array or stream.\r\n\r\nExample 1: Undoing a `split('')` (i.e. reassembling individual characters back into a string):\r\n```js\r\nvar characters = r.expr(\"Hello world!\").split(\"\");\r\ncharacters.fold(\"\", function(acc, char) { return acc.add(char); } ).run(conn);\r\n// Returns: \"Hello world!\"\r\n```\r\n\r\nExample 2: Concatenate words from a word array, inserting commas and spaces in between:\r\n```js\r\nvar words = r.expr([\"list\", \"of\", \"words\"]);\r\nwords.fold(\"\", function(acc, word) {\r\n    return acc.add(r.branch(acc.eq(\"\"), \"\", \", \")).add(word);\r\n  }).run(conn);\r\n// Returns: \"list, of, words\"\r\n```\r\n\r\nThese example would theoretically have worked with `reduce` as well, since `reduce` happens to keep the ordering when applied to arrays. However this was not guaranteed, and just an implementation detail. With `fold` this is now guaranteed to work. Furthermore, this even works on streams rather than arrays with `fold` (in contrast to `reduce`). I can't come up with any great examples for the reduce-style variant that involve streams right now."
+  , issueCommentId = 189466402
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-14) 09 : 13 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1684211
+        , simpleUserLogin = N "9uuso"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1684211?v=3"
+        , simpleUserUrl = "https://api.github.com/users/9uuso"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52160716"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/448#issuecomment-52160716"
+  , issueCommentCreatedAt = 2014 (-08) (-14) 09 : 13 : 06 UTC
+  , issueCommentBody =
+      "My bad, I must have thought that I agree it by default by submitting a PR. Anyway, I completed the form on your website."
+  , issueCommentId = 52160716
+  }

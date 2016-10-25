@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-15) 04 : 19 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 534887
+        , simpleUserLogin = N "paralin"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/534887?v=3"
+        , simpleUserUrl = "https://api.github.com/users/paralin"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/239726845"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/958#issuecomment-239726845"
+  , issueCommentCreatedAt = 2016 (-08) (-15) 04 : 19 : 30 UTC
+  , issueCommentBody =
+      "Hey guys, did you ever resolve this? I need to add automated graceful leaves for the Kubernetes petset and I don't know how."
+  , issueCommentId = 239726845
+  }

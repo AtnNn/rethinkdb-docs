@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-24) 18 : 18 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/85629197"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/683#issuecomment-85629197"
+  , issueCommentCreatedAt = 2015 (-03) (-24) 18 : 18 : 10 UTC
+  , issueCommentBody =
+      "@segphault Yes, we can release RCs for both of them together. See https://github.com/rethinkdb/rethinkdb/issues/3678#issuecomment-78790839"
+  , issueCommentId = 85629197
+  }

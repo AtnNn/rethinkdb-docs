@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-12) 22 : 46 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45957601"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/352#issuecomment-45957601"
+  , issueCommentCreatedAt = 2014 (-06) (-12) 22 : 46 : 55 UTC
+  , issueCommentBody = "Thanks.\r\n\r\nThis patch looks good to me."
+  , issueCommentId = 45957601
+  }

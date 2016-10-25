@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-23) 19 : 48 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/200516084"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1057#issuecomment-200516084"
+  , issueCommentCreatedAt = 2016 (-03) (-23) 19 : 48 : 45 UTC
+  , issueCommentBody =
+      "I think I'm going to remove the `--http-tls`, `--driver-tls` and `--cluster-tls` options. Instead we will enable them implicitly if any of the `--http-tls-*`, `--driver-tls-*` or `--cluster-tls-*` options is provided."
+  , issueCommentId = 200516084
+  }

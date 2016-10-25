@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-01) 02 : 58 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/117417625"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/773#issuecomment-117417625"
+  , issueCommentCreatedAt = 2015 (-07) (-01) 02 : 58 : 30 UTC
+  , issueCommentBody =
+      "In addition to the \"Availability and failover\" section being out of date, there are some smaller things that need to be updated:\r\n* In the event of a netsplit, what matters is which side of the netsplit has a majority of voters, not which side has the primary replica.\r\n* RethinkDB now uses the Raft protocol instead of semilattices to store and propagate cluster configuration in most cases, but we still use semilattices in a few situations. When we do use semilattices, we use timestamps rather than vector clocks."
+  , issueCommentId = 117417625
+  }

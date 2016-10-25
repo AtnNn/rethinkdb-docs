@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-22) 10 : 45 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 793408
+        , simpleUserLogin = N "andronat"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/793408?v=3"
+        , simpleUserUrl = "https://api.github.com/users/andronat"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33010781"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/181#issuecomment-33010781"
+  , issueCommentCreatedAt = 2014 (-01) (-22) 10 : 45 : 58 UTC
+  , issueCommentBody =
+      "Can you also check this link: http://www.rethinkdb.com/docs/examples/sinatra-pastie/\r\n\r\nThe format of the code is destroyed."
+  , issueCommentId = 33010781
+  }

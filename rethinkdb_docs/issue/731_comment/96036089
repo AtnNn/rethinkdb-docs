@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 18 : 58 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96036089"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-96036089"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 18 : 58 : 55 UTC
+  , issueCommentBody =
+      "@stuartpb For clarification: There's nothing special about compound indexes in RethinkDB. They are simply indexes with arrays as keys. You can also have a \"mixed\" index where some values are indexed under arrays and others are not."
+  , issueCommentId = 96036089
+  }

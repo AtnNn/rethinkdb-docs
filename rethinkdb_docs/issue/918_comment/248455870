@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-20) 22 : 39 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5320981
+        , simpleUserLogin = N "goors"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5320981?v=3"
+        , simpleUserUrl = "https://api.github.com/users/goors"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/248455870"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/918#issuecomment-248455870"
+  , issueCommentCreatedAt = 2016 (-09) (-20) 22 : 35 : 40 UTC
+  , issueCommentBody =
+      "I am having huge problems with my cluster. Servers keeps disconnecting for unknown reason (there is nothing in logs).\r\nI think I might have cluster setup wrong.\r\n\r\nFirst this is first, I understand sharding and that is great feature but what are:\r\n\r\n\"n replica per shard\"?\r\n\r\nWhat that means?\r\n\r\nSecond thing. How to configure cluster with \"n\" servers? I have 6 servers because of sharding (i have few docs with more then 10mil records) but I am not sure that I configured my cluster correctly.\r\n\r\nOn every server I wrote:\r\n for example (srv1.conf)\r\njoin=srv2:port\r\njoin=srv3:port\r\njoin=srv4:port\r\njoin=srv5:port\r\njoin=srv6:port\r\n\r\nIs this correct way to add server to cluster?\r\n\r\nThere is nothing in docs and it would be great if you can post some \"recomended\" cluster configuration.\r\n\r\nThird thing is on hardware it self. Do I need to have identical servers?\r\n\r\nI really hope that someone could help me with this because when I had just one server my app\r\nwas working all the time. Now every time that some servers get disconnected everything crashes. I am using nodejs rethinkdbdash."
+  , issueCommentId = 248455870
+  }

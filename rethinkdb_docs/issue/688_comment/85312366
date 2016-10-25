@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-24) 02 : 46 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/85312366"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/688#issuecomment-85312366"
+  , issueCommentCreatedAt = 2015 (-03) (-24) 02 : 46 : 06 UTC
+  , issueCommentBody =
+      "We should also require that they support the JSON protocol.\r\nWe're going to remove support for that in 2.1."
+  , issueCommentId = 85312366
+  }

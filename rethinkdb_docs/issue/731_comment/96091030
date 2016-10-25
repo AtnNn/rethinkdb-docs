@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 23 : 02 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96091030"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-96091030"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 23 : 02 : 54 UTC
+  , issueCommentBody =
+      "> I'd say this error behavior should be described up-front in the docs on secondary indices, ie. with a mention in the examples for complex (expression-based) indexes,\r\n\r\nThat's a great idea. (@chipotle)\r\n\r\nI think we should still mention compound indexes explicitly. Most people think of them as a separate use case, and in most other databases they are completely separate index types. It so happens that RethinkDB's regular indexes are powerful enough to cover this use case too, but we should still explain exactly how to accomplish it.\r\n\r\nIt sounds like a good idea to point out that compound indexes in RethinkDB are merely indexes over an array composed of multiple fields, and are hence just a special instance of regular indexes. We should do that (@chipotle).\r\n\r\n> I can't answer the question of which index expression I'd be better off using, the default-null-for-missing-fields version or the branch-to-use-different-length-arrays version. Is one going to have significantly better perf characteristics?\r\n\r\nTheir performance will be similar, but they'll sort differently. An array `[X]` will sort below `[X, y]` for any `y`, but `[X, null]` will sort equal to `[X, null]` and below and/or above some other values of `y` in `[X, y]`.\r\nJust opened https://github.com/rethinkdb/docs/issues/734 for documenting that part."
+  , issueCommentId = 96091030
+  }

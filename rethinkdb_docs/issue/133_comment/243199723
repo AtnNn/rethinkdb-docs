@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-29) 17 : 50 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243199723"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/133#issuecomment-243199723"
+  , issueCommentCreatedAt = 2016 (-08) (-29) 17 : 50 : 52 UTC
+  , issueCommentBody =
+      "The page has been edited subsequently to the point where this document isn't relevant (we don't use \"point-replace\" here anymore)."
+  , issueCommentId = 243199723
+  }

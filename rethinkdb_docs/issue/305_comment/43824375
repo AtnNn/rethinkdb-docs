@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-21) 22 : 48 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43824375"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/305#issuecomment-43824375"
+  , issueCommentCreatedAt = 2014 (-05) (-21) 22 : 48 : 46 UTC
+  , issueCommentBody =
+      "Just to merge it from the issue branch I was working on into the master branch. If it's better to keep the issue branches entirely local I can do that way."
+  , issueCommentId = 43824375
+  }

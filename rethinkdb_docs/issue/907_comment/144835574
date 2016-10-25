@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-01) 20 : 17 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/144835574"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/907#issuecomment-144835574"
+  , issueCommentCreatedAt = 2015 (-10) (-01) 20 : 17 : 19 UTC
+  , issueCommentBody =
+      "The hierarchy is basically that a TABLE can degrade to a TABLE_SLICE which can degrade to a SELECTION.  `between` and `order_by` both take and produce a `TABLE_SLICE`.  Then there are some additional checks that you don't try to use two indexes, get two ranges at once, etc. etc.\r\n"
+  , issueCommentId = 144835574
+  }

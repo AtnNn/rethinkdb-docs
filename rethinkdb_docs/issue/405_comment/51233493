@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-05) 17 : 48 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51233493"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/405#issuecomment-51233493"
+  , issueCommentCreatedAt = 2014 (-08) (-05) 17 : 48 : 03 UTC
+  , issueCommentBody =
+      "Why *can't* you chain an `orderBy` with an index after `getAll`? I think we should add a little more to the article than just \"this doesn't work,\" and this may be something we need to add to the `orderBy` article.\r\n\r\nAlso, the error message you get is \"RqlRuntimeError: Indexed order_by can only be performed on a TABLE\", but your second comment suggests that this isn't actually the case?"
+  , issueCommentId = 51233493
+  }

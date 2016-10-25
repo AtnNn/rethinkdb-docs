@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-16) 18 : 52 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 258437
+        , simpleUserLogin = N "srh"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/258437?v=3"
+        , simpleUserUrl = "https://api.github.com/users/srh"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43366673"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/296#issuecomment-43366673"
+  , issueCommentCreatedAt = 2014 (-05) (-16) 18 : 52 : 32 UTC
+  , issueCommentBody = "This is prefix notation."
+  , issueCommentId = 43366673
+  }

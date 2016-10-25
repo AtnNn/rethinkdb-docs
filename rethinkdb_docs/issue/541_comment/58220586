@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-07) 17 : 10 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58220586"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-58220586"
+  , issueCommentCreatedAt = 2014 (-10) (-07) 17 : 10 : 03 UTC
+  , issueCommentBody =
+      "I agree that we should do the HTML docs (we can keep the illustrations as well, which would be wonderful).\r\n\r\nWhen I said \"the Dash format\", what I really mean is the Info.plist file and SQLite index (or any other relevant bits and pieces) to make Dash work -- I haven't researched it all, but there's a list on the page I linked to above. Thanks for all the input, @chrisvariety, we appreciate it!"
+  , issueCommentId = 58220586
+  }

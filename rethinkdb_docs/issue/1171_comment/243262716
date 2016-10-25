@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-29) 21 : 29 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243262716"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1171#issuecomment-243262716"
+  , issueCommentCreatedAt = 2016 (-08) (-29) 21 : 29 : 58 UTC
+  , issueCommentBody =
+      "I think we probably need to list both as JS, if the inconsistency is a problem, and just note that JS drivers require Node. We use \"JavaScript\" for the name of our official driver absolutely everywhere else. Not only would changing that be difficult, it would be inconsistent\8212we refer to the language everywhere else, not the framework. Does our official JS driver require Node? (Is there any other server-side JS environment?)"
+  , issueCommentId = 243262716
+  }

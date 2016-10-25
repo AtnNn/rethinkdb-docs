@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-20) 09 : 27 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5938143
+        , simpleUserLogin = N "or-else"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5938143?v=3"
+        , simpleUserUrl = "https://api.github.com/users/or-else"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30997852"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-30997852"
+  , issueCommentCreatedAt = 2013 (-12) (-20) 09 : 27 : 14 UTC
+  , issueCommentBody =
+      "Re timeline - my projection is 9 to 15 months from now. When you say the functionality is a year away that actually sounds acceptable. \r\n\r\nI've been sitting on the fence between Cassandra and Rethink. Cassandra can certainly scale but Rethink is much easier to use. Also, I'm quite impressed with the rate of Rethink development and team responsiveness. \r\n\r\nI will drop you a line when we start getting production data. "
+  , issueCommentId = 30997852
+  }

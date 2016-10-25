@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-16) 18 : 24 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55789599"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/494#issuecomment-55789599"
+  , issueCommentCreatedAt = 2014 (-09) (-16) 18 : 24 : 48 UTC
+  , issueCommentBody =
+      "There's a comment in that link after yours which does multiple aggregations by wrapping them in `r.object`:\r\n\r\n```\r\nr.object(\r\n    'average_time',\r\n    r.table('data')('time').avg(),\r\n    'total_votes',\r\n    r.table('data')('votes').sum()\r\n)\r\n```\r\n\r\nAre there any pitfalls with that? I get that map-reduce is very powerful, but I think usability and query readability is vastly improved when it can be avoided."
+  , issueCommentId = 55789599
+  }

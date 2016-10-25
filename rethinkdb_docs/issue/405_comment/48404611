@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-08) 21 : 56 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48404611"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/405#issuecomment-48404611"
+  , issueCommentCreatedAt = 2014 (-07) (-08) 21 : 56 : 26 UTC
+  , issueCommentBody =
+      "It's also possible to do a getAll on a first field, and orderBy on a second field by using a compound index and `between`."
+  , issueCommentId = 48404611
+  }

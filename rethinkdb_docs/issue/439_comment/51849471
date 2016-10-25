@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-11) 22 : 26 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51849471"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/439#issuecomment-51849471"
+  , issueCommentCreatedAt = 2014 (-08) (-11) 22 : 26 : 33 UTC
+  , issueCommentBody =
+      "Pinging @mlucy @Tryneus and/or @srh on this -- I need a little guidance on the \"when to rebuild\" part. This is probably a troubleshooting entry, so it's going to be something like \"How do I fix a <...>  error?\""
+  , issueCommentId = 51849471
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-22) 18 : 18 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/150311241"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/927#issuecomment-150311241"
+  , issueCommentCreatedAt = 2015 (-10) (-22) 18 : 18 : 13 UTC
+  , issueCommentBody =
+      "Hmm I would actually expect this to work. When you assign `r.polygon(...)` to a variable, that just creates a query object. I think this should be fine?"
+  , issueCommentId = 150311241
+  }

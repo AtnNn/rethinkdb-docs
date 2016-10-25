@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-22) 19 : 25 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41083065"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/273#issuecomment-41083065"
+  , issueCommentCreatedAt = 2014 (-04) (-22) 19 : 25 : 33 UTC
+  , issueCommentBody =
+      "The CLA is signed. (And nothing wrong with quick reviews!)"
+  , issueCommentId = 41083065
+  }

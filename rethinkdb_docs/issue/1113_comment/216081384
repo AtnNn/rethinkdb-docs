@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-01) 23 : 29 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/216081384"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1113#issuecomment-216081384"
+  , issueCommentCreatedAt = 2016 (-05) (-01) 23 : 29 : 37 UTC
+  , issueCommentBody =
+      "Good catch -- although it turns out the typo is actually in api/python/math-and-logic/mod.md, where there's both the miscreant ` character you noticed and an extra blank line above it. (The index.md file is actually built by a script that looks at all the api/* documents, so if we don't fix the typo in the original file, it'll just come back the next time the script gets run.) You could add this to your pull request or I can catch it later.\r\n\r\nAlso, have you signed our CLA? (I'm not in a place I can easily check right now.)\r\n\r\nhttp://rethinkdb.com/community/cla/"
+  , issueCommentId = 216081384
+  }

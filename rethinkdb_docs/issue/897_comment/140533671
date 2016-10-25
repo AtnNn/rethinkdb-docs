@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-15) 20 : 44 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140533671"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/897#issuecomment-140533671"
+  , issueCommentCreatedAt = 2015 (-09) (-15) 20 : 44 : 39 UTC
+  , issueCommentBody =
+      "It's good to know! We're probably going to add a little note about the lack of thread safety at the very bottom of the 10-minute guide under the \"Learn more\" box, as well as the driver installation page, so hopefully people will be able to find this. (I'm also going to add notes about the integration with Tornado there, with links to the main documentation on how that works.)"
+  , issueCommentId = 140533671
+  }

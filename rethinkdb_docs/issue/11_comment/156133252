@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-12) 15 : 09 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 395843
+        , simpleUserLogin = N "irony"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/395843?v=3"
+        , simpleUserUrl = "https://api.github.com/users/irony"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/156133252"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-156133252"
+  , issueCommentCreatedAt = 2015 (-11) (-12) 15 : 09 : 38 UTC
+  , issueCommentBody =
+      "For anyone using docker and rethinkdb, you need to use --bind-all on the proxy to make it accessible from your linked containers."
+  , issueCommentId = 156133252
+  }

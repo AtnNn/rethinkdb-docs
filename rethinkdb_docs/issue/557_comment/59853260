@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-20) 22 : 52 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59853260"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/557#issuecomment-59853260"
+  , issueCommentCreatedAt = 2014 (-10) (-20) 22 : 52 : 41 UTC
+  , issueCommentBody = "Yes, I did. \r\n"
+  , issueCommentId = 59853260
+  }

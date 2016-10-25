@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-07) 17 : 21 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48208769"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/391#issuecomment-48208769"
+  , issueCommentCreatedAt = 2014 (-07) (-07) 17 : 21 : 21 UTC
+  , issueCommentBody =
+      "@chipotle, let's pull off the comparison tables image, and then we can push it. I think that image needs a bit more work (as discussed with @ahruygt.)"
+  , issueCommentId = 48208769
+  }

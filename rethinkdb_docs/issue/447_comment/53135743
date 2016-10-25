@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-22) 23 : 58 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53135743"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/447#issuecomment-53135743"
+  , issueCommentCreatedAt = 2014 (-08) (-22) 23 : 58 : 14 UTC
+  , issueCommentBody =
+      "Okay, so:\r\n\r\n* There are closed milestone/issue links in rethinkdb-vs-mongodb\r\n* The people page should be updated\r\n* Protobufs shouldn't be mentioned in introduction-to-reql\r\n* While we've (just!) standardized on \"map-reduce,\" there's a \"map/reduce\" in here somewhere (grr)\r\n* We use \"Javascript\" as well as \"JavaScript\"\r\n* The secondary-indexes page links to an out-of-date issue\r\n* CSS stuff\r\n\r\n(The closed migration issue will no longer be linked when v1.14 is released.)\r\n\r\nThese are all separate issues, as small as some of them may be -- they shouldn't all be in this issue, since the only connection between them is that aho reported them all. :) Let's treat this issue as specifically relating to the first bullet point, and I'll open other tickets for the other bits.\r\n"
+  , issueCommentId = 53135743
+  }

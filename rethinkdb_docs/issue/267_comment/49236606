@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-16) 22 : 30 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49236606"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/267#issuecomment-49236606"
+  , issueCommentCreatedAt = 2014 (-07) (-16) 22 : 30 : 30 UTC
+  , issueCommentBody =
+      "Has the change been pushed? I don't see a difference."
+  , issueCommentId = 49236606
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-01) 19 : 25 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65119687"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/591#issuecomment-65119687"
+  , issueCommentCreatedAt = 2014 (-12) (-01) 19 : 25 : 03 UTC
+  , issueCommentBody =
+      "Thank you for reporting this @mkleehammer .\r\nWhich FAQ is this in? I can't find it on http://rethinkdb.com/faq/"
+  , issueCommentId = 65119687
+  }

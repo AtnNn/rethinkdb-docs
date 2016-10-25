@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-12) 02 : 20 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37369225"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/200#issuecomment-37369225"
+  , issueCommentCreatedAt = 2014 (-03) (-12) 02 : 20 : 03 UTC
+  , issueCommentBody =
+      "This is done except for the Python and JS API docs which @neumino is handling (done in CR 1301)."
+  , issueCommentId = 37369225
+  }

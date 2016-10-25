@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-07) 19 : 31 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/25837853"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/8#issuecomment-25837853"
+  , issueCommentCreatedAt = 2013 (-10) (-07) 19 : 31 : 11 UTC
+  , issueCommentBody =
+      "For Arch, this should be enough\r\n\r\n```\r\nyaourt -S termcap\r\n```\r\n\r\nThe instructions are however broken because of v8 -- I'll update the whole Arch doc when https://github.com/rethinkdb/rethinkdb/issues/1195 is merged.\r\n\r\n\r\nI'll also set up some VM and keep them somewhere for Mint and OpenSuse."
+  , issueCommentId = 25837853
+  }

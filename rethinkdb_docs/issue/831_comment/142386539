@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-22) 19 : 01 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/142386539"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/831#issuecomment-142386539"
+  , issueCommentCreatedAt = 2015 (-09) (-22) 19 : 01 : 06 UTC
+  , issueCommentBody =
+      "@chipotle - yes, while reading the Tornado docs to prepare this, I was very confused as to why we were going over that.  If someone wants to learn how to run Twisted/Tornado tasks in the background and cancel them correctly, there are plenty of generic tutorials out there.  That section doesn't even mention ReQL."
+  , issueCommentId = 142386539
+  }

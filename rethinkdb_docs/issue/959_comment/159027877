@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-23) 18 : 58 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/159027877"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/959#issuecomment-159027877"
+  , issueCommentCreatedAt = 2015 (-11) (-23) 18 : 58 : 02 UTC
+  , issueCommentBody =
+      "Thanks for the PR @skinkie !\r\n\r\nHave you signed out CLA yet? http://rethinkdb.com/community/cla/"
+  , issueCommentId = 159027877
+  }

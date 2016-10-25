@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 22 : 46 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51408141"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/438#issuecomment-51408141"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 22 : 46 : 11 UTC
+  , issueCommentBody =
+      "Okay -- I may have assumed incorrectly that you did the `gen_python.py` script that's adding the \">>>\" and \"...\" characters, and they don't go well with examples that show both input and output.\r\n\r\nI can see where in the `gen_python.py` file to change that to just a four-space indent, but I don't know how to verify the change."
+  , issueCommentId = 51408141
+  }

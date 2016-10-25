@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-16) 22 : 03 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46243973"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/344#issuecomment-46243973"
+  , issueCommentCreatedAt = 2014 (-06) (-16) 22 : 03 : 05 UTC
+  , issueCommentBody =
+      "Merged in v1.13 as f64db71dfb34f39b72092913dbee260ef7d81458"
+  , issueCommentId = 46243973
+  }

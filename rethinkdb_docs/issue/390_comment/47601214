@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-30) 23 : 40 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47601214"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/390#issuecomment-47601214"
+  , issueCommentCreatedAt = 2014 (-06) (-30) 23 : 40 : 53 UTC
+  , issueCommentBody =
+      "I added a bit of text for the author credits (the way the two Scala drivers are presented). Thanks!"
+  , issueCommentId = 47601214
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-08) 22 : 38 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/100386942"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/740#issuecomment-100386942"
+  , issueCommentCreatedAt = 2015 (-05) (-08) 22 : 38 : 26 UTC
+  , issueCommentBody =
+      "I'm not sure if it's a good idea to remove it from the signature. It's good to have the signatures complete (they're also helpful for external tools and driver developers who might use them for deducing the result types of terms).\r\n\r\nRemoving it from the description makes sense though, and adding an info box I think makes sense as well."
+  , issueCommentId = 100386942
+  }

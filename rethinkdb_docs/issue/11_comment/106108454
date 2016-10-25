@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-27) 23 : 24 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/106108454"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-106108454"
+  , issueCommentCreatedAt = 2015 (-05) (-27) 23 : 24 : 13 UTC
+  , issueCommentBody =
+      "> a good pattern to have a `rethinkdb proxy` process running on each application server\r\n\r\n:+1: that was the intention when we built it."
+  , issueCommentId = 106108454
+  }

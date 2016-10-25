@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-14) 14 : 41 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 680198
+        , simpleUserLogin = N "NeilHanlon"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/680198?v=3"
+        , simpleUserUrl = "https://api.github.com/users/NeilHanlon"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/209963634"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1085#issuecomment-209963634"
+  , issueCommentCreatedAt = 2016 (-04) (-14) 14 : 14 : 31 UTC
+  , issueCommentBody =
+      "It appears this is because it's in a code block so it's treating it literally. \r\n\r\nOne option is:\r\nhttps://gist.github.com/NeilHanlon/e701e3f1c914688b6066fd069ec2afe7#the-grant-command\r\n\r\nBut I'm not sure I like how that looks."
+  , issueCommentId = 209963634
+  }

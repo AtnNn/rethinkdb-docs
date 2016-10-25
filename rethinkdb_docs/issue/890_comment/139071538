@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-09) 23 : 26 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/139071538"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/890#issuecomment-139071538"
+  , issueCommentCreatedAt = 2015 (-09) (-09) 23 : 26 : 09 UTC
+  , issueCommentBody =
+      "Okay, subtle changes but I think maybe more clear. Is there any ambiguity in understanding the part  \"`all posts into memory`\", could people be confused about the \"posts\" being talked about here? When we are referring to just the embedded array `posts`? "
+  , issueCommentId = 139071538
+  }

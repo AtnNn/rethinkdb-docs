@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-10) 02 : 03 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/155259402"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/941#issuecomment-155259402"
+  , issueCommentCreatedAt = 2015 (-11) (-10) 02 : 03 : 37 UTC
+  , issueCommentBody =
+      "Thanks @danielmewes. I've changed the links to use https."
+  , issueCommentId = 155259402
+  }

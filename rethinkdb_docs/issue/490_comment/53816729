@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-28) 22 : 52 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53816729"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/490#issuecomment-53816729"
+  , issueCommentCreatedAt = 2014 (-08) (-28) 22 : 52 : 53 UTC
+  , issueCommentBody =
+      "This is the text we changed it to with v1.14.\r\n\r\nSo: we consider 1.13 and 1.14 two separate major releases, which isn't the typical versioning scheme. Is it planned that RethinkDB 2.0 will have seamless migration from whatever the last 1.x version is? If yes, then we should probably remove the 1.x -> 1.y reference. If we're not sure yet, we should probably leave it as is."
+  , issueCommentId = 53816729
+  }

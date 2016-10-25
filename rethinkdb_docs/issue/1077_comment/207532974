@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-08) 17 : 42 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 6272902
+        , simpleUserLogin = N "muriloventuroso"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/6272902?v=3"
+        , simpleUserUrl = "https://api.github.com/users/muriloventuroso"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/207532974"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1077#issuecomment-207532974"
+  , issueCommentCreatedAt = 2016 (-04) (-08) 17 : 42 : 58 UTC
+  , issueCommentBody = "sorry"
+  , issueCommentId = 207532974
+  }

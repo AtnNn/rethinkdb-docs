@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-01) 22 : 48 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/161121879"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-161121879"
+  , issueCommentCreatedAt = 2015 (-12) (-01) 22 : 48 : 17 UTC
+  , issueCommentBody =
+      "I need to get back to the cursor bits, as that's the remaining bit of API documentation...\r\n\r\nBasically, I need the equivalents of these, assuming they're all there:\r\n\r\nhttp://rethinkdb.com/api/python/next/ (get the next item in a cursor)\r\nhttp://rethinkdb.com/api/python/each/ (iterate through a cursor; this is actually just Python `for`)\r\nhttp://rethinkdb.com/api/python/to_array/ (`list` in Python, i.e., convert to an array)\r\n\r\nI can open up a CR later today with what I have, after converting from JS to Python."
+  , issueCommentId = 161121879
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-22) 23 : 46 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49816443"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/417#issuecomment-49816443"
+  , issueCommentCreatedAt = 2014 (-07) (-22) 23 : 46 : 45 UTC
+  , issueCommentBody = "It would fit in \"Get started\" maybe?"
+  , issueCommentId = 49816443
+  }

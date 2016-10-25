@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-01) 01 : 54 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 8921895
+        , simpleUserLogin = N "ha1331"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/8921895?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ha1331"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/126848780"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/842#issuecomment-126848780"
+  , issueCommentCreatedAt = 2015 (-08) (-01) 01 : 52 : 24 UTC
+  , issueCommentBody =
+      "Maybe also consider explaining what \"server\" means in this case. Is server the one syncing with elasticsearch, any primary of any table that is being synced with elasticsearch, elaticsearch server or all of the ones mentioned."
+  , issueCommentId = 126848780
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-01) 21 : 28 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47712084"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/151#issuecomment-47712084"
+  , issueCommentCreatedAt = 2014 (-07) (-01) 21 : 28 : 04 UTC
+  , issueCommentBody =
+      "I can see that, but the Data Explorer actually behaves like the non-JS languages. Is there any data on how much time users spend with the Explorer? Do they just play around with it for a few minutes and never use it again, or do they use it fairly regularly for testing and ad hoc querying?\r\n\r\nI think this is an interesting question because it seems to me that some of the non-API documentation might be better explained with JS examples actually meant for the Data Explorer. You might have a better sense than I do if that's likely to confuse users, or perhaps better put in another document at some point in the future. (If I were reading a *Learning ReQL* book, though, that's probably what I'd want -- the best way to learn the language is to be able to type in the examples, and the fastest way to do that with Rethink is the Data Explorer.)"
+  , issueCommentId = 47712084
+  }

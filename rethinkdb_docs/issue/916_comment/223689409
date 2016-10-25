@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-03) 21 : 18 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 478118
+        , simpleUserLogin = N "bchavez"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/478118?v=3"
+        , simpleUserUrl = "https://api.github.com/users/bchavez"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/223689409"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/916#issuecomment-223689409"
+  , issueCommentCreatedAt = 2016 (-06) (-03) 20 : 42 : 30 UTC
+  , issueCommentBody =
+      "Related: https://github.com/rethinkdb/docs/issues/715\r\n\r\nEncountered this usability issue again while trying to power through some ReQL documentation. I was fighting this scroll bar issue the whole time. This issue really got to me so I wrote a [**Stylish**](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en) CSS override for the API docs.\r\n\r\n**Applies to: URLs starting with: `http://rethinkdb.com/api/`**\r\n```\r\n/* dark theme */\r\nbody{\r\n    background-color: #111;\r\n}\r\na, em{\r\n    color: #eee !important;\r\n}\r\n.highlight pre, pre, .highlight .hll, div.highlighter-rouge, .highlight{\r\n    background-color: #ccc;\r\n}\r\ncode{\r\n    color: #000;\r\n    background-color: #aaa;\r\n}\r\n\r\n/* hack the stuff */\r\n.docs-sidebar-left {\r\n    position: fixed !important;\r\n    top: 0 !important;\r\n    bottom: 0 !important;\r\n    overflow-y: auto;\r\n    width: 240px !important;\r\n    z-index: 9999;\r\n}\r\n.back-to-top {\r\n    visibility: hidden;\r\n}\r\nsection.api-content{\r\n    padding-left: 260px !important;\r\n    width: 1100px !important;\r\n}\r\nsection.api-command{\r\n    padding-left: 260px !important;\r\n    width: 1100px !important;\r\n}\r\n.site-nav {\r\n    display: none;\r\n}\r\nfooter{\r\n    display: none;\r\n}\r\n.commands{\r\n    display: block !important;\r\n}\r\n.additional-help{\r\n    display: none;\r\n}\r\n```\r\nAlso, it would be nice if some of the API content was AJAX-able, so i wouldn't lose my place in the scroll bar every time I navigate to a command in the scroll bar.\r\n\r\nOther than the AJAX issue, the CSS override works good.\r\n\r\nEDIT: Minor update to CSS overrides"
+  , issueCommentId = 223689409
+  }

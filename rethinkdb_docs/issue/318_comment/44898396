@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-02) 22 : 16 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44898396"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/318#issuecomment-44898396"
+  , issueCommentCreatedAt = 2014 (-06) (-02) 22 : 16 : 52 UTC
+  , issueCommentBody =
+      "That's done (pending review). \r\nWe should also try not to open the example repositories before merging (for 1.13)."
+  , issueCommentId = 44898396
+  }

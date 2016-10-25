@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-18) 21 : 47 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10472285
+        , simpleUserLogin = N "deoqc"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10472285?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deoqc"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/233469335"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/500#issuecomment-233469335"
+  , issueCommentCreatedAt = 2016 (-07) (-18) 21 : 47 : 59 UTC
+  , issueCommentBody =
+      "@danielmewes it is option 2, it call Thinky function and so it is executed no matter what.\r\n\r\nTwo quick questions:\r\n- If I called a regular ReQL query in `>>[save]`, would `r.do / r.branch` be the recommended pattern (aka *rethinkdb way*) for these uniqueness checks?\r\n- I know Thinky is not officially supported, but any clue on why this work this way and how could I use Thinky following the recommended pattern would be deeply appreciated."
+  , issueCommentId = 233469335
+  }

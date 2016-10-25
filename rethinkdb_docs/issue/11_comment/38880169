@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-28) 01 : 18 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38880169"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-38880169"
+  , issueCommentCreatedAt = 2014 (-03) (-28) 01 : 18 : 11 UTC
+  , issueCommentBody =
+      "I think the fact that literally not a single person has asked for such a thing or bothered to implement it in practice is a strong, strong data point against the proxy command. Also, we never actually empirically validated our assumptions about performance impact.\r\n"
+  , issueCommentId = 38880169
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-17) 23 : 46 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35333858"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/187#issuecomment-35333858"
+  , issueCommentCreatedAt = 2014 (-02) (-17) 23 : 46 : 04 UTC
+  , issueCommentBody =
+      "Ok -- done with my comments. Let me know when I should review again. (I'll try to be much more prompt so the commit doesn't sit around for weeks)."
+  , issueCommentId = 35333858
+  }

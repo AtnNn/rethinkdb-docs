@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-21) 23 : 11 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49678713"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/422#issuecomment-49678713"
+  , issueCommentCreatedAt = 2014 (-07) (-21) 23 : 11 : 39 UTC
+  , issueCommentBody =
+      "Oh, I missed that one. Very nice. I don't think there's anything specific to call out in this one. I guess the main thing would be to link to all three versions."
+  , issueCommentId = 49678713
+  }

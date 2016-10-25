@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-29) 10 : 06 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33570920"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/166#issuecomment-33570920"
+  , issueCommentCreatedAt = 2014 (-01) (-29) 10 : 06 : 16 UTC
+  , issueCommentBody =
+      "Hi @jurajmasar -- thanks for the amazing work, and sorry for the delay on this. We've been a bit overwhelmed with a gazillion tasks, so the backlog is getting bigger. We're working on fixing this, but in the meantime would you mind submitting a pull request to make things easier on us? (see https://github.com/rethinkdb/docs/blob/master/1-get-started/drivers/index.md)"
+  , issueCommentId = 33570920
+  }

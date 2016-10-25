@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 17 : 36 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46876643"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-46876643"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 17 : 36 : 29 UTC
+  , issueCommentBody =
+      "What I have in the not-a-style-guide-yet document for this now is this:\r\n\r\nWhen showing both input and output, display them using a single code block,\r\nwith input and output separated by a comment.\r\n\r\n```js\r\nr.expr({foo: 1}).add({bar: 2}).run(conn, callback)\r\n// result passed to callback\r\n{ \"foo\": 1, \"bar\": 2 }\r\n```\r\n\r\n```py\r\nr.expr({'foo': 1}).add({'bar': 2}).run(conn)\r\n# return\r\n{ 'foo': 1, 'bar': 2 }\r\n```\r\n\r\n\r\n\r\nOn Sun, Jun 22, 2014 at 7:42 PM, Slava Akhmechet <notifications@github.com>\r\nwrote:\r\n\r\n> @chipotle <https://github.com/chipotle> -- could you summarize the style\r\n> guide and close the issue?\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/327#issuecomment-46801918>.\r\n>"
+  , issueCommentId = 46876643
+  }

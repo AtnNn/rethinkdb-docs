@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-04) 01 : 40 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10472285
+        , simpleUserLogin = N "deoqc"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10472285?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deoqc"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/237427484"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/500#issuecomment-237427484"
+  , issueCommentCreatedAt = 2016 (-08) (-04) 01 : 40 : 38 UTC
+  , issueCommentBody =
+      "Thanks a lot @danielmewes for your time. \r\n\r\nI will do some `try / catch` while inserting to db, since this is the only safe way. And if some insert fail, *rollback* removing what was inserted.\r\n\r\n"
+  , issueCommentId = 237427484
+  }

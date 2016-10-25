@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-07) 19 : 21 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/162630509"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/958#issuecomment-162630509"
+  , issueCommentCreatedAt = 2015 (-12) (-07) 19 : 21 : 20 UTC
+  , issueCommentBody =
+      "Just as a clarification: to remove a server from all tables, you'd need to remove *all* the server's tags, not just the `default` tag, wouldn't you? Conceivably a server could be removed from the `default` group but still have other server tags."
+  , issueCommentId = 162630509
+  }

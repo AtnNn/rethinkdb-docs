@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-07) 00 : 05 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/42374976"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/245#issuecomment-42374976"
+  , issueCommentCreatedAt = 2014 (-05) (-07) 00 : 05 : 30 UTC
+  , issueCommentBody =
+      "@atnnn -- you mean this?\r\n> Note: that the init.d script produces a feedback line for each registered instance when queried. This is not standard behavior for an init.d script, so if you have a tool that depends upon standard init.d script output, you might need to limit each machine to only one RethinkDB instance"
+  , issueCommentId = 42374976
+  }

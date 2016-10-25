@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-14) 21 : 03 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 354848
+        , simpleUserLogin = N "hamiltop"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/354848?v=3"
+        , simpleUserUrl = "https://api.github.com/users/hamiltop"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/196520753"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/962#issuecomment-196520753"
+  , issueCommentCreatedAt = 2016 (-03) (-14) 21 : 03 : 47 UTC
+  , issueCommentBody =
+      "@danielmewes Sorry, I was asking a question. Why does that enable better cpu usage? What aspect of multiple client connections leads to more cpu usage?"
+  , issueCommentId = 196520753
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-25) 18 : 20 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53305634"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/476#issuecomment-53305634"
+  , issueCommentCreatedAt = 2014 (-08) (-25) 18 : 20 : 34 UTC
+  , issueCommentBody =
+      "Per Slava's suggestion, we'll stick with your pull request and add feed to `each` rather than removing it from the index."
+  , issueCommentId = 53305634
+  }

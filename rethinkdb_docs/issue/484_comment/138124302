@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-06) 20 : 44 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2352088
+        , simpleUserLogin = N "hellodk"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2352088?v=3"
+        , simpleUserUrl = "https://api.github.com/users/hellodk"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/138124302"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/484#issuecomment-138124302"
+  , issueCommentCreatedAt = 2015 (-09) (-06) 20 : 44 : 54 UTC
+  , issueCommentBody =
+      "@danielmewes we have two client machines, how do we connect both of them using proxy server? As you said earlier:\r\n\"To start a RethinkDB proxy on the client:\r\nrethinkdb proxy -j <server1host> -j <server2host> ...\"\r\nonly of the clients can connect in this way, since the ports will already be in use. "
+  , issueCommentId = 138124302
+  }

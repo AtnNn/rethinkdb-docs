@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-25) 23 : 34 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27133516"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/36#issuecomment-27133516"
+  , issueCommentCreatedAt = 2013 (-10) (-25) 23 : 34 : 36 UTC
+  , issueCommentBody =
+      "neumino: I think `./configure --allow-fetch` sould work everywhere.\r\n\r\nOtherwise, the configure script could be fixed or the platform-dependent build instructions can include `echo --configure-options > configure.default`"
+  , issueCommentId = 27133516
+  }

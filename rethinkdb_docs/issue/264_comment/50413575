@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-28) 22 : 54 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/50413575"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/264#issuecomment-50413575"
+  , issueCommentCreatedAt = 2014 (-07) (-28) 22 : 54 : 41 UTC
+  , issueCommentBody =
+      "Other things to provide during a crash:\r\n* The output of RethinkDB while it's starting up.\r\n* The backtrace from the crash, if any.\r\n* What you were doing at the time.\r\n  - Is it reproducible?  If so, how do you reproduce it?\r\n* What your cluster configuration is.\r\n* What machine you're running on, especially:\r\n  - How much memory it has.\r\n  - Whether or not it's virtualized.\r\n  - What file system you're using.\r\n  - Any strange configuration details.\r\n\r\nTo avoid info dumping, we should probably mention the big three things we need first (output of RethinkDB when it's started, backtrace from the crash, output of `uname -a`), and then mention the nice-to-haves."
+  , issueCommentId = 50413575
+  }

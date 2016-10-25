@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-31) 21 : 32 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243909105"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1170#issuecomment-243909105"
+  , issueCommentCreatedAt = 2016 (-08) (-31) 21 : 32 : 12 UTC
+  , issueCommentBody =
+      "I'm closing this in favor of #1174 as that seems to be what we've moved toward to in the comments. That one will, er, fold in `fold` as well."
+  , issueCommentId = 243909105
+  }

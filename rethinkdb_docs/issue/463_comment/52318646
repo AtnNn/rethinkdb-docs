@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-15) 15 : 26 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52318646"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/463#issuecomment-52318646"
+  , issueCommentCreatedAt = 2014 (-08) (-15) 15 : 26 : 21 UTC
+  , issueCommentBody =
+      "I should be able to -- it doesn't look like it's a very complicated command."
+  , issueCommentId = 52318646
+  }

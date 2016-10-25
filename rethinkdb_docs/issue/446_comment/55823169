@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-16) 22 : 24 : 23 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55823169"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/446#issuecomment-55823169"
+  , issueCommentCreatedAt = 2014 (-09) (-16) 22 : 24 : 23 UTC
+  , issueCommentBody =
+      "I think this issue is fixed in 1.15.\r\n\r\nThe API docs, and the article have been written and have been reviewed.\r\n\r\nI'm generating the docs for the python driver and the data explorer."
+  , issueCommentId = 55823169
+  }

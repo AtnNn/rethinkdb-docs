@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-31) 00 : 14 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/203692375"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1059#issuecomment-203692375"
+  , issueCommentCreatedAt = 2016 (-03) (-31) 00 : 14 : 21 UTC
+  , issueCommentBody =
+      "3. Permissions & System Tables\r\n====\r\n\r\nThe meaning of `read` and `write` permissions on the common operations on normal tables is fairly obvious. These semantics mostly apply to the system tables as well. However there are a few special cases:\r\n\r\n__config() vs. table_config__\r\nA table can be reconfigured in two ways:\r\n\r\n1. By calling `r.db(...).table(...).reconfigure(...)`, or by changing the configuration through `r.db(...).table(...).config().update(...)`. In these cases, the `\"config\"` permission on the given table determines whether a user is allowed to perform these operations or not. In fact calling `config()` is only allowed if the user has `\"config\"` permissions, even when no subsequent `update()` is used in the query.\r\n2. By writing directly to `r.db('rethinkdb').table('table_config')`. Only the \"admin\" user can write to this table. It doesn't matter which permissions a user has on the table they are trying to reconfigure, and it doesn't matter which permissions a user has on `r.db('rethinkdb').table('table_config')` either.\r\n\r\n__System tables__\r\nGenerally system tables can only be written to by the \"admin\" user. Read permissions on the other hand are assigned in the usual way, by granting `\"read\"` permissions either globally, on `r.db('rethinkdb')` or on one of the system tables `r.db('rethinkdb').table(...)` specifically.\r\n\r\nThere are two exceptions to this general rule:\r\n* `users`: A user who has `\"write\"` permissions on `r.db('rethinkdb').table('users')` can update their own entry. This is useful for allowing users to change their own password. They can not write to any other entry in the table, nor can they insert or delete any documents (including their own).\r\n* `jobs`: Even with read permissions, a user is only able to see their own queries in the `jobs` table. The only exception is the \"admin\" user who can see all entries. (this might still change. We might end up not allowing any read access at all for regular users in 2.3, and only show entries for the \"admin\" user.)"
+  , issueCommentId = 203692375
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-19) 22 : 22 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/67706264"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/585#issuecomment-67706264"
+  , issueCommentCreatedAt = 2014 (-12) (-19) 22 : 22 : 00 UTC
+  , issueCommentBody =
+      "I realized this is actually a duplicate of #561, so it's in the v1.16 doc branch already."
+  , issueCommentId = 67706264
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-02) 17 : 48 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57670458"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/494#issuecomment-57670458"
+  , issueCommentCreatedAt = 2014 (-10) (-02) 17 : 48 : 10 UTC
+  , issueCommentBody =
+      "Sorry @chipotle, I missed that.\r\n\r\nFor:\r\n```\r\nr.object(\r\n    'average_year', r.table('movies')('year').avg(),\r\n    'total_votes', r.table('movies')('votes').sum()\r\n)\r\n```\r\nI think that we don't optimize this yet, so we will load twice the table movies.\r\n\r\n\r\nAbout the map reduce, this works for me:\r\n```\r\nr.table('movies').orderBy('rank').limit(25).map(function (doc) {\r\n  return { total_votes: doc('votes'), total_year: doc('year'), count: 1 };\r\n}).reduce(function (left, right) {\r\n  return {\r\n    total_votes: left('total_votes').add(right('total_votes')),\r\n    total_year: left('total_year').add(right('total_year')),\r\n    count: left('count').add(right('count'))\r\n  };\r\n}).do(function (res) {\r\n  return {\r\n    total_votes: res('total_votes'),\r\n    average_year: res('total_year').div(res('count'))\r\n  };\r\n})\r\n```\r\n\r\nYou need to replace the last `map` with `do` as `reduce` returns an object.\r\n\r\n\r\nAlso just a quick note, the backtrace is currently:\r\n```\r\nRqlRuntimeError: Cannot convert OBJECT to SEQUENCE in:\r\nr.table(\"movies\").orderBy(\"rank\").limit(25).map(function(var_0) { return {total_votes: var_0(\"votes\"), total_year: var_0(\"year\"), count: 1}; }).reduce(function(var_1, var_2) { return {total_votes: var_1(\"total_votes\").add(var_2(\"total_votes\")), total_year: var_1(\"total_year\").add(var_2(\"total_year\")), count: var_1(\"count\").add(var_2(\"count\"))}; }).map(function(var_3) { return {total_votes: var_3(\"total_votes\"), average_year: var_3(\"total_year\").div(var_3(\"count\"))}; })\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n```\r\nSo maybe we should schedule some work on them (ping @coffeemug)"
+  , issueCommentId = 57670458
+  }

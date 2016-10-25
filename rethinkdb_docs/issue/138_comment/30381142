@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-12) 01 : 10 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30381142"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/138#issuecomment-30381142"
+  , issueCommentCreatedAt = 2013 (-12) (-12) 01 : 10 : 10 UTC
+  , issueCommentBody =
+      "Here's the brew formula for RethinkDB:\r\n\r\nhttps://github.com/mxcl/homebrew/blob/master/Library/Formula/rethinkdb.rb\r\n\r\nThe homebrew organisation have buildbots that test that the formula works: http://bot.brew.sh/job/Homebrew%20Pull%20Requests/5249/\r\n\r\nThe only brew dependency should be boost. protobuf and v8 need to be fetched. termcap comes with OS X. tcmalloc is disabled by the configure script when building on OS X."
+  , issueCommentId = 30381142
+  }

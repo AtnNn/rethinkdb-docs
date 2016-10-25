@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-20) 01 : 11 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94331487"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/79#issuecomment-94331487"
+  , issueCommentCreatedAt = 2015 (-04) (-20) 01 : 11 : 55 UTC
+  , issueCommentBody =
+      "I think all of these have been addressed save for the primer/walkthrough idea, which we should revisit as part of the ontology update."
+  , issueCommentId = 94331487
+  }

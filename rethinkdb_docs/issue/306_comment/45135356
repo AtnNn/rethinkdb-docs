@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-04) 18 : 55 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45135356"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/306#issuecomment-45135356"
+  , issueCommentCreatedAt = 2014 (-06) (-04) 18 : 55 : 31 UTC
+  , issueCommentBody =
+      "A user asked some great questions about `r.http`. I'm going to write a tutorial, and it should cover all those questions. Here they are, so I don't forget:\r\n\r\n- What's the objective of r.http?\r\n- Can I request a JSON from an API (like Github, Twitter, Facebook) and save in a RethinkDB document with r.http?\r\n  - If yes, can I do something with the requested JSON, like select only some fields, or process the data with some parse function?\r\n  - If yes, what's the advantage of use r.http instead of, for example, make a request with cURL from the app and send to RethinkDB?\r\n- Do you guys have any example app using r.http?\r\n- If I create an app with Ruby and another with Node.JS (for example), r.http will have the same result?"
+  , issueCommentId = 45135356
+  }

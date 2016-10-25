@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-02) 18 : 03 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/76764294"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/601#issuecomment-76764294"
+  , issueCommentCreatedAt = 2015 (-03) (-02) 18 : 03 : 42 UTC
+  , issueCommentBody =
+      "Some of what's in this is already in the documentation -- this is just a matter of reorganization -- and the new outline I'd proposed a while ago has an \"Administration\" section.\r\n\r\nI've updated that outline to show the new sections that were added in 1.16, along with a couple sections that don't exist yet like \"Server tags and scaling.\"\r\n\r\nhttps://gist.github.com/c3a4daf1b7e25fb5b4cd.git"
+  , issueCommentId = 76764294
+  }

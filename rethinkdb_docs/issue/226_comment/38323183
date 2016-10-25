@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-21) 20 : 56 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38323183"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/226#issuecomment-38323183"
+  , issueCommentCreatedAt = 2014 (-03) (-21) 20 : 56 : 32 UTC
+  , issueCommentBody =
+      "@coffeemug -- Look at the code review 1352 if you prefer a side by side view."
+  , issueCommentId = 38323183
+  }

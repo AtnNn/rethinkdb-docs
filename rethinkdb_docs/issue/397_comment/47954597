@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-03) 16 : 44 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47954597"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/397#issuecomment-47954597"
+  , issueCommentCreatedAt = 2014 (-07) (-03) 16 : 44 : 34 UTC
+  , issueCommentBody =
+      "@brettgriffin -- Thank you for the pull request!\r\nCould you fill out the CLA (http://rethinkdb.com/community/cla/) so we can merge it in?\r\n\r\nWe would also need to make the same change in `api/python/control-structures/jd.md` and `api/ruby/control-structures/jd.md`"
+  , issueCommentId = 47954597
+  }

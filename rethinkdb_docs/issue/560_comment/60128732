@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-22) 18 : 08 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7375749
+        , simpleUserLogin = N "KittyBot"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7375749?v=3"
+        , simpleUserUrl = "https://api.github.com/users/KittyBot"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/60128732"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/560#issuecomment-60128732"
+  , issueCommentCreatedAt = 2014 (-10) (-22) 18 : 08 : 28 UTC
+  , issueCommentBody =
+      "This looks great @chipotle. We'll also want to add _Shirts for Stories_ to this page, right? \r\n\r\nI'd change \"meetup calendar\" to \"event calendar\" and include conferences, podcasts, etc. with a sub section for those who want to host or speak at their own local meetup and a link to _steps to do this_ or to _email me_ (can we set up events@rethinkdb.com if it hasn't been already?)."
+  , issueCommentId = 60128732
+  }

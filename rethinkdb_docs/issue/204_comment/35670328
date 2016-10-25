@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-20) 21 : 21 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35670328"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/204#issuecomment-35670328"
+  , issueCommentCreatedAt = 2014 (-02) (-20) 21 : 21 : 16 UTC
+  , issueCommentBody =
+      "@ccheever -- Thanks for reporting this!  The documentation should probably be clearer.  In particular, the second signature should have `selection<array>` as its return type.\r\n\r\nIf you look at the return types at the top, the non-indexed version of `orderBy` (the third signature) returns an array.  This is because non-indexed `orderBy` has to force all the rows into memory to sort them.\r\n\r\nIf you order using an index (the first signature), you should get back a normal stream, because ordering by an index is efficient and we can give you back rows part-way through."
+  , issueCommentId = 35670328
+  }

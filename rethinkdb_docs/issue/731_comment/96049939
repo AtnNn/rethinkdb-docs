@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 20 : 09 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96049939"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/731#issuecomment-96049939"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 20 : 09 : 55 UTC
+  , issueCommentBody =
+      "What if the code were changed to\r\n\r\n`r.table('posts').indexCreate(\"location\", [r.row(\"articleId\").default(null), r.row(\"commentId\").default(null)])`\r\n\r\nand\r\n\r\n`r.table('watchers').join([r.row('foreignArticleId').default(null),r.row('foreignCommentId').default(null)],'posts',{index:'location'})`\r\n\r\nWould that work now, or does rethinkdb/rethinkdb#1032 need to be implemented? What about if the defaults were `''` instead of `null`? What about `r.branch(r.row.hasFields('commentId'),[r.row(\"articleId\"), r.row(\"commentId\")], [r.row(\"articleId\")])` and its counterpart?"
+  , issueCommentId = 96049939
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-16) 01 : 08 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/226363151"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1141#issuecomment-226363151"
+  , issueCommentCreatedAt = 2016 (-06) (-16) 01 : 08 : 54 UTC
+  , issueCommentBody =
+      "@danielmewes -- one thing we could think about, actually, would be changing the output of `typeOf` so that `r(1).typeOf()` returns `DATUM<NUMBER>` instead of just `NUMBER`.  That might make the category clearer to people."
+  , issueCommentId = 226363151
+  }

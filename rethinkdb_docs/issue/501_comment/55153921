@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-10) 17 : 48 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1277553
+        , simpleUserLogin = N "jutaz"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1277553?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jutaz"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55153921"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/501#issuecomment-55153921"
+  , issueCommentCreatedAt = 2014 (-09) (-10) 17 : 48 : 11 UTC
+  , issueCommentBody =
+      "Signed ;)\r\n\r\n> On Sep 10, 2014, at 20:07, Slava Akhmechet <notifications@github.com> wrote:\r\n> \r\n> @jutaz -- thanks for the pull request! Could you please sign the CLA agreement before we can review? (http://rethinkdb.com/community/cla/)\r\n> \r\n> /cc @chipotle\r\n> \r\n> \8212\r\n> Reply to this email directly or view it on GitHub."
+  , issueCommentId = 55153921
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-01) 23 : 58 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57560208"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-57560208"
+  , issueCommentCreatedAt = 2014 (-10) (-01) 23 : 58 : 32 UTC
+  , issueCommentBody =
+      "I've looked at [batching.cc lines 173-199](https://github.com/rethinkdb/rethinkdb/blob/next/src/rdb_protocol/batching.cc#L173-L199); I can see what effect changing `first_scaledown_factor` has on the first result batch retrieved but I don't understand the use case for changing that parameter."
+  , issueCommentId = 57560208
+  }

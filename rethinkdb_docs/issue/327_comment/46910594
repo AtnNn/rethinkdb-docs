@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 22 : 28 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46910594"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-46910594"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 22 : 28 : 45 UTC
+  , issueCommentBody =
+      "Er, I thought we were only doing the comment for JS, and were keeping the:\r\n\r\n```py\r\n> r.expr({'foo': 1}).add({'bar': 2}).run(conn)\r\n{ 'foo': 1, 'bar': 2 }\r\n```\r\n\r\nformat for Python and Ruby."
+  , issueCommentId = 46910594
+  }

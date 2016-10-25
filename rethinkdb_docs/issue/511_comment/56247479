@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-19) 23 : 14 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/56247479"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/511#issuecomment-56247479"
+  , issueCommentCreatedAt = 2014 (-09) (-19) 23 : 14 : 18 UTC
+  , issueCommentBody =
+      "I can follow the gist but I'm not entirely sure what you're requesting from the issue title. :) Is this a cookbook recipe? What's the use case for this? Are you trying to demonstrate how to chain a function to monitoring a change feed, or just demonstrating how to increment a field in a document? (If it's the former, this seems like it's a cookbook recipe for changefeeds, not for insert.)"
+  , issueCommentId = 56247479
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-22) 22 : 36 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/56454255"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/518#issuecomment-56454255"
+  , issueCommentCreatedAt = 2014 (-09) (-22) 22 : 36 : 26 UTC
+  , issueCommentBody =
+      "The new format support was added in 1.14 (rethinkdb/rethinkdb#2764).  There are two formats we support, whitespace is ignored in both formats:\r\n\r\n* An array of JSON documents\r\n  * This means the file begins and ends with `[` and `]`, and each row is separated by a comma.\r\n* Whitespace-separated JSON rows\r\n  * Each row is a dict, and so begins and ends with `{` and `}`"
+  , issueCommentId = 56454255
+  }

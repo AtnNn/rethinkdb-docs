@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 02 : 59 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37495899"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/218#issuecomment-37495899"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 02 : 59 : 36 UTC
+  , issueCommentBody =
+      "I think that naming the callback `print_callback` would resolve any ambiguity.  And even if we don't want to do it for JavaScript, I don't think we should make Ruby and Python's examples worse just for the sake of formatting consistency.\r\n\r\n@coffeemug, do you have any opinion on this?"
+  , issueCommentId = 37495899
+  }

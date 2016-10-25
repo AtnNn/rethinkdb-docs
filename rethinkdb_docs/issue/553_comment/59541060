@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-17) 16 : 45 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59541060"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/553#issuecomment-59541060"
+  , issueCommentCreatedAt = 2014 (-10) (-17) 16 : 45 : 24 UTC
+  , issueCommentBody =
+      "Ah -- I did see their article on installing RethinkDB on Ubuntu 12.04, but not 14.04.\r\n\r\nDigital Ocean is essentially a VPS provider, not a PaaS setup like Compose or AWS -- the instructions there are applicable to any Ubuntu installation. We might want to think about a revamped community page with links to user-written articles about RethinkDB that include those links, though."
+  , issueCommentId = 59541060
+  }

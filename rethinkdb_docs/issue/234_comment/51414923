@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-07) 00 : 11 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51414923"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/234#issuecomment-51414923"
+  , issueCommentCreatedAt = 2014 (-08) (-07) 00 : 11 : 50 UTC
+  , issueCommentBody =
+      "@chipotle: that message means that you have not built the driver (process a file into place). Just call `make` in that directory and it will do it for you."
+  , issueCommentId = 51414923
+  }

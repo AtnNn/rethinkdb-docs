@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-29) 01 : 03 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41632416"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/286#issuecomment-41632416"
+  , issueCommentCreatedAt = 2014 (-04) (-29) 01 : 03 : 39 UTC
+  , issueCommentBody =
+      "Also another note -- we should add a troubleshooting page for more than 100k elements, and link to it from the `orderBy` docs. This way `orderBy` can maintain a reasonable number of examples in a reasonable order, and people can still fix their problem if they run into the limit."
+  , issueCommentId = 41632416
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 19 : 11 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44571889"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/321#issuecomment-44571889"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 19 : 11 : 18 UTC
+  , issueCommentBody =
+      "This should be for `between`, not `slice` (which is #280)"
+  , issueCommentId = 44571889
+  }

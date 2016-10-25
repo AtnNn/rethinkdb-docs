@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-26) 23 : 42 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29346736"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/110#issuecomment-29346736"
+  , issueCommentCreatedAt = 2013 (-11) (-26) 23 : 42 : 56 UTC
+  , issueCommentBody =
+      "Hey @natebrennand, thanks for the pull request!\r\n\r\n@atnnn fixed this bug in f8f72e7f1ebee941ec6441655eb55abae52ec053 as part of issue #102 but it was released just today with the 1.11 release.\r\n\r\nSince the bug was fixed, I'll close this pull request.  We still really appreciate you taking some time to send it! If you sign the CLA (http://rethinkdb.com/community/cla/), we would be happy to send you a tshirt : )"
+  , issueCommentId = 29346736
+  }

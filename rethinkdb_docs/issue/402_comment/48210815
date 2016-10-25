@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-07) 17 : 36 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48210815"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/402#issuecomment-48210815"
+  , issueCommentCreatedAt = 2014 (-07) (-07) 17 : 36 : 51 UTC
+  , issueCommentBody = "You can edit issue titles, you know :)"
+  , issueCommentId = 48210815
+  }

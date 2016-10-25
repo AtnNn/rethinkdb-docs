@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 21 : 15 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44586129"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-44586129"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 21 : 15 : 56 UTC
+  , issueCommentBody =
+      "I agree with @neumino -- I think that for one-liners having the result printed inline is clearly better, and for large output having the result printed on a separate line is clearly better. There is a fuzzy line somewhere in the middle where we should switch modes, but I'm not sure how big the output has to be for that to happen -- we can deal with it on case-by-case basis.\r\n\r\nIn this particular example (`split`) I think we should switch Javascript to use the inline notation -- it seems clearly better. I can see how printing small output inline could be confusing for Node users, but I think that's ok -- they only have to learn what's going on once, and can benefit from a compact notation forever after that.\r\n"
+  , issueCommentId = 44586129
+  }

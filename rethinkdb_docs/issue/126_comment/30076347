@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-08) 06 : 50 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30076347"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/126#issuecomment-30076347"
+  , issueCommentCreatedAt = 2013 (-12) (-08) 06 : 50 : 51 UTC
+  , issueCommentBody =
+      "Threre is also a commit for the generic build instructions.\r\n\r\nRelated issues:\r\nhttps://github.com/rethinkdb/docs/issues/35\r\nhttps://github.com/rethinkdb/docs/issues/85\r\nhttps://github.com/rethinkdb/docs/issues/86\r\nhttps://github.com/rethinkdb/docs/issues/4"
+  , issueCommentId = 30076347
+  }

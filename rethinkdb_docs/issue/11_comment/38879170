@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-28) 00 : 58 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38879170"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-38879170"
+  , issueCommentCreatedAt = 2014 (-03) (-28) 00 : 58 : 43 UTC
+  , issueCommentBody =
+      "The `proxy` command comes from the olden days when we didn't quite understand software as well as we thought we did. I think we should just delete it, and add connection pools to the client drivers instead."
+  , issueCommentId = 38879170
+  }

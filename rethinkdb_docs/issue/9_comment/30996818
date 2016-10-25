@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-20) 09 : 03 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30996818"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-30996818"
+  , issueCommentCreatedAt = 2013 (-12) (-20) 09 : 03 : 37 UTC
+  , issueCommentBody =
+      "> I see two ways of isolating it with RethinkDB\r\n\r\nYou're right about your assessment. I realize the operational challenges of running an instance/customer, and we'll be working very hard to fix scalability issues.\r\n\r\n> Is it per db or per cluster?\r\n\r\nIt is per cluster.\r\n\r\n> What ops exactly do you have in mind when you say \"has a linear effect on some operations\"?\r\n\r\nAny administrative operation. Here are some examples of things that will slow down:\r\n\r\n* Adding/removing a table\r\n* Adding/remove a database\r\n* Changing replication settings\r\n* Changing sharding settings\r\n\r\nData operations (i.e. queries you run through client drivers) should not slow down.\r\n\r\nCan you talk about the timelines/specifics of your project? (You can always shoot me an email to slava@rethinkdb.com if you'd prefer not to talk about it publicly)"
+  , issueCommentId = 30996818
+  }

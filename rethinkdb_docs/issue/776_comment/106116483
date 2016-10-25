@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-28) 00 : 07 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/106116483"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/776#issuecomment-106116483"
+  , issueCommentCreatedAt = 2015 (-05) (-28) 00 : 07 : 00 UTC
+  , issueCommentBody =
+      "I think an infobox at the top saying to go check out the changefeeds article first would be wise. We're going to have _significantly_ more articles about libraries and tools (based on blog posts), so this belongs with that set."
+  , issueCommentId = 106116483
+  }

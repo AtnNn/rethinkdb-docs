@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-10) 00 : 22 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45560866"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/337#issuecomment-45560866"
+  , issueCommentCreatedAt = 2014 (-06) (-10) 00 : 22 : 42 UTC
+  , issueCommentBody = "In CR 1617 by @neumino and @mlucy "
+  , issueCommentId = 45560866
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-29) 23 : 13 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97611807"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/743#issuecomment-97611807"
+  , issueCommentCreatedAt = 2015 (-04) (-29) 23 : 13 : 52 UTC
+  , issueCommentBody =
+      "I can't seem to find it.  Roughly, the number of intracluster messages is proportional to the number of servers with at least one open changefeed connection times the number of writes.  It would be nice to have some actual performance numbers, though."
+  , issueCommentId = 97611807
+  }

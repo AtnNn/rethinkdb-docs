@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-01) 21 : 21 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47711387"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/151#issuecomment-47711387"
+  , issueCommentCreatedAt = 2014 (-07) (-01) 21 : 21 : 14 UTC
+  , issueCommentBody =
+      "The only reason not to use JS is that it's different from most of the other drivers since it doesn't block.  A lot of example translate almost 1-1 from Python to Ruby (or to most third-party drivers)."
+  , issueCommentId = 47711387
+  }

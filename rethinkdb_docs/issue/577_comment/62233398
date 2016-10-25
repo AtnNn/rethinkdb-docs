@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-08) 00 : 00 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62233398"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/577#issuecomment-62233398"
+  , issueCommentCreatedAt = 2014 (-11) (-08) 00 : 00 : 46 UTC
+  , issueCommentBody =
+      "This is a little early. I was going to work on more test coverage and propose this when I release v1.0. Could this be rolled back till then?"
+  , issueCommentId = 62233398
+  }

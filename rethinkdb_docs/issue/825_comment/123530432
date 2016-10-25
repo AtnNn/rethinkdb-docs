@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-22) 01 : 58 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 106477
+        , simpleUserLogin = N "rgv151"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/106477?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rgv151"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/123530432"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/825#issuecomment-123530432"
+  , issueCommentCreatedAt = 2015 (-07) (-22) 01 : 58 : 41 UTC
+  , issueCommentBody =
+      "almost functions are working well, including `changes`. I just signed CLA. thanks"
+  , issueCommentId = 123530432
+  }

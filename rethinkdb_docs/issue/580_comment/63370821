@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-17) 20 : 34 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 297060
+        , simpleUserLogin = N "nviennot"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/297060?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nviennot"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63370821"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/580#issuecomment-63370821"
+  , issueCommentCreatedAt = 2014 (-11) (-17) 20 : 34 : 00 UTC
+  , issueCommentBody = "also `get(1)` should be `get_all(1)` right?"
+  , issueCommentId = 63370821
+  }

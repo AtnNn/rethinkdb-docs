@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-09) (-17) 17 : 51 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/24608443"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1#issuecomment-24608443"
+  , issueCommentCreatedAt = 2013 (-09) (-17) 17 : 51 : 57 UTC
+  , issueCommentBody =
+      "Err sorry, I thought Mary McDonnell was the fictional personage and not the actress.\r\nFixed in the last commit."
+  , issueCommentId = 24608443
+  }

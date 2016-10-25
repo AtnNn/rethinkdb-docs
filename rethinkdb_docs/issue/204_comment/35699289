@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-21) 04 : 55 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35699289"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/204#issuecomment-35699289"
+  , issueCommentCreatedAt = 2014 (-02) (-21) 04 : 55 : 40 UTC
+  , issueCommentBody =
+      "Ah, I knew that I pushed something for orderBy -- https://github.com/rethinkdb/docs/pull/190\r\n\r\nHum, the reason why it doesn't appear is because of the `<` and `>` characters. I recently switched to ruby 2.1 and update my gems, so that may be why...\r\n\r\nFixing it now."
+  , issueCommentId = 35699289
+  }

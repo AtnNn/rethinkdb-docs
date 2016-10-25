@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-16) 06 : 32 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/32445376"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/178#issuecomment-32445376"
+  , issueCommentCreatedAt = 2014 (-01) (-16) 06 : 32 : 01 UTC
+  , issueCommentBody =
+      "Correct, that package does not exist on older Ubuntu distributions.\r\n\r\n> On Jan 15, 2014, at 9:36 PM, Michel <notifications@github.com> wrote:\r\n> \r\n> I think it's because of nodejs-legacy\r\n> \r\n> \8212\r\n> Reply to this email directly or view it on GitHub."
+  , issueCommentId = 32445376
+  }

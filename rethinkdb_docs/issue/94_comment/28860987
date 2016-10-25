@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-20) 03 : 27 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28860987"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/94#issuecomment-28860987"
+  , issueCommentCreatedAt = 2013 (-11) (-20) 03 : 27 : 04 UTC
+  , issueCommentBody =
+      "These changes need to be updated in the Markdown files for individual commands as well, i.e.:\r\n\r\n`r`\r\n- https://github.com/rethinkdb/docs/blob/55065f231764220427d535f79edb6f074fe41849/api/javascript/accessing-rql/r.md\r\n- https://github.com/rethinkdb/docs/blob/55065f231764220427d535f79edb6f074fe41849/api/python/accessing-rql/r.md\r\n- https://github.com/rethinkdb/docs/blob/55065f231764220427d535f79edb6f074fe41849/api/ruby/accessing-rql/r.md\r\n\r\n... and so on for all the commands affected."
+  , issueCommentId = 28860987
+  }

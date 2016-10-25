@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-21) 21 : 27 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/199493546"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1047#issuecomment-199493546"
+  , issueCommentCreatedAt = 2016 (-03) (-21) 21 : 27 : 38 UTC
+  , issueCommentBody =
+      "No, we should link to the most current report on the sidebar, and in each performance report include a TOC that has links to past performance reports. We should probably add a TOC to this article, and below the TOC include another section labeled \"PREVIOUS PERFORMANCE REPORTS\""
+  , issueCommentId = 199493546
+  }

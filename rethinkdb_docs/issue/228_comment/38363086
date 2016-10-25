@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-22) 20 : 27 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38363086"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/228#issuecomment-38363086"
+  , issueCommentCreatedAt = 2014 (-03) (-22) 20 : 27 : 22 UTC
+  , issueCommentBody =
+      "Closed with https://github.com/rethinkdb/docs/pull/229"
+  , issueCommentId = 38363086
+  }

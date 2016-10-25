@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-11) 23 : 51 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30376921"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/138#issuecomment-30376921"
+  , issueCommentCreatedAt = 2013 (-12) (-11) 23 : 51 : 12 UTC
+  , issueCommentBody =
+      "@neumino, it might be worth mentioning how to install unsigned packages:\r\n\r\nhttps://github.com/rethinkdb/rethinkdb/issues/1565"
+  , issueCommentId = 30376921
+  }

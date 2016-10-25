@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-09) 09 : 23 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48447790"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/364#issuecomment-48447790"
+  , issueCommentCreatedAt = 2014 (-07) (-09) 09 : 23 : 57 UTC
+  , issueCommentBody =
+      "It was, here is the pull request -- https://github.com/rethinkdb/docs/pull/335\r\n\r\nWhat happened?"
+  , issueCommentId = 48447790
+  }

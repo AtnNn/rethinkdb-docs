@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-06) 23 : 44 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/42373634"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/245#issuecomment-42373634"
+  , issueCommentCreatedAt = 2014 (-05) (-06) 23 : 44 : 33 UTC
+  , issueCommentBody =
+      "@neumino sorry for the delay.\r\n\r\nIt looks good to me. The paragraph about the standard behaviour of init scripts can be removed."
+  , issueCommentId = 42373634
+  }

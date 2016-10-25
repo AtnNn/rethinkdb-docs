@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-14) 18 : 37 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/232753875"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1155#issuecomment-232753875"
+  , issueCommentCreatedAt = 2016 (-07) (-14) 18 : 37 : 44 UTC
+  , issueCommentBody =
+      "Ah, this is not the FAQ page, it is the \"Answers to Common Questions\" page, which is actually a blog entry. So this needs to be re-opened in the `www` repository.\r\n\r\nI've been told there is some historical reason why the \"FAQ\" in the documentation is not actually a list of Frequently Asked Questions but instead is largely about architecture (which is why it's in the architecture TOC section for now), but I really think we should consider moving \"Answers to Common Questions\" into the FAQ page sometime and make it a FAQ-as-the-term-is-commonly-used page."
+  , issueCommentId = 232753875
+  }

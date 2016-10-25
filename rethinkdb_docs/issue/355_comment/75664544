@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-23) 23 : 52 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/75664544"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/355#issuecomment-75664544"
+  , issueCommentCreatedAt = 2015 (-02) (-23) 23 : 52 : 31 UTC
+  , issueCommentBody =
+      "From what I can see @neumino's comments from here https://github.com/rethinkdb/docs/pull/358/files are still not reflected in the docs. So we should keep this open.\r\n\r\nAnother thing I've just noticed is that we don't link to the new document from http://rethinkdb.com/community/ (not sure if this is going to be redone anyway for 2.0? @mglukhovsky?).\r\n> Write a new driver \8212 no ReQL driver for your favorite language? Help write one! Hop on the mailing list or #rethinkdb on freenode, and we'll walk you through the driver protocol API.\r\n\r\nstill just links to the ql2.proto file.\r\nhttp://rethinkdb.com/docs/install-drivers/ links to the right document (http://rethinkdb.com/docs/driver-spec/) correctly. I think the Community page should also link to that."
+  , issueCommentId = 75664544
+  }

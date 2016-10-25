@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 02 : 12 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63581502"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-63581502"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 02 : 12 : 36 UTC
+  , issueCommentBody =
+      "Just a small addition: I think generally http://www.rethinkdb.com/docs/cluster-on-startup/ should have the section on \"Configuration options\" at the bottom, with the \"Startup with ...\" sections at the top. \r\nTypically readers will want to get the main steps first, and use the options list as a reference to fine-tune their configuration later.\r\n\r\nIf we create a separate page for http://www.rethinkdb.com/docs/guides/startup/ to link to, we should also mention that you can start RethinkDB in a terminal by running `rethinkdb` without any additional configuration, if you just want to try RethinkDB locally.\r\nSome users might run `/etc/init.d/rethinkdb start` or `service rethinkdb start` after installing the package, just because that's what they are used to from other servers. They might not know that you can also just run it on the command line."
+  , issueCommentId = 63581502
+  }

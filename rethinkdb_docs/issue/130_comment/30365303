@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-11) 21 : 22 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30365303"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/130#issuecomment-30365303"
+  , issueCommentCreatedAt = 2013 (-12) (-11) 21 : 22 : 49 UTC
+  , issueCommentBody =
+      "@Tryneus there is no need to create a new pull request unless there are big merge conflicts. Just don't use the \"merge pull request button\", instead cherry-pick your changes into the right branch."
+  , issueCommentId = 30365303
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-24) 07 : 46 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29150681"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/100#issuecomment-29150681"
+  , issueCommentCreatedAt = 2013 (-11) (-24) 07 : 46 : 19 UTC
+  , issueCommentBody =
+      "@mglukhovsky -- The problem with `object` is that we use it with a precise meaning somewhere.  I think we should either list every possible return type, or use a term that we use imprecisely elsewhere.\r\n\r\nSome ideas:\r\n```\r\n.run -> json # (I'm cool with ignoring the `profile` case.)\r\n.run -> query_result\r\n.run -> native_result\r\n```\r\n\r\nEither that, or just omit the return type and describe it in the text."
+  , issueCommentId = 29150681
+  }

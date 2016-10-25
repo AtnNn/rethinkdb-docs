@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-13) 02 : 11 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1039026
+        , simpleUserLogin = N "wangzuo"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1039026?v=3"
+        , simpleUserUrl = "https://api.github.com/users/wangzuo"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/147574845"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/913#issuecomment-147574845"
+  , issueCommentCreatedAt = 2015 (-10) (-13) 02 : 11 : 40 UTC
+  , issueCommentBody = "Yes, just signed."
+  , issueCommentId = 147574845
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-03) 17 : 53 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5968462
+        , simpleUserLogin = N "bengesoff"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5968462?v=3"
+        , simpleUserUrl = "https://api.github.com/users/bengesoff"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/137527413"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/884#issuecomment-137527413"
+  , issueCommentCreatedAt = 2015 (-09) (-03) 17 : 53 : 15 UTC
+  , issueCommentBody = "I have now!"
+  , issueCommentId = 137527413
+  }

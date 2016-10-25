@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-17) 17 : 36 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 8338870
+        , simpleUserLogin = N "loringdodge"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/8338870?v=3"
+        , simpleUserUrl = "https://api.github.com/users/loringdodge"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/82491871"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/677#issuecomment-82491871"
+  , issueCommentCreatedAt = 2015 (-03) (-17) 17 : 36 : 52 UTC
+  , issueCommentBody =
+      "Just signed it. Thanks.\n\n> On Mar 17, 2015, at 10:25 AM, Watts <notifications@github.com> wrote:\n> \n> Thanks for the catch. Have you signed the CLA yet?\n> \n> \8212\n> Reply to this email directly or view it on GitHub.\n> \n"
+  , issueCommentId = 82491871
+  }

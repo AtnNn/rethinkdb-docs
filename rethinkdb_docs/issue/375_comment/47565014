@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-30) 18 : 06 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47565014"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/375#issuecomment-47565014"
+  , issueCommentCreatedAt = 2014 (-06) (-30) 18 : 06 : 40 UTC
+  , issueCommentBody =
+      "It's in the API signature, mentioned in the text, and in one example. Do you think it should just be made clearer?"
+  , issueCommentId = 47565014
+  }

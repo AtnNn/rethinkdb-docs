@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-23) 22 : 01 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29142771"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/101#issuecomment-29142771"
+  , issueCommentCreatedAt = 2013 (-11) (-23) 22 : 01 : 02 UTC
+  , issueCommentBody = "Thank you, @mglukhovsky will merge shortly!"
+  , issueCommentId = 29142771
+  }

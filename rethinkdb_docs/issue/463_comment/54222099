@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-02) 21 : 41 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/54222099"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/463#issuecomment-54222099"
+  , issueCommentCreatedAt = 2014 (-09) (-02) 21 : 41 : 48 UTC
+  , issueCommentBody = "Merged into v1.15"
+  , issueCommentId = 54222099
+  }

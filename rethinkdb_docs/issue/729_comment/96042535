@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 19 : 30 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96042535"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/729#issuecomment-96042535"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 19 : 30 : 59 UTC
+  , issueCommentBody =
+      "This needs to be explained to me a little more. :) I see the feed responses are now ResponseNotes rather than ResponseTypes, but I'm going to need a little guidance on what drivers need to do to handle those."
+  , issueCommentId = 96042535
+  }

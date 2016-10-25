@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-30) 20 : 26 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 125295
+        , simpleUserLogin = N "ntijanic"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/125295?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ntijanic"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27435597"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/48#issuecomment-27435597"
+  , issueCommentCreatedAt = 2013 (-10) (-30) 20 : 26 : 03 UTC
+  , issueCommentBody =
+      "Part about IN operator seems broken/outdated:\r\n```\r\nSELECT * FROM users WHERE name IN {'Peter', 'John'}\r\n```\r\nis demonstrated with\r\n```js\r\nr.table(\"users\").filter(\r\n    r.expr([\"Peter\", \"John\"])\r\n        .contains(r.row[\"name\"])\r\n)\r\n```\r\n...but that results in the following error:\r\n```\r\nRqlCompileError: Cannot use r.row in nested queries.  Use functions instead. in:\r\nr.table(\"users\").filter(function(var_1) { return r([\"Peter\", \"John\"]).contains(function(var_0) { return r.row(\"name\"); }); })\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n```\r\n\r\nWrapping it in a function works fine:\r\n```js\r\nr.table(\"users\").filter(function(row) {\r\n    return r.expr([\"Peter\", \"John\"])\r\n        .contains(row(\"name\"))\r\n})\r\n```"
+  , issueCommentId = 27435597
+  }

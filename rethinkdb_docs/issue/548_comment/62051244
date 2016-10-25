@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-06) 21 : 07 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62051244"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/548#issuecomment-62051244"
+  , issueCommentCreatedAt = 2014 (-11) (-06) 21 : 07 : 00 UTC
+  , issueCommentBody =
+      "I'm closing this because it's actually in PR #555 and waiting for review."
+  , issueCommentId = 62051244
+  }

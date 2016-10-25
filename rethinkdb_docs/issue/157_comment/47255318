@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-26) 17 : 34 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47255318"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/157#issuecomment-47255318"
+  , issueCommentCreatedAt = 2014 (-06) (-26) 17 : 34 : 45 UTC
+  , issueCommentBody =
+      "I've done a search through the documentation and this seems to mostly be mentioned where it needs to be. One thing I did notice, though: `without`, `pluck`, `withFields` and `hasFields` don't let you pass in functions. I'm not sure whether that's a problem in their use cases, but if each command really should support the first two syntaxes in the last comment, that might be a bug.\r\n\r\nI'll open a code review with `orderBy`, `innerJoin` and `outerJoin`, which are the ones I found that needed these examples."
+  , issueCommentId = 47255318
+  }

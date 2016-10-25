@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 05 : 48 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43850745"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-43850745"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 05 : 48 : 14 UTC
+  , issueCommentBody =
+      "Looks pretty reasonable to me considering that it's raspbian.\r\n\r\n```\r\nmichel@raspberrypi:~/rethinkdb$ df -h . \r\nFilesystem      Size  Used Avail Use% Mounted on\r\n/dev/root       2.6G  2.5G  1.9M 100% /\r\nmichel@raspberrypi:~/rethinkdb$ du -hs *\r\n4.7M\tadmin\r\n6.0M\tbench\r\n207M\tbuild\r\n4.0K\tconfig.mk\r\n32K\tconfigure\r\n36K\tCOPYRIGHT\r\n2.9M\tdemos\r\n124K\tdocs\r\n2.4M\tdrivers\r\n35M\texternal\r\n24K\tlib\r\n4.0K\tMakefile\r\n360K\tmk\r\n44K\tNOTES.md\r\n332K\tpackaging\r\n4.0K\tREADME.md\r\n452K\tscripts\r\n6.8M\tsrc\r\n2.1M\ttest\r\n```\r\n\r\nI just created a new partition, and restarted the build.\r\nI'll report later."
+  , issueCommentId = 43850745
+  }

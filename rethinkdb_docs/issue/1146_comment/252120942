@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-06) 23 : 58 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3167756
+        , simpleUserLogin = N "JollyBrackets"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/3167756?v=3"
+        , simpleUserUrl = "https://api.github.com/users/JollyBrackets"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/252120942"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1146#issuecomment-252120942"
+  , issueCommentCreatedAt = 2016 (-10) (-06) 23 : 58 : 52 UTC
+  , issueCommentBody =
+      "Hi @danielmewes \r\n\r\nWhen I try to run **rethinkdb.exe install-service** I get following error:\r\n**ERROR: Unrecognized subcommand 'install-service'. Try 'rethinkdb help'.**\r\n\r\nIs this not supported in version 2.3.5-windows (MSC 190023506) ?"
+  , issueCommentId = 252120942
+  }

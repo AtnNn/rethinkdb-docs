@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-25) 23 : 12 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/242575118"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1170#issuecomment-242575118"
+  , issueCommentCreatedAt = 2016 (-08) (-25) 23 : 12 : 12 UTC
+  , issueCommentBody =
+      "I'm not sure what the current convention is, but historically \"sequence\" meant \"stream or array\", so the signature on that page should indicate that the operation works on arrays."
+  , issueCommentId = 242575118
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 21 : 51 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37591426"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/218#issuecomment-37591426"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 21 : 51 : 56 UTC
+  , issueCommentBody =
+      "Alright, this all looks good to me.  @neumino -- your call whether you want a third pair of eyes or want to just merge it in."
+  , issueCommentId = 37591426
+  }

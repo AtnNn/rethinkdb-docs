@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-26) 18 : 23 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53466021"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/482#issuecomment-53466021"
+  , issueCommentCreatedAt = 2014 (-08) (-26) 18 : 23 : 06 UTC
+  , issueCommentBody =
+      "Is this the blog announcement, or the release notes? Just to make sure I'm looking at the right place. (It only says \"Upgrading to 1.14\" one place there, as far as I can see.)"
+  , issueCommentId = 53466021
+  }

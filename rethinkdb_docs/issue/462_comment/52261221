@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-15) 00 : 11 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52261221"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/462#issuecomment-52261221"
+  , issueCommentCreatedAt = 2014 (-08) (-15) 00 : 11 : 53 UTC
+  , issueCommentBody =
+      "Yup, pretty sure that should be a '27', good catch, @l3kn!"
+  , issueCommentId = 52261221
+  }

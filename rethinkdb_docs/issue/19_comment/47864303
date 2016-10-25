@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-03) 03 : 52 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47864303"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/19#issuecomment-47864303"
+  , issueCommentCreatedAt = 2014 (-07) (-03) 03 : 52 : 36 UTC
+  , issueCommentBody =
+      "In Python, this doesn't seem to be the case -- \"all\" only works prefix, \nunless I'm doing this wrong:\n\nr.expr(True).and_(False).run()\nFalse\n\nr.all(True,False)\n<RqlQuery instance: r.and_(r.expr(True), r.expr(False)) >\n\nr.all(True,False).run()\nFalse\n\nr.and_(True,False).run()\nFalse\n\nr.expr(True).all(False).run()\n---------------------------------------------------------------------------\nAttributeError                            Traceback (most recent call last)\n<ipython-input-10-a8b4aa897ff5> in <module>()\n----> 1 r.expr(True).all(False).run()\n\nAttributeError: 'Datum' object has no attribute 'all'\n\n\nMichael Lucy wrote:\n>\n> I don't know about other drivers, but in Ruby, |r.any| and |r.all| \n> behave exactly the same as |r.or| and |r.and|. Also, all of those can \n> be used both prefix and infix (|r.and(1, 2)|, |r(1).and(2)|, etc.).\n>\n> IMO |and|/|or| should be usable prefix and infix in the other drivers too.\n>\n> \8212\n> Reply to this email directly or view it on GitHub \n> <https://github.com/rethinkdb/docs/issues/19#issuecomment-47857318>.\n>"
+  , issueCommentId = 47864303
+  }

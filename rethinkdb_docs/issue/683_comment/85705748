@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-24) 21 : 43 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1570089
+        , simpleUserLogin = N "sirvon"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1570089?v=3"
+        , simpleUserUrl = "https://api.github.com/users/sirvon"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/85705748"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/683#issuecomment-85705748"
+  , issueCommentCreatedAt = 2015 (-03) (-24) 21 : 43 : 06 UTC
+  , issueCommentBody =
+      "this is outta this world! thank you guys sincerly! #inspiring"
+  , issueCommentId = 85705748
+  }

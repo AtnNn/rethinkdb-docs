@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-03) 05 : 28 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/237143806"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/500#issuecomment-237143806"
+  , issueCommentCreatedAt = 2016 (-08) (-03) 05 : 28 : 56 UTC
+  , issueCommentBody =
+      "Thinky's save command run a query and return a promise, so you can't have it inside `r.branch`. You have to manually do it with Reql at the moment."
+  , issueCommentId = 237143806
+  }

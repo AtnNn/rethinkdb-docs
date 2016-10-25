@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-13) 00 : 36 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/74184046"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/651#issuecomment-74184046"
+  , issueCommentCreatedAt = 2015 (-02) (-13) 00 : 36 : 47 UTC
+  , issueCommentBody =
+      "That being said there is a risk of having too many things on the API page. Another option would be putting this into the Troubleshooting http://rethinkdb.com/docs/troubleshooting/ document, or even starting a completely separate \"ReQL troubleshooting\" page (though we'd need to think about what else to put there)."
+  , issueCommentId = 74184046
+  }

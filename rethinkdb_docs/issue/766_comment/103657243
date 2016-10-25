@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-19) 20 : 18 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103657243"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/766#issuecomment-103657243"
+  , issueCommentCreatedAt = 2015 (-05) (-19) 20 : 18 : 48 UTC
+  , issueCommentBody =
+      "That's a great improvement @danielcompton, I agree that your version is much clearer.\r\n\r\nWe might want to wait for our next release (which will come with auto failover) before updating this, since then we can make it even more accurate:\r\n> In RethinkDB data always remains immediately consistent and conflict-free, and a read that follows a write is always guaranteed to see the write (but neither reads nor writes are guaranteed to succeed *if a majority of servers* is unavailable)."
+  , issueCommentId = 103657243
+  }

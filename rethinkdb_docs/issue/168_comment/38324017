@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-21) 21 : 04 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38324017"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/168#issuecomment-38324017"
+  , issueCommentCreatedAt = 2014 (-03) (-21) 21 : 04 : 41 UTC
+  , issueCommentBody = "Fixed with #226 "
+  , issueCommentId = 38324017
+  }

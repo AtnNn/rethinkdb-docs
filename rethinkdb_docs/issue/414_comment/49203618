@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-16) 18 : 04 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49203618"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/414#issuecomment-49203618"
+  , issueCommentCreatedAt = 2014 (-07) (-16) 18 : 04 : 09 UTC
+  , issueCommentBody =
+      "It hasn't been deployed yet, but I'll leave it open until after I deploy it\r\njust in case...\r\n\r\n\r\nOn Wed, Jul 16, 2014 at 11:03 AM, Slava Akhmechet <notifications@github.com>\r\nwrote:\r\n\r\n> Err, or possibly the site wasn't deployed yet. @chipotle\r\n> <https://github.com/chipotle> -- if that's the case, feel free to close.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/414#issuecomment-49203498>.\r\n>"
+  , issueCommentId = 49203618
+  }

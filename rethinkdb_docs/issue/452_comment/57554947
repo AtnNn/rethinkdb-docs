@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-01) 22 : 55 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57554947"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/452#issuecomment-57554947"
+  , issueCommentCreatedAt = 2014 (-10) (-01) 22 : 55 : 19 UTC
+  , issueCommentBody =
+      "Quick draft (that took way longer than expected to write):\r\nhttps://gist.github.com/neumino/5b8339c7f28d665f5900\r\n\r\nApologies in advance for typos/grammars error, I just quickly proofread it.\r\n@mlucy -- could you take a look at it if you have some time? @Tryneus too?\r\n\r\nThen @chipotle should probably do his magic to make everything more better :)"
+  , issueCommentId = 57554947
+  }

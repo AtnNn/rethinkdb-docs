@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-11) 13 : 10 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40201337"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/262#issuecomment-40201337"
+  , issueCommentCreatedAt = 2014 (-04) (-11) 13 : 10 : 51 UTC
+  , issueCommentBody =
+      "I just opened https://github.com/rethinkdb/docs/issues/263 for the syntax of the `get` command."
+  , issueCommentId = 40201337
+  }

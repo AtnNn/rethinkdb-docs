@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-20) 23 : 23 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35681969"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/203#issuecomment-35681969"
+  , issueCommentCreatedAt = 2014 (-02) (-20) 23 : 23 : 29 UTC
+  , issueCommentBody =
+      "@neumino, maybe we should have versions of the document for all three\nsupported languages -- code samples for Ruby, Python and JS. This increases\nmaintenance effort, but avoids confusion for users. What do you think?\n\n\nOn Thu, Feb 20, 2014 at 2:01 PM, Michael Lucy <notifications@github.com>wrote:\n\n> Probably \"throw a nice error\".\n>\n> --\n> Reply to this email directly or view it on GitHub<https://github.com/rethinkdb/docs/issues/203#issuecomment-35674614>\n> .\n>"
+  , issueCommentId = 35681969
+  }

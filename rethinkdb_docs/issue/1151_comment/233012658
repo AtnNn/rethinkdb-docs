@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-15) 17 : 18 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 843269
+        , simpleUserLogin = N "jeffzimmerlin"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/843269?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jeffzimmerlin"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/233012658"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1151#issuecomment-233012658"
+  , issueCommentCreatedAt = 2016 (-07) (-15) 17 : 18 : 42 UTC
+  , issueCommentBody =
+      "Ran into the same issue today, and came to the same conclusion."
+  , issueCommentId = 233012658
+  }

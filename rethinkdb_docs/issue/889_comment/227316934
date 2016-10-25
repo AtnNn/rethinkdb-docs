@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-21) 01 : 30 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/227316934"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/889#issuecomment-227316934"
+  , issueCommentCreatedAt = 2016 (-06) (-21) 01 : 30 : 19 UTC
+  , issueCommentBody =
+      "I think this is a good idea, but it's also a lot of work. We could start doing this one command at a time, and build up the reference data set as we go.\r\nI think we need to address some other things in the documentation first (especially in the Horizon documentation), but let's keep this in mind for later."
+  , issueCommentId = 227316934
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-30) 22 : 17 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27444525"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/58#issuecomment-27444525"
+  , issueCommentCreatedAt = 2013 (-10) (-30) 22 : 16 : 07 UTC
+  , issueCommentBody =
+      "OK, some additional changes:\r\n\r\nOverall note: Examples need to describe the motivation for the example and what is being accomplished. A second sentence can be added describing the methodology.\r\n\r\neach.md\r\n- place a colon at the end of the clause \"For instance, if you want to...is negative\" instead of a period\r\n\r\nhas_next.md\r\n- You can retrieve all elements....using recursion -> \"Retrieve all elements from a cursor using the `next` and `hasNext` commands and recursion.\"\r\n- The last example doesn't explain its motivation.\r\n\r\nnext.md\r\n- The note on the first example is vague. Can you explain what the sentence \"The `next` command should be used only when you may not retrieve all the elements of a cursor or want to delay some operations.\" is referencing?\r\n- The example with `RqlDriverError` is incorrect. Also, explain its motivation better.\r\n- The last example: same comments as for this example in `hasNext` (see above)."
+  , issueCommentId = 27444525
+  }

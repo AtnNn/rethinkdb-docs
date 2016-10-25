@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 19 : 27 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 44345
+        , simpleUserLogin = N "ukd1"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44345?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ukd1"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63690812"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/582#issuecomment-63690812"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 18 : 43 : 37 UTC
+  , issueCommentBody =
+      "@chipotle yes, basically. I was trying to word it nicely as I don't know the design choice behind it, there might be a valid reason which I've missed by, well not being involved ;-)\r\n\r\nAnyway, the ideal situation, is that you install it as easily as possible (your ubuntu instructions are pretty great) and...well it just works. Arguably, if this was done because of more advanced users; I assume they would know they have to change stuff - so, having it the way it is now (i.e. won't start by default) massively complicates the first time experience for anyone, especially a first time user, plus it only saves the advanced user from typing /etc/init.d/rethinkdb stop.\r\n\r\nI think, unless you have some kind of feature which could have undesired side-effects if installing and auto-started, it's more logical for all if it auto starts with a sane config (bind to localhost, otherwise pretty standard).\r\n\r\nHowever, who am I to say? :)"
+  , issueCommentId = 63690812
+  }

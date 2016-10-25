@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-12) 19 : 22 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/69628522"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/617#issuecomment-69628522"
+  , issueCommentCreatedAt = 2015 (-01) (-12) 19 : 22 : 06 UTC
+  , issueCommentBody =
+      "Thanks for reporting this @christiank .\r\nIn the short term, we should do as you say and document that `indexCreate()` just like `tableCreate()`, fails if the index already exists.\r\n\r\nIn the long term we should document all major error cases for *all* of the ReQL terms. I thought we already had an issue for that, but I cannot find it at the moment (@chipotle do you remember anything like that?). It might make sense to wait doing this until we have a better exception type hierarchy (https://github.com/rethinkdb/rethinkdb/pull/2103)."
+  , issueCommentId = 69628522
+  }

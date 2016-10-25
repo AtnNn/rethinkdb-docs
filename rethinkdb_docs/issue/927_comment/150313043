@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-22) 18 : 23 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/150313043"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/927#issuecomment-150313043"
+  , issueCommentCreatedAt = 2015 (-10) (-22) 18 : 23 : 00 UTC
+  , issueCommentBody =
+      "Hm. It looks like it does in Python, you're right. I'm not sure what the proper type declaration would be in Java; I'll have to check it with Josh."
+  , issueCommentId = 150313043
+  }

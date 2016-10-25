@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-20) 20 : 44 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/173353742"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1001#issuecomment-173353742"
+  , issueCommentCreatedAt = 2016 (-01) (-20) 20 : 44 : 48 UTC
+  , issueCommentBody =
+      "I don't think that `wait` is particularly useful in the context of `tableCreate`, since `tableCreate` already waits. Or is there an important use case that I'm missing?\r\n\r\nI think it makes a lot of sense to mention next to `reconfigure` and `rebalanace` though, since those commands do *not* wait until the reconfiguration is complete.\r\n\r\nSimilarly we should mention `indexWait` in the `indexCreate` docs, if we're not doing so already."
+  , issueCommentId = 173353742
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-29) 20 : 13 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1633730
+        , simpleUserLogin = N "tyleregeto"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1633730?v=3"
+        , simpleUserUrl = "https://api.github.com/users/tyleregeto"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27338938"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/59#issuecomment-27338938"
+  , issueCommentCreatedAt = 2013 (-10) (-29) 20 : 13 : 05 UTC
+  , issueCommentBody = "No problem, CLA is now signed. Thanks."
+  , issueCommentId = 27338938
+  }

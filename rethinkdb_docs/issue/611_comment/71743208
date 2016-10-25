@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-27) 22 : 37 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71743208"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/611#issuecomment-71743208"
+  , issueCommentCreatedAt = 2015 (-01) (-27) 22 : 37 : 12 UTC
+  , issueCommentBody =
+      "Pinging @larkost on this, when you get a chance -- I think this might be something to change in the Python script. (I might be able to make that change, but not without querying you about whether that's a terrible idea first.)"
+  , issueCommentId = 71743208
+  }

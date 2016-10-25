@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-20) 19 : 57 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43675094"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/299#issuecomment-43675094"
+  , issueCommentCreatedAt = 2014 (-05) (-20) 19 : 57 : 43 UTC
+  , issueCommentBody =
+      "Could we replace the first example with something more common using a uuid (like the one that the server generates)\r\nSomething like\r\n```\r\nr.table(\"posts\").get(\"a9849eef-7176-4411-935b-79a6e3c56a74\").run(...)\r\n```"
+  , issueCommentId = 43675094
+  }

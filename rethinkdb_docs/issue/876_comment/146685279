@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-08) 21 : 08 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/146685279"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/876#issuecomment-146685279"
+  , issueCommentCreatedAt = 2015 (-10) (-08) 21 : 08 : 25 UTC
+  , issueCommentBody =
+      "> When you say \"connect the server back to the cluster to regain full health,\" what does this mean in terms of user action? Restarting the server with the --join option? And which server -- the one(s) with the replicas that aren't ready?\r\n\r\nYes. In the common case, some of the servers will have failed because of maintenance, or a hardware, power or network failure. So the solution is to start the server back up (in the way you mention), or resolve the issue by replacing hardware, reconnecting the network etc.\r\nOnce the server comes back and joins the cluster again, the issue will go away.\r\nNote that this assumes that the server's data remains intact.\r\nA server which hard drive broke for example cannot be brought back up in this sense. If that's the case, users should proceed to the second way of resolving the issue:\r\n\r\n> What replication settings would need to be adjusted, the list of replicas in the shard key for a given table in table_config?\r\n\r\nThe missing servers that are not expected to come back must be removed from the `replicas` list in `table_config`. If the user wants to maintain the same replication factor that they had before the failure, they might want to replace the replica in the configuration by a different server instead of just removing it.\r\nThe easiest way to perform these steps is to run `reconfigure`, or to use the web UI to reconfigure the number of replicas. `reconfigure` (as well as the web UI which is built on top of it) will only pick servers our of the set of currently connected servers for the new replica list. So the missing servers will automatically be removed from the configuration in the process.\r\n\r\nIn case a majority of replicas no longer exists, it might be necessary to perform a two-step recovery:\r\n1. Running `reconfigure({emergency_repair=\"unsafe_rollback\"})` on the table to make it configurable by normal means again\r\n2. Reconfiguring the table through\r\n  a) a second call to `reconfigure` (without `emergency_repair`)\r\n  b) by using the web UI\r\n  c) or by removing the missing servers manually from the `replicas` and `nonvoting_replicas` list in `table_config`."
+  , issueCommentId = 146685279
+  }

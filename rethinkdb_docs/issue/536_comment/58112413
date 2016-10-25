@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-06) 22 : 50 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 167416
+        , simpleUserLogin = N "VeXocide"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/167416?v=3"
+        , simpleUserUrl = "https://api.github.com/users/VeXocide"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58112413"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/536#issuecomment-58112413"
+  , issueCommentCreatedAt = 2014 (-10) (-06) 22 : 50 : 10 UTC
+  , issueCommentBody =
+      "There are two proposals at the moment, the first of which is rethinkdb/rethinkdb#3148 to add the `step` optarg to `r.range()`. This is fairly trivial for integers thus I'll probably end up adding that soon.\r\n\r\nThe second, rethinkdb/rethinkdb#3149, is to add support for more types, particularly dates and floating point numbers. It's more involved and will require some discussion, thus that'll probably take some more time."
+  , issueCommentId = 58112413
+  }

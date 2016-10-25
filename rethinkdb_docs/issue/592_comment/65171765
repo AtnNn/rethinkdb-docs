@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-02) 01 : 52 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 543981
+        , simpleUserLogin = N "paramaggarwal"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/543981?v=3"
+        , simpleUserUrl = "https://api.github.com/users/paramaggarwal"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65171765"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/592#issuecomment-65171765"
+  , issueCommentCreatedAt = 2014 (-12) (-02) 01 : 52 : 21 UTC
+  , issueCommentBody =
+      "The RethinkDB docs are really nicely done. Thanks!"
+  , issueCommentId = 65171765
+  }

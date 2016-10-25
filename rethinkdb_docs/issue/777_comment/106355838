@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-28) 14 : 31 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1709537
+        , simpleUserLogin = N "btmills"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1709537?v=3"
+        , simpleUserUrl = "https://api.github.com/users/btmills"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/106355838"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/777#issuecomment-106355838"
+  , issueCommentCreatedAt = 2015 (-05) (-28) 14 : 31 : 15 UTC
+  , issueCommentBody =
+      "Yep! I didn't receive any sort of confirmation email the first time, so I filled it out again just now in case."
+  , issueCommentId = 106355838
+  }

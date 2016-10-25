@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-16) 19 : 04 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59413042"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/50#issuecomment-59413042"
+  , issueCommentCreatedAt = 2014 (-10) (-16) 19 : 04 : 46 UTC
+  , issueCommentBody =
+      "As a minor improvement until we fully get there, I think we should add a remark to the `filter` API docs that it performs a full linear scan of the input sequence and doesn't make use of indexes. We should then suggest using `get_all` as an alternative where possible.\r\n\r\nA lot of people coming from an SQL or MongoDB background expect indexes to be used automatically, which is not the case for ReQL.\r\n\r\nWe already have similar notes the API docs for `inner_join` and `outer_join`."
+  , issueCommentId = 59413042
+  }

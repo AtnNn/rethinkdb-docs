@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-08) 18 : 22 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48379562"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/332#issuecomment-48379562"
+  , issueCommentCreatedAt = 2014 (-07) (-08) 18 : 22 : 48 UTC
+  , issueCommentBody =
+      "By default the `db` argument is set to `test` I think."
+  , issueCommentId = 48379562
+  }

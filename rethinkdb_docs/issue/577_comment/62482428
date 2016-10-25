@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-11) 00 : 33 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62482428"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/577#issuecomment-62482428"
+  , issueCommentCreatedAt = 2014 (-11) (-11) 00 : 32 : 52 UTC
+  , issueCommentBody =
+      "@grandquista -- I wouldn't worry about it. We give no guarantees about community drivers (some drivers have much less maturity to them than your Lua driver), and many people find early drivers extremely useful. It gives them a way to try Rethink in their toolchain of choice, and they can jump in and help contribute to the drivers if they find them useful. (Also, bug reports can help *a lot*)\r\n\r\nThat being said, we'll of course remove it from the page if you'd like us to. Let us know what you decide, and thanks for the great work you've done on the Lua driver."
+  , issueCommentId = 62482428
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-13) 21 : 28 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/92506100"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/658#issuecomment-92506100"
+  , issueCommentCreatedAt = 2015 (-04) (-13) 21 : 28 : 55 UTC
+  , issueCommentBody =
+      "I see the comment from @atnn that `forEach` is \"a map that combines the results by adding numbers and concatenating arrays,\" but is that an actual use case for this command that needs to be documented, or is it a kind of quirky byproduct? My impression was that it's really only designed for write queries.\r\n\r\n```js\r\nr.table('users').forEach(function (doc) {\r\n  return r.table('foreach').insert({posts: doc('posts')});\r\n})\r\n```\r\n\r\nThat appears to return just what you'd expect from inserting *n* documents."
+  , issueCommentId = 92506100
+  }

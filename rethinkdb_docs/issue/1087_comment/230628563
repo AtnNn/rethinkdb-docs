@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-05) 23 : 06 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/230628563"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1087#issuecomment-230628563"
+  , issueCommentCreatedAt = 2016 (-07) (-05) 23 : 06 : 13 UTC
+  , issueCommentBody =
+      "The function that takes 3 argument is the function passed to emit, not the first one pass to `fold`.\r\nI believe what you want is:\r\n```\r\nr.table('even_things').fold(0, function(acc, row) {\r\n    return acc.add(1);\r\n}, {emit:\r\n    function (acc, row, new_acc) {\r\n        return r.branch(acc.mod(2).eq(0), [row], []);\r\n    }\r\n})\r\n```\r\n\r\nYou also probably want to order these documents.\r\n\r\nFor the first example, you also probably want to map a field since you can't concatenate objects."
+  , issueCommentId = 230628563
+  }

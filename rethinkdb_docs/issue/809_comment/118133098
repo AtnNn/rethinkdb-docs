@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-02) 19 : 06 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 164646
+        , simpleUserLogin = N "brandonhamilton"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/164646?v=3"
+        , simpleUserUrl = "https://api.github.com/users/brandonhamilton"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/118133098"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/809#issuecomment-118133098"
+  , issueCommentCreatedAt = 2015 (-07) (-02) 19 : 06 : 26 UTC
+  , issueCommentBody =
+      "Thanks, I've signed the CLA.\r\n\r\nThe image for the icon is the same size as all of the other images in that directory."
+  , issueCommentId = 118133098
+  }

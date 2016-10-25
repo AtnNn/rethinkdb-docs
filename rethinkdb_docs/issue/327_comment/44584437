@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 21 : 00 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44584437"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-44584437"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 21 : 00 : 30 UTC
+  , issueCommentBody =
+      "I think we should keep both.\r\n\r\nThe python/ruby style is good for one line result.\r\nI don't think we should keep it in case of multiple line results (nested objects/arrays/etc.)"
+  , issueCommentId = 44584437
+  }

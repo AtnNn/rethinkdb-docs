@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-18) 18 : 41 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52536026"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52536026"
+  , issueCommentCreatedAt = 2014 (-08) (-18) 18 : 41 : 14 UTC
+  , issueCommentBody =
+      "I was under the impression that @Tryneus fixed the content type issues in `r.http` and you can insert binary data via `r.http` into documents. It's possible that `r.binary(r.http)` doesn't work, but I think there is a different way of doing it.\r\n\r\n@Tryneus -- could you comment on this? Should we make `r.binary(r.http)` work explicitly? (I think we should)"
+  , issueCommentId = 52536026
+  }

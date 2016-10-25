@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-12) 23 : 09 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/130473592"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/854#issuecomment-130473592"
+  , issueCommentCreatedAt = 2015 (-08) (-12) 23 : 09 : 28 UTC
+  , issueCommentBody =
+      "While I like the simplification, I'm not sure I like the Erlang arity bit; it's a fairly unusual notation we'd need to explain, and nearly all of our cases only take one argument. I'd consider just going with `function`, `write_function` and `predicate_function`, and specifically say \"one or more arguments\" or \"two arguments\" in text when necessary."
+  , issueCommentId = 130473592
+  }

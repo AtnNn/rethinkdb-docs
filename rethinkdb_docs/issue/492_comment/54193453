@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-02) 18 : 10 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/54193453"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/492#issuecomment-54193453"
+  , issueCommentCreatedAt = 2014 (-09) (-02) 18 : 10 : 36 UTC
+  , issueCommentBody =
+      "I've pulled this into an internal patch we're reviewing, so we'll still be merging this -- I just reorganized the files so they're set up the way the secondary index page works (so it's nested-fields/javascript.md, etc.)."
+  , issueCommentId = 54193453
+  }

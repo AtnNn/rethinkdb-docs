@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-25) 18 : 37 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38603504"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/238#issuecomment-38603504"
+  , issueCommentCreatedAt = 2014 (-03) (-25) 18 : 37 : 54 UTC
+  , issueCommentBody =
+      "I think that adding an infobox to describe that functions are camel-case just in JS makes no sense, because there just as many differences for Python -> Ruby, for example:\r\n```\r\nr.table('marvel').get_all('man_of_steel', index='code_name').run(conn)\r\n```\r\nvs.\r\n```\r\nr.table('marvel').get_all('man_of_steel', :index => 'code_name').run(conn)\r\n```\r\n\r\nI think investing in doing a multi-language doc for this makes a lot more sense."
+  , issueCommentId = 38603504
+  }

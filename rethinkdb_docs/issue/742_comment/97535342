@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-29) 18 : 38 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97535342"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/742#issuecomment-97535342"
+  , issueCommentCreatedAt = 2015 (-04) (-29) 18 : 38 : 09 UTC
+  , issueCommentBody = "Thanks @thiderman. Merging."
+  , issueCommentId = 97535342
+  }

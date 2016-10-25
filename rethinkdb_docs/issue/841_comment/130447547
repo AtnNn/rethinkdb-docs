@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-12) 21 : 00 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/130447547"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/841#issuecomment-130447547"
+  , issueCommentCreatedAt = 2015 (-08) (-12) 21 : 00 : 20 UTC
+  , issueCommentBody =
+      "I've made this fix in e561e15 in all three files. Thanks for finding the broken link, @captainpete."
+  , issueCommentId = 130447547
+  }

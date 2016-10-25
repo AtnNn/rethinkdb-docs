@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-10) 21 : 16 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7118680
+        , simpleUserLogin = N "ahruygt"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7118680?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahruygt"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48665536"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/411#issuecomment-48665536"
+  , issueCommentCreatedAt = 2014 (-07) (-10) 21 : 16 : 02 UTC
+  , issueCommentBody =
+      "Sure thing!\r\n\r\n\r\nOn Thu, Jul 10, 2014 at 2:04 PM, Slava Akhmechet <notifications@github.com>\r\nwrote:\r\n\r\n> Ah yes, the clay image does have an ambiguous vibe that would be nice to\r\n> remove :-D\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/pull/411#issuecomment-48664154>.\r\n>\r\n\r\n\r\n\r\n-- \r\n*Annie Ruygt*\r\n\r\n\8220I'm sorry to burden you,' she said. She felt like a crybaby.\r\n'What can we do with our stories,' he said, 'but tell them?\8221\r\n\8213 Sena Jeter Naslund, *Four Spirits*\r\n\r\nwww.annieruygtillustration.com"
+  , issueCommentId = 48665536
+  }

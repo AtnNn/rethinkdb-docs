@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 22 : 27 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37594714"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/218#issuecomment-37594714"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 22 : 27 : 08 UTC
+  , issueCommentBody =
+      "I'm going to rework some little things for #219 , so if we missed something, it will popup again before 1.12.\r\n\r\nMerging."
+  , issueCommentId = 37594714
+  }

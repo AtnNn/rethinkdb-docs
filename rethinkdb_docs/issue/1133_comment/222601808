@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-31) 06 : 21 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 539352
+        , simpleUserLogin = N "dszymczuk"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/539352?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dszymczuk"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/222601808"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1133#issuecomment-222601808"
+  , issueCommentCreatedAt = 2016 (-05) (-31) 06 : 21 : 40 UTC
+  , issueCommentBody =
+      "Yes, I'm sorry. I wrote in wrong place. I've written in correct place: https://github.com/rethinkdb/rethinkdb/issues/5807\r\n"
+  , issueCommentId = 222601808
+  }

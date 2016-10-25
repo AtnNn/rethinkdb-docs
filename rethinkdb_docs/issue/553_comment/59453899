@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-17) 01 : 09 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59453899"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/553#issuecomment-59453899"
+  , issueCommentCreatedAt = 2014 (-10) (-17) 01 : 09 : 12 UTC
+  , issueCommentBody =
+      "Sorry, should have linked to the two articles: https://www.digitalocean.com/community/search?query=rethinkdb\r\n\r\nWe can ask them to update them if they're inaccurate, but it's a popular cloud service, and there's good documentation."
+  , issueCommentId = 59453899
+  }

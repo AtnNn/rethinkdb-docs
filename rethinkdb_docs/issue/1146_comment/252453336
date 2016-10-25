@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-08) 23 : 05 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3167756
+        , simpleUserLogin = N "JollyBrackets"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/3167756?v=3"
+        , simpleUserUrl = "https://api.github.com/users/JollyBrackets"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/252453336"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1146#issuecomment-252453336"
+  , issueCommentCreatedAt = 2016 (-10) (-08) 23 : 05 : 37 UTC
+  , issueCommentBody =
+      "@danielmewes, ok thanks, looking forward to the release then! Is there another way to achieve this until then?"
+  , issueCommentId = 252453336
+  }

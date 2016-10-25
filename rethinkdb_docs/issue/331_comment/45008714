@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-03) 19 : 23 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45008714"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/331#issuecomment-45008714"
+  , issueCommentCreatedAt = 2014 (-06) (-03) 19 : 23 : 03 UTC
+  , issueCommentBody =
+      "@neumino -- in every case except `next` could you remove the `__Example:__` prefix before `Alternatively, you could use promises` sentence? This way the user sees an example heading (in bold), then code, and then a line saying \"you can also do it this way\" and more code. This way it looks like one example done in two different ways. If you have the prefix `__Example:__` the second time, it looks like two different examples.\r\n\r\nThat was my intention initially, sorry I didn't explain that more clearly."
+  , issueCommentId = 45008714
+  }

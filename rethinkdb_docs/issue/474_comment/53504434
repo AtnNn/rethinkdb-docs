@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-26) 22 : 46 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53504434"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/474#issuecomment-53504434"
+  , issueCommentCreatedAt = 2014 (-08) (-26) 22 : 46 : 31 UTC
+  , issueCommentBody =
+      "Correct, the server still uses protobufs internally. It is only from the drivers that we have eliminated the use of it.\r\n\r\nAnd for strict clarity: for the moment we still speak the protobuf wire-format to keep compatibility with existing third-party drivers. At some point in the future that compatibility will be removed, but that has not been decided yet."
+  , issueCommentId = 53504434
+  }

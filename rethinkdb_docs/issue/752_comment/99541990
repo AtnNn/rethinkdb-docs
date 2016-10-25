@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-06) 17 : 16 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/99541990"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/752#issuecomment-99541990"
+  , issueCommentCreatedAt = 2015 (-05) (-06) 17 : 16 : 40 UTC
+  , issueCommentBody =
+      "Thanks for pointing this out @neumino . I wasn't aware that we were doing this.\r\n\r\n@chipotle for the moment, the API documentation for `between` needs to be adapted slightly. http://www.rethinkdb.com/api/javascript/between/ It's currently saying \"(it uses the primary key by default)\", so there should be a note that it uses the index of a preceding `orderBy` instead if there is one."
+  , issueCommentId = 99541990
+  }

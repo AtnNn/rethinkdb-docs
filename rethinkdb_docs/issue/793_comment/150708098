@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-23) 22 : 33 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7118680
+        , simpleUserLogin = N "ahruygt"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7118680?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahruygt"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/150708098"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/793#issuecomment-150708098"
+  , issueCommentCreatedAt = 2015 (-10) (-23) 22 : 32 : 25 UTC
+  , issueCommentBody =
+      "I committed the changes I made so far.  I built the site and took screenshots (see below).\r\n\r\n@chipotle does that look/ sound right to you?  If I commit changes, the pull request should be in good shape, yes?\r\n\r\n<img width=\"1407\" alt=\"screen shot 2015-10-23 at 2 40 17 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/10706318/c5d9d530-799a-11e5-84b3-686f1f3d9cea.png\">\r\n---\r\n<img width=\"1389\" alt=\"screen shot 2015-10-23 at 2 39 36 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/10706320/c5db087e-799a-11e5-8169-3d1912741d17.png\">\r\n---\r\n<img width=\"1406\" alt=\"screen shot 2015-10-23 at 2 39 47 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/10706317/c5d9b014-799a-11e5-9afe-1e981346a90e.png\">\r\n---\r\n<img width=\"1405\" alt=\"screen shot 2015-10-23 at 2 39 55 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/10706319/c5da8bba-799a-11e5-97e5-9302f7b5dcb0.png\">\r\n---\r\n<img width=\"1301\" alt=\"screen shot 2015-10-23 at 2 37 29 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/10706338/eacb4c0c-799a-11e5-8e32-7504b40c6ee1.png\">\r\n---\r\n<img width=\"1336\" alt=\"screen shot 2015-10-23 at 2 38 13 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/10706339/eacb50d0-799a-11e5-8694-45c13e350df4.png\">\r\n---\r\n<img width=\"1408\" alt=\"screen shot 2015-10-23 at 2 40 28 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/10706340/eacc71d6-799a-11e5-86fb-9ee3661752fc.png\">\r\n---\r\n<img width=\"1413\" alt=\"screen shot 2015-10-23 at 2 40 41 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/10706345/f1e66e18-799a-11e5-9d7e-2aad0f54a0a5.png\">\r\n---\r\n<img width=\"1335\" alt=\"screen shot 2015-10-23 at 2 39 11 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/10706346/f1f9dcc8-799a-11e5-9536-4725ac473780.png\">\r\n---\r\n<img width=\"1358\" alt=\"screen shot 2015-10-23 at 2 39 24 pm\" src=\"https://cloud.githubusercontent.com/assets/7118680/10706348/f1fecfda-799a-11e5-961f-72323da74f15.png\">"
+  , issueCommentId = 150708098
+  }

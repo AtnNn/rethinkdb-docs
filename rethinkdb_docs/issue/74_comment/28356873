@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-13) 02 : 20 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28356873"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/74#issuecomment-28356873"
+  , issueCommentCreatedAt = 2013 (-11) (-13) 02 : 20 : 37 UTC
+  , issueCommentBody =
+      "Ah, I see. I would consider dropping this from the docs. AFAIK most packages don't specify this part in their install instructions."
+  , issueCommentId = 28356873
+  }

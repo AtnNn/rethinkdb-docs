@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-23) 00 : 02 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 139396
+        , simpleUserLogin = N "wojons"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/139396?v=3"
+        , simpleUserUrl = "https://api.github.com/users/wojons"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41110918"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-41110918"
+  , issueCommentCreatedAt = 2014 (-04) (-23) 00 : 02 : 43 UTC
+  , issueCommentBody =
+      "@atnnn this is really good would be great if u turn this into an image so more people can do work on it. "
+  , issueCommentId = 41110918
+  }

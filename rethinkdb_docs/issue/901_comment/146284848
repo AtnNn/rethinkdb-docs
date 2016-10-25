@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-07) 18 : 24 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/146284848"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-146284848"
+  , issueCommentCreatedAt = 2015 (-10) (-07) 18 : 24 : 30 UTC
+  , issueCommentBody =
+      "If there's a place with a few bits of example code that'd be useful -- establishing a connection with the builder object (I'm still not clear on what that would look like; the previous Java driver apparently just let you do `RethinkDBConnection conn = r.connect();` for that), making a simple query, making a query that requires a lambda function, and a change feed."
+  , issueCommentId = 146284848
+  }

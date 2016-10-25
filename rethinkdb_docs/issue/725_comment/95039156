@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-22) 05 : 27 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/95039156"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/725#issuecomment-95039156"
+  , issueCommentCreatedAt = 2015 (-04) (-22) 05 : 27 : 14 UTC
+  , issueCommentBody =
+      "Noting the possibility briefly is a good idea.\r\n\r\nI think later for the Raft release we should add a separate article about the guarantees we give in different configurations and provide more details then."
+  , issueCommentId = 95039156
+  }

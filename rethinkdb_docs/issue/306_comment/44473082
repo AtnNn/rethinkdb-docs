@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-28) 22 : 29 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44473082"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/306#issuecomment-44473082"
+  , issueCommentCreatedAt = 2014 (-05) (-28) 22 : 29 : 32 UTC
+  , issueCommentBody =
+      "You still need to call run with r.http\r\n\r\nSo a query looks like\r\n```\r\nr.http(<url>).run(connection)\r\n````"
+  , issueCommentId = 44473082
+  }

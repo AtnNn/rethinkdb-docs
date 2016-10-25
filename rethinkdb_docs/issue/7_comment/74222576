@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-13) 08 : 51 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 800352
+        , simpleUserLogin = N "afiskon"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/800352?v=3"
+        , simpleUserUrl = "https://api.github.com/users/afiskon"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/74222576"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/7#issuecomment-74222576"
+  , issueCommentCreatedAt = 2015 (-02) (-13) 08 : 51 : 05 UTC
+  , issueCommentBody =
+      "@AtnNn where could be found this www repo you mentioned?"
+  , issueCommentId = 74222576
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-20) 21 : 32 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52847674"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52847674"
+  , issueCommentCreatedAt = 2014 (-08) (-20) 21 : 32 : 48 UTC
+  , issueCommentBody =
+      "@Tryneus yes, but I think creating the string should be subject to utf-8 validation, rather than just checking for nul bytes. It may be that this is a big performance hit, in which case it's probably safer to default to returning a binary unless we recognize the content-type as explicitly not binary."
+  , issueCommentId = 52847674
+  }

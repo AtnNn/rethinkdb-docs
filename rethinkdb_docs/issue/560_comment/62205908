@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-07) 20 : 20 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/62205908"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/560#issuecomment-62205908"
+  , issueCommentCreatedAt = 2014 (-11) (-07) 20 : 20 : 49 UTC
+  , issueCommentBody =
+      "I'm going to bounce this over to @mglukhovsky for review and comments -- I haven't tried to embed the Meetup widget yet (it's possible but a little ugly) but the links are all set up."
+  , issueCommentId = 62205908
+  }

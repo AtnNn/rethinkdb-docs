@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-10) 23 : 16 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/91713995"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/162#issuecomment-91713995"
+  , issueCommentCreatedAt = 2015 (-04) (-10) 23 : 16 : 50 UTC
+  , issueCommentBody =
+      "What would an example of a circular reference in ReQL be that's likely to come up in practice? I understand the concept of \"circular reference\" but I can't envision how you get that situation in a ReQL query.\r\n\r\nI've tried to search for cases where this has happened in the wild, and it looks like people have triggered this error with deeply nested JSON objects, at least long ago (http://www.irclogger.com/.rethinkdb/2013-12-26)."
+  , issueCommentId = 91713995
+  }

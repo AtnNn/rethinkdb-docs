@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-05) 21 : 13 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51260838"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/405#issuecomment-51260838"
+  , issueCommentCreatedAt = 2014 (-08) (-05) 21 : 13 : 58 UTC
+  , issueCommentBody =
+      "> Why can't you chain an orderBy with an index after getAll?\r\n\r\nJust because we haven't implemented it yet.\r\n\r\n> Also, the error message you get is \"RqlRuntimeError: Indexed order_by can only be performed on a TABLE\", but your second comment suggests that this isn't actually the case?\r\n\r\nThis is a flaw in our type system right now: `r.table('test').between(0, 1).typeof.run => \"TABLE\"`.  (Which is why you can chain an `order_by` after a `between`.)"
+  , issueCommentId = 51260838
+  }

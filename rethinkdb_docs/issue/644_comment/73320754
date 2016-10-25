@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-06) 22 : 01 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/73320754"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/644#issuecomment-73320754"
+  , issueCommentCreatedAt = 2015 (-02) (-06) 22 : 01 : 22 UTC
+  , issueCommentBody =
+      "(Note that we don't currently have a notion of an `undefined` value. This is being discussed in https://github.com/rethinkdb/rethinkdb/issues/1721 but doesn't currently exist.)"
+  , issueCommentId = 73320754
+  }

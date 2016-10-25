@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-20) 00 : 26 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103705105"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/774#issuecomment-103705105"
+  , issueCommentCreatedAt = 2015 (-05) (-20) 00 : 26 : 38 UTC
+  , issueCommentBody =
+      "This doesn't seem like a \"Getting Started\" kind of topic -- it's fairly advanced -- but it doesn't obviously fit into any of the other sections, either. \"Getting Started\" might be the best place to put it until we do a documentation reorganization."
+  , issueCommentId = 103705105
+  }

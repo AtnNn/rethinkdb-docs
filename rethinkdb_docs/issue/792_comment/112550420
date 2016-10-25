@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-16) 19 : 55 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/112550420"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/792#issuecomment-112550420"
+  , issueCommentCreatedAt = 2015 (-06) (-16) 19 : 55 : 52 UTC
+  , issueCommentBody =
+      "We'll keep the documentation for 2.0 around for a while, so I think it's worth fixing (should be a quick fix I imagine)."
+  , issueCommentId = 112550420
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 00 : 58 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43836480"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/288#issuecomment-43836480"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 00 : 58 : 48 UTC
+  , issueCommentBody =
+      "> No space left on device\r\n\r\n@neumino what is the output of `df -h .` and `du -hs *` in the rethinkdb repo folder?"
+  , issueCommentId = 43836480
+  }

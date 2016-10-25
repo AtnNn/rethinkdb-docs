@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-24) 06 : 21 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29149831"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/100#issuecomment-29149831"
+  , issueCommentCreatedAt = 2013 (-11) (-24) 06 : 21 : 09 UTC
+  , issueCommentBody =
+      "@mlucy -- agreed, @coffeemug and I discussed this and felt that the two most common return types were basically JSON and a cursor, except that the output of using `profile` isn't valid JSON since it contains a cursor as part of the return value.\r\n\r\n`object` seemed like the best fit. What is your suggestion on how to advertise the return type in the signature?\r\n\r\n"
+  , issueCommentId = 29149831
+  }

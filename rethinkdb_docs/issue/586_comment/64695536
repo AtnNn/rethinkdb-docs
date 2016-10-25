@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-26) 19 : 06 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/64695536"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/586#issuecomment-64695536"
+  , issueCommentCreatedAt = 2014 (-11) (-26) 19 : 06 : 20 UTC
+  , issueCommentBody =
+      "I think it's ok to remove it. The issue didn't cause any data loss, since RethinkDB would simply fail to initialize the data files in the first place. It was just the error message it generated when terminating which was bad.\r\nI think it's also pretty rare that people actually run ReiserFS in full data journalling mode, which is the only case I know of where this ever has been an issue."
+  , issueCommentId = 64695536
+  }

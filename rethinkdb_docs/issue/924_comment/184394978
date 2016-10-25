@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-15) 21 : 09 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/184394978"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/924#issuecomment-184394978"
+  , issueCommentCreatedAt = 2016 (-02) (-15) 21 : 09 : 41 UTC
+  , issueCommentBody =
+      "This isn't considered production-ready yet, according to its readme file -- is it a good idea to add it to the page yet? I can't tell offhand how much ReQL it supports, but I think it needs to be reasonably feature complete for us to list it."
+  , issueCommentId = 184394978
+  }

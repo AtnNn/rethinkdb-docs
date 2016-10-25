@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-09) (-19) 22 : 14 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/24777389"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/5#issuecomment-24777389"
+  , issueCommentCreatedAt = 2013 (-09) (-19) 22 : 14 : 19 UTC
+  , issueCommentBody =
+      "If raring users have a version of node that is too old, shouldn't users with an older version of ubuntu upgrade node as well?"
+  , issueCommentId = 24777389
+  }

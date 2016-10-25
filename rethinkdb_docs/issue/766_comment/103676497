@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-19) 21 : 47 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103676497"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/766#issuecomment-103676497"
+  , issueCommentCreatedAt = 2015 (-05) (-19) 21 : 47 : 57 UTC
+  , issueCommentBody =
+      "Something that came up on Slack:\r\nThe part about \"a read that follows a write is always guaranteed to see the write\" is slightly ambiguous, because this is only true if you wait for the write to be acknowledged.\r\nI suggest we slightly change that part as well to say \"a read that follows an *acknowledged* write is always guaranteed to see the write\""
+  , issueCommentId = 103676497
+  }

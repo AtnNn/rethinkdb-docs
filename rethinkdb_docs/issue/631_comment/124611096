@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-24) 18 : 29 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124611096"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/631#issuecomment-124611096"
+  , issueCommentCreatedAt = 2015 (-07) (-24) 18 : 29 : 21 UTC
+  , issueCommentBody = "Ack."
+  , issueCommentId = 124611096
+  }

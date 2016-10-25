@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-02) 23 : 35 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10275927
+        , simpleUserLogin = N "barbaraliau"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10275927?v=3"
+        , simpleUserUrl = "https://api.github.com/users/barbaraliau"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/153193306"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/936#issuecomment-153193306"
+  , issueCommentCreatedAt = 2015 (-11) (-02) 23 : 35 : 55 UTC
+  , issueCommentBody = "Added issue in wrong rethinkdb repo."
+  , issueCommentId = 153193306
+  }

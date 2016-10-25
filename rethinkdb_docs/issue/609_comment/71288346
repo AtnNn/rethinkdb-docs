@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-24) 00 : 09 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71288346"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/609#issuecomment-71288346"
+  , issueCommentCreatedAt = 2015 (-01) (-24) 00 : 09 : 11 UTC
+  , issueCommentBody = "Awesome, good work @chipotle!"
+  , issueCommentId = 71288346
+  }

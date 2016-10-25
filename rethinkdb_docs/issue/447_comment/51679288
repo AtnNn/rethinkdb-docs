@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-09) 06 : 58 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51679288"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/447#issuecomment-51679288"
+  , issueCommentCreatedAt = 2014 (-08) (-09) 06 : 58 : 09 UTC
+  , issueCommentBody =
+      "More suggestions by aho:\r\n\r\n*  http://www.rethinkdb.com/people/ \"Michael Arntzenius (rntz)\" should be \"rntz.net\", \"Tim Maxwell (timmaxw)\" should be \"timmaxwell.org\"\r\n\r\n* are protobufs still used? http://www.rethinkdb.com/docs/introduction-to-reql/ \"The queries are efficiently transported to the server (via protocol buffers), and evaluated in the cluster.\"\r\n\r\n* by the way, would be nice if one could switch the programming language in articles, too. they all seem to use python"
+  , issueCommentId = 51679288
+  }

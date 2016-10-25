@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-27) 23 : 53 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29429946"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/116#issuecomment-29429946"
+  , issueCommentCreatedAt = 2013 (-11) (-27) 23 : 52 : 57 UTC
+  , issueCommentBody =
+      "So, there's a pattern in Ruby where you can either manage resources yourself or pass a block and have the function manage them for you.\r\n\r\nFor example, with `File.open`, you can either do:\r\n```ruby\r\nf = File.open(...)\r\n...\r\nf.close\r\n```\r\nor:\r\n```ruby\r\nFile.open(...) {|f|\r\n  ...\r\n} # file closed at end of block\r\n```\r\n\r\n`r.connect` and `conn.run` now support these semantics, so you can write:\r\n```ruby\r\nr.connect(...) {|c|\r\n ...\r\n} # connection closed at end of block\r\n```\r\nin addition to the old-style usage."
+  , issueCommentId = 29429946
+  }

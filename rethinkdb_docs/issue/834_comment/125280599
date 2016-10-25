@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-27) 17 : 28 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/125280599"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/834#issuecomment-125280599"
+  , issueCommentCreatedAt = 2015 (-07) (-27) 17 : 28 : 25 UTC
+  , issueCommentBody =
+      "Also see this comment https://github.com/rethinkdb/rethinkdb/issues/4581#issuecomment-125032443 by @chrisfosterelli. It might make sense to mention that this doesn't apply to `insert` explicitly."
+  , issueCommentId = 125280599
+  }

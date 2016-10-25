@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 00 : 49 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44482786"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/40#issuecomment-44482786"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 00 : 49 : 48 UTC
+  , issueCommentBody =
+      "Merged. Will be deployed next push, after whatever changes need to be made to www to link the page in."
+  , issueCommentId = 44482786
+  }

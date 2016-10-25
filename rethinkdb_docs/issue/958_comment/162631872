@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-07) 19 : 24 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/162631872"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/958#issuecomment-162631872"
+  , issueCommentCreatedAt = 2015 (-12) (-07) 19 : 24 : 41 UTC
+  , issueCommentBody =
+      "@chipotle If the user wants to pass custom tags to `reconfigure`, yes. The reconfiguration in the web UI and the default configuration that `reconfigure` generate only consider the `default` tag, so removing that is enough in that case.\r\nIn either case I agree it makes sense to recommend removing all tags. It certainly won't hurt and will be less confusing if users have more complex configurations."
+  , issueCommentId = 162631872
+  }

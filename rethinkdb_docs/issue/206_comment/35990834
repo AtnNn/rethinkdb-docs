@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-25) 09 : 46 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35990834"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/206#issuecomment-35990834"
+  , issueCommentCreatedAt = 2014 (-02) (-25) 09 : 46 : 07 UTC
+  , issueCommentBody =
+      "Is AUR no longer necessary? Should we offer instructions both for pacman and AUR? (I don't know much about Arch, so I'm not sure). If not, I approve this commit."
+  , issueCommentId = 35990834
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-03) 01 : 56 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10737628
+        , simpleUserLogin = N "rchordiya"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10737628?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rchordiya"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/204849121"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1069#issuecomment-204849121"
+  , issueCommentCreatedAt = 2016 (-04) (-03) 01 : 53 : 43 UTC
+  , issueCommentBody =
+      "The solution is:\r\nOpen index.html present at location /docs/_site/docs/system-tables. And make the following changes:\r\nline number: 231 & 662   \r\nReplace &lt;ul&gt;  with  &lt;ul class=\"expanded\"&gt; and               \r\nreplace &lt;li class=\"\"&gt; with &lt;li class=\"active\"&gt; on line number 234 & 665       \r\n"
+  , issueCommentId = 204849121
+  }

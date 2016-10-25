@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-02) 18 : 22 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/118115766"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/798#issuecomment-118115766"
+  , issueCommentCreatedAt = 2015 (-07) (-02) 18 : 22 : 58 UTC
+  , issueCommentBody =
+      "The more I look at this, the more this looks like it should be a Cookbook recipe rather than a new example in `merge`; a lot of what's going on here is as much the product of `map`/`concatMap` as merging.\r\n\r\nCould someone give me an example of a use case for this for the cookbook? I can see what's going on in Sebastian's example, but I'm not clear on when you'd want to do that with real data."
+  , issueCommentId = 118115766
+  }

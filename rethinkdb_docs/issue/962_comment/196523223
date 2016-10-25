@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-14) 21 : 10 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/196523223"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/962#issuecomment-196523223"
+  , issueCommentCreatedAt = 2016 (-03) (-14) 21 : 10 : 39 UTC
+  , issueCommentBody =
+      "Ah, sorry. Each incoming client connection is assigned to one CPU core randomly (or actually round robin I think). A lot of work for any query run through that connection is going to happen on that core.\r\n\r\nSo by using multiple connections and spreading queries across them, you can better utilize multiple CPU cores on the proxy."
+  , issueCommentId = 196523223
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-11) 12 : 38 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 258437
+        , simpleUserLogin = N "srh"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/258437?v=3"
+        , simpleUserUrl = "https://api.github.com/users/srh"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40198764"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/262#issuecomment-40198764"
+  , issueCommentCreatedAt = 2014 (-04) (-11) 12 : 38 : 15 UTC
+  , issueCommentBody =
+      "Hi @teechap, thank you for the pull request.  I agree that the documentation can be improved.  You get `None` back when doing `r.table('bar').get('a').run(...)` and the table doesn't contain a row with key `'a'`.  However, you get a cursor back if you run `r.table('bar').run()` and foo is an empty table:\r\n\r\n```\r\n>>> r.table('bar').run()\r\n<rethinkdb.net.Cursor object at 0x236b590>\r\n>>> list(r.table('bar').run())\r\n[]\r\n>>> print r.table('bar').get('a').run()\r\nNone\r\n```\r\n\r\nSo the property that if no documents match the query, it returns a NoneType object, is specific to get queries.\r\n\r\nWhat is actually happening here is that the query `r.table('bar').get('a')` evaluates to null (in ReQL or JSON parlance) and `None` is the Pythonified version of that value.  For example, we can run a ReQL query that compares the return value on the server:\r\n\r\n```\r\n>>> (r.table('bar').get('a') == None).run()\r\nTrue\r\n>>> (r.table('bar').get('a').coerce_to('string')).run()\r\nu'null'\r\n```\r\n\r\nThe term \"JSON result\" means any one of a dict, a list, a string, a number, None, True, or False (forgive me if I forgot anything, it's getting kind of late).  That should be made more clear."
+  , issueCommentId = 40198764
+  }

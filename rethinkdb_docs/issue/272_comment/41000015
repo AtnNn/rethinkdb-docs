@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-22) 03 : 13 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41000015"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/272#issuecomment-41000015"
+  , issueCommentCreatedAt = 2014 (-04) (-22) 03 : 13 : 38 UTC
+  , issueCommentBody =
+      "> I'm pretty sure that with a little more testing, we could avoid this transition period.\r\n\r\nAgreed, but this isn't the case right now. @atnnn has done some amazing work on tests, and with Karl joining we should be able to get this to be *much* better very quickly. But that's a month or so away."
+  , issueCommentId = 41000015
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 21 : 33 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43946891"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/311#issuecomment-43946891"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 21 : 33 : 28 UTC
+  , issueCommentBody =
+      "@chipotle -- I don't know how to explain it in a clear sentence, but accessing nested field is polymorphic on arrays\r\n\r\nFor example\r\n```\r\nr.expr({\r\n  a: [{b: 1, c:2}, {b: 11, c:22}, {b: 111, c:222}]\r\n}).pluck({a: 'b'})\r\n```"
+  , issueCommentId = 43946891
+  }

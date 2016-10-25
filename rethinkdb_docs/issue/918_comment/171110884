@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-13) 00 : 32 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7304362
+        , simpleUserLogin = N "karlrasche"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7304362?v=3"
+        , simpleUserUrl = "https://api.github.com/users/karlrasche"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/171110884"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/918#issuecomment-171110884"
+  , issueCommentCreatedAt = 2016 (-01) (-13) 00 : 32 : 28 UTC
+  , issueCommentBody =
+      "Is there any problem if the nodes join up in a line, instead of all joining the same instance?\r\n\r\nFor example, say we have 3 servers, A, B, and C. \r\n\r\nC comes up first, then B joins C, and finally A joins B. Each server has the same config (`--join A --join B --join C`), but the join chain of events is dependent on starting timing. \r\n\r\nDoes `A -> B -> C` instead of `A,B -> C` pose any problems?"
+  , issueCommentId = 171110884
+  }

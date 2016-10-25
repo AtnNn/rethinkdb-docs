@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-29) 06 : 04 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/64942849"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/588#issuecomment-64942849"
+  , issueCommentCreatedAt = 2014 (-11) (-29) 06 : 04 : 07 UTC
+  , issueCommentBody =
+      "\"Start the server\" is the very first part of the Quickstart section."
+  , issueCommentId = 64942849
+  }

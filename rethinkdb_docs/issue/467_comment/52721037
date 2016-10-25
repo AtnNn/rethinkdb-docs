@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-20) 01 : 42 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52721037"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52721037"
+  , issueCommentCreatedAt = 2014 (-08) (-20) 00 : 44 : 09 UTC
+  , issueCommentBody =
+      "Well, actually, now that I think about it, it seems like this is a general\r\nissue with r.http. If a page doesn't get automatically detected as binary,\r\nand happens to contain a nul character, it's going to blow up anyway,\r\nregardless of whether the enclosing term is r.binary or not.\r\n\r\nAs to string validation everywhere vs. just in r.http, I think it makes\r\nsense since outside data is dirty. There is always the possibility of some\r\n application/X-Foo content-type that runs the risk of having a nul\r\ncharacter in it. In light of that, I'd say it makes sense to do heavier\r\nvalidation, or switch the default result type to be binary instead of string\r\n"
+  , issueCommentId = 52721037
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-20) 13 : 07 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 85881
+        , simpleUserLogin = N "epc"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/85881?v=3"
+        , simpleUserUrl = "https://api.github.com/users/epc"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49545895"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/418#issuecomment-49545895"
+  , issueCommentCreatedAt = 2014 (-07) (-20) 13 : 07 : 39 UTC
+  , issueCommentBody =
+      "Signed.\r\nCan I suggest adding a CONTRIBUTING file to the repo with a link to the CLA?\r\nSee https://github.com/blog/1184-contributing-guidelines"
+  , issueCommentId = 49545895
+  }

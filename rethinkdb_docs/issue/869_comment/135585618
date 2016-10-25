@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-27) 23 : 45 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 4616123
+        , simpleUserLogin = N "schodge"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/4616123?v=3"
+        , simpleUserUrl = "https://api.github.com/users/schodge"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/135585618"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/869#issuecomment-135585618"
+  , issueCommentCreatedAt = 2015 (-08) (-27) 23 : 45 : 45 UTC
+  , issueCommentBody =
+      "Just signed it.\n\nNon-ideal input device. Please excuse typos.\nOn Aug 27, 2015 4:25 PM, \"Daniel Mewes\" <notifications@github.com> wrote:\n\n> Thank you for the patch @schodge <https://github.com/schodge> !\n> Have you signed our CLA yet? http://rethinkdb.com/community/cla/\n>\n> \8212\n> Reply to this email directly or view it on GitHub\n> <https://github.com/rethinkdb/docs/pull/869#issuecomment-135582503>.\n>\n"
+  , issueCommentId = 135585618
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-19) 23 : 13 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70577639"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/623#issuecomment-70577639"
+  , issueCommentCreatedAt = 2015 (-01) (-19) 23 : 12 : 25 UTC
+  , issueCommentBody =
+      "(another example is something like this pseudo-join\r\n`r.table('t1').map(r.table('t2').get(r.row('foreign_key')))`\r\nIf a document with primary key `foreign_key` doesn't exist in `t2`, you will get a `null` from the `map` for that entry)"
+  , issueCommentId = 70577639
+  }

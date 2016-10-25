@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-18) 23 : 00 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63562212"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/580#issuecomment-63562212"
+  , issueCommentCreatedAt = 2014 (-11) (-18) 23 : 00 : 49 UTC
+  , issueCommentBody =
+      "We're still working on the phrasing of that one paragraph, actually; my current take is\r\n\r\n> With simple and compound indexes, a single document can be indexed by only one index value (or one specific set of values, for compound indexes). A _multi index_ can index a single document multiple times with different values. For instance, a blog post might have multiple tags, and each tag might refer to multiple blog posts.\r\n\r\nWhich might address some of your concerns. @danielmewes pointed out that it's probably best to avoid \"unique\" because they're _not_ unique in the \"unique constraints\" sense; it doesn't say that documents have indexes; etc.\r\n\r\nAs for the way multi indexes are kind of \"meta\" and thus not like the others, while that might be a discussion worth having, we use the phrase _multi index_ a lot throughout the documentation and to date, at least, I haven't gotten reports of users being too confused about this in practice -- the examples and more complete discussion past the introduction here (hopefully) make this fairly clear. Taking that bullet point out and finding a way to say \"in addition, there's another thing we call an index which isn't _technically_ an index but changes the way other indexes work, although in practice you'll use it just like an index\" will be more accurate, but I think it'll be very hard to do that in a way which actually improves clarity -- the introduction block is supposed to be a pretty high-level overview. Maybe it's something we can make more explicit in the more detailed section on multi indexes here.\r\n"
+  , issueCommentId = 63562212
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-17) 10 : 23 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70361932"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/161#issuecomment-70361932"
+  , issueCommentCreatedAt = 2015 (-01) (-17) 10 : 23 : 19 UTC
+  , issueCommentBody =
+      "The user was trying to do something like this:\r\n\r\n```\r\nr.table('data')('items').filter(lambda item: \r\n  item['tags'].contains('foo')\r\n).delete()\r\n```\r\n\r\nThe solution turned out to be something like this:\r\n\r\n```\r\nr.table('data')\r\n  .update(lambda row:\r\n    {'items':\r\n      row['items'].filter(lambda item: \r\n        item['tags'].contains('foo').not())})\r\n```"
+  , issueCommentId = 70361932
+  }

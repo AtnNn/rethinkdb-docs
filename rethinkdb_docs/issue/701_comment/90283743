@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-06) 23 : 27 : 17 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/90283743"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/701#issuecomment-90283743"
+  , issueCommentCreatedAt = 2015 (-04) (-06) 23 : 27 : 17 UTC
+  , issueCommentBody =
+      "\"to map over one document\" should be the leading example, in my opinion. It\nmakes `r.do` much more accessible once you understand that.\n\nOn Mon, Apr 6, 2015 at 4:24 PM, Josh Kuhn <notifications@github.com> wrote:\n\n> I think we should make it clear there are 3 major reasons to use do, and\n> give an example for each:\n>\n>    - to re-use results\n>    - to ensure ordering (do this operation, then when that's complete do\n>    this operation)\n>    - to \"map over one document\"\n>\n> The third is probably just going to catch people googling, and could\n> explain why usually you can just chain operations, and only need to use .do\n> if you have to use the result more than once.\n>\n> \8212\n> Reply to this email directly or view it on GitHub\n> <https://github.com/rethinkdb/docs/issues/701#issuecomment-90282938>.\n>\n"
+  , issueCommentId = 90283743
+  }

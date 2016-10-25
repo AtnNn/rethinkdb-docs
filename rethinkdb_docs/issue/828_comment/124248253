@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-23) 21 : 46 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124248253"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/828#issuecomment-124248253"
+  , issueCommentCreatedAt = 2015 (-07) (-23) 21 : 46 : 55 UTC
+  , issueCommentBody =
+      "@danielmewes Thanks for feedback. Just fixed for index of 3 languages too. I tried to `ag \"\\(geo\\)\"` on repo and I think we're good for it now."
+  , issueCommentId = 124248253
+  }

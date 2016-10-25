@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-27) 17 : 38 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96752613"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/730#issuecomment-96752613"
+  , issueCommentCreatedAt = 2015 (-04) (-27) 17 : 38 : 02 UTC
+  , issueCommentBody =
+      "Will that use case require the `(index:'id'`) form? And if so, does this actually mean that every command that either requires an index or gains improved performance from using an index can use primary indexes and secondary indexes interchangeably? Our documentation doesn't say that anywhere, as far as I know, and in some cases flatly contradicts it. (The docs for `order_by` explicitly say that indexes must have been created with `index_create`, for instance.)"
+  , issueCommentId = 96752613
+  }

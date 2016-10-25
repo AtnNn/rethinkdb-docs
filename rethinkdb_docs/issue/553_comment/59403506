@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-16) 18 : 02 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59403506"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/553#issuecomment-59403506"
+  , issueCommentCreatedAt = 2014 (-10) (-16) 18 : 02 : 45 UTC
+  , issueCommentBody =
+      "Should this include both Compose.io and dotCloud? And should the current \"Deploying on AWS\" document be folded into it? I'm not sure whether AWS calls itself a \"PaaS,\" but we have all three of them under that \"cloud deployment\" section."
+  , issueCommentId = 59403506
+  }

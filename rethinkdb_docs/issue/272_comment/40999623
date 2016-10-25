@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-22) 03 : 04 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40999623"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/272#issuecomment-40999623"
+  , issueCommentCreatedAt = 2014 (-04) (-22) 03 : 04 : 10 UTC
+  , issueCommentBody =
+      "@neumino -- good points. Here are some thoughts.\r\n\r\nThe 500 tables workload is a good point -- I think we should add a section for this. May be \"high end workloads\" or something like that?\r\n\r\nI don't think geo is a required feature -- a required feature is one that doesn't allow the user to use the product to do something it purports to do. For example, people simply cannot run Rethink in large clusters without programmatic cluster access. But geo is something we don't purport to do, so I think it's ok. (Also we'll add it in 1.14)\r\n\r\nSharding while maintaining availability -- I think this is on the fence. Not sure if we should mention it -- but we probably should. Or may be add a \"nice to have\" section?\r\n\r\nAgree on data migration.\r\n\r\nReplacing \"you may encounter crashes\" -- I feel bad about that. There are known crashes in 1.12.x right now, so I don't feel comfortable saying \"you shouldn't encounter crashes\"."
+  , issueCommentId = 40999623
+  }

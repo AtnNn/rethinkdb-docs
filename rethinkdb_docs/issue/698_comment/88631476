@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-01) 21 : 04 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/88631476"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/698#issuecomment-88631476"
+  , issueCommentCreatedAt = 2015 (-04) (-01) 21 : 04 : 01 UTC
+  , issueCommentBody =
+      "Both points are correct.  `between` changefeeds can't return initial values (it will be able to in 2.1), and `min/max/order_by` changefeeds require an index."
+  , issueCommentId = 88631476
+  }

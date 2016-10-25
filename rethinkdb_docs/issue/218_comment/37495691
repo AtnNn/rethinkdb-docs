@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 02 : 54 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37495691"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/218#issuecomment-37495691"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 02 : 54 : 34 UTC
+  , issueCommentBody =
+      "Since JavaScript doesn't block, if you write a query in a shell you get\r\n```\r\n> r.expr(1).run(conn, function(err, result) {\r\n    console.log(result) \r\n})\r\nundefined\r\n> 1\r\n```\r\n\r\nWhich isn't really good (it prints the result -- `undefined` first, the print `>` for the next input, then print `1`).\r\n\r\nAlso if we are going to add promises with https://github.com/rethinkdb/rethinkdb/issues/1395 I would rather not have people think that the promise will eventually become a result by itself.\r\n"
+  , issueCommentId = 37495691
+  }

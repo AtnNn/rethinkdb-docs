@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-15) 18 : 59 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 151924
+        , simpleUserLogin = N "sontek"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/151924?v=3"
+        , simpleUserUrl = "https://api.github.com/users/sontek"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140502011"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/897#issuecomment-140502011"
+  , issueCommentCreatedAt = 2015 (-09) (-15) 18 : 59 : 51 UTC
+  , issueCommentBody =
+      "I would argue that any place that is the jumping off point for working with the driver it should mention this. There is a good chance someone never comes back to the API documentation if the 10-minute guide teaches them everything they need.\r\n\r\nThe information people learn in these getting started guides could be the information they use to jump off and integrate it with their web framework.    Maybe there should be a \"Using RethinkDB on the web\" guide that talks more about the issue?\r\n\r\nMost of the intro guides don't even show you need to close the connection which could be another issue when people start using this for something more meaningful like a long running application"
+  , issueCommentId = 140502011
+  }

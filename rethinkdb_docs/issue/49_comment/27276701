@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-29) 03 : 42 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27276701"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/49#issuecomment-27276701"
+  , issueCommentCreatedAt = 2013 (-10) (-29) 03 : 42 : 30 UTC
+  , issueCommentBody =
+      "We should probably translate the document about dates in Python and JavaScript."
+  , issueCommentId = 27276701
+  }

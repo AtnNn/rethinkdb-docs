@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-06) 20 : 02 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/73302958"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/643#issuecomment-73302958"
+  , issueCommentCreatedAt = 2015 (-02) (-06) 20 : 02 : 40 UTC
+  , issueCommentBody =
+      "> It may not be clear that every CLI option is available in a config file (that's true, right?)\r\n\r\nMost definitely are. @AtnNn probably knows whether all of them are."
+  , issueCommentId = 73302958
+  }

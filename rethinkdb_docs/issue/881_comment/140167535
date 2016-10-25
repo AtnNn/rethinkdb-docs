@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-14) 18 : 29 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140167535"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/881#issuecomment-140167535"
+  , issueCommentCreatedAt = 2015 (-09) (-14) 18 : 29 : 13 UTC
+  , issueCommentBody =
+      "Also, I think I might need a little clarification with the bit about the `db` global optarg. This can only be specified in `db`, `run` and `connect`, right? And `connect` and `run` aren't commands that get serialized. If you specify `r.table('users').run(db='blog')` does that get serialized as if it was `r.db('blog').table('users')`?"
+  , issueCommentId = 140167535
+  }

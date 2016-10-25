@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-14) 18 : 10 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/93004234"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/710#issuecomment-93004234"
+  , issueCommentCreatedAt = 2015 (-04) (-14) 18 : 10 : 30 UTC
+  , issueCommentBody =
+      "@deontologician: I think this is a _very_ important discussion to have. I have a lot of ideas on this, but not a lot of time to write them up now, but I'll revisit this as soon as possible.\r\n\r\nYour proposal seems reasonable. I'd like to find an example of a document where the multi-language docs diverge significantly, because while I believe that the syntax you're proposing makes complete sense, I'm worried that there are several documents where this syntax would make the source document incredibly complex (especially in the API docs).\r\n\r\n@chipotle, do any examples come to mind, or does a syntax like this seem reasonable?"
+  , issueCommentId = 93004234
+  }

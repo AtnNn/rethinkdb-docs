@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-27) 18 : 25 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96770542"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/730#issuecomment-96770542"
+  , issueCommentCreatedAt = 2015 (-04) (-27) 18 : 25 : 55 UTC
+  , issueCommentBody =
+      "@chipotle \r\n> Will that use case require the `(index:'id'`) form? And if so, does this actually mean that every command that either requires an index or gains improved performance from using an index can use primary indexes and secondary indexes interchangeably?\r\n\r\nYes and yes.\r\nThe name of the primary index will be the same as the name of the primary field. By default `id`, but could be different if the user specified a different `primary_key` during table creation."
+  , issueCommentId = 96770542
+  }

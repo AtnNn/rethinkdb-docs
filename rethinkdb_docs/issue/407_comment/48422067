@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-09) 02 : 08 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48422067"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/407#issuecomment-48422067"
+  , issueCommentCreatedAt = 2014 (-07) (-09) 02 : 08 : 28 UTC
+  , issueCommentBody =
+      "Putting in the `1.14` milestone; these should get written before the 1.14 release.\r\n\r\n(Also, @gchpaco -- `#1838` will link to docs issue 1838, which in this case doesn't exist.  It can be confusing because people following that issue get pinged.  It's better to leave off the `#` or use the full link like https://github.com/rethinkdb/rethinkdb/issues/1838 .)"
+  , issueCommentId = 48422067
+  }

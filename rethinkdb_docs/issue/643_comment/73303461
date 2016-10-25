@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-06) 20 : 06 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/73303461"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/643#issuecomment-73303461"
+  , issueCommentCreatedAt = 2015 (-02) (-06) 20 : 06 : 15 UTC
+  , issueCommentBody =
+      "I think breaking it out makes sense. I've always found it a bit odd that the configuration options were described as part of the \"Create a cluster on system startup\" page.\r\n\r\n(Another thing is that the \"Create a cluster on startup\" title is a bit odd, because it also applies if I only want to start a single server. Also we don't really \"create\" the cluster on startup, we just start it. I think you had already addressed that in your proposal for an improved documentation structure though?)"
+  , issueCommentId = 73303461
+  }

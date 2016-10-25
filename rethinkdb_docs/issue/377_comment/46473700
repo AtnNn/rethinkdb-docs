@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 18 : 22 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46473700"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/377#issuecomment-46473700"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 18 : 22 : 02 UTC
+  , issueCommentBody =
+      "In the case you mention, the function was `reql_cos = lambda x: x.do(r.js(\"Math.cos\"))`.\r\n\r\nIn that specific case, it is much better to use Python's `math.cos` instead of wrapping the argument with `r.expr`. Perhaps even changing it to:\r\n\r\n```\r\ndef reql_cos(x):\r\n  if x is a number:\r\n    return math.cos(x)\r\n  return x.do(r.js('Math.cos'))\r\n```"
+  , issueCommentId = 46473700
+  }

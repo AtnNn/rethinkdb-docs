@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-12) 20 : 26 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/111605030"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/791#issuecomment-111605030"
+  , issueCommentCreatedAt = 2015 (-06) (-12) 20 : 26 : 13 UTC
+  , issueCommentBody =
+      "Just realized there's also going to be overlap with https://github.com/rethinkdb/docs/issues/771, since availability is tied to the conditions under which auto failover is possible. It might make sense to merge this information into the failover document."
+  , issueCommentId = 111605030
+  }

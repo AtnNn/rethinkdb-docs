@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-12) 20 : 19 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30457958"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/130#issuecomment-30457958"
+  , issueCommentCreatedAt = 2013 (-12) (-12) 20 : 19 : 54 UTC
+  , issueCommentBody =
+      "So, is this change approved?  Can I merge it to the v1.12.x branch?"
+  , issueCommentId = 30457958
+  }

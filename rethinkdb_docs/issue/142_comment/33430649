@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-27) 22 : 26 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33430649"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/142#issuecomment-33430649"
+  , issueCommentCreatedAt = 2014 (-01) (-27) 22 : 26 : 56 UTC
+  , issueCommentBody =
+      "Sure, but Mongo's description has a link for `mongodump`, and someone may\r\nhave further questions after reading the comparison. It doesn't hurt to add\r\na link, we should do it.\r\n\r\n\r\nOn Mon, Jan 27, 2014 at 12:35 PM, Michel <notifications@github.com> wrote:\r\n\r\n> This page is to compare RethinkDB and MongoDB.\r\n> I would tend to think that people are probably not interested in knowing\r\n> how the commands work here.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub<https://github.com/rethinkdb/docs/pull/142#issuecomment-33419319>\r\n> .\r\n>"
+  , issueCommentId = 33430649
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-02) 03 : 19 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/107785795"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/697#issuecomment-107785795"
+  , issueCommentCreatedAt = 2015 (-06) (-02) 03 : 19 : 13 UTC
+  , issueCommentBody =
+      "@csaintc How many tags are you passing into `getAll`? It *should* be efficient, but we've seen some cases where `getAll` became slow if it got a lot of arguments."
+  , issueCommentId = 107785795
+  }

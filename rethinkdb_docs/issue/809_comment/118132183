@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-02) 19 : 04 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/118132183"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/809#issuecomment-118132183"
+  , issueCommentCreatedAt = 2015 (-07) (-02) 19 : 04 : 41 UTC
+  , issueCommentBody =
+      "If it's too big I'll resize it -- it's better to be too big than too small in this case. :) The CSS resizes them all to the proper dimensions, but I think we're usually storing them at 100x100. (The icon that shows up is actually 22x22, but going bigger makes them clearer on retina displays.)"
+  , issueCommentId = 118132183
+  }

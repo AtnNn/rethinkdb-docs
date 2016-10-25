@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-21) 02 : 55 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94622090"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/722#issuecomment-94622090"
+  , issueCommentCreatedAt = 2015 (-04) (-21) 02 : 55 : 37 UTC
+  , issueCommentBody =
+      "@neumino voiced concerns that users might see the `ssl` optarg in the API documentation of `r.connect` and assume that the server supports SSL out of the box and be surprised if they cannot connect.\r\nI'm not sure how likely this is to happen (the servers I know with SSL support still all require some configuration to make it work, like installing a certificate etc.), but we should have a comment with the optarg description I think that states that 'Using SSL with RethinkDB requires additional software on the server. [insert link to \"how to set up an SSL tunnel\" article here]'."
+  , issueCommentId = 94622090
+  }

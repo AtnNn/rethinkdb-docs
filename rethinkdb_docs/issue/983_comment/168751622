@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-04) 17 : 55 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1005088
+        , simpleUserLogin = N "mjkrumlauf"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1005088?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mjkrumlauf"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/168751622"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/983#issuecomment-168751622"
+  , issueCommentCreatedAt = 2016 (-01) (-04) 17 : 55 : 52 UTC
+  , issueCommentBody = "Yes, I signed the CLA.  Sorry for the delay."
+  , issueCommentId = 168751622
+  }

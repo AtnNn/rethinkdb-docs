@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-16) 19 : 02 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/157136745"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/948#issuecomment-157136745"
+  , issueCommentCreatedAt = 2015 (-11) (-16) 19 : 02 : 38 UTC
+  , issueCommentBody =
+      "Maybe the explanation of our versioning scheme should be a paragraph on http://rethinkdb.com/docs/install/ ?\r\nIt would also fit well into http://rethinkdb.com/docs/migration/ , though that article would need to be restructured a bit (that might be a good idea in general). Most of it is about migrating from RethinkDB versions older than 1.13, which few users will run into at this point.\r\n\r\n> If 2.1 \8594 2.2 can introduce a backwards-incompatible change, what would a jump from, say, 2.4 \8594 3.0 imply?\r\n\r\nThat's a great question, and I think it's not actually well defined so far. We've done this only once from 1.16 to 2.0, and then it simply denoted production readyness. It's unclear what the next jump from 2.x to 3.0.0 could indicate."
+  , issueCommentId = 157136745
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-29) 20 : 30 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1083623
+        , simpleUserLogin = N "sebadiaz"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1083623?v=3"
+        , simpleUserUrl = "https://api.github.com/users/sebadiaz"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/116834321"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/798#issuecomment-116834321"
+  , issueCommentCreatedAt = 2015 (-06) (-29) 20 : 30 : 37 UTC
+  , issueCommentBody = "it is now the case"
+  , issueCommentId = 116834321
+  }

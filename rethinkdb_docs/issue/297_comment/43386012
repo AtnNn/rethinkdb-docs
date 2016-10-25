@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-16) 22 : 26 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43386012"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/297#issuecomment-43386012"
+  , issueCommentCreatedAt = 2014 (-05) (-16) 22 : 26 : 46 UTC
+  , issueCommentBody =
+      "On May 16, 2014, at 3:23 PM, Michel <notifications@github.com> wrote:\r\n> Hum, actually, query1.do(query2) somehow make sense. It's a way to evaluate multiple queries with one round trip.\r\n> \r\nPlaying devil\8217s advocate: would than then tend to imply that the entire `do` is atomic?\r\n\r\n\8212\r\n\tKarl Kuehn\r\n\tkarl@rethinkdb.com"
+  , issueCommentId = 43386012
+  }

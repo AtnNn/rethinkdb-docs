@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-23) 00 : 16 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/227915056"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1142#issuecomment-227915056"
+  , issueCommentCreatedAt = 2016 (-06) (-23) 00 : 16 : 29 UTC
+  , issueCommentBody =
+      "@chipotle - for `gevent`, it seems we just return the result.  For the most part, it should be indistinguishable from the default Python driver once you're inside your event loop.  The `AsyncResult` object is just used internally."
+  , issueCommentId = 227915056
+  }

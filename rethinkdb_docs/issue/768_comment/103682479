@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-19) 22 : 15 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103682479"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/768#issuecomment-103682479"
+  , issueCommentCreatedAt = 2015 (-05) (-19) 22 : 15 : 58 UTC
+  , issueCommentBody =
+      "The *rethinkdb-dev* post you link to describes all the differences introduced by RethinkDB 2.0 (aka V0_4).\r\n\r\nAlthough the RethinkDB release notes do not mention the version V0_4 bump, it does mention all the changes to the protocol.\r\n\r\nAs you've discovered, the changes that affect drivers are posted to the mailing list, as described in the [writing-drivers](http://rethinkdb.com/docs/writing-drivers/) article:\r\n\r\n> You can ask questions and get notes on changes introduced in new versions of RethinkDB on the [RethinkDB-Dev Google Group](https://groups.google.com/forum/?fromgroups#!forum/rethinkdb-dev)\r\n\r\nAlthough it is not in the repo, it serves as a separate changelog for those changes. Perhaps we could make it easier to discover."
+  , issueCommentId = 103682479
+  }

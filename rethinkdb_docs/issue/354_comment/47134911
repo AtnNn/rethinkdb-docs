@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-25) 17 : 46 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47134911"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/354#issuecomment-47134911"
+  , issueCommentCreatedAt = 2014 (-06) (-25) 17 : 46 : 33 UTC
+  , issueCommentBody =
+      "Some people use it to save their query, and other use it to debug things.\r\n\r\nIf you have a query with many variables inside, and want to know why one failed, instead of logging all your variables, you can log the whole query.\r\n\r\nI don't know if the Python and Ruby drivers have that though. The python driver can easily provide it, but I don't know about Ruby."
+  , issueCommentId = 47134911
+  }

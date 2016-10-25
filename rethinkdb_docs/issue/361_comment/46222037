@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-16) 19 : 17 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46222037"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/361#issuecomment-46222037"
+  , issueCommentCreatedAt = 2014 (-06) (-16) 19 : 17 : 13 UTC
+  , issueCommentBody =
+      "Note: I'm pretty sure this is in conflict with `v1.13`.\r\nSome changes were done to handle some characters that were requiring more than one byte.\r\n\r\nThanks @barosl, we'll look into this."
+  , issueCommentId = 46222037
+  }

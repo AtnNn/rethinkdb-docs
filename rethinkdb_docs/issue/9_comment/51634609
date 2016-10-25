@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-08) 17 : 45 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51634609"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-51634609"
+  , issueCommentCreatedAt = 2014 (-08) (-08) 17 : 45 : 22 UTC
+  , issueCommentBody =
+      "To the extent of my knowledge:\r\n\r\n- A database is relatively cheap to create. There is no hard limit.\r\n- There is no hard limit for the number of shards. The web interface will accept only a number <= 32 though. The same goes for the number of tables, but things definitively slow down:\r\n   - Each table is going to take some memory even if it's empty -- @danielmewes should know exactly how much\r\n   - It increases the intra cluster traffic really fast\r\n- I could insert a 1GB document and then run into https://github.com/rethinkdb/rethinkdb/issues/2832-- @danielmewes fixed it, so I'm not sure there is a limit now.\r\n- I thought a query could use no more than 64MB, but since I could insert a 1GB document, I guess there's no limit?\r\n- Not sure about the minimum required storage per database\r\n\r\n\r\nThere are some limitations with exotic filesystems or encrypted ones -- again @danielmewes should know more about that."
+  , issueCommentId = 51634609
+  }

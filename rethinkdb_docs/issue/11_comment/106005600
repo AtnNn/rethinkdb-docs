@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-27) 17 : 31 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/106005600"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/11#issuecomment-106005600"
+  , issueCommentCreatedAt = 2015 (-05) (-27) 17 : 31 : 04 UTC
+  , issueCommentBody =
+      "In addition to the points @mlucy mentioned, a `rethinkdb proxy` node is also aware of other nodes that might become unavailable so is the best tool we have to keep a stable connection to the cluster when things go bad.\r\n\r\nPersonally I see the `poxy` nodes as becoming more and more important as our ability to scale increases."
+  , issueCommentId = 106005600
+  }

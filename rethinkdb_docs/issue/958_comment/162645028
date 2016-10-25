@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-07) 20 : 07 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/162645028"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/958#issuecomment-162645028"
+  , issueCommentCreatedAt = 2015 (-12) (-07) 20 : 07 : 11 UTC
+  , issueCommentBody =
+      "Next question: as it turns out, this *is* documented already in the section on [server tags](http://www.rethinkdb.com/docs/sharding-and-replication/#server-tags):\r\n\r\n> If you remove *all* of a server's tags and then reconfigure all the cluster's tables, that server will be taken out of service.\r\n\r\n(This is followed by example code.) So, the problem might be making this more obvious. We could move server tag documentation to its own page, but if its title is \"Server tags\" I'm not sure that will really surface this any better. Maybe giving its own subheading for \"Removing servers\" in this document will make it clearer, but it's possible \"Scaling, sharding and replication\" could be renamed to something like \"Managing servers in a cluster\"?"
+  , issueCommentId = 162645028
+  }

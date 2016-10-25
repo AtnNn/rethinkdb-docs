@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-08) 22 : 51 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/181608058"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1011#issuecomment-181608058"
+  , issueCommentCreatedAt = 2016 (-02) (-08) 22 : 51 : 44 UTC
+  , issueCommentBody =
+      "Here are the latest build instructions:\r\n\r\nhttps://github.com/rethinkdb/rethinkdb/blob/atnnn/windows2/WINDOWS.md"
+  , issueCommentId = 181608058
+  }

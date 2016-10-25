@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-24) 18 : 08 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/85626626"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/683#issuecomment-85626626"
+  , issueCommentCreatedAt = 2015 (-03) (-24) 18 : 08 : 51 UTC
+  , issueCommentBody =
+      "Great article @gchpaco .\r\nMinor error: the first `# Print every row in the table.` should be `# Print first row from the table.`\r\n\r\nI think we should also make a blog post out of this to post together with the driver RC release.\r\n@segphault @thejsj any takers?"
+  , issueCommentId = 85626626
+  }

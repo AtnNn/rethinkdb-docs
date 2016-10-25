@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-29) 21 : 34 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 952451
+        , simpleUserLogin = N "nighelles"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/952451?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nighelles"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/190405029"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1008#issuecomment-190405029"
+  , issueCommentCreatedAt = 2016 (-02) (-29) 21 : 29 : 51 UTC
+  , issueCommentBody =
+      "You could get, say, the maximum N elements of a stream. I guess you could hack that together with reduce as well.\r\n"
+  , issueCommentId = 190405029
+  }

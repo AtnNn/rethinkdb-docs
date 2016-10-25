@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-21) 23 : 57 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49681983"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/422#issuecomment-49681983"
+  , issueCommentCreatedAt = 2014 (-07) (-21) 23 : 57 : 15 UTC
+  , issueCommentBody =
+      "This (and the sidebar link) are deployed, along with the rest of today's checkins."
+  , issueCommentId = 49681983
+  }

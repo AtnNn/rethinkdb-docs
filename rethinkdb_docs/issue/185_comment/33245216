@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-24) 17 : 53 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33245216"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/185#issuecomment-33245216"
+  , issueCommentCreatedAt = 2014 (-01) (-24) 17 : 53 : 37 UTC
+  , issueCommentBody =
+      "We don't have a publicly accessible list of contributors to date, but we\nshould add one.\n\n\nOn Fri, Jan 24, 2014 at 3:29 AM, Slava Akhmechet\n<notifications@github.com>wrote:\n\n> There are some very hopelessly incomplete listings here --\n> http://rethinkdb.com/docs/frameworks-and-libraries/. The site generally\n> needs some love (which will be fixed in the coming weeks/months).\n>\n> --\n> Reply to this email directly or view it on GitHub<https://github.com/rethinkdb/docs/issues/185#issuecomment-33215703>\n> .\n>"
+  , issueCommentId = 33245216
+  }

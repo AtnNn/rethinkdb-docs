@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-21) 17 : 45 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49639676"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/419#issuecomment-49639676"
+  , issueCommentCreatedAt = 2014 (-07) (-21) 17 : 45 : 43 UTC
+  , issueCommentBody =
+      "Note that GitHub has some sort of a convention for this. If we put a correctly named file in a correct place, it will automatically pop up a message for people saying \"read these contribution guidelines\". We should follow their conventions in this respect when we add the file."
+  , issueCommentId = 49639676
+  }

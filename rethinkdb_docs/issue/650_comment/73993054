@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-12) 00 : 12 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/73993054"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/650#issuecomment-73993054"
+  , issueCommentCreatedAt = 2015 (-02) (-12) 00 : 12 : 10 UTC
+  , issueCommentBody =
+      "I'll add an example to `group`. The last example in the dates and times article actually does group by month, but a simple one should be in `group`, too."
+  , issueCommentId = 73993054
+  }

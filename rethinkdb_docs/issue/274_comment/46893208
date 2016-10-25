@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 19 : 55 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46893208"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-46893208"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 19 : 55 : 15 UTC
+  , issueCommentBody =
+      "It's pretty long to be an entry in the troubleshooting document, which is\r\nwhy I figured it would be a separate document. If it should really go in\r\ntroubleshooting we can figure out the reformatting if necessary.\r\n\r\n\r\nOn Mon, Jun 23, 2014 at 11:11 AM, Daniel Mewes <notifications@github.com>\r\nwrote:\r\n\r\n> The version in the gist looks good.\r\n>\r\n> @chipotle <https://github.com/chipotle> can you take care of getting this\r\n> on our website? Not sure if we have to change the format for making this a\r\n> troubleshooting entry, but I think it's fine if we just link to it and have\r\n> it as a separate page.\r\n>\r\n> Presumably @mglukhovsky <https://github.com/mglukhovsky> should review it\r\n> before it goes online?\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/274#issuecomment-46881060>.\r\n>"
+  , issueCommentId = 46893208
+  }

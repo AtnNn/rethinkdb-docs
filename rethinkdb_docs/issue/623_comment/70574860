@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-19) 22 : 47 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 643505
+        , simpleUserLogin = N "jonathanong"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/643505?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jonathanong"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70574860"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/623#issuecomment-70574860"
+  , issueCommentCreatedAt = 2015 (-01) (-19) 22 : 47 : 15 UTC
+  , issueCommentBody =
+      "if a document itself is `null`, then that doesn't make sense at all and i would consider that a developer error.\r\n\r\nif a query returns nothing, then `.next() -> null` is expected behavior, which makes sense. `.toArray()` should still return `[]` in that case.\r\n\r\n"
+  , issueCommentId = 70574860
+  }

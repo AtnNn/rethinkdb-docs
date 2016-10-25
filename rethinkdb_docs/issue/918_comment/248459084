@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-20) 22 : 48 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/248459084"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/918#issuecomment-248459084"
+  , issueCommentCreatedAt = 2016 (-09) (-20) 22 : 48 : 46 UTC
+  , issueCommentBody =
+      "@goors: You don't need identical servers for this. As far as I know, that's the proper way to list multiple servers to join in the configuration file -- one of the engineers can chime in here if that's wrong, but the documentation does say `join=` can be specified multiple times.\r\n\r\nHaving said that, I don't think that's likely to be the cause of your crashes if they're happening when servers disconnect. I would check the troubleshooting logs for more information, and consider bringing this up in the RethinkDB user Slack or Stack Overflow. If you don't get an answer there, consider opening a bug report in the main rethinkdb repository rather than the docs."
+  , issueCommentId = 248459084
+  }

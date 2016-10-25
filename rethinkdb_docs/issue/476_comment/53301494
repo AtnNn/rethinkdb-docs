@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-25) 17 : 59 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 218725
+        , simpleUserLogin = N "dminkovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/218725?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dminkovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53301494"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/476#issuecomment-53301494"
+  , issueCommentCreatedAt = 2014 (-08) (-25) 17 : 59 : 41 UTC
+  , issueCommentBody =
+      "Yeah, I was confused by the usage too, since I didn't know of that data\r\ntype either. My assumption was that I didn't know something, and the\r\nsubdocument had not been updated while the index was updated. Could be the\r\nindex!\r\n\r\nThanks!\r\n\r\n\r\nOn Mon, Aug 25, 2014 at 1:57 PM, Watts <notifications@github.com> wrote:\r\n\r\n> Huh. Okay, I'll find out whether it needs to be added to each or removed\r\n> from the index. :)\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/pull/476#issuecomment-53301107>.\r\n>"
+  , issueCommentId = 53301494
+  }

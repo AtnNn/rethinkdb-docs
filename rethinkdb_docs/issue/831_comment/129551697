@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-10) 18 : 05 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/129551697"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/831#issuecomment-129551697"
+  , issueCommentCreatedAt = 2015 (-08) (-10) 18 : 05 : 24 UTC
+  , issueCommentBody =
+      "I'm going to need a quick writeup similar to the Tornado stuff to be able to get going on these\8230"
+  , issueCommentId = 129551697
+  }

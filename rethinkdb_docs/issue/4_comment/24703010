@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-09) (-18) 21 : 59 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/24703010"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/4#issuecomment-24703010"
+  , issueCommentCreatedAt = 2013 (-09) (-18) 21 : 59 : 24 UTC
+  , issueCommentBody =
+      "Hum, I don't have such problem on Ubuntu server 12.04.\r\nTrying with 13.04."
+  , issueCommentId = 24703010
+  }

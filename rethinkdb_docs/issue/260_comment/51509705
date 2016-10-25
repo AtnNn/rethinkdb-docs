@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-07) 18 : 10 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51509705"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/260#issuecomment-51509705"
+  , issueCommentCreatedAt = 2014 (-08) (-07) 18 : 10 : 42 UTC
+  , issueCommentBody =
+      "While this may be slightly changed given that versions moving forward shouldn't require that downgrade, this is still worth doing, just in case. (And we can document that data directories upgraded by newer versions of RethinkDB are made incompatible with older versions.)"
+  , issueCommentId = 51509705
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-27) 23 : 43 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29429520"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/113#issuecomment-29429520"
+  , issueCommentCreatedAt = 2013 (-11) (-27) 23 : 43 : 16 UTC
+  , issueCommentBody =
+      "> everything except for false and null counts as true\r\n\r\nFor filter, that is not the case by default because of the implicit default."
+  , issueCommentId = 29429520
+  }

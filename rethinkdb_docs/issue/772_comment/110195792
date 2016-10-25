@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-09) 01 : 53 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/110195792"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/772#issuecomment-110195792"
+  , issueCommentCreatedAt = 2015 (-06) (-09) 01 : 53 : 12 UTC
+  , issueCommentBody =
+      "We should explain non-voting replicas more clearly. https://github.com/rethinkdb/docs/issues/770#issuecomment-110194224 describes what the meaning of a \"non-voting\" replica is. The main reason to make a replica non-voting is to reduce latency if the replica is located in a faraway datacenter. One might want to set all of the replicas in one data center as voting, but all replicas in other datacenters as non-voting, so that their increased latencies don't slow down queries."
+  , issueCommentId = 110195792
+  }

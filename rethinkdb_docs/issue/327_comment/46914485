@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 23 : 16 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46914485"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-46914485"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 23 : 16 : 47 UTC
+  , issueCommentBody =
+      "Okay, I misunderstood that. If the rationale for no \">\" was that it made it\r\nharder to select for copy and paste, that's universal for all languages,\r\nnot just Javascript. Is the rationale really just that it will confuse\r\nJavascript programmers but not Python and Ruby programmers? :)\r\n\r\n\r\nOn Mon, Jun 23, 2014 at 3:28 PM, Michael Lucy <notifications@github.com>\r\nwrote:\r\n\r\n> Er, I thought we were only doing the comment for JS, and were keeping the:\r\n>\r\n> > r.expr({'foo': 1}).add({'bar': 2}).run(conn)\r\n> { 'foo': 1, 'bar': 2 }\r\n>\r\n> format for Python and Ruby.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/327#issuecomment-46910594>.\r\n>"
+  , issueCommentId = 46914485
+  }

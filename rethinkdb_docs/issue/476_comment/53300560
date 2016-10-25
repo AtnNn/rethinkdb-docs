@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-25) 17 : 55 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 218725
+        , simpleUserLogin = N "dminkovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/218725?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dminkovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53300560"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/476#issuecomment-53300560"
+  , issueCommentCreatedAt = 2014 (-08) (-25) 17 : 55 : 02 UTC
+  , issueCommentBody =
+      "I was just rolling with http://www.rethinkdb.com/api/javascript/#each, which has this `feed` case listed."
+  , issueCommentId = 53300560
+  }

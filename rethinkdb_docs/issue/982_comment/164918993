@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-15) 22 : 35 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/164918993"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/982#issuecomment-164918993"
+  , issueCommentCreatedAt = 2015 (-12) (-15) 22 : 35 : 00 UTC
+  , issueCommentBody =
+      "Looks good.\n\nOn Tue, Dec 15, 2015 at 2:00 PM, Daniel Alan Miller <\nnotifications@github.com> wrote:\n\n> [image: image]\n> <https://cloud.githubusercontent.com/assets/863286/11825234/aca42c70-a332-11e5-83c7-8cd2c2df8c1a.png>\n>\n> LGTM [image: :+1:]\n>\n> \8212\n> Reply to this email directly or view it on GitHub\n> <https://github.com/rethinkdb/docs/pull/982#issuecomment-164908903>.\n>\n"
+  , issueCommentId = 164918993
+  }

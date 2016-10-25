@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-16) 17 : 06 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46205763"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/329#issuecomment-46205763"
+  , issueCommentCreatedAt = 2014 (-06) (-16) 17 : 06 : 16 UTC
+  , issueCommentBody =
+      "I can't find any other uses of this in Python files based on searching all the docs with the regex `\\br\\(`, so this may be safe to close unless there's a way to search more thoroughly."
+  , issueCommentId = 46205763
+  }

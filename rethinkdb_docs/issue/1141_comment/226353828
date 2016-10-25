@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-16) 00 : 00 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1149551
+        , simpleUserLogin = N "cjhveal"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1149551?v=3"
+        , simpleUserUrl = "https://api.github.com/users/cjhveal"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/226353828"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1141#issuecomment-226353828"
+  , issueCommentCreatedAt = 2016 (-06) (-15) 23 : 57 : 30 UTC
+  , issueCommentBody =
+      "A couple of points from my perspective as a relatively new user:\r\n\r\n- I had seen both `SELECTION<OBJECT>` and `SINGLE_SELECTION` but didn't know they were the same type.\r\n- Adding the \"abstract\" types to the section you linked would have itched my curiosity. I had guessed that `DATUM` was one of the types listed under [Basic data types](https://rethinkdb.com/docs/data-types/#basic-data-types), but I simply wanted to see it defined somewhere to confirm my suspicions. Now I see I was slightly off.\r\n- This might be a separate issue, but I was pretty confused by why exactly a `SELECTION` was incompatible with `DATUM`. Now I think I understand that I was trying to use a `SELECTION<STREAM>` as an `ARRAY`, which would have to load the entire stream into memory (could still be wrong about that). But neither of those types were directly mentioned in the error, only the more abstract types, which might have obscured the actual issue.\r\n\r\n(as an aside, just wanted to say I really appreciate the responsiveness from everyone involved here, raises my already-high regard for what you folks do here and the product you produce)."
+  , issueCommentId = 226353828
+  }

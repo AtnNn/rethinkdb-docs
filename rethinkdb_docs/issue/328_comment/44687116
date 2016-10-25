@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-30) 18 : 59 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7118680
+        , simpleUserLogin = N "ahruygt"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7118680?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahruygt"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44687116"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/328#issuecomment-44687116"
+  , issueCommentCreatedAt = 2014 (-05) (-30) 18 : 59 : 11 UTC
+  , issueCommentBody = "OF course.  I'll do that right now.\r\n"
+  , issueCommentId = 44687116
+  }

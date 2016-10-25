@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-06) 19 : 07 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27903169"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/68#issuecomment-27903169"
+  , issueCommentCreatedAt = 2013 (-11) (-06) 19 : 07 : 18 UTC
+  , issueCommentBody =
+      "@bitemyapp, the site repository is private -- and it contains all image for the site. We're working to make that easier. But yes, this is in my hands!\r\n\r\nKudos to you and @cesarbp!"
+  , issueCommentId = 27903169
+  }

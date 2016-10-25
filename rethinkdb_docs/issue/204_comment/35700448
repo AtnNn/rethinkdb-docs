@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-21) 05 : 30 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35700448"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/204#issuecomment-35700448"
+  , issueCommentCreatedAt = 2014 (-02) (-21) 05 : 30 : 54 UTC
+  , issueCommentBody =
+      "Just pushed a fix for the syntax.\r\n\r\nI think the second part is about writing about types -- which is https://github.com/rethinkdb/docs/issues/40\r\n\r\nAny objection if I close this issue?"
+  , issueCommentId = 35700448
+  }

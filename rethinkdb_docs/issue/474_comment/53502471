@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-26) 22 : 26 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53502471"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/474#issuecomment-53502471"
+  , issueCommentCreatedAt = 2014 (-08) (-26) 22 : 26 : 32 UTC
+  , issueCommentBody =
+      "@larkost - we still need various protobuf libraries for building, right? (i.e., I shouldn't be taking `protobuf-*` out of any build instructions)"
+  , issueCommentId = 53502471
+  }

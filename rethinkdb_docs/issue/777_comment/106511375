@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-28) 17 : 32 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/106511375"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/777#issuecomment-106511375"
+  , issueCommentCreatedAt = 2015 (-05) (-28) 17 : 32 : 21 UTC
+  , issueCommentBody =
+      "Okay, thanks. I don't get email confirmation either, so unless I recognize someone's name or can find a previous commit in the repo I end up asking..."
+  , issueCommentId = 106511375
+  }

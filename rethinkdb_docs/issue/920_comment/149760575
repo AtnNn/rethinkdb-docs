@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-21) 02 : 21 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/149760575"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/920#issuecomment-149760575"
+  , issueCommentCreatedAt = 2015 (-10) (-21) 02 : 21 : 59 UTC
+  , issueCommentBody =
+      "> We also now have a concept of an \"uninitial\" result, which is a result with an `old_val` field but no `new_val`.\r\n\r\nMucking about with `old_val` and `new_val` to indicate different states to the user is proving to be surprisingly versatile and elegant. If RethinkDB were written in Haskell, we could have published at least three papers about this."
+  , issueCommentId = 149760575
+  }

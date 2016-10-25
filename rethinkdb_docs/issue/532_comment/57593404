@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-02) 07 : 31 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57593404"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/532#issuecomment-57593404"
+  , issueCommentCreatedAt = 2014 (-10) (-02) 07 : 31 : 21 UTC
+  , issueCommentBody =
+      "@nguyendn -- what version of the driver are you running? (Could you paste the output of `npm list | grep rethinkdb`?)"
+  , issueCommentId = 57593404
+  }

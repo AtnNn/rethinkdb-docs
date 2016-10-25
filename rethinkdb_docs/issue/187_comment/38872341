@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-27) 23 : 09 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38872341"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/187#issuecomment-38872341"
+  , issueCommentCreatedAt = 2014 (-03) (-27) 23 : 09 : 53 UTC
+  , issueCommentBody =
+      "@coffeemug -- I merged master in this branch, remove the base for reduce and fix some little errors.\r\nWe actually forgot to remove the base when pushing the docs for 1.12.\r\n\r\nCould you take a look at this?"
+  , issueCommentId = 38872341
+  }

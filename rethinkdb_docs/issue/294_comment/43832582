@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 00 : 07 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43832582"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/294#issuecomment-43832582"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 00 : 07 : 03 UTC
+  , issueCommentBody =
+      "Also, if you can call a command on any type (stream, table, selection, etc.) but it returns a single type (say, an array), you can just say `sequence.command() -> array`. So `sequence` is just a catch all term for any kind of sequence in RethinkDB."
+  , issueCommentId = 43832582
+  }

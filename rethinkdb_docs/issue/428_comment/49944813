@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-23) 22 : 26 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49944813"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/428#issuecomment-49944813"
+  , issueCommentCreatedAt = 2014 (-07) (-23) 22 : 26 : 03 UTC
+  , issueCommentBody =
+      "The docs repo doesn't have anything like that. It's just all on master it\r\nseems\r\n\r\n\r\nOn Wed, Jul 23, 2014 at 3:16 PM, Michel <notifications@github.com> wrote:\r\n\r\n> next is currently for the next major version.\r\n> We should probably have a next-minor or something like that for the next\r\n> minor version.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/pull/428#issuecomment-49943842>.\r\n>"
+  , issueCommentId = 49944813
+  }

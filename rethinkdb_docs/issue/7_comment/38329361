@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-21) 22 : 04 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38329361"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/7#issuecomment-38329361"
+  , issueCommentCreatedAt = 2014 (-03) (-21) 22 : 04 : 40 UTC
+  , issueCommentBody =
+      "Please ignore the misleading issue name.\r\n\r\nHere is [a very early draft](http://atnnn.github.io/rethinkdb/RethinkDB_docs_dump.pdf) generated from the `pdf` branch of the `www` repo.\r\n"
+  , issueCommentId = 38329361
+  }

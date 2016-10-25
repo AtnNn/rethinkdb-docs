@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-01) 09 : 41 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/107382383"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/526#issuecomment-107382383"
+  , issueCommentCreatedAt = 2015 (-06) (-01) 09 : 41 : 56 UTC
+  , issueCommentBody =
+      "I'd like it if commands that received changes over time (like how `changes` has progressively gained the ability to be applied to more and more things) contained a \"Changelog\" section explaining what changed about the command's capabilities and when. This would make writing code for older environments much less fraught."
+  , issueCommentId = 107382383
+  }

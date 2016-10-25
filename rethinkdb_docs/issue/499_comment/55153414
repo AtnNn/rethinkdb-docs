@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-10) 17 : 44 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55153414"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/499#issuecomment-55153414"
+  , issueCommentCreatedAt = 2014 (-09) (-10) 17 : 44 : 48 UTC
+  , issueCommentBody =
+      "@neumino I am using pre-packaged VMs with CentOS 6.5. I tried 7 with upgraded tools, but that is failing in a bunch of places with gcc being more picky."
+  , issueCommentId = 55153414
+  }

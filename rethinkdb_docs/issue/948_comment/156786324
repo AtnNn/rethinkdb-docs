@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-15) 06 : 42 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 572196
+        , simpleUserLogin = N "stuartpb"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572196?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stuartpb"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/156786324"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/948#issuecomment-156786324"
+  , issueCommentCreatedAt = 2015 (-11) (-15) 06 : 42 : 06 UTC
+  , issueCommentBody =
+      "If not long-term support, it'd be nice to explain what major versions *are* supposed to denote in this system."
+  , issueCommentId = 156786324
+  }

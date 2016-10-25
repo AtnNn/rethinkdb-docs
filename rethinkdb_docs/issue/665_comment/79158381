@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-13) 17 : 25 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/79158381"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/665#issuecomment-79158381"
+  , issueCommentCreatedAt = 2015 (-03) (-13) 17 : 25 : 03 UTC
+  , issueCommentBody =
+      "Internally, the separate branches seem like the best idea.\r\n\r\nThe way a fair number of other projects seem to do this externally is to include the version number in the URL:\r\n\r\n    http://rethinkdb.com/api/2.0/javascript/run\r\n\r\nwith symlinks set up so there's always a `current` version available (or using URL rewriting to do that):\r\n\r\n    http://rethinkdb.com/api/current/javascript/run\r\n\r\nI imagine the deployment/build script could check out the branches in the right place, create the symlink, etc. I don't know if we'd want to keep deploying by building the entire web site locally and then rsyncing to production, though."
+  , issueCommentId = 79158381
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-17) 23 : 05 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35331459"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/187#issuecomment-35331459"
+  , issueCommentCreatedAt = 2014 (-02) (-17) 23 : 05 : 47 UTC
+  , issueCommentBody = "On it now."
+  , issueCommentId = 35331459
+  }

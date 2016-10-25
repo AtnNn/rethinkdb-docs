@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-16) 00 : 57 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28615620"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/75#issuecomment-28615620"
+  , issueCommentCreatedAt = 2013 (-11) (-16) 00 : 57 : 16 UTC
+  , issueCommentBody =
+      "The new driver has not been released yet.\r\nI think the plan is to wait 1.11 to release them, @atnnn will confirm. We can write/push these docs as soon as we have a release date."
+  , issueCommentId = 28615620
+  }

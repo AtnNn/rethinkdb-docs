@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-29) 17 : 42 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44560985"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/231#issuecomment-44560985"
+  , issueCommentCreatedAt = 2014 (-05) (-29) 17 : 42 : 06 UTC
+  , issueCommentBody =
+      "- First bullet point should be fixed with https://github.com/rethinkdb/docs/pull/324\r\n- Second bullet point should go away with the json protocol\r\n- Third bullet point should be done for 1.13 so they can use the JSON protocol"
+  , issueCommentId = 44560985
+  }

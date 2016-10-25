@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 23 : 46 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51413092"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/234#issuecomment-51413092"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 23 : 46 : 06 UTC
+  , issueCommentBody =
+      "Okay, I'm making a minor change to gen_python.py which replaces the `>>>` and `...` with a four-space indent. While the code *seems* to work and do the right thing, I'm not 100% sure I know how to test this correctly. (I'll have a code review up in a couple minutes.)"
+  , issueCommentId = 51413092
+  }

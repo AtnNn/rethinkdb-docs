@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-25) 05 : 45 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/29179038"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/105#issuecomment-29179038"
+  , issueCommentCreatedAt = 2013 (-11) (-25) 05 : 45 : 22 UTC
+  , issueCommentBody =
+      "The push was deployed.\r\n\r\nThanks again @janpieper!"
+  , issueCommentId = 29179038
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-09) 18 : 35 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 172594
+        , simpleUserLogin = N "mikemaccana"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/172594?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mikemaccana"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/207827959"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1081#issuecomment-207827959"
+  , issueCommentCreatedAt = 2016 (-04) (-09) 18 : 35 : 36 UTC
+  , issueCommentBody =
+      "Looks like I'm mistaken: http://pr.zero-effort.net/?p=130\r\n\r\nClosing."
+  , issueCommentId = 207827959
+  }

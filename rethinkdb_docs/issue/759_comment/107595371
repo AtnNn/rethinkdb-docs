@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-01) 15 : 43 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/107595371"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/759#issuecomment-107595371"
+  , issueCommentCreatedAt = 2015 (-06) (-01) 15 : 43 : 21 UTC
+  , issueCommentBody =
+      "The \"[Changefeeds in RethinkDB](http://rethinkdb.com/docs/changefeeds/ruby/)\" article lists the commands you can append `changes` to. That might be what you're looking for?\r\n\r\nI'll check on that comment, but i'm pretty sure you're right -- we should go through all the examples for `changes`, because they were written for the first version of changefeeds and there's probably a few others which show more convoluted examples than we need now. I'll open a new issue about that."
+  , issueCommentId = 107595371
+  }

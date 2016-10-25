@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 21 : 11 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37587415"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/220#issuecomment-37587415"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 21 : 11 : 42 UTC
+  , issueCommentBody =
+      "Actually, could we talk about this example/result thing again?  I'm looking at the docs in my browser, and the prompt/response version just looks way better to me:\r\n* prompt/response -- http://newton:8888/api/python/split/\r\n* example/result -- http://newton:8888/api/javascript/split/\r\n\r\n@coffeemug, @neumino, does the second one really look better than the first to you guys?  If so I guess I'm fine with it, but I can't see it.  (In particular, the second one is hard to scan.  The examples seem to just run into each other because there's almost as much spacing between the example and the result as there is between the result and the next example.)"
+  , issueCommentId = 37587415
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-13) 16 : 57 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1097378
+        , simpleUserLogin = N "jwanglof"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1097378?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jwanglof"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/209545200"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1082#issuecomment-209545200"
+  , issueCommentCreatedAt = 2016 (-04) (-13) 16 : 57 : 50 UTC
+  , issueCommentBody = "Done =)"
+  , issueCommentId = 209545200
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-13) 17 : 01 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1981198
+        , simpleUserLogin = N "thejsj"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1981198?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thejsj"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/101747363"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-101747363"
+  , issueCommentCreatedAt = 2015 (-05) (-13) 17 : 01 : 44 UTC
+  , issueCommentBody = "I'll go ahead and drop a +1 as well!"
+  , issueCommentId = 101747363
+  }

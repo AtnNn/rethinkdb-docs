@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 21 : 34 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46497486"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/379#issuecomment-46497486"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 21 : 34 : 52 UTC
+  , issueCommentBody =
+      "The equivalent with r.object\r\n\r\n```js\r\nr.db('test').table('marks')                                  \r\n .group('name')                                              \r\n .concatMap(function(row){return [row('course'), row('mark')];}) \r\n .ungroup()                                                  \r\n .map(function(res){                                         \r\n   return r.expr({name: res('group')})                         \r\n           .merge(r.object(r.args(res('reduction'))));      \r\n })\r\n```"
+  , issueCommentId = 46497486
+  }

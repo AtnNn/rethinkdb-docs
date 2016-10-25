@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-02) 01 : 33 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/191010252"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1042#issuecomment-191010252"
+  , issueCommentCreatedAt = 2016 (-03) (-02) 01 : 33 : 33 UTC
+  , issueCommentBody =
+      "That's an example from the `server_status` table right? (@chipotle the `connected_to` field is new)\r\n\r\nHow do servers whose names cannot be resolved show up in the `connected_to` list? Just with their UUID as the field name? We should probably document that case too.\r\n\r\nCan you also post an example issue from `current_issues`?"
+  , issueCommentId = 191010252
+  }

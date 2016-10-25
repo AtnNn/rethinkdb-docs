@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-02) 22 : 53 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47847542"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/395#issuecomment-47847542"
+  , issueCommentCreatedAt = 2014 (-07) (-02) 22 : 53 : 39 UTC
+  , issueCommentBody =
+      "I think having `callback` in the API docs is fine.\r\n\r\nHaving `function(err, result) { ... }` in the cookbook sounds better to me because people can just copy the snippet and just add a `console.log` inside. It also \"easier\" to use/understand than with just `run(conn, callback)`.\r\n\r\nI don't have a really strong opinion about that though."
+  , issueCommentId = 47847542
+  }

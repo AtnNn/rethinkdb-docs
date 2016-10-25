@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-19) 22 : 03 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/75147964"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/658#issuecomment-75147964"
+  , issueCommentCreatedAt = 2015 (-02) (-19) 22 : 03 : 12 UTC
+  , issueCommentBody =
+      "The documentation for forEach could benefit from being more detailed. See https://github.com/rethinkdb/rethinkdb/issues/3798#issuecomment-75135022 and https://github.com/rethinkdb/rethinkdb/issues/3798#issuecomment-75139364"
+  , issueCommentId = 75147964
+  }

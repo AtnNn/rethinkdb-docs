@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-21) 05 : 27 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5938143
+        , simpleUserLogin = N "or-else"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5938143?v=3"
+        , simpleUserUrl = "https://api.github.com/users/or-else"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31057239"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-31057239"
+  , issueCommentCreatedAt = 2013 (-12) (-21) 05 : 27 : 54 UTC
+  , issueCommentBody = "Sent"
+  , issueCommentId = 31057239
+  }

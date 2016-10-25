@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-05) 11 : 24 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366818
+        , simpleUserLogin = N "ahamidi"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366818?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahamidi"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27765345"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-27765345"
+  , issueCommentCreatedAt = 2013 (-11) (-05) 11 : 24 : 02 UTC
+  , issueCommentBody =
+      "Are there any practical limits to the max number of Databases? can I have hundreds? thousands?\r\n\r\nIs there an inherent overheard (either CPU or RAM) for each additional Database (in addition to actual use of course)"
+  , issueCommentId = 27765345
+  }

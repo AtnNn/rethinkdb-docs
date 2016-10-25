@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-21) 19 : 55 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35767008"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/203#issuecomment-35767008"
+  , issueCommentCreatedAt = 2014 (-02) (-21) 19 : 55 : 07 UTC
+  , issueCommentBody =
+      "@mlucy, either that, or changing the secondary indexes guide to be multi-language. I'd like @neumino to weigh in."
+  , issueCommentId = 35767008
+  }

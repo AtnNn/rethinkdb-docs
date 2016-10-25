@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-22) 21 : 54 : 40 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43949000"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/311#issuecomment-43949000"
+  , issueCommentCreatedAt = 2014 (-05) (-22) 21 : 54 : 40 UTC
+  , issueCommentBody =
+      "Yep. The syntax is really convenient for accessing nested documents. It's a power tool, you understand it once and helps you for the rest of your life."
+  , issueCommentId = 43949000
+  }

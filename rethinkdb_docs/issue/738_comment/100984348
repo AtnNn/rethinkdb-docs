@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-11) 17 : 23 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/100984348"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/738#issuecomment-100984348"
+  , issueCommentCreatedAt = 2015 (-05) (-11) 17 : 23 : 38 UTC
+  , issueCommentBody =
+      "It doesn't look like there are any commands that require indexes that *don't* make `id` the default index, so this appears to be unnecessary. #730 turns out to be an unusual case relating to changefeed quirks."
+  , issueCommentId = 100984348
+  }

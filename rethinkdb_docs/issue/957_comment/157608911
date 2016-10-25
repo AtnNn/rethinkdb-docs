@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-18) 05 : 29 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/157608911"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/957#issuecomment-157608911"
+  , issueCommentCreatedAt = 2015 (-11) (-18) 05 : 29 : 56 UTC
+  , issueCommentBody =
+      "@deontologician -- Yes, browserify doesn't work on reqlite because of circular dependencies.\r\n\r\nThe pull request slipped through the cracks and I totally forgot about it but I believe it does work since @threepointone has used it in the browser.\r\nI'm looking into it now."
+  , issueCommentId = 157608911
+  }

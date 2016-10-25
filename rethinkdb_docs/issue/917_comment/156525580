@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-13) 19 : 01 : 33 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1832800
+        , simpleUserLogin = N "darky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1832800?v=3"
+        , simpleUserUrl = "https://api.github.com/users/darky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/156525580"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/917#issuecomment-156525580"
+  , issueCommentCreatedAt = 2015 (-11) (-13) 19 : 01 : 33 UTC
+  , issueCommentBody = "signed"
+  , issueCommentId = 156525580
+  }

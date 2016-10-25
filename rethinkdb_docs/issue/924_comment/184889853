@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-16) 21 : 52 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/184889853"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/924#issuecomment-184889853"
+  , issueCommentCreatedAt = 2016 (-02) (-16) 21 : 52 : 11 UTC
+  , issueCommentBody =
+      "@pixelspark Awesome, thanks for your work on the driver!\r\n\r\nWe'll put it in the new special list on the drivers download page for now. Once it has optional arguments, I think we can move it up into the main list."
+  , issueCommentId = 184889853
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-09) 22 : 24 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 43867
+        , simpleUserLogin = N "jdoliner"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/43867?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jdoliner"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/26014307"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/15#issuecomment-26014307"
+  , issueCommentCreatedAt = 2013 (-10) (-09) 22 : 24 : 26 UTC
+  , issueCommentBody = "- multi_indexes"
+  , issueCommentId = 26014307
+  }

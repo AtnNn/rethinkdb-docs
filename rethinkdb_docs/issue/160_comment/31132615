@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-23) 17 : 40 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 258437
+        , simpleUserLogin = N "srh"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/258437?v=3"
+        , simpleUserUrl = "https://api.github.com/users/srh"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31132615"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/160#issuecomment-31132615"
+  , issueCommentCreatedAt = 2013 (-12) (-23) 17 : 40 : 52 UTC
+  , issueCommentBody = "Reported by @divad12."
+  , issueCommentId = 31132615
+  }

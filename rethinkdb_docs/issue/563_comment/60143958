@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-22) 19 : 49 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/60143958"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/563#issuecomment-60143958"
+  , issueCommentCreatedAt = 2014 (-10) (-22) 19 : 49 : 10 UTC
+  , issueCommentBody =
+      "I'll create a single issue branch off the `master` documentation branch -- `range` and `toJson` are in the `v1.16` doc branch."
+  , issueCommentId = 60143958
+  }

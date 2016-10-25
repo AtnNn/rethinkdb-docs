@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-13) 03 : 02 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/69688509"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/214#issuecomment-69688509"
+  , issueCommentCreatedAt = 2015 (-01) (-13) 03 : 02 : 00 UTC
+  , issueCommentBody =
+      "As a first small improvement we should change the \"Import the data\" section to use `r.http`."
+  , issueCommentId = 69688509
+  }

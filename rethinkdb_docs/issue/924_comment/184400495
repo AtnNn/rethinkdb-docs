@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-15) 21 : 18 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 181337
+        , simpleUserLogin = N "pixelspark"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/181337?v=3"
+        , simpleUserUrl = "https://api.github.com/users/pixelspark"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/184400495"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/924#issuecomment-184400495"
+  , issueCommentCreatedAt = 2016 (-02) (-15) 21 : 17 : 49 UTC
+  , issueCommentBody =
+      "I wouldn't recommend using the driver for your bank account back-end just yet, however it is fairly stable. It also implements most of the ReQL commands and as you can see from the commit log, implementing the remaining ones shouldn't be too much work (in terms of lines of code). \r\n\r\nThis is a bit of a chicken-and-egg situation - adding the driver to the docs should help some people out and at the same time increase the level of real-world testing. I'd suggest adding it somewhere as a community-developed, experimental driver. Your call though."
+  , issueCommentId = 184400495
+  }

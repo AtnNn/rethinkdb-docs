@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-28) 14 : 28 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 907929
+        , simpleUserLogin = N "csaintc"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/907929?v=3"
+        , simpleUserUrl = "https://api.github.com/users/csaintc"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/106352970"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/697#issuecomment-106352970"
+  , issueCommentCreatedAt = 2015 (-05) (-28) 14 : 28 : 11 UTC
+  , issueCommentBody =
+      "The 'tags-disjunction' implementation on this page isn't especially fast. Any pro-tips for optimizing it?"
+  , issueCommentId = 106352970
+  }

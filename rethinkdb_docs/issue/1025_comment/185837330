@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-18) 18 : 03 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 11340487
+        , simpleUserLogin = N "sceee"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/11340487?v=3"
+        , simpleUserUrl = "https://api.github.com/users/sceee"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/185837330"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1025#issuecomment-185837330"
+  , issueCommentCreatedAt = 2016 (-02) (-18) 18 : 02 : 19 UTC
+  , issueCommentBody =
+      "Sorry for being so dumb, the correct statement would be\r\n`rethinkdb.exe -n jarvis -j cluster.example.com`"
+  , issueCommentId = 185837330
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 02 : 41 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46801896"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/327#issuecomment-46801896"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 02 : 41 : 36 UTC
+  , issueCommentBody =
+      "> ```js\r\n> r.expr({foo: 1).add({bar :2}).run(conn, callback)\r\n// result passed to callback:\r\n{foo: 1, bar: 2}\r\n```\r\n> \r\n> Does that work for everyone? \r\n\r\nThat works great for me."
+  , issueCommentId = 46801896
+  }

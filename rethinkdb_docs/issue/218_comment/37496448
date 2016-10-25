@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-13) 03 : 12 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37496448"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/218#issuecomment-37496448"
+  , issueCommentCreatedAt = 2014 (-03) (-13) 03 : 12 : 00 UTC
+  , issueCommentBody =
+      "I'm not strongly opposed to having a command line style code in Python and Ruby but I would prefer not because:\r\n- I find it harder to read when things are squashed (especially when you want to compare objects)\r\n- It's a little more work for me -- but I can handle that"
+  , issueCommentId = 37496448
+  }

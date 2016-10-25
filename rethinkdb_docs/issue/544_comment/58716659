@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-10) 21 : 09 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58716659"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/544#issuecomment-58716659"
+  , issueCommentCreatedAt = 2014 (-10) (-10) 21 : 09 : 13 UTC
+  , issueCommentBody =
+      "Hmm. Unless you're intending to sort by first name, I think that example should be `.between([\"Smith\", \"John\"], [\"Welles\", \"Wade\"], index=\"full_name\")`. Probably not a huge deal, but..."
+  , issueCommentId = 58716659
+  }

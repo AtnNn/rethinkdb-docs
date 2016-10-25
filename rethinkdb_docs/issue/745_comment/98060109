@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-01) 07 : 10 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7012031
+        , simpleUserLogin = N "grzesiek"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7012031?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grzesiek"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/98060109"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/745#issuecomment-98060109"
+  , issueCommentCreatedAt = 2015 (-05) (-01) 07 : 07 : 14 UTC
+  , issueCommentBody =
+      "I couldn't find and didn't know about official image so I made new one. It its slightly different than official, so I may also come in handy (image I made is also available at docker registry hooked to automated build (https://registry.hub.docker.com/u/grzesiekb/rethinkdb/dockerfile).\r\n\r\n:+1: for mentioning official one at rethinkdb.com, so others could find it"
+  , issueCommentId = 98060109
+  }

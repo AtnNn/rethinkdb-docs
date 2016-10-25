@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-08) 19 : 48 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 44855
+        , simpleUserLogin = N "chrisvariety"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44855?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chrisvariety"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31870821"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/171#issuecomment-31870821"
+  , issueCommentCreatedAt = 2014 (-01) (-08) 19 : 48 : 37 UTC
+  , issueCommentBody =
+      "Thanks -- done!\r\n\r\nOn Wednesday, January 8, 2014, Michel wrote:\r\n\r\n> Thanks @speedmanly <https://github.com/speedmanly>, it looks good!\r\n>\r\n> Could you please fill out the CLA (http://rethinkdb.com/community/cla/)\r\n> so we can merge this in?\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub<https://github.com/rethinkdb/docs/pull/171#issuecomment-31869831>\r\n> .\r\n>"
+  , issueCommentId = 31870821
+  }

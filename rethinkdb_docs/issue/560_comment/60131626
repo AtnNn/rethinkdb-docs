@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-22) 18 : 27 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/60131626"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/560#issuecomment-60131626"
+  , issueCommentCreatedAt = 2014 (-10) (-22) 18 : 27 : 15 UTC
+  , issueCommentBody =
+      "We can add Shirts for Stories here, too -- it doesn't look like it's on the existing community page, so I missed it!\r\n\r\nRight now in the new update I actually just have a link to our Meetup group rather than trying to add an actual calendar. (I'll see if there's a way to embed upcoming events directly on the page using a Meetup widget, though.) We can add a note about \"if you'd like to host a meetup or give a lightning talk at one of our events, email events@rethinkdb.com\" to that section."
+  , issueCommentId = 60131626
+  }

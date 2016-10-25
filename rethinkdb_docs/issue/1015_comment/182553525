@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-10) 19 : 58 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/182553525"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1015#issuecomment-182553525"
+  , issueCommentCreatedAt = 2016 (-02) (-10) 19 : 58 : 41 UTC
+  , issueCommentBody =
+      "This actually looks like a copy and paste borking that happened when I was working on the Java code -- that's the Java example in the midst of the backticks, not a Python example. The correct fix may be me digging back in git history and restoring the screwup."
+  , issueCommentId = 182553525
+  }

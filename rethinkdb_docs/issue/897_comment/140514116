@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-15) 19 : 39 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140514116"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/897#issuecomment-140514116"
+  , issueCommentCreatedAt = 2015 (-09) (-15) 19 : 39 : 20 UTC
+  , issueCommentBody =
+      "The problem is defining just what the \"jumping off point\" is. I don't think anyone is going to be able to write a ReQL application just with the 10-minute guide, for instance; it's written to be used interactively and warns you explicitly not to use `repl` in production code. I would rather put the thread issue on the Python driver installation page, which users should see before this.\r\n\r\nSometimes it's more a matter of figuring out where the information goes and how to highlight it. For instance, the dcoumentation for `connect` actually *does* mention that the driver is not thread-safe, and it even links to rethinkdb/rethinkdb#2427. (You do have to go to the [API page for connect](http://rethinkdb.com/api/python/connect/), not just the index page.) I will put that in a more highlighted box."
+  , issueCommentId = 140514116
+  }

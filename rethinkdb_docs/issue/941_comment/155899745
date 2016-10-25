@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-11) 20 : 22 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/155899745"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/941#issuecomment-155899745"
+  , issueCommentCreatedAt = 2015 (-11) (-11) 20 : 22 : 32 UTC
+  , issueCommentBody =
+      "@chipotle I based it off master.\r\n\r\n> AtnNn wants to merge 1 commit into master from atnnn/centos7\r\n\r\nWould it help if i rebased it on 2.2?"
+  , issueCommentId = 155899745
+  }

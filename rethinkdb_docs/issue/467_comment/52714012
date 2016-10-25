@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 23 : 19 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52714012"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52714012"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 23 : 19 : 22 UTC
+  , issueCommentBody =
+      "The `r.http` command currently uses the `Content-Type` of the response if and only if `result_format='auto'`:\r\n\r\n* `application/json` - Parse as JSON\r\n* `application/json-p`, `text/javascript`, `text/json-p` - Try a few things in order:\r\n   * Attempt to parse as JSON\r\n   * Attempt to parse as JSONP\r\n   * String\r\n* `audio/*`, `image/*`, `video/*`, `application/octet-stream` - Binary\r\n* Everything else - String"
+  , issueCommentId = 52714012
+  }

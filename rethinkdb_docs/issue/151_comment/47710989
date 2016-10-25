@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-01) 21 : 16 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47710989"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/151#issuecomment-47710989"
+  , issueCommentCreatedAt = 2014 (-07) (-01) 21 : 16 : 52 UTC
+  , issueCommentBody =
+      "I'd think that all three languages is better, but if you're only going to have *one* language in an example it should be Javascript, with links to the API documentation that lets users get language-specific guidance.\r\n\r\nI'd also think that for simple non-API examples, just one language example is acceptable."
+  , issueCommentId = 47710989
+  }

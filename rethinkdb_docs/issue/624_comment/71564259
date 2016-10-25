@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-27) 00 : 05 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 167416
+        , simpleUserLogin = N "VeXocide"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/167416?v=3"
+        , simpleUserUrl = "https://api.github.com/users/VeXocide"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71564259"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/624#issuecomment-71564259"
+  , issueCommentCreatedAt = 2015 (-01) (-26) 23 : 57 : 02 UTC
+  , issueCommentBody =
+      "For each job there's a duration in seconds in `\"duration_sec\"`, an `\"id\"` consisting of the `\"type\"` and a unique id, a list of servers involved in `\"servers\"`, and the type of the job in `\"type\"`.\r\n\r\n`\"query\"` jobs are queries issued by a client from a `\"client_address\":\"client_port\"`, and may be killed by deleting the `\"id\"` from the table.\r\n```\r\n{\r\n    \"duration_sec\": 5.852541 ,\r\n    \"id\": [\r\n        \"query\" ,\r\n        \"6fae89ba-09bd-45bb-a74b-623cfc9b3d89\"\r\n    ] ,\r\n    \"info\": {\r\n        \"client_address\": \"192.168.0.1\" ,\r\n        \"client_port\": 50062\r\n    } ,\r\n    \"servers\": [\r\n        \"newton_hk3\"\r\n    ] ,\r\n    \"type\": \"query\"\r\n}\r\n```\r\n\r\n`\"disk_compaction\"` is an ongoing process on each server, hence the duration `null`, and is primarily listed to explain IO utilization of a machine.\r\n```\r\n{\r\n    \"duration_sec\": null ,\r\n    \"id\": [\r\n        \"disk_compaction\" ,\r\n        \"ef400d70-904a-5285-bcf9-a62419a0770b\"\r\n    ] ,\r\n    \"info\": { } ,\r\n    \"servers\": [\r\n        \"newton_hk3\"\r\n    ] ,\r\n    \"type\":  \"disk_compaction\"\r\n}\r\n```\r\n\r\n`\"index_construction\"` is the construction of an index `\"info\".\"index\"` on database `\"info\".\"db\"`, table `\"info\".\"table\"` with `\"info\".\"progress\"` being a double between zero and one.\r\n```\r\n{\r\n    \"duration_sec\": 10.6485 ,\r\n    \"id\": [\r\n        \"index_construction\" ,\r\n        \"2d142757-54f8-5d6f-916e-0bd38fe57813\"\r\n    ] ,\r\n    \"info\": {\r\n        \"db\": \"test\" ,\r\n        \"index\": \"x\" ,\r\n        \"progress\": 0.5297221273063037 ,\r\n        \"table\": \"test\"\r\n    } ,\r\n    \"servers\": [\r\n        \"newton_9m0\" ,\r\n        \"newton_hk3\"\r\n    ] ,\r\n    \"type\": \"index_construction\"\r\n}\r\n```\r\n\r\nA `\"backfill\"` job is the `\"info\".\"destination_server\"` updating the database `\"info\".\"db\"`, table `\"info\".\"table\"` with information from `\"info\".\"source_server\"`. As above `\"info\".\"progress\"` is a double between zero and one.\r\n```\r\n{\r\n    \"duration_sec\": 1.794437 ,\r\n    \"id\": [\r\n        \"backfill\" ,\r\n        \"52fa338b-35b6-5a95-a9b4-453c55043c86\"\r\n    ] ,\r\n    \"info\": {\r\n        \"db\": \"test\" ,\r\n        \"destination_server\": \"newton_9m0\" ,\r\n        \"progress\": 0.028683950990457348 ,\r\n        \"source_server\": \"newton_hk3\" ,\r\n        \"table\": \"test\"\r\n    } ,\r\n    \"servers\": [\r\n        \"newton_9m0\" ,\r\n        \"newton_hk3\"\r\n    ] ,\r\n    \"type\": \"backfill\"\r\n}\r\n```"
+  , issueCommentId = 71564259
+  }

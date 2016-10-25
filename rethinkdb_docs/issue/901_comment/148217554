@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-10) (-14) 22 : 08 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/148217554"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-148217554"
+  , issueCommentCreatedAt = 2015 (-10) (-14) 22 : 08 : 50 UTC
+  , issueCommentBody =
+      "Next horrible question: `group`. JavaScript returns an array whose elements are `{ group: \"name\", reduction: <data> }` while Ruby and Python return arrays whose elements are ` { \"group name\": <reduction data>\" }. How does Java do this? And how should I represent the returned data? I'm guessing in reality it's going to be a `Map<String, Object>`, but I don't know if there's a canonical way to represent that in text the way we can represent documents in Python, Ruby or JS. (Maybe just JSON, assuming people will figure that out?)"
+  , issueCommentId = 148217554
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-09) 18 : 47 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/163354561"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/965#issuecomment-163354561"
+  , issueCommentCreatedAt = 2015 (-12) (-09) 18 : 47 : 29 UTC
+  , issueCommentBody =
+      "This document is included in the #971 checklist -- the document hasn't been updated for Java at all yet. I'm reclosing this ticket, but adding a note over there."
+  , issueCommentId = 163354561
+  }

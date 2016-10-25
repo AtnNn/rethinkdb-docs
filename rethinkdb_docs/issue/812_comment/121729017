@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-15) 19 : 59 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/121729017"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/812#issuecomment-121729017"
+  , issueCommentCreatedAt = 2015 (-07) (-15) 19 : 59 : 43 UTC
+  , issueCommentBody =
+      "If a table has no secondary indexes on it, is this field present with a value of `[]` or `null`, or is it not present at all?"
+  , issueCommentId = 121729017
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-28) 22 : 52 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/50413323"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/264#issuecomment-50413323"
+  , issueCommentCreatedAt = 2014 (-07) (-28) 22 : 51 : 37 UTC
+  , issueCommentBody =
+      "A few things to do, more or less in order:\r\n- Check the logs \r\n  - `sudo journalctl -u rethinkdb@<instance>` for systemd\r\n  - `var/log/rethinkdb` with unit.d (verify this)\r\n  - or the terminal where rethinkdb was started\r\n- Check if the OOM killer is responsible for the crash with something like `dmesg | grep -i 'killed process'` (verify this)\r\n    - If it's a memory issue, mention the cache, and link to the memory usage article.\r\n    - If it's not, open a github issue\r\n- Try to restart RethinkDB\r\n\r\nWIth the github issue, if possible, provide:\r\n- core if possible (explain how to enable it)\r\n- the output for `rethinkdb --version`\r\n- the output for `uname -a`\r\n- the data files if rethinkdb cannot restart (if files are too big, we can set up a FTP server, and we can sign a NDA if needed).\r\n\r\n"
+  , issueCommentId = 50413323
+  }

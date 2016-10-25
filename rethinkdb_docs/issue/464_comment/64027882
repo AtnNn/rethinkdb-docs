@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-21) 19 : 52 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/64027882"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-64027882"
+  , issueCommentCreatedAt = 2014 (-11) (-21) 19 : 52 : 36 UTC
+  , issueCommentBody =
+      "The non-admin things (that I know about) are already in the `v1.16` doc branch and completed:\r\n\r\n* `r.range` - #536\r\n* point change feeds - #563 \r\n* change \"machine\" to \"server\" - #571 \r\n* multi-stream map - #561\r\n* change \"master\" to \"primary replica\" - #573 \r\n\r\nI have a current version of `next` built on my machine (current as of this morning, at least) but I'll need some quick documentation about a lot of the bullet points above other than the obvious ones (like `--machine-name` becoming `--server-name`). Are server tags functionally identical to datacenters so it's basically just changing the phrase in the documentation, or is it a more substantial change than that?\r\n"
+  , issueCommentId = 64027882
+  }

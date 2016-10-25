@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-04) 19 : 34 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/168779182"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/799#issuecomment-168779182"
+  , issueCommentCreatedAt = 2016 (-01) (-04) 19 : 34 : 09 UTC
+  , issueCommentBody =
+      "I don't think we need to add an `eq` example here, but I think we should add the return value to the example, so I'll open a new issue based on that."
+  , issueCommentId = 168779182
+  }

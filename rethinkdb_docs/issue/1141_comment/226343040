@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-15) 22 : 50 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/226343040"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1141#issuecomment-226343040"
+  , issueCommentCreatedAt = 2016 (-06) (-15) 22 : 50 : 21 UTC
+  , issueCommentBody =
+      "A few notes:\r\n* GROUPED_DATA is a pseudotype, at least from an external perspective (we send it over the wire as a pseudotype, internally it's stored differently than the other pseudotypes).\r\n* There's also a `GROUPED_STREAM` type.  (Arguably a stream is a special case of a grouped stream, but it's confusing because grouped streams degrade to grouped data if necessary.)\r\n* `MINVAL` and `MAXVAL` are their own types in the type system.\r\n* I think the `SEQUENCE` chain should be for `STREAM`.  `SEQUENCE` is a word that just means \"stream or array\", values are never actually of type `SEQUENCE` .\r\nHere's how I would write it:\r\n\r\n---\r\n\r\n* DB\r\n* STREAM (a kind of **SEQUENCE**)\r\n  * `SELECTION<STREAM>`\r\n    * TABLE_SLICE\r\n      * TABLE\r\n* DATUM\r\n  * NULL\r\n  * BOOL\r\n  * NUMBER\r\n  * STRING\r\n  * ARRAY (a kind of **SEQUENCE**)\r\n    * `SELECTION<ARRAY>`\r\n  * OBJECT\r\n    * `SELECTION<OBJECT>` (formerly SINGLE_SELECTION, can also be NULL)\r\n  * MINVAL\r\n  * MAXVAL\r\n  * PSEUDO_TYPE\r\n    * BINARY\r\n    * GEOMETRY\r\n    * TIME\r\n    * GROUPED_DATA\r\n      * GROUPED_STREAM (this is a little debatable, but it degrades to GROUPED_DATA)\r\n* FUNCTION"
+  , issueCommentId = 226343040
+  }

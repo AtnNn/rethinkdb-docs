@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-19) 21 : 21 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103670117"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/768#issuecomment-103670117"
+  , issueCommentCreatedAt = 2015 (-05) (-19) 21 : 21 : 03 UTC
+  , issueCommentBody =
+      "We don't keep docs for older versions of the driver protocol. There are however plans to start keeping old docs around (#665).\r\n\r\nYou can find old versions of the driver spec using `git log`:\r\n\r\nhttps://github.com/rethinkdb/docs/commits/master/1-get-started/drivers/writing-drivers.md\r\nhttps://github.com/rethinkdb/docs/commits/master/1-get-started/drivers/driver_protocol.md\r\n\r\nFor a more authoritative reference, you can take a look at the messages and comments in `ql2.proto`. Use a version tag to get the information for a specific version, for example `git show v1.8.0:src/rdb_protocol/ql2.proto` for RethinkDB 1.8.0.\r\n\r\nhttps://github.com/rethinkdb/rethinkdb/commits/master/src/rdb_protocol/ql2.proto\r\n\r\nI believe that the protobuf_rfc_raw_spec page on the old wiki was simply an early version of `ql2.proto`."
+  , issueCommentId = 103670117
+  }

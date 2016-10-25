@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-19) 20 : 49 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 811954
+        , simpleUserLogin = N "danielcompton"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/811954?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielcompton"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/103664063"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/766#issuecomment-103664063"
+  , issueCommentCreatedAt = 2015 (-05) (-19) 20 : 49 : 52 UTC
+  , issueCommentBody =
+      "Sure, thats an even better thing to be able to tell people :smile:. Is that release 2.0.2? "
+  , issueCommentId = 103664063
+  }

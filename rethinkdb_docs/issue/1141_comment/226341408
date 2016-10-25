@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-15) 22 : 41 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/226341408"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1141#issuecomment-226341408"
+  , issueCommentCreatedAt = 2016 (-06) (-15) 22 : 41 : 21 UTC
+  , issueCommentBody =
+      "One question is who the audience of this documentation would be. Is this aimed at driver developers who need to understand the type signatures in the ql2.proto file?\r\n\r\nOr is this aimed at users who want to program in ReQL? I think as far as those users are concerned, https://rethinkdb.com/docs/data-types/ already has a pretty good description of the relevant data types that is also consistent with the types we are using in the API signatures here I think https://rethinkdb.com/api/ . Though this description doesn't explicitly describe a hierarchy right now (should it?)."
+  , issueCommentId = 226341408
+  }

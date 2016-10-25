@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-02) 21 : 15 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/89046349"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/116#issuecomment-89046349"
+  , issueCommentCreatedAt = 2015 (-04) (-02) 21 : 15 : 24 UTC
+  , issueCommentBody =
+      "I have that one covered, but the description  of \"`r.connect` and `conn.run` need documentation for block style usage\" made me assume you could pass a block to both `connect` and `run`."
+  , issueCommentId = 89046349
+  }

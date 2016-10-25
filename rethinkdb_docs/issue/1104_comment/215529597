@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-28) 19 : 02 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/215529597"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1104#issuecomment-215529597"
+  , issueCommentCreatedAt = 2016 (-04) (-28) 19 : 02 : 25 UTC
+  , issueCommentBody =
+      "@cefn Since this is a proposal for a driver API change and not a documentation issue, I'm going to move this to our main issue tracker over here: https://github.com/rethinkdb/rethinkdb/issues/"
+  , issueCommentId = 215529597
+  }

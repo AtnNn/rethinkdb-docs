@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-31) 23 : 45 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/204177058"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1059#issuecomment-204177058"
+  , issueCommentCreatedAt = 2016 (-03) (-31) 23 : 45 : 45 UTC
+  , issueCommentBody =
+      "What's documented here is in CR. If this is wrong, let me know, @VeXocide. :)"
+  , issueCommentId = 204177058
+  }

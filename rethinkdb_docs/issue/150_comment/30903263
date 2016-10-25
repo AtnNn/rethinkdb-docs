@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-19) 03 : 50 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/30903263"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/150#issuecomment-30903263"
+  , issueCommentCreatedAt = 2013 (-12) (-19) 03 : 50 : 42 UTC
+  , issueCommentBody =
+      "Thanks @vinceprignano, I added the `--with-python` flag to the protobuf formula but forgot about it when writing the docs.\r\n\r\nI think the suggestion to skip to step four can be confusing, Ubuntu users may think it applies to them to.\r\n\r\n@neumino: does the website have a style for some kind of tabs that we can use here to selectively hide and show different steps? Or perhaps this new OS X section can just be an infobox that reads \"On OS X, using hombrew, replace steps 1 through 3 with the following command:\""
+  , issueCommentId = 30903263
+  }

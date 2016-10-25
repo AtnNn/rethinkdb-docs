@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-29) 21 : 32 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243263351"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1171#issuecomment-243263351"
+  , issueCommentCreatedAt = 2016 (-08) (-29) 21 : 32 : 22 UTC
+  , issueCommentBody =
+      "It does require node, and we also list that on the install page that you get to when clicking on the driver in the list.\r\nYou're right that we do refer to it as \"JavaScript\" everywhere else, so listing both of them as \"JavaScript\" seems like the best option."
+  , issueCommentId = 243263351
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-20) 05 : 07 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28864167"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/94#issuecomment-28864167"
+  , issueCommentCreatedAt = 2013 (-11) (-20) 05 : 07 : 54 UTC
+  , issueCommentBody =
+      "@mglukhovsky -- I wanted to make sure you approved the changes before I bothered copy-pasting them.  Let me know when to do so.\r\n\r\n@neumino -- what's the versioning scheme here?  master is released immediately by v1.11.x is released on release day?"
+  , issueCommentId = 28864167
+  }

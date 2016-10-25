@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-29) 22 : 08 : 36 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/97602097"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/743#issuecomment-97602097"
+  , issueCommentCreatedAt = 2015 (-04) (-29) 22 : 08 : 36 UTC
+  , issueCommentBody =
+      "I agree, we should rewrite that section.\r\n\r\nI don't think the limitations mentioned in there apply anymore.\r\nWe could remove the section altogether, but some users are concerned about changefeed scalability (the question has come up multiple times). So I think we should replace it by something that explains how well changefeeds scale in general, rather than only pointing out limitations.\r\n\r\n@mlucy I believe you once wrote a summary of changefeed scalability. Maybe it was for a question on HackerNews or on the mailing list? Do you still have that summary around by any chance?\r\n\r\nI think we should still refer to RabbitMQ somewhere else in the article for cases where users need better guarantees (like \"at least once\" delivery)."
+  , issueCommentId = 97602097
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-24) 22 : 58 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27040245"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/5#issuecomment-27040245"
+  , issueCommentCreatedAt = 2013 (-10) (-24) 22 : 58 : 47 UTC
+  , issueCommentBody =
+      "@atnnn I tested Ubuntu 13.04 and 12.10, both instructions fails because of node.\r\nUpdating node to latest works fine for me (`n` requires `curl` or `wget` too).\r\n\r\n@atnnn would you mind taking a look and merge it if it's ok for you. I'll take care of deploying it."
+  , issueCommentId = 27040245
+  }

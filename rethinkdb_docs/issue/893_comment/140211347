@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-14) 21 : 32 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140211347"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/893#issuecomment-140211347"
+  , issueCommentCreatedAt = 2015 (-09) (-14) 21 : 32 : 06 UTC
+  , issueCommentBody =
+      "Hi @kureikain, are you talking about the example projects in our docs? http://rethinkdb.com/docs/examples/\r\n\r\nIn general we're very happy about pull requests.\r\n\r\nKeep in mind that depending on the contents, it might take a few iterations before we can merge a new docs page. So you might want to publish your tutorial independently somewhere while we're reviewing it and working with you on getting it into the right format etc.\r\n\r\n(closing because it's more of a question than an issue)"
+  , issueCommentId = 140211347
+  }

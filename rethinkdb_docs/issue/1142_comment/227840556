@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-22) 18 : 47 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/227840556"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1142#issuecomment-227840556"
+  , issueCommentCreatedAt = 2016 (-06) (-22) 18 : 47 : 56 UTC
+  , issueCommentBody =
+      "I'm planning on just adding two more bullet points to `set_loop_type` in line with the existing two:\r\n\r\n* `\"gevent\"`: use the [gevent networking library][gev]. Under this model, the connect and run commands will return gevent `AsyncResult` objects.\r\n* `\"asyncio\"`: use Python 3's [asyncio package][asy]. Under this model, the connect and run commands will return asyncio `Future` objects.\r\n\r\n[gev]: http://www.gevent.org\r\n[asy]: https://docs.python.org/3/library/asyncio.html\r\n\r\nHowever, I need to know whether or not that's correct. :) I'm pretty sure from the code that asyncio will return `Future` objects, but I'm not positive about the guidance for gevent. If @larkost or @Tryneus (or somebody else who knows) can chime in, I'll go ahead and make this change."
+  , issueCommentId = 227840556
+  }

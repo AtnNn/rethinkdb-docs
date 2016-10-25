@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-18) 01 : 41 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 17789
+        , simpleUserLogin = N "gchpaco"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17789?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gchpaco"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/67429191"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/607#issuecomment-67429191"
+  , issueCommentCreatedAt = 2014 (-12) (-18) 01 : 41 : 58 UTC
+  , issueCommentBody =
+      "Minor niggle: I would use \"Unicode code point\" where you've used \"UTF-8 code point\" but otherwise this is quite correct.\r\n\r\n\r\nGraham\r\n\r\nOn Wed, Dec 17, 2014 at 3:27 PM, Watts <notifications@github.com> wrote:\r\n\r\n> Closed #607 via 8655a3f6e23dbbd3d479f42c6812d237a0311cfa.\r\n> ---\r\n> Reply to this email directly or view it on GitHub:\r\n> https://github.com/rethinkdb/docs/issues/607#event-209289324"
+  , issueCommentId = 67429191
+  }

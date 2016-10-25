@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-20) 01 : 53 : 26 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/212207793"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1083#issuecomment-212207793"
+  , issueCommentCreatedAt = 2016 (-04) (-20) 01 : 53 : 26 UTC
+  , issueCommentBody =
+      "I'll do the editing in a separate ticket. Thanks for the contribution!\n\n\nOn Apr 19, 2016, 1:13 PM -0700, Daniel Mewes<notifications@github.com>, wrote:\n>  \n> Thanks for the pull request@gyelwande(https://github.com/gyelwande)!\n>  \n>  \n> I think we'll need to change the wording a bit on this. It also mentions some things that are unrelated to thejobstable (such as that RethinkDB doesn't use indexes automatically), which we should probably take out.\n>  \n>  \n> @chipotle(https://github.com/chipotle)Do you prefer to rewrite this from scratch or modify based on what@gyelwande(https://github.com/gyelwande)wrote?\n>  \n>  \n> \8212\n> You are receiving this because you were mentioned.\n> Reply to this email directly orview it on GitHub(https://github.com/rethinkdb/docs/pull/1083#issuecomment-212107529)\n>  \n>  \n>  \n\n\n"
+  , issueCommentId = 212207793
+  }

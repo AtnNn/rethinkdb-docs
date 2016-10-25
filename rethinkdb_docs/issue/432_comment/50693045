@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-30) 23 : 10 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/50693045"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/432#issuecomment-50693045"
+  , issueCommentCreatedAt = 2014 (-07) (-30) 23 : 10 : 38 UTC
+  , issueCommentBody =
+      "What's the summary version of what this is? I gather it's a new data type for storing binary objects, but it's not immediately obvious how to use it. Do you just set a field to it, with something like\r\n\r\n```js\r\n{ filename: 'rethinkdb.jpg', contents: r.binary(contentsOfFile) }\r\n```\r\n\r\n"
+  , issueCommentId = 50693045
+  }

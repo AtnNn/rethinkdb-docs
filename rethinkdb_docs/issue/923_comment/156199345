@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-12) 18 : 49 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/156199345"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/923#issuecomment-156199345"
+  , issueCommentCreatedAt = 2015 (-11) (-12) 18 : 49 : 41 UTC
+  , issueCommentBody =
+      "I'd suggest that \"How do I produce a changefeed with a union of two or more tables?\" is a cookbook recipe. Adding an example to `union` is also a good idea; we should add more examples that use changefeeds to commands like this. (I don't know if I'd advocate adding an example to `changes()`, though.)\r\n\r\nMaybe the language in the changefeed article needs to be strengthened to emphasize the \"nearly any query can become a changefeed\" aspect of the `.changes()` command. I'm a little leery of adding a section that calls out specific queries, unless we just have a quick list of examples -- but that might be better served by collecting a few more changefeed cookbook entries and linking to the cookbook from the changefeed article."
+  , issueCommentId = 156199345
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-21) 02 : 53 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63917407"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-63917407"
+  , issueCommentCreatedAt = 2014 (-11) (-21) 02 : 51 : 43 UTC
+  , issueCommentBody =
+      "I've written up a checklist of things that need to be documented.\r\n\r\nReQL commands:\r\n* New `reconfigure()` command\r\n* New `rebalance()` command\r\n* New `table_status()` command\r\n* New `table_config()` command\r\n* New `table_wait()` command\r\n* New `db_config()` command\r\n* Existing `table_create()` command takes different parameters now\r\n* Existing `info()` command returns additional information now (but the return value wasn't documented in detail before, so it probably doesn't need to be documented now)\r\n* Existing `table()` command takes an `identifier_format` optarg now\r\n\r\nSystem tables:\r\n* `rethinkdb.table_config` table\r\n* `rethinkdb.table_status` table\r\n* `rethinkdb.db_config` table\r\n* `rethinkdb.server_status` table\r\n* `rethinkdb.server_config` table\r\n* `rethinkdb.cluster_config` table\r\n* `rethinkdb.issues` table\r\n* `rethinkdb.jobs` table (not implemented yet)\r\n* `rethinkdb.stats` table (not implemented yet)\r\n* `rethinkdb.logs` table (not implemented yet)\r\n\r\nOther stuff:\r\n* Replication parameters (number of shards, number of replicas, etc.) are now stored internally in a very different way, in addition to being specified by the user in a different way in the web UI and through the new ReQL admin API. Existing metadata files will be automatically migrated; there are some odd corner cases, which the user will get a warning for.\r\n* We no longer have a concept of a \"datacenter\"; instead we have \"server tags\". Any docs that refer to datacenters will have to be updated.\r\n* We no longer use vector clocks; instead, we use versioned values. The main user-facing consequence of this is that they will no longer see \"Vector clock conflict\" issues in the web UI.\r\n* The command-line parameter `--machine-name` is now called `--server-name`. Any docs that refer to `--machine-name` will have to be updated.\r\n* We have an additional command-line parameter `--server-tag`.\r\n* We've standardized on the term \"server\" in place of \"machine\", and \"primary replica\" in place of \"master\".\r\n* The web UI has changed, but I don't know the details; ask @deontologician.\r\n* It's now possible to increase the number of shards even if a table is empty\r\n* The `rethinkdb admin` subcommand has been removed\r\n* The internal HTTP APIs have been removed (they weren't documented before, but a few people were using them anyway)\r\n\r\nThings that still need to be implemented:\r\n* The `rethinkdb.jobs`, `rethinkdb.logs`, and `rethinkdb.stats` tables are in varying degrees of unimplementedness\r\n* `reconfigure()` might be renamed, and the default for the `dry_run` parameter might change (#3252)\r\n* The return value of `reconfigure()` might change (\r\n* The return value of `table_create()` and maybe also `db_create()` might change (#3001)\r\n* `table_wait()` might get an optarg (#2259)\r\n* `server_status` might get some new fields (#3180 and #3179)\r\n* The web UI is still under heavy development\r\n* System tables will eventually support change-feeds\r\n\r\nThis only includes things that are directly related to the ReQL admin changes. There are other parts of the v1.16 release that will also need documenting, like `r.range()`, the new changefeed features, etc."
+  , issueCommentId = 63917407
+  }

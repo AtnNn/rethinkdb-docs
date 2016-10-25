@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-18) 18 : 34 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/198488197"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1053#issuecomment-198488197"
+  , issueCommentCreatedAt = 2016 (-03) (-18) 18 : 34 : 51 UTC
+  , issueCommentBody =
+      "The disadvantage of setting `ordered` to `true` is that it's slower (sometimes by a lot)."
+  , issueCommentId = 198488197
+  }

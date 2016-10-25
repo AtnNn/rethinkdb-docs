@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-29) 22 : 27 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41740135"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/286#issuecomment-41740135"
+  , issueCommentCreatedAt = 2014 (-04) (-29) 22 : 27 : 31 UTC
+  , issueCommentBody =
+      "@neumino -- I made some improvements to the JavaScript version (both the index page and the detailed page). I think it's much better (barring our design/typography issues, which we'll fix separately in the redesign phase).\r\n\r\nWould you mind studying the changes and converting them to python and ruby?\r\n\r\nNote that I changed the wording, reordered and combined some examples, fixed some stylistic issues (e.g. 100.000 -> 100,000, spelling, etc.), simplified some code samples, and added an example.\r\n\r\n"
+  , issueCommentId = 41740135
+  }

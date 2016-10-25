@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-18) 03 : 23 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59597427"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/406#issuecomment-59597427"
+  , issueCommentCreatedAt = 2014 (-10) (-18) 03 : 23 : 43 UTC
+  , issueCommentBody =
+      "@chrisvariety, thanks for the suggestion! We've also been considering tools like lunr.js or other JS index-based search options."
+  , issueCommentId = 59597427
+  }

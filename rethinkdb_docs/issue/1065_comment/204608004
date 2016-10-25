@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-01) 23 : 36 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/204608004"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1065#issuecomment-204608004"
+  , issueCommentCreatedAt = 2016 (-04) (-01) 23 : 36 : 24 UTC
+  , issueCommentBody =
+      "Quick explanation copied from #1068:\r\n\r\nrethinkdb/rethinkdb#5188 introduced a new `include_types` boolean optarg for the `changes` command.\r\n\r\nIf turned on, every result on a changefeed will have a `type` field with one of the following values:\r\n\"add\", \"remove\", \"change\", \"initial\", \"uninitial\", \"state\""
+  , issueCommentId = 204608004
+  }

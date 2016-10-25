@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-23) 21 : 50 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46906931"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/274#issuecomment-46906931"
+  , issueCommentCreatedAt = 2014 (-06) (-23) 21 : 50 : 02 UTC
+  , issueCommentBody =
+      "I thought we would have it on a page of its own, but have a link on the Troubleshooting page.\8206\r\n\r\nProbably a short 1-sentence answer to the question \"RethinkDB is running out of memory\" and then a link to the full article."
+  , issueCommentId = 46906931
+  }

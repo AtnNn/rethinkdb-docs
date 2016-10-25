@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-18) 14 : 36 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 181337
+        , simpleUserLogin = N "pixelspark"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/181337?v=3"
+        , simpleUserUrl = "https://api.github.com/users/pixelspark"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/220046351"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/924#issuecomment-220046351"
+  , issueCommentCreatedAt = 2016 (-05) (-18) 14 : 36 : 58 UTC
+  , issueCommentBody =
+      "@danielmewes most of the optargs have now been implemented, as well as the more exotic operations. Additionally we support the new SCRAM-based authentication (i.e. the V1_0 protocol). \r\n "
+  , issueCommentId = 220046351
+  }

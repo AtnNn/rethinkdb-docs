@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-07) 22 : 58 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58276594"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/524#issuecomment-58276594"
+  , issueCommentCreatedAt = 2014 (-10) (-07) 22 : 58 : 11 UTC
+  , issueCommentBody =
+      "The image for \"Importing your data\" makes the syntax string for the import command wrap in a very uncomfortable manner.\r\n\r\n@chipotle, could we add an intro paragraph that defines what kind of data formats you can import in a friendly manner, and when it would be useful to import your data into RethinkDB? It's a bit perfunctory, but it will help us wrap the image cleanly (and make the article a tad friendlier).\r\n\r\nAssigning to @chipotle until this portion is done."
+  , issueCommentId = 58276594
+  }

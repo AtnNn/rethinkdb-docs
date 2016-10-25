@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-12) 21 : 55 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51983305"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/454#issuecomment-51983305"
+  , issueCommentCreatedAt = 2014 (-08) (-12) 21 : 55 : 02 UTC
+  , issueCommentBody =
+      "It looks like it's just them, actually. Running `ack -L \"# Command\"` (to print out the filenames of files that don't contain that string) in the `api` directory yields:\r\n\r\n```\r\ndeprecated/1.12.md\r\ndeprecated/1.13.md\r\njavascript/index.md\r\npython/index.md\r\npython/joins/eq_join.md\r\nruby/index.md\r\nruby/joins/eq_join.md\r\n```"
+  , issueCommentId = 51983305
+  }

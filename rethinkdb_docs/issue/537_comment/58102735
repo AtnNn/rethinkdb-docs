@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-06) 21 : 30 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/58102735"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/537#issuecomment-58102735"
+  , issueCommentCreatedAt = 2014 (-10) (-06) 21 : 30 : 25 UTC
+  , issueCommentBody =
+      "Yeah we should make it clear that it's not encrypted before transfer nor storage. http://rethinkdb.com/docs/security/ already has the note \"the authentication key will be transmitted to the RethinkDB server in plain text.\", which is fine (maybe we should add that it's also stored on the servers in plain text).\r\nThe following sentence should be ammended / clarified:\r\n\"This may be sufficient to thwart basic attacks, but is vulnerable to more sophisticated man-in-the-middle attacks.\"\r\n\r\nSince it really doesn't take a (\"more sophisticated\") man-in-the-middle attack to obtain the auth code."
+  , issueCommentId = 58102735
+  }

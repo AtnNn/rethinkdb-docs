@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-27) 18 : 37 : 57 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2217724
+        , simpleUserLogin = N "nicholastulach"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2217724?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nicholastulach"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/235679192"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1164#issuecomment-235679192"
+  , issueCommentCreatedAt = 2016 (-07) (-27) 18 : 37 : 57 UTC
+  , issueCommentBody =
+      "Or provide sample data in the example that reflect the data used (e.g. `posts.author_full_name`)."
+  , issueCommentId = 235679192
+  }

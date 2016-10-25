@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-07) 20 : 39 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48237533"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/403#issuecomment-48237533"
+  , issueCommentCreatedAt = 2014 (-07) (-07) 20 : 39 : 51 UTC
+  , issueCommentBody =
+      "Pinging @mlucy and @neumino - when you get a chance get with me on this re: limitations on RethinkDB. The blog post doesn't give specific numbers, I see, so should we be keeping this very general? What things have come up in the last year that people have said that they want to do with RethinkDB that they can't yet? For instance, in the CoreOS thread from today, lack of automatic failover was mentioned."
+  , issueCommentId = 48237533
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-11) 22 : 21 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 3198219
+        , simpleUserLogin = N "teechap"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/3198219?v=3"
+        , simpleUserUrl = "https://api.github.com/users/teechap"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/40259137"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/262#issuecomment-40259137"
+  , issueCommentCreatedAt = 2014 (-04) (-11) 22 : 21 : 31 UTC
+  , issueCommentBody =
+      "Thanks for the clear explanation @srh! Didn't realize I was looking at the wrong function documentation =P"
+  , issueCommentId = 40259137
+  }

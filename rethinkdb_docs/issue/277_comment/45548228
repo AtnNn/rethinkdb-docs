@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-09) 21 : 42 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45548228"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/277#issuecomment-45548228"
+  , issueCommentCreatedAt = 2014 (-06) (-09) 21 : 42 : 54 UTC
+  , issueCommentBody = "Ok, merged into v1.13, closing."
+  , issueCommentId = 45548228
+  }

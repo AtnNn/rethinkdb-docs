@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-06) 19 : 04 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/99576139"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/746#issuecomment-99576139"
+  , issueCommentCreatedAt = 2015 (-05) (-06) 19 : 04 : 32 UTC
+  , issueCommentBody =
+      "According to `r.minval.typeOf()`, the type of `r.minval` is MINVAL and the type of `r.maxval` is MAXVAL.\r\n\r\nCan you explain a bit what it would mean to alias them to `between`? Would the Data Explorer basically show the documentation of `between` when typing `r.minval`?\r\n"
+  , issueCommentId = 99576139
+  }

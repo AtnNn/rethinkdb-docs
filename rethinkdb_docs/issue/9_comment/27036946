@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-24) 22 : 22 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27036946"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/9#issuecomment-27036946"
+  , issueCommentCreatedAt = 2013 (-10) (-24) 22 : 22 : 20 UTC
+  , issueCommentBody =
+      "Some limitations mentioned on another issue (internal tracker):\r\n- max size of a document: 10MB\r\n- max number of elements for an orderBy without an index: 1 million elements\r\n- system requirements: kernel version, minimum memory requirements"
+  , issueCommentId = 27036946
+  }

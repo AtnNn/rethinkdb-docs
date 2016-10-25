@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-29) 18 : 05 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41710853"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/287#issuecomment-41710853"
+  , issueCommentCreatedAt = 2014 (-04) (-29) 18 : 05 : 00 UTC
+  , issueCommentBody =
+      "@ZackBoe -- thanks for the pull request!\r\n\r\nWe have a convention to use local URIs instead of full ones (so `http://www.rethinkdb.com/docs/install-drivers/` should be `/docs/install-drivers/`). Would you mind updating the pull request?"
+  , issueCommentId = 41710853
+  }

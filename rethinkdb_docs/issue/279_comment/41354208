@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-25) 02 : 44 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41354208"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/279#issuecomment-41354208"
+  , issueCommentCreatedAt = 2014 (-04) (-25) 02 : 44 : 38 UTC
+  , issueCommentBody =
+      "Also on the docs for `nth`.\r\n\r\nSimilarly to `slice`, I think we should stop labeling it as `[]` for ruby and python, call it `nth`, and then point out in the ruby and python docs that users can use `[]` as an alias."
+  , issueCommentId = 41354208
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-17) 00 : 39 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/184942448"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1023#issuecomment-184942448"
+  , issueCommentCreatedAt = 2016 (-02) (-17) 00 : 39 : 15 UTC
+  , issueCommentBody =
+      "Example issue document:\r\n```js\r\n{\r\n    \"critical\": false ,\r\n    \"description\": \"The following server encountered a memory problem: the_shadow_local_j4s. \r\n\r\n     The message reported is: Data from a process on this server has been placed into swap memory in the past hour. If the data is from RethinkDB, this may impact performance.\r\n\r\n    \" ,\r\n    \"id\": \"0755df1a-1a62-5b60-88bb-dd8a10c6f87f\" ,\r\n    \"info\": {\r\n        \"message\": \"Data from a process on this server has been placed into swap memory in the past hour. If the data is from RethinkDB, this may impact performance.\" ,\r\n        \"servers\": [\r\n            \"the_shadow_local_j4s\"\r\n        ]\r\n    } ,\r\n    \"type\": \"memory_error\"\r\n}\r\n```"
+  , issueCommentId = 184942448
+  }

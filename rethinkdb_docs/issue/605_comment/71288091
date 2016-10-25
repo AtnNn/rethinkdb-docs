@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-24) 00 : 06 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71288091"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/605#issuecomment-71288091"
+  , issueCommentCreatedAt = 2015 (-01) (-24) 00 : 06 : 14 UTC
+  , issueCommentBody =
+      "@mlucy suggested a few days ago that we could put an example or note about changefeeds in the documents of the commands that you can apply `changes()` to.\r\n\r\nFor example we could add an example with `changes()` to the documentation of the `max` term, or to `get` (\"... You can also listen to changes on a document by opening a changefeed: r...get(...).changes()\").\r\n\r\nI don't think this is necessary before the 1.16 release though. We can extend the documentation in that respect later.\r\n\r\nI think apart from documenting the `squash` parameter, noting the now working combinations in the `changes()` docs is the only critical thing."
+  , issueCommentId = 71288091
+  }

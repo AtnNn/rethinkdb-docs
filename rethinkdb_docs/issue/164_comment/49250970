@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-17) 02 : 04 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49250970"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/164#issuecomment-49250970"
+  , issueCommentCreatedAt = 2014 (-07) (-17) 02 : 04 : 49 UTC
+  , issueCommentBody =
+      "Objective-C is a general purpose language, so definitely not iOS specific."
+  , issueCommentId = 49250970
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-09) 22 : 42 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/66372405"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-66372405"
+  , issueCommentCreatedAt = 2014 (-12) (-09) 22 : 42 : 38 UTC
+  , issueCommentBody =
+      "* The `rethinkdb.server_config` table now has a new field called `cache_size_mb`. Also, the behavior of the `--cache-size` command line flag has changed (it's now persisted across restarts). See https://github.com/rethinkdb/rethinkdb/issues/3166.\r\n\r\n* If the user forgets their auth key, the solution is to change it by writing to `rethinkdb.cluster_config` through the data explorer in the web UI. We should mention this in the documentation because it's not obvious that the web UI doesn't require an auth key."
+  , issueCommentId = 66372405
+  }

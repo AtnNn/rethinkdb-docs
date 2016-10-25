@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-31) 18 : 59 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/126784929"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/840#issuecomment-126784929"
+  , issueCommentCreatedAt = 2015 (-07) (-31) 18 : 59 : 01 UTC
+  , issueCommentBody =
+      "The `tableCreate` documentation mentions the types allowed for primary keys, and mentions arrays as an allowed type; I'm not sure there's much else documentation, though. The `between` documentation talks about how compound indexes are treated, but it would be a good idea to clarify that \"compound key\" and \"array key\" are essentially the same thing.\r\n\r\nWith commands that don't rely on ReQL sorting order, I'm not sure there are any special implications -- I think values are just values: `r.table('foo').getAll('bar')` and `r.table('foo').getAll(['bar', 'baz'])` are both essentially \"give me the document in table `foo` whose primary key matches this value.\" Are there special considerations for array indexes, @danielmewes ?"
+  , issueCommentId = 126784929
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-01) 22 : 25 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/57551508"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-57551508"
+  , issueCommentCreatedAt = 2014 (-10) (-01) 22 : 25 : 32 UTC
+  , issueCommentBody =
+      "I just looked at the code, there's currently a bug in the JS driver.\r\n\r\nWe accept only `batchConf` but we do not translate it.\r\nAnd like @chipotle said, we do not translate sub-optargs."
+  , issueCommentId = 57551508
+  }

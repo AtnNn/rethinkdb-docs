@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-11) 23 : 35 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51855302"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/439#issuecomment-51855302"
+  , issueCommentCreatedAt = 2014 (-08) (-11) 23 : 35 : 27 UTC
+  , issueCommentBody =
+      "We were talking about adding this as a troubleshooting entry, AFAIK. I don't know if the migration page is relevant in this case. Does this migration happen automatically normally, with a manual fallback if something goes wrong?"
+  , issueCommentId = 51855302
+  }

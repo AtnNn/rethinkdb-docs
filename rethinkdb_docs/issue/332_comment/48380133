@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-08) 18 : 26 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48380133"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/332#issuecomment-48380133"
+  , issueCommentCreatedAt = 2014 (-07) (-08) 18 : 26 : 51 UTC
+  , issueCommentBody =
+      "And here I was thinking that RethinkDB was cleverly remembering the last\r\ndatabase, instead of just defaulting to the name I happened to putting test\r\ntables in. Well, that should probably be documented somewhere, too, but\r\nmaybe in a separate ticket to add it to the `db` command.\r\n\r\n\r\nOn Tue, Jul 8, 2014 at 11:22 AM, Michel <notifications@github.com> wrote:\r\n\r\n> By default the db argument is set to test I think.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/332#issuecomment-48379562>.\r\n>"
+  , issueCommentId = 48380133
+  }

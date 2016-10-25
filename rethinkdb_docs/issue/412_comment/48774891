@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-11) 19 : 49 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48774891"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/412#issuecomment-48774891"
+  , issueCommentCreatedAt = 2014 (-07) (-11) 19 : 49 : 21 UTC
+  , issueCommentBody =
+      "I think something with questions that often come up when people are first trying to use RethinkDB makes sense, even if it's mostly a set of links to other places in the documentation. Performance issues, troubleshooting issues, etc.\r\n\r\nRight now we have a set of troubleshooting questions that's separate from the FAQ, but is that really standard? I see a lot of FAQs that cover troubleshooting and are just a lot longer than Rethink's in general. Compare ours to [MongoDB's FAQ](http://docs.mongodb.org/manual/faq/), for instance. Are any of those questions ones that we might reasonably expect users to ask? Our FAQ is very high-level and general. We more or less tell you that RethinkDB doesn't have full ACID support, for instance, but there's no FAQ entry that's simply \"Does RethinkDB support ACID transactions?\""
+  , issueCommentId = 48774891
+  }

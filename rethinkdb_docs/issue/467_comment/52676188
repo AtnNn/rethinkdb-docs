@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-19) 18 : 19 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52676188"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52676188"
+  , issueCommentCreatedAt = 2014 (-08) (-19) 18 : 19 : 03 UTC
+  , issueCommentBody =
+      "Can't you just rewrite the term on the server from `r.binary(r.http())` to\r\n`r.http(..., result_format='binary')` ? Seems like that's the abstraction\r\npeople would be hoping for when wrapping it like that\r\n\r\n\r\nOn Mon, Aug 18, 2014 at 7:00 PM, Michael Lucy <notifications@github.com>\r\nwrote:\r\n\r\n> We should try very hard *not* to encourage people ro write\r\n> r.binary(r.http()). It will appear to work until there's a NULL\r\n> character, or a future version of RethinkDB actually checks for UTF-8, but\r\n> then it will just blow up.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/467#issuecomment-52581416>.\r\n>"
+  , issueCommentId = 52676188
+  }

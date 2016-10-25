@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-20) 02 : 10 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28858297"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/44#issuecomment-28858297"
+  , issueCommentCreatedAt = 2013 (-11) (-20) 02 : 10 : 53 UTC
+  , issueCommentBody =
+      "I updated the documentation for `close` and `reconnect` in https://github.com/rethinkdb/docs/pull/94 .  The `noreply_wait` command still needs to be added."
+  , issueCommentId = 28858297
+  }

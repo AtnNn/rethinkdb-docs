@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-22) 18 : 11 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/142368675"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/831#issuecomment-142368675"
+  , issueCommentCreatedAt = 2015 (-09) (-22) 18 : 11 : 37 UTC
+  , issueCommentBody =
+      "Do you think it'd be a good idea to remove the \"running a coroutine in the background\" examples from the Tornado documentation, and leave the \"larger example\" of changefeeds as sufficient?"
+  , issueCommentId = 142368675
+  }

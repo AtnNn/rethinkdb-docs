@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-13) 01 : 55 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28355407"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/74#issuecomment-28355407"
+  , issueCommentCreatedAt = 2013 (-11) (-13) 01 : 55 : 51 UTC
+  , issueCommentBody =
+      "@atnnn -- what does `--user rethinkdb` mean? I tried to look up the docs for pip on this, but they aren't very helpful."
+  , issueCommentId = 28355407
+  }

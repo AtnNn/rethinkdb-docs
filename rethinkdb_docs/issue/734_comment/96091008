@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-24) 23 : 02 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/96091008"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/734#issuecomment-96091008"
+  , issueCommentCreatedAt = 2015 (-04) (-24) 23 : 02 : 38 UTC
+  , issueCommentBody =
+      "Sorting order of objects is another non-obvious one (I don't know how they sort actually. @mlucy?)"
+  , issueCommentId = 96091008
+  }

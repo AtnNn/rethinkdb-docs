@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-30) 21 : 16 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61170939"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/570#issuecomment-61170939"
+  , issueCommentCreatedAt = 2014 (-10) (-30) 21 : 16 : 31 UTC
+  , issueCommentBody =
+      "I'll hunt this one down as part of ticket #569 since the miscreant characters need to be removed before they get copied into the other languages. :)"
+  , issueCommentId = 61170939
+  }

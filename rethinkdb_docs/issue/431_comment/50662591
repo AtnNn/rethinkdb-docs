@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-30) 18 : 55 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/50662591"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/431#issuecomment-50662591"
+  , issueCommentCreatedAt = 2014 (-07) (-30) 18 : 55 : 03 UTC
+  , issueCommentBody =
+      "Secure cluster and changefeeds images updated"
+  , issueCommentId = 50662591
+  }

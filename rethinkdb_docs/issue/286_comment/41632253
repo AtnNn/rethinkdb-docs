@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-29) 01 : 00 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41632253"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/286#issuecomment-41632253"
+  , issueCommentCreatedAt = 2014 (-04) (-29) 01 : 00 : 32 UTC
+  , issueCommentBody =
+      "In general, I think you're demoting arbitrary sorting too much.  It's still extremely valuable (and can be done on tables!) but it's denigrated to two small examples at the end. I'd at least consider adding an example for doing it on a table (you can say that it's for tables that are smaller than X), and I'd make the example more prominent.\r\n\r\nWe generally want to first have examples of common operations, and then later examples of less common operations. But in this case you're starting out getting into obscure examples, and then mention the one that's used frequently.\r\n\r\n"
+  , issueCommentId = 41632253
+  }

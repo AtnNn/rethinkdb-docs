@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-03) 19 : 37 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61534887"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/464#issuecomment-61534887"
+  , issueCommentCreatedAt = 2014 (-11) (-03) 19 : 37 : 00 UTC
+  , issueCommentBody =
+      "reql_admin is going to ship with 1.16. By now the basics are pretty much laid out and a lot of it is working already. A few details are still uncertain and some parts of it not implemented yet.\r\n\r\nA good starting point would be https://github.com/rethinkdb/docs/issues/156\r\nWe also need documentation for the ReQL admin terms in the API docs.\r\nI'll try to compile a full list of the things we need to document."
+  , issueCommentId = 61534887
+  }

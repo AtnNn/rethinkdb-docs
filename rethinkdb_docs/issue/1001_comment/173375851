@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-20) 22 : 02 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10625
+        , simpleUserLogin = N "nanodeath"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10625?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nanodeath"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/173375851"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1001#issuecomment-173375851"
+  , issueCommentCreatedAt = 2016 (-01) (-20) 22 : 02 : 31 UTC
+  , issueCommentBody =
+      "You could document that `tableCreate` already `wait`s, perhaps? As a user, just because a command is successful doesn't necessarily mean that all the required operations have finished propagating."
+  , issueCommentId = 173375851
+  }

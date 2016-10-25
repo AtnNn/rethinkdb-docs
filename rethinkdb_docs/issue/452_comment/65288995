@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-02) 19 : 29 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65288995"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/452#issuecomment-65288995"
+  , issueCommentCreatedAt = 2014 (-12) (-02) 19 : 29 : 05 UTC
+  , issueCommentBody =
+      "@neumino noted here https://github.com/rethinkdb/rethinkdb/issues/1196#issuecomment-64869551 that there's a special case that we should mention in the section on \"Implicit variables\" of the document.\r\n\r\nWe should mention the special corner case for `orderBy` in combination with `r.asc` and `r.desc`. Specifically, `r.desc`/`r.asc` must not be wrapped into a function even if their argument contains the implicit variable (`r.row`). Instead the function wrapping should happen inside `r.desc`/`r.asc`."
+  , issueCommentId = 65288995
+  }

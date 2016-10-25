@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-16) 18 : 48 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59410394"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/554#issuecomment-59410394"
+  , issueCommentCreatedAt = 2014 (-10) (-16) 18 : 48 : 03 UTC
+  , issueCommentBody =
+      "Sorry for only noticing this now: Another bit of outdated information is:\r\n> RethinkDB has binary packages available for:\r\n\r\nThe new list is:\r\n\r\n* Ubuntu 10.04 and higher 32-bit/64-bit\r\n* OS X 64-bit (>= 10.7)\r\n* CentOS 6, 32-bit/64-bit\r\n* Debian Wheezy and Jessie 32-bit/64-bit"
+  , issueCommentId = 59410394
+  }

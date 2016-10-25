@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-23) 03 : 59 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10092343
+        , simpleUserLogin = N "dineyw23"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10092343?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dineyw23"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/187515509"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1024#issuecomment-187515509"
+  , issueCommentCreatedAt = 2016 (-02) (-23) 03 : 59 : 05 UTC
+  , issueCommentBody =
+      "Hi,\r\nI am new to RethinkDB and recently started to explore it. I used the ten-minute guide and after I installed the client driver, I must say, I missed on starting the server before connecting with a driver(May be that's just me). I know a few other people just trying to explore RethinkDB who missed on starting the server. Just thought of sharing my experience,here, after seeing this issue."
+  , issueCommentId = 187515509
+  }

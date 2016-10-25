@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-11) 17 : 55 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51815761"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/444#issuecomment-51815761"
+  , issueCommentCreatedAt = 2014 (-08) (-11) 17 : 55 : 10 UTC
+  , issueCommentBody =
+      "So to confirm I'm understanding this:\r\n\r\n* `index_status` now returns an extra field named `function` whose value is binary data.\r\n* you can pass that data as the second argument to `index_create` to duplicate the index.\r\n\r\nA couple quick questions:\r\n\r\n* What's a use case for this? Duplicating the entire table?\r\n* Does `index_status` return the `function` field if `ready` is `false`?\r\n"
+  , issueCommentId = 51815761
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-01) 23 : 54 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/107749050"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/778#issuecomment-107749050"
+  , issueCommentCreatedAt = 2015 (-06) (-01) 23 : 54 : 05 UTC
+  , issueCommentBody =
+      "I've folded this into #11, since it seems the general advice is \"use the mostly undocumented `proxy` command.\" The documentation will be added to the documentation on sharding/replication, which will be renamed \"Scaling, sharding and replication,\" and cross-referenced from the changefeeds docs and `changes` API command."
+  , issueCommentId = 107749050
+  }

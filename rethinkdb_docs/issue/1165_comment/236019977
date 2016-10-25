@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-28) 20 : 47 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/236019977"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1165#issuecomment-236019977"
+  , issueCommentCreatedAt = 2016 (-07) (-28) 20 : 46 : 13 UTC
+  , issueCommentBody =
+      "Thanks for your pull request @rosehosting .\r\n\r\nI don't think the linked tutorial provides substantial benefits over what we're already describing in the existing install document. It's also vendor-specific (linking in multiple places to your VPS offerings), which we would like to avoid in our official install documentation.\r\n\r\nPlease let me know if you think that adding the link still provides substantial benefits to our users, and we can reconsider this decision. For now I'm going to close this PR."
+  , issueCommentId = 236019977
+  }

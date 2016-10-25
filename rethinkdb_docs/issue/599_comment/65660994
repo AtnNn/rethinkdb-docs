@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-04) 16 : 40 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5043
+        , simpleUserLogin = N "thelinuxlich"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5043?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thelinuxlich"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/65660994"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/599#issuecomment-65660994"
+  , issueCommentCreatedAt = 2014 (-12) (-04) 16 : 40 : 12 UTC
+  , issueCommentBody =
+      "Sorry I didn't notice we already have it there"
+  , issueCommentId = 65660994
+  }

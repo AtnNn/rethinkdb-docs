@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-19) 01 : 29 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28757784"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/87#issuecomment-28757784"
+  , issueCommentCreatedAt = 2013 (-11) (-19) 01 : 29 : 45 UTC
+  , issueCommentBody =
+      "@atnnn can we have a Ubuntu section, with some straight forward instruction.\r\nAnd another section \"Install from source\".\r\n\r\nWe can then add things later for other distributions when we have more time."
+  , issueCommentId = 28757784
+  }

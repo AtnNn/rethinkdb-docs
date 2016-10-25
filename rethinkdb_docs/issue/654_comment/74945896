@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-18) 20 : 55 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/74945896"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/654#issuecomment-74945896"
+  , issueCommentCreatedAt = 2015 (-02) (-18) 20 : 55 : 06 UTC
+  , issueCommentBody =
+      "Thank you for the patch @webmasterkai . I know this seems overly complicated for a small change, but would you mind signing our CLA http://rethinkdb.com/community/cla/ ? We require this for legal reasons before we can merge the pull request.\r\n\r\n@chipotle can you take a look at the commit please?"
+  , issueCommentId = 74945896
+  }

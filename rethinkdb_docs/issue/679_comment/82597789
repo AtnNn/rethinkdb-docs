@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-17) 21 : 00 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 616428
+        , simpleUserLogin = N "Timer"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/616428?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Timer"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/82597789"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/679#issuecomment-82597789"
+  , issueCommentCreatedAt = 2015 (-03) (-17) 20 : 58 : 32 UTC
+  , issueCommentBody =
+      "@mlucy so would something like this also have a similar effect (of guaranteeing transition ONLY from inactive -> active)?\r\n```\r\nr.db('foo').table('bar').filter({ status: \"inactive\"}).sample(1).update(r.branch(r.row('status').eq(\"inactive\"), { status: \"active\", ... }, { }))\r\n```\r\nor would the branch have to be done within the object itself as you presented\r\n```\r\n{status: r.branch(r.row('status').eq('inactive'), 'active', r.row('status'))}\r\n```\r\nI'm not sure how the AST is evaluated or when the write-lock is established, thus the question."
+  , issueCommentId = 82597789
+  }

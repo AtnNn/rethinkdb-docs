@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-18) 22 : 09 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46500999"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/73#issuecomment-46500999"
+  , issueCommentCreatedAt = 2014 (-06) (-18) 22 : 09 : 41 UTC
+  , issueCommentBody =
+      "I believe they can't use objects as keys either.\r\n\r\nAlso, this may change in 1.14: https://github.com/rethinkdb/rethinkdb/issues/1032"
+  , issueCommentId = 46500999
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-24) 18 : 00 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/221353617"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1129#issuecomment-221353617"
+  , issueCommentCreatedAt = 2016 (-05) (-24) 18 : 00 : 35 UTC
+  , issueCommentBody =
+      "Hi @monkeyboy64 . This is the issue tracker for the RethinkDB documentation. I've copied your issue to https://github.com/rethinkdb/rethinkdb/issues/5794 and am going to reply there."
+  , issueCommentId = 221353617
+  }

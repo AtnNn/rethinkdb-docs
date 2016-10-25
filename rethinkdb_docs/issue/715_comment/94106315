@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-18) 00 : 36 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 690517
+        , simpleUserLogin = N "mike-marcacci"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/690517?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mike-marcacci"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/94106315"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/715#issuecomment-94106315"
+  , issueCommentCreatedAt = 2015 (-04) (-18) 00 : 36 : 19 UTC
+  , issueCommentBody =
+      "Hi @danielmewes! When you're on a section like http://rethinkdb.com/api/javascript/#limit, you've moved past the sidebar, and have to use the \"Back to top\" link or scroll up to see the other commands.\r\n\r\nIn the previous version, the sidebar would never scroll past the bottom, which was extremely useful: you could click on a command without completely losing your place in the list.\r\n\r\nFore a really dirty hack of what I'm talking about, head over to the API page and paste the following into your dev tools console:\r\n\r\n```js\r\n$('body').append('<style> body.scrollHack .api-nav {position: fixed; top: 0; bottom: 0; overflow-y: auto; width: 240px; } .back-to-top { visibility: hidden; } ) </style>');\r\n$(document, window).on('scroll', function(e){\r\n\tif($(e.target).scrollTop() > 140) $('body').addClass('scrollHack')\r\n\telse $('body').removeClass('scrollHack')\r\n});\r\n```"
+  , issueCommentId = 94106315
+  }

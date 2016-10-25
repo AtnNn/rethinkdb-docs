@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-18) 23 : 06 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 4331821
+        , simpleUserLogin = N "billbarsch"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/4331821?v=3"
+        , simpleUserUrl = "https://api.github.com/users/billbarsch"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/83219525"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/678#issuecomment-83219525"
+  , issueCommentCreatedAt = 2015 (-03) (-18) 23 : 06 : 13 UTC
+  , issueCommentBody =
+      "yes, I signed some days ago.\nI created a new pull request with the changes\n\nEm quarta-feira, 18 de mar\231o de 2015, Daniel Mewes <notifications@github.com>\nescreveu:\n\n> Thank you for the PR @billbarsch <https://github.com/billbarsch> . I've\n> added a comment to your commit.\n>\n> Have you signed our CLA yet? http://rethinkdb.com/community/cla/\n>\n> \8212\n> Reply to this email directly or view it on GitHub\n> <https://github.com/rethinkdb/docs/pull/678#issuecomment-83198506>.\n>\n"
+  , issueCommentId = 83219525
+  }

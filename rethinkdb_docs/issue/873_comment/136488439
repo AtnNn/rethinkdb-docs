@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-08) (-31) 20 : 22 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/136488439"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/873#issuecomment-136488439"
+  , issueCommentCreatedAt = 2015 (-08) (-31) 20 : 22 : 27 UTC
+  , issueCommentBody =
+      "Just tested this on a 2 server cluster with 1,000 tables and 32 shards * 2 replicas each. The web UI and some queries to the `r.db('rethinkdb')` database become somewhat sluggish, but general meta operation performance seems to be fine.\r\n\r\n@chipotle I think we can remove that point from the limitations."
+  , issueCommentId = 136488439
+  }

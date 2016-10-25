@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-23) 19 : 35 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/187860052"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1030#issuecomment-187860052"
+  , issueCommentCreatedAt = 2016 (-02) (-23) 19 : 35 : 44 UTC
+  , issueCommentBody =
+      "Thanks for looking into this @dineyw23 .\r\nI think just editing the update statement is enough, but adding a short explanation would be better (one sentence maximum, since it's not the focus of the article).\r\n\r\nNote that we require a contributor license agreement before we can accept pull requests. You can read and sign it online at http://rethinkdb.com/community/cla/"
+  , issueCommentId = 187860052
+  }

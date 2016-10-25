@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-23) 21 : 41 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124247152"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/824#issuecomment-124247152"
+  , issueCommentCreatedAt = 2015 (-07) (-23) 21 : 41 : 24 UTC
+  , issueCommentBody =
+      "Ah yes, I don't think this changed in 2.1.\r\nThe different drivers have different amounts of information on the valid number of arguments built in, so some of them might still generate a `ReqlDriverError` in this case."
+  , issueCommentId = 124247152
+  }

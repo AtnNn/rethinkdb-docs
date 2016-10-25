@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-02) 19 : 27 : 06 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 139396
+        , simpleUserLogin = N "wojons"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/139396?v=3"
+        , simpleUserUrl = "https://api.github.com/users/wojons"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/42068826"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/248#issuecomment-42068826"
+  , issueCommentCreatedAt = 2014 (-05) (-02) 19 : 27 : 06 UTC
+  , issueCommentBody =
+      "Does this batching also work with controlling the internal batching size."
+  , issueCommentId = 42068826
+  }

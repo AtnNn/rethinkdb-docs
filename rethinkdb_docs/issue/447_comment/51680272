@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-09) 07 : 53 : 50 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51680272"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/447#issuecomment-51680272"
+  , issueCommentCreatedAt = 2014 (-08) (-09) 07 : 53 : 50 UTC
+  , issueCommentBody =
+      "```\r\n<aho> http://www.rethinkdb.com/docs/introduction-to-reql/ \"map/reduce\"\r\n<aho> http://www.rethinkdb.com/docs/map-reduce/ \"MapReduce\"\r\n<aho> menu: \"Map-reduce\"\r\n<aho> fwiw, wikipedia goes with option 2\r\n```\r\n\r\n```\r\n<aho> in some articles, \"JavaScript\" is incorrectly written as \"Javascript\"\r\n```\r\n\r\n```\r\n<aho> http://www.rethinkdb.com/docs/rethinkdb-vs-mongodb/ \"There are more features and operations that we're \r\n      constantly adding to the query language.\" links to \r\n      https://github.com/rethinkdb/rethinkdb/issues?milestone=3&page=1\r\n<aho> but milestone 3 is long gone, it seems :>\r\n```"
+  , issueCommentId = 51680272
+  }

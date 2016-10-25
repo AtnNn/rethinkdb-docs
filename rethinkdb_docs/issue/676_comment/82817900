@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-18) 08 : 31 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 422539
+        , simpleUserLogin = N "sharow"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/422539?v=3"
+        , simpleUserUrl = "https://api.github.com/users/sharow"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/82817900"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/676#issuecomment-82817900"
+  , issueCommentCreatedAt = 2015 (-03) (-18) 08 : 31 : 30 UTC
+  , issueCommentBody = "thanks. I signed just now."
+  , issueCommentId = 82817900
+  }

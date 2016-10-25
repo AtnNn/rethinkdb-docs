@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-25) 17 : 47 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47135076"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/354#issuecomment-47135076"
+  , issueCommentCreatedAt = 2014 (-06) (-25) 17 : 47 : 42 UTC
+  , issueCommentBody =
+      "Python can do __str__() at the end of the query. I haven't found an\r\nequivalent for Ruby.\r\n\r\n\r\nOn Wed, Jun 25, 2014 at 10:46 AM, Michel <notifications@github.com> wrote:\r\n\r\n> Some people use it to save their query, and other use it to debug things.\r\n>\r\n> If you have a query with many variables inside, and want to know why one\r\n> failed, instead of logging all your variables, you can log the whole query.\r\n>\r\n> I don't know if the Python and Ruby drivers have that though. The python\r\n> driver can easily provide it, but I don't know about Ruby.\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/354#issuecomment-47134911>.\r\n>"
+  , issueCommentId = 47135076
+  }

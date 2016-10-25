@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-17) 21 : 12 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37870809"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/222#issuecomment-37870809"
+  , issueCommentCreatedAt = 2014 (-03) (-17) 21 : 12 : 07 UTC
+  , issueCommentBody =
+      "This sort of feels topsy-turvy to me.  We were originally using a very compact way of representing the results:\r\n\r\n```rb\r\n> query\r\nresult\r\n```\r\n\r\nThis way of doing it adds only 1 line per result to the index page.\r\n\r\nWe then switched to a longer way of representing the results, for a variety of reasons.  But then we decided that the longer way was too long, and removed them entirely?\r\n\r\nI think the results are very useful, even while scanning.  I personally feel like we should just use the compact notation and call it a day."
+  , issueCommentId = 37870809
+  }

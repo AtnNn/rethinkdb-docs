@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-03) 02 : 11 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/223473817"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1136#issuecomment-223473817"
+  , issueCommentCreatedAt = 2016 (-06) (-03) 02 : 11 : 15 UTC
+  , issueCommentBody =
+      "Well, in many languages function arguments are never lazy, so there's nothing to preserve.\r\n\r\nThe important point though is that using `apply` in your ReQL query in JavaScript is not equivalent to using `r.args` in your ReQL query in JavaScript. The former operates on AST objects, and thereby maintains lazyness within the resulting ReQL query, while the latter operates on ReQL values and discards lazyness.\r\nYou're right that it's \"analogous\", but it's not equivalent."
+  , issueCommentId = 223473817
+  }

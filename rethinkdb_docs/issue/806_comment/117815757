@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-01) 20 : 24 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/117815757"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/806#issuecomment-117815757"
+  , issueCommentCreatedAt = 2015 (-07) (-01) 20 : 24 : 19 UTC
+  , issueCommentBody =
+      "It's proportional to the amount of data stored on disk on that particular machine. Yes, it's distinct from the 8MB per table overhead."
+  , issueCommentId = 117815757
+  }

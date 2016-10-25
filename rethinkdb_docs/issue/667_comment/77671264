@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-07) 03 : 37 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/77671264"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/667#issuecomment-77671264"
+  , issueCommentCreatedAt = 2015 (-03) (-07) 03 : 37 : 29 UTC
+  , issueCommentBody =
+      "I'm trying to build a connection pool, that from time to time queries `r.db('rethinkdb').table('server_status')` to connect to new servers as they are added and remove the one that were declare dead.\r\n\r\nThis doesn't always work in case of firewalls and such, but for now, I would like to solve the case when the driver is on the same network as the RethinkDB instances.\r\n\r\nHow can I get a list of addresses to use to connect to?\r\nI retrieve a list of canonical address to use per server. Can RethinkDB provide the address it used to connect to this server as the first one? Or the less local?\r\n"
+  , issueCommentId = 77671264
+  }

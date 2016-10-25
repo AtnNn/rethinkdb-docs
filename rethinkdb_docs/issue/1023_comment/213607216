@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-22) 22 : 17 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 245867
+        , simpleUserLogin = N "coffenbacher"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/245867?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffenbacher"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/213607216"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1023#issuecomment-213607216"
+  , issueCommentCreatedAt = 2016 (-04) (-22) 22 : 16 : 35 UTC
+  , issueCommentBody =
+      "Okay! Great to know. We will adjust our cache size to keep it out of swap - mistaken assumption on my part that utilizing swap for a bigger cache is better than no swap.\r\n\r\nEither way, the warning wasn't an issue other than being persistently glaring in the UI. It seems it's warranted anyways, so this is correct behavior. Thanks for the help."
+  , issueCommentId = 213607216
+  }

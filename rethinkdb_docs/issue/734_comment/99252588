@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-05) 22 : 42 : 12 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/99252588"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/734#issuecomment-99252588"
+  , issueCommentCreatedAt = 2015 (-05) (-05) 22 : 42 : 12 UTC
+  , issueCommentBody =
+      "So this explains how arrays elements are sorted and how object fields are sorted, but the other question is how types sort relative to one another -- if I have a sequence of [100, 200, \"a\", \"b\", [1, 2, 3], {\"foo\": \"bar\", \"count\": 999}, null], what happens?"
+  , issueCommentId = 99252588
+  }

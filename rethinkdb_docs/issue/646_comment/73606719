@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-09) 22 : 41 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/73606719"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/646#issuecomment-73606719"
+  , issueCommentCreatedAt = 2015 (-02) (-09) 22 : 41 : 58 UTC
+  , issueCommentBody =
+      "@chipotle: we're moving to Kramdown, which is a lot more configurable in behavior and more well-defined, which should reduce a lot of these kinds of bugs."
+  , issueCommentId = 73606719
+  }

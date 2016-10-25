@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-14) 16 : 05 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1222375
+        , simpleUserLogin = N "nickcarenza"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1222375?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nickcarenza"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59070778"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/541#issuecomment-59070778"
+  , issueCommentCreatedAt = 2014 (-10) (-14) 16 : 05 : 35 UTC
+  , issueCommentBody = "+1 Worth the effort"
+  , issueCommentId = 59070778
+  }

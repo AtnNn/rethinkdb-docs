@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-27) 23 : 21 : 22 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/38873193"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/187#issuecomment-38873193"
+  , issueCommentCreatedAt = 2014 (-03) (-27) 23 : 21 : 22 UTC
+  , issueCommentBody =
+      "@neumino -- would you mind resubmitting the pull request with just the diff of your branch and master? There is some auxiliary old code in this PR which makes the review confusing."
+  , issueCommentId = 38873193
+  }

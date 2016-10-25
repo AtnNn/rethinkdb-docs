@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-11) 23 : 11 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45812171"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/337#issuecomment-45812171"
+  , issueCommentCreatedAt = 2014 (-06) (-11) 23 : 11 : 16 UTC
+  , issueCommentBody =
+      "Merged into v1.13. I still have to add it to the index, but I'll do it separately with some other stuff."
+  , issueCommentId = 45812171
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-17) 16 : 00 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46327442"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/366#issuecomment-46327442"
+  , issueCommentCreatedAt = 2014 (-06) (-17) 16 : 00 : 51 UTC
+  , issueCommentBody = "Sounds better, I just pushed a fix."
+  , issueCommentId = 46327442
+  }

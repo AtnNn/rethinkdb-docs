@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-03) 17 : 04 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47957054"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/391#issuecomment-47957054"
+  , issueCommentCreatedAt = 2014 (-07) (-03) 17 : 04 : 45 UTC
+  , issueCommentBody =
+      "I've made a couple changes. Moving the technical comparison image down\r\nrequired trimming it a bit, but it seems to work. And I've moved the\r\nquickstart image down the page, under the output.\r\n\r\nI'm not sure I'd call that \"squashing,\" though. :) Making the text reflow\r\nwon't usually hurt readability. (I think moving the quickstart image down\r\nlooks better, but I think the technical comparison image is kind of a draw\r\n(no pun intended).\r\n\r\n\r\nOn Thu, Jul 3, 2014 at 9:42 AM, Michel <notifications@github.com> wrote:\r\n\r\n> I built the website and looked at the layout.\r\n>\r\n> For the technical comparison, the illustration squashes the first\r\n> paragraph. Could we move the image down, and put it on the right of the 4\r\n> bullet points?\r\n>\r\n> For the quickstart, I don't like squashing the output of the rethinkdb\r\n> command. While I like the illustration, I think illustrations should make\r\n> the website delightful without hurting the readability of the content.\r\n> I actually don't have a good idea on what to do for the quickstart. We can\r\n> try to move it after the snippet, on the right of \"Point your browser\r\n> to...\"?\r\n> Or maybe move it at the very end of the quickstart?\r\n> Or completely remove it?\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/pull/391#issuecomment-47954319>.\r\n>"
+  , issueCommentId = 47957054
+  }

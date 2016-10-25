@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-11) (-20) 20 : 44 : 20 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/28929153"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/94#issuecomment-28929153"
+  , issueCommentCreatedAt = 2013 (-11) (-20) 20 : 44 : 20 UTC
+  , issueCommentBody =
+      "@mlucy, makes sense. I included comments for one language -- please consider those comments to apply to other languages as well.\r\n\r\nThese can then be included in other files and merged to v1.11.x."
+  , issueCommentId = 28929153
+  }

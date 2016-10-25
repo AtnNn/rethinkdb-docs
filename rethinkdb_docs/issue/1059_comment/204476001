@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-01) 17 : 16 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/204476001"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1059#issuecomment-204476001"
+  , issueCommentCreatedAt = 2016 (-04) (-01) 17 : 16 : 49 UTC
+  , issueCommentBody =
+      "@chipotle One more thing I forgot about: All drivers now accept two new options to their `connect` method. `user` with a username, and `password` for the password (both strings). The defaults are `user = \"admin\"` and `password = \"\"`.\r\n@deontologician Can you clarify how you implemented the user/password API in the Java driver?"
+  , issueCommentId = 204476001
+  }

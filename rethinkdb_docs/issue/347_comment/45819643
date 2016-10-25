@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-12) 01 : 30 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45819643"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/347#issuecomment-45819643"
+  , issueCommentCreatedAt = 2014 (-06) (-12) 01 : 12 : 01 UTC
+  , issueCommentBody =
+      "The issue with `\177` should be solvable from `gen_docs.py`. The generated `docs.py` file contains `u\"...\\xb1...\"`, but I think it should be `u\"...\\u00b1...\"` instead."
+  , issueCommentId = 45819643
+  }

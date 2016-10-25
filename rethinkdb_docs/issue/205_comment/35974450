@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-02) (-25) 04 : 42 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/35974450"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/205#issuecomment-35974450"
+  , issueCommentCreatedAt = 2014 (-02) (-25) 04 : 42 : 00 UTC
+  , issueCommentBody =
+      "Thanks @alecjacobs!\r\n\r\nCould you please fill out the CLA (http://rethinkdb.com/community/cla/) so we can merge this in?\r\n"
+  , issueCommentId = 35974450
+  }

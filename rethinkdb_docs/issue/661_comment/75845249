@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-02) (-24) 21 : 02 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/75845249"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/661#issuecomment-75845249"
+  , issueCommentCreatedAt = 2015 (-02) (-24) 21 : 02 : 44 UTC
+  , issueCommentBody =
+      "For others having difficulties spotting the difference like me: there is a period after `item[...]` instead of a comma."
+  , issueCommentId = 75845249
+  }

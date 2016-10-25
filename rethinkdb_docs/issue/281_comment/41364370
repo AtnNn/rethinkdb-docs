@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-04) (-25) 07 : 05 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/41364370"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/281#issuecomment-41364370"
+  , issueCommentCreatedAt = 2014 (-04) (-25) 07 : 05 : 51 UTC
+  , issueCommentBody =
+      "Also, we no longer need the `map` there because `merge` takes a function now."
+  , issueCommentId = 41364370
+  }

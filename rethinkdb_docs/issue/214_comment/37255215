@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-11) 01 : 40 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/37255215"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/214#issuecomment-37255215"
+  , issueCommentCreatedAt = 2014 (-03) (-11) 01 : 40 : 52 UTC
+  , issueCommentBody =
+      "I think it displays a really specific thing you can do with RethinkDB -- occasional aggregation on your data.\r\n\r\nSo I don't think we should remove it. We shouldn't call it tutorial though, maybe something like example.\r\n"
+  , issueCommentId = 37255215
+  }

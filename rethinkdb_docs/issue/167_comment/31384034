@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-31) 05 : 00 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1910549
+        , simpleUserLogin = N "hden"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1910549?v=3"
+        , simpleUserUrl = "https://api.github.com/users/hden"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31384034"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/167#issuecomment-31384034"
+  , issueCommentCreatedAt = 2013 (-12) (-31) 05 : 00 : 59 UTC
+  , issueCommentBody =
+      "Done.  \r\n\r\n--  \r\nHao-kang Den\r\nLinkedIn: http://www.linkedin.com/in/hkden\r\nGithub: hden@github\r\nTwitter: @_hden\r\n\r\nSent with Sparrow (http://www.sparrowmailapp.com/?sig)\r\n\r\n\r\nOn Tuesday, December 31, 2013 at 12:56 PM, Slava Akhmechet wrote:\r\n\r\n> Thanks! Could you please fill out the CLA so we can merge? (see http://rethinkdb.com/community/cla/)\r\n>  \r\n> \8212\r\n> Reply to this email directly or view it on GitHub (https://github.com/rethinkdb/docs/pull/167#issuecomment-31383948).\r\n>  \r\n>  \r\n>  "
+  , issueCommentId = 31384034
+  }

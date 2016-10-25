@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-11) 23 : 47 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/101076073"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/755#issuecomment-101076073"
+  , issueCommentCreatedAt = 2015 (-05) (-11) 23 : 47 : 21 UTC
+  , issueCommentBody =
+      "All of the ten minute guide documents use REPLs. The Python and Ruby versions, though, have an infobox that explains not to use the `repl()` command and links to an example project; I think the solution may be to add an equivalent box to the JS version with similar wording about not opening a connection asynchronously."
+  , issueCommentId = 101076073
+  }

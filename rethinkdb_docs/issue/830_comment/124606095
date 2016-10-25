@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-24) 18 : 14 : 09 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124606095"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/830#issuecomment-124606095"
+  , issueCommentCreatedAt = 2015 (-07) (-24) 18 : 14 : 09 UTC
+  , issueCommentBody =
+      "That's the problem, yes. I'm not sure there's an easy way to fix this, but I'll punt it over to @mglukhovsky for thoughts on it."
+  , issueCommentId = 124606095
+  }

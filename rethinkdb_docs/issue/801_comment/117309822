@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-30) 19 : 13 : 08 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/117309822"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/801#issuecomment-117309822"
+  , issueCommentCreatedAt = 2015 (-06) (-30) 19 : 13 : 08 UTC
+  , issueCommentBody =
+      "@sebadiaz Unfortunately this doesn't quite fit into our documentation at the moment. In the long term we will create specialized variants of this document for the other languages. Thanks again for your pull request though, we do appreciate it."
+  , issueCommentId = 117309822
+  }

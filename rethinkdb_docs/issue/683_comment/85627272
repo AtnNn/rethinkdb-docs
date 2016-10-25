@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-24) 18 : 10 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 33037
+        , simpleUserLogin = N "segphault"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/33037?v=3"
+        , simpleUserUrl = "https://api.github.com/users/segphault"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/85627272"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/683#issuecomment-85627272"
+  , issueCommentCreatedAt = 2015 (-03) (-24) 18 : 10 : 25 UTC
+  , issueCommentBody =
+      "Sure. Is the Ruby driver also ready? It'd be nice to be able to cover both in one blog post."
+  , issueCommentId = 85627272
+  }

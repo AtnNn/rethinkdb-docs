@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-18) 22 : 23 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 297060
+        , simpleUserLogin = N "nviennot"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/297060?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nviennot"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63556798"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/580#issuecomment-63556798"
+  , issueCommentCreatedAt = 2014 (-11) (-18) 22 : 23 : 07 UTC
+  , issueCommentBody =
+      "I find the introduced doc fix confusing.\r\n\r\n> Simple and compound indexes are unique: values (or combinations of values, for compound indexes) can only appear once, and a single document can have only one index. A _multi index_ can index a single document multiple times with different values. For instance, a blog post might have multiple tags, and each tag might refer to multiple blog posts.\r\n\r\nIf simple and compound indexes are unique, does that mean that arbitrary expressions indexes are not?\r\nWhat does it mean for a value to appear only once. Does that mean that if I have two documents with the same indexed value is a problem?\r\nThe following is confusing in two ways: \"A single document can only have one index\" 1) documents don't have indexes 2) does it mean that if a document belong to an simple index, it cannot belong at the same time to a compound index?\r\n\r\nAlso, the beginning of the page says:\r\n\r\n> RethinkDB supports different types of secondary indexes:\r\n\r\n> * Simple indexes based on the value of a single field.\r\n> * Compound indexes based on multiple fields.\r\n> * Multi indexes based on arrays of values.\r\n> * Indexes based on arbitrary expressions.\r\n\r\nThis is confusing, because \"multi\" in an attribute that can be applied to any of the 3 possible types of indexes (simple, compound, arbitrary). However, the list suggests that multi indexes are a different index type.\r\n\r\nTo me, the multi operator on an index is like having `r.args()` applied to the value to be indexed.\r\n\r\n---\r\n\r\nAlso, why bother with the different index types, since the simple and compound indexes can be just special cases of the arbitrary expression type?"
+  , issueCommentId = 63556798
+  }

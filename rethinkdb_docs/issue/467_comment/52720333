@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-20) 00 : 35 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/52720333"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/467#issuecomment-52720333"
+  , issueCommentCreatedAt = 2014 (-08) (-20) 00 : 35 : 03 UTC
+  , issueCommentBody =
+      "OK, so my confusion was when it would blow up. @mlucy explained that it\r\nwouldn't make it out of the r.http call if there was a nul, I was thinking\r\nit would make it out and would blow up somewhere else down the line, which\r\nwould be avoided if the very next thing was converting it to a binary.\r\n\r\nWhat if r.http validates against utf-8 for real (rather than just nul\r\nchecking) and then returns a binary if that fails? It's unlikely that a\r\nrandom binary file happens to be utf-8 valid (I would guess for all but the\r\nshortest strings, effectively impossible).\r\n\r\n\r\nOn Tue, Aug 19, 2014 at 4:19 PM, Tryneus <notifications@github.com> wrote:\r\n\r\n> The r.http command currently uses the Content-Type of the response if and\r\n> only if result_format='auto':\r\n>\r\n>    - application/json - Parse as JSON\r\n>    - application/json-p, text/javascript, text/json-p - Try a few things\r\n>    in order:\r\n>       - Attempt to parse as JSON\r\n>       - Attempt to parse as JSONP\r\n>       - String\r\n>     - audio/*, image/*, video/*, application/octet-stream - Binary\r\n>    - Everything else - String\r\n>\r\n> \8212\r\n> Reply to this email directly or view it on GitHub\r\n> <https://github.com/rethinkdb/docs/issues/467#issuecomment-52714012>.\r\n>"
+  , issueCommentId = 52720333
+  }

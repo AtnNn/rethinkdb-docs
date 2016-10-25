@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-03) 19 : 14 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/137545775"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/883#issuecomment-137545775"
+  , issueCommentCreatedAt = 2015 (-09) (-03) 19 : 14 : 30 UTC
+  , issueCommentBody =
+      "That does sounds like a very interesting and useful piece of information.\r\n\r\nI think it might be a bit too complex to fit it into the cookbook. It should probably be its own article? @chipotle what do you think?\r\nWe could also do this as a blog post, maybe in addition to a page in the docs (@segphault thoughts?).\r\n\r\nI think this is the NoBrainer implementation btw. https://github.com/nviennot/nobrainer/blob/master/lib/no_brainer/lock.rb ?"
+  , issueCommentId = 137545775
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-20) 00 : 14 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70583629"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/161#issuecomment-70583629"
+  , issueCommentCreatedAt = 2015 (-01) (-20) 00 : 14 : 10 UTC
+  , issueCommentBody =
+      "Linking to https://github.com/rethinkdb/rethinkdb/issues/2692 for posterity. (Once 1.16 is out we should see if we can schedule that to happen sooner rather than later)"
+  , issueCommentId = 70583629
+  }

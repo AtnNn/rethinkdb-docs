@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-05) 20 : 34 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51255264"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/430#issuecomment-51255264"
+  , issueCommentCreatedAt = 2014 (-08) (-05) 20 : 31 : 39 UTC
+  , issueCommentBody =
+      "* The maximum length for the primary key is 127 characters.\r\n* If you try to use a larger key the insert will fail\r\n\r\nThe exact number of bytes we keep of secondary index keys depends on the actual length of the primary key. If the secondary key is a simple string, the formula for the considered secondary key length is `240 - 1 - (primary_key_length+1)` [1]. If it is e.g. an array there will be a bit of additional overhead to separate the different components of the array.\r\n\r\nIf secondary index keys get longer than that, we truncate them. That's why we get the performance degradation if many secondary index keys have a common prefix of at least that length.\r\nAsymptotically speaking, the lookup cost for a secondary index lookup is usually in O(log n) where n is the number of documents in the table. However if the number of secondary keys that share a prefix of at least the length that they are truncated to grows asymptotic to f(n), the lookup speed will degrade to O(f(n) + log n). In the extreme case of f(n) = n, we get lookup speeds in no faster than O(n). (*Edit*: Changed to O(f(n) + log n). I think that is right now, though we could be doing something weird and it's indeed O(f(n) log n))\r\n\r\nNot sure how much detail is necessary in our documentation. I think we should definitely mention the exact limit on the primary key length, and then maybe just say that the total length of the secondary and primary key together is truncated to 238 characters, and that we fall back to linear search when there are multiple entries for the same truncated secondary key.\r\n\r\n\r\n[1] See details in `datum_t::trunc_size()`. The -1 / +1 in there are to account for the 'S' prefix we put in front of strings. Hope I got this right. @Tryneus or @mlucy should probably double-check my calculation."
+  , issueCommentId = 51255264
+  }

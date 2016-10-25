@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-19) 19 : 57 : 44 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 2413238
+        , simpleUserLogin = N "x10ba"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2413238?v=3"
+        , simpleUserUrl = "https://api.github.com/users/x10ba"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63702922"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/584#issuecomment-63702922"
+  , issueCommentCreatedAt = 2014 (-11) (-19) 19 : 57 : 44 UTC
+  , issueCommentBody =
+      "Excellent. I figured that was the issue.\r\nI appreciate the validation."
+  , issueCommentId = 63702922
+  }

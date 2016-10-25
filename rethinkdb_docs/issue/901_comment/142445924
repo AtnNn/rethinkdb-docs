@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-22) 23 : 05 : 32 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/142445924"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/901#issuecomment-142445924"
+  , issueCommentCreatedAt = 2015 (-09) (-22) 23 : 05 : 19 UTC
+  , issueCommentBody =
+      "Also: `bracket` is an explicit method in the java driver, since we can't use the same trick as in the javascript driver to overload the constructor.\r\n\r\nSo:\r\n\r\n```js\r\nr.table('foo')('x')\r\n```\r\n\r\nbecomes:\r\n\r\n```java\r\nr.table(\"foo\").bracket(\"x\")\r\n```\r\n\r\nAlso, annoyingly, Java doesn't allow single quotes for strings, those are reserved for characters like in C and C++, so everything has to be double quoted "
+  , issueCommentId = 142445924
+  }

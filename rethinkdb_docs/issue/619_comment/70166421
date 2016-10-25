@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-15) 21 : 36 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/70166421"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/619#issuecomment-70166421"
+  , issueCommentCreatedAt = 2015 (-01) (-15) 21 : 36 : 29 UTC
+  , issueCommentBody =
+      "If the distribution tarballs contain pre-fetched dependencies, does that mean that starting by downloading one of them eliminates the need to follow the \"get the build dependencies\" and \"get the source code\" sections in the current build directions?"
+  , issueCommentId = 70166421
+  }

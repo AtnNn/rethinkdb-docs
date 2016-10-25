@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-09) 13 : 47 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7561396
+        , simpleUserLogin = N "benmann"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7561396?v=3"
+        , simpleUserUrl = "https://api.github.com/users/benmann"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/194302860"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/943#issuecomment-194302860"
+  , issueCommentCreatedAt = 2016 (-03) (-09) 13 : 47 : 56 UTC
+  , issueCommentBody =
+      "I implemented the necessary write/delete/update actions myself, which removes logstash from our setup for the moment. I am however also still interested in a solution with logstash, as I think it is generally preferable."
+  , issueCommentId = 194302860
+  }

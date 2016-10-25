@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-30) 01 : 47 : 54 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/68322913"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/609#issuecomment-68322913"
+  , issueCommentCreatedAt = 2014 (-12) (-30) 01 : 47 : 54 UTC
+  , issueCommentBody =
+      "@ecki Thanks for your feedback.\r\n\r\nThe inability to use operators for comparison and boolean operations is actually a JavaScript specific limitation, though for Ruby and Python we still have to require `|` / `&` instead of the usual '||' / '&&' due to language limitations.\r\nIt's probably a good idea to note this as part of the `filter` documentation, since that's the context within which most people will use boolean expressions in ReQL."
+  , issueCommentId = 68322913
+  }

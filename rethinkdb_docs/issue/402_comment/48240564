@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-07) 21 : 02 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48240564"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/402#issuecomment-48240564"
+  , issueCommentCreatedAt = 2014 (-07) (-07) 21 : 02 : 59 UTC
+  , issueCommentBody =
+      "Renaming issues messes with my workflow and makes it hard to keep track of what's going on.  If it becomes apparent that an issue is poorly titled, I think it's usually better to open a new issue with a better title, then summarize and link to the old issue.  (This has the side-benefit that usually when it's discovered that a title's bad, there's a lot of meandering discussion above that discovery, so the new issue is cleaner and more on-topic.)"
+  , issueCommentId = 48240564
+  }

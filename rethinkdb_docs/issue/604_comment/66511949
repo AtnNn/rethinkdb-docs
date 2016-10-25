@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-12) (-10) 19 : 49 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 319844
+        , simpleUserLogin = N "linkyndy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/319844?v=3"
+        , simpleUserUrl = "https://api.github.com/users/linkyndy"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/66511949"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/604#issuecomment-66511949"
+  , issueCommentCreatedAt = 2014 (-12) (-10) 19 : 49 : 37 UTC
+  , issueCommentBody =
+      "```\r\nr.db('rethink').table('contributors')\r\n   .update({ 'count': r.row('count').add(1) })\r\n```\r\n\r\nThank you also!"
+  , issueCommentId = 66511949
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-01) (-28) 11 : 12 : 51 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/33469454"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/186#issuecomment-33469454"
+  , issueCommentCreatedAt = 2014 (-01) (-28) 11 : 12 : 51 UTC
+  , issueCommentBody =
+      "@neumino -- you deployed an old version of the website. Could you make sure to pull from master when deploying the site?"
+  , issueCommentId = 33469454
+  }

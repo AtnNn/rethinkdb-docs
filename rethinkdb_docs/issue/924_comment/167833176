@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-29) 17 : 15 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 181337
+        , simpleUserLogin = N "pixelspark"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/181337?v=3"
+        , simpleUserUrl = "https://api.github.com/users/pixelspark"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/167833176"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/924#issuecomment-167833176"
+  , issueCommentCreatedAt = 2015 (-12) (-29) 17 : 15 : 18 UTC
+  , issueCommentBody =
+      "Hi, this still on your radar?\r\n\r\nPerhaps you should also link to [Warp](http://warp.one), an OS X database tool that allows for easy data import and export to and from RethinkDB. Written in Swift, uses the RethinkDB Swift driver!"
+  , issueCommentId = 167833176
+  }

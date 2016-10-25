@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-17) 07 : 57 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/46277703"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/364#issuecomment-46277703"
+  , issueCommentCreatedAt = 2014 (-06) (-17) 07 : 57 : 18 UTC
+  , issueCommentBody =
+      "There are user reports that `libncurses5-dev` works on a 64 bit system, FYI."
+  , issueCommentId = 46277703
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-12) (-15) 21 : 54 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/164908903"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/982#issuecomment-164908903"
+  , issueCommentCreatedAt = 2015 (-12) (-15) 21 : 54 : 01 UTC
+  , issueCommentBody =
+      "![image](https://cloud.githubusercontent.com/assets/863286/11825234/aca42c70-a332-11e5-83c7-8cd2c2df8c1a.png)\r\n\r\nLGTM :+1: \r\n"
+  , issueCommentId = 164908903
+  }

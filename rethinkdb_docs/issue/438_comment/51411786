@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-06) 23 : 28 : 28 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/51411786"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/438#issuecomment-51411786"
+  , issueCommentCreatedAt = 2014 (-08) (-06) 23 : 28 : 28 UTC
+  , issueCommentBody = "Closing in favour of #234"
+  , issueCommentId = 51411786
+  }

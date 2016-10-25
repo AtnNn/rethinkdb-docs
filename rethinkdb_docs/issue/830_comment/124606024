@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-24) 18 : 14 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124606024"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/830#issuecomment-124606024"
+  , issueCommentCreatedAt = 2015 (-07) (-24) 18 : 14 : 02 UTC
+  , issueCommentBody =
+      "Ah, thanks for pointing it out. Indeed that page doesn't exist in the (currently stable) 2.0 docs.\r\n\r\nMaybe the best general solution for this problem is to install a custom 404 page that detects if the requested page was in /docs or /api and then shows a custom message suggesting to go to the docs/api index instead?\r\n@mglukhovsky what do you think?"
+  , issueCommentId = 124606024
+  }

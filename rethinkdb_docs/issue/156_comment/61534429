@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-03) 19 : 34 : 21 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/61534429"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/156#issuecomment-61534429"
+  , issueCommentCreatedAt = 2014 (-11) (-03) 19 : 34 : 21 UTC
+  , issueCommentBody =
+      "Scheduling this for 1.16. While we are deprecating `rethinkdb admin`, we will replace it with the ReQL admin interface.\r\nHaving the \"Programmatic cluster administration\" primer is going to make even more sense then. It should describe how you can use ReQL commands to perform some basic administrative tasks, and have pointers to other documentation with more advanced things (such as server tags, which allow more fine-grained control over how table roles are assigned to servers)."
+  , issueCommentId = 61534429
+  }

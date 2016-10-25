@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-15) 20 : 14 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7304362
+        , simpleUserLogin = N "karlrasche"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7304362?v=3"
+        , simpleUserUrl = "https://api.github.com/users/karlrasche"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/172077549"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/918#issuecomment-172077549"
+  , issueCommentCreatedAt = 2016 (-01) (-15) 20 : 14 : 14 UTC
+  , issueCommentBody =
+      "I was wondering more about the case:\r\n\r\n* `--join`` is specified once for each node in the cluster\r\n* much of the cluster comes up concurrently (like after a power outage)\r\n\r\nand if there were any potential races that would prevent a fully-connected cluster from forming. It seems pretty low risk, I'll admit."
+  , issueCommentId = 172077549
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-24) 23 : 16 : 49 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 927264
+        , simpleUserLogin = N "raspo"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/927264?v=3"
+        , simpleUserUrl = "https://api.github.com/users/raspo"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/201069197"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1063#issuecomment-201069197"
+  , issueCommentCreatedAt = 2016 (-03) (-24) 23 : 16 : 49 UTC
+  , issueCommentBody = "yep, already signed"
+  , issueCommentId = 201069197
+  }

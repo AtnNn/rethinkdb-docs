@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-11) (-14) 22 : 12 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/63137478"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/578#issuecomment-63137478"
+  , issueCommentCreatedAt = 2014 (-11) (-14) 22 : 12 : 48 UTC
+  , issueCommentBody =
+      "Additional comments by @mglukhovsky from the other thread:\r\n\r\n\r\n\r\n@danielmewes: RethinkDB is licensed under AGPL for the server, Apache 2.0 for the drivers. There are no closed source components. Our documentation is licensed under Creative Commons Attribution-ShareAlike 3.0.\r\n\r\nWe have the option of offering commercial licenses to institutions that ask for it -- similar to MongoDB, nginx, and other developer infrastructure tools -- but we're 100% open source.\r\n\r\nDevDocs has a [wiki entry](https://github.com/Thibaut/devdocs/wiki/Adding-documentations-to-DevDocs) on contributing documentation. We should also reach out to @Thibaut to make sure RethinkDB can be added to DevDocs before we proceed."
+  , issueCommentId = 63137478
+  }

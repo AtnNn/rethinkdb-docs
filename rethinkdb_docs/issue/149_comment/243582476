@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-30) 21 : 11 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243582476"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/149#issuecomment-243582476"
+  , issueCommentCreatedAt = 2016 (-08) (-30) 21 : 11 : 48 UTC
+  , issueCommentBody = "Comparisons to MongoDB are overrated."
+  , issueCommentId = 243582476
+  }

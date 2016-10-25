@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-16) 23 : 38 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/140926363"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/25#issuecomment-140926363"
+  , issueCommentCreatedAt = 2015 (-09) (-16) 23 : 38 : 24 UTC
+  , issueCommentBody =
+      "The `eq_join` documentation now goes into some detail about `zip`. The examples for `outer_join` and `inner_join` *use* `zip` but don't explain it, they just link to it. However, I'm not sure it's worth elaborating much on it, given that we advise not using these commands and there's still a \"modernizing joins\" proposal open that might get rid of those commands entirely.\r\n\r\nGiven that there's a whole separate document on Map-Reduce, I don't think we should explain how to use `map` in the Table Joins document, and I'm not sure why we'd need to elaborate on `pluck` there specifically.\r\n\r\ntl;dr: closing. Reopen something more specific if it seems like a good idea."
+  , issueCommentId = 140926363
+  }

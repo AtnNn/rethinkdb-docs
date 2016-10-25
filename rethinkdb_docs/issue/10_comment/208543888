@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-11) 20 : 25 : 42 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/208543888"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/10#issuecomment-208543888"
+  , issueCommentCreatedAt = 2016 (-04) (-11) 20 : 25 : 42 UTC
+  , issueCommentBody =
+      "While we don't have an explicit \"cluster issues\" document, some of these things are covered in other places in the docs\8212and I'm not sure how much of what's here now still applies given that this is two and a half years old. If this is still relevant, please re-open a modern version of this ticket."
+  , issueCommentId = 208543888
+  }

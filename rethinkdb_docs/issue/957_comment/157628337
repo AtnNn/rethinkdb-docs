@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-18) 07 : 08 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 18808
+        , simpleUserLogin = N "threepointone"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/18808?v=3"
+        , simpleUserUrl = "https://api.github.com/users/threepointone"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/157628337"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/957#issuecomment-157628337"
+  , issueCommentCreatedAt = 2015 (-11) (-18) 07 : 08 : 31 UTC
+  , issueCommentBody =
+      "Ooh nice idea, I'll also give a go at making a standalone page for 'run this example' later tonight."
+  , issueCommentId = 157628337
+  }

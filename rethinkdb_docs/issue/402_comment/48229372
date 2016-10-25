@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-07) 19 : 32 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/48229372"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/402#issuecomment-48229372"
+  , issueCommentCreatedAt = 2014 (-07) (-07) 19 : 32 : 01 UTC
+  , issueCommentBody =
+      "Am I the only person that dislikes that policy? We have a lot of open issues that could use a better title, and it is much easier to browse through issues on github than it is in gmail."
+  , issueCommentId = 48229372
+  }

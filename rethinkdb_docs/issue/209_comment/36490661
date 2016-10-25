@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-03) (-03) 08 : 45 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467683
+        , simpleUserLogin = N "Joe8Bit"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467683?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Joe8Bit"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/36490661"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/209#issuecomment-36490661"
+  , issueCommentCreatedAt = 2014 (-03) (-03) 08 : 45 : 00 UTC
+  , issueCommentBody =
+      "The project is run by a colleague of mine at McKinsey, will reach out to him today and try and get this working again."
+  , issueCommentId = 36490661
+  }

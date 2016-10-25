@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-08) 19 : 03 : 10 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/91005604"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/702#issuecomment-91005604"
+  , issueCommentCreatedAt = 2015 (-04) (-08) 19 : 03 : 10 UTC
+  , issueCommentBody =
+      "The driver looks really awesome @AtnNn. We should definitely include it!\r\n@chipotle "
+  , issueCommentId = 91005604
+  }

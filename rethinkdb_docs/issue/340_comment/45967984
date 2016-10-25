@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-13) 01 : 45 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45967984"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/340#issuecomment-45967984"
+  , issueCommentCreatedAt = 2014 (-06) (-13) 01 : 45 : 14 UTC
+  , issueCommentBody = "Yup it should be done tomorrow"
+  , issueCommentId = 45967984
+  }

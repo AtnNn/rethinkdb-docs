@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-27) 19 : 55 : 11 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/125325504"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/832#issuecomment-125325504"
+  , issueCommentCreatedAt = 2015 (-07) (-27) 19 : 55 : 11 UTC
+  , issueCommentBody =
+      "Yeah, this is a syntax that is not available in all versions of Python that we support, unfortunately.  If you use the return value of a yield statement, is has to be a direct assignment in most versions (if I remember correctly).  This is probably just an oversight due to some quick iterations when the API wasn't quite settled."
+  , issueCommentId = 125325504
+  }

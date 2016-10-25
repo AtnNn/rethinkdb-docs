@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-28) 22 : 49 : 03 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/44474705"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/306#issuecomment-44474705"
+  , issueCommentCreatedAt = 2014 (-05) (-28) 22 : 49 : 03 UTC
+  , issueCommentBody =
+      "I think we should add an \"Integration\" section. From the user's POV the command is about integrating external systems with RethinkDB. It would have two commands right away (`r.http` and `r.changes`) and I think it would make a lot of sense from a user's POV."
+  , issueCommentId = 44474705
+  }

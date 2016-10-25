@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-21) 00 : 39 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43700533"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/123#issuecomment-43700533"
+  , issueCommentCreatedAt = 2014 (-05) (-21) 00 : 39 : 14 UTC
+  , issueCommentBody =
+      "Since `merge` *does* take a function now, what would be a better example use case for `do`?"
+  , issueCommentId = 43700533
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-03) 07 : 26 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/47875056"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/250#issuecomment-47875056"
+  , issueCommentCreatedAt = 2014 (-07) (-03) 07 : 26 : 56 UTC
+  , issueCommentBody =
+      "@neumino -- could you close this PR, and if it's still relevant, recreate this review in code collaborator and assign it to @chipotle ?"
+  , issueCommentId = 47875056
+  }

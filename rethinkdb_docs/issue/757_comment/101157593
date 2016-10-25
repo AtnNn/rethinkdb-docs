@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-05) (-12) 06 : 55 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 53049
+        , simpleUserLogin = N "rocketraman"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/53049?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rocketraman"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/101157593"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/757#issuecomment-101157593"
+  , issueCommentCreatedAt = 2015 (-05) (-12) 06 : 55 : 15 UTC
+  , issueCommentBody =
+      "@danielmewes Yes I think your query is simpler, and the result shape is closer to the shape of the SQL result. Cool!"
+  , issueCommentId = 101157593
+  }

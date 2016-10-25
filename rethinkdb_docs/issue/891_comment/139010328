@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-09) 19 : 02 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/139010328"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/891#issuecomment-139010328"
+  , issueCommentCreatedAt = 2015 (-09) (-09) 19 : 02 : 14 UTC
+  , issueCommentBody =
+      "Good catch, thanks for the PR @wKich.\r\nCould you make the fields in the result stay alphabetically sorted?\r\n\r\nAlso have you signed our CLA yet? If not, you can do so online at http://rethinkdb.com/community/cla/"
+  , issueCommentId = 139010328
+  }

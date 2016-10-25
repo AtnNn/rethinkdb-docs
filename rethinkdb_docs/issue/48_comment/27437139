@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-10) (-30) 21 : 21 : 56 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/27437139"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/48#issuecomment-27437139"
+  , issueCommentCreatedAt = 2013 (-10) (-30) 20 : 42 : 40 UTC
+  , issueCommentBody =
+      "Good catch, `contains` now can take a lambda function, which explains the error.\r\n\r\n@coffeemug do you plan to update the sql to reql cheat sheet soon? Or should I push a fix for @ntijanic's bug first?"
+  , issueCommentId = 27437139
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-06) (-12) 18 : 11 : 16 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/111578079"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/770#issuecomment-111578079"
+  , issueCommentCreatedAt = 2015 (-06) (-12) 18 : 11 : 16 UTC
+  , issueCommentBody =
+      "One more thing that confused me while playing with our Raft version, and that I think is worth mentioning:\r\nWhen describing `\"majority\"` and `\"single\"` write acks, we should note that using `\"single\"` write acks doesn't improve availability of tables. We will still reject `\"single\"` ack writes if we cannot reach a majority of replicas eventually. The difference to `\"majority\"` is that this isn't guaranteed to happen immediately (i.e. a handful of writes can still pass before all servers realize that something is wrong), and as already mentioned the latency of writes can be reduced because we don't have to wait for as many replicas to acknowledge the writes.\r\nHowever if 2 out of 3 replicas go down you cannot write to the table regardless of the `\"write_acks\"` setting. This is different from RethinkDB 2.0."
+  , issueCommentId = 111578079
+  }

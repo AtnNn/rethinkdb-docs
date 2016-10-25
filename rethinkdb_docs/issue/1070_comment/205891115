@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-05) 16 : 51 : 18 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/205891115"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1070#issuecomment-205891115"
+  , issueCommentCreatedAt = 2016 (-04) (-05) 16 : 51 : 18 UTC
+  , issueCommentBody =
+      "Thanks for the pull request @pdevine, good catch.\r\n\r\nFor legal reasons, we require a signed CLA before we can merge anything (unfortunately even small changes like this one). If you haven't done so yet, you can read and sign our CLA at http://rethinkdb.com/community/cla/ . Please let me know if you have any questions about it, and let us know once you have signed it so we can go ahead and merge your patch."
+  , issueCommentId = 205891115
+  }

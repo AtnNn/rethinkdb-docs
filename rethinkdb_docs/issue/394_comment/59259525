@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-10) (-15) 19 : 13 : 19 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/59259525"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/394#issuecomment-59259525"
+  , issueCommentCreatedAt = 2014 (-10) (-15) 19 : 13 : 19 UTC
+  , issueCommentBody =
+      "Arrr I should read our docs more often. Let's just close this. We can take care of updating the docs when 2953 is actually being worked on and we have an idea of how it's going to be solved."
+  , issueCommentId = 59259525
+  }

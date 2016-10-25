@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-03) 19 : 56 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/179426385"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/949#issuecomment-179426385"
+  , issueCommentCreatedAt = 2016 (-02) (-03) 19 : 44 : 35 UTC
+  , issueCommentBody =
+      "Building a demo with this and just found the lack of `asyncio` documentation for Python. :+1: \r\n\r\nWhat's the correct pattern with `await` and a changefeed @Tryneus? I'm getting this error currently with this code:\r\n```python\r\nconn = await r.connect(\"localhost\", 28015)\r\nchanges = await db.changes().run(conn)\r\nfor change in changes:\r\n    # do stuff with change\r\n```\r\n\r\nError:\r\n\r\n```python\r\nfuture: <Task finished coro=<send_message_to_slack() done, defined at async_slacker_rethinkdb.py:81> exception=TypeError(\"'AsyncioCursor' object is not iterable\",)>\r\nTraceback (most recent call last):\r\n  File \"/usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/tasks.py\", line 239, in _step\r\n    result = coro.send(None)\r\n  File \"async_slacker_rethinkdb.py\", line 88, in send_message_to_slack\r\n    for change in changes:\r\nTypeError: 'AsyncioCursor' object is not iterable\r\n02-03 11:40:24 asyncio      ERROR    Task exception was never retrieved\r\nfuture: <Task finished coro=<giphy_translate() done, defined at async_slacker_rethinkdb.py:45> exception=TypeError(\"'AsyncioCursor' object is not iterable\",)>\r\nTraceback (most recent call last):\r\n  File \"/usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/tasks.py\", line 239, in _step\r\n    result = coro.send(None)\r\n  File \"async_slacker_rethinkdb.py\", line 51, in giphy_translate\r\n    for change in changes:\r\nTypeError: 'AsyncioCursor' object is not iterable\r\n```\r\n\r\nIs it not possible for [AsyncioCursor](https://github.com/rethinkdb/rethinkdb/blob/da66a3a51f079791c4f4d056c900ff446eea45d2/drivers/python/rethinkdb/asyncio_net/net_asyncio.py#L69-L114) to also support `__iter__` and or `.next()`? \r\n\r\n**Edit** Ahh I see `.next` being inherited from [Cursor](https://github.com/rethinkdb/rethinkdb/blob/da66a3a51f079791c4f4d056c900ff446eea45d2/drivers/python/rethinkdb/net.py#L140). "
+  , issueCommentId = 179426385
+  }

@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-07) 00 : 10 : 04 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/42375309"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/245#issuecomment-42375309"
+  , issueCommentCreatedAt = 2014 (-05) (-07) 00 : 10 : 04 UTC
+  , issueCommentBody = "@neumino Yes."
+  , issueCommentId = 42375309
+  }

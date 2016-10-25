@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-07) (-16) 23 : 41 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/49242343"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/267#issuecomment-49242343"
+  , issueCommentCreatedAt = 2014 (-07) (-16) 23 : 41 : 31 UTC
+  , issueCommentBody =
+      "I don't think that fix is sufficient. It doesn't explicitly say that migration is not required between point releases. On the contrary, the first sentence is\r\n\r\n> You must migrate your data before updating RethinkDB, since file formats are currently incompatible between versions\r\n\r\nHowever, this issue is outdated. The page will have to be rewritten for the next version of RethinkDB: data migration will be automatic when upgrading from 1.13 (https://github.com/rethinkdb/rethinkdb/issues/2563#issuecomment-47413437). Is there a doc issue for this?"
+  , issueCommentId = 49242343
+  }

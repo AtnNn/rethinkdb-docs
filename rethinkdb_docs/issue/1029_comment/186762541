@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-21) 07 : 06 : 01 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/186762541"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1029#issuecomment-186762541"
+  , issueCommentCreatedAt = 2016 (-02) (-21) 07 : 06 : 01 UTC
+  , issueCommentBody =
+      "No problem. And you're right, normally you can't reach `docs/cookbook/index.html` directly! The language switcher bar at the top of many documentation pages sets a cookie indicating the last language you've clicked, so pages that have multiple languages like the API documentation and the Cookbook will automatically show the page for the language you've been browsing. The default language is JavaScript, so if you haven't selected another language it's going to show you JavaScript."
+  , issueCommentId = 186762541
+  }

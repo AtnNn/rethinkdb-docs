@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-07) (-23) 21 : 15 : 45 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/124242493"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/824#issuecomment-124242493"
+  , issueCommentCreatedAt = 2015 (-07) (-23) 21 : 15 : 45 UTC
+  , issueCommentBody =
+      "The answer to the first two questions is no. You will always get one of the more specific sub types.\r\n\r\nA typical example for a `ReqlCompileError` would be passing the wrong number of arguments to a term, or passing an unrecognized optional argument. Another example is using a write operation inside of a `for_each`."
+  , issueCommentId = 124242493
+  }

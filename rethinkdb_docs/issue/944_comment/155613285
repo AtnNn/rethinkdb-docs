@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-11) 00 : 38 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/155613285"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/944#issuecomment-155613285"
+  , issueCommentCreatedAt = 2015 (-11) (-11) 00 : 38 : 05 UTC
+  , issueCommentBody =
+      "This is partially addressed by https://github.com/rethinkdb/docs/pull/934 (though I just noticed that the signature still needs updating)."
+  , issueCommentId = 155613285
+  }

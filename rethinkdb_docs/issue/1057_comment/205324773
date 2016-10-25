@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-04) 14 : 35 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1812285
+        , simpleUserLogin = N "scottder"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1812285?v=3"
+        , simpleUserUrl = "https://api.github.com/users/scottder"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/205324773"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1057#issuecomment-205324773"
+  , issueCommentCreatedAt = 2016 (-04) (-04) 14 : 35 : 53 UTC
+  , issueCommentBody =
+      "How will rethink instances in proxy mode work, or will they just need the intracluster options enabled?"
+  , issueCommentId = 205324773
+  }

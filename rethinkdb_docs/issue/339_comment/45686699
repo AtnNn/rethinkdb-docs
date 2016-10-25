@@ -1,0 +1,19 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-06) (-10) 23 : 50 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/45686699"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/339#issuecomment-45686699"
+  , issueCommentCreatedAt = 2014 (-06) (-10) 23 : 50 : 41 UTC
+  , issueCommentBody = "In review 1622\r\nBranch michel_339_hasnext"
+  , issueCommentId = 45686699
+  }

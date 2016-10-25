@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2013 (-12) (-30) 18 : 27 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/31360035"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/165#issuecomment-31360035"
+  , issueCommentCreatedAt = 2013 (-12) (-30) 18 : 27 : 39 UTC
+  , issueCommentBody =
+      "@linkyndy, thanks for the pull request (and your work on Flask-RethinkDB!)\r\n\r\nCould you fill our our CLA (http://rethinkdb.com/community/cla/) if you haven't already, so we can merge this in?"
+  , issueCommentId = 31360035
+  }

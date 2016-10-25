@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-09) 20 : 56 : 07 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/246037344"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/962#issuecomment-246037344"
+  , issueCommentCreatedAt = 2016 (-09) (-09) 20 : 56 : 07 UTC
+  , issueCommentBody =
+      "Thanks for sharing your notes on this @brucepom ( https://medium.com/@brucepomeroy/running-a-rethinkdb-proxy-on-ubuntu-68f8cd308b7b ).\r\n\r\nWhile we should fix this more generally in the mid-term (rethinkdb/rethinkdb#5138), it might be nice to mention how to add the upstart script for the meantime in our docs. @chipotle do you think that's something we could incorporate?"
+  , issueCommentId = 246037344
+  }

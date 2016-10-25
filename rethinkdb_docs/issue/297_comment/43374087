@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-05) (-16) 20 : 09 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/43374087"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/297#issuecomment-43374087"
+  , issueCommentCreatedAt = 2014 (-05) (-16) 20 : 09 : 13 UTC
+  , issueCommentBody =
+      "> Should `r.do(r.expr(1))` throw?\r\n\r\nI think that's fine -- `r.do(r.expr(1))` is equivalent to `r.expr(1)`. If @mlucy agrees on this, we should update the docs to say that the `arg` part to `r.do` is optional."
+  , issueCommentId = 43374087
+  }

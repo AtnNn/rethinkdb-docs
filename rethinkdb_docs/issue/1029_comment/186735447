@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-02) (-21) 04 : 26 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10092343
+        , simpleUserLogin = N "dineyw23"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10092343?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dineyw23"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/186735447"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1029#issuecomment-186735447"
+  , issueCommentCreatedAt = 2016 (-02) (-21) 03 : 46 : 45 UTC
+  , issueCommentBody =
+      "Hi,\r\nI am new to RethinkDB and trying to explore and learn, I apologize for any inconvenience.\r\nI noticed the `permalink: ` header states `docs/cookbook` and while browsing the deployed website it redirects to `docs/cookbook/javascript`. There is no way to reach `docs/cookbook` [here](https://www.rethinkdb.com/docs/cookbook/) other than editing the URL in the address bar?\r\nSo, I tried to edit the URL and may not have entered the right thing, my bad.\r\nUnable to reproduce the problem, the issue is good be closed."
+  , issueCommentId = 186735447
+  }

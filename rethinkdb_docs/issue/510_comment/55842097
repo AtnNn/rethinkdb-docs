@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-09) (-17) 02 : 43 : 30 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/55842097"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/510#issuecomment-55842097"
+  , issueCommentCreatedAt = 2014 (-09) (-17) 02 : 43 : 30 UTC
+  , issueCommentBody =
+      "@neumino those replacements are a bit contrived. I believe the `markdown` Python module uses the traditional four spaces for code blocks instead of backquotes.\r\n\r\nSomething like this would be a more general solution:\r\n\r\n```\r\ncode_blocks = r'(?ms)^```\\w+(\\n.*?)\\n```$'\r\nindent = lambda match: match.group(1).replace(\"\\n\",\"\\n    \")\r\ncurrent_example = re.sub(code_blocks, indent, current_example)\r\n```\r\n\r\nIt might be even better to switch to a markdown processor that is compatible with the dialect of markdown that we use. See http://stackoverflow.com/questions/11943089/github-flavored-markdown-in-python"
+  , issueCommentId = 55842097
+  }

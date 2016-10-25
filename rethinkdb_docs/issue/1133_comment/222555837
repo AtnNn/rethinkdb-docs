@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-30) 21 : 19 : 46 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/222555837"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1133#issuecomment-222555837"
+  , issueCommentCreatedAt = 2016 (-05) (-30) 21 : 19 : 46 UTC
+  , issueCommentBody =
+      "Hi @dszymczuk, thanks for the suggestion.\r\nThis is the issue tracker for RethinkDB documentation. Would you mind opening the issue in https://github.com/rethinkdb/rethinkdb/issues ?\r\n\r\nPersonally I think that this would be a bad idea, because it would feel inconsistent. It makes logical sense that `limit(0)` returns zero rows. It just matches the invariant of `limit` that whichever number you give it, it returns at most that many rows.\r\nIt seems to me that you're using `0` as a special value in your code to indicate no limit at all, but this isn't necessarily true in general. Other people might use `-1`, or `null` for example.\r\nI think having `limit(null)` to indicate no limit at all might make sense.\r\n\r\nI'm going to close this because it's the wrong issue tracker, but we can carry on at https://github.com/rethinkdb/rethinkdb/issues if you like to."
+  , issueCommentId = 222555837
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-11) (-09) 23 : 17 : 59 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/155230118"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/940#issuecomment-155230118"
+  , issueCommentCreatedAt = 2015 (-11) (-09) 23 : 17 : 59 UTC
+  , issueCommentBody =
+      "Good idea. I'm also seeing an increasing number of users running us on Google Compute Engine. They have similar i/o restrictions, though I don't know how they handle burst i/o. We should probably recommend to use \"local SSD\" storage with RethinkDB:\r\nhttps://cloud.google.com/compute/docs/disks/#comparison_of_disk_types"
+  , issueCommentId = 155230118
+  }

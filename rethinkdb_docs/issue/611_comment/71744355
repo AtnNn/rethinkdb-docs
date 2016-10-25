@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-01) (-27) 22 : 44 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/71744355"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/611#issuecomment-71744355"
+  , issueCommentCreatedAt = 2015 (-01) (-27) 22 : 44 : 35 UTC
+  , issueCommentBody =
+      "Nope, that sounds like the correct approach given how we generate documentation for Python."
+  , issueCommentId = 71744355
+  }

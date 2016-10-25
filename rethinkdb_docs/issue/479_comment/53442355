@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2014 (-08) (-26) 15 : 45 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/53442355"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/479#issuecomment-53442355"
+  , issueCommentCreatedAt = 2014 (-08) (-26) 15 : 45 : 47 UTC
+  , issueCommentBody =
+      "Yeah, I'm 99.99% sure that's something I missed in changing \"Javascript\" to \"JavaScript\" on a lot of files, looking at the suspicious lines. I'm not quite sure how it got out -- faq.md seems to be correctly merged (and capitalized), but the faq.md.orig file is still there and it looks like it's what got compiled by Jekyll, which seems weird.\r\n\r\nIf we can't deploy the master site yet, you'll have to let me know how to deploy just one file -- it looked to me like our build/deploy tasks update everything from the repository before they operate. (I don't think I have direct access to the production server to perilously nudge files into place directly.)"
+  , issueCommentId = 53442355
+  }

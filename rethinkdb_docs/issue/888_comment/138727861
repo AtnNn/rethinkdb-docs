@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-09) (-08) 23 : 10 : 14 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/138727861"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/888#issuecomment-138727861"
+  , issueCommentCreatedAt = 2015 (-09) (-08) 23 : 10 : 14 UTC
+  , issueCommentBody =
+      "@chipotle: the flag to change is here: https://github.com/rethinkdb/docs/blob/master/_config.yml#L12\r\n\r\nChanging `beta` to `false` and running `rake deploy` on the docs archive should fix that."
+  , issueCommentId = 138727861
+  }

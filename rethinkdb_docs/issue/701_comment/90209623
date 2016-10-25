@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-04) (-06) 19 : 36 : 37 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/90209623"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/701#issuecomment-90209623"
+  , issueCommentCreatedAt = 2015 (-04) (-06) 19 : 36 : 37 UTC
+  , issueCommentBody =
+      ">  Call an anonymous function using return values from other ReQL commands or queries as arguments.\r\n\r\nThat makes a lot of sense. I'd also focus on good examples because with `do` a description can only go so far. When would I need to call an anonymous function using the values of other ReQL commands? I think examples will make or break this doc entry."
+  , issueCommentId = 90209623
+  }

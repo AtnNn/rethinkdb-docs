@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2015 (-03) (-25) 18 : 40 : 53 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/86135272"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/683#issuecomment-86135272"
+  , issueCommentCreatedAt = 2015 (-03) (-25) 17 : 35 : 15 UTC
+  , issueCommentBody =
+      "We should also add some detail for how to best iterate over a cursor, and mention that `yield future` in\r\n```py\r\n    # Print every row in the table.\r\n    for future in cursor:\r\n        item = yield future\r\n        print(item)\r\n```\r\nthrows an exception once the cursor is exhausted.\r\nSee the discussion from https://github.com/rethinkdb/rethinkdb/issues/2622#issuecomment-85628935 onwards.\r\n\r\nAn alternative syntax that doesn't throw an exception unless an error happens (not impkemented yet, @Tryneus is working on it) is going to be:\r\n```py\r\nwhile (yield cursor.fetch_next()):\r\n    item = yield cursor.next()\r\n    print(item)\r\n```\r\nThe `fetch_next` term will be special to the Tornado driver I think. What it does is waiting until a new item has been received, so that - if it returns `True` - the next call to `next()` on the cursor will not throw an `RqlCursorEmpty` exception."
+  , issueCommentId = 86135272
+  }
