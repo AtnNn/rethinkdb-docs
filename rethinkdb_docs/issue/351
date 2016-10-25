@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-12) 03 : 05 : 38 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 06 : 11 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/351/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/351"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 351
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "r.http docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/351"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/351.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/351.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/351"
+  , issueCreatedAt = 2014 (-06) (-12) 02 : 37 : 46 UTC
+  , issueBody =
+      Just
+        "The HTTP documentation in the `index.md` is short, because of the sheer number of optargs and use cases, I didn't want to clutter the index.  The detailed page includes a number of examples as well as a link to the stargazer tutorial, not to mention detailed explanations of each optarg."
+  , issueState = "closed"
+  , issueId = Id 35545808
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

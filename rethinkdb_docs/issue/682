@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-18) 23 : 08 : 21 UTC
+  , issueUpdatedAt = 2015 (-03) (-18) 23 : 08 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/682/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/682"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 682
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4331821
+        , simpleUserLogin = N "billbarsch"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/4331821?v=3"
+        , simpleUserUrl = "https://api.github.com/users/billbarsch"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "add phpReAdmin with corrections by Daniel Mewes"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/682"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/682.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/682.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/682"
+  , issueCreatedAt = 2015 (-03) (-18) 22 : 49 : 06 UTC
+  , issueBody = Just "phpReAdmin os an php web frontend to RethinkDB"
+  , issueState = "closed"
+  , issueId = Id 62822184
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

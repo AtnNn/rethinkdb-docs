@@ -1,0 +1,87 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-22) 19 : 03 : 00 UTC
+  , issueUpdatedAt = 2014 (-07) (-22) 19 : 03 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/407/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/407"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      , IssueLabel
+          { labelColor = "cccccc"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/duplicate"
+          , labelName = "duplicate"
+          }
+      , IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/next"
+          , labelName = "next"
+          }
+      ]
+  , issueNumber = 407
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17789
+        , simpleUserLogin = N "gchpaco"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17789?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gchpaco"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Alter insert documentation to reflect conflict resolution selection"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/407"
+  , issueCreatedAt = 2014 (-07) (-09) 02 : 01 : 12 UTC
+  , issueBody =
+      Just
+        "Per #1838 in rethinkdb/rethinkdb, `insert` no longer takes the curious `upsert` option, taking instead a `conflict` option with three possible values (defaulting to `error`).  The documentation needs to be updated to this effect."
+  , issueState = "closed"
+  , issueId = Id 37428002
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1777134
+                , simpleUserLogin = N "mlucy"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1777134?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mlucy"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 4
+          , milestoneClosedIssues = 13
+          , milestoneDescription = Just ""
+          , milestoneTitle = "1.14"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/4"
+          , milestoneCreatedAt = 2014 (-07) (-09) 02 : 06 : 34 UTC
+          , milestoneState = "closed"
+          }
+  }

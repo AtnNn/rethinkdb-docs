@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-27) 00 : 03 : 39 UTC
+  , issueUpdatedAt = 2014 (-03) (-27) 00 : 13 : 34 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/244/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/244"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 244
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Use null/nil/None"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/244"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/244.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/244.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/244"
+  , issueCreatedAt = 2014 (-03) (-26) 21 : 52 : 12 UTC
+  , issueBody =
+      Just
+        "Fix for https://github.com/rethinkdb/docs/issues/243\r\n\r\nI also grepped the API docs and look for other similar mistakes.\r\n\r\n\r\n@mglukhovsky -- Could you take a look at this?"
+  , issueState = "closed"
+  , issueId = Id 30255660
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

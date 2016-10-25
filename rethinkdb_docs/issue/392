@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-03) 18 : 01 : 30 UTC
+  , issueUpdatedAt = 2014 (-07) (-03) 18 : 01 : 30 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/392/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/392"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 392
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Typo in the article about secondary indexes"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/392"
+  , issueCreatedAt = 2014 (-07) (-01) 09 : 29 : 10 UTC
+  , issueBody =
+      Just
+        "Reported on IRC\r\n```\r\n<dimadima> [04:53:27] there's a typo at http://rethinkdb.com/docs/secondary-indexes/, code example in multiple indexes: r.table(\"users\").between([\"John\", \"Smith\"], [\"Wade, Welles\"], {index: \"full_name\"}) \\ .run(conn, callback)\r\n<dimadima> [04:54:13] it's present in all the lanugages: `[\"Wade, Welles\"]`\r\n```"
+  , issueState = "closed"
+  , issueId = Id 36875903
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

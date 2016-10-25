@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 03 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/526/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/526"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 526
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "proposal: include \"added in version X.X\" to api docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/526"
+  , issueCreatedAt = 2014 (-09) (-26) 19 : 45 : 03 UTC
+  , issueBody =
+      Just
+        "Right now it's difficult to know exactly which features are available based on the version of the database/drivers you're using. A lot of projects solve this by adding a note to functions to explain when they were added/modified."
+  , issueState = "open"
+  , issueId = Id 44099344
+  , issueComments = 6
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

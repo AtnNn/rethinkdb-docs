@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-24) 01 : 42 : 21 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 28 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/113/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/113"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 113
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update documentation for r.branch"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/113"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/113.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/113.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/113"
+  , issueCreatedAt = 2013 (-11) (-27) 19 : 20 : 12 UTC
+  , issueBody =
+      Just
+        "See issue #84 \r\n\r\n- `r.branch` evaluates the `false` branch if `false` or `null` is returned.\r\n- Add input/ouput for the example.\r\n\r\n@mglukhovsky, would you mind taking a look at it?\r\n"
+  , issueState = "closed"
+  , issueId = Id 23409436
+  , issueComments = 10
+  , issueMilestone = Nothing
+  }

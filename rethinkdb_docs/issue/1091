@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-25) 23 : 38 : 59 UTC
+  , issueUpdatedAt = 2016 (-04) (-25) 23 : 38 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1091/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1091"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1091
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "update \"Install RethinkDB on OS X\" page to limit support of 10.7"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1091"
+  , issueCreatedAt = 2016 (-04) (-20) 20 : 24 : 44 UTC
+  , issueBody =
+      Just
+        "Starting with `v2.3` we have a pair of problems (rethinkdb/rethinkdb#5681 , rethinkdb/rethinkdb#5424) that mean we no longer fully support running and building on MacOS 10.7. Our binaries will still work (except `r.http` does not support https), but building will require installing a different compiler than what ships with the OS.\r\n\r\nSo we should change or verbiage either to stating we support 10.9 and above, or to something that acknowledges the caveats to our support."
+  , issueState = "closed"
+  , issueId = Id 149875781
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

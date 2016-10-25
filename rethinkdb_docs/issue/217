@@ -1,0 +1,64 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-13) 21 : 50 : 14 UTC
+  , issueUpdatedAt = 2014 (-03) (-13) 21 : 50 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/217/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/217"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 217
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 1777134
+          , simpleUserLogin = N "mlucy"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/1777134?v=3"
+          , simpleUserUrl = "https://api.github.com/users/mlucy"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Write docs for new commands"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/217"
+  , issueCreatedAt = 2014 (-03) (-12) 23 : 46 : 47 UTC
+  , issueBody =
+      Just
+        "- [x] object\r\n- [x] split\r\n- [x] upcase\r\n- [x] downcase"
+  , issueState = "closed"
+  , issueId = Id 29314529
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 91193
+                , simpleUserLogin = N "mglukhovsky"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/91193?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 2
+          , milestoneClosedIssues = 6
+          , milestoneDescription = Just ""
+          , milestoneTitle = "v1.12.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/2"
+          , milestoneCreatedAt = 2014 (-01) (-08) 23 : 09 : 52 UTC
+          , milestoneState = "closed"
+          }
+  }

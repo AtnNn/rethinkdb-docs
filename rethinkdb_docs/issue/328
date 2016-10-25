@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-17) 20 : 58 : 04 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 20 : 58 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/328/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/328"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 328
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Mirror the guy on the couch"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/328"
+  , issueCreatedAt = 2014 (-05) (-30) 10 : 21 : 18 UTC
+  , issueBody =
+      Just
+        "In the ten minute guide (http://rethinkdb.com/docs/guide/javascript/), the guy on the couch is an *amazing* fit for what we're trying to convey (awesome illustration, @ahruygt ), but he's facing away from the code. We should mirror the image horizontally, that would make the illustration fit 10x better.\r\n\r\nI wanted to just do it and submit a PR, but then realized I can't just mirror the guy on the JS page since the label \"JS\" on his mug doesn't mirror well. @ahruygt -- could you make these changes and work with @chipotle to get them deployed?"
+  , issueState = "closed"
+  , issueId = Id 34633820
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

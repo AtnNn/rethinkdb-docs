@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-25) 21 : 59 : 25 UTC
+  , issueUpdatedAt = 2016 (-05) (-25) 21 : 59 : 25 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1128/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1128"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1128
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add `--fetch openssl` to OS X build instructions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1128"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1128.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1128.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1128"
+  , issueCreatedAt = 2016 (-05) (-23) 23 : 42 : 31 UTC
+  , issueBody =
+      Just "Building on OS X usually requires this flag now."
+  , issueState = "closed"
+  , issueId = Id 156390279
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

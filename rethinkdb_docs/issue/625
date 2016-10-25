@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-17) 22 : 47 : 11 UTC
+  , issueUpdatedAt = 2015 (-02) (-17) 22 : 47 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/625/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/625"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 625
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "extra server troubleshooting info available for 1.16"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/625"
+  , issueCreatedAt = 2015 (-01) (-20) 22 : 13 : 19 UTC
+  , issueBody =
+      Just
+        "> What's wrong with my server?\r\n\r\nTroubleshooting a problem remotely is often a tedious interview that lasts until there is enough information to figure out the problem. The new ReQL admin API in 1.16 can help with this, just ask this question first:\r\n\r\n> `r.expr([\"current_issues\",\"db_config\",\"jobs\",\"server_config\",\"server_status\",\"stats\",\"table_config\",\"table_status\",\"cluster_config\"]).map([r.row, r.db('rethinkdb').table(r.row).coerceTo('array')]).coerceTo('object').merge({'logs':r.db('rethinkdb').table('logs').limit(50).coerceTo('array')})`?\r\n\r\nIt will return a dump of the `rethinkdb` system database, with truncated logs and the `auth_key` removed, giving you enough information to troubleshoot common problems."
+  , issueState = "closed"
+  , issueId = Id 54948049
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

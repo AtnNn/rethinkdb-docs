@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-16) 08 : 22 : 40 UTC
+  , issueUpdatedAt = 2014 (-09) (-16) 15 : 34 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/508/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/508"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 508
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "A new, small RethinkDB ORM"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/508"
+  , issueCreatedAt = 2014 (-09) (-16) 07 : 16 : 34 UTC
+  , issueBody =
+      Just
+        "Hi,\r\n\r\nI'm working on a small RethinkDB ORM call Epiphy\r\nhttps://github.com/kureikain/epiphy.\r\nTesting is available at:\r\nhttps://app.wercker.com/#applications/53d67e191a25ec9163000243\r\n\r\nAt the same time, I used wercker for CI and created a custom RethinkDB\r\nbox with RVM. Useful when you work with Ruby, and need to test with\r\nRethinkDB\r\nhttps://app.wercker.com/#applications/53d68c951a25ec91630002b7/tab/details\r\n\r\nAny chance to get mention on\r\nhttp://rethinkdb.com/docs/frameworks-and-libraries/?"
+  , issueState = "closed"
+  , issueId = Id 42851401
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

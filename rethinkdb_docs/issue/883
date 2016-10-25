@@ -1,0 +1,62 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 56 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/883/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/883"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 883
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5043
+        , simpleUserLogin = N "thelinuxlich"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5043?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thelinuxlich"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Guide for creating a distributed lock"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/883"
+  , issueCreatedAt = 2015 (-09) (-03) 06 : 15 : 08 UTC
+  , issueBody =
+      Just
+        "Something similar to what @nviennot is doing on NoBrainer to guarantee uniqueness(using a dedicated table to manage the locks) would be nice for people who need this kind of stuff"
+  , issueState = "open"
+  , issueId = Id 104628897
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

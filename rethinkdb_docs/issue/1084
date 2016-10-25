@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-15) 22 : 47 : 40 UTC
+  , issueUpdatedAt = 2016 (-04) (-15) 22 : 47 : 40 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1084/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1084"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1084
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10092343
+        , simpleUserLogin = N "dineyw23"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10092343?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dineyw23"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Adds minor missing backticks in ruby and java API"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1084"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1084.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1084.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1084"
+  , issueCreatedAt = 2016 (-04) (-14) 05 : 09 : 21 UTC
+  , issueBody =
+      Just
+        "Came across minor missing formatting and have signed the CLA."
+  , issueState = "closed"
+  , issueId = Id 148253853
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

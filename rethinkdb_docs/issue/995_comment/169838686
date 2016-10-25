@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-07) 23 : 22 : 55 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/169838686"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/995#issuecomment-169838686"
+  , issueCommentCreatedAt = 2016 (-01) (-07) 23 : 22 : 08 UTC
+  , issueCommentBody =
+      "A big issue here is that we don't actually support rolling migration in any meaningful way as far as I can tell.\r\n\r\nWhat you usually want from a rolling upgrade is that your cluster remains available during the upgrade process, by taking down, migrating and bringing back up one server at a time.\r\n\r\nWe currently don't allow mixing servers from different (at least major) versions in the same cluster, so this strategy doesn't work. The migrated servers will be unable to connect to the non-migrated ones. That implies that there will be a moment where any given table in the cluster is unavailable, no matter what you do (unless maybe you're ok with losing writes during the process).\r\n\r\nThis is made worse by the fact that we try to spread replicas evenly across all servers. If all tables use the same replicas, one can at least migrate a minority of servers first, and then migrate one more server as quickly as possible to switch the majority from the old cluster to the new cluster.\r\nFor this to give better availability, the application would need to be smart about reconnecting to the new cluster as soon as that one holds the majority of servers though, which will usually not be the case.\r\n\r\nI don't quite understand the \"copying data directories to new hardware\" strategy to be honest. Isn't that just taking a backup of the old data? It also sounds dangerous, since you will then have two servers with the same UUIDs, and if you're not careful they might end up connecting to the same cluster which can lead to crashes or even data loss. I think we shouldn't recommend this strategy (though I might be misunderstanding it).\r\n\r\nThe second strategy you mention \"adding new servers to the cluster, assigning new table responsibilities, removing old servers from the cluster\" doesn't work I think, because the new servers won't be able to connect to the old servers."
+  , issueCommentId = 169838686
+  }

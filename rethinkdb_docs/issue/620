@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-06) 23 : 41 : 18 UTC
+  , issueUpdatedAt = 2015 (-04) (-06) 23 : 41 : 29 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/620/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/620"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "cccccc"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/duplicate"
+          , labelName = "duplicate"
+          }
+      ]
+  , issueNumber = 620
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add more discussion of `.do` uses to the api page"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/620"
+  , issueCreatedAt = 2015 (-01) (-15) 20 : 33 : 04 UTC
+  , issueBody =
+      Just
+        "Some ideas for what to include:\r\n\r\n`.do` as let:\r\n\"In most programming languages, you can define variables to allow re-using a result multiple times. In reql this is done with .do\"\r\n```python\r\nr.do(r.some_query,\r\nr.some_other_query,\r\nlambda query_1, query_2: ... body can reuse queries here\r\n```\r\n\r\n`.do` to introduce dependencies\r\n```\r\nr.some_query().do(lambda result: this_can depend on result)\r\n```\r\n\r\nThis is just a sketch of ideas, I'll flesh it out a bit later\r\n"
+  , issueState = "closed"
+  , issueId = Id 54500334
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

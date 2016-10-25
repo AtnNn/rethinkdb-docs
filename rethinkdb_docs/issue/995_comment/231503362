@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-09) 00 : 38 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/231503362"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/995#issuecomment-231503362"
+  , issueCommentCreatedAt = 2016 (-07) (-09) 00 : 38 : 39 UTC
+  , issueCommentBody =
+      "Hi @yuvalvarkel , there hasn't been any change to this.\r\n\r\nWould you mind dropping me an email to daniel@rethinkdb.com with some details on your deployment?"
+  , issueCommentId = 231503362
+  }

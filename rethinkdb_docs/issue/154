@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 21 : 09 : 40 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 09 : 40 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/154/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/154"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 154
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add docs to help contributors get started"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/154"
+  , issueCreatedAt = 2013 (-12) (-19) 10 : 05 : 53 UTC
+  , issueBody =
+      Just
+        "We make contributing to RethinkDB really hard because potential contributors get no guidance. Here is some stuff we could do:\r\n\r\n* Describe rough categories in how people can contribute\r\n* For each category provide some basic getting started docs\r\n* For each category point people to some issues they could begin with (say, simple, medium, and advanced)\r\n* Have a system where contributors can get some time from a mentor to help them learn the ropes\r\n\r\nWe'd really have to integrate all this into our culture, and perhaps it's not the right time yet, but it's something we should at least think about."
+  , issueState = "closed"
+  , issueId = Id 24546961
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

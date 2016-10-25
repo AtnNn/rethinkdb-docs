@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-20) 22 : 33 : 07 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 17 : 23 : 03 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/299/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/299"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 299
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clarify get return values and add example (#263)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/299"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/299.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/299.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/299"
+  , issueCreatedAt = 2014 (-05) (-20) 19 : 50 : 14 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 33922834
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

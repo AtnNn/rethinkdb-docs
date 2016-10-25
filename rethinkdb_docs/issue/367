@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-17) 16 : 53 : 59 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 16 : 54 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/367/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/367"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 367
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Don't warn about an unsigned OS X package"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/367"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/367.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/367.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/367"
+  , issueCreatedAt = 2014 (-06) (-17) 16 : 45 : 12 UTC
+  , issueBody = Just "@mglukhovsky can you please review and merge?"
+  , issueState = "closed"
+  , issueId = Id 35908766
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

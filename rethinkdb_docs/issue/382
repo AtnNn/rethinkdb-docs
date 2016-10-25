@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-23) 14 : 14 : 58 UTC
+  , issueUpdatedAt = 2014 (-06) (-23) 16 : 10 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/382/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/382"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 382
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2000696
+        , simpleUserLogin = N "1N50MN14"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2000696?v=3"
+        , simpleUserUrl = "https://api.github.com/users/1N50MN14"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Updated mint.md instructions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/382"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/382.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/382.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/382"
+  , issueCreatedAt = 2014 (-06) (-23) 10 : 22 : 25 UTC
+  , issueBody = Just "Closes #381"
+  , issueState = "closed"
+  , issueId = Id 36278297
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

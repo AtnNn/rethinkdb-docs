@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-14) 18 : 20 : 24 UTC
+  , issueUpdatedAt = 2014 (-01) (-14) 18 : 20 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/78/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/78"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 78
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Install docs: remove PyYAML"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/78"
+  , issueCreatedAt = 2013 (-11) (-16) 01 : 28 : 58 UTC
+  , issueBody =
+      Just
+        "Unless I'm mistaken, we don't need PyYAML to build RethinkDB since documentation was moved to rethinkdb/docs.\r\n\r\n@atnnn, is this correct? If so, we should update the install instructions."
+  , issueState = "closed"
+  , issueId = Id 22769733
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

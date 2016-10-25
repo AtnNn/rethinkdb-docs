@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-18) 20 : 30 : 05 UTC
+  , issueUpdatedAt = 2016 (-07) (-18) 20 : 30 : 05 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1161/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1161"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1161
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10950439
+        , simpleUserLogin = N "chad-autry"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10950439?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chad-autry"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update system-issues.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1161"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1161.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1161.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1161"
+  , issueCreatedAt = 2016 (-07) (-18) 20 : 15 : 10 UTC
+  , issueBody =
+      Just
+        "- [x] I have read and agreed to the RethinkDB Contributor License Agreement http://rethinkdb.com/community/cla/\r\n\r\n### Description\r\nFix apparent copy+paste typo from the jobs table documentation"
+  , issueState = "closed"
+  , issueId = Id 166182830
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

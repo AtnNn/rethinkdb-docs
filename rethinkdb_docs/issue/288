@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-23) 22 : 04 : 01 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 00 : 55 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/288/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/288"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 288
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 706854
+          , simpleUserLogin = N "AtnNn"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/706854?v=3"
+          , simpleUserUrl = "https://api.github.com/users/AtnNn"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 285744
+        , simpleUserLogin = N "Yoeori"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/285744?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Yoeori"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add raspbian compiling instruction"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/288"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/288.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/288.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/288"
+  , issueCreatedAt = 2014 (-05) (-01) 17 : 22 : 22 UTC
+  , issueBody =
+      Just
+        "I've pushed some instructions about how to compile rethinkdb on Raspbian, they are tested on my model B Raspberry Pi."
+  , issueState = "closed"
+  , issueId = Id 32630437
+  , issueComments = 18
+  , issueMilestone = Nothing
+  }

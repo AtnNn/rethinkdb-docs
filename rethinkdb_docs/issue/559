@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 21 : 02 : 57 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 02 : 57 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/559/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/559"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 559
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Stability/Scalability report is outdated"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/559"
+  , issueCreatedAt = 2014 (-10) (-20) 18 : 07 : 44 UTC
+  , issueBody =
+      Just
+        "Various elements are outdated (explicit mentions about being open source for a little over a year), etc.\r\n\r\n@danielmewes you'd mentioned there were other things that should be cleaned up, could you put those here?"
+  , issueState = "closed"
+  , issueId = Id 46306704
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,65 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 03 : 57 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/552/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/552"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 552
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 1366
+          , simpleUserLogin = N "deontologician"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/1366?v=3"
+          , simpleUserUrl = "https://api.github.com/users/deontologician"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Create NodeJS / Express tutorial in the style of the RoR tutorial"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/552"
+  , issueCreatedAt = 2014 (-10) (-15) 18 : 45 : 55 UTC
+  , issueBody =
+      Just
+        "This issue is mainly so I don't forget to keep working on this later.\r\n\r\nApp is based on this comic: http://www.smbc-comics.com/index.php?id=3494"
+  , issueState = "open"
+  , issueId = Id 45903413
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-03) 16 : 30 : 25 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 40 : 30 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/250/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/250"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 250
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update for indexCreate"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/250"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/250.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/250.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/250"
+  , issueCreatedAt = 2014 (-03) (-28) 00 : 06 : 59 UTC
+  , issueBody =
+      Just
+        "- Fix #195 -- Add example for index_create with a nested field\r\n- Clean examples\r\n- Link to the secondary indexes article\r\n\r\nping @mglukhovsky -- could you take a look at this?"
+  , issueState = "closed"
+  , issueId = Id 30353913
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-30) 20 : 34 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/243571909"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1169#issuecomment-243571909"
+  , issueCommentCreatedAt = 2016 (-08) (-30) 20 : 34 : 58 UTC
+  , issueCommentBody =
+      "My opinion is that our current signatures are fine (we should maybe standardize on a specific cut-off value for the future, e.g. 4+ options). Consistency is good, but readability also matters."
+  , issueCommentId = 243571909
+  }

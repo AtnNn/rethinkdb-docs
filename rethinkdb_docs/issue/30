@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 18 : 39 : 45 UTC
+  , issueUpdatedAt = 2014 (-05) (-29) 18 : 39 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/30/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/30"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eeeeee"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/not_settled"
+          , labelName = "not_settled"
+          }
+      ]
+  , issueNumber = 30
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "API docs: versioning"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/30"
+  , issueCreatedAt = 2013 (-10) (-25) 18 : 45 : 31 UTC
+  , issueBody =
+      Just
+        "When we have an LTS release, we will need versioned API docs so that changes in semantics or additions / removals of commands don't confuse users."
+  , issueState = "closed"
+  , issueId = Id 21608695
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

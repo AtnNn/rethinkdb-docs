@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2015 (-05) (-11) 23 : 22 : 27 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/737/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/737"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 737
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Connection handling: document best practices"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/737"
+  , issueCreatedAt = 2015 (-04) (-27) 17 : 24 : 15 UTC
+  , issueBody =
+      Just
+        "RethinkDB users often raise questions about the best practices for handling connections, like:\r\n\r\n  - Should I open a connection for each query?\r\n  - How expensive is a connection in RethinkDB?\r\n  - How long should I hold onto a connection for?\r\n\r\nDetails can vary based on your environment and application needs, but it would be good to have an article reviewing some common cases and best practices."
+  , issueState = "open"
+  , issueId = Id 71349498
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

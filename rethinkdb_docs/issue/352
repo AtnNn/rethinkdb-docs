@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-12) 22 : 47 : 17 UTC
+  , issueUpdatedAt = 2014 (-09) (-29) 19 : 11 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/352/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/352"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 352
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix python docs (2)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/352"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/352.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/352.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/352"
+  , issueCreatedAt = 2014 (-06) (-12) 22 : 02 : 00 UTC
+  , issueBody =
+      Just
+        "That should fix #347 \r\n\r\n- Add missing `io` field for `r.args`\r\n- Fix encoding\r\n\r\nThe docs are just missing the `r.http` command, then everything should be ready to go.\r\n\r\nPing @AtnNn "
+  , issueState = "closed"
+  , issueId = Id 35627725
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

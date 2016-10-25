@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-27) 00 : 02 : 56 UTC
+  , issueUpdatedAt = 2016 (-05) (-27) 00 : 02 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1126/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1126"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 1126
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 445372
+        , simpleUserLogin = N "azabujuban"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/445372?v=3"
+        , simpleUserUrl = "https://api.github.com/users/azabujuban"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Snippets for literal() are missing double quotes in Java documentation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1126"
+  , issueCreatedAt = 2016 (-05) (-19) 01 : 29 : 54 UTC
+  , issueBody =
+      Just
+        "From https://rethinkdb.com/api/java/literal/\r\nFor example:\r\n```\r\nr.table(\"users\").get(1)\r\n .update(r.hashMap(data, r.hashMap(age, 19).with(job, \"Engineer\")))\r\n .run(conn);\r\n```\r\nshould be:\r\n```\r\nr.table(\"users\").get(1)\r\n .update(r.hashMap(data, r.hashMap(\"age\", 19).with(\"job\", \"Engineer\")))\r\n .run(conn);\r\n```\r\n\r\nIf this is indeed an issue and not me still sleeping i will fix it and submit a pull request."
+  , issueState = "closed"
+  , issueId = Id 155636396
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

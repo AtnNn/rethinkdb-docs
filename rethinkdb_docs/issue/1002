@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 49 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1002/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1002"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1002
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 393259
+        , simpleUserLogin = N "gebrits"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/393259?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gebrits"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Store store language preference for docs in cookie / clientside"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1002"
+  , issueCreatedAt = 2016 (-01) (-24) 19 : 04 : 39 UTC
+  , issueBody =
+      Just
+        "Would make a lot of sense to store the language preference (javascript / python / ..) in a cookie imo. \r\nNow each time I look for examples I have to manually shift from python to javascript. \r\n\r\nKeeping the latest language clicked in a cookie and default to that (and absent that default to python) on each page, improves UX quite a bit. \r\n\r\nThoughts? "
+  , issueState = "open"
+  , issueId = Id 128417808
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

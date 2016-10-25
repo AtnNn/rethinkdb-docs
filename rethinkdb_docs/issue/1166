@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-15) 21 : 36 : 42 UTC
+  , issueUpdatedAt = 2016 (-08) (-15) 21 : 36 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1166/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1166"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1166
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Suggestion for troubleshooting FAQ: Explain swappiness on Linux"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1166"
+  , issueCreatedAt = 2016 (-08) (-01) 19 : 12 : 01 UTC
+  , issueBody =
+      Just
+        "Lately we've got many questions from users who are seeing the \"RethinkDB is using swap\" warning, even though they have plenty of RAM available (e.g. https://github.com/rethinkdb/rethinkdb/issues/5865#issuecomment-236632154).\r\n\r\nI've looked into some of those cases, and they were due to the default setting of the `swappiness` Linux kernel parameter.\r\n\r\nThis answer on Askubuntu explains very well what the parameter means and how to change it: http://askubuntu.com/a/103916/209792\r\n\r\nI think we should add an entry to http://rethinkdb.com/docs/troubleshooting/ that explains:\r\n\r\n1. What `swappiness` is (briefly)\r\n2. How to check the current value of `swappiness` (`cat /proc/sys/vm/swappiness`)\r\n3. How to change the value (adding the line `vm.swappiness = 10` to `/etc/sysctl.conf`, then reboot)\r\n4. That we recommend a swappiness value of 10 for running RethinkDB.\r\n\r\n@chipotle"
+  , issueState = "closed"
+  , issueId = Id 168719369
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

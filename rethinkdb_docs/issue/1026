@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-02) (-19) 03 : 00 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1026/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1026"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1026
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Article on scaling changefeeds"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1026"
+  , issueCreatedAt = 2016 (-02) (-18) 18 : 51 : 29 UTC
+  , issueBody =
+      Just
+        "We should add an article detailing patterns and solutions for scaling changefeeds in productions.\r\n\r\nOne example: using `rethinkdb proxy` nodes to increase the number of open changefeeds, without actually storing data, allowing you to use proxy nodes as coordinators for large numbers of changefeeds."
+  , issueState = "open"
+  , issueId = Id 134662104
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-09) (-01) 20 : 39 : 35 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/244205102"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1122#issuecomment-244205102"
+  , issueCommentCreatedAt = 2016 (-09) (-01) 20 : 39 : 35 UTC
+  , issueCommentBody =
+      "The last example shows example output for `includeState` and `includeInitial`. I think we could add one more example that uses `includeOffsets` (and maybe the others, if necessary) to maintain a data structure, as described above \8212 is there some existing sample code for that?"
+  , issueCommentId = 244205102
+  }

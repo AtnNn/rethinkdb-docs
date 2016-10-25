@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-08) 19 : 49 : 50 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 28 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/143/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/143"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 143
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Michel grey issue 1582"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/143"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/143.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/143.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/143"
+  , issueCreatedAt = 2013 (-12) (-13) 05 : 27 : 04 UTC
+  , issueBody =
+      Just
+        "Following @Tryneus pull request https://github.com/rethinkdb/docs/pull/130\r\n\r\nI merged master in this branch (I needed the new python script).\r\nI updated the docs for  `r.and_` and `r.or_`, remove the docs for `r.all` and `r.any`.\r\n\r\nWe also change the output of the python scripts (it's not `docs.py`), so I updated the gitignore file.\r\n\r\n@atnnn would you mind taking a look at it?\r\n\r\n\r\nI tested \r\n- the website, it still works fine\r\n- the file `docs.py` (I imported in rethinkdb, and the docs works fine)."
+  , issueState = "closed"
+  , issueId = Id 24228250
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-06) 19 : 37 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/169435689"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/995#issuecomment-169435689"
+  , issueCommentCreatedAt = 2016 (-01) (-06) 19 : 37 : 34 UTC
+  , issueCommentBody =
+      "Two common strategies include:\r\n\r\n  - copying data directories to new hardware\r\n  - adding new servers to the cluster, assigning new table responsibilities, removing old servers from the cluster\r\n\r\nDocumenting the tradeoffs for each strategy would be helpful."
+  , issueCommentId = 169435689
+  }

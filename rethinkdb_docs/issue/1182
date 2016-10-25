@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-19) 11 : 49 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1182/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1182"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1182
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1024292
+        , simpleUserLogin = N "yfp"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1024292?v=3"
+        , simpleUserUrl = "https://api.github.com/users/yfp"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fixed nth.md example."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1182"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1182.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1182.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1182"
+  , issueCreatedAt = 2016 (-09) (-19) 11 : 49 : 15 UTC
+  , issueBody =
+      Just
+        "- [ ] I have read and agreed to the RethinkDB Contributor License Agreement http://rethinkdb.com/community/cla/\r\n\r\n### Description\r\n<Please fill in the description of your pull request here. Thank you for your contribution!>\r\n\r\nBronze medalist should have `.nth(2)` selector, as `.nth` method counts from zero."
+  , issueState = "open"
+  , issueId = Id 177764511
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-22) 20 : 26 : 37 UTC
+  , issueUpdatedAt = 2014 (-03) (-22) 20 : 27 : 22 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/229/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/229"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 229
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Michel 228 apisection"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/229"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/229.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/229.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/229"
+  , issueCreatedAt = 2014 (-03) (-22) 07 : 27 : 18 UTC
+  , issueBody =
+      Just
+        "@atnnn -- can you take a quick look?\r\n\r\nFor `filter`, we used to have the description of the `Joins` api section. This commit fixes that.\r\nI also tried the output with 1.12 in the data explorer, and everything seems to work.\r\n\r\nOnce you merged it, you can regenerate the `reql_docs.json` file, and push it to the rethinkdb repo.\r\nAnd that should close https://github.com/rethinkdb/rethinkdb/issues/1982"
+  , issueState = "closed"
+  , issueId = Id 29956330
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-07) 23 : 03 : 33 UTC
+  , issueUpdatedAt = 2016 (-01) (-07) 23 : 03 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/978/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/978"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 978
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add R driver to the list of community drivers"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/978"
+  , issueCreatedAt = 2015 (-12) (-11) 15 : 55 : 40 UTC
+  , issueBody =
+      Just "Here's a link: https://github.com/mbq/rethinker"
+  , issueState = "closed"
+  , issueId = Id 121735627
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

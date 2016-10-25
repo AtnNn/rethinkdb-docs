@@ -1,0 +1,46 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-20) 01 : 11 : 55 UTC
+  , issueUpdatedAt = 2015 (-04) (-20) 01 : 11 : 55 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/79/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/79"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 79
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Improve init script docs (/docs/cluster-on-startup/)"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/79"
+  , issueCreatedAt = 2013 (-11) (-16) 01 : 37 : 32 UTC
+  , issueBody =
+      Just
+        "The `systemd` instructions have two problems:\r\n\r\n- Preferably we should provide sample config files and copy them into place, rather than instructing the user to create files\r\n- The sentence \"Add the file `/usr/lib/tmpfiles.d/rethinkdb.conf` with the content:\" is confusing. Instead, it should read:\r\n\r\n> Create the file /usr/lib/tmpfiles.d/rethinkdb.conf with the following line:"
+  , issueState = "closed"
+  , issueId = Id 22769904
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-06) (-10) 00 : 39 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1137/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1137"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1137
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 811954
+        , simpleUserLogin = N "danielcompton"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/811954?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielcompton"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Clarify includeInitial docs wrt updates while initialising"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1137"
+  , issueCreatedAt = 2016 (-06) (-08) 03 : 25 : 36 UTC
+  , issueBody =
+      Just
+        "I'm building state on the client by processing changefeeds to build up an in memory subset of a 'table', by using `includeInitial`.\r\n\r\n> `includeInitial`: if true, the changefeed stream will begin with the current contents of the table or selection being monitored. These initial results will have new_val fields, but no old_val fields. The initial results may be intermixed with actual changes, as long as an initial result for the changed document has already been given. If an initial result for a document has been sent and a change is made to that document that would move it to the unsent part of the result set (e.g., a changefeed monitors the top 100 posters, the first 50 have been sent, and poster 48 has become poster 52), an \8220uninitial\8221 notification will be sent, with an old_val field but no new_val field.\r\n\r\nAfter reading the docs, it's not clear to me what the expected results in a changefeed are when a document is updated while a changefeed is initialising.\r\n\r\nThere is a scenario where the docs are a little unclear to me\r\n\r\n```\r\n1. Issue changefeed query for a table with 1000 records\r\n2. RethinkDB starts returning results\r\n3. Issue a mutation query for record 750. At this point in time, the changefeed initialising cursor is at record 500.\r\n4. A change record will be generated with a `new_val`, and an `old_val` and returned over the changefeed.\r\n5. The changefeed cursor gets to record 750. It generates an initial state with just a `new_val`.\r\n```\r\n\r\n**What will that `new_val` in 5 be?** The value written in 3, or the initial state of the record at the time of 1? I'm guessing it will be the value written in 3, as RethinkDB doesn't have MVCC, or transactions while initialising a changefeed.\r\n\r\n**Is there any way for a document modified before a changefeed cursor reaches that document to have it's changefeed returned after the initial state? Or are those two operations serialised?**\r\n\r\nThinking about this, I'm not sure if it even matters too much. If you collected all changefeeds and didn't process them until after you had built up your initial state, then I think you will always end up with the correct results, just that some changefeeds would be no-ops as you would already have received the change as part of initial state.\r\n\r\nI guess fundamentally, what I'm asking is, **is there a reliable and consistent way to process changefeeds, such that you will always get a correct view of a table?**"
+  , issueState = "open"
+  , issueId = Id 159071190
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

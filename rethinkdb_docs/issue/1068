@@ -1,0 +1,62 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-01) 23 : 35 : 50 UTC
+  , issueUpdatedAt = 2016 (-04) (-01) 23 : 35 : 50 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1068/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1068"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 1068
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "`include_types` changes optarg"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1068"
+  , issueCreatedAt = 2016 (-04) (-01) 23 : 35 : 17 UTC
+  , issueBody =
+      Just
+        "Another change I missed that's coming in 2.3:\r\n\r\nhttps://github.com/rethinkdb/rethinkdb/issues/5188 introduced a new `include_types` boolean optarg for the `changes` command.\r\n\r\nIf turned on, every result on a changefeed will have a `type` field with one of the following values:\r\n\"add\", \"remove\", \"change\", \"initial\", \"uninitial\", \"state\""
+  , issueState = "closed"
+  , issueId = Id 145309669
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 1
+          , milestoneNumber = 10
+          , milestoneClosedIssues = 29
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.3"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/10"
+          , milestoneCreatedAt = 2015 (-12) (-10) 02 : 58 : 17 UTC
+          , milestoneState = "open"
+          }
+  }

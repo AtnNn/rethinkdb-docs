@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-16) 22 : 49 : 35 UTC
+  , issueUpdatedAt = 2014 (-06) (-16) 22 : 49 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/360/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/360"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 360
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Issue 340 - Nodejs page + TODO examples"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/360"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/360.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/360.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/360"
+  , issueCreatedAt = 2014 (-06) (-14) 22 : 56 : 59 UTC
+  , issueBody =
+      Just
+        "https://github.com/rethinkdb/docs/pull/318 is a little messy because it's comparing to master.\r\n\r\nThere is one little issue left. `/docs/examples/node-todo-koa/` somehow shows a 404 page for me.\r\nI'm pretty sure it was working before, and so far I still haven't found what's the problem (and if it's somehow that I need to fix in the markdown files, or if my Jekyll is broken)."
+  , issueState = "closed"
+  , issueId = Id 35738447
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

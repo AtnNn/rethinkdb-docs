@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-08) 20 : 53 : 10 UTC
+  , issueUpdatedAt = 2015 (-04) (-08) 20 : 53 : 10 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/703/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/703"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 703
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1548
+        , simpleUserLogin = N "babo"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1548?v=3"
+        , simpleUserUrl = "https://api.github.com/users/babo"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "filter example"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/703"
+  , issueCreatedAt = 2015 (-04) (-08) 12 : 41 : 06 UTC
+  , issueBody =
+      Just
+        "In filter documentation fix the code example to match with the description: Get all users who are more than 18 years old or have their parental consent. The code example for JS and Python checks if the user age is less than 18 or hasParentalConsent, for Ruby it's a copy paste of the example above.\r\n \r\nCorrected code samples:\r\n\r\n    r.table(\"users\").filter(\r\n        r.row(\"age\").ge(18).or(r.row(\"hasParentalConsent\"))\r\n    ).run(conn, callback);\r\n\r\n    r.table(\"users\").filter(\r\n        (r.row[\"age\"] >= 18) | r.row[\"hasParentalConsent\"]).run(conn)\r\n\r\n    r.table(\"users\").filter{ |user|\r\n        (user[\"age\"] >= 18) | user[\"hasParentalConsent\"])\r\n    }.run(conn)"
+  , issueState = "closed"
+  , issueId = Id 67120731
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

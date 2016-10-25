@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-30) 03 : 15 : 29 UTC
+  , issueUpdatedAt = 2015 (-04) (-30) 03 : 15 : 29 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/744/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/744"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 744
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "date() ignores offset?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/744"
+  , issueCreatedAt = 2015 (-04) (-29) 08 : 08 : 04 UTC
+  , issueBody =
+      Just
+        "These two commands return the same dates (same epoch_time field but different timezone field).\r\n\r\n```\r\nr.time(1986, 11, 3, '+02:00').date()\r\nr.time(1986, 11, 3, '+00:00').date()\r\n```\r\n\r\nI thought that date would return the date given the timezone, but it looks like it just return the date for the offset `+00:00`. \r\nIf it's expected, a little note on the docs would be nice : )"
+  , issueState = "closed"
+  , issueId = Id 71808072
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

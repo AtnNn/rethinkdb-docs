@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-16) 17 : 49 : 35 UTC
+  , issueUpdatedAt = 2016 (-05) (-16) 20 : 39 : 10 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1123/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1123"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1123
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 927264
+        , simpleUserLogin = N "raspo"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/927264?v=3"
+        , simpleUserUrl = "https://api.github.com/users/raspo"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "add libssl-dev to list of dependencies"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1123"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1123.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1123.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1123"
+  , issueCreatedAt = 2016 (-05) (-15) 20 : 49 : 38 UTC
+  , issueBody =
+      Just
+        "I was following the installation instructions on a brand new Raspbian and got stuck with this error:\r\n```fatal error: openssl/sha.h: No such file or directory```\r\n\r\nTurns out, I just had to install another dependency:\r\n```sudo apt-get install libssl-dev```\r\n\r\nOT: I was able to successfully install rethinkdb after that. The compilation process took **several** hours on the latest Raspberry PI 3 model, I don't know if this is something we should mention in the docs."
+  , issueState = "closed"
+  , issueId = Id 154929416
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

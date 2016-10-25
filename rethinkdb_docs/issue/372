@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-30) 18 : 55 : 11 UTC
+  , issueUpdatedAt = 2014 (-06) (-30) 18 : 55 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/372/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/372"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 372
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "API - options for `during` are not mentioned in JS"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/372"
+  , issueCreatedAt = 2014 (-06) (-18) 03 : 45 : 17 UTC
+  , issueBody =
+      Just
+        "In Python and Ruby they are mentioned in the signature of the method though."
+  , issueState = "closed"
+  , issueId = Id 35952407
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

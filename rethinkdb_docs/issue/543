@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-16) 21 : 06 : 43 UTC
+  , issueUpdatedAt = 2014 (-10) (-16) 21 : 06 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/543/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/543"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 543
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix batch settings documentation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/543"
+  , issueCreatedAt = 2014 (-10) (-09) 01 : 25 : 43 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/api/javascript/run/\r\n\r\nAccording to `v1.15.1:src/rdb_protocol/batching.cc`\r\n\r\n* The batch settings are not in a `batch_conf` object but are direct optional arguments to `run`.\r\n* `min_batch_rows` is a minimum, not a maximum\r\n* The default for `min_batch_rows` is 8\r\n* The default for `max_batch_rows` is unlimited\r\n* The default for `max_batch_bytes` is 1024. The documentation says `1M` which may be misleading.\r\n* The default for `max_batch_seconds` is 0.5\r\n* The default for `first_batch_scaledown_factor` is 4\r\n\r\nThe JavaScript driver does not currently accept these arguments at all. See https://github.com/rethinkdb/rethinkdb/issues/3161\r\n\r\nThe server silently accepts global optargs that it doesn't know about. See https://github.com/rethinkdb/rethinkdb/issues/2052"
+  , issueState = "closed"
+  , issueId = Id 45317516
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

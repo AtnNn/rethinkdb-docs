@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-20) 18 : 13 : 18 UTC
+  , issueUpdatedAt = 2014 (-09) (-09) 03 : 51 : 10 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/465/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/465"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 465
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix Ruby lambda in Python example."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/465"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/465.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/465.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/465"
+  , issueCreatedAt = 2014 (-08) (-15) 23 : 45 : 03 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 40396418
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

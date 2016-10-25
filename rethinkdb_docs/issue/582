@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-10) 20 : 45 : 44 UTC
+  , issueUpdatedAt = 2015 (-06) (-03) 18 : 52 : 22 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/582/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/582"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 582
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "\"Cluster on startup\" is confusing to new users"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/582"
+  , issueCreatedAt = 2014 (-11) (-19) 01 : 59 : 28 UTC
+  , issueBody =
+      Just
+        "From an email with @ukd1:\r\n\r\n> [Running the RethinkDB service] gives a message saying to go read the docs. Reading the docs, the bit of interest (quick start) hard to find - it is 7 paras + a long long list of options down the page. \r\n\r\n> It notes: \"The packages do not ship with a default config file\". \r\n\r\n**Here's the problem:**\r\n\r\nWhen you try to start the RethinkDB service (`/etc/init.d/rethinkdb start` or `service rethinkdb start`), but haven't added config files to `/etc/rethinkdb/instances.d`) you see the following message:\r\n\r\n```\r\nrethinkdb: No instances defined in /etc/rethinkdb/instances.d/\r\nrethinkdb: See http://www.rethinkdb.com/docs/guides/startup/ for more information\r\n```\r\n\r\nThe error message is bewildering to new users, especially when you click the link and see a long page of various options, rather than a clear guide.\r\n\r\n**We should improve the docs in one (or more) of the following ways:**\r\n\r\n  - We should immediately link to a quickstart section that has clear steps for getting up and running, rather than dumping users on a long document.\r\n  - Even better, rather than link to a document that specifies every option for startup scripts (for every init system, for every platform), we should write a gentle guide that clearly links to a doc with the complete specifications.\r\n\r\n**The quickstart section also uses very negative language.** Example:\r\n\r\n> The packages do not ship with a default config file, so if you install RethinkDB, it will not automatically be run on system startup until you add a config file to /etc/rethinkdb/instances.d/.\r\n\r\nThis is equally bewildering (what do you mean RethinkDB doesn't ship with a file you need to accomplish the task you want?) We also do ship an example config file that is easy to get started with -- so we should use positive language, for example:\r\n\r\n> You can set up an init script to automatically run RethinkDB on startup by adding a config file to /etc/rethinkdb/instances.d/.\r\n>\r\n> Copy the example config file and restart the init.d script:\r\n> <continued>\r\n\r\nThis is part of the initial curve when getting up and running with RethinkDB, so it needs some love.\r\n\r\n@chiptole, thoughts?\r\n"
+  , issueState = "closed"
+  , issueId = Id 49319368
+  , issueComments = 11
+  , issueMilestone = Nothing
+  }

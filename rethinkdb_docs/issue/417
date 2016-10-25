@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-01) 20 : 27 : 44 UTC
+  , issueUpdatedAt = 2014 (-08) (-01) 20 : 27 : 44 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/417/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/417"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 417
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "How to import your data"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/417"
+  , issueCreatedAt = 2014 (-07) (-17) 16 : 52 : 18 UTC
+  , issueBody =
+      Just
+        "We actually don't have a page that explains how to import data in RethinkDB\r\n\r\nThe closest page that I found is the migration page - http://rethinkdb.com/docs/migration/\r\n\r\n\r\nWe should tell people how to import a dataset in RethinkDB and suggest them to use a json file and not a csv.\r\n\r\n\r\nIf a user import a dataset in csv, all numbers will be saved as a string, which seem to confused people.\r\nIn case they just have a csv, we should provide a query for them to coerce their field, something like\r\n```\r\nr.table(\"data\").update(function(doc) {\r\n    return doc.merge({ field: doc(\"field\").coerceTo(\"NUMBER\")\r\n})\r\n```\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 38103070
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

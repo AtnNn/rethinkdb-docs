@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-19) 21 : 58 : 57 UTC
+  , issueUpdatedAt = 2016 (-02) (-19) 21 : 58 : 57 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1027/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1027"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1027
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6975307
+        , simpleUserLogin = N "k7i3"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/6975307?v=3"
+        , simpleUserUrl = "https://api.github.com/users/k7i3"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Get a ReQL document as a JSON string when getting updates (.changes())"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1027"
+  , issueCreatedAt = 2016 (-02) (-19) 09 : 48 : 45 UTC
+  , issueBody =
+      Just
+        "Is it possible? https://stackoverflow.com/questions/35485280/can-i-get-data-as-json-string-when-i-am-listening-updates-from-rethinkdb"
+  , issueState = "closed"
+  , issueId = Id 134819856
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-16) 07 : 29 : 05 UTC
+  , issueUpdatedAt = 2014 (-04) (-16) 13 : 33 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/265/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/265"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 265
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17879
+        , simpleUserLogin = N "ravi"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17879?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ravi"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Is it { durability : 'soft' } or { hardDurability : false } ?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/265"
+  , issueCreatedAt = 2014 (-04) (-16) 04 : 26 : 51 UTC
+  , issueBody =
+      Just
+        "\r\nThe JavaScript documentation for tableCreate() (http://rethinkdb.com/api/javascript/table_create/) suggests that the right option to pass is ```{ durability : 'soft` }``` but an example further below offers ```{ hardDurability : false }```. Which one is it? Or are both equivalent to each other? If the latter, perhaps the document should clarify that.\r\n"
+  , issueState = "closed"
+  , issueId = Id 31611724
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

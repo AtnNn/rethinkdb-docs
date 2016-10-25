@@ -1,0 +1,38 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-09) 23 : 31 : 50 UTC
+  , issueUpdatedAt = 2013 (-12) (-09) 23 : 31 : 50 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/98/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/98"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 98
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "API - docs for connection.close should mention the noreply_wait argument"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/98"
+  , issueCreatedAt = 2013 (-11) (-22) 18 : 59 : 47 UTC
+  , issueBody = Just "It's missing, and will be shipped with 1.11"
+  , issueState = "closed"
+  , issueId = Id 23160095
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

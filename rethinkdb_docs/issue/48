@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 19 : 54 : 32 UTC
+  , issueUpdatedAt = 2014 (-05) (-29) 19 : 54 : 32 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/48/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/48"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 48
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Review sql->reql cheat sheet"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/48"
+  , issueCreatedAt = 2013 (-10) (-28) 08 : 27 : 12 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/docs/sql-to-reql/\r\n\r\nIt's good, but could be made even better. Assigning to self."
+  , issueState = "closed"
+  , issueId = Id 21675436
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

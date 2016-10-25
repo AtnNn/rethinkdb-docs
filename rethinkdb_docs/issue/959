@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-23) 19 : 09 : 12 UTC
+  , issueUpdatedAt = 2015 (-11) (-23) 19 : 09 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/959/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/959"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 959
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 502394
+        , simpleUserLogin = N "skinkie"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/502394?v=3"
+        , simpleUserUrl = "https://api.github.com/users/skinkie"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix a typo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/959"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/959.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/959.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/959"
+  , issueCreatedAt = 2015 (-11) (-21) 18 : 03 : 15 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 118211744
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

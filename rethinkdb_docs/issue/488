@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-05) 20 : 52 : 28 UTC
+  , issueUpdatedAt = 2014 (-09) (-05) 20 : 59 : 30 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/488/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/488"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 488
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Write a post on ReQL data exploration"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/488"
+  , issueCreatedAt = 2014 (-08) (-27) 20 : 09 : 02 UTC
+  , issueBody =
+      Just
+        "Saw this blog post -- http://datavu.blogspot.com/2014/08/useful-unix-commands-for-exploring-data.html -- on using unix commands to manipulate data.\r\n\r\nWe should write a similar post that mirrors this one and shows how to do this in RethinkDB. I think it would be very useful to people."
+  , issueState = "closed"
+  , issueId = Id 41325427
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

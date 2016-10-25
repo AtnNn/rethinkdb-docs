@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-10) (-02) 11 : 22 : 29 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 214288
+        , simpleUserLogin = N "robertjpayne"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/214288?v=3"
+        , simpleUserUrl = "https://api.github.com/users/robertjpayne"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/250966439"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1180#issuecomment-250966439"
+  , issueCommentCreatedAt = 2016 (-10) (-02) 11 : 22 : 29 UTC
+  , issueCommentBody =
+      "@danielmewes actually there are two weird errors:\r\n\r\nThere is a missing `[` before `FUNC` it should have two, and there is also a missing `]` at the end. I guess it's \"valid\" syntax to drop these but since the node.js driver emits them and most clients will pair them into a datum array I figure the docs should reflect that?"
+  , issueCommentId = 250966439
+  }

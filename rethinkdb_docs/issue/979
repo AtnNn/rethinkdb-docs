@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2015 (-12) (-11) 20 : 08 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/979/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/979"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 979
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document limitations of interrupting a query"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/979"
+  , issueCreatedAt = 2015 (-12) (-11) 20 : 08 : 59 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/docs/system-jobs/ briefly mentions terminating queries:\r\n\r\n> The jobs table [...] allows you to kill query jobs by deleting them from the table.\r\n\r\nI think we should elaborate on that a little bit and note that not all queries will terminate immediately. Specifically, many queries will only get terminated the next time they emit a result, but not earlier.\r\nA typical example is `r.table(...).count()`, which will never get terminated before its done, since it only emits a single result at the end.\r\nSee https://github.com/rethinkdb/rethinkdb/issues/5197 for another example."
+  , issueState = "open"
+  , issueId = Id 121782885
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

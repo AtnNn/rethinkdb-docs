@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-21) 21 : 04 : 41 UTC
+  , issueUpdatedAt = 2014 (-03) (-21) 21 : 04 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/168/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/168"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 168
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "API - Add durability for `run` for the JS driver"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/168"
+  , issueCreatedAt = 2014 (-01) (-06) 23 : 10 : 25 UTC
+  , issueBody =
+      Just
+        "When https://github.com/rethinkdb/rethinkdb/issues/1821 will be fixed."
+  , issueState = "closed"
+  , issueId = Id 25136989
+  , issueComments = 3
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 91193
+                , simpleUserLogin = N "mglukhovsky"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/91193?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 2
+          , milestoneClosedIssues = 6
+          , milestoneDescription = Just ""
+          , milestoneTitle = "v1.12.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/2"
+          , milestoneCreatedAt = 2014 (-01) (-08) 23 : 09 : 52 UTC
+          , milestoneState = "closed"
+          }
+  }

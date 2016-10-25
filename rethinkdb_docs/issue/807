@@ -1,0 +1,64 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-09) 21 : 43 : 05 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 21 : 43 : 05 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/807/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/807"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 807
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Errors and outdated information in docs for 2.1"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/807"
+  , issueCreatedAt = 2015 (-07) (-01) 03 : 06 : 14 UTC
+  , issueBody =
+      Just
+        "As of 0105aaaed2456f7c7323156e601943804e44b006, I see the following things that are incorrect, misleading, or still need to be updated:\r\n\r\nIn `3-learn-the-tools/administration-tools.md`:\r\n* The `server_status` example is out of date\r\n* `r.table('superheroes').status().run()` returns a single row; there's no need to call `list()` on it.\r\n* `configs = r.db('rethinkdb').table('table_config')` needs a `.run()` after it\r\n\r\nIn `3-learn-the-tools/consistency.md`:\r\n* `emergency_repair` is an option on `reconfigure()`, not an option on `config()`.\r\n* Running a read in `majority` mode not only requires contacting all of the servers, but also flushing the data to disk on each server. This is part of the reason it's so slow.\r\n\r\nIn `3-learn-the-tools/failover.md`:\r\n* \"If half or more of the voting replicas of a shard are lost, an emergency repair will need to be performed.\" Could this be clarified? Users might think they need to perform an emergency repair even if the voting replicas reconnect, which is not the case.\r\n* If you lose one machine of a two-machine cluster, the table will lose availability for writes whether the lost machine was the primary or the secondary.\r\n\r\nIn `3-learn-the-tools/sharding-and-replication.md`:\r\n* The `complex` write acks setting is deprecated in 2.1.\r\n\r\nIn `4-rethinkdb-in-practice/crashes.md`:\r\n* We should probably advise people to dump the `_debug_table_status` table in addition, because that's the one that will be most useful for debugging many crashes.\r\n\r\nIn `api/*/administration/reconfigure.md`:\r\n* \"If no tables are repairable, emergency repair mode will throw an error.\" doesn't make sense. I think you meant \"If no shards are repairable\", but that's not right either; if some shards are healthy and others are beyond repair, then `unsafe_rollback_or_erase` mode will destroy and recreate the beyond-repair shards without throwing an error.\r\n\r\nIn `api/*/administration/wait.md`:\r\n* The `status_changes` field has been removed from the return value of `.wait()`."
+  , issueState = "closed"
+  , issueId = Id 92256192
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 167416
+                , simpleUserLogin = N "VeXocide"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/167416?v=3"
+                , simpleUserUrl = "https://api.github.com/users/VeXocide"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 8
+          , milestoneClosedIssues = 24
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.1"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/8"
+          , milestoneCreatedAt = 2015 (-03) (-30) 22 : 32 : 47 UTC
+          , milestoneState = "closed"
+          }
+  }

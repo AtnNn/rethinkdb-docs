@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-07) 02 : 48 : 41 UTC
+  , issueUpdatedAt = 2014 (-10) (-07) 02 : 48 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/535/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/535"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 535
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update installation instructions for debian"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/535"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/535.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/535.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/535"
+  , issueCreatedAt = 2014 (-10) (-03) 22 : 05 : 36 UTC
+  , issueBody =
+      Just
+        "These are the new debian installation instructions for 1.15.1.\r\n\r\n@neumino can please you review."
+  , issueState = "closed"
+  , issueId = Id 44853823
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

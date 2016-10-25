@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-14) 21 : 54 : 43 UTC
+  , issueUpdatedAt = 2015 (-07) (-14) 21 : 54 : 46 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/816/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/816"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 816
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Build the docs as a standalone site"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/816"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/816.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/816.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/816"
+  , issueCreatedAt = 2015 (-07) (-14) 21 : 35 : 27 UTC
+  , issueBody = Just "@chipotle, could you review?"
+  , issueState = "closed"
+  , issueId = Id 95047489
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

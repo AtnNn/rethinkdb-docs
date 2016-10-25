@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-07) 16 : 55 : 43 UTC
+  , issueUpdatedAt = 2015 (-03) (-07) 16 : 55 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/668/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/668"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 668
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 88676
+        , simpleUserLogin = N "aderyabin"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/88676?v=3"
+        , simpleUserUrl = "https://api.github.com/users/aderyabin"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Missed cursor.next section for ruby"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/668"
+  , issueCreatedAt = 2015 (-03) (-07) 14 : 19 : 04 UTC
+  , issueBody =
+      Just
+        "The section exists for JS - http://rethinkdb.com/api/javascript/#next, for Python http://rethinkdb.com/api/python/#next but not for ruby"
+  , issueState = "closed"
+  , issueId = Id 60207978
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-23) 22 : 36 : 19 UTC
+  , issueUpdatedAt = 2014 (-08) (-12) 22 : 12 : 25 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/429/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/429"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 429
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "s/:index => :name/:index => true/"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/429"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/429.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/429.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/429"
+  , issueCreatedAt = 2014 (-07) (-23) 21 : 47 : 37 UTC
+  , issueBody = Just "One last fix hopefully!"
+  , issueState = "closed"
+  , issueId = Id 38575877
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,65 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-05) 23 : 17 : 43 UTC
+  , issueUpdatedAt = 2016 (-04) (-05) 23 : 17 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1075/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1075"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1075
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Last-minute change to the `users` table: Password hashing iterations"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1075"
+  , issueCreatedAt = 2016 (-04) (-05) 22 : 51 : 34 UTC
+  , issueBody =
+      Just
+        "We found that opening connections with the new user authentication has significant overhead in at least some of the drivers.\r\n\r\nHence there will be an additional option when writing to the `users` table.\r\nDocuments will still look the same in the table, i.e. `{id: \"username\", password: bool}`. You can still set the password by setting the `password` field to a string.\r\nHowever additionally, you can set the `password` field to an object of the form `{password: \"...\", iterations: 4096}`. E.g. `r.db('rethinkdb').table('users').get('username').update({password: {password: \"my secret\", iterations: 10000}})`.\r\n\r\n`iterations` determines how often the password is hashed during the connection handshake.\r\n`iterations` can be increased when setting the password to raise the security of the password by making it harder to brute-force, at the cost of higher CPU costs on the clients when establishing a connection. Alternatively `iterations` can be decreased to make connection setup more efficient, but at the cost of providing less protection against brute-force attacks.\r\nIf the string version is used, the iteration setting implicitly defaults to 4096.\r\n\r\nNote that it's not possible to read which `iterations` value was used from the `users` table. It can only be specified when setting a new password."
+  , issueState = "closed"
+  , issueId = Id 146130532
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 1
+          , milestoneNumber = 10
+          , milestoneClosedIssues = 29
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.3"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/10"
+          , milestoneCreatedAt = 2015 (-12) (-10) 02 : 58 : 17 UTC
+          , milestoneState = "open"
+          }
+  }

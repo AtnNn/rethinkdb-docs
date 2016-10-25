@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-28) 19 : 03 : 19 UTC
+  , issueUpdatedAt = 2016 (-04) (-28) 19 : 03 : 20 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1104/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1104"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1104
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 159819
+        , simpleUserLogin = N "cefn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/159819?v=3"
+        , simpleUserUrl = "https://api.github.com/users/cefn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Alternative to run(conn)"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1104"
+  , issueCreatedAt = 2016 (-04) (-28) 12 : 08 : 45 UTC
+  , issueBody =
+      Just
+        "Forgetting run(conn) at the end of a query chain before passing back a promise is my most common error so far. Isn't it possible to use a function callback structure a bit like a promise to ensure queries are run correctly?\r\n\r\nA function which returns anything which doesn't evaluate to a query can be routed to validation code and throw an immediate error, rather than waiting for the error to hit application code in the form of an unterminated query.\r\n\r\nBetter still, all queries are actually evaluated by calling ```run(conn)``` since this is an automatic by-product of returning from the function.\r\n\r\nPseudo-code might look like...\r\n\r\n```javascript\r\nconn = r.connect({\r\n    db: 'marvel'\r\n})\r\n\r\nvar tableResultPromise = conn.promiseResult(function(db){\r\n  return db.table('marvel')\r\n});\r\n\r\nvar cursorResultPromise = conn.promiseResult(function(db){\r\n  return db.table('dc').getAll('superman', 'ant man')\r\n});\r\n\r\n//this use of toArray is a promise-oriented extension to the API\r\nvar itemsResultPromise = conn.promiseResult(function(db){\r\n  return db.table('dc').getAll('superman', 'ant man').toArray()\r\n});\r\n\r\nitemsRecordsPromise.then(function(result){\r\n    console.log(JSON.stringify(result, null, '\\t'))\r\n})\r\n```"
+  , issueState = "closed"
+  , issueId = Id 151625402
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

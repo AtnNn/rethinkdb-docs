@@ -1,0 +1,64 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-24) 06 : 34 : 08 UTC
+  , issueUpdatedAt = 2013 (-11) (-25) 17 : 51 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/104/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/104"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 104
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Some changes needed to generate py_docs.json"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/104"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/104.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/104.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/104"
+  , issueCreatedAt = 2013 (-11) (-24) 06 : 08 : 46 UTC
+  , issueBody =
+      Just
+        "* Unicode support\r\n* Two missing `io` metadata fields\r\n* Fixed a typo Exmaple -> Example\r\n* Fixed syntax highlighting errors: ```` ```js ```` instead of ```` ```py ```` or ```` ```rb ````"
+  , issueState = "closed"
+  , issueId = Id 23200733
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1461947
+                , simpleUserLogin = N "neumino"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1461947?v=3"
+                , simpleUserUrl = "https://api.github.com/users/neumino"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 1
+          , milestoneClosedIssues = 9
+          , milestoneDescription =
+              Just "Things to add before releasing v1.11.0"
+          , milestoneTitle = "v1.11.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/1"
+          , milestoneCreatedAt = 2013 (-10) (-27) 00 : 18 : 14 UTC
+          , milestoneState = "closed"
+          }
+  }

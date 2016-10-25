@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-21) 00 : 05 : 57 UTC
+  , issueUpdatedAt = 2015 (-04) (-21) 00 : 05 : 57 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/720/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/720"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 720
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Config file documentation needs to be listed in \"Deploying\""
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/720"
+  , issueCreatedAt = 2015 (-04) (-20) 01 : 07 : 30 UTC
+  , issueBody =
+      Just
+        "The http://rethinkdb.com/docs/config-file/ page isn't in the documentation sidebar.\r\n\r\nThis should also be referred to from the \"RethinkDB command line options\" page (http://rethinkdb.com/docs/cli-options/), rather than the now defunct \"Create a cluster on system startup\" page."
+  , issueState = "closed"
+  , issueId = Id 69483640
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

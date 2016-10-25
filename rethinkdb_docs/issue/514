@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-17) 22 : 30 : 18 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 30 : 53 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/514/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/514"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 514
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Use proper language for syntax highlighting in api/"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/514"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/514.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/514.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/514"
+  , issueCreatedAt = 2014 (-09) (-17) 22 : 29 : 14 UTC
+  , issueBody = Just "@neumino can you please review and merge?"
+  , issueState = "closed"
+  , issueId = Id 43069844
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

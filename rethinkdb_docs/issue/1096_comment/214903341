@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-26) 22 : 10 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/214903341"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1096#issuecomment-214903341"
+  , issueCommentCreatedAt = 2016 (-04) (-26) 22 : 10 : 41 UTC
+  , issueCommentBody =
+      "Ok I can see what you mean. Printing out a ReQL query indeed looks like an object of functions:\r\n```js\r\n> r.table('t')\r\n{ [Function] args: [ { [Function] data: 't' } ], optargs: {} }\r\n```\r\n\r\nOnly applying `.toString()` results in the nice formatting (`r.table(\"t\")`).\r\n\r\nIn any case that part is not really a docs issue, and I'm not sure how much we can do to make the query objects print more nicely.\r\n\r\nI wonder though if there's a way we could make it more obvious that `run` has to be called on every query to actually execute it and get its result. I know that we explain this in a bunch of places, but I can see that if you start by reading the API docs for example, you might miss the importance of `run`.\r\n\r\n@cefn can you give us some more details about how you went about learning ReQL initially so we can better understand which part to improve?"
+  , issueCommentId = 214903341
+  }

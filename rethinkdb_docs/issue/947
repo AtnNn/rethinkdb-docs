@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-14) 23 : 17 : 11 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 23 : 17 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/947/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/947"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 947
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update changefeed article"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/947"
+  , issueCreatedAt = 2015 (-11) (-12) 19 : 02 : 44 UTC
+  , issueBody =
+      Just
+        "It's a little out of date with RethinkDB 2.2's changes, and both it and `changes()` could stand to be reviewed a little for language and clarity.\r\n"
+  , issueState = "closed"
+  , issueId = Id 116617770
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 03 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/540/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/540"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 540
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add a sitemap for docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/540"
+  , issueCreatedAt = 2014 (-10) (-07) 05 : 24 : 21 UTC
+  , issueBody =
+      Just
+        "Adding a global sitemap, or index for all the docs (excluding the API docs), so that you can see them in one glance. It should include a subtitle (we can add a YAML header) to describe what the documentation article explains."
+  , issueState = "open"
+  , issueId = Id 45068848
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

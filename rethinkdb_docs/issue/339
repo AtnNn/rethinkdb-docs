@@ -1,0 +1,70 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 21 : 16 : 06 UTC
+  , issueUpdatedAt = 2014 (-06) (-11) 21 : 16 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/339/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/339"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/next"
+          , labelName = "next"
+          }
+      ]
+  , issueNumber = 339
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 1461947
+          , simpleUserLogin = N "neumino"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/1461947?v=3"
+          , simpleUserUrl = "https://api.github.com/users/neumino"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Remove references to `hasNext` from the docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/339"
+  , issueCreatedAt = 2014 (-06) (-06) 23 : 35 : 12 UTC
+  , issueBody =
+      Just "See https://github.com/rethinkdb/rethinkdb/issues/2497."
+  , issueState = "closed"
+  , issueId = Id 35191805
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1777134
+                , simpleUserLogin = N "mlucy"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1777134?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mlucy"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 3
+          , milestoneClosedIssues = 23
+          , milestoneDescription = Just ""
+          , milestoneTitle = "v1.13.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/3"
+          , milestoneCreatedAt = 2014 (-04) (-25) 00 : 13 : 09 UTC
+          , milestoneState = "closed"
+          }
+  }

@@ -1,0 +1,45 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-16) 23 : 38 : 24 UTC
+  , issueUpdatedAt = 2015 (-09) (-16) 23 : 38 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/25/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/25"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 25
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Recipe / API: pluck / map after a join"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/25"
+  , issueCreatedAt = 2013 (-10) (-25) 00 : 28 : 01 UTC
+  , issueBody =
+      Just
+        "- API docs for `eq_join`, `inner_join`, and `outer_join` doesn't describe how to use `zip` to combine the output\r\n- In the [joins documentation](http://rethinkdb.com/docs/table-joins/), we should explain how to use `pluck` and `map`"
+  , issueState = "closed"
+  , issueId = Id 21562020
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

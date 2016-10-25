@@ -1,0 +1,71 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-05) 22 : 15 : 52 UTC
+  , issueUpdatedAt = 2016 (-04) (-05) 22 : 15 : 53 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1061/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1061"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 1061
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 952451
+        , simpleUserLogin = N "nighelles"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/952451?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nighelles"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Conflict Resolution with functions in insert."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1061"
+  , issueCreatedAt = 2016 (-03) (-22) 20 : 28 : 52 UTC
+  , issueBody =
+      Just
+        "https://github.com/rethinkdb/rethinkdb/issues/3753\r\n\r\nYou can now pass a function to the conflict optarg for insert.\r\n```\r\ninsert(blah, {conflict: function(old_val, new_val) { return val_to_use; }});\r\n```"
+  , issueState = "closed"
+  , issueId = Id 142769826
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 1
+          , milestoneNumber = 10
+          , milestoneClosedIssues = 29
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.3"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/10"
+          , milestoneCreatedAt = 2015 (-12) (-10) 02 : 58 : 17 UTC
+          , milestoneState = "open"
+          }
+  }

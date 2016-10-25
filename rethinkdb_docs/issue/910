@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-08) 20 : 26 : 18 UTC
+  , issueUpdatedAt = 2015 (-10) (-08) 20 : 26 : 18 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/910/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/910"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 910
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Missing the ruby replace doc"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/910"
+  , issueCreatedAt = 2015 (-10) (-08) 17 : 32 : 19 UTC
+  , issueBody =
+      Just
+        "I got 404 when access Ruby `replace` doc:\r\n\r\n![screen shot 2015-10-08 at 10 30 39 am](https://cloud.githubusercontent.com/assets/49754/10374365/ae81679e-6da7-11e5-9af2-9e2dbb87ac9c.png)\r\n\r\nIt works for JavaScript and Python however. Not sure if it's only me. I tried to `curl` it from an AWS host an got 404 too:\r\n\r\n```\r\ncurl -v http://www.rethinkdb.com/api/ruby/replace/ > /dev/null\r\n* Hostname was NOT found in DNS cache\r\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\r\n                                 Dload  Upload   Total   Spent    Left  Speed\r\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 72.14.189.19...\r\n* Connected to www.rethinkdb.com (72.14.189.19) port 80 (#0)\r\n> GET /api/ruby/replace/ HTTP/1.1\r\n> User-Agent: curl/7.35.0\r\n> Host: www.rethinkdb.com\r\n> Accept: */*\r\n>\r\n< HTTP/1.1 404 Not Found\r\n* Server nginx/1.2.7 is not blacklisted\r\n< Server: nginx/1.2.7\r\n< Date: Thu, 08 Oct 2015 17:31:47 GMT\r\n< Content-Type: text/html\r\n< Content-Length: 7701\r\n< Connection: keep-alive\r\n<\r\n{ [data not shown]\r\n100  7701  100  7701    0     0   101k      0 --:--:-- --:--:-- --:--:--  101k\r\n* Connection #0 to host www.rethinkdb.com left intact\r\n```"
+  , issueState = "closed"
+  , issueId = Id 110503971
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

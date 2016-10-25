@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-14) 02 : 08 : 55 UTC
+  , issueUpdatedAt = 2015 (-04) (-14) 02 : 08 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/707/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/707"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 707
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Streamline SQL-to-ReQL cheat sheets"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/707"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/707.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/707.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/707"
+  , issueCreatedAt = 2015 (-04) (-10) 21 : 31 : 51 UTC
+  , issueBody =
+      Just
+        "These changes remove the links to API documentation, making the preformatted blocks a lot simpler, and remove some redundancies in the examples.\r\n\r\nPinging @mglukhovsky for review."
+  , issueState = "closed"
+  , issueId = Id 67687972
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

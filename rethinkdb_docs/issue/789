@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-09) 21 : 38 : 17 UTC
+  , issueUpdatedAt = 2015 (-06) (-09) 21 : 38 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/789/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/789"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 789
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Changing URL to match that of URL provided in the list of example projects. "
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/789"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/789.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/789.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/789"
+  , issueCreatedAt = 2015 (-06) (-09) 21 : 17 : 48 UTC
+  , issueBody =
+      Just
+        "Changing URL to match that of URL provided in the list of example projects :snake: Python projects. Also, the old URL was pointing to a page that wasn't using the new CSS properly [viewable here and is live](http://rethinkdb.com/docs/examples/flask-backbone-todo/)."
+  , issueState = "closed"
+  , issueId = Id 86738012
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

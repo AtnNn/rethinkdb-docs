@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-03) 19 : 35 : 53 UTC
+  , issueUpdatedAt = 2014 (-07) (-12) 17 : 20 : 32 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/258/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/258"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 258
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add missing word -- See #257"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/258"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/258.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/258.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/258"
+  , issueCreatedAt = 2014 (-04) (-03) 19 : 28 : 29 UTC
+  , issueBody =
+      Just
+        "Ping @mglukhovsky -- Could you take a quick look?\r\nAnd release it at the same time with the blog post about Redis?"
+  , issueState = "closed"
+  , issueId = Id 30805734
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

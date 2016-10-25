@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-13) 22 : 27 : 22 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 09 : 04 : 25 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/218/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/218"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 218
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "JS/Python docs for `group`"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/218"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/218.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/218.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/218"
+  , issueCreatedAt = 2014 (-03) (-13) 01 : 23 : 48 UTC
+  , issueBody =
+      Just
+        "I translated the docs for JavaScript and Python.\r\n\r\nThe code for the examples were in a \"command-line\" like style. \r\nWe can't have the same thing in JavaScript and because it's easier to compare docs if they have the same format, I changed the ruby docs to not use a \"command line\" style for code.\r\n\r\n\r\nI have a few more things I think we should change but I tried to keep the changes to a minimum here.\r\nI would like to merge this thing first so:\r\n- I can take care of https://github.com/rethinkdb/rethinkdb/issues/2076\r\n- Iterate from there -- I'll open an issue for the things I think we should improve before releasing if possible\r\n\r\nPing @coffeemug -- could you take a quick look at this?"
+  , issueState = "closed"
+  , issueId = Id 29319040
+  , issueComments = 15
+  , issueMilestone = Nothing
+  }

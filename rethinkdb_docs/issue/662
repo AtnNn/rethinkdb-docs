@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2015 (-02) (-26) 02 : 44 : 25 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/662/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/662"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 662
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update Amazon Marketplace instructions"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/662"
+  , issueCreatedAt = 2015 (-02) (-25) 23 : 40 : 52 UTC
+  , issueBody =
+      Just
+        "A new AMI will soon be available on the AWS Marketplace. The wizard has changed, see https://github.com/rethinkdb/rethinkdb/issues/3631\r\n\r\nIn http://rethinkdb.com/docs/paas/ a new step should be added before step 6 \"Choose an AMI password\", asking the reader to copy the id of their instance into the corresponding field."
+  , issueState = "open"
+  , issueId = Id 58989110
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

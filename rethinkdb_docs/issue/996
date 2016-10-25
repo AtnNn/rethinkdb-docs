@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-11) 07 : 51 : 43 UTC
+  , issueUpdatedAt = 2016 (-01) (-11) 07 : 51 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/996/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/996"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "cccccc"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/duplicate"
+          , labelName = "duplicate"
+          }
+      ]
+  , issueNumber = 996
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 501843
+        , simpleUserLogin = N "jimoe"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/501843?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jimoe"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add list of strings typeOf() returns"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/996"
+  , issueCreatedAt = 2016 (-01) (-11) 07 : 11 : 35 UTC
+  , issueBody =
+      Just
+        "On 'https://rethinkdb.com/api/javascript/type_of/' I suggest you add a list of the exact string typeOf(() returns for each type.  Or a link to a  page where you can find that information."
+  , issueState = "closed"
+  , issueId = Id 125886147
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

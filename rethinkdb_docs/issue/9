@@ -1,0 +1,47 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-12) 19 : 07 : 37 UTC
+  , issueUpdatedAt = 2014 (-08) (-12) 19 : 07 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/9/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/9"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 9
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add a page describing the limitations of RethinkDB"
+  , issuePullRequest = Nothing
+  , issueUrl = "https://api.github.com/repos/rethinkdb/docs/issues/9"
+  , issueCreatedAt = 2013 (-10) (-02) 07 : 24 : 32 UTC
+  , issueBody =
+      Just
+        "This was suggested by a user on HN a few releases back. Examples of limitations that would be useful to describe are:\r\n\r\n- maximum document size\r\n- maximum number of tables / databases\r\n- maximum number of shards\r\n- minimum disk space required\r\n\r\n... to name a few."
+  , issueState = "closed"
+  , issueId = Id 20377963
+  , issueComments = 19
+  , issueMilestone = Nothing
+  }

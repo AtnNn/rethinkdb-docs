@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-28) 00 : 53 : 03 UTC
+  , issueUpdatedAt = 2014 (-03) (-28) 00 : 53 : 03 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/179/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/179"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 179
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Improve docs for match"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/179"
+  , issueCreatedAt = 2014 (-01) (-17) 00 : 53 : 59 UTC
+  , issueBody =
+      Just
+        "- The output is `null/object` not `array`\r\n- Add an example with a flag\r\n- Mention that re2 doesn't support back references\r\n- Add common cases (number, end with X, contains X, email, phone number)\r\n- Describe the output and show some examples"
+  , issueState = "closed"
+  , issueId = Id 25779618
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

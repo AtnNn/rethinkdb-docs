@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-03) 08 : 13 : 18 UTC
+  , issueUpdatedAt = 2014 (-08) (-05) 12 : 13 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/208/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/208"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 208
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467683
+        , simpleUserLogin = N "Joe8Bit"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467683?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Joe8Bit"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add missing linebreak to 'data modeling in rethinkdb'"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/208"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/208.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/208.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/208"
+  , issueCreatedAt = 2014 (-03) (-01) 21 : 38 : 00 UTC
+  , issueBody =
+      Just "Perusing the docs and came across this small layout issue"
+  , issueState = "closed"
+  , issueId = Id 28566413
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

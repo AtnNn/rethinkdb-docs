@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-15) 23 : 11 : 29 UTC
+  , issueUpdatedAt = 2015 (-09) (-15) 23 : 11 : 29 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/897/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/897"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 897
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document that connections aren't thread safe in Python"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/897"
+  , issueCreatedAt = 2015 (-09) (-15) 17 : 55 : 29 UTC
+  , issueBody =
+      Just
+        "From https://github.com/rethinkdb/rethinkdb/issues/2427#issuecomment-140426405:\r\n\r\n> As far as I can tell it is not well documented that thread safety isn't guaranteed, here are the docs I've learned most of the driver stuff from and it never mentions this:\r\n>\r\nhttps://rethinkdb.com/docs/guide/python/\r\nhttps://rethinkdb.com/docs/cookbook/python/\r\n>\r\nEven here it doesn't mention it under connect: https://rethinkdb.com/api/python/ but does mention it under repl."
+  , issueState = "closed"
+  , issueId = Id 106610263
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

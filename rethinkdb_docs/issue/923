@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-16) 23 : 20 : 29 UTC
+  , issueUpdatedAt = 2015 (-11) (-16) 23 : 20 : 29 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/923/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/923"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 923
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "API docs for `r.union` should include changefeeds"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/923"
+  , issueCreatedAt = 2015 (-10) (-15) 23 : 38 : 27 UTC
+  , issueBody =
+      Just
+        "The `r.union` command supports joining multiple feeds, but the API docs for `union` don't cover that at all. They should cover this and include examples.\r\n\r\n/cc @chipotle "
+  , issueState = "closed"
+  , issueId = Id 111728929
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

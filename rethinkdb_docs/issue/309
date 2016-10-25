@@ -1,0 +1,71 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-13) 19 : 45 : 40 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 20 : 55 : 52 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/309/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/309"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/next"
+          , labelName = "next"
+          }
+      ]
+  , issueNumber = 309
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 706854
+          , simpleUserLogin = N "AtnNn"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/706854?v=3"
+          , simpleUserUrl = "https://api.github.com/users/AtnNn"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Drop optimized backend instructions"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/309"
+  , issueCreatedAt = 2014 (-05) (-22) 20 : 40 : 16 UTC
+  , issueBody =
+      Just
+        "Since we're shipping https://github.com/rethinkdb/rethinkdb/issues/1868 in 1.13, we need to drop http://rethinkdb.com/docs/driver-performance/ from the website (and update any other relevant instructions) because protobuf stuff no longer applies."
+  , issueState = "closed"
+  , issueId = Id 34119666
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1777134
+                , simpleUserLogin = N "mlucy"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1777134?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mlucy"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 3
+          , milestoneClosedIssues = 23
+          , milestoneDescription = Just ""
+          , milestoneTitle = "v1.13.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/3"
+          , milestoneCreatedAt = 2014 (-04) (-25) 00 : 13 : 09 UTC
+          , milestoneState = "closed"
+          }
+  }

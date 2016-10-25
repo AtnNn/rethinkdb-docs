@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-03) 17 : 37 : 55 UTC
+  , issueUpdatedAt = 2014 (-09) (-03) 17 : 37 : 55 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/485/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/485"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 485
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Invalid lambda in Python introduction"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/485"
+  , issueCreatedAt = 2014 (-08) (-27) 02 : 27 : 19 UTC
+  , issueBody =
+      Just
+        "From @naftaliharris:\r\n\"\"\"\r\nFrom http://rethinkdb.com/docs/introduction-to-reql/:\r\n\r\n```\r\n# WRONG: Get all users older than 30 using the `if` statement\r\nr.table('users').filter(lambda user:\r\n    print \"Testing\"      # WRONG: this will only execute once on the client\r\n    if user['age'] > 30:\r\n        True,\r\n        False).run(conn)\r\n```\r\n\r\nThis isn\8217t valid python because you can\8217t have statements in python lambdas.\r\n\"\"\""
+  , issueState = "closed"
+  , issueId = Id 41243257
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

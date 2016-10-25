@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-04) 16 : 40 : 12 UTC
+  , issueUpdatedAt = 2014 (-12) (-04) 16 : 40 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/599/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/599"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 599
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5043
+        , simpleUserLogin = N "thelinuxlich"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5043?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thelinuxlich"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Efficient pagination"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/599"
+  , issueCreatedAt = 2014 (-12) (-04) 16 : 36 : 54 UTC
+  , issueBody =
+      Just "That would be a very nice tip on the Cookbook section"
+  , issueState = "closed"
+  , issueId = Id 50997240
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-26) 00 : 39 : 12 UTC
+  , issueUpdatedAt = 2016 (-04) (-26) 00 : 39 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1095/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1095"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1095
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10737628
+        , simpleUserLogin = N "rchordiya"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10737628?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rchordiya"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Fixed the typo error of coerce_to to coerceTo in javascript docs issue#1092"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1095"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1095.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1095.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1095"
+  , issueCreatedAt = 2016 (-04) (-24) 07 : 16 : 31 UTC
+  , issueBody = Just "Fixed issue#1092 in docs"
+  , issueState = "closed"
+  , issueId = Id 150636276
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

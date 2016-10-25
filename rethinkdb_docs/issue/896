@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-16) 18 : 57 : 52 UTC
+  , issueUpdatedAt = 2015 (-09) (-16) 18 : 57 : 52 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/896/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/896"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 896
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Missing braces on SQL to ReQL cheat sheet"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/896"
+  , issueCreatedAt = 2015 (-09) (-14) 20 : 05 : 20 UTC
+  , issueBody =
+      Just
+        "Noted by a user via email on these two documents:\r\n\r\n  - https://www.rethinkdb.com/docs/sql-to-reql/python/\r\n  - https://www.rethinkdb.com/docs/sql-to-reql/javascript/\r\n\r\nThis line is missing a matching brace:\r\n\r\n![screen shot 2015-09-14 at 12 59 22 pm](https://cloud.githubusercontent.com/assets/91193/9860464/2ad5477c-5ae1-11e5-9a1b-7b2a5e536e6f.png)\r\n"
+  , issueState = "closed"
+  , issueId = Id 106417289
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

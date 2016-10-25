@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-25) 18 : 20 : 40 UTC
+  , issueUpdatedAt = 2014 (-08) (-25) 18 : 20 : 40 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/476/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/476"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 476
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 218725
+        , simpleUserLogin = N "dminkovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/218725?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dminkovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Missing `feed` usage in `cursor.each` {%  apibody %}"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/476"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/476.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/476.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/476"
+  , issueCreatedAt = 2014 (-08) (-24) 05 : 07 : 20 UTC
+  , issueBody =
+      Just
+        "Hey, don't see which branch to send PRs to, so sending to master."
+  , issueState = "closed"
+  , issueId = Id 40996434
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

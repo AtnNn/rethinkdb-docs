@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-22) 23 : 02 : 56 UTC
+  , issueUpdatedAt = 2014 (-09) (-22) 23 : 02 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/412/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/412"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 412
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "FAQ update"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/412"
+  , issueCreatedAt = 2014 (-07) (-10) 20 : 48 : 34 UTC
+  , issueBody =
+      Just
+        "While I'd like to a kind of \"editing pass\" on most of the bigger doc pages -- just tightening up language and being generally nitpicking -- for the FAQ, I'm wondering whether there are any questions that get frequently asked by users that you (the general \"you') know of and haven't been added here."
+  , issueState = "closed"
+  , issueId = Id 37603484
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

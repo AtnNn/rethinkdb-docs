@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-04) 19 : 11 : 04 UTC
+  , issueUpdatedAt = 2014 (-11) (-04) 19 : 11 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/385/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/385"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 385
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 706854
+          , simpleUserLogin = N "AtnNn"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/706854?v=3"
+          , simpleUserUrl = "https://api.github.com/users/AtnNn"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44855
+        , simpleUserLogin = N "chrisvariety"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44855?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chrisvariety"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Typo in AWS Marketplace description"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/385"
+  , issueCreatedAt = 2014 (-06) (-24) 05 : 05 : 55 UTC
+  , issueBody =
+      Just
+        "Super minor, but in the Highlights section, \"Automatically paralellized queries\" should be \"Automatically parallelized queries\"\r\n\r\nhttps://aws.amazon.com/marketplace/pp/B00E9EZ5DK"
+  , issueState = "closed"
+  , issueId = Id 36353985
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-26) 04 : 22 : 05 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 01 : 41 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/240/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/240"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 240
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix syntax for match + udpate examples"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/240"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/240.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/240.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/240"
+  , issueCreatedAt = 2014 (-03) (-26) 00 : 02 : 15 UTC
+  , issueBody =
+      Just
+        "@mlucy -- could you take a look when you will have the chance?"
+  , issueState = "closed"
+  , issueId = Id 30175410
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

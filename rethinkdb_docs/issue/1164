@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-25) 00 : 07 : 10 UTC
+  , issueUpdatedAt = 2016 (-08) (-25) 00 : 07 : 10 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1164/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1164"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1164
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Explain meaning of `author_full_name` field in Secondary index documentation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1164"
+  , issueCreatedAt = 2016 (-07) (-27) 18 : 14 : 12 UTC
+  , issueBody =
+      Just
+        "In the `eqJoin` example of the compound index section of http://www.rethinkdb.com/docs/secondary-indexes/javascript/#compound-indexes we use a field called \"author_full_name\" in the \"posts\" table.\r\n\r\nFor someone who isn't familiar with how `eqJoin` works, it might not be clear that \"author_full_name\" is just the name of a field. A user on Slack assumed that it was the name of a second compound index for example, and was wondering what that index was containing.\r\n\r\nWe should explain above the example that the documents in the `posts` table have a field called `author_full_name` and that we assume that it contains the names of the posts' authors in the form `[last_name, first_name]`."
+  , issueState = "closed"
+  , issueId = Id 167920123
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,65 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-04) (-19) 18 : 36 : 27 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1078/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1078"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1078
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 167416
+        , simpleUserLogin = N "VeXocide"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/167416?v=3"
+        , simpleUserUrl = "https://api.github.com/users/VeXocide"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "New `\"user\"` field in `\"info\"` section of query jobs in `rethinkdb.jobs`"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1078"
+  , issueCreatedAt = 2016 (-04) (-08) 23 : 57 : 02 UTC
+  , issueBody =
+      Just
+        "The `rethinkdb.jobs` table now contains the username of the user running the query in a `\"user\"` field in the `\"info\"` section of the query job."
+  , issueState = "open"
+  , issueId = Id 147066627
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 2
+          , milestoneNumber = 11
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.4"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/11"
+          , milestoneCreatedAt = 2016 (-04) (-19) 18 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

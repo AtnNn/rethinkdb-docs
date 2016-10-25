@@ -1,0 +1,64 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-14) 01 : 06 : 17 UTC
+  , issueUpdatedAt = 2015 (-04) (-14) 01 : 06 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/683/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/683"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 683
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document Python Tornado driver"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/683"
+  , issueCreatedAt = 2015 (-03) (-19) 21 : 37 : 47 UTC
+  , issueBody =
+      Just
+        "We need a page documenting how to use the Python driver with Tornado.\r\n\r\n@gchpaco mentioned that he will write down basic usage (https://github.com/rethinkdb/rethinkdb/issues/2622#issuecomment-82096637). Then @chipotle can make it a proper documentation page."
+  , issueState = "closed"
+  , issueId = Id 63096201
+  , issueComments = 14
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 48436
+                , simpleUserLogin = N "coffeemug"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/48436?v=3"
+                , simpleUserUrl = "https://api.github.com/users/coffeemug"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 7
+          , milestoneClosedIssues = 12
+          , milestoneDescription = Just ""
+          , milestoneTitle = "2.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/7"
+          , milestoneCreatedAt = 2014 (-12) (-05) 21 : 34 : 57 UTC
+          , milestoneState = "closed"
+          }
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-18) 00 : 32 : 15 UTC
+  , issueUpdatedAt = 2014 (-07) (-18) 00 : 32 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/400/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/400"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 400
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Efficient get/contains"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/400"
+  , issueCreatedAt = 2014 (-07) (-05) 19 : 48 : 15 UTC
+  , issueBody =
+      Just
+        "The example in the gist uses the primary key, so it's not the best example, but the idea is to retrieve a document that has a certain value (1) and whose field (\"equipment\") contains a certain value (\"boots\")\r\n\r\nhttps://gist.github.com/neumino/7d369404a9178f7fed15"
+  , issueState = "closed"
+  , issueId = Id 37205129
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

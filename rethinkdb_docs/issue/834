@@ -1,0 +1,72 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-27) 23 : 06 : 42 UTC
+  , issueUpdatedAt = 2015 (-07) (-27) 23 : 06 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/834/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/834"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 834
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Architecture FAQ on atomicity has misleading sentence"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/834"
+  , issueCreatedAt = 2015 (-07) (-26) 18 : 30 : 01 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/docs/architecture/#query-execution says:\r\n>  If the user runs a query that cannot be executed atomically, by default RethinkDB will throw an error. \r\n\r\nThis is wrong and has lead to misunderstandings like in this answer http://stackoverflow.com/a/31634756/2413884\r\n\r\nThe problem is that this sentence talks about `a query`. However this *only* applies to *functions* passed into `update` and `replace`. It doesn't apply to functions passed into other operations, it doesn't apply to non-update / non-replace queries, and it doesn't apply to non-functions passed into `update` or `replace` (though expressions that involve `r.row` are ok as well, since they are internally turned into functions).\r\n\r\nWe should definitely fix this for 2.1, and probably backport it to the 2.0 docs as well."
+  , issueState = "closed"
+  , issueId = Id 97339794
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 167416
+                , simpleUserLogin = N "VeXocide"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/167416?v=3"
+                , simpleUserUrl = "https://api.github.com/users/VeXocide"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 8
+          , milestoneClosedIssues = 24
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.1"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/8"
+          , milestoneCreatedAt = 2015 (-03) (-30) 22 : 32 : 47 UTC
+          , milestoneState = "closed"
+          }
+  }

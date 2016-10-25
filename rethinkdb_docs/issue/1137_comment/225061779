@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-10) 00 : 04 : 38 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/225061779"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1137#issuecomment-225061779"
+  , issueCommentCreatedAt = 2016 (-06) (-10) 00 : 04 : 38 UTC
+  , issueCommentBody =
+      "> One question, what are the scenarios where this can't happen? \r\n\r\nWhenever `includeInitial` is set."
+  , issueCommentId = 225061779
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-04) 18 : 00 : 13 UTC
+  , issueUpdatedAt = 2016 (-01) (-04) 18 : 00 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/992/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/992"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 992
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 692077
+        , simpleUserLogin = N "NicoSantangelo"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/692077?v=3"
+        , simpleUserUrl = "https://api.github.com/users/NicoSantangelo"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Keep Python API throughout the data modeling docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/992"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/992.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/992.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/992"
+  , issueCreatedAt = 2016 (-01) (-04) 04 : 56 : 01 UTC
+  , issueBody =
+      Just
+        "Little change to keep the Python API consistent on the doc. It just changes `getAll` to `get_all`\r\n\r\nThanks! (I've signed the [cla](http://rethinkdb.com/community/cla/) just in case)"
+  , issueState = "closed"
+  , issueId = Id 124696700
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

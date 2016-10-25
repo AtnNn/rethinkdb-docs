@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-05) 01 : 00 : 13 UTC
+  , issueUpdatedAt = 2015 (-03) (-05) 01 : 00 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/594/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/594"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 594
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Tutorial : More information why not use repl()"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/594"
+  , issueCreatedAt = 2014 (-12) (-01) 19 : 26 : 07 UTC
+  , issueBody =
+      Just
+        "Moved to here from https://github.com/rethinkdb/rethinkdb/issues/3378\r\n\r\n@nitipit wrote:\r\n\r\n-----\r\nIn http://www.rethinkdb.com/docs/guide/python/\r\nI think it should add information about using `repl() `\r\n> The reason for not using `repl()` is that if you call `connect()` from multiple threads, you can end up with thread2 changing the global connection, and switch it for other threads. It's a really pernicious source of bugs, so we decided to take default global connections out. It also makes dealing with multiple connections significantly more error-prone, as it's easy to lose track of which connection is global.\r\n\r\nfrom this comment\r\nhttps://github.com/rethinkdb/rethinkdb/issues/846#issuecomment-18142168"
+  , issueState = "closed"
+  , issueId = Id 50563557
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

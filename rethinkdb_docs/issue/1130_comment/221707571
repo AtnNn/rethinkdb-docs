@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-05) (-25) 21 : 06 : 24 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/221707571"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1130#issuecomment-221707571"
+  , issueCommentCreatedAt = 2016 (-05) (-25) 21 : 06 : 24 UTC
+  , issueCommentBody =
+      "Actually we have been using the term \"pathspec\" a bit liberally here. We have \"pathspecs\" such as `{foo: true}`, `{foo: {nested: true}}` or `{foo: \"nested\"}` for `pluck`, `with_fields` and `has_fields`.\r\n\r\nAnd then there is the object-style predicate for `filter`, which works a bit differently and actually compares the values of the fields in the predicate.\r\n\r\nThe former one already has a bunch of good examples and good explanations in the nested-fields doc. The latter one is the one not explained there, which we should probably add."
+  , issueCommentId = 221707571
+  }

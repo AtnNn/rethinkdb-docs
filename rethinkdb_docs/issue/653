@@ -1,0 +1,70 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-04) 19 : 22 : 34 UTC
+  , issueUpdatedAt = 2015 (-03) (-04) 21 : 35 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/653/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/653"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 653
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document that we support `.union.changes` and `.get_all.changes` in 2.0"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/653"
+  , issueCreatedAt = 2015 (-02) (-17) 22 : 40 : 28 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 57994040
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 48436
+                , simpleUserLogin = N "coffeemug"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/48436?v=3"
+                , simpleUserUrl = "https://api.github.com/users/coffeemug"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 7
+          , milestoneClosedIssues = 12
+          , milestoneDescription = Just ""
+          , milestoneTitle = "2.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/7"
+          , milestoneCreatedAt = 2014 (-12) (-05) 21 : 34 : 57 UTC
+          , milestoneState = "closed"
+          }
+  }

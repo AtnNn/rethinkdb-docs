@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-02) 18 : 33 : 55 UTC
+  , issueUpdatedAt = 2014 (-12) (-02) 18 : 33 : 55 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/593/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/593"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 593
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add alternative Clojure driver by apa512 to driver list"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/593"
+  , issueCreatedAt = 2014 (-12) (-01) 18 : 17 : 31 UTC
+  , issueBody =
+      Just
+        "Erik Str\246mberg (@apa512) wrote another Clojure driver: https://github.com/apa512/clj-rethinkdb . Among other things, it uses the newer JSON wire protocol.\r\n\r\nWe should add it to our driver list on http://rethinkdb.com/docs/install-drivers/"
+  , issueState = "closed"
+  , issueId = Id 50556084
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

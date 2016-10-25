@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-03) 23 : 51 : 04 UTC
+  , issueUpdatedAt = 2016 (-09) (-03) 23 : 51 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1175/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1175"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1175
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2327556
+        , simpleUserLogin = N "chrisvfritz"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2327556?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chrisvfritz"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix typo and grammar in GMR example explanation"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1175"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1175.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1175.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1175"
+  , issueCreatedAt = 2016 (-09) (-03) 21 : 51 : 54 UTC
+  , issueBody =
+      Just
+        "- [x] I have read and agreed to the RethinkDB Contributor License Agreement"
+  , issueState = "closed"
+  , issueId = Id 174919612
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

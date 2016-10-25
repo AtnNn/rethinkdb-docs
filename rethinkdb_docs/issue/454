@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-13) 19 : 11 : 23 UTC
+  , issueUpdatedAt = 2014 (-08) (-13) 19 : 11 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/454/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/454"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 454
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Missing \"Command syntax\" header on eqJoin docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/454"
+  , issueCreatedAt = 2014 (-08) (-12) 21 : 05 : 04 UTC
+  , issueBody =
+      Just
+        "The \"Command syntax\" header is missing on (only the title is missing, not the actual syntax):\r\n\r\n- http://rethinkdb.com/api/ruby/eq_join/\r\n- http://rethinkdb.com/api/pythonz/eq_join/\r\n\r\nThey may be missing on other extended documentation pages as well -- doing a quick `grep` on the remaining docs to find those missing that title would be wise.\r\n\r\nAssigning to @watts."
+  , issueState = "closed"
+  , issueId = Id 40099082
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 02 : 16 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/674/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/674"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 674
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Consider more extensive docs page on iptables"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/674"
+  , issueCreatedAt = 2015 (-03) (-11) 21 : 07 : 49 UTC
+  , issueBody =
+      Just
+        "Got this comment in a recent HN thread:\r\n\r\n> +1 to using RethinkDB! I'm also using RethinkDB in production, and I love it! The only issue is that you have to set up persistent filters via iptables in addition to having an authKey. They do have a guide[0] for that, however they do not provide any instructions for ensuring that the filters on iptables stay up, or how to restore them if they are temporarily wiped out :/\r\n>\r\n>[0] http://rethinkdb.com/docs/security/"
+  , issueState = "open"
+  , issueId = Id 60729788
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-07) 22 : 34 : 15 UTC
+  , issueUpdatedAt = 2014 (-07) (-07) 22 : 34 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/399/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/399"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 399
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Joins article should mention how to use sub queries"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/399"
+  , issueCreatedAt = 2014 (-07) (-04) 15 : 16 : 53 UTC
+  , issueBody =
+      Just
+        "Users most of the time want an object `post` like\r\n```\r\n{\r\n  id: ..\r\n  title: ...\r\n  comments: [ <comment>, <comment>, ....]\r\n}\r\n```\r\n\r\nWith\r\n```\r\nr.table(\"posts\").merge(function(post) {\r\n   return { comments: r.table(\"comments\").getAll(post(\"id\")).coerceTo(\"array\") }\r\n})\r\n```\r\nWe should mention how to do it with subqueries. The issue with subqueries is the array limit though."
+  , issueState = "closed"
+  , issueId = Id 37174845
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

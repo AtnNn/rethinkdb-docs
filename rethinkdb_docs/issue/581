@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-25) 19 : 05 : 47 UTC
+  , issueUpdatedAt = 2014 (-11) (-25) 19 : 05 : 47 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/581/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/581"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 581
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Limitations page should mention per-table memory overhead"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/581"
+  , issueCreatedAt = 2014 (-11) (-17) 23 : 04 : 16 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/limitations/ should mention that each RethinkDB table has an overhead of 8MB of RAM for each server it's hosted on. See https://github.com/rethinkdb/rethinkdb/issues/1644."
+  , issueState = "closed"
+  , issueId = Id 49157965
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-07) 17 : 07 : 04 UTC
+  , issueUpdatedAt = 2014 (-07) (-07) 21 : 02 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/402/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/402"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 402
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Update comparison limitation section to account for new cache quota rules"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/402"
+  , issueCreatedAt = 2014 (-07) (-07) 17 : 06 : 35 UTC
+  , issueBody =
+      Just
+        "@robert-zaremba pointed out that some of the limitations at the bottom of http://rethinkdb.com/blog/mongodb-biased-comparison/ are no longer true (https://github.com/rethinkdb/rethinkdb/issues/97#issuecomment-48183479). @chipotle -- could you audit this with relevant people and update as necessary?"
+  , issueState = "closed"
+  , issueId = Id 37289073
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

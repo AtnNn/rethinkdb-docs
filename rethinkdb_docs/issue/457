@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-18) 18 : 18 : 49 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 41 : 57 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/457/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/457"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 457
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "New vrsns of SQL-to-ReQL and intro to ReQL images"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/457"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/457.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/457.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/457"
+  , issueCreatedAt = 2014 (-08) (-12) 22 : 21 : 12 UTC
+  , issueBody = Just "\\cc @ahruygt"
+  , issueState = "closed"
+  , issueId = Id 40105489
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

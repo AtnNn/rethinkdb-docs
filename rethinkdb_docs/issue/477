@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-25) 23 : 12 : 30 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 41 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/477/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/477"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 477
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Added publish-subscribe article"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/477"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/477.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/477.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/477"
+  , issueCreatedAt = 2014 (-08) (-25) 19 : 11 : 00 UTC
+  , issueBody = Just "Approved in CR 1891"
+  , issueState = "closed"
+  , issueId = Id 41094639
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

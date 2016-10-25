@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-26) 22 : 07 : 53 UTC
+  , issueUpdatedAt = 2016 (-04) (-26) 22 : 07 : 53 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1094/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1094"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 1094
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "`fold` documentation doesn't precisely state the signatures of the reduction, emit and emitFinal functions"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1094"
+  , issueCreatedAt = 2016 (-04) (-22) 18 : 47 : 57 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/api/javascript/fold/ does not actually specify which arguments the reduction, `emit` and `emitFinal` functions receive.\r\n\r\nThis is pretty important for using the `fold` command.\r\n\r\nYou can kind of extract this information from the examples, but none of the examples uses `emitFinal`. There also generally should be a formal specification.\r\n\r\nThe signatures are:\r\n* reduction function: `function(old_acc, el) -> new_acc`\r\n  * `old_acc` is the current accumulator value\r\n  * `el` is the element from the input sequence that's currently processed\r\n  * `new_acc` is the new value for the accumulator, that's going to be passed into the next invocation of the reduction function\r\n* `emit` function: `function(old_acc, el, new_acc) -> array`\r\n  * `old_acc` is the accumulator value before the reduction function has been applied\r\n  * `el` is the currently processed element from the input sequence\r\n  * `new_acc` is the accumulator value after the reduction function has been applied\r\n  * `array` is an array of datums that should be emitted on the output stream\r\n* `finalEmit` function: `function(acc) -> array`\r\n  * `acc` is the accumulator value returned by the final invocation of the reduction function (or `base` if the input sequence was empty)\r\n  * `array` is an array of datums that should be emitted on the output stream"
+  , issueState = "closed"
+  , issueId = Id 150444691
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

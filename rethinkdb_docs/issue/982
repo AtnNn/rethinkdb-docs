@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-16) 00 : 40 : 17 UTC
+  , issueUpdatedAt = 2016 (-01) (-11) 18 : 03 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/982/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/982"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 982
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Use Go gopher icon"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/982"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/982.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/982.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/982"
+  , issueCreatedAt = 2015 (-12) (-15) 00 : 16 : 18 UTC
+  , issueBody =
+      Just
+        "@dalanmiller - I figured I'd tag you for the review of this. This changes the Go icon on the Install Client Drivers page to be the quasi-official Go gopher per #981.\r\n\r\nThis is taken from Go's front page, colored the way I sometimes see the gopher colored. I don't _love_ it but it seems okay. I think making a better icon at a smaller size will require redrawing it from scratch.\r\n\r\nYes, the PNG file is optimized. :)"
+  , issueState = "closed"
+  , issueId = Id 122162697
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-29) 20 : 13 : 33 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 07 : 25 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/59/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/59"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 59
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1633730
+        , simpleUserLogin = N "tyleregeto"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1633730?v=3"
+        , simpleUserUrl = "https://api.github.com/users/tyleregeto"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update index.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/59"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/59.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/59.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/59"
+  , issueCreatedAt = 2013 (-10) (-29) 20 : 06 : 56 UTC
+  , issueBody =
+      Just
+        "Fixed a broken link in the filter command example. The read more link was pointing to the documentation for the between command rather than filter."
+  , issueState = "closed"
+  , issueId = Id 21784045
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

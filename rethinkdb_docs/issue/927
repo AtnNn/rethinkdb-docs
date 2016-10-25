@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-23) 22 : 06 : 59 UTC
+  , issueUpdatedAt = 2015 (-10) (-23) 22 : 06 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/927/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/927"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "e6e6e6"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/invalid"
+          , labelName = "invalid"
+          }
+      ]
+  , issueNumber = 927
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Some geospatial commands are missing .run(conn)"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/927"
+  , issueCreatedAt = 2015 (-10) (-22) 18 : 10 : 37 UTC
+  , issueBody =
+      Just
+        "Many of the commands give examples such as this one for `polygon_sub` in Python:\r\n\r\n```py\r\nouter_polygon = r.polygon(\r\n    [-122.4,37.7],\r\n    [-122.4,37.3],\r\n    [-121.8,37.3],\r\n    [-121.8,37.7]\r\n)\r\ninner_polygon = r.polygon(\r\n    [-122.3,37.4],\r\n    [-122.3,37.6],\r\n    [-122.0,37.6],\r\n    [-122.0,37.4]\r\n)\r\nouter_polygon.polygon_sub(inner_polygon).run(conn)\r\n```\r\n\r\nDefining the two polygons separately is clearer, but this won't actually work. Either the first two calls to `polygon` need to have `.run(conn)` added to  them, or the examples need to be rewritten so they're all one query. I'm not sure that `var outerPolygon = r.polygon(...)` can even be made to work in JavaScript without a bit of a hula dance, either, since the results are actually being returned to callbacks rather than variables."
+  , issueState = "closed"
+  , issueId = Id 112859076
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-06) 01 : 05 : 31 UTC
+  , issueUpdatedAt = 2015 (-08) (-06) 01 : 05 : 31 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/848/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/848"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 848
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 297060
+        , simpleUserLogin = N "nviennot"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/297060?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nviennot"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "rails: oops"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/848"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/848.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/848.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/848"
+  , issueCreatedAt = 2015 (-08) (-05) 05 : 02 : 59 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 99119901
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

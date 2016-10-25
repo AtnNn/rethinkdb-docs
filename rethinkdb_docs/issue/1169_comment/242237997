@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-24) 23 : 19 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/242237997"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1169#issuecomment-242237997"
+  , issueCommentCreatedAt = 2016 (-08) (-24) 23 : 19 : 31 UTC
+  , issueCommentBody =
+      "> Currently some commands have the full set of options in the syntax (e.g. `insert`), and others don't (e.g. `connect` or `run`). I assume this is depending on how many options there are for the particular command.\r\n\r\nYep. There's no hard and fast rule for this, but once a command gets more than three or four options I tend to take them out of the API header. There's only about a half-dozen commands that this is the case for. The API header for `run` if we documented everything would look something like this:\r\n\r\n```\r\nquery.run(conn[, read_mode=\"single\", time_format=\"native\", profile=False,\r\ndurability=\"soft\", group_format=\"native\", noreply=False, db=\"test\",\r\narray_limit=100000, binary_format=\"native\", min_batch_rows=8,\r\nmax_batch_rows=<unlimited>, max_batch_seconds=0.5,\r\nfirst_batch_scaledown_factor=4]) \8594 cursor\r\nquery.run(conn[, read_mode=\"single\", time_format=\"native\", profile=False,\r\ndurability=\"soft\", group_format=\"native\", noreply=False, db=\"test\",\r\narray_limit=100000, binary_format=\"native\", min_batch_rows=8,\r\nmax_batch_rows=<unlimited>, max_batch_seconds=0.5,\r\nfirst_batch_scaledown_factor=4]) \8594 object\r\n```\r\n\r\n...and while this is admittedly the worst case to pick, I'm not convinced this would aid clarity. I could be convinced otherwise, but we have a couple commands that get into the 6+ option range\8212and sometimes have more than one form, like `run` here, and thus have to be repeated for each form.\r\n"
+  , issueCommentId = 242237997
+  }

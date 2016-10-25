@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-17) 06 : 35 : 54 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 06 : 50 : 44 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/353/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/353"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 353
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17879
+        , simpleUserLogin = N "ravi"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17879?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ravi"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update connect.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/353"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/353.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/353.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/353"
+  , issueCreatedAt = 2014 (-06) (-13) 16 : 04 : 29 UTC
+  , issueBody =
+      Just "Added a line describing connect option `timeout`."
+  , issueState = "closed"
+  , issueId = Id 35684511
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

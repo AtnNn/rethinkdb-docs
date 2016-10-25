@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-23) 14 : 19 : 35 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 30 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/380/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/380"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 380
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Quiet wget in the ubuntu installation instructions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/380"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/380.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/380.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/380"
+  , issueCreatedAt = 2014 (-06) (-20) 21 : 26 : 55 UTC
+  , issueBody =
+      Just
+        "The non-important output of `wget` hides the important output of `sudo` and `apt-key`\r\n\r\n@neumino Could you please review, merge and push this?"
+  , issueState = "closed"
+  , issueId = Id 36204092
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

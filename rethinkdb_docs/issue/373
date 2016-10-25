@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-24) 17 : 40 : 24 UTC
+  , issueUpdatedAt = 2014 (-06) (-24) 17 : 40 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/373/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/373"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 373
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 19658
+        , simpleUserLogin = N "seratch"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/19658?v=3"
+        , simpleUserUrl = "https://api.github.com/users/seratch"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Invalid links on the FAQ page"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/373"
+  , issueCreatedAt = 2014 (-06) (-18) 05 : 42 : 06 UTC
+  , issueBody =
+      Just
+        "https://github.com/rethinkdb/docs/blob/master/0-about-rethinkdb/faq.md\r\n\r\n- RethinkDB compared to MongoDB \r\n- RethinkDB vs today's NoSQL \r\n\r\nSince I couldn't find the \"RethinkDB vs today's NoSQL\" page, I couldn't make a pull request."
+  , issueState = "closed"
+  , issueId = Id 35956188
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

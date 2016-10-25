@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 02 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/685/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/685"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 685
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Consider whether to remove empty parens in Ruby snippets"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/685"
+  , issueCreatedAt = 2015 (-03) (-19) 22 : 31 : 15 UTC
+  , issueBody =
+      Just
+        "Currently we use empty parens in Ruby snippets in the docs, a'la:\r\n\r\n```ruby\r\nr.table('foo').max()\r\n```\r\n\r\nIt seems to be common style in Ruby to elide empty parens like:\r\n\r\n```ruby\r\nr.table('foo').max\r\n```\r\n\r\nping @mlucy @mglukhovsky @gchpaco. If eliding the empty parens is pretty universal in Ruby code, I think we should do it. But if it's a \"some people do, some people don't\" then it's not worth bothering since most Ruby devs will be used to seeing empty parens regularly and it won't look off to them.\r\n\r\nNote I'm just talking about eliding empty parens, not all parens in Ruby snippets."
+  , issueState = "open"
+  , issueId = Id 63106821
+  , issueComments = 3
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

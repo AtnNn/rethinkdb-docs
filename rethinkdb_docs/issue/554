@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-16) 21 : 06 : 43 UTC
+  , issueUpdatedAt = 2014 (-10) (-16) 21 : 06 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/554/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/554"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 554
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Update RethinkDB/Mongo tech comparison page to include Compose.io"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/554"
+  , issueCreatedAt = 2014 (-10) (-15) 22 : 25 : 16 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/docs/comparison-tables/\r\n\r\nthe row for \"cloud deployment\"\r\n\r\n@danielmewes there might be other outdated things on this page as well."
+  , issueState = "closed"
+  , issueId = Id 45927571
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

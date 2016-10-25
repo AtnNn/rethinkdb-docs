@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-04) 01 : 42 : 42 UTC
+  , issueUpdatedAt = 2014 (-02) (-04) 01 : 42 : 49 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/166/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/166"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 166
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 91193
+          , simpleUserLogin = N "mglukhovsky"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/91193?v=3"
+          , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add @jurajmasar's C++ driver to the list of community drivers"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/166"
+  , issueCreatedAt = 2013 (-12) (-30) 19 : 42 : 20 UTC
+  , issueBody =
+      Just
+        "We need to add @jurajmasar's C++ driver to the list of community drivers (https://github.com/jurajmasar/rethink-db-cpp-driver)."
+  , issueState = "closed"
+  , issueId = Id 24897416
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

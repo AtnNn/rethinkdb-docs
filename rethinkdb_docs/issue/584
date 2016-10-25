@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-19) 19 : 58 : 18 UTC
+  , issueUpdatedAt = 2014 (-11) (-19) 19 : 58 : 18 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/584/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/584"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 584
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 7431361
+          , simpleUserLogin = N "larkost"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/7431361?v=3"
+          , simpleUserUrl = "https://api.github.com/users/larkost"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2413238
+        , simpleUserLogin = N "x10ba"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2413238?v=3"
+        , simpleUserUrl = "https://api.github.com/users/x10ba"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "CoerceTo Fails:  "
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/584"
+  , issueCreatedAt = 2014 (-11) (-19) 19 : 08 : 35 UTC
+  , issueBody =
+      Just
+        "Seems other coerceTo issues have been closed or trolled.\r\n\r\nLanguage: NodeJS\r\nDriver: rethinkDB\r\nSummary: \r\nI ran a group.sum on a db of 400K records and I got the following error (RqlRuntimeError: Expected type Number but found String in: r.db.table.group.sum)\r\n\r\nI then used r.db.table.update({r.row}).coerceTo(\"Number\") and was given the following:\r\n'Could not coerce ' 1,847 ' to Number. \r\nSeems 1,847 is a number except for the quotations and white spaces-- darn those white spaces--, but rethinkDB says, no.\r\n\r\npotential solutions to problem?"
+  , issueState = "closed"
+  , issueId = Id 49439316
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

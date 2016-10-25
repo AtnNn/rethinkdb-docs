@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-18) 21 : 27 : 01 UTC
+  , issueUpdatedAt = 2014 (-08) (-18) 21 : 27 : 01 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/466/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/466"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 466
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 85881
+        , simpleUserLogin = N "epc"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/85881?v=3"
+        , simpleUserUrl = "https://api.github.com/users/epc"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Consistency edit: c/upcase/uppercase/;c/downcase/lowercase/"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/466"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/466.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/466.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/466"
+  , issueCreatedAt = 2014 (-08) (-17) 04 : 21 : 00 UTC
+  , issueBody = Just "CLA signed previously."
+  , issueState = "closed"
+  , issueId = Id 40426561
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

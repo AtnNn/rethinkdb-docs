@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-18) 18 : 25 : 53 UTC
+  , issueUpdatedAt = 2016 (-07) (-18) 18 : 25 : 53 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1157/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1157"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 1157
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Missing colon in Tornado example"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1157"
+  , issueCreatedAt = 2016 (-07) (-14) 01 : 39 : 15 UTC
+  , issueBody =
+      Just
+        "Reported by @arnau in https://github.com/rethinkdb/rethinkdb/issues/5939 : \r\n\r\n--\r\n\r\nHi, this is a small Python syntax issue in https://rethinkdb.com/blog/async-drivers/\r\n\r\nIn the example\r\n\r\n```python\r\nimport rethinkdb as r\r\nfrom tornado import ioloop, gen\r\n\r\nr.set_loop_type(\"tornado\")\r\n\r\n@gen.coroutine\r\ndef print_changes():\r\n    conn = yield r.connect(host=\"localhost\", port=28015)\r\n    feed = yield r.table(\"table\").changes().run(conn)\r\n    while (yield feed.fetch_next())\r\n        change = yield feed.next()\r\n        print(change)\r\n\r\nioloop.IOLoop.current().add_callback(print_changes)\r\n```\r\n\r\nI would have expected line 10 (`while (yield feed.fetch_next())`) to end with a colon (`:`)."
+  , issueState = "closed"
+  , issueId = Id 165457966
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 42 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1097/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1097"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1097
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 159819
+        , simpleUserLogin = N "cefn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/159819?v=3"
+        , simpleUserUrl = "https://api.github.com/users/cefn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clarify Append Dissociated from DB"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1097"
+  , issueCreatedAt = 2016 (-04) (-25) 15 : 37 : 08 UTC
+  , issueBody =
+      Just
+        "If I understand correctly, and from my testing, then...\r\nhttps://www.rethinkdb.com/api/javascript/append/ \r\n...does nothing to manipulate the database at all.\r\n\r\nThis behaviour should be made explicit, as it is only implicitly demonstrated e.g. in the https://www.rethinkdb.com/api/javascript/update/ example, where the result of append has to be reassigned to the member field, but the dissociation between e.g. r.table(\"users\")(\"arrayChild\") and the backing database when using Array manipulation is not really stated in the documentation.\r\n\r\nDoes r.table(\"users\")(\"arrayChild\") sometimes map to the backing data structure, (e.g. it can sometimes be used to make changes in the database) and sometimes not? Alternatively is it always 'read only' until it is used as part of a merge specification to update(). \r\n\r\nGood to get this stated, and if there's a central place where it's stated there could be links from the pages of the relevant operations (e.g. append, insertAt etc)"
+  , issueState = "open"
+  , issueId = Id 150902103
+  , issueComments = 4
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-27) 00 : 04 : 02 UTC
+  , issueUpdatedAt = 2014 (-06) (-27) 00 : 06 : 28 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/157/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/157"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 157
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Better docs for nested field syntax"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/157"
+  , issueCreatedAt = 2013 (-12) (-20) 19 : 37 : 50 UTC
+  , issueBody =
+      Just
+        "We don't have very good docs for how to access nested fields in various commands. For example, API docs for `orderBy` say you could use a function, but don't give an example for nested fields, forcing the user to draw that conclusion themselves.\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 24643454
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

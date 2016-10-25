@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 42 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1048/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1048"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1048
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Clarify soft durability explanation in troubleshooting"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1048"
+  , issueCreatedAt = 2016 (-03) (-14) 20 : 13 : 27 UTC
+  , issueBody =
+      Just
+        "http://www.rethinkdb.com/docs/troubleshooting/ currently says:\r\n> In soft durability mode RethinkDB will acknowledge the write immediately after receiving it, but before the write has been committed to disk.\r\n\r\nThe meaning of this is a bit unclear in a clustered environment (compare https://github.com/rethinkdb/rethinkdb/issues/5510 ). Each individual replica will acknowledge the write to the server executing the query immediately and before writing it to disk, but the query itself will still only get acknowledged to the client once it has reached a majority of servers."
+  , issueState = "open"
+  , issueId = Id 140784961
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

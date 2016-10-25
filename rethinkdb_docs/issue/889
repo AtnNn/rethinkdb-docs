@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 56 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/889/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/889"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 889
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Some of our pages could be made more clear by showing the data model the operation is working on and the result of the query"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/889"
+  , issueCreatedAt = 2015 (-09) (-08) 23 : 56 : 45 UTC
+  , issueBody =
+      Just
+        "For instance `.changeAt()` - http://rethinkdb.com/api/javascript/change_at/\r\n\r\nI think it should something like this down below the ReQL query just to be completely explicit and clear. A lot of other pages could benefit from this. \r\n\r\n```\r\n[\"Iron Man\", \"Hulk\", \"Spider-Man\"] \r\n```\r\n\r\nList forthcoming, but wanted to put this down. "
+  , issueState = "open"
+  , issueId = Id 105491130
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

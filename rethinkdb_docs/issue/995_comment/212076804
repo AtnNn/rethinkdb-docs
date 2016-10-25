@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-19) 19 : 22 : 13 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/212076804"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/995#issuecomment-212076804"
+  , issueCommentCreatedAt = 2016 (-04) (-19) 19 : 22 : 13 UTC
+  , issueCommentBody =
+      "@shimmallonga Not yet. We'll probably be looking into it again soon."
+  , issueCommentId = 212076804
+  }

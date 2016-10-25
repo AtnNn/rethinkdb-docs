@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-29) 23 : 38 : 41 UTC
+  , issueUpdatedAt = 2014 (-11) (-20) 19 : 40 : 28 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/568/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/568"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 568
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Using secondary indexes in RethinkDB - geo indexes"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/568"
+  , issueCreatedAt = 2014 (-10) (-28) 01 : 01 : 22 UTC
+  , issueBody =
+      Just
+        "Under Limitations http://rethinkdb.com/docs/secondary-indexes/python/ says\r\n\r\n> RethinkDB does not provide a geospatial index yet.\r\n  See Github issue #1158 to track progress.\r\n\r\nThis is no longer up to date."
+  , issueState = "closed"
+  , issueId = Id 46978613
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

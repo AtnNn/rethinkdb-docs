@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 20 : 42 : 02 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 42 : 02 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1045/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1045"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1045
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add \"awesome list\" to a list of community resources"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1045"
+  , issueCreatedAt = 2016 (-03) (-08) 05 : 04 : 05 UTC
+  , issueBody =
+      Just
+        "I'm not sure if we have an issue for maintaining a list of community resources -- but at this point, we have a lot of contributions, and it'd be useful to list the best ones.\r\n\r\nOne in particular would be @analytik's \"awesome-rethinkdb\" list that he's started here: https://github.com/analytik/awesome-rethinkdb"
+  , issueState = "closed"
+  , issueId = Id 139182731
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

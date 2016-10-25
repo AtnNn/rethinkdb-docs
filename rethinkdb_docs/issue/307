@@ -1,0 +1,46 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-16) 23 : 35 : 11 UTC
+  , issueUpdatedAt = 2014 (-06) (-16) 23 : 35 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/307/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/307"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 307
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Syntax for filter"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/307"
+  , issueCreatedAt = 2014 (-05) (-22) 17 : 33 : 15 UTC
+  , issueBody =
+      Just
+        "The first line should be:\r\n```\r\nselection.filter(predicate[, {default: false}]) \8594 selection\r\n```\r\n\r\nInstead of\r\n```\r\nsequence.filter(predicate[, {default: false}]) \8594 selection\r\n```"
+  , issueState = "closed"
+  , issueId = Id 34104005
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

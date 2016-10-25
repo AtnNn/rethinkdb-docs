@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-01) 22 : 04 : 24 UTC
+  , issueUpdatedAt = 2014 (-12) (-01) 22 : 04 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/591/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/591"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 591
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 27421
+        , simpleUserLogin = N "mkleehammer"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/27421?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mkleehammer"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "FAQ has old upsert code"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/591"
+  , issueCreatedAt = 2014 (-11) (-29) 10 : 26 : 47 UTC
+  , issueBody =
+      Just
+        "The FAQ has `insert(doc, { upsert: true })` instead of `insert(doc, { conflict: 'update' })`"
+  , issueState = "closed"
+  , issueId = Id 50421888
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

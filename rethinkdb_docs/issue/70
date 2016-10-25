@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-28) 09 : 47 : 35 UTC
+  , issueUpdatedAt = 2014 (-01) (-28) 09 : 47 : 35 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/70/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/70"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 70
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Troubleshooting -- Add entry for npm errors"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/70"
+  , issueCreatedAt = 2013 (-11) (-07) 20 : 33 : 52 UTC
+  , issueBody =
+      Just
+        "Like this one\r\n\r\n```\r\nnpm WARN package.json coffee-script@1.4.0 bugs['name'] should probably be bugs['url'].\r\nnpm http GET https://registry.npmjs.org/handlebars/1.0.12\r\nnpm http 200 https://registry.npmjs.org/handlebars/1.0.12\r\nnpm http GET https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz\r\nnpm http 200 https://registry.npmjs.org/handlebars/-/handlebars-1.0.12.tgz\r\nnpm ERR! addPlacedTarball Could not remove \"/home/michel/.npm/handlebars/1.0.12/package\"\r\nnpm ERR! Error: EACCES, unlink '/home/michel/.npm/handlebars/1.0.12/package'\r\nnpm ERR!  { [Error: EACCES, unlink '/home/michel/.npm/handlebars/1.0.12/package']\r\nnpm ERR!   errno: 3,\r\nnpm ERR!   code: 'EACCES',\r\nnpm ERR!   path: '/home/michel/.npm/handlebars/1.0.12/package' }\r\nnpm ERR! \r\nnpm ERR! Please try running this command again as root/Administrator.\r\n\r\nnpm ERR! System Linux 3.8.0-32-generic\r\nnpm ERR! command \"/usr/local/bin/node\" \"/usr/local/bin/npm\" \"install\" \"handlebars@1.0.12\"\r\nnpm ERR! cwd /home/michel/projects/rethinkdb-all/rethinkdb/support/toolchain\r\nnpm ERR! node -v v0.10.18\r\nnpm ERR! npm -v 1.3.8\r\nnpm ERR! path /home/michel/.npm/handlebars/1.0.12/package\r\nnpm ERR! code EACCES\r\nnpm ERR! errno 3\r\nnpm ERR! stack Error: EACCES, unlink '/home/michel/.npm/handlebars/1.0.12/package'\r\nnpm ERR! \r\nnpm ERR! Additional logging details can be found in:\r\nnpm ERR!     /home/michel/projects/rethinkdb-all/rethinkdb/support/toolchain/npm-debug.log\r\nnpm ERR! not ok code 0\r\nmake[1]: *** [support/toolchain/node_modules/handlebars] Error 1\r\nmake[1]: *** Waiting for unfinished jobs....\r\n```\r\n\r\n`~/,npm/handlebars` was owned by root (I don't know why)\r\nRemoving ~/,npm/handlebars worked.\r\n"
+  , issueState = "closed"
+  , issueId = Id 22293920
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

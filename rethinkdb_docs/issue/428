@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-12) 22 : 12 : 39 UTC
+  , issueUpdatedAt = 2014 (-08) (-12) 22 : 12 : 39 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/428/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/428"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 428
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "http command header fix"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/428"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/428.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/428.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/428"
+  , issueCreatedAt = 2014 (-07) (-23) 21 : 46 : 40 UTC
+  , issueBody = Just "per rethinkdb/rethinkdb#2695"
+  , issueState = "closed"
+  , issueId = Id 38575789
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

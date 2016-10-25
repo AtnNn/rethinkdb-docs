@@ -1,0 +1,64 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-23) 17 : 20 : 00 UTC
+  , issueUpdatedAt = 2015 (-09) (-23) 17 : 20 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/831/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/831"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 831
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 552910
+          , simpleUserLogin = N "Tryneus"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/552910?v=3"
+          , simpleUserUrl = "https://api.github.com/users/Tryneus"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document Python driver Twisted backend"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/831"
+  , issueCreatedAt = 2015 (-07) (-24) 23 : 36 : 11 UTC
+  , issueBody =
+      Just
+        "The RethinkDB 2.1 Python driver will come with support for Twisted in addition to Tornado.\r\nhttps://github.com/rethinkdb/rethinkdb/pull/4096\r\n\r\nHence http://rethinkdb.com/api/python/set_loop_type/ and http://rethinkdb.com/docs/async-connections/ need to be expanded.\r\n\r\nI don't actually know how the Twisted syntax works. @Tryneus would you mind writing up some code examples similar to the ones in http://rethinkdb.com/docs/async-connections/#python-and-tornado ?"
+  , issueState = "closed"
+  , issueId = Id 97169135
+  , issueComments = 5
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 167416
+                , simpleUserLogin = N "VeXocide"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/167416?v=3"
+                , simpleUserUrl = "https://api.github.com/users/VeXocide"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 8
+          , milestoneClosedIssues = 24
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.1"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/8"
+          , milestoneCreatedAt = 2015 (-03) (-30) 22 : 32 : 47 UTC
+          , milestoneState = "closed"
+          }
+  }

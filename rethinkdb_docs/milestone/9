@@ -1,0 +1,21 @@
+Milestone
+  { milestoneCreator =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , milestoneDueOn = Nothing
+  , milestoneOpenIssues = 0
+  , milestoneNumber = 9
+  , milestoneClosedIssues = 14
+  , milestoneDescription = Nothing
+  , milestoneTitle = "2.2"
+  , milestoneUrl =
+      "https://api.github.com/repos/rethinkdb/docs/milestones/9"
+  , milestoneCreatedAt = 2015 (-09) (-02) 19 : 06 : 11 UTC
+  , milestoneState = "open"
+  }

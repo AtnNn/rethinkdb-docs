@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-11) 22 : 54 : 43 UTC
+  , issueUpdatedAt = 2014 (-06) (-10) 19 : 51 : 54 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/136/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/136"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 136
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Michel grey doc fixes"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/136"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/136.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/136.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/136"
+  , issueCreatedAt = 2013 (-12) (-11) 22 : 43 : 46 UTC
+  , issueBody =
+      Just
+        "@atnnn, I updated the script to generate the python docs (the names for some comparison operators changed).\r\nI just tested it, it works fine. The docs for the data explorer still works fine too.\r\n\r\nI first changed the command fields in some commands to be an array, but I eventually decided to keep the complexity in the scripts and not in the docs.\r\nThe changes are in this commit: https://github.com/rethinkdb/docs/commit/4c6a74abde451a5b9151d17e0629250835082fe7\r\n\r\nLet me know if that works for you.\r\nIf yes, I'll merge this with @Tryneus changes in master."
+  , issueState = "closed"
+  , issueId = Id 24144143
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

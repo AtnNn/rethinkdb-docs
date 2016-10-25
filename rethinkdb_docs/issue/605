@@ -1,0 +1,71 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-29) 00 : 58 : 47 UTC
+  , issueUpdatedAt = 2015 (-01) (-29) 00 : 58 : 47 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/605/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/605"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 605
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add documentation for new changefeed features"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/605"
+  , issueCreatedAt = 2014 (-12) (-11) 00 : 36 : 16 UTC
+  , issueBody =
+      Just
+        "* `.between.changes`\r\n* `.orderby.limit.changes`\r\n* `.filter.changes`\r\n* `.map.changes`\r\n* `squash`"
+  , issueState = "closed"
+  , issueId = Id 51630972
+  , issueComments = 4
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 48436
+                , simpleUserLogin = N "coffeemug"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/48436?v=3"
+                , simpleUserUrl = "https://api.github.com/users/coffeemug"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 6
+          , milestoneClosedIssues = 16
+          , milestoneDescription = Just ""
+          , milestoneTitle = "1.16"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/6"
+          , milestoneCreatedAt = 2014 (-09) (-18) 21 : 53 : 16 UTC
+          , milestoneState = "closed"
+          }
+  }

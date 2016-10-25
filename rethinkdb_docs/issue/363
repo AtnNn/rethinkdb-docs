@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-17) 06 : 35 : 53 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 20 : 56 : 53 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/363/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/363"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 363
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "V1.13"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/363"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/363.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/363.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/363"
+  , issueCreatedAt = 2014 (-06) (-17) 06 : 34 : 27 UTC
+  , issueBody = Just "@coffeemug, please review."
+  , issueState = "closed"
+  , issueId = Id 35861689
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

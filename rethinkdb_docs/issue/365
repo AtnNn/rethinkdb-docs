@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-17) 16 : 16 : 45 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 29 : 36 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/365/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/365"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 365
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Instructions for the new ubuntu repository"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/365"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/365.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/365.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/365"
+  , issueCreatedAt = 2014 (-06) (-17) 14 : 37 : 13 UTC
+  , issueBody = Just "@coffeemug or @mglukhovsky, please review."
+  , issueState = "closed"
+  , issueId = Id 35895143
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

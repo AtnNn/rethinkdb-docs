@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-21) 22 : 51 : 10 UTC
+  , issueUpdatedAt = 2015 (-01) (-21) 23 : 36 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/305/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/305"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 305
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Issue 123"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/305"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/305.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/305.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/305"
+  , issueCreatedAt = 2014 (-05) (-21) 22 : 35 : 25 UTC
+  , issueBody = Just "Fixes #123 "
+  , issueState = "closed"
+  , issueId = Id 34032265
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

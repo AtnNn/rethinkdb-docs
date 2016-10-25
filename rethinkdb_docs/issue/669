@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-17) 17 : 56 : 43 UTC
+  , issueUpdatedAt = 2015 (-03) (-17) 17 : 56 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/669/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/669"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 669
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1039287
+        , simpleUserLogin = N "armenfilipetyan"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1039287?v=3"
+        , simpleUserUrl = "https://api.github.com/users/armenfilipetyan"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Added express-session-rethinkdb"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/669"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/669.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/669.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/669"
+  , issueCreatedAt = 2015 (-03) (-09) 19 : 11 : 15 UTC
+  , issueBody =
+      Just
+        "Proposing to add express-session-rethinkdb to the list of nodejs drivers and extensions list."
+  , issueState = "closed"
+  , issueId = Id 60394148
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

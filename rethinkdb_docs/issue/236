@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-24) 23 : 23 : 25 UTC
+  , issueUpdatedAt = 2014 (-03) (-24) 23 : 53 : 03 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/236/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/236"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 236
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add template for deprecated commands"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/236"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/236.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/236.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/236"
+  , issueCreatedAt = 2014 (-03) (-24) 23 : 04 : 12 UTC
+  , issueBody = Just "@mglukhovsky -- could you take a look at it?"
+  , issueState = "closed"
+  , issueId = Id 30083721
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

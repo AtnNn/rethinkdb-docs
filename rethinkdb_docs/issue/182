@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2014 (-05) (-29) 17 : 43 : 16 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/182/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/182"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 182
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add cookbook entry for appending to arrays in new docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/182"
+  , issueCreatedAt = 2014 (-01) (-20) 22 : 14 : 06 UTC
+  , issueBody =
+      Just
+        "One common use case is to append a set of values to an array for a specific document (or create that document if it doesn't exist). A question on this use case is described in more detail here -- https://github.com/rethinkdb/rethinkdb/issues/1877.\r\n\r\nWe should add a cookbook entry that describes a canonical way to do this in Rethink."
+  , issueState = "open"
+  , issueId = Id 25950440
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

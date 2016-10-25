@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-04) 18 : 39 : 14 UTC
+  , issueUpdatedAt = 2016 (-04) (-04) 18 : 39 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1069/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1069"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1069
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10471358
+        , simpleUserLogin = N "AmeyDeshpande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10471358?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AmeyDeshpande"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Issue with sidebar"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1069"
+  , issueCreatedAt = 2016 (-04) (-02) 22 : 36 : 28 UTC
+  , issueBody =
+      Just
+        "When we clink on 'System tables' on a side bar, all the menus in a side-bar collapse.\r\nissue https://rethinkdb.com/docs/backup/. In this link we can see side bar with all sub-menu in 'Administration'. When we click on 'System tables', all menus will collapse."
+  , issueState = "closed"
+  , issueId = Id 145425885
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

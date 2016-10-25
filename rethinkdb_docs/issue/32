@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-27) 01 : 12 : 09 UTC
+  , issueUpdatedAt = 2013 (-11) (-27) 01 : 12 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/32/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/32"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 32
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update links to the API"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/32"
+  , issueCreatedAt = 2013 (-10) (-25) 20 : 41 : 08 UTC
+  , issueBody =
+      Just
+        "We have some links that point to the old API (like `/api/#py:selecting_data-table`) that we need to update.\r\n\r\n\r\nWorking on it now."
+  , issueState = "closed"
+  , issueId = Id 21614962
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

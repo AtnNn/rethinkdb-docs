@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-28) 23 : 14 : 10 UTC
+  , issueUpdatedAt = 2014 (-01) (-28) 23 : 14 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/189/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/189"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 189
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add an example for 'filter' with 'or'"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/189"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/189.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/189.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/189"
+  , issueCreatedAt = 2014 (-01) (-28) 23 : 02 : 17 UTC
+  , issueBody = Just "Second part of #66 \r\n\r\nPing @mglukhovsky "
+  , issueState = "closed"
+  , issueId = Id 26484722
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-17) 18 : 51 : 43 UTC
+  , issueUpdatedAt = 2016 (-06) (-17) 18 : 51 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1080/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1080"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1080
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11692610
+        , simpleUserLogin = N "jouerose"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/11692610?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jouerose"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "RethinkDB.com - Typo in code on Javascript cookbook page ?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1080"
+  , issueCreatedAt = 2016 (-04) (-09) 06 : 40 : 37 UTC
+  , issueBody =
+      Just
+        "Hello,\r\n\r\non this page: https://rethinkdb.com/docs/cookbook/javascript/\r\nUnder this title: Filtering based on the presence of a value in an array\r\nWe have the following sentence: \"Suppose we have a table users with documents of the following form\"\r\nwhich has \"users\" in plural form yet in the four other occurrences of the table \"user\" it is in singular form.\r\nIs there a particular reason for this difference? thank you for your time."
+  , issueState = "closed"
+  , issueId = Id 147098822
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-23) 18 : 43 : 37 UTC
+  , issueUpdatedAt = 2013 (-12) (-23) 18 : 43 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/160/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/160"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 160
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 258437
+        , simpleUserLogin = N "srh"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/258437?v=3"
+        , simpleUserUrl = "https://api.github.com/users/srh"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "count() behavior not consistent with query result involving secondary index, OR secondary indexes broken somehow"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/160"
+  , issueCreatedAt = 2013 (-12) (-23) 17 : 39 : 44 UTC
+  , issueBody =
+      Just
+        "This behavior is reported:\r\n\r\n```\r\n<divad12>     query = r.table('table').order_by(r.desc('field1'), index=r.desc('field2'))\r\n<divad12>     print query.count().run(r_conn())  # 4644\r\n<divad12>     results = list(query.limit(5000).run(r_conn()))\r\n<divad12>     print len(results)  # 1011\r\n```\r\n\r\nWithout using the secondary index, we don't get weird behavior.\r\n\r\n```\r\n<divad12>     query = r.table('table').order_by(r.desc('field1'), r.desc('field2'))\r\n<divad12>     print query.count().run(r_conn())  # 4644\r\n<divad12>     results = list(query.limit(5000).run(r_conn()))\r\n<divad12>     print len(results)  # 4644\r\n```\r\n\r\nAnd apparently use of r.desc affects the numbers!\r\n\r\n```\r\n<divad12>     query = r.table('table').order_by('field1', index='field2')\r\n<divad12>     print query.count().run(r_conn())  # 4644\r\n<divad12>     results = list(query.limit(5000).run(r_conn()))\r\n<divad12>     print len(results)  # 4560\r\n```\r\n\r\nRemoving the use of .limit(5000) reportedly does not affect the outcome.\r\n\r\nObserved with `rethinkdb 1.11.2 (CLANG 4.2 (clang-425.0.28))` (OS X)."
+  , issueState = "closed"
+  , issueId = Id 24716273
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

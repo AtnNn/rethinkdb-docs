@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-28) 00 : 07 : 56 UTC
+  , issueUpdatedAt = 2014 (-03) (-28) 00 : 07 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/170/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/170"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 170
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clarify that `reduce` isn't `fold` in the API docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/170"
+  , issueCreatedAt = 2014 (-01) (-07) 11 : 19 : 48 UTC
+  , issueBody =
+      Just
+        "Someone just bumped into this on IRC with GMR.\r\n\r\nOnce https://github.com/rethinkdb/rethinkdb/issues/1096 and https://github.com/rethinkdb/rethinkdb/issues/888 are done, we should clarify how to use `reduce` properly in the API docs, what the arguments to the reduce lambda mean, and also link to http://rethinkdb.com/docs/map-reduce/."
+  , issueState = "closed"
+  , issueId = Id 25161837
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

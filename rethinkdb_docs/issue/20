@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-25) 22 : 06 : 43 UTC
+  , issueUpdatedAt = 2013 (-10) (-25) 22 : 06 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/20/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/20"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 20
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "The edit link on the api page is wrong"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/20"
+  , issueCreatedAt = 2013 (-10) (-24) 21 : 32 : 56 UTC
+  , issueBody =
+      Just
+        "At the bottom of http://rethinkdb.com/api/javascript/\r\n\r\n> Help us improve the docs [by editing](http://rethinkdb.com/api/javascript/) this document"
+  , issueState = "closed"
+  , issueId = Id 21553653
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,65 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-21) 18 : 33 : 57 UTC
+  , issueUpdatedAt = 2015 (-07) (-21) 18 : 33 : 57 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/827/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/827"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 827
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Have a bullet-point summary of requirements for auto failover"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/827"
+  , issueCreatedAt = 2015 (-07) (-20) 20 : 07 : 32 UTC
+  , issueBody =
+      Just
+        "Talked about this with @chipotle .\r\nFor http://docs.rethinkdb.com/2.1/docs/failover/ I think it would be nice to have a shorter summary of the prerequisites for auto failover, possibly in a bullet point list. Something like\r\n\r\n* 3 or more servers\r\n* table configured to 3 replicas\r\n* a majority (at least 2) of replicas must be up\r\n\r\nCurrently this information is in the article, but I think it could be summarized in a more concise way that doesn't require reading through the whole text."
+  , issueState = "closed"
+  , issueId = Id 96147832
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 167416
+                , simpleUserLogin = N "VeXocide"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/167416?v=3"
+                , simpleUserUrl = "https://api.github.com/users/VeXocide"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 8
+          , milestoneClosedIssues = 24
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.1"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/8"
+          , milestoneCreatedAt = 2015 (-03) (-30) 22 : 32 : 47 UTC
+          , milestoneState = "closed"
+          }
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-30) 21 : 19 : 46 UTC
+  , issueUpdatedAt = 2016 (-05) (-31) 06 : 21 : 40 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1133/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1133"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1133
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 539352
+        , simpleUserLogin = N "dszymczuk"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/539352?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dszymczuk"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Limit 0 should return all records"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1133"
+  , issueCreatedAt = 2016 (-05) (-30) 07 : 39 : 43 UTC
+  , issueBody =
+      Just
+        "Example (I use rethinkdbdash):\r\n\r\n`r.table(tableNotification).orderBy(r.desc('time')).limit(limit)`\r\nis better than:\r\n```\r\nif(limit > 0){\r\n\tr.table(tableNotification).orderBy(r.desc('time')).limit(limit).run()\r\n} else {\r\n\tr.table(tableNotification).orderBy(r.desc('time')).run()\r\n}\r\n```"
+  , issueState = "closed"
+  , issueId = Id 157448176
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

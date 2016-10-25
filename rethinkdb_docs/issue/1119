@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-20) 23 : 33 : 50 UTC
+  , issueUpdatedAt = 2016 (-05) (-20) 23 : 33 : 50 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1119/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1119"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1119
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add thinky-loader to \"frameworks and libraries\""
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1119"
+  , issueCreatedAt = 2016 (-05) (-09) 21 : 34 : 42 UTC
+  , issueBody =
+      Just
+        "Created by @mwielbut:\r\n\r\n> It replaces the existing 'sails-hook-thinly` that's currently there.\r\n\r\nhttps://github.com/mwielbut/thinky-loader"
+  , issueState = "closed"
+  , issueId = Id 153875426
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

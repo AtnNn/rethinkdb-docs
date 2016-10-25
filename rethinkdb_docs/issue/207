@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-03) 06 : 37 : 04 UTC
+  , issueUpdatedAt = 2014 (-03) (-03) 06 : 37 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/207/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/207"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 207
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Optional second argument for slice"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/207"
+  , issueCreatedAt = 2014 (-02) (-28) 20 : 36 : 38 UTC
+  , issueBody =
+      Just
+        "The documentation claims that the second argument is optional, but:\r\n\r\n```\r\n>>> r.expr([1,2,3]).slice(1)\r\nRqlDriverError: Expected 2 argument(s) but found 1.\r\n```"
+  , issueState = "closed"
+  , issueId = Id 28531233
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

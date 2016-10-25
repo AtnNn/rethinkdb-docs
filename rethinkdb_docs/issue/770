@@ -1,0 +1,65 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-06) 22 : 28 : 11 UTC
+  , issueUpdatedAt = 2015 (-07) (-06) 22 : 28 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/770/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/770"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 770
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Separate document about consistency and persistence guarantees"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/770"
+  , issueCreatedAt = 2015 (-05) (-19) 22 : 15 : 17 UTC
+  , issueBody =
+      Just
+        "For RethinkDB 2.1, we should write a separate document that explains all the consistency and persistence guarantees and the different settings and their effects.\r\n\r\nFor example: If I perform a write with settings X, is the write guaranteed to be persistent if...\r\na) one or multiple replicas are temporarily shut down (e.g. maintenance, connectivity issue)\r\nb) one or multiple replicas fail temporarily without an orderly shutdown (e.g. power failure, software crash)\r\nc) one or multiple replicas fail permanently (e.g. storage failure)\r\n\r\nRelevant settings are: soft durability vs. hard durability, majority vs. single acks\r\n\r\nWe should also specify how many replicas are allowed to fail in a given configuration.\r\n\r\nAlso: If I perform a read with settings X, am I guaranteed to see all previously acknowledged writes? Can I read a value that might get lost later in case a replica fails (e.g. a write that hasn't been acknowledged yet, or that hasn't been written to disk yet)?\r\n\r\nRelevant settings are: use_outdated, the upcoming \"consistent read\" parameter (https://github.com/rethinkdb/rethinkdb/issues/3895). It also matters which settings the relevant previous writes have been performed with."
+  , issueState = "closed"
+  , issueId = Id 78270817
+  , issueComments = 14
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 167416
+                , simpleUserLogin = N "VeXocide"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/167416?v=3"
+                , simpleUserUrl = "https://api.github.com/users/VeXocide"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 8
+          , milestoneClosedIssues = 24
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.1"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/8"
+          , milestoneCreatedAt = 2015 (-03) (-30) 22 : 32 : 47 UTC
+          , milestoneState = "closed"
+          }
+  }

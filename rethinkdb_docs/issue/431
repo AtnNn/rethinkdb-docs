@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-12) 20 : 45 : 53 UTC
+  , issueUpdatedAt = 2014 (-08) (-12) 22 : 10 : 34 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/431/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/431"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 431
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "New illustrations"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/431"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/431.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/431.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/431"
+  , issueCreatedAt = 2014 (-07) (-25) 00 : 41 : 28 UTC
+  , issueBody =
+      Just
+        "* change feeds\r\n   * http://192.168.0.159:8088/docs/changefeeds\r\n* dates and times\r\n    * http://192.168.0.159:8088/docs/dates-and-times\r\n* sql to reql cheatsheet\r\n    * http://192.168.0.159:8088/docs/sql-to-reql\r\n* securing your cluster\r\n    * http://192.168.0.159:8088/docs/security\r\n\r\nAlso added the table-joins image to the eq_join api page\r\n\r\n* http://192.168.0.159:8088/api/python/eq_join\r\n* http://192.168.0.159:8088/api/javascript/eq_join\r\n* http://192.168.0.159:8088/api/ruby/eq_join\r\n\r\n\\cc @ahruygt @mglukhovsky "
+  , issueState = "closed"
+  , issueId = Id 38688361
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

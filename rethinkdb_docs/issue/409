@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-09) 23 : 49 : 45 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 30 : 27 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/409/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/409"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 409
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Stylistic improvements to the rails article"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/409"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/409.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/409.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/409"
+  , issueCreatedAt = 2014 (-07) (-09) 23 : 48 : 51 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 37520057
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

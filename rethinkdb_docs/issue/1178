@@ -1,0 +1,62 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-12) 22 : 27 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1178/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1178"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 1178
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 952451
+        , simpleUserLogin = N "nighelles"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/952451?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nighelles"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Write Hooks and Evictions"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1178"
+  , issueCreatedAt = 2016 (-09) (-12) 22 : 27 : 00 UTC
+  , issueBody =
+      Just
+        "Evictions are described in the two comments mentioned here:\r\nhttps://github.com/rethinkdb/rethinkdb/issues/5823#issuecomment-228455004\r\n\r\nWrite Hooks are described in the comments here:\r\nhttps://github.com/rethinkdb/rethinkdb/issues/5813\r\n\r\nI'll add more detail to this issue when both are finished with review."
+  , issueState = "open"
+  , issueId = Id 176501184
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 2
+          , milestoneNumber = 11
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.4"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/11"
+          , milestoneCreatedAt = 2016 (-04) (-19) 18 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

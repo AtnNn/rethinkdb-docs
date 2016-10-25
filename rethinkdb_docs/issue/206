@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-25) 19 : 55 : 08 UTC
+  , issueUpdatedAt = 2014 (-02) (-25) 19 : 55 : 08 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/206/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/206"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 206
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Update Arch install - RethinkDB is now in the community repo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/206"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/206.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/206.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/206"
+  , issueCreatedAt = 2014 (-02) (-25) 09 : 01 : 37 UTC
+  , issueBody = Just "Ping @coffeemug "
+  , issueState = "closed"
+  , issueId = Id 28231734
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

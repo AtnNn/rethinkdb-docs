@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-12) 17 : 13 : 10 UTC
+  , issueUpdatedAt = 2014 (-09) (-12) 17 : 13 : 10 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/504/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/504"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 504
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 116414
+        , simpleUserLogin = N "cmattson"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/116414?v=3"
+        , simpleUserUrl = "https://api.github.com/users/cmattson"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Typo fix in Ruby insert docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/504"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/504.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/504.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/504"
+  , issueCreatedAt = 2014 (-09) (-11) 21 : 32 : 12 UTC
+  , issueBody =
+      Just
+        "The Ruby documentation for `insert` is missing a comma after the `return_changes` option."
+  , issueState = "closed"
+  , issueId = Id 42573502
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

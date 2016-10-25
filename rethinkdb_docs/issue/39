@@ -1,0 +1,38 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-18) 21 : 24 : 25 UTC
+  , issueUpdatedAt = 2013 (-11) (-18) 21 : 24 : 25 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/39/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/39"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 39
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "API: remove second line at the end of the API docs."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/39"
+  , issueCreatedAt = 2013 (-10) (-26) 00 : 19 : 18 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 21623787
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

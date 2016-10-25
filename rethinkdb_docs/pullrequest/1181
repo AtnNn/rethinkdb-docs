@@ -1,0 +1,163 @@
+PullRequest
+  { pullRequestClosedAt = Nothing
+  , pullRequestCreatedAt = 2016 (-09) (-16) 06 : 40 : 42 UTC
+  , pullRequestUser =
+      SimpleUser
+        { simpleUserId = Id 474389
+        , simpleUserLogin = N "ultrabug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/474389?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ultrabug"
+        , simpleUserType = OwnerUser
+        }
+  , pullRequestPatchUrl =
+      "https://github.com/rethinkdb/docs/pull/1181.patch"
+  , pullRequestState = "open"
+  , pullRequestNumber = 1181
+  , pullRequestHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1181"
+  , pullRequestUpdatedAt = 2016 (-09) (-16) 06 : 40 : 42 UTC
+  , pullRequestBody =
+      "- [x] I have read and agreed to the RethinkDB Contributor License Agreement http://rethinkdb.com/community/cla/\r\n\r\n### Description\r\nThis PR adds **Gentoo Linux** to the list of community supported packages [1] !\r\n\r\n[1] http://www.ultrabug.fr/rethinkdb-on-gentoo-linux/"
+  , pullRequestIssueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1181"
+  , pullRequestDiffUrl =
+      "https://github.com/rethinkdb/docs/pull/1181.diff"
+  , pullRequestUrl =
+      "https://api.github.com/repos/rethinkdb/docs/pulls/1181"
+  , pullRequestLinks =
+      PullRequestLinks
+        { pullRequestLinksReviewComments =
+            "https://api.github.com/repos/rethinkdb/docs/pulls/1181/comments"
+        , pullRequestLinksComments =
+            "https://api.github.com/repos/rethinkdb/docs/issues/1181/comments"
+        , pullRequestLinksHtml =
+            "https://github.com/rethinkdb/docs/pull/1181"
+        , pullRequestLinksSelf =
+            "https://api.github.com/repos/rethinkdb/docs/pulls/1181"
+        }
+  , pullRequestMergedAt = Nothing
+  , pullRequestTitle =
+      "Add Gentoo Linux community package to the list"
+  , pullRequestId = 85525363
+  , pullRequestMergedBy = Nothing
+  , pullRequestChangedFiles = 2
+  , pullRequestHead =
+      PullRequestCommit
+        { pullRequestCommitLabel = "ultrabug:gentoo_package"
+        , pullRequestCommitRef = "gentoo_package"
+        , pullRequestCommitSha = "28dbd5a7d64e2fbecd14e6042096478cb7aafa51"
+        , pullRequestCommitUser =
+            SimpleUser
+              { simpleUserId = Id 474389
+              , simpleUserLogin = N "ultrabug"
+              , simpleUserAvatarUrl =
+                  "https://avatars.githubusercontent.com/u/474389?v=3"
+              , simpleUserUrl = "https://api.github.com/users/ultrabug"
+              , simpleUserType = OwnerUser
+              }
+        , pullRequestCommitRepo =
+            Repo
+              { repoSshUrl = Just "git@github.com:ultrabug/docs.git"
+              , repoDescription = Just "RethinkDB documentation"
+              , repoCreatedAt = Just 2016 (-09) (-14) 07 : 25 : 07 UTC
+              , repoHtmlUrl = "https://github.com/ultrabug/docs"
+              , repoSvnUrl = Just "https://github.com/ultrabug/docs"
+              , repoForks = Just 0
+              , repoHomepage = Just "http://rethinkdb.com/docs"
+              , repoFork = Just True
+              , repoGitUrl = Just "git://github.com/ultrabug/docs.git"
+              , repoPrivate = False
+              , repoCloneUrl = Just "https://github.com/ultrabug/docs.git"
+              , repoSize = Just 21637
+              , repoUpdatedAt = Just 2016 (-09) (-14) 07 : 25 : 10 UTC
+              , repoWatchers = Just 0
+              , repoOwner =
+                  SimpleOwner
+                    { simpleOwnerId = Id 474389
+                    , simpleOwnerLogin = N "ultrabug"
+                    , simpleOwnerUrl = "https://api.github.com/users/ultrabug"
+                    , simpleOwnerAvatarUrl =
+                        "https://avatars.githubusercontent.com/u/474389?v=3"
+                    , simpleOwnerType = OwnerUser
+                    }
+              , repoName = N "docs"
+              , repoLanguage = Just (Language "CSS")
+              , repoMasterBranch = Nothing
+              , repoPushedAt = Just 2016 (-09) (-16) 06 : 37 : 29 UTC
+              , repoId = Id 68183529
+              , repoUrl = "https://api.github.com/repos/ultrabug/docs"
+              , repoOpenIssues = Just 0
+              , repoHasWiki = Just True
+              , repoHasIssues = Just False
+              , repoHasDownloads = Just True
+              , repoParent = Nothing
+              , repoSource = Nothing
+              , repoHooksUrl = "https://api.github.com/repos/ultrabug/docs/hooks"
+              , repoStargazersCount = 0
+              }
+        }
+  , pullRequestComments = 0
+  , pullRequestDeletions = 2
+  , pullRequestAdditions = 42
+  , pullRequestReviewComments = 0
+  , pullRequestBase =
+      PullRequestCommit
+        { pullRequestCommitLabel = "rethinkdb:master"
+        , pullRequestCommitRef = "master"
+        , pullRequestCommitSha = "6848dfddfced75556f647a25b66c29d1c2b1cefa"
+        , pullRequestCommitUser =
+            SimpleUser
+              { simpleUserId = Id 1229647
+              , simpleUserLogin = N "rethinkdb"
+              , simpleUserAvatarUrl =
+                  "https://avatars.githubusercontent.com/u/1229647?v=3"
+              , simpleUserUrl = "https://api.github.com/users/rethinkdb"
+              , simpleUserType = OwnerOrganization
+              }
+        , pullRequestCommitRepo =
+            Repo
+              { repoSshUrl = Just "git@github.com:rethinkdb/docs.git"
+              , repoDescription = Just "RethinkDB documentation"
+              , repoCreatedAt = Just 2013 (-09) (-11) 01 : 08 : 40 UTC
+              , repoHtmlUrl = "https://github.com/rethinkdb/docs"
+              , repoSvnUrl = Just "https://github.com/rethinkdb/docs"
+              , repoForks = Just 154
+              , repoHomepage = Just "http://rethinkdb.com/docs"
+              , repoFork = Just False
+              , repoGitUrl = Just "git://github.com/rethinkdb/docs.git"
+              , repoPrivate = False
+              , repoCloneUrl = Just "https://github.com/rethinkdb/docs.git"
+              , repoSize = Just 22467
+              , repoUpdatedAt = Just 2016 (-10) (-17) 17 : 50 : 24 UTC
+              , repoWatchers = Just 71
+              , repoOwner =
+                  SimpleOwner
+                    { simpleOwnerId = Id 1229647
+                    , simpleOwnerLogin = N "rethinkdb"
+                    , simpleOwnerUrl = "https://api.github.com/users/rethinkdb"
+                    , simpleOwnerAvatarUrl =
+                        "https://avatars.githubusercontent.com/u/1229647?v=3"
+                    , simpleOwnerType = OwnerOrganization
+                    }
+              , repoName = N "docs"
+              , repoLanguage = Just (Language "CSS")
+              , repoMasterBranch = Nothing
+              , repoPushedAt = Just 2016 (-10) (-05) 05 : 39 : 08 UTC
+              , repoId = Id 12744481
+              , repoUrl = "https://api.github.com/repos/rethinkdb/docs"
+              , repoOpenIssues = Just 123
+              , repoHasWiki = Just True
+              , repoHasIssues = Just True
+              , repoHasDownloads = Just True
+              , repoParent = Nothing
+              , repoSource = Nothing
+              , repoHooksUrl =
+                  "https://api.github.com/repos/rethinkdb/docs/hooks"
+              , repoStargazersCount = 71
+              }
+        }
+  , pullRequestCommits = 2
+  , pullRequestMerged = False
+  , pullRequestMergeable = Just True
+  }

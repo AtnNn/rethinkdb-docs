@@ -1,0 +1,31 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-31) 22 : 54 : 21 UTC
+  , issueUpdatedAt = 2015 (-03) (-31) 22 : 54 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/696/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/696"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 696
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Some examples for the cookbook"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/696"
+  , issueCreatedAt = 2015 (-03) (-31) 22 : 54 : 12 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 65564456
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

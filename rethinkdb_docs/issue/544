@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-17) 17 : 48 : 41 UTC
+  , issueUpdatedAt = 2014 (-10) (-17) 17 : 48 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/544/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/544"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 544
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Between and compound indexes"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/544"
+  , issueCreatedAt = 2014 (-10) (-10) 06 : 37 : 07 UTC
+  , issueBody =
+      Just
+        "The [documentation for between](http://rethinkdb.com/api/javascript/between/) does not mention or have any examples using compound indexes.\r\n\r\nMany users get confused by compound indexes, doing something like `.between([1,\"a\"],[2,\"b\"])` and wondering why `[1,\"c\"]` is returned.\r\n\r\nCompound indexes are arrays ordered lexicographically. `.between([a0,b0],[a1,b1])' returns all documents where (a = a0 and b >= b0) or (a0 < a < a1) or (a = a1 and b < b1)\r\n\r\nThe [documentation for secondary indexes](http://rethinkdb.com/docs/secondary-indexes/python/) is also lacking, however it provides a good example:\r\n\r\n```\r\n# Get all users whose full name is between \"John Smith\" and \"Wade Welles\"\r\nr.table(\"users\").between([\"John\", \"Smith\"], [\"Wade\", \"Welles\"], index=\"full_name\") \\\r\n    .run(conn)\r\n```"
+  , issueState = "closed"
+  , issueId = Id 45450715
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

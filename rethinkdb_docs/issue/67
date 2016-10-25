@@ -1,0 +1,62 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-23) 22 : 47 : 26 UTC
+  , issueUpdatedAt = 2013 (-11) (-23) 22 : 47 : 26 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/67/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/67"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 67
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 1777134
+          , simpleUserLogin = N "mlucy"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/1777134?v=3"
+          , simpleUserUrl = "https://api.github.com/users/mlucy"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 43867
+        , simpleUserLogin = N "jdoliner"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/43867?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jdoliner"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add docs for profiling."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/67"
+  , issueCreatedAt = 2013 (-11) (-05) 01 : 35 : 06 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 22093434
+  , issueComments = 8
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1461947
+                , simpleUserLogin = N "neumino"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1461947?v=3"
+                , simpleUserUrl = "https://api.github.com/users/neumino"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 1
+          , milestoneClosedIssues = 9
+          , milestoneDescription =
+              Just "Things to add before releasing v1.11.0"
+          , milestoneTitle = "v1.11.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/1"
+          , milestoneCreatedAt = 2013 (-10) (-27) 00 : 18 : 14 UTC
+          , milestoneState = "closed"
+          }
+  }

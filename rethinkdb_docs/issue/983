@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-04) 17 : 58 : 03 UTC
+  , issueUpdatedAt = 2016 (-01) (-04) 17 : 58 : 03 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/983/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/983"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 983
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1005088
+        , simpleUserLogin = N "mjkrumlauf"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1005088?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mjkrumlauf"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add \"Using SBT\" instructions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/983"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/983.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/983.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/983"
+  , issueCreatedAt = 2015 (-12) (-15) 13 : 23 : 49 UTC
+  , issueBody =
+      Just
+        "For those Java (or Scala) developers who build using SBT (Simple Build Tool)"
+  , issueState = "closed"
+  , issueId = Id 122271594
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

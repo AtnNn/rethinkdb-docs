@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-14) 22 : 26 : 33 UTC
+  , issueUpdatedAt = 2014 (-01) (-14) 22 : 26 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/169/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/169"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 169
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 706854
+          , simpleUserLogin = N "AtnNn"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/706854?v=3"
+          , simpleUserUrl = "https://api.github.com/users/AtnNn"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add generic build instructions for Python 3 support"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/169"
+  , issueCreatedAt = 2014 (-01) (-07) 04 : 52 : 16 UTC
+  , issueBody =
+      Just
+        "@hammer points out in rethinkdb/rethinkdb#1822 that the instructions for building the driver from source for Python 3 support assumes you're using a Linux-based distribution with `apt`.\r\n\r\nHowever, we officially support RPM-based distros and OS X. At the very least, providing alternate install instructions for dependencies would be an improvement.\r\n\r\n@atnnn, could you look into this?"
+  , issueState = "closed"
+  , issueId = Id 25148096
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

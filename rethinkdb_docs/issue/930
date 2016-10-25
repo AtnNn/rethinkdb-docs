@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-23) 22 : 27 : 12 UTC
+  , issueUpdatedAt = 2015 (-10) (-23) 22 : 27 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/930/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/930"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 930
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1922921
+        , simpleUserLogin = N "goller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1922921?v=3"
+        , simpleUserUrl = "https://api.github.com/users/goller"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix nested fields example python syntax"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/930"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/930.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/930.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/930"
+  , issueCreatedAt = 2015 (-10) (-23) 16 : 11 : 00 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 113051318
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

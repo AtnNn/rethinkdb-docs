@@ -1,0 +1,48 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-23) 01 : 12 : 14 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 24 : 20 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/42/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/42"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 42
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add more examples for default"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/42"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/42.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/42.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/42"
+  , issueCreatedAt = 2013 (-10) (-26) 22 : 10 : 38 UTC
+  , issueBody =
+      Just
+        "@mlucy, would you mind taking a look?\r\n\r\nI'll take care of merging and deploying it."
+  , issueState = "closed"
+  , issueId = Id 21642182
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

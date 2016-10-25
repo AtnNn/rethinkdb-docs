@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-26) 01 : 23 : 33 UTC
+  , issueUpdatedAt = 2016 (-01) (-26) 01 : 23 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/999/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/999"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 999
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update PAAS docs for Compose (now offers SSL)"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/999"
+  , issueCreatedAt = 2016 (-01) (-16) 01 : 46 : 49 UTC
+  , issueBody =
+      Just
+        "https://www.rethinkdb.com/docs/paas/ currently says that you need to use SSH tunnels to connect to the Compose cluster. However Compose now enables SSL access by default, which is usually more convenient to use.\r\n\r\nAlso the link to https://docs.compose.io/common-questions/how-to-connect-to-rethinkdb.html should be replaced by https://help.compose.io/docs/connecting-to-rethinkdb , which seems to be more up to date."
+  , issueState = "closed"
+  , issueId = Id 126992671
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

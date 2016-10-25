@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-25) 18 : 14 : 37 UTC
+  , issueUpdatedAt = 2014 (-03) (-25) 18 : 14 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/69/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/69"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 69
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add an _assets directory in docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/69"
+  , issueCreatedAt = 2013 (-11) (-06) 18 : 37 : 04 UTC
+  , issueBody =
+      Just
+        "And have a rake file in the www's repo to copy its content in `assets`.\r\n\r\nSo images for docs can be stored here."
+  , issueState = "closed"
+  , issueId = Id 22215297
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

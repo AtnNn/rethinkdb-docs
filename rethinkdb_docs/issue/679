@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-20) 22 : 58 : 17 UTC
+  , issueUpdatedAt = 2015 (-03) (-20) 22 : 58 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/679/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/679"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 679
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clarify the semantics of atomic operations"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/679"
+  , issueCreatedAt = 2015 (-03) (-17) 07 : 00 : 11 UTC
+  , issueBody =
+      Just
+        "All the  [docs for update](http://rethinkdb.com/api/javascript/update/) have to say about atomicity is:\r\n\r\n> **nonAtomic**: set to true if you want to perform non-atomic updates (updates that require fetching data from another document).\r\n\r\nThat is not really what atomic means. And in practice it seems to be a lot more subtle. Users often ask if queries like this one are atomic:\r\n\r\n```\r\nr.table('foo').filter({ status: \"inactive\"}).sample(1).update({ status: \"active\", ... })\r\n```\r\n\r\nCould a document that is not \"inactive\" ever become \"active\"? I'm never quite sure. What if there was no `sample`? What about this other query? It fetches data from another document but does not require the `nonAtomic` flag.\r\n\r\n```\r\nr.db('foo').filter({ status: r.table('bar').get(id)('status')}).sample(1).update({ status: \"active\", ... })\r\n```\r\n\r\nHow atomic is the update? Will the sub-query on `bar` be run once overall, once per shard or once per row?\r\n\r\n@mlucy perhaps you or someone else can enlighten me."
+  , issueState = "closed"
+  , issueId = Id 62311302
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

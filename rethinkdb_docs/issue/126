@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-10) 23 : 36 : 57 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 28 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/126/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/126"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 126
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Update instructions to build from source for Ubuntu"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/126"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/126.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/126.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/126"
+  , issueCreatedAt = 2013 (-12) (-08) 06 : 05 : 19 UTC
+  , issueBody =
+      Just
+        "On 12.04, the default node version is (0.6) and we require a more recent one to install some dependencies.\r\n\r\nThe instructions were tested on 12.04 and 13.10.\r\n\r\nI haven't tried 12.10 or 13.04, but it shouldn't be hard for users to figure out what to do.\r\n\r\n@atnnn would you mind taking a look at it?"
+  , issueState = "closed"
+  , issueId = Id 23919186
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

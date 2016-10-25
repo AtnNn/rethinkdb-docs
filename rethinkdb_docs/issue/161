@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2015 (-01) (-20) 00 : 14 : 30 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/161/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/161"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 161
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add cookbook entry for updating nested fields"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/161"
+  , issueCreatedAt = 2013 (-12) (-24) 06 : 58 : 22 UTC
+  , issueBody =
+      Just
+        "We have an entry for filtering based on nested fields, but no entry for updating nested fields. Someone just asked this on IRC."
+  , issueState = "open"
+  , issueId = Id 24737297
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

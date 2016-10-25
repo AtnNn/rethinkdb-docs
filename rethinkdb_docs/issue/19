@@ -1,0 +1,45 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-20) 00 : 04 : 36 UTC
+  , issueUpdatedAt = 2015 (-04) (-20) 00 : 04 : 36 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/19/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/19"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 19
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "API - Add docs about `r.any` in Python and Ruby"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/19"
+  , issueCreatedAt = 2013 (-10) (-24) 05 : 41 : 43 UTC
+  , issueBody =
+      Just
+        "There is currently no doc about `r.any`.\r\n\r\nSee https://github.com/rethinkdb/rethinkdb/issues/1511 and https://github.com/rethinkdb/rethinkdb/issues/1488 for more information."
+  , issueState = "closed"
+  , issueId = Id 21502010
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

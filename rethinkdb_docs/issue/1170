@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-31) 21 : 32 : 12 UTC
+  , issueUpdatedAt = 2016 (-08) (-31) 21 : 32 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1170/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1170"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1170
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8921895
+        , simpleUserLogin = N "ha1331"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/8921895?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ha1331"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "fold() works with arrays too, not mentioned in the documentation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1170"
+  , issueCreatedAt = 2016 (-08) (-25) 17 : 34 : 48 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/api/javascript/fold/ \r\n\r\nmost of the functions that can be used with arrays mentions that in the \"command syntax\" section of the documentation. Arrays are sequences, but some people, new users mostly, might benefit from it being specified in the api docs. Also would make fold consistent with the other functions."
+  , issueState = "closed"
+  , issueId = Id 173264611
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

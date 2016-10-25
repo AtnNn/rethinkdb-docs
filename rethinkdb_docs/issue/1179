@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-15) 19 : 59 : 48 UTC
+  , issueUpdatedAt = 2016 (-09) (-15) 19 : 59 : 48 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1179/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1179"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 1179
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "JavaScript code in Java version of 10 minute guide"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1179"
+  , issueCreatedAt = 2016 (-09) (-12) 22 : 50 : 32 UTC
+  , issueBody =
+      Just
+        "https://rethinkdb.com/docs/guide/java/ starts out with Java examples, but then the \"Update documents\" and subsequent sections have JavaScript code instead of Java.\r\n\r\nPinging @chipotle "
+  , issueState = "closed"
+  , issueId = Id 176504952
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-28) 17 : 16 : 04 UTC
+  , issueUpdatedAt = 2014 (-08) (-28) 17 : 16 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/489/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/489"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 489
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "URLs are weird in r.http API docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/489"
+  , issueCreatedAt = 2014 (-08) (-28) 00 : 07 : 50 UTC
+  , issueBody =
+      Just
+        "All the example URLs in the r.http docs are \"httpbin.org\"; I'd like to change them to something like \"http://www.example.org\".\r\n\r\nThe r.http docs in the Data Explorer also come up a little weird: they're prefixed with the letters \"js\". I'm not sure why that's the case."
+  , issueState = "closed"
+  , issueId = Id 41343752
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

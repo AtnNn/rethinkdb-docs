@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-21) 21 : 45 : 20 UTC
+  , issueUpdatedAt = 2015 (-08) (-21) 21 : 45 : 20 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/864/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/864"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 864
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Docs don't mention comparison operators are variadic"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/864"
+  , issueCreatedAt = 2015 (-08) (-17) 18 : 56 : 38 UTC
+  , issueBody =
+      Just
+        "`eq`, `ne`, `le`, `lt`, `gt`, `ge` can be used like:\r\n\r\n```\r\nr.eq(1,2,1,2) # false\r\nr.ne(1,2,3,4) # true\r\nr.gt(5,4,3,2,1) # true\r\nr.lt(1,2,3,1) # false\r\n```\r\n\r\nBut the signatures don't mention it and there are no examples on those pages. The pages should probably mention that it uses the python-like convention of chaining them so `r.gt(1,2,3)` is equivalent to `r.gt(1,2).and(r.gt(2,3))` etc"
+  , issueState = "closed"
+  , issueId = Id 101487522
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

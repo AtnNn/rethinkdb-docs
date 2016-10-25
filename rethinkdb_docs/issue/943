@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-03) (-09) 19 : 55 : 39 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/943/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/943"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 943
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 1366
+          , simpleUserLogin = N "deontologician"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/1366?v=3"
+          , simpleUserUrl = "https://api.github.com/users/deontologician"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Update \"Full-text search\" documentation to use logstash"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/943"
+  , issueCreatedAt = 2015 (-11) (-10) 20 : 58 : 38 UTC
+  , issueBody =
+      Just
+        "The instructions on http://rethinkdb.com/docs/elasticsearch/ are no longer going to work with RethinkDB 2.2, since the River plugin is based on the inofficial Java driver which still uses the protocol buffer protocol that we're dropping in 2.2.\r\n\r\nI suggest the following steps:\r\n* short term: Add a warning to the article that it was written for RethinkDB 2.1 and earlier, and that the River plugin no longer works with RethinkDB 2.2. Also link to https://github.com/rethinkdb/logstash-input-rethinkdb .\r\n* slightly longer short term: Rewrite the article to make use of the Logstash input https://github.com/rethinkdb/logstash-input-rethinkdb . We should coordinate this with the integration of `include_initial` into the logstash plugin https://github.com/rethinkdb/rethinkdb/issues/3197 ."
+  , issueState = "open"
+  , issueId = Id 116200291
+  , issueComments = 14
+  , issueMilestone = Nothing
+  }

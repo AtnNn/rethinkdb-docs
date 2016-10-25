@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-24) 23 : 14 : 19 UTC
+  , issueUpdatedAt = 2014 (-10) (-24) 23 : 14 : 19 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/564/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/564"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 564
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Docs don't state support for Python 3"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/564"
+  , issueCreatedAt = 2014 (-10) (-24) 17 : 14 : 51 UTC
+  , issueBody =
+      Just
+        "This was an oversight when we shipped support for Python 3:\r\n\r\n- http://www.rethinkdb.com/docs/install-drivers/python/\r\n- http://www.rethinkdb.com/docs/guide/python/\r\n\r\nCan we `grep` for other instances of \"Python 2\" and \"Python 3\" to make sure we didn't miss any?"
+  , issueState = "closed"
+  , issueId = Id 46761370
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

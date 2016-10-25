@@ -1,0 +1,71 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-11) 22 : 25 : 58 UTC
+  , issueUpdatedAt = 2015 (-11) (-11) 22 : 25 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/933/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/933"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 933
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document changefeed_queue_size optarg to changes"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/933"
+  , issueCreatedAt = 2015 (-10) (-29) 18 : 04 : 25 UTC
+  , issueBody =
+      Just
+        "That parameter sets how many changes the server buffers before it starts dropping changes and generates an error (if the client doesn't read changes from the changefeed quickly enough).\r\n\r\nI think the default is 100,000 (@mlucy please correct me if I'm wrong)"
+  , issueState = "closed"
+  , issueId = Id 114110755
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 9
+          , milestoneClosedIssues = 14
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.2"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/9"
+          , milestoneCreatedAt = 2015 (-09) (-02) 19 : 06 : 11 UTC
+          , milestoneState = "open"
+          }
+  }

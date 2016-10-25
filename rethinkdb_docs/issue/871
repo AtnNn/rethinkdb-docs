@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-10) 00 : 53 : 20 UTC
+  , issueUpdatedAt = 2015 (-11) (-10) 00 : 53 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/871/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/871"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 871
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Changed some download links to https"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/871"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/871.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/871.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/871"
+  , issueCreatedAt = 2015 (-08) (-27) 23 : 38 : 46 UTC
+  , issueBody =
+      Just
+        "download.rethinkdb.com now supports https. I switched some of the links over (most importantly the ones where we download a gpg key for the debian/ubuntu packages)."
+  , issueState = "closed"
+  , issueId = Id 103616755
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-25) 20 : 01 : 00 UTC
+  , issueUpdatedAt = 2016 (-03) (-25) 20 : 01 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/929/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/929"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 929
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add Slack reference to the \"Get more help\" section in docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/929"
+  , issueCreatedAt = 2015 (-10) (-23) 06 : 01 : 31 UTC
+  , issueBody =
+      Just
+        "In the API docs, there is a \"Get more help\" section at the end of every command. Currently it points users to Stack Overflow, IRC, etc. We should add Slack as a help/support option there.\r\n\r\n/cc @chipotle @mglukhovsky "
+  , issueState = "closed"
+  , issueId = Id 112959162
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

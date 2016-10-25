@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-08) 20 : 51 : 36 UTC
+  , issueUpdatedAt = 2016 (-10) (-08) 23 : 05 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1146/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1146"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/next"
+          , labelName = "next"
+          }
+      ]
+  , issueNumber = 1146
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Installing RethinkDB as Windows service"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1146"
+  , issueCreatedAt = 2016 (-06) (-24) 02 : 16 : 34 UTC
+  , issueBody =
+      Just
+        "We just merged support for running RethinkDB as a Windows service (https://github.com/rethinkdb/rethinkdb/issues/5810).\r\n\r\nWe should explain this in https://rethinkdb.com/docs/start-on-startup/ and maybe mention it on the Windows install page as well.\r\n\r\nThe process for setting up RethinkDB as a service is as follows:\r\n\r\n1. Create a configuration file for the RethinkDB server. A template can be downloaded from https://github.com/rethinkdb/rethinkdb/blob/next/packaging/assets/config/default.conf.sample . At least the `directory` line should be specified. All other settings are optional. If `directory` is not specified, RethinkDB will put its data in `c:\\Windows\\System32\\rethinkdb_data`, which is probably not what users want. To test a configuration file before using it as a service, you can run `rethinkdb.exe --config-file <path to config file>` manually.\r\n2. Open a command line, go to the location of the `rethinkdb.exe` executable, and run:\r\n  ```\r\nrethinkdb.exe install-service --config-file <path to config file>\r\n```\r\n3. RethinkDB will install a service under the name `rethinkdb_default` and start it. You can use Windows' service manager to Monitor the status of the RethinkDB service, or to stop and/or restart it later. By default, the RethinkDB service will automatically start when the system starts.\r\n\r\nSome relevant notes:\r\n\r\n* The service created by `rethinkdb.exe install-service` relies on `rethinkdb.exe` and on the config files to remain in the locations where they were when `rethinkdb.exe install-service` were called. If one of these files gets moved, the service must be re-installed (run `rethinkdb.exe remove-service` first).\r\n* Changes in the configuration file after the initial install will take effect when the service is restarted.\r\n* By default, the service is installed to run with System user privileges. For improved security, the service can be installed with a different user account. This can be done as follows:\r\n  ```\r\nrethinkdb.exe install-service --config-file <path to config file> --runuser <domain>\\<user name> --runuser-password <password of the user>\r\n```\r\n(the `<domain>` is the Windows domain in which the user can be found. For a local user, this is the name of the server itself. If the user is from an Active Directory or Windows Domain, it must be the name of the directory)\r\n\r\nTo remove a service:\r\n```\r\nrethinkdb.exe remove-service\r\n```\r\n\r\nBoth `install-service` and `remove-service` also accept the `--instance-name <name>` option. This can be used if you want to run multiple instances of RethinkDB on the same server. Each instance will get its own entry in the Windows Service manager, and can be configured and started/stopped separately."
+  , issueState = "closed"
+  , issueId = Id 162062612
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

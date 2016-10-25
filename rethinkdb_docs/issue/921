@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 54 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/921/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/921"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 921
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add more details to the backup article"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/921"
+  , issueCreatedAt = 2015 (-10) (-14) 20 : 22 : 36 UTC
+  , issueBody =
+      Just
+        "From a [StackOverflow question](https://stackoverflow.com/questions/33124865/rethinkdb-backup-data/33131862):\r\n\r\n> I read article about backing up data, but some issues is not clear for me:\r\n>\r\n> - What happens with data, that will be changed after backup process was started?\r\n> - Does backup operation work only on current machine? Or will it collect data from all shards in cluster? > - If only on current, should I start backup process on all servers?\r\n> - Is it slow operation so I should forbid all operation to db while backup in progress?\r\n\r\nThese are all reasonable questions that should be answered by the article itself.\r\n"
+  , issueState = "open"
+  , issueId = Id 111484356
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

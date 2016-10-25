@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-24) 21 : 50 : 23 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 40 : 19 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/233/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/233"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 233
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Remove groupBy and groupedMapReduce from the python docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/233"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/233.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/233.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/233"
+  , issueCreatedAt = 2014 (-03) (-24) 21 : 38 : 09 UTC
+  , issueBody = Just "@neumino can you please take a look?"
+  , issueState = "closed"
+  , issueId = Id 30077921
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

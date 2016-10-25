@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-03) 23 : 26 : 01 UTC
+  , issueUpdatedAt = 2015 (-08) (-12) 10 : 32 : 49 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/840/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/840"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 840
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 339696
+        , simpleUserLogin = N "weshoke"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/339696?v=3"
+        , simpleUserUrl = "https://api.github.com/users/weshoke"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Documentation for Arrays as Primary Indices Is Lacking"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/840"
+  , issueCreatedAt = 2015 (-07) (-30) 06 : 04 : 40 UTC
+  , issueBody =
+      Just
+        "```\r\n{\r\n  id: [v1, v2, v3]\r\n}\r\n```\r\n\r\nPrimary indices with arrays isn't very well (or at all) documented.  I wasn't able to find anywhere that mentions it.  The document on secondary indices might apply, but the link to arrays for primary indices isn't made AFAICT.\r\n\r\nThe implications for the above for getAll, filter, between, etc. would be nice to see written up."
+  , issueState = "closed"
+  , issueId = Id 98093514
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

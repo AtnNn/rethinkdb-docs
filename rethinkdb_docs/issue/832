@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-03) 23 : 26 : 01 UTC
+  , issueUpdatedAt = 2015 (-08) (-03) 23 : 26 : 01 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/832/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/832"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 832
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Tornado example code syntax problems"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/832"
+  , issueCreatedAt = 2015 (-07) (-25) 00 : 03 : 15 UTC
+  , issueBody =
+      Just
+        "At least on Python 2.7 and 3.4 on newton, I get a syntax error when trying this example from http://rethinkdb.com/docs/async-connections/#python-and-tornado\r\n```python\r\n@gen.coroutine\r\ndef single_row(connection):\r\n    # Insert some data\r\n    yield r.table('test').insert([{\"id\": 0}, {\"id\": 1}, {\"id\": 2}]).run(yield connection)\r\n    # Print the first row in the table\r\n    row = yield r.table('test').get(0).run(connection)\r\n    print(row)\r\n```\r\n\r\nThe fix seems to be to take out the `yield connection` and change the code to something like this:\r\n```python\r\n@gen.coroutine\r\ndef single_row(connection_future):\r\n    # Wait for the connection to be ready\r\n    connection = yield connection_future\r\n    # Insert some data\r\n    yield r.table('test').insert([{\"id\": 0}, {\"id\": 1}, {\"id\": 2}]).run(connection)\r\n    # Print the first row in the table\r\n    row = yield r.table('test').get(0).run(connection)\r\n    print(row)\r\n```\r\n\r\nThe other Tornado examples on the page have similar problems (they all use `yield connection` inside of `run`).\r\n\r\nI'm not sure if this is something that changed in a certain version of Python, nor whether there is a different way to avoid this problem. @Tryneus do you have any insights into this?"
+  , issueState = "closed"
+  , issueId = Id 97171702
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

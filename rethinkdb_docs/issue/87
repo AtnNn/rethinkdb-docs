@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-23) 06 : 54 : 55 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 24 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/87/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/87"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 87
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Change driver performance instructions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/87"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/87.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/87.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/87"
+  , issueCreatedAt = 2013 (-11) (-19) 00 : 44 : 46 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 22880070
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

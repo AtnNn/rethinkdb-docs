@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-03) 21 : 03 : 23 UTC
+  , issueUpdatedAt = 2016 (-06) (-03) 21 : 03 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1121/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1121"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1121
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Expand list of parallelism-stopping terms"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1121"
+  , issueCreatedAt = 2016 (-05) (-12) 01 : 23 : 01 UTC
+  , issueBody =
+      Just
+        "There's a list \"Commands that stop subsequent commands from being parallelized include:\" at https://rethinkdb.com/docs/optimization/\r\n\r\nThe list is not exhaustive (which is why it's saying \"include\"), but we should add a few additional terms to not mislead users into thinking that they can use alternative terms to avoid this restriction.\r\nSpecifically:\r\n\"`limit`\" -> \"`limit`, `skip`, `slice`\"\r\n\"`reduce`\" -> \"`reduce`, `fold`\"\r\n\r\nWe should also add `eqJoin` to the list, since its new implementation since RethinkDB 2.3 no longer allows parallelization of subsequent terms as far as I know."
+  , issueState = "closed"
+  , issueId = Id 154377408
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

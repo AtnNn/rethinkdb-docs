@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-25) 18 : 09 : 41 UTC
+  , issueUpdatedAt = 2014 (-03) (-25) 18 : 12 : 05 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/237/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/237"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 237
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "adding driver install link to migration doc"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/237"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/237.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/237.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/237"
+  , issueCreatedAt = 2014 (-03) (-25) 05 : 45 : 04 UTC
+  , issueBody = Just "@neumino -- could you take a look?"
+  , issueState = "closed"
+  , issueId = Id 30098452
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

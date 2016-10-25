@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-14) 23 : 49 : 13 UTC
+  , issueUpdatedAt = 2014 (-07) (-10) 02 : 07 : 36 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/76/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/76"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 76
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix link to API (add missing slash)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/76"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/76.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/76.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/76"
+  , issueCreatedAt = 2013 (-11) (-14) 22 : 07 : 21 UTC
+  , issueBody =
+      Just
+        "We were missing a slash.\r\n\r\nWe somehow also overwrite `/api/` only and not `/api`\r\n\r\nping @mglukhovsky "
+  , issueState = "closed"
+  , issueId = Id 22697096
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

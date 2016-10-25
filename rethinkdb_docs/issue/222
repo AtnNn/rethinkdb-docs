@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-21) 00 : 28 : 59 UTC
+  , issueUpdatedAt = 2014 (-06) (-24) 00 : 55 : 27 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/222/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/222"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 222
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Michel group polish - Part 2"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/222"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/222.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/222.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/222"
+  , issueCreatedAt = 2014 (-03) (-14) 10 : 12 : 38 UTC
+  , issueBody =
+      Just
+        "@atnnn I did a little fix in `_scripts/dataexplorer.py`. In some cases, I forgot to reset some flags.\r\nI tested the result, and it works fine now.\r\n\r\nAll the rest is small fixes (like picking the appropriate language to highlight example, adding the missing `io` fields, adding the missing max/min/sum/avg in the index files etc.)\r\n\r\nI also removed the examples for `group`/`ungroup` from the files `index.md` for JavaScript because it was making docs too big for the data explorer.\r\n\r\n@atnnn -- could you do a quick review for me?"
+  , issueState = "closed"
+  , issueId = Id 29422670
+  , issueComments = 11
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-29) 21 : 36 : 51 UTC
+  , issueUpdatedAt = 2016 (-02) (-29) 21 : 36 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1038/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1038"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1038
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10092343
+        , simpleUserLogin = N "dineyw23"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10092343?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dineyw23"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Fixes a small parameter error on \"Install RethinkDB on Windows\" Resolves #1025"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1038"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1038.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1038.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1038"
+  , issueCreatedAt = 2016 (-02) (-27) 05 : 28 : 48 UTC
+  , issueBody =
+      Just
+        "Was trying RehtinkDB on Windows, noticed issue #1025, resolves small `-j` parameter sign error.\r\nFixes #1025 "
+  , issueState = "closed"
+  , issueId = Id 136881196
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

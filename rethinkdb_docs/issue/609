@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-23) 23 : 46 : 11 UTC
+  , issueUpdatedAt = 2015 (-01) (-24) 00 : 09 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/609/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/609"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 609
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Restructure the `filter` documentation page by theme"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/609"
+  , issueCreatedAt = 2014 (-12) (-30) 01 : 12 : 00 UTC
+  , issueBody =
+      Just
+        "`filter` is a fairly subtle command for new users to understand, which is why there are so many examples included on its [documentation page](http://rethinkdb.com/api/javascript/filter/). However, it's currently just a list of examples -- it would be far better to organize the examples by theme, for example:\r\n\r\n- Basic filters\r\n- Filtering multiple attributes using boolean logic\r\n- Handling missing fields\r\n- Passing functions to filter (advanced predicates)\r\n- ... and others\r\n\r\n\r\n__Note__: one example is missing. It's a relatively special case, but should be documented in the \"Handling missing fields section\" once this is reorganized so that it's not just a giant wall of examples:\r\n\r\nIf you use an `or` predicate, you need a `default` after the first condition to ignore missing fields in the first part of the condition (see http://stackoverflow.com/questions/27682642/rql-or-not-work-while-involving-non-exists-field/27682774#27682774)"
+  , issueState = "closed"
+  , issueId = Id 53085539
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

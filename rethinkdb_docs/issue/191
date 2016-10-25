@@ -1,0 +1,48 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-03) 23 : 16 : 31 UTC
+  , issueUpdatedAt = 2014 (-02) (-03) 23 : 16 : 31 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/191/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/191"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 191
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 91193
+          , simpleUserLogin = N "mglukhovsky"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/91193?v=3"
+          , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 801893
+        , simpleUserLogin = N "jurajmasar"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/801893?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jurajmasar"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Addition of a C++ driver"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/191"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/191.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/191.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/191"
+  , issueCreatedAt = 2014 (-02) (-01) 15 : 46 : 14 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 26741087
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

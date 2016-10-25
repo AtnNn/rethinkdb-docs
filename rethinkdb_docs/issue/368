@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-18) 00 : 06 : 51 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 02 : 30 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/368/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/368"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 368
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Migration instructions could be more clear about Python dependency"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/368"
+  , issueCreatedAt = 2014 (-06) (-17) 20 : 38 : 30 UTC
+  , issueBody =
+      Just
+        "Reported by @ajselvig\r\nhttps://github.com/rethinkdb/rethinkdb/issues/2561\r\n\r\n\r\n> Specifically, as a Ruby user, it's easy to end down a bit of a rabbit hole when following data migration instructions. 'rethinkdb dump' fails because I don't have the Python driver installed. Okay, fair enough. I follow the [instructions to install the Python driver through pip](http://www.rethinkdb.com/docs/install-drivers/python/). \r\n>\r\n> However, since I'm trying to migrate to a newly released version of rethinkdb, I inadvertently install the incorrect version of the Python driver. I have to then uninstall the Python driver, find the appropriate previous version in pip, then reinstall it. In my case:\r\n>\r\n>    sudo pip install rethinkdb==1.12.0-2\r\n>\r\n> It all works fine in the end, but it seems rather roundabout. At the very least, I think the documentation could be updated to state these steps explicitly. I assume they're written from the perspective of someone running the Python driver, which obviously isn't always the case."
+  , issueState = "closed"
+  , issueId = Id 35929154
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

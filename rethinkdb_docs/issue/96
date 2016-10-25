@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-22) 07 : 40 : 37 UTC
+  , issueUpdatedAt = 2014 (-07) (-12) 18 : 24 : 03 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/96/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/96"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 96
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Mlucy index nicities (See review 1022)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/96"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/96.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/96.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/96"
+  , issueCreatedAt = 2013 (-11) (-22) 01 : 43 : 35 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 23112481
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

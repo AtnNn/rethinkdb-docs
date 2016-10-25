@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-10) 23 : 37 : 11 UTC
+  , issueUpdatedAt = 2013 (-12) (-10) 23 : 37 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/35/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/35"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 35
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 706854
+          , simpleUserLogin = N "AtnNn"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/706854?v=3"
+          , simpleUserUrl = "https://api.github.com/users/AtnNn"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Build instructions: use git instead of tgz"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/35"
+  , issueCreatedAt = 2013 (-10) (-25) 22 : 46 : 21 UTC
+  , issueBody =
+      Just
+        "Rewrite the generic build instructions to use git as a source instead of a tgz."
+  , issueState = "closed"
+  , issueId = Id 21620818
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

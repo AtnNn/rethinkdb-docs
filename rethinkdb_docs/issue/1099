@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-03) 21 : 36 : 56 UTC
+  , issueUpdatedAt = 2016 (-05) (-03) 21 : 36 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1099/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1099"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1099
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 67937
+        , simpleUserLogin = N "encryptio"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/67937?v=3"
+        , simpleUserUrl = "https://api.github.com/users/encryptio"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "\"match\" documentation links to unhelpful code.google.com redirect"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1099"
+  , issueCreatedAt = 2016 (-04) (-25) 21 : 52 : 38 UTC
+  , issueBody =
+      Just
+        "```\r\nReQL Command: match\r\n[...snip...]\r\nAccepts RE2 syntax (https://code.google.com/p/re2/wiki/Syntax).\r\n```\r\n\r\nBut that link leads to a redirect to the github project at https://github.com/google/re2, but to the front page of the source code, not its syntax page. It's not clear at all where to click to get a syntax list from there.\r\n\r\nWe should change it to link to `https://github.com/google/re2/wiki/Syntax`, which is the equivalent link after the github migration (and contains the same content.)"
+  , issueState = "closed"
+  , issueId = Id 150991213
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

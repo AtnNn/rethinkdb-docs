@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-13) 17 : 20 : 21 UTC
+  , issueUpdatedAt = 2015 (-05) (-13) 17 : 20 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/736/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/736"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 736
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1040016
+        , simpleUserLogin = N "Strikeskids"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1040016?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Strikeskids"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clarify the date and time modification section"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/736"
+  , issueCreatedAt = 2015 (-04) (-26) 14 : 20 : 30 UTC
+  , issueBody =
+      Just
+        "This clarification concerns this [section](https://github.com/rethinkdb/docs/blob/master/2-query-language/dates-and-times/python.md#modifying-times)\r\n\r\nHere, both examples for subtracting two times or adding a number to a time produce a, as the output, a number. This could be confusing to the reader that misses the conversion `to_epoch_time()` in the first example and the lack of such a conversion in the second. Perhaps, using more recent times and not converting `to_epoch_time()` could assist in assuaging this confusion.\r\n"
+  , issueState = "closed"
+  , issueId = Id 71075313
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

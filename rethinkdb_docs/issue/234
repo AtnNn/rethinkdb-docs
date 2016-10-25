@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-07) 17 : 44 : 45 UTC
+  , issueUpdatedAt = 2014 (-08) (-07) 17 : 44 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/234/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/234"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "fbca04"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/system"
+          , labelName = "system"
+          }
+      ]
+  , issueNumber = 234
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 706854
+          , simpleUserLogin = N "AtnNn"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/706854?v=3"
+          , simpleUserUrl = "https://api.github.com/users/AtnNn"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Query results formatting is wrong in the python docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/234"
+  , issueCreatedAt = 2014 (-03) (-24) 21 : 56 : 18 UTC
+  , issueBody =
+      Just
+        "For example, in the documentation for group:\r\n\r\n```\r\n>>> r.table('games').group('player').run(conn)\r\n\r\nResult:\r\n\r\n>>> {\r\n...     \"Alice\": [\r\n...         {\"id\": 5, \"player\": \"Alice\", \"points\": 7, \"type\": \"free\"},\r\n...         {\"id\": 12, \"player\": \"Alice\", \"points\": 2, \"type\": \"free\"}\r\n...     ],\r\n...     \"Bob\": [\r\n...         {\"id\": 2, \"player\": \"Bob\", \"points\": 15, \"type\": \"ranked\"},\r\n...         {\"id\": 11, \"player\": \"Bob\", \"points\": 10, \"type\": \"free\"}\r\n...     ]\r\n... }\r\n```\r\n\r\nAnd the example for downcase:\r\n\r\n```\r\n>>> > r.expr(\"Sentence about LaTeX.\").downcase().run(conn)\r\n... \"sentence about latex.\"\r\n```\r\n\r\nI don't think it is worth delaying the release for this."
+  , issueState = "closed"
+  , issueId = Id 30079233
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

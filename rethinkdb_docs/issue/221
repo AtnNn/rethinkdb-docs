@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-13) 23 : 49 : 33 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 28 : 46 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/221/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/221"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 221
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Michel group polish - Part 1"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/221"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/221.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/221.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/221"
+  , issueCreatedAt = 2014 (-03) (-13) 23 : 34 : 59 UTC
+  , issueBody =
+      Just
+        "First part of #219 \r\n\r\n- Add a link \"read more\" that was missing\r\n- Add a missing `run` for `group`\r\n- Use full data set and remove `...`\r\n- Add data set for `ungroup` (the same than the one for `group`)\r\n\r\n\r\n@mlucy -- could you take a quick look at that?"
+  , issueState = "closed"
+  , issueId = Id 29399350
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

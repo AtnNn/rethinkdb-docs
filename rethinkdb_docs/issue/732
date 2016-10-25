@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-24) 17 : 41 : 59 UTC
+  , issueUpdatedAt = 2015 (-04) (-24) 17 : 42 : 05 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/732/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/732"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 732
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44855
+        , simpleUserLogin = N "chrisvariety"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44855?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chrisvariety"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix formatting error on Sharding and replication"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/732"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/732.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/732.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/732"
+  , issueCreatedAt = 2015 (-04) (-24) 17 : 39 : 44 UTC
+  , issueBody = Just "I have signed the CLA  :sparkles:"
+  , issueState = "closed"
+  , issueId = Id 70749971
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

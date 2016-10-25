@@ -1,0 +1,46 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 20 : 42 : 49 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 43 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/156/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/156"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 156
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document programmatic cluster administration"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/156"
+  , issueCreatedAt = 2013 (-12) (-20) 08 : 23 : 46 UTC
+  , issueBody =
+      Just
+        "The `rethinkdb admin` tool is undocumented on the website, and users are having trouble with figuring out how to administer clusters when manual administration isn't feasible (see https://github.com/rethinkdb/rethinkdb/issues/1792 for an example set of questions).\r\n\r\nWe should have a page \"Programmatic cluster administration\" (or something of the sort) in the docs that gives a primer for `rethinkdb admin`."
+  , issueState = "closed"
+  , issueId = Id 24610089
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

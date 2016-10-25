@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 21 : 04 : 23 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 08 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/445/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/445"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 445
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 505365
+          , simpleUserLogin = N "danielmewes"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/505365?v=3"
+          , simpleUserUrl = "https://api.github.com/users/danielmewes"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Publish benchmarks"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/445"
+  , issueCreatedAt = 2014 (-08) (-08) 22 : 06 : 01 UTC
+  , issueBody =
+      Just
+        "A lot of users want to know how performant RethinkDB is and how it compares to other databases.\r\n\r\nAbout a year ago we ran some benchmarks with YCSB. Perhaps we can revive those and write an article about it with nice graphs and disclaimers."
+  , issueState = "closed"
+  , issueId = Id 39867185
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

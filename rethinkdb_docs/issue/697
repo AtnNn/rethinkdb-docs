@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2015 (-06) (-02) 03 : 19 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/697/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/697"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 697
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Some more examples for the cookbook"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/697"
+  , issueCreatedAt = 2015 (-04) (-01) 00 : 48 : 13 UTC
+  , issueBody =
+      Just
+        "Here are some possible solutions to problems I have helped users solve. It might help them if they were in the cookbook or the secondary index page.\r\n\r\n### Filter by one field and order by another\r\n\r\nA naive query would look like\r\n\r\n```\r\n.filter(r.row['a'] == val).orderBy('b')\r\n```\r\n\r\nIt is tempting to try to optimize it like this, but it doesn't work because explanation.\r\n\r\n```\r\n.indexCreate('a')\r\n.indexCreate('b')\r\n.getAll(val, {index: 'a'}).orderBy({index: 'b'}) # error\r\n```\r\n\r\nA compound index could be used instead.\r\n\r\n```\r\n.indexCreate('a_b', [r.row('a'), r.row('b')])\r\n.between([val, r.minval], [val, r.maxval], {index: 'a_b'}).orderBy({index: 'a_b'})\r\n```\r\n\r\n### Tags\r\n\r\nDisjunction:\r\n\r\n```\r\n.indexCreate('tags', {multi: true})\r\n.getAll('hunting', 'fishing', {index: 'tags'})\r\n```\r\n\r\nConjuntion:\r\n\r\n```\r\n.indexCreate('tags_powerset',\r\n    r.row('tags').orderBy(function(a){return a}).map(\r\n        function(elem){ return [[], [elem]]}).reduce(function(as,bs){\r\n            return as.concatMap(function(a){ return bs.map(function(b){ return a.add(b)})})}),\r\n  {multi: true})\r\n.getAll(r.expr(['cooking', 'asia']).orderBy(r.row), {index: 'tags_powerset'})\r\n```\r\n\r\n### Multiple queries in a single request\r\n\r\nHomogeneous write queries:\r\n\r\n```\r\nvar query = function(param){ return ... };\r\nr.expr([1,2,3,'a','b']).forEach(query)\r\n```\r\n\r\nHomogeneous read queries:\r\n\r\n```\r\nvar query = function(param){ return ... };\r\nr.expr([1,2,3,'a','b']).concatMap(query)\r\n```\r\n\r\nHeterogeneous queries:\r\n\r\n```\r\nvar query1 = function(){ return ... };\r\nvar query2 = function(query1_result){ return ... /* a stream */ };\r\nvar query3 = function(query2_result){ return ... });\r\nquery1().do(function(query1_result){\r\n    return query2(query1_result).coerceTo('array').do(function(query2_result){\r\n        return query3(query2_result)})})\r\n```"
+  , issueState = "open"
+  , issueId = Id 65577037
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

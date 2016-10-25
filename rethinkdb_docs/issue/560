@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-20) 22 : 21 : 08 UTC
+  , issueUpdatedAt = 2015 (-04) (-20) 22 : 21 : 08 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/560/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/560"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 560
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 91193
+          , simpleUserLogin = N "mglukhovsky"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/91193?v=3"
+          , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update community page"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/560"
+  , issueCreatedAt = 2014 (-10) (-20) 18 : 29 : 02 UTC
+  , issueBody =
+      Just
+        "I'd like to merge issue #556 and #185 into this one, and consider reorganizing this page. A possible outline:\r\n\r\n* Recent videos\r\n\t* Six recent ones (curated)\r\n\t* Link to YouTube channel for the rest\r\n* Participate\r\n\t* Meetup calendar\r\n\t* Mailing list\r\n\t* IRC\r\n\t* Twitter\r\n* Contribute\r\n\t* Submit a bug report\r\n\t* Write a driver\r\n\t* Fork the database\r\n\t* Improve the documentation\r\n\t* Sign the contributor agreement\r\n* List of contributors\r\n"
+  , issueState = "closed"
+  , issueId = Id 46309177
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

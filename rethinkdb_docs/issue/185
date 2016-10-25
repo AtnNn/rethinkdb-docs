@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-21) 22 : 54 : 26 UTC
+  , issueUpdatedAt = 2014 (-10) (-21) 22 : 54 : 26 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/185/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/185"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 185
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Contributors section"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/185"
+  , issueCreatedAt = 2014 (-01) (-24) 09 : 11 : 09 UTC
+  , issueBody =
+      Just
+        "We need a contributors section that explains how people can help with docs, write drivers, help with the Web UI development, etc."
+  , issueState = "closed"
+  , issueId = Id 26227587
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

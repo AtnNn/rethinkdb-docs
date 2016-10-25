@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-07) 18 : 31 : 27 UTC
+  , issueUpdatedAt = 2016 (-05) (-07) 18 : 31 : 27 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1115/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1115"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1115
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document --cluster-reconnect-timeout option"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1115"
+  , issueCreatedAt = 2016 (-05) (-05) 18 : 56 : 51 UTC
+  , issueBody =
+      Just
+        "RethinkDB 2.3.2 will have a new command line option `--cluster-reconnect-timeout`, added by @mbroadst via https://github.com/rethinkdb/rethinkdb/pull/5701 .\r\n\r\nIf a RethinkDB server A gets connected to a second server B (typically because one of them is passed the other's address the `--join` option) and then loses the connection, it will try to reconnect to server B periodically. If it cannot re-establish the connection for 24 hours, it gives up. The new `--cluster-reconnect-timeout` option controls this timeout. The option must be specified in seconds, with the default being `24*60*60`."
+  , issueState = "closed"
+  , issueId = Id 153299024
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-29) 20 : 09 : 03 UTC
+  , issueUpdatedAt = 2014 (-11) (-29) 20 : 09 : 03 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/588/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/588"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 588
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9854
+        , simpleUserLogin = N "brandondrew"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/9854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/brandondrew"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "The server must be started or nothing works"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/588"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/588.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/588.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/588"
+  , issueCreatedAt = 2014 (-11) (-29) 04 : 12 : 10 UTC
+  , issueBody =
+      Just "Nowhere did the directions mention this important detail."
+  , issueState = "closed"
+  , issueId = Id 50414582
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

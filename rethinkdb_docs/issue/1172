@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 18 : 18 : 21 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 18 : 18 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1172/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1172"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1172
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Updated Java driver versions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1172"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1172.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1172.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1172"
+  , issueCreatedAt = 2016 (-08) (-30) 18 : 14 : 48 UTC
+  , issueBody =
+      Just
+        "Our latest available driver version is 2.3.3.\r\n\r\n@chipotle "
+  , issueState = "closed"
+  , issueId = Id 174087935
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

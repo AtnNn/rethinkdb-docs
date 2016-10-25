@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-08) 19 : 50 : 12 UTC
+  , issueUpdatedAt = 2014 (-06) (-10) 19 : 51 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/130/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/130"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 130
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document r.and/r.or in the python and ruby api documentation"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/130"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/130.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/130.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/130"
+  , issueCreatedAt = 2013 (-12) (-11) 05 : 36 : 46 UTC
+  , issueBody =
+      Just
+        "See issue rethinkdb/rethinkdb#1582 for discussion.\r\n\r\nIn the python client, r.and_ and r.or_ were added.  In addition, r.and and r.or in the ruby client were undocumented.  These commits fix the documentation to be up-to-date.  Section headings for '&' and '|' have been changed to be '&, and' and '|, or', and more syntax/examples were added to show valid usage.\r\n\r\nIn addition, the python `or.md` file suffered from some copy/paste problems that have been fixed."
+  , issueState = "closed"
+  , issueId = Id 24087434
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

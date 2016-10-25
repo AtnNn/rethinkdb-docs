@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-23) 23 : 53 : 27 UTC
+  , issueUpdatedAt = 2014 (-06) (-23) 23 : 53 : 27 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/303/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/303"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 303
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add info about r.branch to troubleshooting"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/303"
+  , issueCreatedAt = 2014 (-05) (-21) 22 : 05 : 28 UTC
+  , issueBody =
+      Just
+        "There should be a question in the troubleshooting section explaining when you should use the `r.branch` command instead of `if` or other native language constructs, and why."
+  , issueState = "closed"
+  , issueId = Id 34029412
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

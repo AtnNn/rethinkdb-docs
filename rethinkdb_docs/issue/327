@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-01) 17 : 25 : 32 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 22 : 16 : 55 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/327/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/327"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "006b75"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/style"
+          , labelName = "style"
+          }
+      ]
+  , issueNumber = 327
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 1777134
+          , simpleUserLogin = N "mlucy"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/1777134?v=3"
+          , simpleUserUrl = "https://api.github.com/users/mlucy"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Format of examples and responses"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/327"
+  , issueCreatedAt = 2014 (-05) (-29) 20 : 57 : 29 UTC
+  , issueBody =
+      Just
+        "So, our formatting for the results of examples is sort of inconsistent right now:\r\n\r\nIn JS we tend to do this:\r\nhttp://rethinkdb.com/api/javascript/split/\r\n\r\nIn Python and Ruby we tend do this:\r\nhttp://rethinkdb.com/api/ruby/split/\r\n\r\nBut I think there are some Python/Ruby docs where we use the JS notation instead.\r\n\r\nI like the latter one a lot more, and think we should standardize on it for all examples/responses.  It's shorter, and it groups the examples and responses together tightly so it's easier to scan.\r\n\r\nMy second preference would be to standardize on the second one for Ruby and Python, since they aren't callback oriented and it looks more like what people will see.\r\n\r\n@neumino, @mglukhovsky, @coffeemug, @chipotle -- what do you think?"
+  , issueState = "closed"
+  , issueId = Id 34592334
+  , issueComments = 23
+  , issueMilestone = Nothing
+  }

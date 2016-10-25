@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-03) 22 : 40 : 54 UTC
+  , issueUpdatedAt = 2014 (-10) (-03) 22 : 40 : 54 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/534/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/534"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 534
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Update drivers page to add a category for actively developed vs. abandoned drivers"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/534"
+  , issueCreatedAt = 2014 (-10) (-03) 00 : 44 : 18 UTC
+  , issueBody =
+      Just
+        "Some of them are significantly out of date. Others are more up to date but lost us on the protobuf->json transition etc. This doesn't have to be constantly updated, but there are numerous drivers that are essentially abandoned."
+  , issueState = "closed"
+  , issueId = Id 44755853
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

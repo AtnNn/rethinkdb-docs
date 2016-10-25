@@ -1,0 +1,70 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 13 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/7/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/7"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fbca04"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/system"
+          , labelName = "system"
+          }
+      ]
+  , issueNumber = 7
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 91193
+          , simpleUserLogin = N "mglukhovsky"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/91193?v=3"
+          , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Bundle all the docs into a single page of a PDF manual"
+  , issuePullRequest = Nothing
+  , issueUrl = "https://api.github.com/repos/rethinkdb/docs/issues/7"
+  , issueCreatedAt = 2013 (-09) (-20) 21 : 51 : 31 UTC
+  , issueBody =
+      Just
+        "This would make it easier for someone to read all documentation in a linear way or to download it for reading offline."
+  , issueState = "open"
+  , issueId = Id 19843000
+  , issueComments = 5
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

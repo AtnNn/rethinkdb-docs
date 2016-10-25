@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-29) 21 : 25 : 52 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/176975543"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1005#issuecomment-176975543"
+  , issueCommentCreatedAt = 2016 (-01) (-29) 21 : 25 : 52 UTC
+  , issueCommentBody =
+      "The \"live backup\" part was also mentioned in https://github.com/rethinkdb/docs/issues/921#issuecomment-175770816 .\r\n\r\nI'm not quite sure if there's a good answer to the \"recommended ratio\" question. In most cases the answer is probably 0 non-voting replicas, but there are special scenarios where they can help to tune trade-offs between write latency and replication. The primary use case is probably in the context of multi-datacenter setups.\r\n\r\n:+1: on giving more information on how non-voting replicas behave in our docs. To briefly sketch the answers to the points you mention:\r\n* \"are they taken into account on tables with \"majority\" writes\"\r\n  No, non-voting replicas are not taken into account for reaching the majority quorum.\\\r\n* \"do they give some kind of overhead so I can't delegate non-voting replicas to modest hardware\"\r\n  If a non-voting replica is too slow to absorb the continuous write rate on a table, the primary will start throttling writes until it has caught up. So there is an impact if the non-voting replica is slower in its write throughput than the rest of the replicas (latency matters much less though).\r\n  On the other hand up-to-date read queries will not be sent to a non-voting replica, so it's often ok to use more modest hardware since it doesn't need to handle read load."
+  , issueCommentId = 176975543
+  }

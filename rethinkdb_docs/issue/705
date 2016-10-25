@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-14) 00 : 59 : 24 UTC
+  , issueUpdatedAt = 2015 (-04) (-14) 00 : 59 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/705/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/705"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 705
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document that `union` is variadic"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/705"
+  , issueCreatedAt = 2015 (-04) (-08) 19 : 18 : 07 UTC
+  , issueBody =
+      Just
+        "`union` can be used with multiple arguments, for example:\r\n```js\r\nr.expr([1]).union([2], [3], [4])\r\n```\r\n\r\nHowever we don't mention that in\r\nhttp://rethinkdb.com/api/javascript/union/\r\n\r\n(also tangentially related to https://github.com/rethinkdb/rethinkdb/issues/4030 )"
+  , issueState = "closed"
+  , issueId = Id 67199518
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

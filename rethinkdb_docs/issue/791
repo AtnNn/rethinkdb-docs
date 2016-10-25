@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-16) 00 : 45 : 47 UTC
+  , issueUpdatedAt = 2015 (-06) (-16) 00 : 45 : 47 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/791/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/791"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 791
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Explain availability in Raft"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/791"
+  , issueCreatedAt = 2015 (-06) (-12) 18 : 25 : 20 UTC
+  , issueBody =
+      Just
+        "I think this is already partially covered in other documents such as the one on the emergency repair command (https://github.com/rethinkdb/docs/issues/787) or the one on consistency settings (https://github.com/rethinkdb/docs/issues/770).\r\n\r\nHowever it would be nice to have one place (similar to #770) which explains under which circumstances one can expect a given table to be available for outdated reads, reads, writes and reconfiguration. If it's short enough we might also be able to just put it into the FAQ.\r\n\r\nMy understanding is that the following criteria are necessary to ensure that these operations are possible on a given table (or at least will eventually become possible, after all configuration has been applied). I'm not going to differentiate between different shards here, even though sometimes operations might be available on the key range of one shard but not another. This also ignores cases of non-transitive connectivity.\r\n\r\n*Outdated reads* (`read_mode=\"outdated\"`): At least one replica for each shard must be available\r\n\r\n*Reads* (`read_mode=\"single\"`, the default): The primary for each shard must be available. Maintaining this requires that a majority of replicas for each shard, as well as a majority of replicas of the table overall are available. (@timmaxw I'm fuzzy on the details here. If we lose the majority of replicas, will the primary step down or will it formally remain a \"primary\" but reply to up to date reads with an error?) Note that reads can remain possible for an unbounded period, even if a majority of replicas of the overall table is not available, as long as enough replicas are available for each shard.\r\n\r\n*Majority reads* (`read_mode=\"majority\"`): Effectively the same as for single reads I think. A majority of replicas for each shard as well as a majority of replicas of the whole table must be available.\r\n\r\n*Writes*: Like for majority reads, regardless of the `write_acks` setting.\r\n\r\n*Reconfiguration*: Like for majority reads\r\n\r\n\r\n@timmaxw does this summary look correct?"
+  , issueState = "closed"
+  , issueId = Id 87811761
+  , issueComments = 3
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 167416
+                , simpleUserLogin = N "VeXocide"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/167416?v=3"
+                , simpleUserUrl = "https://api.github.com/users/VeXocide"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 8
+          , milestoneClosedIssues = 24
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.1"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/8"
+          , milestoneCreatedAt = 2015 (-03) (-30) 22 : 32 : 47 UTC
+          , milestoneState = "closed"
+          }
+  }

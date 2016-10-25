@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-29) 16 : 33 : 33 UTC
+  , issueUpdatedAt = 2015 (-05) (-29) 16 : 33 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/776/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/776"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 776
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Reduce prominence of the Publish-subscribe article and repo"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/776"
+  , issueCreatedAt = 2015 (-05) (-21) 18 : 35 : 59 UTC
+  , issueBody =
+      Just
+        "Not sure what the best way to do this would be, open to suggestions. https://github.com/rethinkdb/example-pubsub/issues/6#issuecomment-104342400 and other issues on the rethinkdb/example-pubsub repo indicate people are getting sucked in there when they are basically looking for how to use changefeeds. The goal of that repo is to show how changefeeds can be used in a similar way to topics in message queues, not as the main way people should be using changefeeds.\r\n\r\nMy suggestion is to add a disclaimer to the publish subscribe article and the repo README indicating that if they just want to subscribe to notifications on queries, they should check out the changefeeds article.\r\n\r\nGiven how small the use case is for this kind of library, it may make sense to unlink it from the website and deprecate the repo to ensure more people don't get ensnared by it. But that may be too drastic.\r\n\r\n@mglukhovsky @coffeemug suggestions?"
+  , issueState = "closed"
+  , issueId = Id 79112992
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

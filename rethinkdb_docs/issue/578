@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-23) 01 : 39 : 00 UTC
+  , issueUpdatedAt = 2014 (-12) (-23) 01 : 39 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/578/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/578"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 578
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Suggest rethinkdb on DevDocs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/578"
+  , issueCreatedAt = 2014 (-11) (-14) 22 : 12 : 17 UTC
+  , issueBody =
+      Just
+        "Moved from @christian-raedel https://github.com/rethinkdb/rethinkdb/issues/3325\r\n\r\nHi,\r\n\r\nit would be nice to see rethinkdb's documentations listed on [DevDocs](http://devdocs.io). Please have a look at [this trello card](https://trello.com/c/PVnfdeaN/26-suggest-new-docs-here) and make a suggestion, if possible.\r\n\r\nRegards,\r\nChristian"
+  , issueState = "closed"
+  , issueId = Id 48846515
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

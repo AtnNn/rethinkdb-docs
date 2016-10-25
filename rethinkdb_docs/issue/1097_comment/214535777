@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-25) 21 : 42 : 31 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 159819
+        , simpleUserLogin = N "cefn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/159819?v=3"
+        , simpleUserUrl = "https://api.github.com/users/cefn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/214535777"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1097#issuecomment-214535777"
+  , issueCommentCreatedAt = 2016 (-04) (-25) 21 : 42 : 31 UTC
+  , issueCommentBody =
+      "Be glad of the clarification, but that wording already misleads that the operations might do some updating or inserting when embedded in update, and they don't, although potentially they could. I found myself experimentally writing, for example...\r\n\r\n```javascript\r\nr.table(\"christmassongs\").get(\"Twelve Days\").update(r.row(\"sequence\").append(\"Two Turtle Doves\")).run(conn);\r\n```\r\n\r\n...as would be suggested by the idea that when 'used with update or replace' they manipulate the row fields, which I don't think is true in this form. \r\n\r\nOf course it would be feasible to add explicit support for this as an explicit way to overload update(...), causing document values to be manipulated, but I understand you want to keep r.row() as a retrieval-only mechanism.\r\n\r\nIs the efficiency of the following as bad as one might fear...\r\n\r\n```javascript\r\nr.table(\"sesame street\").get(\"the count\").update({\r\n   pencils:r.row(\"pencils\").append(\"One Million\"),\r\n}).run(conn);\r\n```\r\n\r\n...or is it doing some smart work in the planner to avoid literally retrieving a million array entries and writing them back?"
+  , issueCommentId = 214535777
+  }

@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 18 : 37 : 26 UTC
+  , issueUpdatedAt = 2014 (-05) (-29) 18 : 37 : 26 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/55/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/55"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 55
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add documentation: config files"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/55"
+  , issueCreatedAt = 2013 (-10) (-28) 22 : 45 : 03 UTC
+  , issueBody =
+      Just
+        "As requested by @jprichardson:\r\n\r\n> I wish there was comprehensive documentation on the RethinkDB configuration file. All I see is this: http://www.rethinkdb.com/docs/cluster-on-startup/ while, it's acceptable, it's not as good as it should be.\r\n\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 21726514
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

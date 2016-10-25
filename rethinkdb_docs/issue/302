@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-20) 23 : 26 : 45 UTC
+  , issueUpdatedAt = 2014 (-05) (-21) 00 : 35 : 27 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/302/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/302"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 302
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update index descriptions to match command docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/302"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/302.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/302.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/302"
+  , issueCreatedAt = 2014 (-05) (-20) 23 : 25 : 12 UTC
+  , issueBody =
+      Just
+        "Noticed the older language was still in the index files, but only after the previous merge."
+  , issueState = "closed"
+  , issueId = Id 33939342
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

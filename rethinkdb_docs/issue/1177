@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-12) 17 : 15 : 21 UTC
+  , issueUpdatedAt = 2016 (-09) (-12) 17 : 15 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1177/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1177"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1177
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2309278
+        , simpleUserLogin = N "ElementLi"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2309278?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ElementLi"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "A typo in security.md"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1177"
+  , issueCreatedAt = 2016 (-09) (-11) 10 : 09 : 48 UTC
+  , issueBody =
+      Just
+        "`rethindb --cluster-tls-key key.pem --cluster-tls-cert cert.pem --cluster-tls-ca cert.pem`\r\n\r\n`rethinkdb` instead of `rethindb` "
+  , issueState = "closed"
+  , issueId = Id 176236462
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

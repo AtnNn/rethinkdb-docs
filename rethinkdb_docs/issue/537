@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-06) 22 : 16 : 12 UTC
+  , issueUpdatedAt = 2014 (-10) (-06) 22 : 16 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/537/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/537"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 537
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "The r.connect api page should link to docs about auth_key"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/537"
+  , issueCreatedAt = 2014 (-10) (-06) 18 : 24 : 46 UTC
+  , issueBody =
+      Just
+        "The best docs I found were on the \"securing your cluster\" page. I don't know if there's more comprehensive documentation on the auth key.\r\n\r\n__Tacking this on__:\r\nThe authentication docs are also misleading as to what protection the auth_key provides.\r\nIt should be really really clear that it provides no encryption whatsoever.\r\nIt is only helpful when:\r\n\r\n1. an attacker or co-user of one of your servers gains non-root access to a machine in your network. They typically won't be able to connect to the database then, and cannot sniff the auth key from the network.\r\n2.  In a network where you are sure that clients only connect through paths that cannot be intercepted, but you don't want to set up a firewall to restrict access to the client port from the outside.\r\n\r\nThere should probably be an admonition to not use the auth_key without SSL or SSH tunnelling set up."
+  , issueState = "closed"
+  , issueId = Id 45017340
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-01) 01 : 42 : 09 UTC
+  , issueUpdatedAt = 2016 (-03) (-01) 01 : 42 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/991/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/991"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 991
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2683571
+        , simpleUserLogin = N "mikethejet"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2683571?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mikethejet"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "missiing brackets"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/991"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/991.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/991.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/991"
+  , issueCreatedAt = 2016 (-01) (-03) 13 : 47 : 37 UTC
+  , issueBody =
+      Just "added left \"{\" to options {durability=\"soft\"}"
+  , issueState = "closed"
+  , issueId = Id 124649631
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

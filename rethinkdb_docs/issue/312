@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-23) 21 : 30 : 05 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 17 : 23 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/312/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/312"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 312
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 660288
+        , simpleUserLogin = N "gaborcsardi"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/660288?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gaborcsardi"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix quote typos in elections example"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/312"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/312.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/312.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/312"
+  , issueCreatedAt = 2014 (-05) (-23) 07 : 41 : 10 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 34152249
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

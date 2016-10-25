@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-15) 19 : 22 : 06 UTC
+  , issueUpdatedAt = 2015 (-12) (-15) 19 : 22 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/976/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/976"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 976
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Java `run` documentation is outdated"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/976"
+  , issueCreatedAt = 2015 (-12) (-09) 04 : 30 : 29 UTC
+  , issueBody =
+      Just
+        "It still described the `use_outdated` optarg rather than the new `read_mode` argument.\r\n\r\nThe same is true for `runNoReply`."
+  , issueState = "closed"
+  , issueId = Id 121158498
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

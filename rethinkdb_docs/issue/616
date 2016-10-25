@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-09) 21 : 15 : 54 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 31 : 07 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/616/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/616"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 616
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Use rethinkdb-latest instead of version-qualified link"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/616"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/616.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/616.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/616"
+  , issueCreatedAt = 2015 (-01) (-09) 21 : 11 : 09 UTC
+  , issueBody =
+      Just
+        "The package for this release is named `rethinkdb-1.15.3-1.dmg` instead of `rethinkdb-1.15.3.dmg`. `rethinkdb-latest.dmg` always points to the latest release."
+  , issueState = "closed"
+  , issueId = Id 53915304
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

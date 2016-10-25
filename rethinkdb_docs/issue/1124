@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-16) 17 : 35 : 07 UTC
+  , issueUpdatedAt = 2016 (-05) (-16) 17 : 35 : 07 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1124/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1124"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1124
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10092343
+        , simpleUserLogin = N "dineyw23"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10092343?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dineyw23"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "As a beginner, I would like to have a search bar on docs and api pages."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1124"
+  , issueCreatedAt = 2016 (-05) (-16) 03 : 56 : 07 UTC
+  , issueBody =
+      Just
+        "I understand the documentation is static pages and there are alternate ways to search for examples. As a beginner, I refer the docs frequently and have a hard time searching function's example. \r\n"
+  , issueState = "closed"
+  , issueId = Id 154956245
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

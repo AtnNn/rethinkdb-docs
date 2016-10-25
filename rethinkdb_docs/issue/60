@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-29) 20 : 20 : 52 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 24 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/60/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/60"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 60
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Redirect API page to JS"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/60"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/60.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/60.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/60"
+  , issueCreatedAt = 2013 (-10) (-29) 20 : 06 : 57 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 21784046
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

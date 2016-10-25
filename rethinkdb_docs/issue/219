@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 16 : 19 : 28 UTC
+  , issueUpdatedAt = 2014 (-05) (-29) 16 : 19 : 28 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/219/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/219"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 219
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Polish docs for group"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/219"
+  , issueCreatedAt = 2014 (-03) (-13) 01 : 28 : 29 UTC
+  , issueBody =
+      Just
+        "- Add a style to split description from example or group the description at the top.\r\n- We should mention that `sum` is not going to concatenate strings.\r\n- ~~It would be better to have a full dataset and show the full results instead of having some `...` everywhere~~\r\n- For `avg`, it would be nice to have the input/output\r\n- I really don't like `frozenset` in Python. I would like to push this example further down in the docs.\r\n\r\nExtras stuff -- I may open a new issue later for them\r\n- `contains` deserve a better example. Many people use it as a `or`\r\n- Improve `concat_map`\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 29319224
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

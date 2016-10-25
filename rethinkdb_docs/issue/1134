@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-03) 21 : 03 : 23 UTC
+  , issueUpdatedAt = 2016 (-06) (-03) 21 : 03 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1134/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1134"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 1134
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Improvement to eachAsync documentation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1134"
+  , issueCreatedAt = 2016 (-06) (-01) 22 : 17 : 20 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/api/javascript/each_async/\r\n\r\nFrom https://github.com/rethinkdb/rethinkdb/issues/5771#issue-155187190 : \r\n> The docs say \"If you do not use rowFinished, the rowProcess callback can end iteration early by returning any value other than a Promise; that value will be wrapped in an error object and passed to final if it is provided.\", but instead final seems to always receive the same error: \"Row handler for eachAsync may only return a Promise or undefined.\""
+  , issueState = "closed"
+  , issueId = Id 158019579
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

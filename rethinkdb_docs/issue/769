@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-29) 23 : 23 : 12 UTC
+  , issueUpdatedAt = 2015 (-07) (-29) 23 : 23 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/769/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/769"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 769
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Error handling documentation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/769"
+  , issueCreatedAt = 2015 (-05) (-19) 21 : 18 : 22 UTC
+  , issueBody =
+      Just
+        "We don't document the kinds of errors that RethinkDB drivers may throw -- as far as I know, the official drivers have a standard set such as `RqlDriverError`, `RqlCompileError`, etc. We should consider whether it's worth adding a separate page that documents these and gives some advice on how to handle them.\r\n\r\n(This replaces #6, which is both old and poorly titled.)"
+  , issueState = "closed"
+  , issueId = Id 78253959
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

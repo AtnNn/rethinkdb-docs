@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-28) 20 : 27 : 25 UTC
+  , issueUpdatedAt = 2014 (-04) (-28) 20 : 27 : 25 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/284/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/284"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 284
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 17879
+        , simpleUserLogin = N "ravi"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/17879?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ravi"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Missing example for 'update' in JavaScript documentation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/284"
+  , issueCreatedAt = 2014 (-04) (-28) 13 : 25 : 58 UTC
+  , issueBody =
+      Just
+        "The JavaScript documentation for 'update' (http://rethinkdb.com/api/javascript/#update) has an example titled \"Update Superman's age to 30\", but the sample code is missing. The example should be removed or the sample code added:\r\n\r\n    r.table('marvel').get('superman').update({ age : 30 }).run(conn, callback)\r\n\r\n(I think!)"
+  , issueState = "closed"
+  , issueId = Id 32358663
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

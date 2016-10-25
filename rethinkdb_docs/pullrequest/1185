@@ -1,0 +1,163 @@
+PullRequest
+  { pullRequestClosedAt = Nothing
+  , pullRequestCreatedAt = 2016 (-10) (-05) 05 : 39 : 08 UTC
+  , pullRequestUser =
+      SimpleUser
+        { simpleUserId = Id 1479648
+        , simpleUserLogin = N "WuTheFWasThat"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1479648?v=3"
+        , simpleUserUrl = "https://api.github.com/users/WuTheFWasThat"
+        , simpleUserType = OwnerUser
+        }
+  , pullRequestPatchUrl =
+      "https://github.com/rethinkdb/docs/pull/1185.patch"
+  , pullRequestState = "open"
+  , pullRequestNumber = 1185
+  , pullRequestHtmlUrl =
+      "https://github.com/rethinkdb/docs/pull/1185"
+  , pullRequestUpdatedAt = 2016 (-10) (-05) 05 : 39 : 08 UTC
+  , pullRequestBody =
+      "- [ ] I have read and agreed to the RethinkDB Contributor License Agreement http://rethinkdb.com/community/cla/\r\n\r\n### Description\r\n<Please fill in the description of your pull request here. Thank you for your contribution!>\r\n\r\n"
+  , pullRequestIssueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1185"
+  , pullRequestDiffUrl =
+      "https://github.com/rethinkdb/docs/pull/1185.diff"
+  , pullRequestUrl =
+      "https://api.github.com/repos/rethinkdb/docs/pulls/1185"
+  , pullRequestLinks =
+      PullRequestLinks
+        { pullRequestLinksReviewComments =
+            "https://api.github.com/repos/rethinkdb/docs/pulls/1185/comments"
+        , pullRequestLinksComments =
+            "https://api.github.com/repos/rethinkdb/docs/issues/1185/comments"
+        , pullRequestLinksHtml =
+            "https://github.com/rethinkdb/docs/pull/1185"
+        , pullRequestLinksSelf =
+            "https://api.github.com/repos/rethinkdb/docs/pulls/1185"
+        }
+  , pullRequestMergedAt = Nothing
+  , pullRequestTitle = "bronze medalist = 3rd place = index 2?"
+  , pullRequestId = 88019061
+  , pullRequestMergedBy = Nothing
+  , pullRequestChangedFiles = 1
+  , pullRequestHead =
+      PullRequestCommit
+        { pullRequestCommitLabel = "WuTheFWasThat:patch-1"
+        , pullRequestCommitRef = "patch-1"
+        , pullRequestCommitSha = "33c2982bccabc42414b8513024438d5872e12733"
+        , pullRequestCommitUser =
+            SimpleUser
+              { simpleUserId = Id 1479648
+              , simpleUserLogin = N "WuTheFWasThat"
+              , simpleUserAvatarUrl =
+                  "https://avatars.githubusercontent.com/u/1479648?v=3"
+              , simpleUserUrl = "https://api.github.com/users/WuTheFWasThat"
+              , simpleUserType = OwnerUser
+              }
+        , pullRequestCommitRepo =
+            Repo
+              { repoSshUrl = Just "git@github.com:WuTheFWasThat/docs.git"
+              , repoDescription = Just "RethinkDB documentation"
+              , repoCreatedAt = Just 2016 (-10) (-05) 05 : 38 : 37 UTC
+              , repoHtmlUrl = "https://github.com/WuTheFWasThat/docs"
+              , repoSvnUrl = Just "https://github.com/WuTheFWasThat/docs"
+              , repoForks = Just 0
+              , repoHomepage = Just "http://rethinkdb.com/docs"
+              , repoFork = Just True
+              , repoGitUrl = Just "git://github.com/WuTheFWasThat/docs.git"
+              , repoPrivate = False
+              , repoCloneUrl = Just "https://github.com/WuTheFWasThat/docs.git"
+              , repoSize = Just 21642
+              , repoUpdatedAt = Just 2016 (-10) (-05) 05 : 38 : 39 UTC
+              , repoWatchers = Just 0
+              , repoOwner =
+                  SimpleOwner
+                    { simpleOwnerId = Id 1479648
+                    , simpleOwnerLogin = N "WuTheFWasThat"
+                    , simpleOwnerUrl = "https://api.github.com/users/WuTheFWasThat"
+                    , simpleOwnerAvatarUrl =
+                        "https://avatars.githubusercontent.com/u/1479648?v=3"
+                    , simpleOwnerType = OwnerUser
+                    }
+              , repoName = N "docs"
+              , repoLanguage = Just (Language "CSS")
+              , repoMasterBranch = Nothing
+              , repoPushedAt = Just 2016 (-10) (-05) 05 : 39 : 00 UTC
+              , repoId = Id 70033061
+              , repoUrl = "https://api.github.com/repos/WuTheFWasThat/docs"
+              , repoOpenIssues = Just 0
+              , repoHasWiki = Just True
+              , repoHasIssues = Just False
+              , repoHasDownloads = Just True
+              , repoParent = Nothing
+              , repoSource = Nothing
+              , repoHooksUrl =
+                  "https://api.github.com/repos/WuTheFWasThat/docs/hooks"
+              , repoStargazersCount = 0
+              }
+        }
+  , pullRequestComments = 0
+  , pullRequestDeletions = 1
+  , pullRequestAdditions = 1
+  , pullRequestReviewComments = 0
+  , pullRequestBase =
+      PullRequestCommit
+        { pullRequestCommitLabel = "rethinkdb:master"
+        , pullRequestCommitRef = "master"
+        , pullRequestCommitSha = "e66b85168ffc09df6a597d1bce6f07651a9b13e1"
+        , pullRequestCommitUser =
+            SimpleUser
+              { simpleUserId = Id 1229647
+              , simpleUserLogin = N "rethinkdb"
+              , simpleUserAvatarUrl =
+                  "https://avatars.githubusercontent.com/u/1229647?v=3"
+              , simpleUserUrl = "https://api.github.com/users/rethinkdb"
+              , simpleUserType = OwnerOrganization
+              }
+        , pullRequestCommitRepo =
+            Repo
+              { repoSshUrl = Just "git@github.com:rethinkdb/docs.git"
+              , repoDescription = Just "RethinkDB documentation"
+              , repoCreatedAt = Just 2013 (-09) (-11) 01 : 08 : 40 UTC
+              , repoHtmlUrl = "https://github.com/rethinkdb/docs"
+              , repoSvnUrl = Just "https://github.com/rethinkdb/docs"
+              , repoForks = Just 154
+              , repoHomepage = Just "http://rethinkdb.com/docs"
+              , repoFork = Just False
+              , repoGitUrl = Just "git://github.com/rethinkdb/docs.git"
+              , repoPrivate = False
+              , repoCloneUrl = Just "https://github.com/rethinkdb/docs.git"
+              , repoSize = Just 22467
+              , repoUpdatedAt = Just 2016 (-10) (-17) 17 : 50 : 24 UTC
+              , repoWatchers = Just 71
+              , repoOwner =
+                  SimpleOwner
+                    { simpleOwnerId = Id 1229647
+                    , simpleOwnerLogin = N "rethinkdb"
+                    , simpleOwnerUrl = "https://api.github.com/users/rethinkdb"
+                    , simpleOwnerAvatarUrl =
+                        "https://avatars.githubusercontent.com/u/1229647?v=3"
+                    , simpleOwnerType = OwnerOrganization
+                    }
+              , repoName = N "docs"
+              , repoLanguage = Just (Language "CSS")
+              , repoMasterBranch = Nothing
+              , repoPushedAt = Just 2016 (-10) (-05) 05 : 39 : 08 UTC
+              , repoId = Id 12744481
+              , repoUrl = "https://api.github.com/repos/rethinkdb/docs"
+              , repoOpenIssues = Just 123
+              , repoHasWiki = Just True
+              , repoHasIssues = Just True
+              , repoHasDownloads = Just True
+              , repoParent = Nothing
+              , repoSource = Nothing
+              , repoHooksUrl =
+                  "https://api.github.com/repos/rethinkdb/docs/hooks"
+              , repoStargazersCount = 71
+              }
+        }
+  , pullRequestCommits = 1
+  , pullRequestMerged = False
+  , pullRequestMergeable = Just True
+  }

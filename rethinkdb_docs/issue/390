@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-30) 23 : 39 : 37 UTC
+  , issueUpdatedAt = 2014 (-06) (-30) 23 : 40 : 53 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/390/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/390"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 390
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 452020
+        , simpleUserLogin = N "npiv"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/452020?v=3"
+        , simpleUserUrl = "https://api.github.com/users/npiv"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Added Java Driver"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/390"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/390.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/390.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/390"
+  , issueCreatedAt = 2014 (-06) (-30) 13 : 08 : 04 UTC
+  , issueBody =
+      Just
+        "As recommended on the mailing list by Slava Akhmechet, I'd like to add a java driver.\r\n\r\nThis is more typed than the existing one and adds functionality for java 8 lambdas making overall syntax more terse. See the github page and docs for more info."
+  , issueState = "closed"
+  , issueId = Id 36795522
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-29) 18 : 05 : 48 UTC
+  , issueUpdatedAt = 2016 (-04) (-29) 18 : 05 : 48 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1106/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1106"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1106
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10736369
+        , simpleUserLogin = N "gangadharyelwande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10736369?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gangadharyelwande"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Pull request for issue numbers 1099,1101 and 1067"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1106"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1106.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1106.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1106"
+  , issueCreatedAt = 2016 (-04) (-29) 07 : 37 : 37 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 151810372
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

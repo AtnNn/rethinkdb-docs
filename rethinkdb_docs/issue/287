@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-29) 18 : 47 : 08 UTC
+  , issueUpdatedAt = 2014 (-08) (-15) 04 : 48 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/287/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/287"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 287
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 904055
+        , simpleUserLogin = N "ZackBoe"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/904055?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ZackBoe"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Change link to community drivers"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/287"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/287.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/287.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/287"
+  , issueCreatedAt = 2014 (-04) (-29) 01 : 46 : 28 UTC
+  , issueBody =
+      Just
+        "Came across this dead link in the docs.\r\nLooks like [rethinkdb/rethinkdb](https://github.com/rethinkdb/rethinkdb/wiki/) doesn't have a wiki enabled anymore.\r\n\r\nThis link also needs to be changed at [rethinkdb.com/community](http://rethinkdb.com/community/)"
+  , issueState = "closed"
+  , issueId = Id 32413641
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

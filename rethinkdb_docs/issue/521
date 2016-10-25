@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-01) 20 : 50 : 54 UTC
+  , issueUpdatedAt = 2014 (-10) (-01) 20 : 50 : 54 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/521/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/521"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 521
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add an FAQ on top of the geo article"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/521"
+  , issueCreatedAt = 2014 (-09) (-25) 18 : 11 : 30 UTC
+  , issueBody =
+      Just
+        "This doc http://rethinkdb.com/docs/geo-support should have a quick FAQ. Here are some questions asked by jimktrains2 on HN (https://news.ycombinator.com/item?id=8368558), and there probably will be more in that thread:\r\n\r\n- How many dimensions are supported?\r\n- Does this support many projections, or just a few. I see \"geoSystem: 'WGS84'\" which isn't an EPGS identifier. Along those lines, are distance calculations done on a geodesic, a plane, or is that configurable (some projections are a planer, others aren't).\r\n- Also, what does this mean? `geometry.distance(geometry[, {geoSystem: 'WGS84', unit: 'm'}])` Does this do a correct interpolation of degrees to meters along the path (again based on the projection) or is there a fixed constant?\r\n- Are there commands to export WKT or WKB?"
+  , issueState = "closed"
+  , issueId = Id 43949130
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-30) 18 : 36 : 30 UTC
+  , issueUpdatedAt = 2016 (-09) (-30) 18 : 36 : 30 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1176/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1176"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1176
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 78607
+        , simpleUserLogin = N "ei-grad"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/78607?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ei-grad"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix slice.md broken by merge"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1176"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1176.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1176.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1176"
+  , issueCreatedAt = 2016 (-09) (-04) 21 : 58 : 19 UTC
+  , issueBody =
+      Just
+        "This fixes 6ba42741395b19c68f8007edefbaebc048b0e5e2 which broke api/python/transformations/slice.md and api/ruby/transformations/slice.md."
+  , issueState = "closed"
+  , issueId = Id 174971930
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

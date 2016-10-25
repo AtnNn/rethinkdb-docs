@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-13) 01 : 07 : 02 UTC
+  , issueUpdatedAt = 2014 (-06) (-28) 03 : 08 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/199/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/199"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 199
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Reorganize the integration page -- See #198"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/199"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/199.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/199.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/199"
+  , issueCreatedAt = 2014 (-02) (-15) 02 : 11 : 59 UTC
+  , issueBody =
+      Just
+        "@mglukhovsky would you mind taking a look?\r\n\r\nI changed a little the organization, add some libraries and removed some."
+  , issueState = "closed"
+  , issueId = Id 27640702
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-14) 18 : 20 : 24 UTC
+  , issueUpdatedAt = 2014 (-07) (-26) 18 : 06 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/138/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/138"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 138
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Remove pyyaml from OSX instructions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/138"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/138.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/138.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/138"
+  , issueCreatedAt = 2013 (-12) (-11) 23 : 45 : 46 UTC
+  , issueBody =
+      Just
+        "All instructions for Linux distributions have been updated.\r\nThere was one mention of PyYaml left in the OS X instructions.\r\n\r\nThat should fix https://github.com/rethinkdb/docs/issues/78\r\n\r\nPing @atnnn -- Is there something else that need to be done for the OS X instructions? I'm thinking about\r\n- termcap\r\n- gperftools"
+  , issueState = "closed"
+  , issueId = Id 24147459
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,72 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-02) 18 : 42 : 43 UTC
+  , issueUpdatedAt = 2015 (-03) (-02) 18 : 43 : 39 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/601/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/601"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 601
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Server ops/monitoring and changefeeds documentation outlines"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/601"
+  , issueCreatedAt = 2014 (-12) (-05) 21 : 35 : 01 UTC
+  , issueBody =
+      Just
+        "@chipotle -- here is the outline I was talking about for server ops/monitoring:\r\n\r\n- Scale to multiple machines with a simple API\r\n  - Shard and replicate a table in seconds with a simple API (`reconfigure`)\r\n  - Apply replication settings to all tables in a database (`db.reconfigure`)\r\n  - Set up server tags and scale to multiple datacenters\r\n- Fine-grained control of your cluster\r\n  - Query full cluster configuration details (the `table_config` table)\r\n  - Change every last detail by writing to `table_config`\r\n- Detailed insight into cluster status\r\n  - View detailed status of everything in your cluster (`table_status`, `server_status`)\r\n  - Complete view into cluster issues (the `issues` table)\r\n  - Subscribe to status feeds (calling `changes` on system status tables)\r\n- Query cluster statistics \r\n  - The stats table\r\n  - Using ReQL on the stats table to slice/dice data\r\n- Full control of running jobs\r\n  - The `jobs` table\r\n  - Deleting from the `jobs` table to kill jobs\r\n\r\nAnd here is one for changefeeds:\r\n\r\n- View changes on a document in realtime (`t.get().changes()`)\r\n- Set up feeds on fine-grained queries (e.g. `t.between.changes`)\r\n- Aggregation feeds (e.g. `t.orderBy.changes`)\r\n- Latency awareness (the `squash` optarg to `changes`)\r\n- Scale your realtime app (a note on scalability and how many feeds a user can open)\r\n- Tutorials (we should rewrite our intro guides to be feed-centric)\r\n\r\nFeel free to take what feels right from these outlines and discard what feels wrong for 1.16. For 2.0, I'd like to do a couple of things:\r\n\r\n- Restructure docs hierarchy based on what we learned from users and how they think about the system\r\n- Link into specific doc pages from the landing page (in particular, with streaming/changefeeds, ops/monitoring, and FAQ). Since users will often click on those directly to learn about RethinkDB, we should put a bit more effort into explaining things in a specific way. The guides will also have to be feed-centric. This will be really important because it'll be on the path of users learning about the product.\r\n\r\nWe can talk about that once 1.16 is out, so I'm putting this issue into 2.0 milestone."
+  , issueState = "closed"
+  , issueId = Id 51148732
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 48436
+                , simpleUserLogin = N "coffeemug"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/48436?v=3"
+                , simpleUserUrl = "https://api.github.com/users/coffeemug"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 7
+          , milestoneClosedIssues = 12
+          , milestoneDescription = Just ""
+          , milestoneTitle = "2.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/7"
+          , milestoneCreatedAt = 2014 (-12) (-05) 21 : 34 : 57 UTC
+          , milestoneState = "closed"
+          }
+  }

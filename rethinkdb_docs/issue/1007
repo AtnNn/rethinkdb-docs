@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-08) 23 : 55 : 58 UTC
+  , issueUpdatedAt = 2016 (-02) (-08) 23 : 55 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1007/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1007"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1007
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add some libraries to the 'third-party libraries' page"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1007"
+  , issueCreatedAt = 2016 (-02) (-04) 22 : 24 : 52 UTC
+  , issueBody =
+      Just
+        "I received a note from @athlite about some RethinkDB libraries he's created -- should be added to the list of third-party-libraries.\r\n\r\n> I just want to submit a few tools I've made with nodejs. I hope you will post them to your website, and that someone will find them useful.\r\n> \r\n> https://github.com/athlite/rethinkdb-cli\r\n> https://github.com/athlite/hapi-rethinkdb-crud\r\n> https://github.com/athlite/rethinkdb-fixtures\r\n"
+  , issueState = "closed"
+  , issueId = Id 131491332
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

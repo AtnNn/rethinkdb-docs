@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-20) 23 : 06 : 36 UTC
+  , issueUpdatedAt = 2014 (-05) (-21) 22 : 52 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/300/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/300"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 300
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Expand examples for not command (#296)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/300"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/300.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/300.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/300"
+  , issueCreatedAt = 2014 (-05) (-20) 19 : 50 : 28 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 33922852
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

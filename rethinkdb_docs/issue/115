@@ -1,0 +1,44 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-04) 15 : 49 : 36 UTC
+  , issueUpdatedAt = 2014 (-04) (-04) 15 : 49 : 36 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/115/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/115"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 115
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "cursor.close needs docs in Ruby and Python"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/115"
+  , issueCreatedAt = 2013 (-11) (-27) 21 : 40 : 04 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 23416855
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

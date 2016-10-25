@@ -1,0 +1,65 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-21) 20 : 52 : 12 UTC
+  , issueUpdatedAt = 2014 (-11) (-21) 20 : 52 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/573/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/573"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 573
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "reql_admin: Use consistent terminology in docs: primary replica / replica"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/573"
+  , issueCreatedAt = 2014 (-11) (-01) 00 : 08 : 30 UTC
+  , issueBody =
+      Just
+        "In https://github.com/rethinkdb/rethinkdb/issues/2882#issuecomment-60443347 we have come to the conclusion that primaries should be refered to as \"primary replicas\". Both secondaries and primaries are \"replicas\".\r\n\r\nWe have to make sure the documentation is consistent in that respect.\r\n\r\nI think where it is important to make the distinction, we can still use \"secondary replica\" to refer to non-primary replicas (@coffemug, @chipotle does that sound reasonable?)."
+  , issueState = "closed"
+  , issueId = Id 47455992
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 48436
+                , simpleUserLogin = N "coffeemug"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/48436?v=3"
+                , simpleUserUrl = "https://api.github.com/users/coffeemug"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 6
+          , milestoneClosedIssues = 16
+          , milestoneDescription = Just ""
+          , milestoneTitle = "1.16"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/6"
+          , milestoneCreatedAt = 2014 (-09) (-18) 21 : 53 : 16 UTC
+          , milestoneState = "closed"
+          }
+  }

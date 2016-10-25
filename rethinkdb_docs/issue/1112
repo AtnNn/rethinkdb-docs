@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-30) 18 : 37 : 09 UTC
+  , issueUpdatedAt = 2016 (-09) (-30) 18 : 37 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1112/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1112"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1112
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10736369
+        , simpleUserLogin = N "gangadharyelwande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10736369?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gangadharyelwande"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Table joins"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1112"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1112.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1112.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1112"
+  , issueCreatedAt = 2016 (-04) (-30) 00 : 20 : 57 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 151992551
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

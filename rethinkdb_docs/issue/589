@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-29) 20 : 09 : 51 UTC
+  , issueUpdatedAt = 2014 (-11) (-29) 20 : 09 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/589/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/589"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 589
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9854
+        , simpleUserLogin = N "brandondrew"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/9854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/brandondrew"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "start the server"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/589"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/589.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/589.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/589"
+  , issueCreatedAt = 2014 (-11) (-29) 04 : 14 : 40 UTC
+  , issueBody =
+      Just "the same thing for JavaScript that was proposed for Ruby"
+  , issueState = "closed"
+  , issueId = Id 50414628
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

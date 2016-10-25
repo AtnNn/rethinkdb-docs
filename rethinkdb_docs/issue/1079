@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-11) 19 : 17 : 13 UTC
+  , issueUpdatedAt = 2016 (-04) (-11) 19 : 17 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1079/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1079"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1079
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10092343
+        , simpleUserLogin = N "dineyw23"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10092343?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dineyw23"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Adds missing back ticks for code blocks in cookbook ruby docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1079"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1079.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1079.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1079"
+  , issueCreatedAt = 2016 (-04) (-09) 01 : 46 : 21 UTC
+  , issueBody =
+      Just
+        "Added missing back ticks here.\r\n\r\nhttps://rethinkdb.com/docs/cookbook/ruby/"
+  , issueState = "closed"
+  , issueId = Id 147078015
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

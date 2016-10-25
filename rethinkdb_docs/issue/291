@@ -1,0 +1,71 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-09) 22 : 30 : 15 UTC
+  , issueUpdatedAt = 2014 (-06) (-10) 19 : 51 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/291/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/291"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/next"
+          , labelName = "next"
+          }
+      ]
+  , issueNumber = 291
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Update python docs generation to include function signature."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/291"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/291.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/291.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/291"
+  , issueCreatedAt = 2014 (-05) (-06) 02 : 57 : 27 UTC
+  , issueBody =
+      Just
+        "Document generation was actually already broken because 'grouped_stream' wasn't recognized for the 'ungroup' command, so that is now fixed.  Also fixed a small typo I found while I was at it."
+  , issueState = "closed"
+  , issueId = Id 32862942
+  , issueComments = 6
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1777134
+                , simpleUserLogin = N "mlucy"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1777134?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mlucy"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 3
+          , milestoneClosedIssues = 23
+          , milestoneDescription = Just ""
+          , milestoneTitle = "v1.13.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/3"
+          , milestoneCreatedAt = 2014 (-04) (-25) 00 : 13 : 09 UTC
+          , milestoneState = "closed"
+          }
+  }

@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-24) 18 : 07 : 12 UTC
+  , issueUpdatedAt = 2014 (-09) (-24) 18 : 07 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/520/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/520"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 520
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 147397
+        , simpleUserLogin = N "caoimhghin"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/147397?v=3"
+        , simpleUserUrl = "https://api.github.com/users/caoimhghin"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "adding link to python orm"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/520"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/520.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/520.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/520"
+  , issueCreatedAt = 2014 (-09) (-24) 16 : 43 : 49 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 43787293
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

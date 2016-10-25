@@ -1,0 +1,64 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-05) 22 : 15 : 32 UTC
+  , issueUpdatedAt = 2016 (-04) (-05) 22 : 15 : 32 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1071/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1071"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1071
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Changed system table permissions for 2.3"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1071"
+  , issueCreatedAt = 2016 (-04) (-05) 02 : 17 : 57 UTC
+  , issueBody =
+      Just
+        "As mentioned, system table permissions on 2.3 are going to be different from what we had planned.\r\n`\"admin\"` still has full access to all system tables.\r\nHowever any other user has no access to the tables in `r.db('rethinkdb')` at all. Neither read nor write permissions. This is regardless of which permissions were granted to the user."
+  , issueState = "closed"
+  , issueId = Id 145863550
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 1
+          , milestoneNumber = 10
+          , milestoneClosedIssues = 29
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.3"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/10"
+          , milestoneCreatedAt = 2015 (-12) (-10) 02 : 58 : 17 UTC
+          , milestoneState = "open"
+          }
+  }

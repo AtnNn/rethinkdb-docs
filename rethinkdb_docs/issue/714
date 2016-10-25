@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-16) 21 : 46 : 09 UTC
+  , issueUpdatedAt = 2015 (-04) (-16) 21 : 46 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/714/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/714"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 714
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Front page taking 10% CPU on Safari"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/714"
+  , issueCreatedAt = 2015 (-04) (-16) 21 : 39 : 51 UTC
+  , issueBody =
+      Just
+        "Just having a Safari window open to the rethinkdb.com front page puts a 10% CPU load on my machine. We probably should not be using that much. Other pages don't seem to use that much."
+  , issueState = "closed"
+  , issueId = Id 69015676
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-13) 23 : 14 : 35 UTC
+  , issueUpdatedAt = 2014 (-01) (-13) 23 : 14 : 46 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/175/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/175"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 175
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 61540
+        , simpleUserLogin = N "pilwon"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/61540?v=3"
+        , simpleUserUrl = "https://api.github.com/users/pilwon"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Added \"dockerfile/rethinkdb\"."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/175"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/175.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/175.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/175"
+  , issueCreatedAt = 2014 (-01) (-13) 22 : 44 : 52 UTC
+  , issueBody =
+      Just "Added `dockerfile/rethinkdb` under `Deployment tools`."
+  , issueState = "closed"
+  , issueId = Id 25535015
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

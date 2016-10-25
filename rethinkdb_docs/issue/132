@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-12) 17 : 07 : 38 UTC
+  , issueUpdatedAt = 2013 (-12) (-13) 11 : 26 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/132/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/132"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 132
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 172594
+        , simpleUserLogin = N "mikemaccana"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/172594?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mikemaccana"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Fix accidental markdown italics from underscores in option names"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/132"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/132.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/132.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/132"
+  , issueCreatedAt = 2013 (-12) (-11) 12 : 47 : 45 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 24104561
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

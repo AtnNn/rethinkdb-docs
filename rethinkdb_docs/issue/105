@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-25) 05 : 45 : 22 UTC
+  , issueUpdatedAt = 2013 (-11) (-25) 05 : 45 : 22 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/105/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/105"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 105
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 426371
+        , simpleUserLogin = N "janpieper"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/426371?v=3"
+        , simpleUserUrl = "https://api.github.com/users/janpieper"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Wrong link to install RethinkDB"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/105"
+  , issueCreatedAt = 2013 (-11) (-24) 12 : 03 : 04 UTC
+  , issueBody =
+      Just
+        "I wanted to fix this wrong link by myself and provide a PR but I can't find `install-driver-docs-header.md`...\r\n\r\nThe link \"install RethinkDB\" on http://rethinkdb.com/docs/install-drivers/ruby/ points to the drivers page, not to the install instructions for RethinkDB."
+  , issueState = "closed"
+  , issueId = Id 23204090
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,62 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-20) 21 : 12 : 27 UTC
+  , issueUpdatedAt = 2014 (-08) (-20) 22 : 25 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/468/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/468"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/next"
+          , labelName = "next"
+          }
+      ]
+  , issueNumber = 468
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update docs for distinct"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/468"
+  , issueCreatedAt = 2014 (-08) (-19) 22 : 02 : 26 UTC
+  , issueBody =
+      Just
+        "Since 1.14, distinct can take an index.\r\n\r\nSee https://github.com/rethinkdb/rethinkdb/issues/1864"
+  , issueState = "closed"
+  , issueId = Id 40642052
+  , issueComments = 7
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1777134
+                , simpleUserLogin = N "mlucy"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1777134?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mlucy"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 4
+          , milestoneClosedIssues = 13
+          , milestoneDescription = Just ""
+          , milestoneTitle = "1.14"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/4"
+          , milestoneCreatedAt = 2014 (-07) (-09) 02 : 06 : 34 UTC
+          , milestoneState = "closed"
+          }
+  }

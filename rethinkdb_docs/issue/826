@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-21) 18 : 19 : 15 UTC
+  , issueUpdatedAt = 2015 (-07) (-21) 18 : 19 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/826/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/826"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 826
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Some Ruby examples use r.row"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/826"
+  , issueCreatedAt = 2015 (-07) (-20) 20 : 03 : 03 UTC
+  , issueBody =
+      Just
+        "@ha1331 noticed these two:\r\nhttp://rethinkdb.com/api/ruby/fill/\r\nhttp://rethinkdb.com/api/ruby/group/\r\n\r\nThere might be more."
+  , issueState = "closed"
+  , issueId = Id 96147050
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

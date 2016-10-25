@@ -1,0 +1,68 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-28) 18 : 59 : 05 UTC
+  , issueUpdatedAt = 2014 (-07) (-28) 18 : 59 : 05 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/424/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/424"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/next"
+          , labelName = "next"
+          }
+      ]
+  , issueNumber = 424
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "v1.14 - Update API docs for upsert"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/424"
+  , issueCreatedAt = 2014 (-07) (-22) 18 : 56 : 43 UTC
+  , issueBody =
+      Just
+        "`upsert` is now `replace`, and `error`/`update` are also available.\r\n\r\nSee https://github.com/rethinkdb/rethinkdb/issues/1838 for more information."
+  , issueState = "closed"
+  , issueId = Id 38431800
+  , issueComments = 3
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1777134
+                , simpleUserLogin = N "mlucy"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1777134?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mlucy"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 4
+          , milestoneClosedIssues = 13
+          , milestoneDescription = Just ""
+          , milestoneTitle = "1.14"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/4"
+          , milestoneCreatedAt = 2014 (-07) (-09) 02 : 06 : 34 UTC
+          , milestoneState = "closed"
+          }
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 21 : 08 : 06 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 08 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/259/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/259"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 259
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Write a troubleshooting entry for \"Could not turn off filesystem caching for database file\" warning"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/259"
+  , issueCreatedAt = 2014 (-04) (-07) 06 : 56 : 39 UTC
+  , issueBody =
+      Just
+        "When the user is on an encrypted or compressed file system, Rethink can't turn on direct IO, so it prints this message and uses the page cache. It's not clear to people what this message means -- we should write a troubleshooting entry for it."
+  , issueState = "closed"
+  , issueId = Id 30961623
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

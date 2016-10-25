@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-20) 06 : 31 : 39 UTC
+  , issueUpdatedAt = 2013 (-11) (-20) 06 : 31 : 39 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/89/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/89"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 89
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "API - Examples in during use r.time without timezone"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/89"
+  , issueCreatedAt = 2013 (-11) (-19) 16 : 59 : 27 UTC
+  , issueBody =
+      Just
+        "It doesn't work now, the timezone is required.\r\nSee https://twitter.com/esycat/status/402784910303166464\r\n\r\nFix coming.\r\n"
+  , issueState = "closed"
+  , issueId = Id 22928458
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

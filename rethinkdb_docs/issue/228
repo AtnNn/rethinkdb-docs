@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-22) 20 : 27 : 22 UTC
+  , issueUpdatedAt = 2014 (-03) (-22) 20 : 27 : 22 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/228/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/228"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 228
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Ignore api sections' description"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/228"
+  , issueCreatedAt = 2014 (-03) (-22) 07 : 24 : 37 UTC
+  , issueBody =
+      Just
+        "I was running some tests for 1.12, and I noticed that in the description of `filter`, there was the description of the `Joins` section.\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 29956289
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 91193
+                , simpleUserLogin = N "mglukhovsky"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/91193?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 2
+          , milestoneClosedIssues = 6
+          , milestoneDescription = Just ""
+          , milestoneTitle = "v1.12.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/2"
+          , milestoneCreatedAt = 2014 (-01) (-08) 23 : 09 : 52 UTC
+          , milestoneState = "closed"
+          }
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-09) 19 : 06 : 15 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/224995000"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1137#issuecomment-224995000"
+  , issueCommentCreatedAt = 2016 (-06) (-09) 19 : 05 : 33 UTC
+  , issueCommentBody =
+      "First to answer your question:\r\nIn the scenario you describe, step 4 will never happen. The changefeed will only pass on changes for records that have already been initialized.\r\nIn general you will never get a document from the changefeed that has an `old_val` value for which you haven't seen a corresponding initial `{new_val: ...}` document before.\r\nIn step 5, the `new_val` will be that of the document after the change from step 3.\r\n\r\n> Is there any way for a document modified before a changefeed cursor reaches that document to have it's changefeed returned after the initial state? Or are those two operations serialised?\r\n\r\nIn general you can see either a sequence of `{new_val: value_before_modification}, {old_val: value_before_modification, new_val: value_after_modification}` or `{new_val: value_after_modification}` for a given document. The first one will happen if the \"initial value cursor\" passes the document before the modification happens, and the second one will happen if the modification happens before the cursor passes it.\r\nThis \"cursor\" is purely internal though, and you can't rely on its state in your application. It might have different key boundaries on different shards for example.\r\n\r\n> is there a reliable and consistent way to process changefeeds, such that you will always get a correct view of a table?\r\n\r\nYes, something like this (pseudo code):\r\n```js\r\n// A data structure with set semantics\r\nvar Set documents;\r\n\r\nfeed = r.table(...).changes({includeInitial: true, includeStates: true}).run();\r\n\r\nfor change in feed {\r\n  if (change has field \"state\" and change.state == \"ready\") {\r\n    // We have reached a consistent state of the documents in the table.\r\n    // This might be a good time for rendering the results etc.\r\n    // We can simply stay in the `for` loop to keep it updated.\r\n  }\r\n  if (change has field \"old_val\" and change.old_val != null) {\r\n    // Remove the old value from the set\r\n    documents.remove(change.old_val);\r\n  }\r\n  if (change has field \"new_val\" and change.new_val != null) { \r\n    // Add the new value to the set\r\n    documents.add(change.new_val);\r\n  }\r\n}\r\n```\r\n\r\nI think we should add example code like this for all supported languages to http://www.rethinkdb.com/docs/changefeeds/javascript/ , and probably link to it from the the paragraph @danielcompton mentioned in the API docs. @chipotle what do you think?"
+  , issueCommentId = 224995000
+  }

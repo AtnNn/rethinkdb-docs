@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-27) 07 : 41 : 55 UTC
+  , issueUpdatedAt = 2013 (-10) (-27) 07 : 41 : 55 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/18/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/18"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 18
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Typo in secondary-indexes documentation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/18"
+  , issueCreatedAt = 2013 (-10) (-23) 20 : 06 : 21 UTC
+  , issueBody =
+      Just
+        "Reported on IRC:\r\n\r\nKamilion: Hey guys -- Typo in the docsite. http://rethinkdb.com/docs/secondary-indexes/  <--- bottom of page, IndexdDrop and IndexdList... somehow an extra d slipped into both of those... "
+  , issueState = "closed"
+  , issueId = Id 21481016
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

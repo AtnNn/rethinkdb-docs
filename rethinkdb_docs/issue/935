@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 54 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/935/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/935"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 935
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 326949
+        , simpleUserLogin = N "thinklinux"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/326949?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thinklinux"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update an object in array"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/935"
+  , issueCreatedAt = 2015 (-10) (-30) 08 : 53 : 23 UTC
+  , issueBody =
+      Just
+        "Let's say I have table `posts` and every post have an array called `comments` with objects inside to describe the comment like so `comments: [{author: 'Joe', adminComment: true, text: 'Update me'}]`\r\n\r\nHow would you update the text of the comment? I saw that there is an [issue for that](https://github.com/rethinkdb/rethinkdb/issues/2692) but the solution is not available yet.\r\n\r\n[Stack Overflow to the rescue!](http://stackoverflow.com/questions/17133460/how-to-update-embedded-document) There is a good explanation for the update query. The problem was that it is with hard-coded index for the element of the array. So here is a full example for updating a single comment that worked for me:\r\n\r\n```\r\nlet post_id = 123;\r\nlet comment_id = 23434;\r\n\r\nlet findCommentIndex =\r\n  r.table(\"posts\")\r\n    .get(post_id)(\"comments\")\r\n    .offsetsOf(\r\n      r.row(\"id\").match(comment_id)\r\n    )\r\n    .nth(0)\r\n\r\nlet update =\r\n  findCommentIndex.do((index) => {\r\n    return r.table('posts')\r\n      .get(post_id)\r\n      .update((post) => {\r\n        return {\r\n          channels: post('comments').changeAt(index,\r\n            post('comments')\r\n              .nth(index)\r\n              .merge({'text': 'updated!'})\r\n          )\r\n        }\r\n      })\r\n  })\r\n```\r\n\r\nThis operations should be a lot more easier and I hope someday they will be but right now it would be cool if we have some examples like this one on the docs or cookbook because I'm sure I'm not the only one that lost a lot of time to figure this one out."
+  , issueState = "open"
+  , issueId = Id 114226799
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

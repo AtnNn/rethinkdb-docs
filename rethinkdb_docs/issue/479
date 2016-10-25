@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-26) 16 : 29 : 40 UTC
+  , issueUpdatedAt = 2014 (-08) (-26) 16 : 29 : 40 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/479/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/479"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 479
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 218725
+        , simpleUserLogin = N "dminkovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/218725?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dminkovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Conflict markers in faq.md.orig"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/479"
+  , issueCreatedAt = 2014 (-08) (-26) 15 : 21 : 33 UTC
+  , issueBody =
+      Just
+        "https://github.com/rethinkdb/docs/blob/76ce8f4a975db2fde20568f374f8b424a57dba36/0-about-rethinkdb/faq.md.orig#L104-L110\r\n\r\nSearch http://www.rethinkdb.com/faq/#when-is-rethinkdb-not-a-good-choice for \"HEAD\" and you'll see them. "
+  , issueState = "closed"
+  , issueId = Id 41184338
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

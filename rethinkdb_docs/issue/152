@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 21 : 10 : 19 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 10 : 19 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/152/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/152"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 152
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add a recipe/document on how to import/export json data"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/152"
+  , issueCreatedAt = 2013 (-12) (-19) 06 : 04 : 47 UTC
+  , issueBody =
+      Just
+        "Try this google search: \"rethinkdb how to import json document\"\r\n\r\nI can figure out how to import data, but it's not ideal. We should add a recipe, or a top level document under \"RethinkDB in practice\"."
+  , issueState = "closed"
+  , issueId = Id 24538565
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

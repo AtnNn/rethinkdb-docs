@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-11) 18 : 38 : 10 UTC
+  , issueUpdatedAt = 2015 (-08) (-11) 20 : 20 : 47 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/850/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/850"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 850
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 811954
+        , simpleUserLogin = N "danielcompton"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/811954?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielcompton"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Don't run change feeds on separate connection"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/850"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/850.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/850.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/850"
+  , issueCreatedAt = 2015 (-08) (-11) 00 : 50 : 16 UTC
+  , issueBody =
+      Just
+        "I'm not 100% sure if this is right or not, opening a PR for discussion. With the protocol changes in v0_4, I don't think we need to run change feeds on separate connections.\r\n\r\nIf that's correct I can update the other platform docs too."
+  , issueState = "closed"
+  , issueId = Id 100199832
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

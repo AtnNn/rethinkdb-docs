@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-23) 20 : 19 : 21 UTC
+  , issueUpdatedAt = 2014 (-07) (-23) 20 : 19 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/427/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/427"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 427
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Tweaks to rails tutorial based on comments by @nviennot"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/427"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/427.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/427.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/427"
+  , issueCreatedAt = 2014 (-07) (-23) 18 : 46 : 43 UTC
+  , issueBody =
+      Just
+        "* types at the command line are lowercase\r\n* `:object` is now the dummy type\r\n* Generated models now include `NoBrainer::Document::Timestamps` by default\r\n* index declarations are inline with fields\r\n* The generator wasn't accepted, so the app creation section is more explicit\r\n* Rewrote an awkward sentence"
+  , issueState = "closed"
+  , issueId = Id 38559023
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

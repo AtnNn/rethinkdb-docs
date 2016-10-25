@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-11) 17 : 44 : 38 UTC
+  , issueUpdatedAt = 2014 (-04) (-11) 22 : 21 : 31 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/262/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/262"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 262
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3198219
+        , simpleUserLogin = N "teechap"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/3198219?v=3"
+        , simpleUserUrl = "https://api.github.com/users/teechap"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "NoneType condition for run()"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/262"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/262.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/262.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/262"
+  , issueCreatedAt = 2014 (-04) (-11) 10 : 03 : 48 UTC
+  , issueBody =
+      Just
+        "run() actually returns a NoneType object if no documents match the query. Should this be explicit in the API documentation since JSON or a cursor aren't the only return values for this function? \r\n\r\nAlso, to be super nitpicky, when I'm running queries on Python 2.7 it's actually returning a Python 'dict' rather than a JSON object (I like this behavior, but it might be good to document it here rather than saying it's JSON). \r\n\r\nWhat do you think?"
+  , issueState = "closed"
+  , issueId = Id 31315867
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

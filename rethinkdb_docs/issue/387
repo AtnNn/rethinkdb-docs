@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-24) 17 : 40 : 24 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 30 : 25 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/387/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/387"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 387
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix link for biased comparison"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/387"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/387.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/387.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/387"
+  , issueCreatedAt = 2014 (-06) (-24) 17 : 19 : 24 UTC
+  , issueBody =
+      Just
+        "Fix https://github.com/rethinkdb/docs/issues/373 - invalid link in the FAQ (link to RethinkDB vs Today's NoSQL)\r\n\r\n\r\n\r\n@chipotle -- could you review this for me?"
+  , issueState = "closed"
+  , issueId = Id 36405666
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

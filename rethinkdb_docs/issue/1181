@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-16) 06 : 40 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1181/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1181"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1181
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 474389
+        , simpleUserLogin = N "ultrabug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/474389?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ultrabug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add Gentoo Linux community package to the list"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1181"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1181.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1181.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1181"
+  , issueCreatedAt = 2016 (-09) (-16) 06 : 40 : 42 UTC
+  , issueBody =
+      Just
+        "- [x] I have read and agreed to the RethinkDB Contributor License Agreement http://rethinkdb.com/community/cla/\r\n\r\n### Description\r\nThis PR adds **Gentoo Linux** to the list of community supported packages [1] !\r\n\r\n[1] http://www.ultrabug.fr/rethinkdb-on-gentoo-linux/"
+  , issueState = "open"
+  , issueId = Id 177355153
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

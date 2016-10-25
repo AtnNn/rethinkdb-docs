@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-23) 20 : 11 : 29 UTC
+  , issueUpdatedAt = 2014 (-05) (-23) 20 : 11 : 29 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/294/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/294"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 294
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "`concat_map` documentation is incorrect"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/294"
+  , issueCreatedAt = 2014 (-05) (-08) 22 : 49 : 41 UTC
+  , issueBody =
+      Just
+        "The function signatures are wrong, and the description is wrong; the function can return any sequence, not just arrays."
+  , issueState = "closed"
+  , issueId = Id 33131152
+  , issueComments = 12
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,69 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 04 : 52 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/484/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/484"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      , IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 484
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document options for load balancing / best practices for connecting to a cluster"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/484"
+  , issueCreatedAt = 2014 (-08) (-26) 20 : 25 : 57 UTC
+  , issueBody =
+      Just
+        "@timjrobinson wrote in https://github.com/rethinkdb/rethinkdb/issues/2956:\r\n> I can't find any documentation on how to properly run a cluster of 2+ nodes with rethinkdb. Should I just set them up and make clients connect to the first server? Or should I use a loadbalancer such as HAProxy or nginx in front of the cluster and go through that? If I should be using a loadbalancer what settings should I be specifying for maximum performance?\r\n> \r\n> It would be good to have a doc that explains even the basics of how this should be setup. If you could point me to any docs related to this it would be much appreciated.\r\n"
+  , issueState = "open"
+  , issueId = Id 41217316
+  , issueComments = 7
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

@@ -1,0 +1,31 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-12) 08 : 10 : 04 UTC
+  , issueUpdatedAt = 2013 (-12) (-12) 08 : 10 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/26/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/26"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 26
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Update secondary index documentation for multi-indexes"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/26"
+  , issueCreatedAt = 2013 (-10) (-25) 00 : 33 : 26 UTC
+  , issueBody = Just "See rethinkdb/rethinkdb#933 for more details."
+  , issueState = "closed"
+  , issueId = Id 21562182
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

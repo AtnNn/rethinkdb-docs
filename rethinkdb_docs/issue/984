@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 51 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/984/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/984"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 984
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Hamburger navigation button is extremely small or missing on small form factors "
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/984"
+  , issueCreatedAt = 2015 (-12) (-15) 21 : 58 : 52 UTC
+  , issueBody =
+      Just
+        "\r\n# Nexus 6P \r\n\r\n![screenshot 2015-12-15 13 53 09](https://cloud.githubusercontent.com/assets/863286/11825360/7141df96-a333-11e5-8532-8a6a4a3e8e89.png)\r\n\r\n![screenshot 2015-12-15 13 53 43](https://cloud.githubusercontent.com/assets/863286/11825355/6ed136bc-a333-11e5-8c9c-425bcef2d7f4.png)\r\n\r\n# iPhone 4 (Chrome Emulation)\r\n![screenshot 2015-12-15 13 56 38](https://cloud.githubusercontent.com/assets/863286/11825436/d1c0af3c-a333-11e5-8258-e8d0ec8a338d.png)\r\n\r\n# Google Nexus 4 (Chrome Emulation)\r\n![screenshot 2015-12-15 13 56 27](https://cloud.githubusercontent.com/assets/863286/11825447/e0e88386-a333-11e5-80d8-3077e37206b7.png)\r\n\r\n# iPhone 6 Plus (Chrome Emulation)\r\n![screenshot 2015-12-15 13 56 21](https://cloud.githubusercontent.com/assets/863286/11825454/e9de8ef4-a333-11e5-8a04-3183a778792c.png)\r\n\r\n\r\n"
+  , issueState = "open"
+  , issueId = Id 122376548
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

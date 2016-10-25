@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-30) 22 : 18 : 29 UTC
+  , issueUpdatedAt = 2013 (-12) (-30) 22 : 18 : 35 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/165/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/165"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 165
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 319844
+        , simpleUserLogin = N "linkyndy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/319844?v=3"
+        , simpleUserUrl = "https://api.github.com/users/linkyndy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Added Flask-RethinkDB to tools and utilities"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/165"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/165.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/165.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/165"
+  , issueCreatedAt = 2013 (-12) (-30) 18 : 05 : 21 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 24893809
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

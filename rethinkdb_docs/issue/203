@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 17 : 37 : 46 UTC
+  , issueUpdatedAt = 2014 (-05) (-29) 17 : 37 : 46 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/203/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/203"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 203
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 56719
+        , simpleUserLogin = N "ccheever"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/56719?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ccheever"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "`index_create` vs `indexCreate`"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/203"
+  , issueCreatedAt = 2014 (-02) (-20) 21 : 07 : 27 UTC
+  , issueBody =
+      Just
+        "The docs say `index_create` all over the guide about secondary indexes here: http://www.rethinkdb.com/docs/secondary-indexes/  but the API seems to actually be `indexCreate`. \r\n\r\n\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 27996161
+  , issueComments = 13
+  , issueMilestone = Nothing
+  }

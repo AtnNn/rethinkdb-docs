@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-06) 23 : 21 : 44 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 23 : 23 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/442/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/442"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 442
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update rethinkdb-vs-mongodb.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/442"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/442.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/442.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/442"
+  , issueCreatedAt = 2014 (-08) (-06) 23 : 19 : 07 UTC
+  , issueBody =
+      Just "Typo, @neumino or @watts, could you review and merge?"
+  , issueState = "closed"
+  , issueId = Id 39676342
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

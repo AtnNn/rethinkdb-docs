@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-20) 00 : 37 : 26 UTC
+  , issueUpdatedAt = 2015 (-03) (-20) 00 : 44 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/569/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/569"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 569
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add JS and Ruby versions of the SQL -> ReQL cheat sheet"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/569"
+  , issueCreatedAt = 2014 (-10) (-30) 20 : 59 : 31 UTC
+  , issueBody =
+      Just
+        "The SQL -> ReQL cheat sheet is used heavily by new users (since that's the audience), but the examples are all written in Python. This is problematic, especially since the Data Explorer uses JavaScript.\r\n\r\nWe should make this a multi-language doc (should be relatively easy)."
+  , issueState = "closed"
+  , issueId = Id 47326767
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

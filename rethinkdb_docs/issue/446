@@ -1,0 +1,71 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-18) 23 : 28 : 35 UTC
+  , issueUpdatedAt = 2014 (-09) (-18) 23 : 28 : 35 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/446/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/446"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 446
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document geospatial support"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/446"
+  , issueCreatedAt = 2014 (-08) (-08) 23 : 35 : 40 UTC
+  , issueBody =
+      Just
+        "We need API docs for:\r\n* `r.geojson`\r\n* `toGeojson`\r\n* `r.point`\r\n* `r.line`\r\n* `r.polygon`\r\n* `r.circle`\r\n* `distance`\r\n* `intersects`\r\n* `includes`\r\n* `getIntersecting`\r\n* `getNearest`\r\n* `fill`\r\n* `polygon_sub`\r\n\r\nWe also have to extend the documentation for `indexCreate`.\r\n\r\nSome details about `indexCreate` could still change before 1.15, but the other commands are pretty much fixed."
+  , issueState = "closed"
+  , issueId = Id 39871852
+  , issueComments = 5
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 5
+          , milestoneClosedIssues = 4
+          , milestoneDescription = Just ""
+          , milestoneTitle = "1.15"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/5"
+          , milestoneCreatedAt = 2014 (-08) (-08) 23 : 30 : 43 UTC
+          , milestoneState = "closed"
+          }
+  }

@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-16) 00 : 45 : 27 UTC
+  , issueUpdatedAt = 2013 (-11) (-16) 00 : 45 : 27 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/72/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/72"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 72
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Cookbook: add case-insensitive filter example"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/72"
+  , issueCreatedAt = 2013 (-11) (-11) 20 : 57 : 41 UTC
+  , issueBody =
+      Just
+        "> __sinclair__: anyone know how to make a case insensitive filter() somehow, example query would be `{ first_name: 'test', type: 'case insensitive' }` to match first_name: `'tEsT'`?\r\n> __neumino__: sinclair, `r.table(\"foo\").filter( r.row(\"first_name\").match(\"(?i)test\") )`"
+  , issueState = "closed"
+  , issueId = Id 22475993
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

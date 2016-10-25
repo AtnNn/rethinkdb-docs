@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-30) 19 : 13 : 08 UTC
+  , issueUpdatedAt = 2015 (-06) (-30) 19 : 13 : 08 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/801/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/801"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 801
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1083623
+        , simpleUserLogin = N "sebadiaz"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1083623?v=3"
+        , simpleUserUrl = "https://api.github.com/users/sebadiaz"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "eqJoin in js format"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/801"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/801.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/801.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/801"
+  , issueCreatedAt = 2015 (-06) (-27) 20 : 07 : 53 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 91508436
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 17 : 52 : 59 UTC
+  , issueUpdatedAt = 2014 (-05) (-29) 17 : 52 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/144/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/144"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "cccccc"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/duplicate"
+          , labelName = "duplicate"
+          }
+      ]
+  , issueNumber = 144
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6176616
+        , simpleUserLogin = N "magnumik"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/6176616?v=3"
+        , simpleUserUrl = "https://api.github.com/users/magnumik"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "API/Docs does not explain how the Cursor object can be used"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/144"
+  , issueCreatedAt = 2013 (-12) (-13) 08 : 31 : 15 UTC
+  , issueBody =
+      Just
+        "API/Docs does not explain how the rethinkdb.net.Cursor object can be used"
+  , issueState = "closed"
+  , issueId = Id 24233020
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-23) 23 : 41 : 19 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/793/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/793"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 793
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7118680
+        , simpleUserLogin = N "ahruygt"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7118680?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ahruygt"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Adding new illustrations to the docs and API command pages"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/793"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/793.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/793.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/793"
+  , issueCreatedAt = 2015 (-06) (-17) 00 : 00 : 58 UTC
+  , issueBody = Just ""
+  , issueState = "open"
+  , issueId = Id 88870568
+  , issueComments = 11
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-03) 23 : 24 : 23 UTC
+  , issueUpdatedAt = 2014 (-07) (-31) 21 : 14 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/127/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/127"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 127
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add cursor.close for Python and Ruby"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/127"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/127.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/127.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/127"
+  , issueCreatedAt = 2013 (-12) (-08) 06 : 25 : 54 UTC
+  , issueBody =
+      Just "See #115 \r\n\r\n@mglukhovsky would you mind taking a look?"
+  , issueState = "closed"
+  , issueId = Id 23919322
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

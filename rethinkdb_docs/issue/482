@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-29) 18 : 28 : 12 UTC
+  , issueUpdatedAt = 2014 (-08) (-29) 18 : 28 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/482/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/482"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 482
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix migration notes in 1.14 release announcement"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/482"
+  , issueCreatedAt = 2014 (-08) (-26) 18 : 07 : 50 UTC
+  , issueBody =
+      Just
+        "Mentioned by dondonp on IRC:\r\n\r\n> Wherever it says 'Upgrading to 1.14' replace with 'Upgrading from 1.13 to 1.14?' since any other case is not a 'seamless migration'\r\n\r\n/cc @chipotle @deontologician "
+  , issueState = "closed"
+  , issueId = Id 41203051
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

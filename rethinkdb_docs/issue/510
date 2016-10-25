@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-18) 01 : 18 : 09 UTC
+  , issueUpdatedAt = 2014 (-09) (-18) 01 : 18 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/510/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/510"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 510
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix/update scripts for 1.15"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/510"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/510.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/510.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/510"
+  , issueCreatedAt = 2014 (-09) (-17) 00 : 52 : 31 UTC
+  , issueBody =
+      Just
+        "There was a bug before.\r\n\r\nIf there are consecutives new lines between the \"```\" markers, markdown is not creating a code block.\r\n\r\nPing @AtnNn -- could you review this?"
+  , issueState = "closed"
+  , issueId = Id 42951182
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

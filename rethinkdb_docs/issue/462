@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-15) 00 : 22 : 16 UTC
+  , issueUpdatedAt = 2014 (-08) (-15) 00 : 23 : 50 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/462/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/462"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 462
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 552910
+          , simpleUserLogin = N "Tryneus"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/552910?v=3"
+          , simpleUserUrl = "https://api.github.com/users/Tryneus"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2060269
+        , simpleUserLogin = N "l3kn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2060269?v=3"
+        , simpleUserUrl = "https://api.github.com/users/l3kn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Wrong query length in the driver protocol documentation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/462"
+  , issueCreatedAt = 2014 (-08) (-14) 23 : 58 : 16 UTC
+  , issueBody =
+      Just
+        "In the line \r\n\r\n```\r\nQuery 2 | SEND | query length | 20 | 1B 00 00 00\r\n```\r\nof  \8220A complete Example\8221 of <http://rethinkdb.com/docs/driver-spec/>\r\nit says that the query lenght is 20 but '1B' would be 27 (base 10).\r\n\r\nI tried out both versions and 27 seems to be the right one."
+  , issueState = "closed"
+  , issueId = Id 40311969
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

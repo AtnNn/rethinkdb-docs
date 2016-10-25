@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-14) 17 : 47 : 51 UTC
+  , issueUpdatedAt = 2014 (-08) (-14) 17 : 47 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/448/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/448"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 448
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1684211
+        , simpleUserLogin = N "9uuso"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1684211?v=3"
+        , simpleUserUrl = "https://api.github.com/users/9uuso"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update pip install command"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/448"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/448.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/448.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/448"
+  , issueCreatedAt = 2014 (-08) (-10) 22 : 13 : 49 UTC
+  , issueBody =
+      Just
+        "The old command failed to install the dependency. Running the command returned error:\r\n```\r\nDownloading/unpacking version==1.12.0-2\r\nCould not find a version that satisfies the requirement version==1.12.0-2 (from versions: 0.1.0, 0.1.1)\r\nCleaning up...\r\nNo distributions matching the version for version==1.12.0-2\r\n```\r\nWhen asked about the issue via IRC @atnnn told me that the error is not OS dependent, so therefore I deiced to file a pull request for it."
+  , issueState = "closed"
+  , issueId = Id 39918076
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

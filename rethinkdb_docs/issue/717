@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-17) 22 : 45 : 49 UTC
+  , issueUpdatedAt = 2015 (-04) (-19) 07 : 29 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/717/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/717"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 717
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 85881
+        , simpleUserLogin = N "epc"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/85881?v=3"
+        , simpleUserUrl = "https://api.github.com/users/epc"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Copy edits for typos"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/717"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/717.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/717.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/717"
+  , issueCreatedAt = 2015 (-04) (-17) 22 : 16 : 50 UTC
+  , issueBody = Just "Contributor's agreement previously signed."
+  , issueState = "closed"
+  , issueId = Id 69227937
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

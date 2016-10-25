@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-20) 17 : 56 : 29 UTC
+  , issueUpdatedAt = 2015 (-01) (-20) 17 : 56 : 29 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/610/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/610"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 610
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Driver install pages: ten-minute guide link points to JS for all languages"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/610"
+  , issueCreatedAt = 2014 (-12) (-30) 01 : 18 : 20 UTC
+  , issueBody =
+      Just
+        "All of the [driver install pages](http://rethinkdb.com/docs/install-drivers/python/) provide a link to the ten-minute guide -- and all of them point to the JS guide, regardless of language.\r\n\r\nThis may be because our multi-language cookie isn't currently working on the driver install pages. Alternatively, we could delete this include:\r\n\r\nhttps://github.com/rethinkdb/docs/blob/master/_includes/install-driver-docs-footer.md\r\n\r\n...and just add the infobox with the correct link to all three pages.\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 53085837
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

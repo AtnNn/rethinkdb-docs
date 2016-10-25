@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-03) 19 : 45 : 14 UTC
+  , issueUpdatedAt = 2015 (-06) (-03) 19 : 45 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/780/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/780"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 780
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update changes examples"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/780"
+  , issueCreatedAt = 2015 (-06) (-01) 15 : 44 : 47 UTC
+  , issueBody =
+      Just
+        "In a comment in #759 it was noted that some examples in `changes` are out of date -- they don't use newer changefeed features with queries rather than tables."
+  , issueState = "closed"
+  , issueId = Id 83570102
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

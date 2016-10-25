@@ -1,0 +1,46 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-16) 22 : 55 : 12 UTC
+  , issueUpdatedAt = 2015 (-09) (-16) 22 : 55 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/21/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/21"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 21
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add an example application / getting started guide for Rails"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/21"
+  , issueCreatedAt = 2013 (-10) (-24) 22 : 23 : 25 UTC
+  , issueBody =
+      Just
+        "Suggested by krz on IRC:\r\n\r\n\r\n> &lt;krz> is there a getting started guide for rails applications?\r\n> &lt;krz> you guys should really come up with a rails demo app using the ruby wrapper\r\n> &lt;krz> just thought, if there was a guide up, just to get integrated with rails. that would be awesome"
+  , issueState = "closed"
+  , issueId = Id 21556492
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

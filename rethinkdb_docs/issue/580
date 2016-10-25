@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-18) 20 : 57 : 12 UTC
+  , issueUpdatedAt = 2014 (-11) (-18) 23 : 36 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/580/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/580"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 580
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clarify multi index semantics w.r.t. duplicates"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/580"
+  , issueCreatedAt = 2014 (-11) (-17) 18 : 49 : 15 UTC
+  , issueBody =
+      Just
+        "@nviennot noted https://github.com/rethinkdb/rethinkdb/issues/3345 that our docs currently do not explain the semantics of multi indexes with respect to duplicate results.\r\n\r\nQueries on multi indexes through `getAll` or `between` can generally produce the same result multiple times. Here's a simple example:\r\n```\r\nr.tableCreate('t1')\r\nr.table('t1').indexCreate('a', {multi: true})\r\nr.table('t1').insert({a: [1, 2, 1]})\r\nr.table('t1').getAll(1, {index: \"a\"})\r\n// Returns the document twice\r\n```\r\n\r\nThe one exception are geo multi indexes, which can be queried through `getIntersecting` and `getNearest`. Those operations never return duplicates.\r\n\r\n\r\n@nviennot further noticed that this example in http://www.rethinkdb.com/docs/secondary-indexes/ruby/ requires a `distinct()` in order to make the mentioned queries really equivalent:\r\n```\r\n# Create the index\r\nr.table(\"users\").index_create(\"user_equipment\", {:multi => true}) { |user|\r\n    user['equipment'].map { |equipment| [user['id'], equipment] }\r\n}.run(conn)\r\n\r\n# Query equivalent to:\r\n# r.table(\"users\").get(1).filter { |user|\r\n#     user['equipment'].contains('tent')\r\n# }.run(conn)\r\nr.table(\"users\").get_all([1, \"tent\"], {:index =>\"user_equipment\"}).run(conn)\r\n```"
+  , issueState = "closed"
+  , issueId = Id 49129515
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

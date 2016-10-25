@@ -1,0 +1,64 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-04) 17 : 09 : 31 UTC
+  , issueUpdatedAt = 2016 (-04) (-04) 17 : 09 : 31 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1059/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1059"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1059
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 505365
+          , simpleUserLogin = N "danielmewes"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/505365?v=3"
+          , simpleUserUrl = "https://api.github.com/users/danielmewes"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document 2.3 permissions and user configuration"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1059"
+  , issueCreatedAt = 2016 (-03) (-21) 21 : 24 : 08 UTC
+  , issueBody =
+      Just
+        "There are at least three parts to this:\r\n* Two new system tables \"users\" and \"permissions\" that need to be documented under http://rethinkdb.com/docs/system-tables/ . I think they probably should get their own subdocument.\r\n* A new `grant` command for the API\r\n* A conceptual overview of our permissions system. This should probably go into a new separate document that should also be mentioned on http://rethinkdb.com/docs/security/ \r\n\r\nWe also need to document how permissions interact with the existing system tables (see https://github.com/rethinkdb/rethinkdb/issues/5463). If we add a separate \"Permissions & User Accounts\" document for point 3 above, then that would likely be the best place for putting this.\r\n\r\nThe issue about this in the rethinkdb repo is https://github.com/rethinkdb/rethinkdb/issues/4519 .\r\n\r\n\r\nFinally, we'll need to document the setup of protected clusters somewhere (https://github.com/rethinkdb/rethinkdb/issues/5490). This still needs to be implemented. I think it could also go into the \"Permissions & User Accounts\" overview document.\r\n\r\nAssigning to myself as I want to provide some examples and details on the system tables and other aspects of the system. Will reassign to @chipotle later."
+  , issueState = "closed"
+  , issueId = Id 142475778
+  , issueComments = 9
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 1
+          , milestoneNumber = 10
+          , milestoneClosedIssues = 29
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.3"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/10"
+          , milestoneCreatedAt = 2015 (-12) (-10) 02 : 58 : 17 UTC
+          , milestoneState = "open"
+          }
+  }

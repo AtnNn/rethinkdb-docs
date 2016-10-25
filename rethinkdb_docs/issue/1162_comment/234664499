@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-22) 21 : 43 : 48 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 877936
+        , simpleUserLogin = N "marshall007"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/877936?v=3"
+        , simpleUserUrl = "https://api.github.com/users/marshall007"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/234664499"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1162#issuecomment-234664499"
+  , issueCommentCreatedAt = 2016 (-07) (-22) 21 : 43 : 48 UTC
+  , issueCommentBody =
+      "- \"3 official libraries\" (doesn't include Java)\r\n- \"Data model\" section has no mention of pseudotypes, almost implies datetimes are not supported\r\n- \"Query language\" doesn't really do ReQL any justice. A couple embedded examples showing how RethinkDB exposes an actual API whereas MongoDB requires you to use their special JSON syntax could go a long way"
+  , issueCommentId = 234664499
+  }

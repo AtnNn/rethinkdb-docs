@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-08) 22 : 22 : 29 UTC
+  , issueUpdatedAt = 2014 (-07) (-08) 22 : 22 : 29 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/395/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/395"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 395
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Javascript sample code inconsistent"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/395"
+  , issueCreatedAt = 2014 (-07) (-02) 20 : 20 : 30 UTC
+  , issueBody =
+      Just
+        "Depending on where you look in the documentation, Javascript ReQL statements terminate differently. In the API documentation, they generally end with\r\n\r\n    .run(conn, callback)\r\n\r\nBut in some articles they end with\r\n\r\n    .run(connection, function(err, result) { ... })\r\n\r\nThat is, they actually give the whole callback function. And in the cookbook entries, sometimes they end with the whole callback as above and sometimes the `run` is left off entirely.\r\n\r\nWe should probably standardize on one. I actually like the short `.run(conn, callback)` style the most, although I don't know whether we want to do anything to address the possible use of promises. (Just `.run(conn)` like the other languages?)\r\n"
+  , issueState = "closed"
+  , issueId = Id 37020246
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

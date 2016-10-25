@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-04) 22 : 45 : 28 UTC
+  , issueUpdatedAt = 2016 (-04) (-04) 22 : 45 : 28 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/926/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/926"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 926
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Create (10 minute?) getting started guide for the Java driver"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/926"
+  , issueCreatedAt = 2015 (-10) (-22) 18 : 02 : 58 UTC
+  , issueBody =
+      Just
+        "We'll want to create this upon the closing of rethinkdb/rethinkdb#3930 "
+  , issueState = "closed"
+  , issueId = Id 112857801
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

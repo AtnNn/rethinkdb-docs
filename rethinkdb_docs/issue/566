@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-24) 18 : 16 : 59 UTC
+  , issueUpdatedAt = 2014 (-10) (-24) 18 : 16 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/566/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/566"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 566
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 9383058
+        , simpleUserLogin = N "goodgerster"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/9383058?v=3"
+        , simpleUserUrl = "https://api.github.com/users/goodgerster"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "configure (and possibly others) assume python executable is Python 2"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/566"
+  , issueCreatedAt = 2014 (-10) (-24) 18 : 03 : 28 UTC
+  , issueBody =
+      Just
+        "The `configure` script attempts to detect Python (presumably by querying the `python` executable in `$PATH`) and will fail if it finds Python 3, as is the case by default under Arch Linux:\r\n\r\n> Error: python 3.4.2 is too recent. At most python 2.9.99 is required.\r\n\r\nWorkaround: [the ArchWiki article on Python](https://wiki.archlinux.org/index.php/Python#Dealing_with_version_problem_in_build_scripts) suggests installing some bash voodoo in `$PATH` in order to redirect specific scripts to `python2`. (I have not tested this).\r\n\r\nPossible resolution: `configure` should instead look for an executable named `python2`.\r\n\r\nProbable further bug: whatever `configure` wants Python 2 for may also be labouring under the assumption that `python` means Python 2."
+  , issueState = "closed"
+  , issueId = Id 46766297
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

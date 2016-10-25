@@ -1,0 +1,71 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 23 : 13 : 47 UTC
+  , issueUpdatedAt = 2014 (-06) (-11) 23 : 13 : 47 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/231/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/231"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/next"
+          , labelName = "next"
+          }
+      ]
+  , issueNumber = 231
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 48436
+          , simpleUserLogin = N "coffeemug"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/48436?v=3"
+          , simpleUserUrl = "https://api.github.com/users/coffeemug"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Improve migration docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/231"
+  , issueCreatedAt = 2014 (-03) (-24) 17 : 24 : 57 UTC
+  , issueBody =
+      Just
+        "While https://github.com/rethinkdb/rethinkdb/issues/2080 is not done, we should tell people to install the python driver on the migration page.\r\n\r\nWe should:\r\n- Mention that only major versions are not compatible\r\n- Tell them to install pip and the python driver (since people have tons of data, we should also tell them to install the C++ backend?)\r\n- Tell them to update the python driver before importing -- so far it works fine, but things could eventually break if we change the magic string for example"
+  , issueState = "closed"
+  , issueId = Id 30055827
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1777134
+                , simpleUserLogin = N "mlucy"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1777134?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mlucy"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 3
+          , milestoneClosedIssues = 23
+          , milestoneDescription = Just ""
+          , milestoneTitle = "v1.13.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/3"
+          , milestoneCreatedAt = 2014 (-04) (-25) 00 : 13 : 09 UTC
+          , milestoneState = "closed"
+          }
+  }

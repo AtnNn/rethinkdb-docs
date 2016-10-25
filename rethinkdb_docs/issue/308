@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-23) 22 : 04 : 01 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 40 : 44 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/308/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/308"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 308
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Raspbian instructions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/308"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/308.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/308.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/308"
+  , issueCreatedAt = 2014 (-05) (-22) 18 : 42 : 08 UTC
+  , issueBody =
+      Just
+        "I forked from @Yoeori branch and just updated a few things\r\n- remove two packages that are not available on Raspbian\r\n- I didn't have to tweak any Makefile. I got some warning like `/tmp/cc4TQG3W.s:5332: Warning: swp{b} use is deprecated for this architecture` but I just ignored them ^_^\r\n- Add instructions on how to create a swap/partition.\r\n\r\n@AtnNn -- Could you review this?\r\nI ran a few queries, and everything seemed to work (including `r.js`)\r\n\r\nAlso the build is on http://justonepixel.com/rethinkdb/raspbian/rethinkdb\r\nDo you want to push it on our download server? Or actually, is there a rule in the Makefile to create a \"clean\" package?"
+  , issueState = "closed"
+  , issueId = Id 34109802
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

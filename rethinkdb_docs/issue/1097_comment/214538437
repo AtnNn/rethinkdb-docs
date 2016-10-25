@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-25) 21 : 51 : 25 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/214538437"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1097#issuecomment-214538437"
+  , issueCommentCreatedAt = 2016 (-04) (-25) 21 : 51 : 25 UTC
+  , issueCommentBody =
+      "@cefn Good points, we need to be careful about how to phrase this.\r\n\r\nRethinkDB updates are always on a per-document granularity, so it will definitely rewrite the whole thing. This is kind of hard to do differently in a document database without any schema, so we haven't gotten around to it so far. The issue to follow for this functionality is https://github.com/rethinkdb/rethinkdb/issues/5369 . For the time being, our recommendation is not to use embedded arrays that are too large if they will be frequently updated. Instead we recommend using a separate table and a join, as you would do with a relational database."
+  , issueCommentId = 214538437
+  }

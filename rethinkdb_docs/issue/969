@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 52 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/969/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/969"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 969
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 91193
+          , simpleUserLogin = N "mglukhovsky"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/91193?v=3"
+          , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Can I use rethinkdb.ninja domain [Question]"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/969"
+  , issueCreatedAt = 2015 (-11) (-30) 20 : 01 : 48 UTC
+  , issueBody =
+      Just
+        "Hi,\r\n\r\nI registered a domain called RethinkDB.ninja, going to deploy this https://github.com/axcoto/rethink-weekly \r\nThen I realized that this us very confusing to other people think that rethinkdb.ninja is part of rethinkdb.com and also maybe illegal to use rethinkdb phrase in my domain name with a different tld.\r\n\r\nDo you guys think it's ok for me to use this domain? If not, I will go find another domain.\r\n\r\nI think I shouldn't use it, but I already bought it so I just asked it here :)"
+  , issueState = "open"
+  , issueId = Id 119568501
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

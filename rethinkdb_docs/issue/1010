@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-18) 01 : 21 : 04 UTC
+  , issueUpdatedAt = 2016 (-02) (-18) 01 : 21 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1010/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1010"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1010
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Also mention per-table memory overhead in \"Understanding RethinkDB memory requirements\""
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1010"
+  , issueCreatedAt = 2016 (-02) (-05) 21 : 39 : 08 UTC
+  , issueBody =
+      Just
+        "Originally opened this in https://github.com/rethinkdb/rethinkdb/issues/5229 by accident:\r\n> We currently mention the overhead of 8 MB per table in http://rethinkdb.com/limitations/.\r\n> \r\n> We should also mention it in http://rethinkdb.com/docs/memory-usage/\r\n"
+  , issueState = "closed"
+  , issueId = Id 131761606
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

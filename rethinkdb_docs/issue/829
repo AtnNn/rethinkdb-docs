@@ -1,0 +1,46 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-24) 21 : 51 : 37 UTC
+  , issueUpdatedAt = 2015 (-07) (-24) 21 : 51 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/829/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/829"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 829
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "max_batch_bytes default is wrong"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/829"
+  , issueCreatedAt = 2015 (-07) (-23) 22 : 28 : 09 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/api/python/run/\r\n\r\nAs part of https://github.com/rethinkdb/docs/issues/543 , the `max_batch_bytes` default in the API documentation was changed to 1024. However the previous value of 1 MB was actually correct.\r\n\r\nThe other default values are correct as far as I can tell."
+  , issueState = "closed"
+  , issueId = Id 96918011
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-12) 01 : 47 : 07 UTC
+  , issueUpdatedAt = 2016 (-02) (-12) 01 : 47 : 07 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1016/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1016"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1016
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 899175
+        , simpleUserLogin = N "gianpaj"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/899175?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gianpaj"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "comparison tables still mentions admin cli"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1016"
+  , issueCreatedAt = 2016 (-02) (-10) 10 : 45 : 49 UTC
+  , issueBody =
+      Just
+        "[8-architecture/comparison-tables.md#administration](https://github.com/rethinkdb/docs/blob/master/8-architecture/comparison-tables.md#administration)"
+  , issueState = "closed"
+  , issueId = Id 132664872
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

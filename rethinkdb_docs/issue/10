@@ -1,0 +1,45 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-11) 20 : 25 : 42 UTC
+  , issueUpdatedAt = 2016 (-04) (-11) 20 : 25 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/10/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/10"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 10
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add documentation on cluster issues"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/10"
+  , issueCreatedAt = 2013 (-10) (-02) 07 : 35 : 18 UTC
+  , issueBody =
+      Just
+        "There are a limited set of issues that can be presented in the UI, for example:\r\n\r\n- Servers that should be removed from the cluster\r\n- Metadata conflicts\r\n- Redundancy issues\r\n- Zombie servers\r\n\r\n...and a few more. It would be useful to describe these different cases, and the consequences of resolving them (and would help simplify some error messages if we had a public resource for users to refer to)."
+  , issueState = "closed"
+  , issueId = Id 20378375
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

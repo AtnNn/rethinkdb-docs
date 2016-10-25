@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 02 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/710/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/710"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 710
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Better multi-language support in the build system"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/710"
+  , issueCreatedAt = 2015 (-04) (-14) 17 : 52 : 58 UTC
+  , issueBody =
+      Just
+        "Right now we need 3 identical copies of each documentation page, which need to be kept in sync. This is really error prone, and I'm sure super annoying for @chipotle. With the upcoming creation of an official java driver (rethinkdb/rethinkdb#3930) slated for 2.1, the work is about to increase 33%. \r\n\r\nIdeally, what it would be really nice to see are some custom tags that we can pre-process into the final files that jekyll uses (if there's some way to make this a jekyll plugin, even better)\r\n\r\nHypothetically:\r\n\r\n```\r\nIn the {{#py \"python\"}}{{#rb \"ruby\"}}{{#js \"javascript\"}} driver, we do things like ...\r\n\r\n{{#py}}\r\nThe python driver uses tornado underneath, so we create generators...\r\n{{/py}}\r\n{{#rb}}\r\nEventmachine is a wonderful way to do magical delightful ruby things...\r\n{{/rb}}\r\n```\r\n\r\nHaving per-language tags as above would be a nice start. Obviously there are some more convenient things we could do, like having a special tag like `{{#lang}}` that outputs the current language's name, since that will probably be common.\r\n\r\n@mglukhovsky @AtnNn thoughts?"
+  , issueState = "open"
+  , issueId = Id 68454264
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

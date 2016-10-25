@@ -1,0 +1,75 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 03 : 57 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/545/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/545"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      , IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "eeeeee"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/not_settled"
+          , labelName = "not_settled"
+          }
+      ]
+  , issueNumber = 545
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document: How to enable auto-respawning of the RethinkDB service"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/545"
+  , issueCreatedAt = 2014 (-10) (-10) 19 : 03 : 19 UTC
+  , issueBody =
+      Just
+        "A couple of users have asked for an option to automatically restart the RethinkDB service in case it runs out of memory (https://github.com/rethinkdb/rethinkdb/issues/2327).\r\n\r\nOnce we ship https://github.com/rethinkdb/rethinkdb/issues/2014 and https://github.com/rethinkdb/rethinkdb/issues/2037, it will be possible to achieve this by adding a simple configuration option to the systemd/upstart service configuration (see https://github.com/rethinkdb/rethinkdb/issues/2327#issuecomment-58700756). We should document how to do that exactly, once these issues are settled."
+  , issueState = "open"
+  , issueId = Id 45513041
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

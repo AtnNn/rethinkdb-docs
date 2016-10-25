@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 03 : 57 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/621/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/621"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 621
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add article on debugging techniques for reql"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/621"
+  , issueCreatedAt = 2015 (-01) (-15) 21 : 06 : 04 UTC
+  , issueBody =
+      Just
+        "Recently, there was a question on the mailing list asking about debugging a secondary index (to make sure it had the expected values in it). @danielmewes responded with this generally helpful technique:\r\n\r\n## secondary index debugging\r\nAn easy way to check which keys will be inserted into a secondary index is by running a `.map(secondaryIndexFunction.default(null))` on the table. If you want to create a multi index, you can replace the `map` by `concatMap`.\r\n\r\nAssuming that you want to create a multi index so that you can look up messages by the IDs of their responses (in JS):\r\n`r.table(...).indexCreate(\"resp_ids\", function(x) { return x('response')('messages')('message-id'); }, {multi: true} )`\r\n\r\n## other techniques\r\n\r\n- turn a `.filter` into a `.map` to see what's being matched\r\n- using `r.expr` to create dummy data without needing to create a table to test a query on\r\n\r\n@neumino and @AtnNn both have a huge bag of reql tricks, some of which I bet are good for debugging"
+  , issueState = "open"
+  , issueId = Id 54504163
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

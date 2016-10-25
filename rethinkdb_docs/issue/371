@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-02) 02 : 47 : 24 UTC
+  , issueUpdatedAt = 2014 (-09) (-09) 03 : 47 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/371/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/371"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 371
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Make python examples PEP8 compliant."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/371"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/371.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/371.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/371"
+  , issueCreatedAt = 2014 (-06) (-18) 00 : 50 : 20 UTC
+  , issueBody =
+      Just "These are my proposed fixes for rethinkdb/rethinkdb#2534."
+  , issueState = "closed"
+  , issueId = Id 35945945
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

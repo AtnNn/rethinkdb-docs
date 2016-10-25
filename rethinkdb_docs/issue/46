@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2013 (-10) (-28) 21 : 06 : 56 UTC
+  , issueUpdatedAt = 2013 (-10) (-28) 21 : 06 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/46/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/46"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 46
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 210896
+        , simpleUserLogin = N "alpacaaa"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/210896?v=3"
+        , simpleUserUrl = "https://api.github.com/users/alpacaaa"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Missing closing curly bracket"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/46"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/46.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/46.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/46"
+  , issueCreatedAt = 2013 (-10) (-27) 07 : 13 : 28 UTC
+  , issueBody = Just "Simple fix :)"
+  , issueState = "closed"
+  , issueId = Id 21648457
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

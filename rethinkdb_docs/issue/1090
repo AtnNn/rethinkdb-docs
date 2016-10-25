@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-20) 21 : 35 : 44 UTC
+  , issueUpdatedAt = 2016 (-04) (-20) 21 : 35 : 44 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1090/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1090"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 1090
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "`>` operator in JS r.row docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1090"
+  , issueCreatedAt = 2016 (-04) (-19) 22 : 52 : 28 UTC
+  , issueBody =
+      Just
+        "Noticed and reported by @cefn in https://github.com/rethinkdb/rethinkdb/issues/5687 .\r\n\r\nOne of the examples in https://rethinkdb.com/api/javascript/row/ uses the `>` operator:\r\n```js\r\nr.table('users').filter(r.row('embedded_doc')('child') > 5).run(conn, callback)\r\n```"
+  , issueState = "closed"
+  , issueId = Id 149605418
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

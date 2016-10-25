@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 18 : 52 : 09 UTC
+  , issueUpdatedAt = 2014 (-05) (-29) 18 : 52 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/147/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/147"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 147
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Insert example in Python guide has too-long lines"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/147"
+  , issueCreatedAt = 2013 (-12) (-16) 22 : 51 : 41 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/docs/guide/python/\r\n\r\nThe `Insert data` example has lines that are one character too long, which looks really ugly."
+  , issueState = "closed"
+  , issueId = Id 24386455
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

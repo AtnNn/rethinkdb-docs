@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-16) 17 : 13 : 44 UTC
+  , issueUpdatedAt = 2016 (-05) (-16) 17 : 13 : 44 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1070/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1070"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1070
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 75239
+        , simpleUserLogin = N "pdevine"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/75239?v=3"
+        , simpleUserUrl = "https://api.github.com/users/pdevine"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix typo in architecture.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1070"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1070.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1070.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1070"
+  , issueCreatedAt = 2016 (-04) (-03) 23 : 24 : 50 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 145551950
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

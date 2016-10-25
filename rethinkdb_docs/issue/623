@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-19) 23 : 11 : 04 UTC
+  , issueUpdatedAt = 2015 (-01) (-19) 23 : 21 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/623/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/623"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 623
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 643505
+        , simpleUserLogin = N "jonathanong"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/643505?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jonathanong"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "why does exhausting the cursor throw an error?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/623"
+  , issueCreatedAt = 2015 (-01) (-19) 20 : 08 : 00 UTC
+  , issueBody =
+      Just
+        "https://github.com/rethinkdb/rethinkdb/issues/3601#issuecomment-70552201\r\n\r\nwhy not just return null? now i have to check for errors when all i want to know is that there are no more documents"
+  , issueState = "closed"
+  , issueId = Id 54806632
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

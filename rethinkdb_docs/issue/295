@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-14) 06 : 57 : 12 UTC
+  , issueUpdatedAt = 2014 (-07) (-01) 07 : 49 : 30 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/295/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/295"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 295
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 243851
+        , simpleUserLogin = N "mafrosis"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/243851?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mafrosis"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Superheroes"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/295"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/295.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/295.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/295"
+  , issueCreatedAt = 2014 (-05) (-14) 01 : 45 : 32 UTC
+  , issueBody =
+      Just
+        "A couple of bug fixes in the Python code for the superheroes tutorial, plus (what I believe to be) a simplification."
+  , issueState = "closed"
+  , issueId = Id 33454965
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

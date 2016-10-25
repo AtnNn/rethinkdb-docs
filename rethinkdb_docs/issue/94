@@ -1,0 +1,64 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-23) 21 : 51 : 34 UTC
+  , issueUpdatedAt = 2013 (-11) (-23) 21 : 51 : 34 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/94/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/94"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 94
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "cleanup"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/94"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/94.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/94.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/94"
+  , issueCreatedAt = 2013 (-11) (-20) 02 : 09 : 44 UTC
+  , issueBody =
+      Just
+        "This includes:\r\n* Several style and consistency fixes (e.g. RQL -> ReQL).\r\n* Better documentation for optional arguments.\r\n* Documentation for the `noreply_wait` optarg.\r\n* Copy-editing."
+  , issueState = "closed"
+  , issueId = Id 22966632
+  , issueComments = 13
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1461947
+                , simpleUserLogin = N "neumino"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1461947?v=3"
+                , simpleUserUrl = "https://api.github.com/users/neumino"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 1
+          , milestoneClosedIssues = 9
+          , milestoneDescription =
+              Just "Things to add before releasing v1.11.0"
+          , milestoneTitle = "v1.11.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/1"
+          , milestoneCreatedAt = 2013 (-10) (-27) 00 : 18 : 14 UTC
+          , milestoneState = "closed"
+          }
+  }

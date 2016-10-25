@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-28) 00 : 46 : 39 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/215274882"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1102#issuecomment-215274882"
+  , issueCommentCreatedAt = 2016 (-04) (-28) 00 : 46 : 39 UTC
+  , issueCommentBody =
+      "There's also the less generic option of having these functions appear twice in the command list, once in their current place and once in the string manipulation section.\r\nI'm not sure how well that's going to work though.\r\n\r\n`add` is another relevant command by the way."
+  , issueCommentId = 215274882
+  }

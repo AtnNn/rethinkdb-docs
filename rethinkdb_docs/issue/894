@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-20) 18 : 38 : 23 UTC
+  , issueUpdatedAt = 2015 (-11) (-20) 18 : 38 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/894/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/894"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 894
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Adding `.changes()` missing from changefeed example"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/894"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/894.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/894.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/894"
+  , issueCreatedAt = 2015 (-09) (-11) 22 : 16 : 49 UTC
+  , issueBody =
+      Just
+        "Someone alerted me to this on Gitter - https://gitter.im/rethinkdb/rethinkdb?at=55f3514f2517f9cb63145229"
+  , issueState = "closed"
+  , issueId = Id 106104337
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

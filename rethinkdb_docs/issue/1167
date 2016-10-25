@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-01) 23 : 29 : 01 UTC
+  , issueUpdatedAt = 2016 (-09) (-01) 23 : 29 : 01 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1167/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1167"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 1167
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add note on handling of data corruption"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1167"
+  , issueCreatedAt = 2016 (-08) (-05) 18 : 46 : 21 UTC
+  , issueBody =
+      Just
+        "Came up in https://github.com/rethinkdb/rethinkdb/issues/6034\r\n\r\nRethinkDB does not currently add its own checksums for detecting data corruption on disk. Instead it relies on the underlying storage system (hard drives + file system) to ensure the consistency of data blocks.\r\n\r\nWe should add this to https://www.rethinkdb.com/docs/architecture/#data-storage I think."
+  , issueState = "closed"
+  , issueId = Id 169671594
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

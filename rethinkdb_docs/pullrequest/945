@@ -1,0 +1,170 @@
+PullRequest
+  { pullRequestClosedAt = Nothing
+  , pullRequestCreatedAt = 2015 (-11) (-11) 14 : 32 : 34 UTC
+  , pullRequestUser =
+      SimpleUser
+        { simpleUserId = Id 426352
+        , simpleUserLogin = N "massimiliano-mantione"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/426352?v=3"
+        , simpleUserUrl =
+            "https://api.github.com/users/massimiliano-mantione"
+        , simpleUserType = OwnerUser
+        }
+  , pullRequestPatchUrl =
+      "https://github.com/rethinkdb/docs/pull/945.patch"
+  , pullRequestState = "open"
+  , pullRequestNumber = 945
+  , pullRequestHtmlUrl = "https://github.com/rethinkdb/docs/pull/945"
+  , pullRequestUpdatedAt = 2016 (-01) (-04) 17 : 51 : 10 UTC
+  , pullRequestBody =
+      "I spent a few hours trying to make a multi-compound query do what I wanted, and I even opened issue #5068 when I had no clue about it (btw, thanks for the clarification there!).\r\n\r\nI think that an explanation like this would have saved me a lot of time.\r\n\r\nAre files for the other languages edited \"in parallel\"? If yes I could apply the changes to the English text but I would risk to do gross mistake with the python and ruby sample code :-/\r\n"
+  , pullRequestIssueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/945"
+  , pullRequestDiffUrl =
+      "https://github.com/rethinkdb/docs/pull/945.diff"
+  , pullRequestUrl =
+      "https://api.github.com/repos/rethinkdb/docs/pulls/945"
+  , pullRequestLinks =
+      PullRequestLinks
+        { pullRequestLinksReviewComments =
+            "https://api.github.com/repos/rethinkdb/docs/pulls/945/comments"
+        , pullRequestLinksComments =
+            "https://api.github.com/repos/rethinkdb/docs/issues/945/comments"
+        , pullRequestLinksHtml =
+            "https://github.com/rethinkdb/docs/pull/945"
+        , pullRequestLinksSelf =
+            "https://api.github.com/repos/rethinkdb/docs/pulls/945"
+        }
+  , pullRequestMergedAt = Nothing
+  , pullRequestTitle =
+      "Explained multi compound indexes and sorting more clearly."
+  , pullRequestId = 50389118
+  , pullRequestMergedBy = Nothing
+  , pullRequestChangedFiles = 1
+  , pullRequestHead =
+      PullRequestCommit
+        { pullRequestCommitLabel =
+            "massimiliano-mantione:multi-index-docs-improvement"
+        , pullRequestCommitRef = "multi-index-docs-improvement"
+        , pullRequestCommitSha = "b622ed2d494493228e9b98eafc0ff80d1a696661"
+        , pullRequestCommitUser =
+            SimpleUser
+              { simpleUserId = Id 426352
+              , simpleUserLogin = N "massimiliano-mantione"
+              , simpleUserAvatarUrl =
+                  "https://avatars.githubusercontent.com/u/426352?v=3"
+              , simpleUserUrl =
+                  "https://api.github.com/users/massimiliano-mantione"
+              , simpleUserType = OwnerUser
+              }
+        , pullRequestCommitRepo =
+            Repo
+              { repoSshUrl = Just "git@github.com:massimiliano-mantione/docs.git"
+              , repoDescription = Just "RethinkDB documentation"
+              , repoCreatedAt = Just 2015 (-11) (-11) 14 : 18 : 40 UTC
+              , repoHtmlUrl = "https://github.com/massimiliano-mantione/docs"
+              , repoSvnUrl = Just "https://github.com/massimiliano-mantione/docs"
+              , repoForks = Just 0
+              , repoHomepage = Just "http://rethinkdb.com/docs"
+              , repoFork = Just True
+              , repoGitUrl =
+                  Just "git://github.com/massimiliano-mantione/docs.git"
+              , repoPrivate = False
+              , repoCloneUrl =
+                  Just "https://github.com/massimiliano-mantione/docs.git"
+              , repoSize = Just 20735
+              , repoUpdatedAt = Just 2015 (-11) (-11) 14 : 18 : 43 UTC
+              , repoWatchers = Just 0
+              , repoOwner =
+                  SimpleOwner
+                    { simpleOwnerId = Id 426352
+                    , simpleOwnerLogin = N "massimiliano-mantione"
+                    , simpleOwnerUrl =
+                        "https://api.github.com/users/massimiliano-mantione"
+                    , simpleOwnerAvatarUrl =
+                        "https://avatars.githubusercontent.com/u/426352?v=3"
+                    , simpleOwnerType = OwnerUser
+                    }
+              , repoName = N "docs"
+              , repoLanguage = Just (Language "CSS")
+              , repoMasterBranch = Nothing
+              , repoPushedAt = Just 2015 (-11) (-11) 14 : 23 : 38 UTC
+              , repoId = Id 45986020
+              , repoUrl =
+                  "https://api.github.com/repos/massimiliano-mantione/docs"
+              , repoOpenIssues = Just 0
+              , repoHasWiki = Just True
+              , repoHasIssues = Just False
+              , repoHasDownloads = Just True
+              , repoParent = Nothing
+              , repoSource = Nothing
+              , repoHooksUrl =
+                  "https://api.github.com/repos/massimiliano-mantione/docs/hooks"
+              , repoStargazersCount = 0
+              }
+        }
+  , pullRequestComments = 2
+  , pullRequestDeletions = 2
+  , pullRequestAdditions = 48
+  , pullRequestReviewComments = 0
+  , pullRequestBase =
+      PullRequestCommit
+        { pullRequestCommitLabel = "rethinkdb:master"
+        , pullRequestCommitRef = "master"
+        , pullRequestCommitSha = "e1bba6ea608bb7ea5024e68f948e1ab97330d65f"
+        , pullRequestCommitUser =
+            SimpleUser
+              { simpleUserId = Id 1229647
+              , simpleUserLogin = N "rethinkdb"
+              , simpleUserAvatarUrl =
+                  "https://avatars.githubusercontent.com/u/1229647?v=3"
+              , simpleUserUrl = "https://api.github.com/users/rethinkdb"
+              , simpleUserType = OwnerOrganization
+              }
+        , pullRequestCommitRepo =
+            Repo
+              { repoSshUrl = Just "git@github.com:rethinkdb/docs.git"
+              , repoDescription = Just "RethinkDB documentation"
+              , repoCreatedAt = Just 2013 (-09) (-11) 01 : 08 : 40 UTC
+              , repoHtmlUrl = "https://github.com/rethinkdb/docs"
+              , repoSvnUrl = Just "https://github.com/rethinkdb/docs"
+              , repoForks = Just 154
+              , repoHomepage = Just "http://rethinkdb.com/docs"
+              , repoFork = Just False
+              , repoGitUrl = Just "git://github.com/rethinkdb/docs.git"
+              , repoPrivate = False
+              , repoCloneUrl = Just "https://github.com/rethinkdb/docs.git"
+              , repoSize = Just 22467
+              , repoUpdatedAt = Just 2016 (-10) (-17) 17 : 50 : 24 UTC
+              , repoWatchers = Just 71
+              , repoOwner =
+                  SimpleOwner
+                    { simpleOwnerId = Id 1229647
+                    , simpleOwnerLogin = N "rethinkdb"
+                    , simpleOwnerUrl = "https://api.github.com/users/rethinkdb"
+                    , simpleOwnerAvatarUrl =
+                        "https://avatars.githubusercontent.com/u/1229647?v=3"
+                    , simpleOwnerType = OwnerOrganization
+                    }
+              , repoName = N "docs"
+              , repoLanguage = Just (Language "CSS")
+              , repoMasterBranch = Nothing
+              , repoPushedAt = Just 2016 (-10) (-05) 05 : 39 : 08 UTC
+              , repoId = Id 12744481
+              , repoUrl = "https://api.github.com/repos/rethinkdb/docs"
+              , repoOpenIssues = Just 123
+              , repoHasWiki = Just True
+              , repoHasIssues = Just True
+              , repoHasDownloads = Just True
+              , repoParent = Nothing
+              , repoSource = Nothing
+              , repoHooksUrl =
+                  "https://api.github.com/repos/rethinkdb/docs/hooks"
+              , repoStargazersCount = 71
+              }
+        }
+  , pullRequestCommits = 1
+  , pullRequestMerged = False
+  , pullRequestMergeable = Just True
+  }

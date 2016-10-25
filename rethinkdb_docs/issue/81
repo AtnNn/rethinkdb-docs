@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 21 : 12 : 53 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 12 : 53 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/81/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/81"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 81
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Improve instructions for reverse proxy setup"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/81"
+  , issueCreatedAt = 2013 (-11) (-16) 02 : 50 : 27 UTC
+  , issueBody =
+      Just
+        "- Capitalize \"Apache\" when referring to the project\r\n- Add instructions to install Apache and `htpasswd` in addition to `mod_proxy`:\r\n\r\n> `sudo apt-get install apache2 apache2-utils libapache2-mod-proxy-html`\r\n\r\n- Enable a few more modules:\r\n\r\n> `sudo a2enmod proxy proxy_http authz_groupfile`\r\n\r\n- Specify a common location for the default Apache configuration (on Ubuntu it's `/etc/apache2/sites-enabled/000-default.conf`)\r\n\r\n- Consider refining the suggested configuration -- for example, ProxyRequests could be in the block with the other Proxy* lines.\r\n\r\n- Add comments to the suggested configuration explaining what each line does\r\n\r\n- `htpasswd.exe` of course doesn't exist on Linux systems, and we specify the password file should be created in `/etc/apache2/`, so it should be:\r\n\r\n> `sudo htpasswd -c /etc/apache2/password.file <username>`\r\n\r\n- We should specify the location for `group.file` as well:\r\n\r\n> Create the file `/etc/apache2/group.file` with the following line:\r\n\r\n- We should close with a line stating that `apache2` needs to be restarted:\r\n\r\n> sudo service apache2 restart"
+  , issueState = "closed"
+  , issueId = Id 22771093
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

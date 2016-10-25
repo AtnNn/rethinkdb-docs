@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-24) 20 : 11 : 15 UTC
+  , issueUpdatedAt = 2014 (-07) (-24) 20 : 11 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/413/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/413"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 413
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Added new illustrations"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/413"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/413.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/413.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/413"
+  , issueCreatedAt = 2014 (-07) (-11) 23 : 28 : 46 UTC
+  , issueBody =
+      Just
+        "@mglukhovsky \r\n\r\n* Map Reduce\r\n    * http://192.168.0.159:8888/docs/map-reduce\r\n* Secondary Indexes\r\n    * http://192.168.0.159:8888/docs/secondary-indexes/ruby\r\n    * http://192.168.0.159:8888/docs/secondary-indexes/python\r\n    * http://192.168.0.159:8888/docs/secondary-indexes/javascript\r\n* Data Modeling\r\n    * http://192.168.0.159:8888/docs/data-modeling\r\n* Table Joins\r\n    * http://192.168.0.159:8888/docs/table-joins"
+  , issueState = "closed"
+  , issueId = Id 37706121
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-25) 15 : 11 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 159819
+        , simpleUserLogin = N "cefn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/159819?v=3"
+        , simpleUserUrl = "https://api.github.com/users/cefn"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/214386266"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1096#issuecomment-214386266"
+  , issueCommentCreatedAt = 2016 (-04) (-25) 15 : 11 : 34 UTC
+  , issueCommentBody =
+      "OK, it's my stupid. \r\n\r\nI was failing to add the .run(conn) at the end of the query chain, hence it was returning a fairly mysterious-looking and unidentified structure in Webstorm debugger, which looks roughly like...\r\n\r\n```\r\nfunction () {\r\n```\r\n\r\nWorth noting that if an 'anonymous' function like this is given a name, then it remains identifiable in the V8 debugger, and this name could have indicated that what I had was an unterminated query construct.\r\n\r\nSo instead of ```function(){ x; }``` when producing the relevant closure, using ```function queryAwaitingConnection(){ x; }``` would mean that debuggers could make sense of the return value from update() and the return value would retain its name.\r\n\r\nI've changed the title of the bug to reflect this."
+  , issueCommentId = 214386266
+  }

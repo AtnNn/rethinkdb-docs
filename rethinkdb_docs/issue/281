@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-25) 18 : 55 : 39 UTC
+  , issueUpdatedAt = 2014 (-04) (-25) 18 : 55 : 39 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/281/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/281"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 281
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Cookbook - Fix \"Using subqueries to return additional fields\""
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/281"
+  , issueCreatedAt = 2014 (-04) (-25) 06 : 11 : 34 UTC
+  , issueBody = Just "It's missing a `coerceTo(\"ARRAY\")`"
+  , issueState = "closed"
+  , issueId = Id 32207839
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

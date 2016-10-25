@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-13) 21 : 00 : 10 UTC
+  , issueUpdatedAt = 2013 (-12) (-13) 21 : 02 : 43 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/145/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/145"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 145
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 172594
+        , simpleUserLogin = N "mikemaccana"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/172594?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mikemaccana"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Use JS style 'returnVals' rather than Python-style underscores"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/145"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/145.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/145.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/145"
+  , issueCreatedAt = 2013 (-12) (-13) 15 : 57 : 57 UTC
+  , issueBody =
+      Just
+        "My understanding is that both work, but the rest of the documentation uses JS style."
+  , issueState = "closed"
+  , issueId = Id 24254527
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

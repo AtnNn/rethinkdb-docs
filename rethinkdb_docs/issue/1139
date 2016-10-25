@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-13) 22 : 04 : 53 UTC
+  , issueUpdatedAt = 2016 (-06) (-13) 22 : 04 : 53 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1139/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1139"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1139
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 278886
+        , simpleUserLogin = N "hubsmoke"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/278886?v=3"
+        , simpleUserUrl = "https://api.github.com/users/hubsmoke"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Typo on ruby insert page"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1139"
+  , issueCreatedAt = 2016 (-06) (-11) 09 : 16 : 04 UTC
+  , issueBody =
+      Just
+        "https://rethinkdb.com/api/ruby/insert/\r\n\r\nAll the way at the bottom there's\r\n\r\n`# assume new_memos is a list of memo documents to insert\r\nr.table(\"memos\").insert(new_memos, :conflict => lambda { |id, old_doc, new+doc|\r\n    new_doc.merge({:content => old_doc['content'] + \"\\n\" + new_doc['content']})\r\n}).run(conn)`\r\n\r\nThe parameter `new+doc` should be `new_doc`"
+  , issueState = "closed"
+  , issueId = Id 159764544
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

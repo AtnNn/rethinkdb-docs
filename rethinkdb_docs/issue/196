@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-14) 21 : 42 : 41 UTC
+  , issueUpdatedAt = 2014 (-07) (-21) 01 : 21 : 48 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/196/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/196"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 196
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1910549
+        , simpleUserLogin = N "hden"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1910549?v=3"
+        , simpleUserUrl = "https://api.github.com/users/hden"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "add intro for koa-rethinkdb"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/196"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/196.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/196.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/196"
+  , issueCreatedAt = 2014 (-02) (-13) 10 : 11 : 51 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 27506891
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

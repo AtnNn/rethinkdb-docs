@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-10) 23 : 46 : 13 UTC
+  , issueUpdatedAt = 2013 (-12) (-10) 23 : 46 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/103/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/103"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 103
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "The generated python documentation is not formatted correctly for `filter` and `update`"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/103"
+  , issueCreatedAt = 2013 (-11) (-24) 05 : 57 : 30 UTC
+  , issueBody = Just "The documentation for other methods seems OK."
+  , issueState = "closed"
+  , issueId = Id 23200633
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

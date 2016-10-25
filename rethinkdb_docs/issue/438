@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-06) 23 : 28 : 28 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 23 : 28 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/438/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/438"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 438
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Adjust the formatting of examples in the generated python docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/438"
+  , issueCreatedAt = 2014 (-08) (-01) 00 : 49 : 51 UTC
+  , issueBody =
+      Just
+        "They currently look like this:\r\n\r\n```\r\n |      *Example* What is the maximum number of points scored by each\r\n |      player in free games?\r\n |\r\n |      >>> r.table('games').filter(lambda game:\r\n |      ...         game['type'] = 'free'\r\n |      ...     ).group('player').max('points')['points'].run(conn)\r\n |      \r\n |      >>> {\r\n |      ...     \"Alice\": 7,\r\n |      ...     \"Bob\": 10\r\n |      ... }\r\n```"
+  , issueState = "closed"
+  , issueId = Id 39253049
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

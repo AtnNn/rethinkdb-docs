@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-09) 02 : 29 : 35 UTC
+  , issueUpdatedAt = 2014 (-02) (-09) 02 : 29 : 52 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/193/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/193"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 193
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 185375
+        , simpleUserLogin = N "zyegfryed"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/185375?v=3"
+        , simpleUserUrl = "https://api.github.com/users/zyegfryed"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Typo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/193"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/193.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/193.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/193"
+  , issueCreatedAt = 2014 (-02) (-08) 12 : 35 : 08 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 27199644
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-08) 22 : 31 : 31 UTC
+  , issueUpdatedAt = 2015 (-07) (-08) 22 : 31 : 31 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/806/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/806"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 806
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Limitations page should mention memory overhead proportional to disk data size"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/806"
+  , issueCreatedAt = 2015 (-07) (-01) 03 : 00 : 59 UTC
+  , issueBody =
+      Just
+        "RethinkDB keeps some data structures in RAM that are proportional in size to the data on disk. I think it's about 1% depending on the details of the user's dataset. (@danielmewes has better numbers.) We should mention this on the limitations page.\r\n\r\nAlso, the `docs/architecture` page claims that \"RethinkDB can operate on terabytes of data with only a few megabytes of cache space\", which is wrong. We would need tens of gigabytes of RAM to operate on terabytes of disk data."
+  , issueState = "closed"
+  , issueId = Id 92255196
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

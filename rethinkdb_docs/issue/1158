@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-18) 19 : 25 : 14 UTC
+  , issueUpdatedAt = 2016 (-07) (-18) 19 : 25 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1158/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1158"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1158
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 8921895
+        , simpleUserLogin = N "ha1331"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/8921895?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ha1331"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "improve api documentation of changes() "
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1158"
+  , issueCreatedAt = 2016 (-07) (-14) 19 : 00 : 41 UTC
+  , issueBody =
+      Just
+        "I think that it might be good idea to include this :\r\n`Note that changefeeds will ignore the read_mode flag, and will always behave as if it is set to single.`\r\nfrom: http://rethinkdb.com/docs/consistency/ to changes() api docs. Seeing how not everybody reads docs and know to look for that under \"consistency\". I think that part also isn't mentioned at http://rethinkdb.com/docs/changefeeds/javascript/"
+  , issueState = "closed"
+  , issueId = Id 165633945
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

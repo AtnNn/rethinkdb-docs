@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-28) 17 : 32 : 45 UTC
+  , issueUpdatedAt = 2015 (-05) (-28) 17 : 33 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/777/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/777"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 777
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1709537
+        , simpleUserLogin = N "btmills"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1709537?v=3"
+        , simpleUserUrl = "https://api.github.com/users/btmills"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix unclosed code fence"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/777"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/777.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/777.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/777"
+  , issueCreatedAt = 2015 (-05) (-24) 19 : 55 : 43 UTC
+  , issueBody =
+      Just
+        "The final example in the [dynamic keys section of the Python cookbook](http://rethinkdb.com/docs/cookbook/python/#using-dynamic-keys-in-reql-commands) contained an unclosed code fence.\r\n\r\nBefore:\r\n\r\n![rethinkdb_docs_before](https://cloud.githubusercontent.com/assets/1709537/7789406/0d1c0cfa-022d-11e5-8a96-a5db8cf72cec.PNG)\r\n\r\nAfter:\r\n\r\n![rethinkdb_docs_after](https://cloud.githubusercontent.com/assets/1709537/7789407/10fcea7e-022d-11e5-9ca9-cd024c43921d.png)\r\n\r\nIt's a small fix, but I hope it helps!"
+  , issueState = "closed"
+  , issueId = Id 80254765
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-04) 17 : 35 : 08 UTC
+  , issueUpdatedAt = 2014 (-09) (-09) 03 : 46 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/495/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/495"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 495
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Create JavaScript and Ruby changefeeds documents. Part of #151."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/495"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/495.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/495.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/495"
+  , issueCreatedAt = 2014 (-09) (-04) 01 : 40 : 09 UTC
+  , issueBody =
+      Just
+        "@chipotle I used the format that you changed my last PR into."
+  , issueState = "closed"
+  , issueId = Id 41886646
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

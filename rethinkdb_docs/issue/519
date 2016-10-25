@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 03 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/519/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/519"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 519
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Declaring the callback for `next` ouside the callback of `run`."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/519"
+  , issueCreatedAt = 2014 (-09) (-23) 17 : 22 : 11 UTC
+  , issueBody =
+      Just
+        "The current example relies on the fact that `fetchNext` is declared in the callback of `run`.\r\n\r\nUsers can create a unique callback with something like that:\r\n\r\n\r\n```js\r\nvar fetchNext = function(err, row) {\r\n     if (err) {\r\n            if (((err.name === \"RqlDriverError\") && err.message === \"No more rows in the cursor.\")) {\r\n                console.log(\"No more data to process\")\r\n            }\r\n            else {\r\n                // handle error\r\n            }\r\n     }\r\n     else {\r\n        // process row\r\n        this.next(fetchNext.bind(this));\r\n    }\r\n}\r\n\r\n// later they can do:\r\nquery.run(connection, function(err, cursor) {\r\n     if (err) {\r\n         // handle error\r\n    }\r\n    else {\r\n        cursor.next(fetchNext.bind(cursor));\r\n    }\r\n})\r\n```\r\n\r\nNot so many people use `next` with a cursor, but this can be useful if users want to open multiple feeds on different end points, and always stream back the changes in the same way."
+  , issueState = "open"
+  , issueId = Id 43657909
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

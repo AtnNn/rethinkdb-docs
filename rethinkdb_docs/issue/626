@@ -1,0 +1,64 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-27) 22 : 29 : 06 UTC
+  , issueUpdatedAt = 2015 (-01) (-27) 22 : 29 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/626/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/626"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 626
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Assorted minor errors in reql admin docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/626"
+  , issueCreatedAt = 2015 (-01) (-23) 22 : 34 : 13 UTC
+  , issueBody =
+      Just
+        "### Actual errors or omissions\r\n\r\n* `.wait()` now takes some optargs named `timeout` and `wait_for`. Ask Marc for details.\r\n\r\n* In `rethinkdb.table_status`, the `missing` state has been renamed to `disconnected`, and the `looking_for_primary` state has been renamed to `looking_for_primary_replica`.\r\n\r\n* In `rethinkdb.stats`, there will not be separate fields for `table_id`/`table_name`, `db_id`/`db_name`, and `server_id`/`server_name`. Instead, there will be single fields called `table`, `db`, and/or `server`, and their values will be UUIDs or names depending on the value of `identifier_format`.\r\n\r\n* `.config().update(...)` will return an object with the number of keys updated, deleted, etc. just like a normal `.update(...)` on a table. The `.config()` docs have an example showing it returning the new value of the document.\r\n\r\n* The example for `db_drop()` is missing the `tables_dropped` field in the return value.\r\n\r\n* `failover.md` still talks about the obsolete `rethinkdb admin` command. Instead, it should explain how to declare a server dead by deleting its corresponding row from the `rethinkdb.server_config` system table.\r\n\r\n* `5-deploying-rethinkdb/paas.md` mentions using `rethinkdb admin` to set the auth key. This should be updated to refer to the `rethinkdb.cluster_config` system table.\r\n\r\n* The quick-start guide still says the return value of `table_create()` is `{ \"created\": 1 }`. We should change it to `{ \"tables_created\": 1, ... }`.\r\n\r\n### Stuff that might confuse users\r\n\r\n* The `reconfigure()` docs should mention that the write durability will be reset to `\"hard\"` and the write acks will be reset to `\"majority\"` whenever you call `reconfigure()` on a table.\r\n\r\n* The docs use the terms \"declare dead\", \"delete\", \"remove from the cluster\", and \"permanently remove\" to refer to the same concept. This is potentially confusing. We should pick one and use it consistently.\r\n\r\n### Bikeshedding and minor nit-picks\r\n\r\n* The docs for `server_ghost` issues mention that `server_id` will always be a UUID regardless of `identifier_format`, which is correct. However, there's no need to say it twice.\r\n\r\n* It's possible to end up with poorly balanced shards even if you generate evenly distributed primary keys. If you create a new table and immediately shard it, RethinkDB will assume UUID primary keys. If you then use, say, URLs as keys (even if those URLs are distributed evenly) then all the documents will end up in one shard. The documentation for `rebalance()` implies that the only way to get poorly balanced shards is to use unevenly distributed keys.\r\n\r\n* `table_create()` and `reconfigure()` docs don't make it clear that if `replicas` is an integer, then servers without the `default` tag will not be considered. This might confuse users if they remove the `default` tag from their server and then try to create or reconfigure a table. I noticed that there is a warning in `sharding-and-replication.md`, which might be adequate; I'm not sure.\r\n\r\n* `system-tables.md` says \"If you insert a row [into table_config], you must include the name and db fields; the rest will be automatically generated or set to default.\" This could be interpreted to mean you aren't allowed to specify the other fields. It would be nice if it made it clearer that the other fields *can* be specified.\r\n\r\n* `sharding-and-replication.md` says that \"tables are configured on startup\". This is sort of confusing. Maybe it should say \"tables are configured on creation\" instead.\r\n\r\n* `sharding-and-replication.md` mentions write durability without explaining what it is. Maybe it should link to the explanation in `system-tables.md`.\r\n"
+  , issueState = "closed"
+  , issueId = Id 55341867
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 48436
+                , simpleUserLogin = N "coffeemug"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/48436?v=3"
+                , simpleUserUrl = "https://api.github.com/users/coffeemug"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 6
+          , milestoneClosedIssues = 16
+          , milestoneDescription = Just ""
+          , milestoneTitle = "1.16"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/6"
+          , milestoneCreatedAt = 2014 (-09) (-18) 21 : 53 : 16 UTC
+          , milestoneState = "closed"
+          }
+  }

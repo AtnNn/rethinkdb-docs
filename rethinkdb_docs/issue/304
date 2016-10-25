@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-09) 17 : 52 : 51 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 17 : 52 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/304/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/304"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 304
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Python r.connect docs should mention that it is not thread-safe"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/304"
+  , issueCreatedAt = 2014 (-05) (-21) 22 : 34 : 16 UTC
+  , issueBody =
+      Just
+        "Until rethinkdb/rethinkdb#2427 gets done we should explicitly mention in the Python docs for r.connect that each Python thread/multiprocessing pid should have its own connection object.\r\n\r\nhttp://rethinkdb.com/api/python/connect/"
+  , issueState = "closed"
+  , issueId = Id 34032205
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

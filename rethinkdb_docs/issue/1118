@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-30) 18 : 37 : 00 UTC
+  , issueUpdatedAt = 2016 (-09) (-30) 18 : 37 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1118/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1118"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1118
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10736369
+        , simpleUserLogin = N "gangadharyelwande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10736369?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gangadharyelwande"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Union branch for issue #1117"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1118"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1118.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1118.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1118"
+  , issueCreatedAt = 2016 (-05) (-08) 07 : 40 : 41 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 153642279
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

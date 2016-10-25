@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-02) 00 : 48 : 37 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 24 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/64/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/64"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 64
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Sort the result of os.listdir to make the results deterministic"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/64"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/64.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/64.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/64"
+  , issueCreatedAt = 2013 (-11) (-02) 00 : 40 : 27 UTC
+  , issueBody =
+      Just
+        "Different calls to listdir may return the files in a different order. This caused diffs of different versions of the py_docs.json file to be useless.\r\n\r\n@neumino can you please merge this into your branch and rebuild rethinkdb/michel_md_docs:docs/rql/py_docs.json ?"
+  , issueState = "closed"
+  , issueId = Id 21992362
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

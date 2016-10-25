@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-24) 23 : 53 : 03 UTC
+  , issueUpdatedAt = 2014 (-03) (-24) 23 : 53 : 03 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/235/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/235"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 235
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add page for group_by/grouped_map_reduce"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/235"
+  , issueCreatedAt = 2014 (-03) (-24) 23 : 00 : 18 UTC
+  , issueBody =
+      Just
+        "The files were removed from the `api` directory.\r\n\r\nI'll add a page to avoid 404 errors that will point to @coffeemug's gist."
+  , issueState = "closed"
+  , issueId = Id 30083471
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

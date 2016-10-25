@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-09) (-30) 18 : 34 : 16 UTC
+  , issueUpdatedAt = 2016 (-09) (-30) 18 : 34 : 16 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1184/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1184"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1184
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 26752
+        , simpleUserLogin = N "kvz"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/26752?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kvz"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix syntax errors in sharding and replication docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1184"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1184.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1184.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1184"
+  , issueCreatedAt = 2016 (-09) (-30) 15 : 22 : 28 UTC
+  , issueBody =
+      Just
+        "- [x] I have read and agreed to the RethinkDB Contributor License Agreement http://rethinkdb.com/community/cla/\r\n\r\n### Description\r\n\r\nFix syntax errors in sharding and replication docs\r\n\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 180331577
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

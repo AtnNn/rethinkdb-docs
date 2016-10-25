@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-03) 19 : 05 : 44 UTC
+  , issueUpdatedAt = 2014 (-07) (-01) 07 : 49 : 07 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/333/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/333"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 333
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Moving holding hands illustration to 'start a cluster' page."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/333"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/333.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/333.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/333"
+  , issueCreatedAt = 2014 (-06) (-03) 13 : 09 : 26 UTC
+  , issueBody =
+      Just
+        "It didn't quite fit the 30 second tutorial (and had style problems because of code block overlap).\r\n\r\n@neumino -- could you review?"
+  , issueState = "closed"
+  , issueId = Id 34861273
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

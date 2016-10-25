@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-03) 20 : 01 : 31 UTC
+  , issueUpdatedAt = 2015 (-06) (-03) 20 : 01 : 31 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/766/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/766"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 766
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 811954
+        , simpleUserLogin = N "danielcompton"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/811954?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielcompton"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clarify CAP theorem limitations"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/766"
+  , issueCreatedAt = 2015 (-05) (-18) 22 : 57 : 37 UTC
+  , issueBody =
+      Just
+        "Overall I think you've done a great job on the architecture docs and explaining the trade-offs you made. However there was one section that I thought could be a little clearer.\r\n\r\n> In RethinkDB data always remains immediately consistent and conflict-free, and a read that follows a write is always guaranteed to see the write.\r\n\r\nWhile this is technically true, it would probably be more accurate to say something like:\r\n\r\n> In RethinkDB data always remains immediately consistent and conflict-free, and a read that follows a write is always guaranteed to see the write (but neither the read nor write are guaranteed to succeed if the server is unavailable).\r\n\r\nYou talk about the failure scenarios further down, but as this is the first part of the CAP section, I think it would be helpful to give people a general understanding before continuing into the details. As it stands, without explicitly acknowledging the failure scenario (especially when discussing the CAP theorem), it seems like you're claiming that it is always immediately consistent and always available (which you're not, and the docs further down make that clear).\r\n\r\nWhat are your thoughts?"
+  , issueState = "closed"
+  , issueId = Id 77838584
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

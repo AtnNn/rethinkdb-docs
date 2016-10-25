@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-19) 02 : 04 : 03 UTC
+  , issueUpdatedAt = 2015 (-02) (-19) 02 : 04 : 03 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/499/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/499"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 499
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "CentOS instructions are no longer valid"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/499"
+  , issueCreatedAt = 2014 (-09) (-05) 23 : 26 : 34 UTC
+  , issueBody =
+      Just
+        "I tried following our build-from-source instructions for CentOS 6.5 on the website (http://rethinkdb.com/docs/install/centos/), and it looks like it is no longer valid because we now require a later version of GCC (see rethinkdb/rethinkdb#1748, especially the last comment).\r\n\r\nWe should probably update the instructions."
+  , issueState = "closed"
+  , issueId = Id 42100956
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

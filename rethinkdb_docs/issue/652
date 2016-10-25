@@ -1,0 +1,64 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-24) 21 : 52 : 22 UTC
+  , issueUpdatedAt = 2015 (-02) (-24) 21 : 52 : 22 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/652/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/652"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 652
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 167416
+        , simpleUserLogin = N "VeXocide"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/167416?v=3"
+        , simpleUserUrl = "https://api.github.com/users/VeXocide"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Rename `indexes_of` to `offsets_of`"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/652"
+  , issueCreatedAt = 2015 (-02) (-13) 22 : 30 : 40 UTC
+  , issueBody =
+      Just
+        "Via https://github.com/rethinkdb/rethinkdb/issues/3265 `indexes_of` got renamed to `offsets_of`, which should be reflected in the documentation."
+  , issueState = "closed"
+  , issueId = Id 57662900
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 48436
+                , simpleUserLogin = N "coffeemug"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/48436?v=3"
+                , simpleUserUrl = "https://api.github.com/users/coffeemug"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 7
+          , milestoneClosedIssues = 12
+          , milestoneDescription = Just ""
+          , milestoneTitle = "2.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/7"
+          , milestoneCreatedAt = 2014 (-12) (-05) 21 : 34 : 57 UTC
+          , milestoneState = "closed"
+          }
+  }

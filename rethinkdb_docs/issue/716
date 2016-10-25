@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-29) 20 : 17 : 37 UTC
+  , issueUpdatedAt = 2015 (-05) (-29) 20 : 17 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/716/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/716"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 716
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1981198
+        , simpleUserLogin = N "thejsj"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1981198?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thejsj"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Adding Rob Conery's second-thought and rethinkdb_nigthly modules..."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/716"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/716.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/716.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/716"
+  , issueCreatedAt = 2015 (-04) (-17) 17 : 47 : 35 UTC
+  , issueBody = Just "... to integrations page"
+  , issueState = "closed"
+  , issueId = Id 69185005
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

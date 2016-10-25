@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-01) 00 : 43 : 37 UTC
+  , issueUpdatedAt = 2014 (-08) (-01) 00 : 43 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/437/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/437"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 437
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 7431361
+          , simpleUserLogin = N "larkost"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/7431361?v=3"
+          , simpleUserUrl = "https://api.github.com/users/larkost"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "UnicodeEncodeError in generated docs.py"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/437"
+  , issueCreatedAt = 2014 (-08) (-01) 00 : 41 : 34 UTC
+  , issueBody =
+      Just
+        "```\r\n$ cp ../../../../docs/_scripts/docs.py .\r\n$ python -c 'import rethinkdb as r; help(r.time)'\r\nUnicodeEncodeError: 'ascii' codec can't encode character u'\\xb1' in position 65838: ordinal not in range(128)\r\n```"
+  , issueState = "closed"
+  , issueId = Id 39252723
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

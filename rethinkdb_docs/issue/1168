@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-15) 19 : 34 : 18 UTC
+  , issueUpdatedAt = 2016 (-08) (-15) 19 : 34 : 19 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1168/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1168"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1168
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1824859
+        , simpleUserLogin = N "venantius"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1824859?v=3"
+        , simpleUserUrl = "https://api.github.com/users/venantius"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clearer indentation on function serialization"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1168"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1168.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1168.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1168"
+  , issueCreatedAt = 2016 (-08) (-13) 23 : 41 : 38 UTC
+  , issueBody =
+      Just
+        "- [x] I have read and agreed to the RethinkDB Contributor License Agreement http://rethinkdb.com/community/cla/\r\n\r\n### Description\r\n\r\nThe current indentation on function serialization makes it look as if `[ADD ...]` belongs to `MAKE_ARRAY` as opposed to belonging to `FUNC`. This change de-indents it by one space to make it clearer."
+  , issueState = "closed"
+  , issueId = Id 171033279
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

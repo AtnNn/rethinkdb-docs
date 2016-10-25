@@ -1,0 +1,48 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-03) 00 : 25 : 06 UTC
+  , issueUpdatedAt = 2014 (-09) (-03) 00 : 25 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/486/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/486"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 486
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 1366
+          , simpleUserLogin = N "deontologician"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/1366?v=3"
+          , simpleUserUrl = "https://api.github.com/users/deontologician"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 85881
+        , simpleUserLogin = N "epc"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/85881?v=3"
+        , simpleUserUrl = "https://api.github.com/users/epc"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Copy edits for typos"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/486"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/486.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/486.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/486"
+  , issueCreatedAt = 2014 (-08) (-27) 07 : 11 : 15 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 41254784
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

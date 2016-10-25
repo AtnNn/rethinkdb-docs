@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-29) 21 : 24 : 58 UTC
+  , issueUpdatedAt = 2014 (-07) (-29) 21 : 24 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/434/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/434"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 434
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add prefix-style docs to \"and\" and \"or\""
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/434"
+  , issueCreatedAt = 2014 (-07) (-28) 21 : 14 : 15 UTC
+  , issueBody = Just "This style isn't in the API documentation."
+  , issueState = "closed"
+  , issueId = Id 38934097
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

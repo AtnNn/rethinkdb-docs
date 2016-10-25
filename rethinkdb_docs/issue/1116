@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-07) 18 : 31 : 26 UTC
+  , issueUpdatedAt = 2016 (-05) (-07) 18 : 31 : 26 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1116/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1116"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1116
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document cluster-reconnect-timeout; closes #1115"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1116"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1116.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1116.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1116"
+  , issueCreatedAt = 2016 (-05) (-07) 18 : 31 : 00 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 153610242
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

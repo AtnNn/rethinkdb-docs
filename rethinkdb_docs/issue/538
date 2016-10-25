@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-07) 04 : 05 : 56 UTC
+  , issueUpdatedAt = 2014 (-10) (-07) 04 : 05 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/538/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/538"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 538
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Move debian to the list of official packages"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/538"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/538.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/538.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/538"
+  , issueCreatedAt = 2014 (-10) (-07) 03 : 12 : 39 UTC
+  , issueBody =
+      Just
+        "I also changed the install instructions to be more similar to the ubuntu install instructions.\r\n\r\n@mglukhovsky can you please review, merge and push?"
+  , issueState = "closed"
+  , issueId = Id 45062883
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

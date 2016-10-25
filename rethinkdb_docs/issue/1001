@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-26) 01 : 23 : 33 UTC
+  , issueUpdatedAt = 2016 (-01) (-26) 01 : 23 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1001/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1001"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1001
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document the use of `wait` in `tableCreate` and `dbCreate`"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1001"
+  , issueCreatedAt = 2016 (-01) (-20) 06 : 56 : 03 UTC
+  , issueBody =
+      Just
+        "@nanodeath suggested [on Twitter](https://twitter.com/nanodeath/status/689691463890767873) that it would be good to mention `wait()` on the docs for `tableCreate()`, since that's the most likely place you'll use it.\r\n\r\nI think adding a mention to `dbCreate()` would also be a good thing."
+  , issueState = "closed"
+  , issueId = Id 127618230
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

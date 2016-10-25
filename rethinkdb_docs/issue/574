@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-06) 01 : 05 : 38 UTC
+  , issueUpdatedAt = 2014 (-11) (-06) 01 : 05 : 38 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/574/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/574"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 574
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Change feed -> changefeed"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/574"
+  , issueCreatedAt = 2014 (-11) (-05) 22 : 33 : 31 UTC
+  , issueBody =
+      Just
+        "There are a few places in the docs (most notably the API docs for `changes()`) where \"change feed\" is written instead of \"changefeed.\" It should be one word to be consistent."
+  , issueState = "closed"
+  , issueId = Id 47897509
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

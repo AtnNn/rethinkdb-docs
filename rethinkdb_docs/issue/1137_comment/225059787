@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-06) (-10) 00 : 39 : 00 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 811954
+        , simpleUserLogin = N "danielcompton"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/811954?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielcompton"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/225059787"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1137#issuecomment-225059787"
+  , issueCommentCreatedAt = 2016 (-06) (-09) 23 : 51 : 07 UTC
+  , issueCommentBody =
+      "Thanks for the detailed explanation (as always :) )\r\n\r\n> In general you will never get a document from the changefeed that has an `old_val` value for which you haven't seen a corresponding initial `{new_val: ...}` document before.\r\n\r\nOne question, what are the scenarios where this can't happen? \r\n\r\nRereading the docs on `initialValue`, I see it answered my original question here:\r\n\r\n>  The initial results may be intermixed with actual changes, as long as an initial result for the changed document has already been given."
+  , issueCommentId = 225059787
+  }

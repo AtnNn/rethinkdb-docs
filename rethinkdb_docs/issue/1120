@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-20) 23 : 33 : 49 UTC
+  , issueUpdatedAt = 2016 (-05) (-20) 23 : 33 : 49 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1120/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1120"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1120
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Change sails-hook-thinky to thinky-loader; closes #1119"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1120"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1120.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1120.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1120"
+  , issueCreatedAt = 2016 (-05) (-10) 05 : 32 : 56 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 153927084
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

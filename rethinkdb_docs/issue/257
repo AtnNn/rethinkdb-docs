@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-03) 21 : 34 : 47 UTC
+  , issueUpdatedAt = 2014 (-04) (-03) 21 : 34 : 47 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/257/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/257"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 257
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Typo in the join article"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/257"
+  , issueCreatedAt = 2014 (-04) (-03) 18 : 45 : 22 UTC
+  , issueBody =
+      Just
+        "```\r\n<e0> Hi, I would like to report a small typo from the rethinkdb website. Hope it is ok to do so here.\r\n<e0> \"In a many to many relation, we can multiple eq_join commands to join the data from all three tables:\" from http://rethinkdb.com/docs/table-joins/\r\n```\r\n\r\n\r\nI'll fix that in a few minutes."
+  , issueState = "closed"
+  , issueId = Id 30802120
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

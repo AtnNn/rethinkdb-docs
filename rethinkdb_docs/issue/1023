@@ -1,0 +1,71 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-01) 00 : 47 : 43 UTC
+  , issueUpdatedAt = 2016 (-04) (-22) 22 : 17 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1023/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1023"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 1023
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 952451
+        , simpleUserLogin = N "nighelles"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/952451?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nighelles"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Swap Detection"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1023"
+  , issueCreatedAt = 2016 (-02) (-16) 23 : 59 : 11 UTC
+  , issueBody =
+      Just
+        "On OSX and Linux, there will be an issue created if swap is used.\r\nOn Linux it's only if our process uses swap, on OSX it's if the system uses swap.\r\n\r\nhttps://github.com/rethinkdb/rethinkdb/issues/5235"
+  , issueState = "closed"
+  , issueId = Id 134131926
+  , issueComments = 5
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 1
+          , milestoneNumber = 10
+          , milestoneClosedIssues = 29
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.3"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/10"
+          , milestoneCreatedAt = 2015 (-12) (-10) 02 : 58 : 17 UTC
+          , milestoneState = "open"
+          }
+  }

@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-18) 20 : 54 : 10 UTC
+  , issueUpdatedAt = 2014 (-08) (-18) 21 : 06 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/264/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/264"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 264
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "What to do on crashes"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/264"
+  , issueCreatedAt = 2014 (-04) (-15) 19 : 17 : 21 UTC
+  , issueBody =
+      Just
+        "When people run into crashes they immediately wonder what to do next. We should write up a document on this (how to submit a bug report, links to articles on how to do high availability, what to do after a crash in prod (e.g. restart? wait?), etc.)"
+  , issueState = "closed"
+  , issueId = Id 31582285
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

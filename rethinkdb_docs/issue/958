@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-15) 18 : 28 : 16 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/958/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/958"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 958
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document how to gracefully remove a server from a cluster"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/958"
+  , issueCreatedAt = 2015 (-11) (-20) 19 : 59 : 56 UTC
+  , issueBody =
+      Just
+        "We don't have an explicit way for removing a server anymore.\r\nhttps://github.com/rethinkdb/docs/issues/876 is about the case where a server fails and you want to \"clean up\" after it.\r\nHowever there is a separate scenario, where you have a working server that you want to gracefully remove from the cluster, without interrupting availability or losing data.\r\n\r\nApart from the option to manually update all the documents in `table_config` to remove the server from all the `replicas` lists, there is also a second convenient way for removing a given server from all tables by removing the `default` tag, see https://github.com/rethinkdb/rethinkdb/issues/2873#issuecomment-157641498\r\n\r\nThis should be documented somewhere."
+  , issueState = "open"
+  , issueId = Id 118115414
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

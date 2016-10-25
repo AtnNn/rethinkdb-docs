@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-12) 21 : 21 : 15 UTC
+  , issueUpdatedAt = 2015 (-05) (-12) 21 : 21 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/762/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/762"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 762
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clarify sentence about time comparison"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/762"
+  , issueCreatedAt = 2015 (-05) (-12) 21 : 07 : 21 UTC
+  , issueBody =
+      Just
+        "@prgm noted in https://github.com/rethinkdb/rethinkdb/issues/4217#issuecomment-101419149 that this sentence from http://rethinkdb.com/docs/dates-and-times/ruby/ can be ambiguous:\r\n> Times are considered equal if their seconds since epoch (UTC) are equal, ...\r\n\r\nWe could for example change that to say \"Times are considered equal if the number of milliseconds since epoch (UTC) is equal\""
+  , issueState = "closed"
+  , issueId = Id 75738847
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

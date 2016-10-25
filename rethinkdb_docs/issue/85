@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-10) 23 : 37 : 15 UTC
+  , issueUpdatedAt = 2013 (-12) (-10) 23 : 37 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/85/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/85"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 85
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Build instructions: add npm to list of requirements"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/85"
+  , issueCreatedAt = 2013 (-11) (-18) 22 : 46 : 36 UTC
+  , issueBody =
+      Just
+        "`npm` isn't included in the list of required packages on http://rethinkdb.com/docs/build/."
+  , issueState = "closed"
+  , issueId = Id 22873708
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

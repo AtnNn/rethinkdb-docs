@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-23) 22 : 30 : 19 UTC
+  , issueUpdatedAt = 2015 (-07) (-23) 22 : 30 : 19 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/828/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/828"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 828
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix syntax error missing quote around string"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/828"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/828.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/828.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/828"
+  , issueCreatedAt = 2015 (-07) (-23) 20 : 42 : 07 UTC
+  , issueBody = Just "`table(geo)` should be `table('geo')`"
+  , issueState = "closed"
+  , issueId = Id 96901229
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

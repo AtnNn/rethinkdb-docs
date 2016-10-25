@@ -1,0 +1,47 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2014 (-05) (-29) 21 : 11 : 47 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/194/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/194"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 194
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add a troubleshooting entry to deal with too few file descriptors"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/194"
+  , issueCreatedAt = 2014 (-02) (-11) 03 : 06 : 20 UTC
+  , issueBody =
+      Just
+        "This came up in https://github.com/rethinkdb/rethinkdb/issues/1928, but also in a number of issues before that in different contexts. We should create a troubleshooting entry and talk about `ulimits` so people know what to do."
+  , issueState = "open"
+  , issueId = Id 27322490
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

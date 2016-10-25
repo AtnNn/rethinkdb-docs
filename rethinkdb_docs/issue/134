@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-28) 01 : 11 : 58 UTC
+  , issueUpdatedAt = 2014 (-03) (-28) 01 : 11 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/134/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/134"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 134
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add example of conditional upsert to the docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/134"
+  , issueCreatedAt = 2013 (-12) (-11) 19 : 27 : 53 UTC
+  , issueBody =
+      Just
+        "Via @mikemaccana on https://github.com/rethinkdb/rethinkdb/issues/1758:\r\n\r\nSimilar to #209, I am trying to do a conditional upsert (but in JS rather than Ruby, and alas I can't ready the Ruby to translate). There's an example of using replace() with a function in #210 but I can't find any documentation on what a conditional upsert should look like in the official docs.\r\n\r\nConditional upserts are common enough: sometimes I fetch something from a third party and might have an older copy I want to save over. It would be useful to have an example for the main languages in the docs.\r\n\r\nWe should add an example for this to the cookbook."
+  , issueState = "closed"
+  , issueId = Id 24131093
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

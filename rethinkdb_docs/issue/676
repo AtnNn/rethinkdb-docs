@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-18) 19 : 30 : 09 UTC
+  , issueUpdatedAt = 2015 (-03) (-18) 19 : 30 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/676/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/676"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 676
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 422539
+        , simpleUserLogin = N "sharow"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/422539?v=3"
+        , simpleUserUrl = "https://api.github.com/users/sharow"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix invalid syntax"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/676"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/676.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/676.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/676"
+  , issueCreatedAt = 2015 (-03) (-14) 07 : 55 : 10 UTC
+  , issueBody = Just "missing parenthesis."
+  , issueState = "closed"
+  , issueId = Id 61487786
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

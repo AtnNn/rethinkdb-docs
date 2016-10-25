@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 18 : 28 : 17 UTC
+  , issueUpdatedAt = 2014 (-05) (-29) 20 : 09 : 19 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/158/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/158"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 158
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 992674
+        , simpleUserLogin = N "davidspiess"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/992674?v=3"
+        , simpleUserUrl = "https://api.github.com/users/davidspiess"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Secure your cluster: Adding a nginx configuration example and ssh port forwarding"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/158"
+  , issueCreatedAt = 2013 (-12) (-21) 14 : 24 : 56 UTC
+  , issueBody =
+      Just
+        "What do you think about adding a nginx reverse-proxy example\r\nhttps://gist.github.com/jmdobry/6083910\r\n\r\nand ssh port forwarding to access the admin interface\r\n`ssh -L 8080:localhost:8080 <host>`\r\n\r\nI think it would be a great addition :-)"
+  , issueState = "closed"
+  , issueId = Id 24665656
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

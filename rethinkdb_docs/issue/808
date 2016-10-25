@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-02) (-19) 20 : 49 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/808/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/808"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 808
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document hidden troubleshooting tools"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/808"
+  , issueCreatedAt = 2015 (-07) (-01) 03 : 13 : 53 UTC
+  , issueBody =
+      Just
+        "RethinkDB has some hidden interfaces that are useful for testing, troubleshooting, or debugging. We should mention these in the documentation, but make it clear that they are not officially supported and may change without warning.\r\n\r\n* The `rethinkdb._debug_stats` system table displays some internal stats. It's similar to `rethinkdb.stats`, but much more detailed and also much less user-friendly. This information can help the RethinkDB engineers troubleshoot some performance problems.\r\n\r\n* The `rethinkdb._debug_table_status` system table displays detailed status information for each table, similar to `rethinkdb.table_status`. This information can help the RethinkDB engineers troubleshoot issues with tables getting \"stuck\" and not becoming available.\r\n\r\n* The `rethinkdb._debug_scratch` system table acts like a regular table except that it's not written to disk or replicated over the network. Some of the RethinkDB integration tests use it.\r\n\r\n* If `read_mode` is set to `\"_debug_direct\"`, RethinkDB will read directly from whatever data is stored locally on the server that received the query, bypassing the normal cluster query routing infrastructure. If the table is sharded, the resulting data may be incomplete. Some of the RethinkDB integration tests use this to confirm that the data is stored on the right servers. Because this interface bypasses the normal cluster query routing infrastructure, it can also be used as a last resort to access data if there is a bug in the query routing infrastructure that prevents `read_mode=\"outdated\"` from working."
+  , issueState = "open"
+  , issueId = Id 92257572
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

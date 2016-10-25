@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-16) 23 : 55 : 58 UTC
+  , issueUpdatedAt = 2014 (-09) (-09) 03 : 47 : 16 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/346/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/346"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 346
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Create a second file for Python 3 documentation."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/346"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/346.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/346.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/346"
+  , issueCreatedAt = 2014 (-06) (-11) 21 : 51 : 13 UTC
+  , issueBody =
+      Just
+        "In Python 3 the function doc string attribute is just `.__doc__`. In order to make the Python driver work with both versions I am proposing generating two files and using a `try: ... except ImportError: ...` to get the one that works at run time."
+  , issueState = "closed"
+  , issueId = Id 35531141
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

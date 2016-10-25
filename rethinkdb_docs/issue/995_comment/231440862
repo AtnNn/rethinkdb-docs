@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-07) (-08) 18 : 43 : 58 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5908816
+        , simpleUserLogin = N "yuvalvarkel"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5908816?v=3"
+        , simpleUserUrl = "https://api.github.com/users/yuvalvarkel"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/231440862"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/995#issuecomment-231440862"
+  , issueCommentCreatedAt = 2016 (-07) (-08) 18 : 43 : 58 UTC
+  , issueCommentBody =
+      "Hi @danielmewes, is there anything new regarding support of rolling upgrades?"
+  , issueCommentId = 231440862
+  }

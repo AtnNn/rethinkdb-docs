@@ -1,0 +1,62 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 42 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1102/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1102"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 1102
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 811954
+        , simpleUserLogin = N "danielcompton"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/811954?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielcompton"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Make string manipulation functions easier to find"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1102"
+  , issueCreatedAt = 2016 (-04) (-27) 09 : 42 : 40 UTC
+  , issueBody =
+      Just
+        "slice, and other functions work on many different types including strings, so they don't get put into the string manipulation section in the docs. I was looking for something like slice, but thought RethinkDB was missing it because it wasn't in the string manipulation section. I'm not sure what the answer is here. A few possibilities:\r\n\r\n* Leave it the same, people will learn that many RethinkDB functions work on multiple types\r\n* Create a way to view functions by the type they work on, rather than the category (sounds like a lot of work)\r\n* Write a guide on string manipulation with RethinkDB which collates all of the string functions together.\r\n\r\nI think a guide could be a good option. To me string manipulation *feels* like a fundamentally different operation from operating on tables, sequences, or arrays, showing what options you have would be helpful.\r\n\r\nOTOH, I think it's only `slice`, `count`, `coerceTo` that operate on strings and don't sit in the string manipulation section."
+  , issueState = "open"
+  , issueId = Id 151343256
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

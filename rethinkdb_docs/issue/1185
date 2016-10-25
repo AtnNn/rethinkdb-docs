@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-10) (-05) 05 : 39 : 08 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1185/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1185"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1185
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1479648
+        , simpleUserLogin = N "WuTheFWasThat"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1479648?v=3"
+        , simpleUserUrl = "https://api.github.com/users/WuTheFWasThat"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "bronze medalist = 3rd place = index 2?"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1185"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1185.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1185.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1185"
+  , issueCreatedAt = 2016 (-10) (-05) 05 : 39 : 08 UTC
+  , issueBody =
+      Just
+        "- [ ] I have read and agreed to the RethinkDB Contributor License Agreement http://rethinkdb.com/community/cla/\r\n\r\n### Description\r\n<Please fill in the description of your pull request here. Thank you for your contribution!>\r\n\r\n"
+  , issueState = "open"
+  , issueId = Id 181069290
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

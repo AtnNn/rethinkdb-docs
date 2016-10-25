@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-14) 22 : 14 : 53 UTC
+  , issueUpdatedAt = 2016 (-04) (-14) 22 : 14 : 53 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1085/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1085"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1085
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Typo on 'Permissions and accounts'"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1085"
+  , issueCreatedAt = 2016 (-04) (-14) 14 : 11 : 32 UTC
+  , issueBody =
+      Just
+        "There are a few stray `&rarr;` HTML entities that aren't properly escaped in \"The grant command\".\r\n\r\n![screen shot 2016-04-14 at 7 09 40 am](https://cloud.githubusercontent.com/assets/91193/14530946/1c9f3574-0210-11e6-9c88-415ec2776e9a.png)"
+  , issueState = "closed"
+  , issueId = Id 148374401
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

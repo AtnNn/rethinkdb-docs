@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-16) 20 : 17 : 41 UTC
+  , issueUpdatedAt = 2015 (-02) (-16) 20 : 17 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/641/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/641"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 641
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "api docs for .reconfigure missing an example for explicit tags"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/641"
+  , issueCreatedAt = 2015 (-02) (-05) 23 : 04 : 38 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/api/javascript/reconfigure/\r\n\r\nWe have an example with replicas and shards as integers, but we should probably also have a second example showing how to specify tags for replicas and shards directly"
+  , issueState = "closed"
+  , issueId = Id 56744184
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-08) 21 : 09 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1089/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1089"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 1089
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Additional variants of `interleave` `union` optarg"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1089"
+  , issueCreatedAt = 2016 (-04) (-19) 18 : 18 : 44 UTC
+  , issueBody =
+      Just
+        "https://github.com/rethinkdb/docs/issues/1021#issue-133851169 didn't mention all possible types for the `interleave` option.\r\n\r\nApart from `true`, `false` and `field_name`, it can also be:\r\n* A lambda function which is applied to each element in the input streams. The interleaving is determined by comparison on the value returned by the lambda function.\r\n* An array of field names\r\n* An array of lambda functions\r\n* `r.desc(field name)` or `r.desc(lambda x: ...)` or `r.desc([field1, field2, ...])` or `r.desc([lambda x: ..., lambda x: ..., ...])`\r\n\r\nFor the last one I'm a little bit fuzzy on whether the `r.desc` must be around the array, or if it can be applied to particular elements inside the array. @nighelles can you clarify please?"
+  , issueState = "open"
+  , issueId = Id 149541136
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

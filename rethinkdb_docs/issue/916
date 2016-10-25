@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 56 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/916/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/916"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 916
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 877936
+        , simpleUserLogin = N "marshall007"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/877936?v=3"
+        , simpleUserUrl = "https://api.github.com/users/marshall007"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Suggestion: sidebar in API docs should be fixed and independently scrollable"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/916"
+  , issueCreatedAt = 2015 (-10) (-10) 19 : 42 : 10 UTC
+  , issueBody =
+      Just
+        "When you're browsing the [main reference page](http://rethinkdb.com/api/javascript/), it's annoying that  when you jump down to a specific term, the sidebar is no longer accessible. In addition to remaining fixed, it would be nice if as you scroll past each category on the page, the sidebar \"kept up\" with you such that the category you're currently viewing is always at the top."
+  , issueState = "open"
+  , issueId = Id 110812829
+  , issueComments = 5
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

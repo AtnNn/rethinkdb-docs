@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 37 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1169/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1169"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1169
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Consider adding the option names to the Command Syntax section on API pages"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1169"
+  , issueCreatedAt = 2016 (-08) (-19) 18 : 52 : 22 UTC
+  , issueBody =
+      Just
+        "Currently in the API pages the \"Command syntax\" labels the options only as `options`. This is probably a space-saving means for the main page, and that makes sense there. But I would rather see the options spelled out (including the defaults), as they are in the Python docs. For example I would like to see the [`connect` Python page](http://rethinkdb.com/api/python/connect/) go from:\r\n```\r\nr.connect(options) \8594 connection\r\n```\r\nto:\r\n```\r\nr.connect(host='localhost', port=28015, db='test', user='admin', password='', timeout=20, ssl=None) \8594 connection\r\n```"
+  , issueState = "open"
+  , issueId = Id 172196416
+  , issueComments = 3
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

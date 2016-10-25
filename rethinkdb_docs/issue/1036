@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-26) 04 : 54 : 13 UTC
+  , issueUpdatedAt = 2016 (-02) (-26) 04 : 54 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1036/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1036"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1036
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11607002
+        , simpleUserLogin = N "hanxueming"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/11607002?v=3"
+        , simpleUserUrl = "https://api.github.com/users/hanxueming"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "i can't use delete()"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1036"
+  , issueCreatedAt = 2016 (-02) (-26) 02 : 40 : 49 UTC
+  , issueBody =
+      Just
+        "r.db('stf').table('tasks').get('abcd')('image').filter({pcgg: 'abcdefg'}).delete()\r\n\r\nbut it comment \" e: Expected type SELECTION but found DATUM:\""
+  , issueState = "closed"
+  , issueId = Id 136578770
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

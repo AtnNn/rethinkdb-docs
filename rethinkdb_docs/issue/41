@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 18 : 50 : 13 UTC
+  , issueUpdatedAt = 2014 (-05) (-29) 18 : 50 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/41/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/41"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 41
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "API - Tell users to use parentheses with | and &"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/41"
+  , issueCreatedAt = 2013 (-10) (-26) 20 : 46 : 24 UTC
+  , issueBody =
+      Just
+        "This query doesn't behave as most of the people would expect\r\n\r\n```py\r\nr.table(\"users\").filter( lambda user:\r\n    user.has_fields(\"age\") | user[\"age\"] == 0\r\n).run(conn)\r\n```\r\n\r\n\r\nWhat they want is probably this\r\n```py\r\nr.table(\"users\").filter( lambda user:\r\n    user.has_fields(\"age\") | (user[\"age\"] == 0)\r\n).run(conn)\r\n```"
+  , issueState = "closed"
+  , issueId = Id 21640869
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

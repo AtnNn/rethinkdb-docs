@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-25) 20 : 56 : 05 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/214519035"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1097#issuecomment-214519035"
+  , issueCommentCreatedAt = 2016 (-04) (-25) 20 : 56 : 05 UTC
+  , issueCommentBody =
+      "None of the commands under \"Document manipulation\" in the API index directly manipulate the database; only the commands under \"Writing data\" do that. You can think of this as being analogous to SQL -- you can manipulate the data being returned by the query to get things that aren't literally in the database, but those things don't get put back in the database unless you use `UPDATE` or `INSERT`.\r\n\r\n@danielmewes - I'm not sure whether this needs to be more explicitly stated or not, and if so, what would be a good way to do it. The signatures and descriptions of commands like `merge` and `append` show them returning arrays or objects or such. Is this an issue that's come up before? (I think `append` and `prepend` and a few other very early documentation pages do need some better examples than they have.)"
+  , issueCommentId = 214519035
+  }

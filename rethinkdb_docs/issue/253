@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-31) 06 : 47 : 17 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 22 : 44 : 19 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/253/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/253"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 253
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix port for rethinkdb export/import"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/253"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/253.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/253.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/253"
+  , issueCreatedAt = 2014 (-03) (-30) 16 : 13 : 45 UTC
+  , issueBody =
+      Just
+        "@mglukhovsky -- could you take a look and merge it?\r\n\r\nRelated to https://github.com/rethinkdb/rethinkdb/issues/2191"
+  , issueState = "closed"
+  , issueId = Id 30468221
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

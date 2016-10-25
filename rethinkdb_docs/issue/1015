@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-10) 22 : 44 : 20 UTC
+  , issueUpdatedAt = 2016 (-02) (-10) 22 : 44 : 20 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1015/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1015"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1015
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1137376
+        , simpleUserLogin = N "heinzf"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1137376?v=3"
+        , simpleUserUrl = "https://api.github.com/users/heinzf"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Removes unnecessary backticks in python/ungroup.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1015"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1015.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1015.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1015"
+  , issueCreatedAt = 2016 (-02) (-10) 05 : 19 : 13 UTC
+  , issueBody =
+      Just "Makes the formatting of the examples nice again."
+  , issueState = "closed"
+  , issueId = Id 132609411
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

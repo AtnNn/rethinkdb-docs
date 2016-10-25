@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-30) 19 : 13 : 38 UTC
+  , issueUpdatedAt = 2015 (-06) (-30) 19 : 13 : 38 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/800/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/800"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 800
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1083623
+        , simpleUserLogin = N "sebadiaz"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1083623?v=3"
+        , simpleUserUrl = "https://api.github.com/users/sebadiaz"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add sample map reduce by group for javascript"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/800"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/800.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/800.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/800"
+  , issueCreatedAt = 2015 (-06) (-27) 19 : 48 : 21 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 91506349
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

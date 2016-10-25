@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-23) 14 : 57 : 24 UTC
+  , issueUpdatedAt = 2014 (-06) (-23) 14 : 57 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/383/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/383"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 383
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 322521
+        , simpleUserLogin = N "brettgriffin"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/322521?v=3"
+        , simpleUserUrl = "https://api.github.com/users/brettgriffin"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Website shows previous version (v1.12.5 (The Wizard of Oz))"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/383"
+  , issueCreatedAt = 2014 (-06) (-23) 14 : 52 : 11 UTC
+  , issueBody =
+      Just
+        "Posting this here because I'm not sure which repo actually houses the website (rethinkdb.com).\r\n\r\nThe website seems to have reverted to a previous state, showing:\r\n\r\n v1.12.5 (The Wizard of Oz)\r\n(release notes)\r\n\r\nRather than:\r\n\r\nv1.13.0 (My Name is Nobody)\r\n(release notes)\r\n\r\nwhich it did since last Tuesday.\r\n\r\n\r\nI verified this in Chrome (Windows and OSX) and Safari (OSX and iOS 7).\r\n\r\nNot a huge deal but certainly not correct."
+  , issueState = "closed"
+  , issueId = Id 36298240
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

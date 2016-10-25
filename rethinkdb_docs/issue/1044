@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-18) 00 : 27 : 26 UTC
+  , issueUpdatedAt = 2016 (-03) (-18) 00 : 27 : 26 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1044/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1044"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1044
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "`cache_size_mb` field in `server_config` system table"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1044"
+  , issueCreatedAt = 2016 (-03) (-07) 19 : 59 : 49 UTC
+  , issueBody =
+      Just
+        "Regarding the `server_config` section of http://rethinkdb.com/docs/system-tables/ : \r\nThe documents in there have an additional field:\r\n```js\r\n  \"cache_size_mb\": \"auto\" \r\n```\r\n\r\nIt can either be `\"auto\"` or a number. If it's auto, the server will pick a suitable cache size on startup based on the available memory on the system. If it's a number, the server will use that cache size.\r\n\r\nSimilarly, `server_status` also has a field by the same name\r\n```js\r\n\"cache_size_mb\": 1024\r\n```\r\nin contrast to `server_config`, the cache size field in `server_status` is always a number. If the field in `server_config` is set to a number, the field in `server_status` will usually mirror that value. If the former is set to `\"auto\"`, the latter will show the actual cache size that the server determined on startup."
+  , issueState = "closed"
+  , issueId = Id 139078168
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

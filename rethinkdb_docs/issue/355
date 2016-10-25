@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 21 : 06 : 54 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 06 : 54 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/355/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/355"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 355
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Improve the driver protocol spec"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/355"
+  , issueCreatedAt = 2014 (-06) (-13) 17 : 42 : 36 UTC
+  , issueBody =
+      Just
+        "As of the time of this writing, it's here -- https://github.com/rethinkdb/rethinkdb/blob/mlucy_proto_docs/src/rdb_protocol/ql2_json.md, but will be on the site soon.\r\n\r\nHere are some things that need to be improved:\r\n\r\n- [ ] Section 2 (the query) needs to be expanded. Right now it's as long as section 1 (the handshake), but the mechanics are significantly more complicated, and we let people guess a lot. In particular, we should have a few more progressively more complex examples (start with r.expr(1) and show how to use lambdas and such), and explain how the json protocol related to protobufs a bit better. For example, we link to the protobuf spec, but don't even say that you're supposed to use the integer values defined there explicitly.\r\n- [ ] Add a section at the end that gives people some friendly notion on how to get started. For example, we should explicitly link to the official drivers, and a few community drivers source code."
+  , issueState = "closed"
+  , issueId = Id 35691983
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

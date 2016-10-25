@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-20) 06 : 31 : 02 UTC
+  , issueUpdatedAt = 2013 (-12) (-11) 23 : 39 : 10 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/90/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/90"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 90
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add missing timezone in the examples of during. Related to #89"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/90"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/90.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/90.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/90"
+  , issueCreatedAt = 2013 (-11) (-19) 17 : 02 : 45 UTC
+  , issueBody =
+      Just
+        "@atnnn can you take a quick look at it?\r\n\r\nI'll take care of merging and deploying it."
+  , issueState = "closed"
+  , issueId = Id 22928724
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

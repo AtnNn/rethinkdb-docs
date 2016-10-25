@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-14) 18 : 51 : 29 UTC
+  , issueUpdatedAt = 2014 (-08) (-14) 18 : 51 : 29 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/461/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/461"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 461
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 706854
+          , simpleUserLogin = N "AtnNn"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/706854?v=3"
+          , simpleUserUrl = "https://api.github.com/users/AtnNn"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update and improve build instructions"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/461"
+  , issueCreatedAt = 2014 (-08) (-13) 22 : 12 : 04 UTC
+  , issueBody =
+      Just
+        "I had a chat with @nickpoorman about building RethinkDB from source on Ubuntu 14.04.1.\r\nHere are a few issues about our build instructions http://rethinkdb.com/docs/build/ that came up:\r\n\r\n1. The list of packages to install is missing `m4`, and - as long as https://github.com/rethinkdb/rethinkdb/issues/2676 is open - it should also include `curl libcurl3 libcurl4-openssl-dev` (is this right? libcurl version 3, but libcurl*-dev in version 4?).\r\n2. The last step \"Build the server\" should have `./configure --allow-fetch` instead of `./configure`. Also we should mention that `make` should be run with an appropriate `-j` parameter to speed up the built. "
+  , issueState = "closed"
+  , issueId = Id 40204941
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

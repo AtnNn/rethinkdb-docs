@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-17) 20 : 56 : 07 UTC
+  , issueUpdatedAt = 2015 (-02) (-17) 20 : 56 : 07 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/644/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/644"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 644
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Better document {default: r.error} for `filter`"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/644"
+  , issueCreatedAt = 2015 (-02) (-06) 21 : 49 : 34 UTC
+  , issueBody =
+      Just
+        "The [docs for filter](http://rethinkdb.com/api/javascript/filter/) currently state in the intro paragraph:\r\n\r\n> The filter command wraps predicates in an implicit .default(false), so if the predicate tries to access a field that doesn't exist in a given document, that document is not returned. The default optional argument sets the value returned for missing fields, rather than false. Setting it to r.error() will throw an RqlRuntimeError when a non-existent field is accessed.\r\n\r\nThis is accurate, but unfriendly language. Adding a quick example, improving the readability of the paragraph, and working to explain that `filter` can operate in two modes: skipping `undefined` values, or throwing them would help users who are confused when `filter` doesn't behave like they would expect for complex cases."
+  , issueState = "closed"
+  , issueId = Id 56872953
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

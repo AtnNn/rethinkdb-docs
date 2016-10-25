@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-28) 00 : 47 : 40 UTC
+  , issueUpdatedAt = 2016 (-04) (-28) 00 : 47 : 40 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1098/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1098"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1098
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 159819
+        , simpleUserLogin = N "cefn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/159819?v=3"
+        , simpleUserUrl = "https://api.github.com/users/cefn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Unclear how to upsert array entries"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1098"
+  , issueCreatedAt = 2016 (-04) (-25) 16 : 06 : 31 UTC
+  , issueBody =
+      Just
+        "I have insert logic like this, which fails if there's no memberships field, which I don't know how to fix to be more like an upsert behaviour (creating the field 'memberships' as an array before appending).\r\n\r\nCurrently it's responding with...\r\n\r\n'No attribute `memberships`...'\r\n\r\n```\r\nreturn r.table(\"users\").get(userId).update({\r\n                memberships:r.row(\"memberships\").append({\r\n                    groupId:groupId,\r\n                }),\r\n            })\r\n```\r\n\r\nIs the only way to resolve a missing referenced array to do explicit checking and insertion of the array field?\r\n\r\nI would consider using insert with the known primary key, but it's not clear how merge is handled when a merged field entry is an array (index-by-index overwriting, as if the numbered indexes were field names? alternatively, are two arrays merged by appending? it would be good to state this somewhere).\r\n\r\nFrom the update documentation, I understand the above is the canonical way to introduce an entry to an existing array. Ideally there would be documented examples for typical array (nested field) operations, such as this - lazy-creating an array, and inserting a member, as it's potentially a very common use case in a schemaless data structure."
+  , issueState = "closed"
+  , issueId = Id 150911884
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

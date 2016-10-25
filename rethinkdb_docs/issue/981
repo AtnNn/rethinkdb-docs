@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-17) 00 : 11 : 05 UTC
+  , issueUpdatedAt = 2015 (-12) (-17) 00 : 11 : 05 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/981/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/981"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 981
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 67937
+        , simpleUserLogin = N "encryptio"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/67937?v=3"
+        , simpleUserUrl = "https://api.github.com/users/encryptio"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Use Go Gopher as the logo for Go"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/981"
+  , issueCreatedAt = 2015 (-12) (-14) 21 : 58 : 38 UTC
+  , issueBody =
+      Just
+        "In [the client driver page](https://rethinkdb.com/docs/install-drivers/) we use a generic \"text in a box\" logo for the Go community driver, which sticks out like a sore thumb to someone that regularly uses Go.\r\n\r\nThe Go Gopher is the mascot of Go, and is the closest thing they have to a logo. Some assets are here: https://golang.org/doc/gopher/ ([`gophercolor.png`](https://golang.org/doc/gopher/gophercolor.png) in particular looks nice) all of which are licensed CC-BY."
+  , issueState = "closed"
+  , issueId = Id 122140912
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

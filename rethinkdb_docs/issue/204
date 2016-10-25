@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-25) 18 : 19 : 11 UTC
+  , issueUpdatedAt = 2014 (-03) (-25) 18 : 19 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/204/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/204"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 204
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 56719
+        , simpleUserLogin = N "ccheever"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/56719?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ccheever"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Undocumented orderBy behavior when called from JS client"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/204"
+  , issueCreatedAt = 2014 (-02) (-20) 21 : 12 : 39 UTC
+  , issueBody =
+      Just
+        "When adding an `orderBy` clause to a query run against a connection from JavaScript, it changes what is returned (/ passed to the callback) from a cursor to the result of calling `.toArray()` on that cursor.\r\n\r\nEx.\r\n`fibrous-coffee> conn.sync.run r.db('nametag').table('comments')`\r\nreturns a cursor\r\n\r\n`fibrous-coffee> conn.sync.run r.db('nametag').table('comments').orderBy('commentTime')`\r\nreturns an Array of objects.\r\n\r\nThis is surprising/unexpected. Seems like it should be at least documented here: http://www.rethinkdb.com/api/javascript/order_by/"
+  , issueState = "closed"
+  , issueId = Id 27996533
+  , issueComments = 9
+  , issueMilestone = Nothing
+  }

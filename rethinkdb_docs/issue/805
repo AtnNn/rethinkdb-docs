@@ -1,0 +1,65 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-09) 19 : 15 : 21 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 19 : 15 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/805/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/805"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 805
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Update documentation for issues system table in 2.1"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/805"
+  , issueCreatedAt = 2015 (-07) (-01) 01 : 38 : 00 UTC
+  , issueBody =
+      Just
+        "The `table_needs_primary`, `data_lost`, `write_acks`, `server_ghost`, and `server_disconnected` issues no longer exist in 2.1.\r\n\r\nThere is one new type of issue, called `table_availability`. It looks like this:\r\n```js\r\n{\r\n    type: \"table_availability\"\r\n    id: \"9685f58a-6b97-566b-9425-67559c3bc715\",\r\n    critical: true,\r\n    description: \"Table `test.foo` is available for outdated and up-to-date reads, but not writes. The following servers are not reachable: companion_cube_snl\",\r\n    info: {\r\n        table: \"foo\",\r\n        db: \"test\",\r\n        shards: [\r\n            {\r\n                primary_replicas: [\"companion_cube_9i0\"],\r\n                replicas: [\r\n                    {server: \"companion_cube_9i0\", state: \"ready\"},\r\n                    {server: \"companion_cube_snl\", state: \"disconnected\"}\r\n                ]\r\n            }\r\n        ],\r\n        status: {\r\n            all_replicas_ready: false,\r\n            ready_for_writes: false,\r\n            ready_for_reads: true,\r\n            ready_for_outdated_reads: true\r\n        }\r\n    }\r\n}\r\n```\r\n\r\nA `table_availability` issue appears whenever a table is missing at least one server. The exact description will depend on the roles that the missing server(s) played in the table. If the table is not available for reads and/or writes, the issue will be marked `critical: true`; otherwise, it will be `critical: false`. Note that if a table is unavailable for reads and/or writes but all of its servers are available, no issue will be shown."
+  , issueState = "closed"
+  , issueId = Id 92239837
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 167416
+                , simpleUserLogin = N "VeXocide"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/167416?v=3"
+                , simpleUserUrl = "https://api.github.com/users/VeXocide"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 8
+          , milestoneClosedIssues = 24
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.1"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/8"
+          , milestoneCreatedAt = 2015 (-03) (-30) 22 : 32 : 47 UTC
+          , milestoneState = "closed"
+          }
+  }

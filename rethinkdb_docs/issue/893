@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-14) 21 : 32 : 06 UTC
+  , issueUpdatedAt = 2015 (-09) (-14) 21 : 32 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/893/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/893"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 893
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Can I write doc for tutorial?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/893"
+  , issueCreatedAt = 2015 (-09) (-11) 06 : 53 : 23 UTC
+  , issueBody =
+      Just
+        "I write a simple website monitoring with RethinkDB changfeed https://github.com/kureikain/simplyrethink/tree/master/example/server_monitoring\r\nI wonder if I can submit a tutorial for it? Or the tutorials are only written by RethinkDB dev"
+  , issueState = "closed"
+  , issueId = Id 105954632
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

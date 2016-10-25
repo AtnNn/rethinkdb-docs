@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-16) 23 : 17 : 23 UTC
+  , issueUpdatedAt = 2015 (-09) (-16) 23 : 17 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/135/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/135"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 135
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "`do` has no examples that chain off of datums"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/135"
+  , issueCreatedAt = 2013 (-12) (-11) 21 : 53 : 38 UTC
+  , issueBody =
+      Just
+        "We should have an example like:\r\n\r\n`r.expr(1).do(function(x) { x.add(1) })`"
+  , issueState = "closed"
+  , issueId = Id 24140850
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-14) 22 : 57 : 16 UTC
+  , issueUpdatedAt = 2014 (-06) (-14) 22 : 57 : 16 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/318/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/318"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 318
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Node TODO example"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/318"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/318.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/318.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/318"
+  , issueCreatedAt = 2014 (-05) (-28) 00 : 20 : 02 UTC
+  , issueBody =
+      Just
+        "A simple TODO example.\r\n\r\nPing @coffeemug. @chipotle -- could you take a look?\r\n\r\nI have two more examples to write about (one with promises, and one with generator), and they will be based on a similar example.\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 34425249
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

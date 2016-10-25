@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-02) (-05) 20 : 58 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1009/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1009"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 1009
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Information about changefeed error scenarios"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1009"
+  , issueCreatedAt = 2016 (-02) (-05) 20 : 58 : 33 UTC
+  , issueBody =
+      Just
+        "I forgot about this issue opened by @ha1331 on the server tracker: https://github.com/rethinkdb/rethinkdb/issues/4637\r\n\r\nMoving it over here now:\r\n> I didn't find too much about error handling with changes() from the documentation. Also it might be good idea to explain what conditions should be met for the feeds to keep working and how to handle errors. by conditions I mean you can loose feed if any of the primaries go down or the server you connected goes down.\r\n\r\n...\r\n> We currently lose a changefeed in the scenarios you mention and also if a tables is rebalanced / reconfigured, if the network connection between two relevant servers in the cluster is lost, or if the network connection between the client and the server is lost.\r\n"
+  , issueState = "open"
+  , issueId = Id 131753282
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

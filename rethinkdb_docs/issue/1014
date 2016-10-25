@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-26) 23 : 16 : 06 UTC
+  , issueUpdatedAt = 2016 (-02) (-26) 23 : 16 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1014/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1014"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1014
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Note restrictions on `rethinkdb restore` from newer backups"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1014"
+  , issueCreatedAt = 2016 (-02) (-10) 02 : 44 : 36 UTC
+  , issueBody =
+      Just
+        "We should add a note to http://rethinkdb.com/docs/backup/ to mention that `rethinkdb restore` might not work for restoring backups taken from versions of RethinkDB that are more recent than the one currently running (e.g. you cannot restore a backup from RethinkDB 2.2.x to RethinkDB 2.1.x).\r\n\r\nAs a work-around, the flag `--no-secondary-indexes` can be passed to `rethinkdb restore` to skip restoring secondary indexes. This is usually enough to make the restore work on older versions.\r\n\r\nSee https://github.com/rethinkdb/rethinkdb/issues/5375 for a related issue."
+  , issueState = "closed"
+  , issueId = Id 132593803
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

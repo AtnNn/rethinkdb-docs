@@ -1,0 +1,46 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-29) 01 : 10 : 36 UTC
+  , issueUpdatedAt = 2014 (-01) (-29) 01 : 10 : 36 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/183/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/183"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "e6e6e6"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/invalid"
+          , labelName = "invalid"
+          }
+      ]
+  , issueNumber = 183
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Type signature for `order_by` is wrong."
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/183"
+  , issueCreatedAt = 2014 (-01) (-23) 01 : 49 : 15 UTC
+  , issueBody =
+      Just
+        "It says: \r\n```\r\nsequence.orderBy(key1, [key2...]) \8594 stream\r\narray.orderBy(key1, [key2...]) \8594 array\r\n```\r\n\r\nThe type signature should be:\r\n```\r\nstream.order_by(index: key1) -> SELECTION<STREAM>\r\nstream.order_by(key1, [key2...]) -> SELECTION<ARRAY>\r\narray.order_by(key1, [key2...]) -> ARRAY\r\n```"
+  , issueState = "closed"
+  , issueId = Id 26139006
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

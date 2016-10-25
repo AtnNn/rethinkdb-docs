@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-24) 18 : 00 : 35 UTC
+  , issueUpdatedAt = 2016 (-05) (-24) 18 : 00 : 35 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1129/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1129"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1129
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7184241
+        , simpleUserLogin = N "monkeyboy64"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7184241?v=3"
+        , simpleUserUrl = "https://api.github.com/users/monkeyboy64"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "rethinkdb erroring out on count of index"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1129"
+  , issueCreatedAt = 2016 (-05) (-24) 13 : 31 : 15 UTC
+  , issueBody =
+      Just
+        "I am trying to do this query: r.db(\"numetric\").table(\"prostar__2cef1ff5_9a7e_4ddf_a405_04a2d0a26757\").getAll(true, {index: \"indexed\"}).count()\r\n\r\non a table with ~13M records. There are only two values in the index, true or false.  Currently all the records have the value true so.\r\n\r\nThe query errors out with an unknown error.\r\n\r\nThere are three servers with 8 GB cache allocated to each. There are 3 shards/3 replicas on the table.\r\n\r\nThe records look like this:\r\n\r\n{\r\n    \"ActualWeight\": 6 ,\r\n    \"Amount\": 0.65 ,\r\n    \"BatchId\": null ,\r\n    \"CalculatedAmount\": 0.51 ,\r\n    \"CarrierDescription\":  \"28\" ,\r\n    \"CarrierOrderNumber\":  \"26\" ,\r\n    \"CarrierType\":  \"25\" ,\r\n    \"Category\":  \"14\" ,\r\n    \"ClientName\":  \"2\" ,\r\n    \"ClientOrderNumber\":  \"42\" ,\r\n    \"Cost\": 0.51 ,\r\n    \"CreatedDate\":  \"2015-01-05T14:50:46.967\" ,\r\n    \"Description\":  \"16\" ,\r\n    \"DetailName\":  \"38\" ,\r\n    \"DetailValue\":  \"39\" ,\r\n    \"DueDate\":  \"2015-01-05T14:50:46\" ,\r\n    \"EndDate\":  \"2015-01-03T23:55:55\" ,\r\n    \"InvoiceId\": 314 ,\r\n    \"InvoiceLineCarrierId\": 1453456 ,\r\n    \"InvoiceLineDetailId\": null ,\r\n    \"InvoiceLineId\": 2219085 ,\r\n    \"InvoiceNumetricId\": 20 ,\r\n    \"InvoiceOrderId\": 484423 ,\r\n    \"InvoiceStatus\":  \"3\" ,\r\n    \"IsIntercept\": null ,\r\n    \"IsPassThrough\": false ,\r\n    \"IsReplacement\": false ,\r\n    \"IssuedDate\":  \"2015-01-05T14:50:46.967\" ,\r\n    \"LocationId\": 1 ,\r\n    \"OrderClientName\":  \"40\" ,\r\n    \"OrderNumber\":  \"22\" ,\r\n    \"OrderOrderNumber\":  \"41\" ,\r\n    \"OrderShipDate\":  \"2014-11-17T00:00:00\" ,\r\n    \"OrderTrackingNumbers\":  \"44\" ,\r\n    \"ProcessPeriod\":  \"11\" ,\r\n    \"QBInvoiceRef\":  \"9\" ,\r\n    \"Quantity\": 1 ,\r\n    \"ShipDate\":  \"2014-12-22T00:00:00\" ,\r\n    \"ShipToCountry\":  \"35\" ,\r\n    \"ShipToPostalCode\":  \"36\" ,\r\n    \"ShippingMethod\":  \"29\" ,\r\n    \"StartDate\":  \"2014-12-28T00:00:00\" ,\r\n    \"SubCategory\":  \"15\" ,\r\n    \"TrackingNumber\":  \"30\" ,\r\n    \"Weight\": 6 ,\r\n    \"WorkOrderId\": null ,\r\n    \"Zone\":  \"32\" ,\r\n    \"__metadata\": {\r\n    \"indexed\": true ,\r\n    \"updated\": \"2015-01-05T14:50:46.967\"\r\n}\r\n"
+  , issueState = "closed"
+  , issueId = Id 156507828
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

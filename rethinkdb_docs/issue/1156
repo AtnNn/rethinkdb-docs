@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-18) 18 : 41 : 42 UTC
+  , issueUpdatedAt = 2016 (-07) (-18) 18 : 41 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1156/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1156"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      , IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 1156
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 167416
+        , simpleUserLogin = N "VeXocide"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/167416?v=3"
+        , simpleUserUrl = "https://api.github.com/users/VeXocide"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix upsert in FAQ"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1156"
+  , issueCreatedAt = 2016 (-07) (-12) 23 : 45 : 03 UTC
+  , issueBody =
+      Just
+        "In the FAQ we still reference the old `{\"upsert\": true}` in a question about upserts, this should be updated to use `conflict` optional argument."
+  , issueState = "closed"
+  , issueId = Id 165206363
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

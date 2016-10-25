@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-27) 17 : 00 : 24 UTC
+  , issueUpdatedAt = 2016 (-07) (-27) 17 : 00 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1148/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1148"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1148
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "API pages for `intersects` and `includes` should suggest `getIntersecting`"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1148"
+  , issueCreatedAt = 2016 (-06) (-24) 20 : 36 : 38 UTC
+  , issueBody =
+      Just
+        "`intersects` and `includes` do not utilize indexes. I suggest that we add a note that `getIntersecting` should be used for large data sets to make use of a geospatial index.\r\n\r\nIn case of `intersects`, the rewrite is straight-forward. In case of `includes`, `getIntersecting` can be used as a pre-filter, with an additional `.filter(something.includes(r.row))` strapped behind it (since intersection will provide a superset of the results that are fully included in the given geometry)."
+  , issueState = "closed"
+  , issueId = Id 162226192
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

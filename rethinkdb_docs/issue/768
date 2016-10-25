@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-27) 21 : 41 : 25 UTC
+  , issueUpdatedAt = 2015 (-05) (-27) 21 : 41 : 25 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/768/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/768"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 768
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 811954
+        , simpleUserLogin = N "danielcompton"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/811954?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielcompton"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Publishing the RethinkDB driver spec"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/768"
+  , issueCreatedAt = 2015 (-05) (-19) 20 : 56 : 31 UTC
+  , issueBody =
+      Just
+        "I really like http://rethinkdb.com/docs/writing-drivers/ for understanding the overall process for building a driver, and have seen https://github.com/rethinkdb/rethinkdb/blob/next/src/rdb_protocol/ql2.proto. However I feel like there is a spot in the middle missing for a formal spec describing each version of the protocol. I'm particularly interested in understanding the differences between v03 and v04, and can't seem to find a comprehensive list of changes.\r\n\r\nOn the [RFC for the protocol](http://www.rethinkdb.com/blog/rethinkdb-wire-protocol-call-for-comments/), it looked like there was a wiki article with these details - https://github.com/rethinkdb/rethinkdb/wiki/protobuf_rfc_raw_spec, but the wiki seems to have been closed as that just redirects to rethinkdb/rethinkdb.\r\n\r\nAre you able to help point me towards the right docs? It would be good to link to them from the writing drivers page as well."
+  , issueState = "closed"
+  , issueId = Id 78247907
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-31) 20 : 03 : 38 UTC
+  , issueUpdatedAt = 2016 (-08) (-31) 20 : 03 : 38 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/388/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/388"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 388
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 44855
+        , simpleUserLogin = N "chrisvariety"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/44855?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chrisvariety"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Misleading alternative promise implementations on frameworks page"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/388"
+  , issueCreatedAt = 2014 (-06) (-25) 01 : 43 : 38 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/docs/frameworks-and-libraries/\r\n\r\nThe following JS library descriptions are misleading as the official Javascript driver now supports promises natively:\r\n\r\n - rethinkdb-co (co is actually the library that \"Allows using ECMAScript 6 generators\", and it can consume promises, so this isn't really necessary)\r\n - rethinkdbdash (\"native promises\" is a feature of the official JS driver)\r\n - RQL Promise (same as above)\r\n\r\nJust my opinion, I think RQL Promise is the most egregious, the rest are really subjective. "
+  , issueState = "closed"
+  , issueId = Id 36442021
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

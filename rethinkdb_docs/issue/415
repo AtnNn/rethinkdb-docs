@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-24) 18 : 05 : 28 UTC
+  , issueUpdatedAt = 2014 (-07) (-24) 18 : 05 : 28 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/415/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/415"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 415
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Data-modeling should have a cross-table merge example"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/415"
+  , issueCreatedAt = 2014 (-07) (-15) 22 : 03 : 29 UTC
+  , issueBody =
+      Just
+        "This snippet was given to me by @neumino, and I thought it was really useful with relationships across tables.\r\n\r\n```python\r\nr.table('posts').merge(\r\n    lambda post: {'comments': r.table('comments').get_all(\r\n        post['id'], index='post_id').coerce_to('array')})\r\n```\r\n\r\nIt gets all posts and then puts their comments into an array in the 'comments' key in the post"
+  , issueState = "closed"
+  , issueId = Id 37930615
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

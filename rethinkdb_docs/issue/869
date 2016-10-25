@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-27) 23 : 46 : 47 UTC
+  , issueUpdatedAt = 2015 (-08) (-27) 23 : 46 : 47 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/869/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/869"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 869
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 4616123
+        , simpleUserLogin = N "schodge"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/4616123?v=3"
+        , simpleUserUrl = "https://api.github.com/users/schodge"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add m4 to dependency install list"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/869"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/869.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/869.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/869"
+  , issueCreatedAt = 2015 (-08) (-26) 00 : 55 : 24 UTC
+  , issueBody =
+      Just
+        "m4 wasn't in my clean install of Ubuntu 15 server, causing `sudo make install` to fail.  `sudo apt-get install m4` fixed, the problem, so I assume nothing else is pulling it in and bringing it in with the other build dependencies will fix the problem."
+  , issueState = "closed"
+  , issueId = Id 103146592
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

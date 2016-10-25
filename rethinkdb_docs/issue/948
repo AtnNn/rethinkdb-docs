@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2015 (-11) (-16) 19 : 02 : 38 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/948/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/948"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 948
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clearly document our versioning policy"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/948"
+  , issueCreatedAt = 2015 (-11) (-12) 23 : 44 : 04 UTC
+  , issueBody =
+      Just
+        "I wrote this comment on HN:\r\n\r\n>We have a stable release (v2.0) for those who cannot tolerate breaking changes. \r\n>\r\n> Feature releases (e.g. 2.1, 2.2) include new features and do break compatibility on occasion (so we can quickly introduce new behavior). Any breaking changes are well-documented in the release notes[1], so you can have a smooth upgrade path.\r\n>\r\n> Minor releases (e.g. 2.1.1, 2.1.2) do not have breaking changes, only bugfixes and minor improvements.\r\n\r\nWe documented some of this in our  migration docs (if I remember), but we should add a basic article describing our versioning policy clearly."
+  , issueState = "open"
+  , issueId = Id 116667975
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

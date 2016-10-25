@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-28) 07 : 45 : 43 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 10736369
+        , simpleUserLogin = N "gangadharyelwande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10736369?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gangadharyelwande"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/202287295"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1056#issuecomment-202287295"
+  , issueCommentCreatedAt = 2016 (-03) (-28) 07 : 45 : 43 UTC
+  , issueCommentBody =
+      "Hi,\r\n\r\nwhat do you mean by a larger version of this picture? Is it the size of image or pixel clarity of Image?"
+  , issueCommentId = 202287295
+  }

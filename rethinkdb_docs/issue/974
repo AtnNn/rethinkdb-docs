@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-16) 19 : 33 : 50 UTC
+  , issueUpdatedAt = 2015 (-12) (-16) 19 : 33 : 50 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/974/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/974"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 974
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "All ten-minute guides point to JavaScript cookbook"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/974"
+  , issueCreatedAt = 2015 (-12) (-09) 02 : 53 : 39 UTC
+  , issueBody =
+      Just
+        "The \"Learn more\" section of each language's ten minute guide links to the JS cookbook.\r\n\r\nThis block is added using the include `quickstart-footer.md`. The script that rewrites links should remap the cookbook link to the right language."
+  , issueState = "closed"
+  , issueId = Id 121148841
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

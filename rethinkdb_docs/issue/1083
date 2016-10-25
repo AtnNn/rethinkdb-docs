@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-26) 18 : 06 : 54 UTC
+  , issueUpdatedAt = 2016 (-04) (-28) 01 : 18 : 52 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1083/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1083"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1083
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10736369
+        , simpleUserLogin = N "gangadharyelwande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10736369?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gangadharyelwande"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "JavaScript document issue #1028 is resolved"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1083"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1083.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1083.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1083"
+  , issueCreatedAt = 2016 (-04) (-14) 02 : 55 : 55 UTC
+  , issueBody =
+      Just
+        "Files has been modified for more descriptive message \r\nAlso solved issue # 979"
+  , issueState = "closed"
+  , issueId = Id 148236684
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

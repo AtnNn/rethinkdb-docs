@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-12) 19 : 43 : 45 UTC
+  , issueUpdatedAt = 2014 (-03) (-12) 19 : 43 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/215/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/215"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 215
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "API - Add an example for orderBy with a nested field"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/215"
+  , issueCreatedAt = 2014 (-03) (-12) 19 : 34 : 48 UTC
+  , issueBody =
+      Just
+        "Someone tried to do `orderBy(\"foo.bar\")` today.\r\nIt's a little tricky for the user here because they don't get back an error.\r\n\r\nWe should probably add an example with a nested field (or replace the example with the function maybe?)"
+  , issueState = "closed"
+  , issueId = Id 29294479
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

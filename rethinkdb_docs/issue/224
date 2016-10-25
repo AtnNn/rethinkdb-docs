@@ -1,0 +1,62 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 10 : 02 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/224/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/224"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eeeeee"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/not_settled"
+          , labelName = "not_settled"
+          }
+      ]
+  , issueNumber = 224
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document cross-datacenter latency issues"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/224"
+  , issueCreatedAt = 2014 (-03) (-19) 18 : 58 : 26 UTC
+  , issueBody =
+      Just
+        "The latency implications of our query model (i.e. masters, automatically hopping to masters if you're querying replicas, and the `outdated` flag) are not obvious to users (for example, see https://github.com/rethinkdb/rethinkdb/issues/2115).\r\n\r\nWe should write a document that describes best practices for multi-datacenter setups and goes into detail on latency implications."
+  , issueState = "open"
+  , issueId = Id 29762216
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 44 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1013/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1013"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1013
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clearly document Docker setup"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1013"
+  , issueCreatedAt = 2016 (-02) (-10) 01 : 48 : 52 UTC
+  , issueBody =
+      Just
+        "The only instructions I could find for creating a cluster using Docker is on [Docker Hub](https://hub.docker.com/_/rethinkdb/), and it hasn't been updated to use the new Docker networking model.\r\n\r\nTwo things:\r\n  - we should update the docs on Docker Hub (@dalanmiller, do you know the best way to do this?)\r\n  - we should have an official documentation article on our site describing how to create a cluster using Docker."
+  , issueState = "open"
+  , issueId = Id 132587671
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

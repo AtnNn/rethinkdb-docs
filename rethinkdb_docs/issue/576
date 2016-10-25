@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-18) 23 : 40 : 27 UTC
+  , issueUpdatedAt = 2014 (-12) (-18) 23 : 40 : 27 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/576/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/576"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 576
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add documentation for Ruby and Python cursors"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/576"
+  , issueCreatedAt = 2014 (-11) (-07) 02 : 18 : 59 UTC
+  , issueBody =
+      Just
+        "Someone on IRC asked about using cursors in ruby. I noticed that the only documented cursor method for Ruby and Python is `close`.\r\n\r\nhttp://rethinkdb.com/api/ruby/\r\n\r\nJavaScript on the other hand lists: `next`, `each`, `toArray`, `close` and `EventEmitter methods`"
+  , issueState = "closed"
+  , issueId = Id 48040469
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-17) 20 : 24 : 03 UTC
+  , issueUpdatedAt = 2015 (-03) (-17) 20 : 24 : 03 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/570/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/570"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 570
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Strange character in SQL -> ReQL docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/570"
+  , issueCreatedAt = 2014 (-10) (-30) 21 : 02 : 27 UTC
+  , issueBody =
+      Just
+        "Here's a screenshot on OS X in Chrome (see note 2):\r\n![screen shot 2014-10-30 at 1 59 55 pm](https://cloud.githubusercontent.com/assets/91193/4852092/06329866-6078-11e4-89c8-5f411331ee3a.png)\r\n"
+  , issueState = "closed"
+  , issueId = Id 47327107
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

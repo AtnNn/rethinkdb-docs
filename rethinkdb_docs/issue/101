@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-23) 22 : 16 : 16 UTC
+  , issueUpdatedAt = 2013 (-11) (-23) 22 : 16 : 16 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/101/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/101"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 101
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2764274
+        , simpleUserLogin = N "dlau"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2764274?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dlau"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Mismatched link for javascript table command"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/101"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/101.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/101.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/101"
+  , issueCreatedAt = 2013 (-11) (-23) 20 : 18 : 49 UTC
+  , issueBody =
+      Just
+        "The link for the javascript command `table` points to `replace/` instead of the proper `table/`"
+  , issueState = "closed"
+  , issueId = Id 23193340
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

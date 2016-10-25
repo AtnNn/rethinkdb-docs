@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-31) 23 : 38 : 25 UTC
+  , issueUpdatedAt = 2016 (-05) (-31) 23 : 38 : 25 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1131/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1131"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1131
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Prepare for fully supported Windows release"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1131"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1131.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1131.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1131"
+  , issueCreatedAt = 2016 (-05) (-26) 22 : 14 : 38 UTC
+  , issueBody =
+      Just
+        "We're dropping the \"beta\" tag from the Windows port with the next update (coming up next week).\r\n\r\n@coffeemug and @chipotle do these formulations sound good to you?"
+  , issueState = "closed"
+  , issueId = Id 157091124
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

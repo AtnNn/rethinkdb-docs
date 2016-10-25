@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-14) 19 : 07 : 41 UTC
+  , issueUpdatedAt = 2015 (-09) (-14) 19 : 07 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/895/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/895"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 895
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2166377
+        , simpleUserLogin = N "clessg"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2166377?v=3"
+        , simpleUserUrl = "https://api.github.com/users/clessg"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix critical typo in docs: geting -> getting"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/895"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/895.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/895.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/895"
+  , issueCreatedAt = 2015 (-09) (-14) 18 : 50 : 38 UTC
+  , issueBody = Just "Enjoy."
+  , issueState = "closed"
+  , issueId = Id 106404908
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

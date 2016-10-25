@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-08) 21 : 09 : 34 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/238378296"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1089#issuecomment-238378296"
+  , issueCommentCreatedAt = 2016 (-08) (-08) 21 : 09 : 34 UTC
+  , issueCommentBody =
+      "Turns out the syntax we actually support for the last point is the following:\r\n* `r.desc(field name)` or `r.desc(lambda x: ...)` or `[r.desc(field1), r.desc(field2), ...]` or `[r.desc(lambda x: ...), r.desc(lambda x: ...), ...]`\r\n\r\nThat is, if there are multiple fields / lambdas, the `r.desc` has to be *inside* the array. You can also mix descending and ascending criteria in the array, e.g. `[r.desc(field1), field2]` will primarily compare by field1 in descending order, and secondarily by field2 in ascending order."
+  , issueCommentId = 238378296
+  }

@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-25) 04 : 49 : 41 UTC
+  , issueUpdatedAt = 2014 (-02) (-25) 19 : 14 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/205/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/205"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 205
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2037358
+        , simpleUserLogin = N "alecjacobs"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2037358?v=3"
+        , simpleUserUrl = "https://api.github.com/users/alecjacobs"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "add missing letter in order_by.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/205"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/205.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/205.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/205"
+  , issueCreatedAt = 2014 (-02) (-25) 04 : 14 : 41 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 28221483
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

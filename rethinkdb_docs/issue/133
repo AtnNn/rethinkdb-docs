@@ -1,0 +1,47 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-29) 17 : 50 : 52 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 09 : 03 : 36 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/133/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/133"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 133
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 172594
+        , simpleUserLogin = N "mikemaccana"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/172594?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mikemaccana"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Term 'point-replace' is used, but not defined, in replace() docs. "
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/133"
+  , issueCreatedAt = 2013 (-12) (-11) 12 : 56 : 50 UTC
+  , issueBody =
+      Just
+        "From http://www.rethinkdb.com/api/javascript/replace/:\r\n\r\n> You can have new documents inserted if you do a point-replace on a key that isn't in the table\r\n\r\nI'm not sure what 'point-replace' means, and I can't find a definition for this term on rethinkdb docs or elsewhere on the internet. \r\n\r\nIf 'point-replace' just means 'replace', then it might be better to simply use 'replace'."
+  , issueState = "closed"
+  , issueId = Id 24105014
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

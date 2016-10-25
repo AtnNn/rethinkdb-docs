@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-02) (-03) 23 : 27 : 50 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 11 : 49 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/142/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/142"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 142
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add CentOS + update back up"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/142"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/142.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/142.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/142"
+  , issueCreatedAt = 2013 (-12) (-13) 05 : 10 : 46 UTC
+  , issueBody =
+      Just
+        "@mglukhovsky would you mind taking a look?\r\n\r\nWe support CentOS 6 now, and have rethinkdb dump/restore.\r\nThat should address issue #124"
+  , issueState = "closed"
+  , issueId = Id 24227908
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

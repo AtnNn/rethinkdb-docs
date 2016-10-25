@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-23) 00 : 10 : 37 UTC
+  , issueUpdatedAt = 2014 (-09) (-23) 00 : 10 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/518/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/518"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 518
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Mention the json file format in the importing document"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/518"
+  , issueCreatedAt = 2014 (-09) (-22) 21 : 21 : 25 UTC
+  , issueBody =
+      Just
+        "See http://www.rethinkdb.com/docs/importing/.\r\n\r\nIt's not clear what the format of the JSON file should be for importing (an array? a series of json documents? something else?) I believe we support both, but we should mention that in the document.\r\n\r\n/cc @chipotle @Tryneus (could you explain what works and what doesn't?)"
+  , issueState = "closed"
+  , issueId = Id 43555002
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

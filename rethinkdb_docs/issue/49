@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-11) 20 : 35 : 51 UTC
+  , issueUpdatedAt = 2016 (-04) (-11) 20 : 35 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/49/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/49"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 49
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "API: Python - add docs on inserting native date objects"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/49"
+  , issueCreatedAt = 2013 (-10) (-28) 21 : 14 : 12 UTC
+  , issueBody =
+      Just
+        "There are currently no docs on using the native Python date objects (see the [tests](https://github.com/rethinkdb/rethinkdb/blob/next/test/rql_test/src/times/shim.yaml#L8) for an example)."
+  , issueState = "closed"
+  , issueId = Id 21721478
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

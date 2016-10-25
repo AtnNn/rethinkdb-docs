@@ -1,0 +1,63 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-12) 22 : 47 : 36 UTC
+  , issueUpdatedAt = 2014 (-09) (-29) 19 : 11 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/347/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/347"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/next"
+          , labelName = "next"
+          }
+      ]
+  , issueNumber = 347
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Make the documentation compatible with the web UI and the Python docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/347"
+  , issueCreatedAt = 2014 (-06) (-11) 22 : 19 : 31 UTC
+  , issueBody =
+      Just
+        "The web UI docs cannot be generated:\r\n\r\n```\r\n$ python _scripts/dataexplorer.py\r\n  File \"_scripts/dataexplorer.py\", line 119, in add_io_field\r\n    result[yaml_data[\"permalink\"]][\"io\"] = yaml_data[\"io\"]\r\nKeyError: 'io'\r\n```\r\n\r\nAnd the generated python docs don't work:\r\n\r\n```\r\n>>> help(r.time)\r\nUnicodeEncodeError: 'ascii' codec can't encode character u'\\xb1' in position 634: ordinal not in range(128)\r\n```"
+  , issueState = "closed"
+  , issueId = Id 35533445
+  , issueComments = 5
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 1777134
+                , simpleUserLogin = N "mlucy"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/1777134?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mlucy"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 3
+          , milestoneClosedIssues = 23
+          , milestoneDescription = Just ""
+          , milestoneTitle = "v1.13.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/3"
+          , milestoneCreatedAt = 2014 (-04) (-25) 00 : 13 : 09 UTC
+          , milestoneState = "closed"
+          }
+  }

@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-12) 21 : 36 : 47 UTC
+  , issueUpdatedAt = 2015 (-08) (-12) 21 : 36 : 47 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/851/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/851"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 851
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Syntax highlighting issues on `r.http` documentation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/851"
+  , issueCreatedAt = 2015 (-08) (-11) 01 : 44 : 50 UTC
+  , issueBody =
+      Just
+        "I noticed some syntax highlighting issues throughout the documentation for [`r.http`](http://www.rethinkdb.com/api/ruby/http/) -- namely:\r\n\r\n  - The `rb` language snippet is visible here:\r\n\r\n![screen shot 2015-08-10 at 12 27 00 pm](https://cloud.githubusercontent.com/assets/91193/9188104/44b3f6a8-3f8d-11e5-8c16-c09e525362b2.png)\r\n\r\n  - Some of the language snippets are one-line, rather than multi-line comments.\r\n"
+  , issueState = "closed"
+  , issueId = Id 100205639
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-01) (-29) 21 : 48 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 5043
+        , simpleUserLogin = N "thelinuxlich"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5043?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thelinuxlich"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/176983627"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1005#issuecomment-176983627"
+  , issueCommentCreatedAt = 2016 (-01) (-29) 21 : 48 : 02 UTC
+  , issueCommentBody =
+      "Thanks for the clarification, I think the live backup strategy deserves a tutorial, starting from adding non-voting replicas to restoring data integrity with them"
+  , issueCommentId = 176983627
+  }

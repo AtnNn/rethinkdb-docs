@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-24) 17 : 18 : 40 UTC
+  , issueUpdatedAt = 2014 (-06) (-24) 17 : 18 : 40 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/270/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/270"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 270
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "\"JSON\" dates - Cookbook/API/Dates and times article"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/270"
+  , issueCreatedAt = 2014 (-04) (-20) 02 : 14 : 20 UTC
+  , issueBody =
+      Just
+        "If a `Date` object is created in JavaScript in the browser, it will probably be sent to the server in one of these two formats:\r\n- epoch time `date.getTime()`\r\n- iso -- which is done by using `JSON.stringify(date)`.\r\n\r\nIn the first case, the date can be put back the date in the database with `r.epochTime`, and in the second case with `r.ISO8601`. I couldn't find in our docs that JSON was using an ISO 8601 format.\r\n\r\nIt seems like a common case, so it would be nice to write some docs about this.\r\n\r\n\r\nAlso for JavaScript users, if they want to check the date before inserting it, they can do\r\n`new Date(date)`.\r\nWe should write also how to do it in Python and Ruby."
+  , issueState = "closed"
+  , issueId = Id 31858661
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

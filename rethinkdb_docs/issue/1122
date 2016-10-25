@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-12) 17 : 11 : 00 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1122/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1122"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1122
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 863286
+        , simpleUserLogin = N "dalanmiller"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/863286?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dalanmiller"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      ".changes() examples should include example outputs for includeState, includeInitial, includeOffsets"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1122"
+  , issueCreatedAt = 2016 (-05) (-12) 22 : 44 : 59 UTC
+  , issueBody =
+      Just
+        "https://rethinkdb.com/api/javascript/changes/\r\n\r\nJust discovered this and there should be some more examples as how to use this to properly maintain your own ordered data structure client-side (as well as other things) "
+  , issueState = "open"
+  , issueId = Id 154597964
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

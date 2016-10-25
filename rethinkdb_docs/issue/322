@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-26) 22 : 41 : 45 UTC
+  , issueUpdatedAt = 2014 (-08) (-26) 22 : 41 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/322/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/322"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 322
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Describe RethinkDB strings with more detail"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/322"
+  , issueCreatedAt = 2014 (-05) (-29) 01 : 16 : 32 UTC
+  , issueBody =
+      Just
+        "The new documentation on data types looks great.\r\n\r\nHowever I noticed that all it says about strings is \"Strings are Unicode strings\". That isn't quite true. Unicode is a character set, not an encoding.\r\n\r\nThe situation in RethinkDB seems to be:\r\n\r\n* RethinkDB strings can't contain the null character (which is a valid unicode character)\r\n* Some ReQL operations such as `match` assume that strings are UTF-8 encoded\r\n* Other operations such as `split` assume that they are arrays of bytes.\r\n* It is possible to insert strings that are not valid UTF-8"
+  , issueState = "closed"
+  , issueId = Id 34521431
+  , issueComments = 12
+  , issueMilestone = Nothing
+  }

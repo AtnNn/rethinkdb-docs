@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-03) 18 : 12 : 25 UTC
+  , issueUpdatedAt = 2015 (-09) (-03) 18 : 12 : 25 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/884/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/884"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 884
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 5968462
+        , simpleUserLogin = N "bengesoff"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/5968462?v=3"
+        , simpleUserUrl = "https://api.github.com/users/bengesoff"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "fix code example"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/884"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/884.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/884.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/884"
+  , issueCreatedAt = 2015 (-09) (-03) 14 : 49 : 00 UTC
+  , issueBody =
+      Just
+        "The code example didn't match its description. The post with id 1 was not being selected before the update"
+  , issueState = "closed"
+  , issueId = Id 104713224
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

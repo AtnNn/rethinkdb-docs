@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-21) 23 : 51 : 51 UTC
+  , issueUpdatedAt = 2014 (-07) (-23) 22 : 24 : 38 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/422/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/422"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 422
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "RabbitMQ links in Integrations page"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/422"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/422.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/422.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/422"
+  , issueCreatedAt = 2014 (-07) (-21) 22 : 43 : 05 UTC
+  , issueBody =
+      Just
+        "Added language-specific links to each section. This will probably be cleaned up when the Integrations page is reorganized."
+  , issueState = "closed"
+  , issueId = Id 38352642
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

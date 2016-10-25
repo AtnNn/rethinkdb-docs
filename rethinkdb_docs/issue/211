@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-25) 18 : 15 : 52 UTC
+  , issueUpdatedAt = 2014 (-03) (-25) 18 : 15 : 52 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/211/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/211"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 211
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 127443
+        , simpleUserLogin = N "rickhull"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/127443?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rickhull"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "grouped_map_reduce, how are the groups used?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/211"
+  , issueCreatedAt = 2014 (-03) (-04) 05 : 29 : 58 UTC
+  , issueBody =
+      Just
+        "I got to http://www.rethinkdb.com/api/python/grouped_map_reduce/ from http://www.rethinkdb.com/docs/map-reduce/\r\n\r\nIt's not clear how the groups are used and may affect the results.\r\n```\r\nr.table('marvel').grouped_map_reduce(\r\n    lambda hero: hero['weightClass'],  # grouping\r\n    lambda hero: hero.pluck('name', 'strength'),  # mapping\r\n    lambda acc, hero: r.branch(acc['strength'] < hero['strength'], hero, acc),\r\n    {'name':'none', 'strength':0}  # base\r\n).run(conn)\r\n```\r\n\r\nLet's assume we have 2 weight classes, light and heavy.  My understanding is that we would then be doing map/reduce across these two groups.  We map to pluck out the name (the value we are actually interested) and the strength (the value used for comparison and reduction).  We reduce using two values (always a binary reduction, applied recursively until a single value is yielded?), one labeled an accumulator (the strongest hero seen so far, presumably) and one labeled a hero (an individual item from the group).\r\n\r\nAt this point, I would suggest the naming convention is misleading.  We don't actually know which is the acc and which is the hero.  In fact, assuming it will take several recursions, wouldn't we expect both sides to represent an acc at some point?\r\n\r\nNext, it's not clear what the result will be.  On neither page I linked above do we get a sense of what run() should be expected to return.  I'm imagining a hash/dict with keys representing each group and values representing each group's reduction.  Since we mapped down to 2 keys, I'd expect each reduction to be a hash/dict with those keys."
+  , issueState = "closed"
+  , issueId = Id 28681272
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

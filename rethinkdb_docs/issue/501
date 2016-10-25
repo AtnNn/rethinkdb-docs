@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-10) 18 : 02 : 24 UTC
+  , issueUpdatedAt = 2014 (-09) (-10) 18 : 02 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/501/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/501"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 501
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1277553
+        , simpleUserLogin = N "jutaz"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1277553?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jutaz"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fixed naming error in docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/501"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/501.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/501.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/501"
+  , issueCreatedAt = 2014 (-09) (-10) 12 : 15 : 55 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 42406234
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

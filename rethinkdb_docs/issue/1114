@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-16) 17 : 04 : 41 UTC
+  , issueUpdatedAt = 2016 (-05) (-16) 17 : 04 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1114/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1114"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1114
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Fix for typo in Javascript Connection EventEmitter docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1114"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1114.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1114.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1114"
+  , issueCreatedAt = 2016 (-05) (-03) 02 : 33 : 33 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 152688047
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

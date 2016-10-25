@@ -1,0 +1,68 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 12 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/148/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/148"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 148
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add a more pragmatic FAQ on network scenarios"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/148"
+  , issueCreatedAt = 2013 (-12) (-17) 03 : 09 : 41 UTC
+  , issueBody =
+      Just
+        "Here are some questions that often come up:\r\n\r\n* if one runs rethinkdb on multiple nodes, is fault tolerance built in?\r\n* can i read/write to various nodes at the same time?\r\n* is rethinkdb eventually-consistent?\r\n* is multi-datacenter replication supported?\r\n* can insertion/deletion/reads be done on separate nodes?\r\n* can insertion/deletion/reads be done on separate nodes during network partitioning?\r\n* what happens when a master dies? does it automatically pick a new master?\r\n* what happens when the master comes back up?\r\n\r\nWe already have the answers in http://rethinkdb.com/docs/architecture/, but it takes some reading to get to them. We should have a more straight forward faq/answers to these questions so we don't have to answer them over and over again."
+  , issueState = "open"
+  , issueId = Id 24397338
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-20) 21 : 26 : 55 UTC
+  , issueUpdatedAt = 2015 (-05) (-20) 21 : 33 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/775/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/775"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 775
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 811954
+        , simpleUserLogin = N "danielcompton"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/811954?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielcompton"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clarify token uniqueness properties"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/775"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/775.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/775.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/775"
+  , issueCreatedAt = 2015 (-05) (-20) 00 : 36 : 38 UTC
+  , issueBody =
+      Just
+        "Reading the docs it wasn't totally clear that tokens need to be unique per connection. It was implied from the aside about the official drivers implementation, but I think it would be good to make this explicit.\r\n\r\nI'm not totally happy with the way I've worded this, I'd welcome any feedback or thoughts on ways to make this less awkward."
+  , issueState = "closed"
+  , issueId = Id 78308761
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

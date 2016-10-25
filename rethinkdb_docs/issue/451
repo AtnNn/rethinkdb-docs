@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-11) 23 : 55 : 52 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 41 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/451/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/451"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 451
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix link to to_array"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/451"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/451.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/451.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/451"
+  , issueCreatedAt = 2014 (-08) (-11) 23 : 26 : 02 UTC
+  , issueBody = Just "@chipotle -- Could you take a look at this?"
+  , issueState = "closed"
+  , issueId = Id 40011142
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

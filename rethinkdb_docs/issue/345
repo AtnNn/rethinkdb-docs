@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 22 : 28 : 10 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 06 : 17 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/345/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/345"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 345
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Updating migration doc as mentioned in #231"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/345"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/345.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/345.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/345"
+  , issueCreatedAt = 2014 (-06) (-11) 21 : 38 : 51 UTC
+  , issueBody = Just "@neumino -- please review?"
+  , issueState = "closed"
+  , issueId = Id 35530121
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

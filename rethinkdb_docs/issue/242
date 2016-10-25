@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-26) 19 : 13 : 03 UTC
+  , issueUpdatedAt = 2014 (-03) (-26) 19 : 13 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/242/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/242"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 242
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix from SQL article"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/242"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/242.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/242.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/242"
+  , issueCreatedAt = 2014 (-03) (-26) 19 : 04 : 57 UTC
+  , issueBody =
+      Just "Ping @coffeemug -- Can you take a look at this?"
+  , issueState = "closed"
+  , issueId = Id 30241534
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

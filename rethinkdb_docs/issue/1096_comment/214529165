@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-25) 21 : 29 : 02 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/214529165"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1096#issuecomment-214529165"
+  , issueCommentCreatedAt = 2016 (-04) (-25) 21 : 29 : 02 UTC
+  , issueCommentBody =
+      "@cefn It's surprising that it gets shown as a function. It should be an object of the type `r.TermBase`.\r\nI think you can test for it by using `o instanceof r.TermBase`.\r\n\r\nCan you try printing the query object or converting it to a string (e.g. through console.log)? It should give you a string-representation of the query that it's representing. If it gives you something different then something odd might be happening..."
+  , issueCommentId = 214529165
+  }

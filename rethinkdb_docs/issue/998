@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-19) 21 : 34 : 38 UTC
+  , issueUpdatedAt = 2016 (-01) (-19) 21 : 34 : 38 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/998/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/998"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 998
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update all docs to be compatible with gen-index.rb"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/998"
+  , issueCreatedAt = 2016 (-01) (-11) 19 : 37 : 22 UTC
+  , issueBody =
+      Just
+        "Java's index file is already generated with `gen-index.rb`; the other three languages need to be updated to allow this, too. This mostly just requires updating individual API files with `<!-- break -->` and `<!-- stop -->` lines as appropriate, using Java as a guide.\r\n\r\n(The script could also be updated to generate all languages at once with a command line option, although that's less important.)"
+  , issueState = "closed"
+  , issueId = Id 126020046
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

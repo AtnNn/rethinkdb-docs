@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-18) 00 : 39 : 11 UTC
+  , issueUpdatedAt = 2015 (-06) (-18) 00 : 39 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/792/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/792"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 792
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Website makes it seem as if new primaries are automatically elected after permanently removing a server"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/792"
+  , issueCreatedAt = 2015 (-06) (-16) 19 : 12 : 46 UTC
+  , issueBody =
+      Just "See https://github.com/rethinkdb/rethinkdb/issues/4406."
+  , issueState = "closed"
+  , issueId = Id 88813504
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

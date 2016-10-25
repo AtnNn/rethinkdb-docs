@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-06) 18 : 22 : 50 UTC
+  , issueUpdatedAt = 2015 (-05) (-06) 18 : 22 : 50 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/735/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/735"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 735
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add example to hasFields documentation for filtering documents *without* a field"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/735"
+  , issueCreatedAt = 2015 (-04) (-24) 23 : 06 : 06 UTC
+  , issueBody =
+      Just
+        "This has come up a few times, and I think we should add an example to http://rethinkdb.com/api/javascript/has_fields/ that demonstrates the use of `not` like this:\r\n`table.filter(r.row.hasFields(\"fieldName\").not())`"
+  , issueState = "closed"
+  , issueId = Id 70816083
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

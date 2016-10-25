@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 21 : 11 : 48 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 11 : 48 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/149/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/149"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 149
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Revisit Rethink v Mongo comparison"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/149"
+  , issueCreatedAt = 2013 (-12) (-17) 09 : 52 : 49 UTC
+  , issueBody =
+      Just
+        "I searched for Ruby v Python comparison and found this: http://c2.com/cgi/wiki?PythonVsRuby. I like their approach much better than ours. Here is the anthology they used:\r\n\r\n* Overview\r\n* Heritage and Philosophy\r\n* Popularity\r\n* Readability\r\n* Ease for Beginners\r\n* Ruby Blocks and Python Lambdas\r\n* Development Environments\r\n* Community and Documentation\r\n* Libraries, Platforms and Applications\r\n* Performance\r\n* Opinions : Leaving Python for Ruby / Leaving Ruby for Python (anybody?)\r\n* Misc.\r\n\r\nThis might not work for us exactly, but it seems like a really good place to start. "
+  , issueState = "closed"
+  , issueId = Id 24409770
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-10) (-02) 11 : 23 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1180/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1180"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 1180
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 214288
+        , simpleUserLogin = N "robertjpayne"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/214288?v=3"
+        , simpleUserUrl = "https://api.github.com/users/robertjpayne"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Writing RethinkDB Drivers has incorrect AST example for `r.do`"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1180"
+  , issueCreatedAt = 2016 (-09) (-14) 15 : 59 : 00 UTC
+  , issueBody =
+      Just
+        "The docs currently show:\r\n\r\n```\r\n[FUNCALL,\r\n  [FUNC,\r\n    [[MAKE_ARRAY, [1, 2]],\r\n      [ADD,\r\n        [[VAR, [1]],\r\n         [VAR, [2]]]]]],\r\n  10,\r\n  20]\r\n\r\n// FUNCALL = 64, FUNC = 69, MAKE_ARRAY = 2, ADD = 24, VAR = 10\r\n\r\n[64, [69, [[2, [1, 2]], [24, [[10, [1]], [10, [2]]]]]], 10, 20]\r\n```\r\n\r\nI believe it is incorrect and should instead read:\r\n\r\n```\r\n[FUNCALL,\r\n  [[FUNC,\r\n    [[MAKE_ARRAY, [1, 2]],\r\n      [ADD,\r\n        [[VAR, [1]],\r\n         [VAR, [2]]]]]],\r\n  10,\r\n  20]\r\n]\r\n\r\n// FUNCALL = 64, FUNC = 69, MAKE_ARRAY = 2, ADD = 24, VAR = 10\r\n\r\n[64, [[69, [[2, [1, 2]], [24, [[10, [1]], [10, [2]]]]]], 10, 20]]\r\n```\r\n\r\nThere is a missing `[` before `FUNC` and at the end there is a missing `]`. I think it may be valid REQL to have both of these brackets emitted but it's confusing when the node.js driver does emit these.\r\n"
+  , issueState = "open"
+  , issueId = Id 176947601
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

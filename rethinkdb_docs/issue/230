@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-24) 21 : 14 : 24 UTC
+  , issueUpdatedAt = 2014 (-06) (-16) 00 : 38 : 09 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/230/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/230"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 230
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Miscellaneous doc fixes"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/230"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/230.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/230.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/230"
+  , issueCreatedAt = 2014 (-03) (-23) 14 : 03 : 42 UTC
+  , issueBody =
+      Just
+        "There were a few places mentioning `NULL` when it should be `None` in python, and `nil` in ruby.\r\n\r\nThere was a broken query in the `match` documentation that would error, which has been fixed.\r\n\r\nThe python documentation had an unclosed set of quotes which messed up some formatting.\r\n\r\nThe ruby documentation had a couple out-of-place headers in the middle of a section."
+  , issueState = "closed"
+  , issueId = Id 29987883
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-02) 17 : 41 : 36 UTC
+  , issueUpdatedAt = 2013 (-11) (-02) 17 : 41 : 36 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/43/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/43"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 43
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "API - Filter's syntax is missing the default argument"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/43"
+  , issueCreatedAt = 2013 (-10) (-26) 22 : 12 : 43 UTC
+  , issueBody =
+      Just
+        "Previous issue https://github.com/rethinkdb/rethinkdb/issues/952\r\nSyntax https://github.com/rethinkdb/rethinkdb/issues/884\r\n\r\nWe are missing the `default` argument in the syntax.\r\n\r\nThe docs about filter need more improvements, but let's keep this issue to just `default` (which is tricky enough)."
+  , issueState = "closed"
+  , issueId = Id 21642206
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

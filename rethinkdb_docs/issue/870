@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-27) 01 : 48 : 10 UTC
+  , issueUpdatedAt = 2015 (-08) (-27) 18 : 09 : 34 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/870/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/870"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 870
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix missing close ``` for code block"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/870"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/870.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/870.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/870"
+  , issueCreatedAt = 2015 (-08) (-26) 06 : 27 : 44 UTC
+  , issueBody =
+      Just
+        "The ruby doc for max forgot closing code block with ```\r\n\r\n<img width=\"823\" alt=\"screen shot 2015-08-25 at 11 25 57 pm\" src=\"https://cloud.githubusercontent.com/assets/49754/9486808/d26feeee-4b80-11e5-9033-1bd04b76cf33.png\">\r\n"
+  , issueState = "closed"
+  , issueId = Id 103186390
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-28) 07 : 33 : 53 UTC
+  , issueUpdatedAt = 2014 (-03) (-28) 07 : 33 : 53 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/124/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/124"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 124
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update RethinkDB vs. Mongo technical comparison"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/124"
+  , issueCreatedAt = 2013 (-12) (-05) 00 : 01 : 21 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/docs/comparison-tables/\r\n\r\n* Platforms\r\n  We now support CentOS\r\n* Administration\r\n  We now have a backup tool. Both the comparison table and the Backup section need updating."
+  , issueState = "closed"
+  , issueId = Id 23756853
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

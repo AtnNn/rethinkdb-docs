@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-29) 00 : 46 : 15 UTC
+  , issueUpdatedAt = 2014 (-04) (-29) 00 : 46 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/255/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/255"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 255
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add an example for `indexCreate` that uses both `multi` and an expression"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/255"
+  , issueCreatedAt = 2014 (-04) (-01) 05 : 41 : 31 UTC
+  , issueBody =
+      Just
+        "Currently in our API docs for `indexCreate` (http://rethinkdb.com/api/javascript/index_create/) and index docs (http://rethinkdb.com/docs/secondary-indexes/javascript/), we explain how to use arbitrary ReQL expressions to create an index, and how to use `multi=True`, but not how to use both.\r\n\r\nA user was confused about whether that's possible -- they wanted to do this:\r\n\r\n```python\r\nr.table('foo').index_create('my_index', r.row['my_attrs'].coerceTo('array'), multi=True)\r\n```\r\n\r\nBut had no idea that it's possible (or how to express it). We should add docs to explain this use case."
+  , issueState = "closed"
+  , issueId = Id 30572740
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

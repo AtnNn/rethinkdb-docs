@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-05) (-30) 01 : 04 : 15 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1132/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1132"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1132
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "add a FAQ entry about why the JavaScript driver does not work in the browser"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1132"
+  , issueCreatedAt = 2016 (-05) (-30) 01 : 04 : 15 UTC
+  , issueBody =
+      Just
+        "There have been a few cases of people trying to use the JavaScript driver straight from a browser (latest: rethinkdb/rethinkdb#5802). We should probably have an entry in the FAQ that explains why this does not work, and directs them to a better explanation about what the architecture should be (along with a direct to Horizon)."
+  , issueState = "open"
+  , issueId = Id 157415678
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-16) 18 : 08 : 39 UTC
+  , issueUpdatedAt = 2016 (-06) (-16) 18 : 09 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1138/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1138"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1138
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add thinkagain ORM to integrations list"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1138"
+  , issueCreatedAt = 2016 (-06) (-09) 22 : 05 : 52 UTC
+  , issueBody =
+      Just
+        "@mbroadst forked Thinky and modified it to use json-schema specifications. His fork is available at https://github.com/mbroadst/thinkagain under the name thinkagain.\r\n\r\nWe should add it to the ORM list at http://rethinkdb.com/docs/frameworks-and-libraries/\r\n\r\n\r\n> The module is essentially a drop-in replacement for thinky, of course using json-schema instead of thinky's schema. This means:\r\n> ```\r\n> let Model = thinky.createModel('person', {\r\n>   id: String,\r\n>   str: String,\r\n>   num: Number\r\n> })\r\n> ```\r\n> \r\n> becomes:\r\n> ```\r\n> let Model = thinkagain.createModel('person', {\r\n>   type: 'object',\r\n>   properties: {\r\n>     id: { type: 'string' },\r\n>     str: { type: 'string' },\r\n>     num: { type: 'number' }\r\n>   }\r\n> });\r\n> ```\r\n> \r\n> There are also a few notable changes:\r\n>   - virtual fields are not implemented\r\n>   - validation is always asynchronous (i.e. Model.validate(), Document.validate() return promises)\r\n>   - all validation-specific options (`enforce_type`, `enforce_missing`, etc) have been removed, in favor of ajv's internal options.\r\n>   - Oh, also no documentation whatsoever presently (though for the most part thinky's documentation still holds true) :) This will obviously change in the future, pending interest in the project."
+  , issueState = "closed"
+  , issueId = Id 159519326
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-27) 21 : 45 : 18 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 28 : 39 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/140/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/140"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 140
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Issue 69 - Import images and includes previously in the www repo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/140"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/140.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/140.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/140"
+  , issueCreatedAt = 2013 (-12) (-12) 08 : 05 : 52 UTC
+  , issueBody =
+      Just
+        "There is a _include directory containing files that we include in the docs.\r\nThe _images contains images used in the docs.\r\n\r\nSecond part of https://github.com/rethinkdb/rethinkdb-www/pull/106"
+  , issueState = "closed"
+  , issueId = Id 24162720
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

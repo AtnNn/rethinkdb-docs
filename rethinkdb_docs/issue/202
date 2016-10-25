@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 18 : 17 : 09 UTC
+  , issueUpdatedAt = 2014 (-05) (-29) 18 : 17 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/202/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/202"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "cccccc"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/duplicate"
+          , labelName = "duplicate"
+          }
+      ]
+  , issueNumber = 202
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Use or mention the source tarballs in the build instructions"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/202"
+  , issueCreatedAt = 2014 (-02) (-19) 05 : 47 : 31 UTC
+  , issueBody =
+      Just
+        "The [current instructions](http://rethinkdb.com/docs/build) use a shallow git clone and do not mention the [source tarballs](http://download.rethinkdb.com/dist). The latter are easier to build from and ideal for packaging. They contain pre-compiled web assets and avoid using node and git."
+  , issueState = "closed"
+  , issueId = Id 27852318
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

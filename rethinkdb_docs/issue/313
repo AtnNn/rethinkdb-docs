@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-23) 18 : 17 : 03 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 17 : 54 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/313/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/313"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 313
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 61540
+        , simpleUserLogin = N "pilwon"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/61540?v=3"
+        , simpleUserUrl = "https://api.github.com/users/pilwon"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Added \"celery-backends-rethinkdb\" to Integrations"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/313"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/313.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/313.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/313"
+  , issueCreatedAt = 2014 (-05) (-23) 07 : 47 : 25 UTC
+  , issueBody =
+      Just
+        "[Celery](http://www.celeryproject.org/)'s custom result backend for RethinkDB.\r\n\r\nhttps://github.com/pilwon/celery-backends-rethinkdb"
+  , issueState = "closed"
+  , issueId = Id 34152585
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

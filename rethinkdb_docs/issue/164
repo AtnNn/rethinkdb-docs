@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-21) 18 : 22 : 40 UTC
+  , issueUpdatedAt = 2014 (-07) (-21) 18 : 22 : 40 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/164/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/164"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      , IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 164
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add Daniel Parnell's Objective C client to community drivers page"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/164"
+  , issueCreatedAt = 2013 (-12) (-27) 22 : 44 : 39 UTC
+  , issueBody =
+      Just
+        "https://github.com/dparnell/rethink-db-client should probably be added to http://www.rethinkdb.com/docs/install-drivers/ ."
+  , issueState = "closed"
+  , issueId = Id 24836055
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

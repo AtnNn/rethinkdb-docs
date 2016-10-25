@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-21) 19 : 18 : 05 UTC
+  , issueUpdatedAt = 2014 (-07) (-21) 22 : 34 : 03 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/420/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/420"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 420
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Added rabbitmq tutorial"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/420"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/420.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/420.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/420"
+  , issueCreatedAt = 2014 (-07) (-21) 19 : 17 : 57 UTC
+  , issueBody =
+      Just
+        "Approved by @neumino\r\nContributions from @chipotle, @mglukhovsky khov and @coffeemug"
+  , issueState = "closed"
+  , issueId = Id 38335082
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

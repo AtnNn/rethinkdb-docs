@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-07) (-29) 19 : 41 : 56 UTC
+  , issueUpdatedAt = 2015 (-07) (-29) 19 : 41 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/836/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/836"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 836
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 106477
+        , simpleUserLogin = N "rgv151"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/106477?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rgv151"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "update @nim-lang logo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/836"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/836.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/836.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/836"
+  , issueCreatedAt = 2015 (-07) (-28) 19 : 38 : 18 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 97785485
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

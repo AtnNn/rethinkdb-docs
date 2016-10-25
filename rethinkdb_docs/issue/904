@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-20) 18 : 32 : 52 UTC
+  , issueUpdatedAt = 2015 (-11) (-20) 18 : 32 : 52 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/904/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/904"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 904
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10778179
+        , simpleUserLogin = N "bsantanas"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10778179?v=3"
+        , simpleUserUrl = "https://api.github.com/users/bsantanas"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update get_all.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/904"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/904.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/904.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/904"
+  , issueCreatedAt = 2015 (-09) (-29) 10 : 38 : 03 UTC
+  , issueBody =
+      Just "In python 3.4 it seems to only accept this syntax"
+  , issueState = "closed"
+  , issueId = Id 108842381
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

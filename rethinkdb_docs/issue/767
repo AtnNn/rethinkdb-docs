@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-20) 17 : 54 : 22 UTC
+  , issueUpdatedAt = 2015 (-05) (-20) 17 : 54 : 22 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/767/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/767"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 767
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 354848
+        , simpleUserLogin = N "hamiltop"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/354848?v=3"
+        , simpleUserUrl = "https://api.github.com/users/hamiltop"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update documentation for indexWait"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/767"
+  , issueCreatedAt = 2015 (-05) (-19) 04 : 39 : 41 UTC
+  , issueBody =
+      Just
+        "in https://github.com/rethinkdb/rethinkdb/blob/v2.0.1/src/rdb_protocol/ql2.proto#L536 it says that indexWait returns the same values as indexStatus, but the documentation (http://rethinkdb.com/api/javascript/index_wait/) says something different. The actual behavior is as stated in `ql2.proto`\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 77930084
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

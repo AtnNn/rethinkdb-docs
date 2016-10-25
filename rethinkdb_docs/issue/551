@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-15) 19 : 24 : 38 UTC
+  , issueUpdatedAt = 2014 (-10) (-15) 19 : 24 : 38 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/551/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/551"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 551
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49256
+        , simpleUserLogin = N "yaru22"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49256?v=3"
+        , simpleUserUrl = "https://api.github.com/users/yaru22"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Support Thinky ORM officially"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/551"
+  , issueCreatedAt = 2014 (-10) (-15) 15 : 51 : 57 UTC
+  , issueBody =
+      Just
+        "I've been playing with @neumino's [Thinky](https://github.com/neumino/thinky) library and I like the abstractions it provides. It would be great if rethinkdb team supports Thinky officially. Having a strong ORM library will definitely attract more developers to rethinkdb, too.\r\n\r\nThanks!"
+  , issueState = "closed"
+  , issueId = Id 45884991
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

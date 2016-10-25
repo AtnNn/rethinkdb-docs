@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-10) 20 : 45 : 58 UTC
+  , issueUpdatedAt = 2014 (-07) (-10) 20 : 45 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/410/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/410"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 410
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Remove references from all links in docs."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/410"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/410.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/410.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/410"
+  , issueCreatedAt = 2014 (-07) (-10) 10 : 52 : 45 UTC
+  , issueBody =
+      Just
+        "This removes all references from the docs repo and replaces them with plain links, in preparation of dropping the references Jekyll plugin. @neumino, could you review?"
+  , issueState = "closed"
+  , issueId = Id 37551533
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

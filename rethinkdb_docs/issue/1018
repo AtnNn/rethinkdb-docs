@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-29) 22 : 29 : 17 UTC
+  , issueUpdatedAt = 2016 (-02) (-29) 22 : 29 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1018/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1018"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 1018
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Note in write term API docs about error handling"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1018"
+  , issueCreatedAt = 2016 (-02) (-12) 21 : 22 : 53 UTC
+  , issueBody =
+      Just
+        "We handle failures in write operations (insert, delete, update, replace) differently from other errors. Often we don't throw an exception, but instead just return a value larger than 0 in the `errors` return value, and set `first_error`.\r\n\r\nTo cite @mlucy:\r\n> the rule is that if an error occurs before any writes could plausibly have occured, the entire write is aborted, but if the error occurs on the shards we assume that other writes might be executing at the same time and instead populate `first_error`.  `.insert([errorDoc, okDoc])` fails before we get to the shards because the error occurs while constructing the array.  `.replace{|row| error}` fails on the shards because that's where the function is executing.\r\n\r\nThis has caused confusion for a number of users, for example https://github.com/rethinkdb/rethinkdb/issues/5395 .\r\n\r\nI think we should add a well visible note to the API docs of those terms, that for correct error handling, users need to both handle exceptions and also check the `errors` return value."
+  , issueState = "closed"
+  , issueId = Id 133346363
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,45 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-03) 19 : 45 : 14 UTC
+  , issueUpdatedAt = 2015 (-12) (-09) 23 : 11 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/11/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/11"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      , IssueLabel
+          { labelColor = "eeeeee"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/not_settled"
+          , labelName = "not_settled"
+          }
+      ]
+  , issueNumber = 11
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 43867
+        , simpleUserLogin = N "jdoliner"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/43867?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jdoliner"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add docs for rethinkdb proxy"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/11"
+  , issueCreatedAt = 2013 (-10) (-02) 18 : 31 : 24 UTC
+  , issueBody =
+      Just
+        "We don't have any docs for rethinkdb proxy and it's actually a very useful feature that I've described to a number of people over IRC and had them be delighted. Let's add docs for it."
+  , issueState = "closed"
+  , issueId = Id 20413005
+  , issueComments = 21
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,71 @@
+Issue
+  { issueClosedAt = Just 2015 (-08) (-10) 18 : 01 : 45 UTC
+  , issueUpdatedAt = 2015 (-08) (-10) 18 : 01 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/846/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/846"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 846
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "2.1: fix stale read answer in FAQ"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/846"
+  , issueCreatedAt = 2015 (-08) (-04) 22 : 14 : 53 UTC
+  , issueBody =
+      Just
+        "https://github.com/rethinkdb/docs/blob/v2.1/0-about-rethinkdb/faq.md\r\n\"Can RethinkDB reads ever see stale data?\"\r\n\r\nThe current version says:\r\n> Not by default. Reads run with the read_mode option set to single (the default) will never see stale data, but they may see changes from concurrent writes that have not been safely committed to disk yet. This is equivalent to SQL's READ UNCOMMITTED isolation level. Reads run with read_mode set to outdated may see stale data.\r\n\r\nThis is not correct in case of a netsplit. In that case a `read_mode=single` read might get a read response from the old primary, even though a new primary has already been elected on the other side of the netsplit.\r\n`read_mode=single` only guarantees no stale reads in the absence of a netsplit (we should mention that as well). `read_mode=majority` needs to be used to guarantee that no stale reads happen.\r\n\r\nThe FAQ should probably link to the consistency https://github.com/rethinkdb/docs/blob/v2.1/3-learn-the-tools/consistency.md document for further information."
+  , issueState = "closed"
+  , issueId = Id 99073472
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 167416
+                , simpleUserLogin = N "VeXocide"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/167416?v=3"
+                , simpleUserUrl = "https://api.github.com/users/VeXocide"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 8
+          , milestoneClosedIssues = 24
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.1"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/8"
+          , milestoneCreatedAt = 2015 (-03) (-30) 22 : 32 : 47 UTC
+          , milestoneState = "closed"
+          }
+  }

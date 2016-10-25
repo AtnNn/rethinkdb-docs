@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-01) 17 : 38 : 43 UTC
+  , issueUpdatedAt = 2014 (-10) (-02) 16 : 27 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/532/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/532"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 532
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 139396
+        , simpleUserLogin = N "wojons"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/139396?v=3"
+        , simpleUserUrl = "https://api.github.com/users/wojons"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "javascript update return values wrong in doc"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/532"
+  , issueCreatedAt = 2014 (-10) (-01) 10 : 29 : 33 UTC
+  , issueBody =
+      Just
+        "@nguyendn, Let me know via IRC that when running a command like. \r\n\r\n```\r\nr.table().update((), {return_changes:True})\r\n```\r\n\r\nthat will work but in the docs it using the key returnChanges. This was also broken when it was returnVals when it should have been return_vals. I have not had a chance to test this since i nromally use the php driver and this is related to the js driver."
+  , issueState = "closed"
+  , issueId = Id 44549281
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

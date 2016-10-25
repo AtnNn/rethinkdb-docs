@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-28) 10 : 58 : 09 UTC
+  , issueUpdatedAt = 2014 (-07) (-09) 17 : 19 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/186/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/186"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 186
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix description of upsert"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/186"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/186.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/186.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/186"
+  , issueCreatedAt = 2014 (-01) (-28) 07 : 06 : 57 UTC
+  , issueBody =
+      Just
+        "See https://github.com/rethinkdb/rethinkdb/issues/1838#issuecomment-33454307\r\n\r\n@coffeemug can you take a look at this?"
+  , issueState = "closed"
+  , issueId = Id 26420224
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

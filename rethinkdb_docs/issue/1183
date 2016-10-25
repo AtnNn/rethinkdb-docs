@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-28) 03 : 51 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1183/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1183"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1183
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6340841
+        , simpleUserLogin = N "dsernst"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/6340841?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dsernst"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "r.connect({ssl: {}}) has undocumented options"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1183"
+  , issueCreatedAt = 2016 (-09) (-28) 03 : 51 : 33 UTC
+  , issueBody =
+      Just
+        "The docs for the JS driver's `r.connect` says for the `ssl` key:\r\n\r\n> Currently, there is only one option available\r\n\r\nBut this is incorrect. The driver passes the entire SSL object to `tls.connect` [here](https://github.com/rethinkdb/rethinkdb/blob/next/drivers/javascript/net.coffee#L959), so it can use all of [`tls.connect`'s options](https://nodejs.org/api/tls.html#tls_tls_connect_options_callback).\r\n\r\nIn particular, I needed to make use of `rejectUnauthorized: false` as a temp fix because my server was rejecting Compose's self-signed ssl certificate with a `\"unable to verify the first certificate\"` error."
+  , issueState = "open"
+  , issueId = Id 179674178
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

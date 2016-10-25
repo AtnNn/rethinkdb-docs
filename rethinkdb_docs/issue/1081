@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-09) 18 : 35 : 36 UTC
+  , issueUpdatedAt = 2016 (-04) (-09) 18 : 35 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1081/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1081"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1081
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 172594
+        , simpleUserLogin = N "mikemaccana"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/172594?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mikemaccana"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix missing name of instance in .service file"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1081"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1081.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1081.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1081"
+  , issueCreatedAt = 2016 (-04) (-09) 18 : 32 : 06 UTC
+  , issueBody =
+      Just
+        "Presumably `/usr/lib/systemd/system/rethinkdb@.service` should be `/usr/lib/systemd/system/rethinkdb@<name_of_instance>.service`\r\n\r\nAlso `name_instance` to `name_of_instance` to make more sense."
+  , issueState = "closed"
+  , issueId = Id 147150892
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

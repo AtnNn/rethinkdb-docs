@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-15) 21 : 03 : 36 UTC
+  , issueUpdatedAt = 2015 (-06) (-15) 21 : 03 : 36 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/790/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/790"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 790
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 316661
+        , simpleUserLogin = N "timmaxw"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/316661?v=3"
+        , simpleUserUrl = "https://api.github.com/users/timmaxw"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Remove remaining mentions of \"rethinkdb admin\""
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/790"
+  , issueCreatedAt = 2015 (-06) (-09) 23 : 25 : 03 UTC
+  , issueBody =
+      Just
+        "There's one on this page: http://rethinkdb.com/docs/paas/\r\n\r\nI don't know if there are others."
+  , issueState = "closed"
+  , issueId = Id 86767424
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

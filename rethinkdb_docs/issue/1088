@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-19) 22 : 48 : 12 UTC
+  , issueUpdatedAt = 2016 (-04) (-19) 22 : 48 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1088/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1088"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1088
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 11692610
+        , simpleUserLogin = N "jouerose"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/11692610?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jouerose"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Javascript Quickstart code does not match Data Explorer API"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1088"
+  , issueCreatedAt = 2016 (-04) (-19) 10 : 32 : 40 UTC
+  , issueBody =
+      Just
+        "in the javascript quickstart guide here http://rethinkdb.com/api/javascript/\r\nis referred several times r.table but in the data explorer you can get the table only after doing r.db as in \r\n`r.db('test').table('tv_shows')` and not `r.table('tv_shows')`.\r\nI am using RethinkDB 2.3 Fantasia. \r\n\r\nthanks"
+  , issueState = "closed"
+  , issueId = Id 149417567
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

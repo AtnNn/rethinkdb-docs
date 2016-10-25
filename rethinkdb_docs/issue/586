@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-11) (-25) 22 : 18 : 25 UTC
+  , issueUpdatedAt = 2014 (-11) (-26) 19 : 06 : 20 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/586/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/586"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 586
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2376150
+        , simpleUserLogin = N "alexdown"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2376150?v=3"
+        , simpleUserUrl = "https://api.github.com/users/alexdown"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update architecture.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/586"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/586.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/586.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/586"
+  , issueCreatedAt = 2014 (-11) (-25) 08 : 32 : 06 UTC
+  , issueBody =
+      Just
+        "the linked issue, [rethinkdb issue 20](https://github.com/rethinkdb/rethinkdb/issues/20), has been closed"
+  , issueState = "closed"
+  , issueId = Id 49988925
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-08) 16 : 44 : 29 UTC
+  , issueUpdatedAt = 2014 (-10) (-08) 16 : 44 : 29 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/248/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/248"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 248
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document batch configuration options in run"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/248"
+  , issueCreatedAt = 2014 (-03) (-27) 20 : 54 : 29 UTC
+  , issueBody =
+      Just
+        "@wojons asked how to configure batching. @mlucy pointed out the following. We should document it properly.\r\n\r\nSo, this isn't documented anywhere, but there's a `batch_conf` optarg which lets you set these things.  If you write `query.run(batch_conf:{max_els:5, max_dur:50*1000})`, you'll get a batch back as soon as 5 rows are available or 50*1000 microseconds pass, whichever happens first.  (You can also use `max_size` to configure a maximum serialized size in bytes, which is what we use internally for most batch sizing.)"
+  , issueState = "closed"
+  , issueId = Id 30341217
+  , issueComments = 20
+  , issueMilestone = Nothing
+  }

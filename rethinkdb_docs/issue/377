@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2014 (-06) (-18) 18 : 22 : 02 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/377/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/377"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 377
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Troubleshooting - AttributeError \"...\" has no method \"...\""
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/377"
+  , issueCreatedAt = 2014 (-06) (-18) 17 : 36 : 28 UTC
+  , issueBody =
+      Just
+        "Something that I've seen a few times is when a user create a function and \r\n\r\n```\r\nAttributeError: 'float' object has no attribute 'do'\r\n```\r\n\r\nBasically will do something like\r\n```py\r\ndef reql_cos(x)\r\n  return x.do(lamba x: ... ))\r\n```\r\n\r\nWhich throws if you call `reql_cos` with a float and not a ReQL term.\r\n\r\nThe proper way to define a function that may take non reql terms as arguments is to wrap them in `r.expr`\r\nSomething like\r\n\r\n```py\r\ndef reql_cos(x)\r\n  return r.expr(x).do(lamba x: ... ))\r\n```\r\n"
+  , issueState = "open"
+  , issueId = Id 36009011
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

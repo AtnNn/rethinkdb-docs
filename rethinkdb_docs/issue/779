@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-29) 20 : 11 : 04 UTC
+  , issueUpdatedAt = 2015 (-05) (-29) 20 : 11 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/779/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/779"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 779
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1981198
+        , simpleUserLogin = N "thejsj"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1981198?v=3"
+        , simpleUserUrl = "https://api.github.com/users/thejsj"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix typo for lambda"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/779"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/779.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/779.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/779"
+  , issueCreatedAt = 2015 (-05) (-28) 17 : 28 : 27 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 82041033
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

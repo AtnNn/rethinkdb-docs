@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-07) (-22) 21 : 43 : 48 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1162/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1162"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1162
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Updates to MongoDB comparison table"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1162"
+  , issueCreatedAt = 2016 (-07) (-22) 21 : 08 : 36 UTC
+  , issueBody =
+      Just
+        "The comparison table to MongoDB http://rethinkdb.com/docs/comparison-tables/ is outdated in many points\r\n\r\n* MongoDB has added text indexes\r\n* MongoDB now offers a different storage engine. The following statements are no longer true:\r\n\r\n    > OS-level memory mapped files LRU\r\n    > [...]\r\n    > MongoDB uses memory mapped files where the OS is in control of flushing writes and paging data in and out.\r\n\r\n   ...and the section on \"Caching engine\"\r\n* The supported platforms have changed. We added support for Windows, CentOS 7 (64 bit only) and discontinued Ubuntu 10.04 (the minimum supported version is now 12.04). I don't know about MongoDB.\r\n* This is still true, but will change with RethinkDB 2.4:\r\n\r\n    > Neither MongoDB nor RethinkDB support incremental map-reduce by default.\r\n* We now have official performance numbers: http://rethinkdb.com/docs/2-1-5-performance-report/\r\n\r\n    > Official performance numbers for RethinkDB have not been published yet. (We\8217re still working on improving performance for a number of specialized workloads.)\r\n\r\n\r\nI'm not sure how important this page still is for interested users. It might still matter, but I think that it's probably less relevant than it used to be because our positioning is a lot more unique. @coffeemug, @mglukhovsky any thoughts on this?"
+  , issueState = "open"
+  , issueId = Id 167133065
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

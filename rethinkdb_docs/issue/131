@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-11) 22 : 52 : 39 UTC
+  , issueUpdatedAt = 2014 (-06) (-17) 06 : 01 : 31 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/131/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/131"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 131
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Fixes for inconsistencies in the ruby, javascript, and python api documentation"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/131"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/131.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/131.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/131"
+  , issueCreatedAt = 2013 (-12) (-11) 05 : 43 : 10 UTC
+  , issueBody =
+      Just
+        "Did a quick scan of the individual markdown files and noticed some blatant inconsistencies.  Most notably:\r\n\r\n - some files were copy/pasted and had incorrect descriptions\r\n - under_score/camelCase inconsistencies between the title and syntax sections\r\n - missing close brackets\r\n - inconsistencies between syntax and examples\r\n - incorrect function name in the syntax section\r\n\r\nIn addition to fixing these, I added the non-operator comparison functions to the ruby and python comparison docs.  Both usages are now mentioned in the title, similar functions, syntax, and examples."
+  , issueState = "closed"
+  , issueId = Id 24087714
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

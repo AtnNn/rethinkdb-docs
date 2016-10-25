@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-03) 21 : 36 : 56 UTC
+  , issueUpdatedAt = 2016 (-05) (-03) 21 : 36 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1107/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1107"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1107
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10736369
+        , simpleUserLogin = N "gangadharyelwande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10736369?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gangadharyelwande"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Files are modified for issue #1067"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1107"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1107.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1107.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1107"
+  , issueCreatedAt = 2016 (-04) (-29) 19 : 54 : 42 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 151955156
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

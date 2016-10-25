@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-30) 20 : 57 : 38 UTC
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 58 : 24 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/849/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/849"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 849
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "I write a book about RethinkDB"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/849"
+  , issueCreatedAt = 2015 (-08) (-08) 19 : 18 : 20 UTC
+  , issueBody =
+      Just
+        "Hi all,\r\n\r\nI love RethinkDB and contribute some of thing such as RethinkDB ORM http://github.com/kureikain/epiphy, RethinkDB and FluentD https://github.com/kureikain/fluent-plugin-rethink and Relang http://github.com/kureikain/relang\r\n\r\nAll that being said that I'm in love with it. One year ago, I started to document it because I want to learn more about it. At first, I blog, ot one point I started to writing it in markdown, using pandoc to convert it into PDF then I switched to Leanpub.\r\n\r\nOne year later. I almost finish with it. Here is the result http://github.com/kureikain/simplyrethink\r\nI'm going to publish the book soon at http://leanpub.com/simplyrethinkdb next week.\r\nThe book is still WIP though.\r\n\r\nIt would be great if someone on RethinkDB team can help me to review it, or/and write a foreword for it. \r\nLet me know what you think.\r\n"
+  , issueState = "closed"
+  , issueId = Id 99829050
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

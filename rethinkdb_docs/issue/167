@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-31) 05 : 30 : 47 UTC
+  , issueUpdatedAt = 2014 (-06) (-15) 07 : 36 : 46 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/167/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/167"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 167
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1910549
+        , simpleUserLogin = N "hden"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1910549?v=3"
+        , simpleUserUrl = "https://api.github.com/users/hden"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "add description for rethinkdb-co"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/167"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/167.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/167.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/167"
+  , issueCreatedAt = 2013 (-12) (-31) 04 : 54 : 34 UTC
+  , issueBody =
+      Just
+        "Add description for rethinkdb-co, a library that use ECMAScript 6 generators (`yield`) to harness callbacks."
+  , issueState = "closed"
+  , issueId = Id 24911617
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

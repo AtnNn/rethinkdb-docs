@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-04) (-19) 01 : 24 : 04 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 40 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/269/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/269"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 269
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Adding easter eggs for the run command"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/269"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/269.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/269.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/269"
+  , issueCreatedAt = 2014 (-04) (-18) 20 : 07 : 45 UTC
+  , issueBody = Just "@neumino -- please review."
+  , issueState = "closed"
+  , issueId = Id 31821471
+  , issueComments = 7
+  , issueMilestone = Nothing
+  }

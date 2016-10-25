@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Just 2015 (-12) (-09) 18 : 47 : 29 UTC
+  , issueUpdatedAt = 2015 (-12) (-09) 18 : 47 : 29 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/965/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/965"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      , IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 965
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "https://rethinkdb.com/docs/changefeeds is out of date"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/965"
+  , issueCreatedAt = 2015 (-11) (-26) 10 : 25 : 19 UTC
+  , issueBody =
+      Just
+        "It doesn't reflect the changes from https://github.com/rethinkdb/docs/issues/920 .  In particular:\r\n\r\n* It doesn't mention `include_initial` anywhere.\r\n* It states that point changefeeds and `.orderBy.limit` changefeeds return initial values by default, which is no longer true."
+  , issueState = "closed"
+  , issueId = Id 119014106
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

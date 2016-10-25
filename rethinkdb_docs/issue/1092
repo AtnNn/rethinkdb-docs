@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-17) 20 : 44 : 12 UTC
+  , issueUpdatedAt = 2016 (-05) (-17) 20 : 44 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1092/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1092"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 1092
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 3033376
+        , simpleUserLogin = N "mike-thompson-day8"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/3033376?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mike-thompson-day8"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "javascript docs error:  talks about coerce_to instead of coerceTo"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1092"
+  , issueCreatedAt = 2016 (-04) (-22) 11 : 09 : 52 UTC
+  , issueBody =
+      Just
+        "The page https://www.rethinkdb.com/api/javascript/object/  contains this code:\r\n```\r\nr.expr([[A, B], [C, D]]).coerce_to('OBJECT')\r\n```\r\nBut that uses the python name `coerce_to`  instead of using the correct javascript name of  `coerceTo`"
+  , issueState = "closed"
+  , issueId = Id 150340840
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

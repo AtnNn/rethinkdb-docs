@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2015 (-10) (-05) 21 : 33 : 39 UTC
+  , issueUpdatedAt = 2015 (-10) (-05) 21 : 33 : 39 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/907/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/907"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 907
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Between docs signature doesn't mention chaining after orderBy"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/907"
+  , issueCreatedAt = 2015 (-10) (-01) 02 : 57 : 03 UTC
+  , issueBody =
+      Just
+        "The signature and examples only mention being called on a table, but stuff like this is valid:\r\n\r\n```js\r\nr.table('foo').orderBy({index: \"id\"}).between(r.minval, r.maxval)\r\n```\r\n\r\n@mlucy I'm assuming this words because the indexed orderBy returns a selection, is it true `between` will work on all selections?"
+  , issueState = "closed"
+  , issueId = Id 109219817
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

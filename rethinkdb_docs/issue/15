@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-28) 01 : 14 : 06 UTC
+  , issueUpdatedAt = 2014 (-03) (-28) 01 : 14 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/15/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/15"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 15
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Cookbook -- Add more cases on how to use secondary indexes"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/15"
+  , issueCreatedAt = 2013 (-10) (-09) 22 : 24 : 06 UTC
+  , issueBody =
+      Just
+        "See @jdoliner comment -- https://github.com/rethinkdb/rethinkdb/issues/1529#issuecomment-26014148\r\n\r\nHow to use secondary indexes for\r\n- filtering\r\n- ordering\r\n- joins\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 20775869
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

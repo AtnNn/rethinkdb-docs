@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-03) 21 : 36 : 56 UTC
+  , issueUpdatedAt = 2016 (-05) (-03) 21 : 36 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1109/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1109"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1109
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10736369
+        , simpleUserLogin = N "gangadharyelwande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10736369?v=3"
+        , simpleUserUrl = "https://api.github.com/users/gangadharyelwande"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Files are chenged for issue no 1099"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1109"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1109.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1109.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1109"
+  , issueCreatedAt = 2016 (-04) (-29) 20 : 24 : 53 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 151961161
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

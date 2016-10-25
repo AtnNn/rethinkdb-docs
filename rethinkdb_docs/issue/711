@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-14) 18 : 11 : 27 UTC
+  , issueUpdatedAt = 2015 (-04) (-14) 18 : 22 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/711/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/711"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 711
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix typo on cookbook index page"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/711"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/711.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/711.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/711"
+  , issueCreatedAt = 2015 (-04) (-14) 18 : 08 : 18 UTC
+  , issueBody = Just "@chipotle "
+  , issueState = "closed"
+  , issueId = Id 68458107
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

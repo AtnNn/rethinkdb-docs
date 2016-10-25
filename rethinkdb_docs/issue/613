@@ -1,0 +1,65 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-27) 19 : 43 : 02 UTC
+  , issueUpdatedAt = 2015 (-01) (-27) 19 : 43 : 02 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/613/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/613"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 613
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document --no-update-check option and which data we send by default"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/613"
+  , issueCreatedAt = 2015 (-01) (-02) 23 : 40 : 28 UTC
+  , issueBody =
+      Just
+        "1.16 will have a new `--no-update-check` command line option to disable\r\na) update notifications in the server log\r\nb) transmitting anonymized usage statistics to RethinkDB\r\n\r\nRelated issue: https://github.com/rethinkdb/rethinkdb/issues/3170\r\n\r\nWe also have to document which data exactly is transmitted. I think the FAQ http://rethinkdb.com/faq/ are a good place for this.\r\n\r\nIn the current implementation, this is the data we transmit:\r\n* RethinkDB version\r\n* Number of servers in the cluster\r\n* The operating system (Linux or OS X) and architecture (32 or 64 bit)\r\n* Number of tables, heavily rounded to the order of magnitude, namely `2^(round(log_2(num_tables)))`\r\n"
+  , issueState = "closed"
+  , issueId = Id 53286234
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 48436
+                , simpleUserLogin = N "coffeemug"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/48436?v=3"
+                , simpleUserUrl = "https://api.github.com/users/coffeemug"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 6
+          , milestoneClosedIssues = 16
+          , milestoneDescription = Just ""
+          , milestoneTitle = "1.16"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/6"
+          , milestoneCreatedAt = 2014 (-09) (-18) 21 : 53 : 16 UTC
+          , milestoneState = "closed"
+          }
+  }

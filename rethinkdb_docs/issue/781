@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-04) 17 : 32 : 26 UTC
+  , issueUpdatedAt = 2015 (-06) (-04) 17 : 51 : 48 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/781/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/781"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 781
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add warnings about index (non-)use"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/781"
+  , issueCreatedAt = 2015 (-06) (-02) 18 : 50 : 17 UTC
+  , issueBody =
+      Just
+        "As became clear in https://github.com/rethinkdb/leads/issues/32#issuecomment-107749006 , it's still not obvious enough that indexes must be used explicitly.\r\n\r\nI think we should have well visible notes on the API docs for the following terms, saying that these terms don't make use of indexes and other terms must be used for indexed access:\r\n* `filter`\r\n* `innerJoin`\r\n* `outerJoin`\r\n\r\n`innerJoin` and `outerJoin` already have such a note, but we should consider making it more visible (use a bold font, or a specially highlighted background or something)."
+  , issueState = "closed"
+  , issueId = Id 84152796
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

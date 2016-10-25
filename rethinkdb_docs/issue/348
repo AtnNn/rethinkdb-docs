@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-11) 23 : 33 : 44 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 13 : 01 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/348/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/348"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 348
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix script for the data explorer docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/348"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/348.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/348.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/348"
+  , issueCreatedAt = 2014 (-06) (-11) 23 : 31 : 31 UTC
+  , issueBody =
+      Just
+        "@AtnNn -- that provides a better error when the `io` field is missing in a command.\r\n\r\nIn this case, the `io` field for `r.random` was missing."
+  , issueState = "closed"
+  , issueId = Id 35538157
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

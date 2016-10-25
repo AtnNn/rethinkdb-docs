@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-06) 20 : 56 : 15 UTC
+  , issueUpdatedAt = 2014 (-03) (-28) 01 : 11 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/209/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/209"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 209
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467683
+        , simpleUserLogin = N "Joe8Bit"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467683?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Joe8Bit"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Fix references to example (MollyJS) no longer available"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/209"
+  , issueCreatedAt = 2014 (-03) (-01) 21 : 54 : 03 UTC
+  , issueBody =
+      Just
+        "Checking out the [examples page](http://www.rethinkdb.com/docs/examples/) and realised that the links to mollyjs.com are broken and site seems to be down.\r\n\r\nWas going to just remove the example from the docs and submit a pull, but thought I'd raise this first in case there was a way of getting the link working again. I've [raised an issue on the Mollyjs repo](https://github.com/psb/molly.js/issues/1) to try and get it going again.\r\n\r\nAny thoughts? It strikes me a great demo, so it might be worth making at attempt at getting it going again before removing it."
+  , issueState = "closed"
+  , issueId = Id 28566756
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

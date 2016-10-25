@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-13) 22 : 05 : 30 UTC
+  , issueUpdatedAt = 2014 (-06) (-18) 17 : 53 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/163/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/163"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 163
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Issue 71 - insert/update/replace/delete"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/163"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/163.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/163.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/163"
+  , issueCreatedAt = 2013 (-12) (-27) 12 : 30 : 54 UTC
+  , issueBody =
+      Just
+        "I've only updated the JavaScript files (and not the index).\r\n\r\n@coffeemug could you take a look at it? I'll copy paste to other languages when there won't be any error left.\r\n\r\n\r\nAlso from writing the docs, I ran into a few issues:\r\n- We cannot do a upsert that behave like a replace -- See https://github.com/rethinkdb/rethinkdb/issues/1570\r\n- The `nonAtomic` flag doesn't exist for `replace`. Is that expected?\r\nI am also not convinced that we need this flag.\r\n\r\n\r\nI didn't write on how to handle errors with write operations. If we don't plan to address https://github.com/rethinkdb/rethinkdb/issues/899 in the near future, I'll add some recipes in the cookbook or maybe write something about best practices (that would include how to use connections, cursors etc.)\r\n\r\nRelated issue: #71 "
+  , issueState = "closed"
+  , issueId = Id 24818163
+  , issueComments = 13
+  , issueMilestone = Nothing
+  }

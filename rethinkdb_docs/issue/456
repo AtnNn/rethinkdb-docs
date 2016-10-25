@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-12) 22 : 06 : 53 UTC
+  , issueUpdatedAt = 2014 (-08) (-12) 22 : 06 : 56 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/456/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/456"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 456
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Resized dates-and-times.png to 200px"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/456"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/456.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/456.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/456"
+  , issueCreatedAt = 2014 (-08) (-12) 21 : 47 : 24 UTC
+  , issueBody = Just "\\cc @mglukhovsky "
+  , issueState = "closed"
+  , issueId = Id 40102767
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

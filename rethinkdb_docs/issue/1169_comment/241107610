@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-08) (-19) 19 : 06 : 47 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/241107610"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1169#issuecomment-241107610"
+  , issueCommentCreatedAt = 2016 (-08) (-19) 19 : 06 : 47 UTC
+  , issueCommentBody =
+      "Since the main (index) page is now auto-generated from the individual pages, we need to weight the benefits of this against the extra work (and potential for mistake) of maintaining the signatures separately for the index and detail pages.\r\n\r\nCurrently some commands have the full set of options in the syntax (e.g. `insert`), and others don't (e.g. `connect` or `run`). I assume this is depending on how many options there are for the particular command.\r\n\r\nI'd like to hear what @chipotle's opinion on this is when he comes back."
+  , issueCommentId = 241107610
+  }

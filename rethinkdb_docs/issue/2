@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-09) (-17) 22 : 07 : 46 UTC
+  , issueUpdatedAt = 2013 (-09) (-17) 22 : 36 : 28 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/2/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/2"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 2
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add troubleshooting - cursor is not a connection"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/2"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/2.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/2.diff"
+          }
+  , issueUrl = "https://api.github.com/repos/rethinkdb/docs/issues/2"
+  , issueCreatedAt = 2013 (-09) (-17) 01 : 35 : 21 UTC
+  , issueBody =
+      Just
+        "People have been asking this a lot -- or rather reporting it as a bug.\r\n\r\n@mglukhovsky feel free to merge."
+  , issueState = "closed"
+  , issueId = Id 19590721
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-06) 20 : 21 : 23 UTC
+  , issueUpdatedAt = 2014 (-08) (-06) 20 : 21 : 23 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/419/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/419"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 419
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add a CONTRIBUTING file to docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/419"
+  , issueCreatedAt = 2014 (-07) (-21) 17 : 00 : 19 UTC
+  , issueBody =
+      Just
+        "Per @epc's comment in #418, we should probably add a CONTRIBUTING file to the repo.\r\n\r\nhttps://github.com/blog/1184-contributing-guidelines\r\n\r\nAnd, this should have a link to our CLA (http://rethinkdb.com/community/cla/) in it."
+  , issueState = "closed"
+  , issueId = Id 38322585
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

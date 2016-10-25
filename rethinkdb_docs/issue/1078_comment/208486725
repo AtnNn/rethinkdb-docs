@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-11) 18 : 25 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/208486725"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1078#issuecomment-208486725"
+  , issueCommentCreatedAt = 2016 (-04) (-11) 18 : 25 : 27 UTC
+  , issueCommentBody =
+      "Is that something that wouldn't show up if you ran from the data explorer? I just executed `r.db('rethinkdb').table('jobs')` and got back:\r\n\r\n```\r\n{\r\n    \"duration_sec\": 0.000088,\r\n    \"id\": [\r\n        \"query\",\r\n        \"f3ab7b84-7dc0-498a-868f-b2dc3d13b31e\"\r\n    ],\r\n    \"info\": {\r\n        \"client_address\": \"::1\",\r\n        \"client_port\": 51109,\r\n        \"query\": \"r.db(\\\"rethinkdb\\\").table(\\\"jobs\\\")\"\r\n    },\r\n    \"servers\": [\r\n        \"watts_local_p91\"\r\n    ],\r\n    \"type\": \"query\"\r\n}\r\n```\r\n\r\nThere's no `user` field in `info`, although there *is* a `query` field which isn't documented."
+  , issueCommentId = 208486725
+  }

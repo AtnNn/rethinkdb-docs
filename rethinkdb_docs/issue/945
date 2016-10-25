@@ -1,0 +1,52 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-01) (-04) 17 : 51 : 10 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/945/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/945"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 945
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 426352
+        , simpleUserLogin = N "massimiliano-mantione"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/426352?v=3"
+        , simpleUserUrl =
+            "https://api.github.com/users/massimiliano-mantione"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Explained multi compound indexes and sorting more clearly."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/945"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/945.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/945.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/945"
+  , issueCreatedAt = 2015 (-11) (-11) 14 : 32 : 34 UTC
+  , issueBody =
+      Just
+        "I spent a few hours trying to make a multi-compound query do what I wanted, and I even opened issue #5068 when I had no clue about it (btw, thanks for the clarification there!).\r\n\r\nI think that an explanation like this would have saved me a lot of time.\r\n\r\nAre files for the other languages edited \"in parallel\"? If yes I could apply the changes to the English text but I would risk to do gross mistake with the python and ruby sample code :-/\r\n"
+  , issueState = "open"
+  , issueId = Id 116345680
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

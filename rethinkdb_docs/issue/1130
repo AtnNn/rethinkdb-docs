@@ -1,0 +1,63 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 20 : 37 : 57 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1130/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1130"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 1130
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "`filter` example for nexted documents and pathspec explanation"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1130"
+  , issueCreatedAt = 2016 (-05) (-25) 20 : 39 : 55 UTC
+  , issueBody =
+      Just
+        "We have some examples for filtering by nested attributes using the pathspec format in http://rethinkdb.com/api/javascript/filter/ .\r\n\r\nI think it would be good to also have an example and an explanation of how the pathspec syntax works in https://rethinkdb.com/docs/nested-fields/javascript/ .\r\n\r\nCurrently, that document doesn't explain how to use `filter` on nested fields at all. Pathspecs also work for some other commands, such as `pluck` I believe. So it would be nice to explain the general concept with a few examples in the nested-fields document.\r\n\r\nSee https://github.com/rethinkdb/rethinkdb/issues/5793 and https://github.com/rethinkdb/rethinkdb/issues/5796 for the whole story of how this issue came along."
+  , issueState = "open"
+  , issueId = Id 156845090
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

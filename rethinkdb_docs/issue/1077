@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-08) 17 : 41 : 39 UTC
+  , issueUpdatedAt = 2016 (-04) (-08) 17 : 42 : 58 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1077/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1077"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1077
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6272902
+        , simpleUserLogin = N "muriloventuroso"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/6272902?v=3"
+        , simpleUserUrl = "https://api.github.com/users/muriloventuroso"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Error: No JSON object could be decoded"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1077"
+  , issueCreatedAt = 2016 (-04) (-08) 17 : 31 : 23 UTC
+  , issueBody =
+      Just
+        "RethinkDB installed on a Debian, but I'm getting an error message when connecting by Python 2.7:\r\n`\r\n>>> import rethinkdb as r\r\n>>> r.connect()\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\n  File \"/usr/local/lib/python2.7/dist-packages/rethinkdb/net.py\", line 661, in connect\r\n    return conn.reconnect(timeout=timeout)\r\n  File \"/usr/local/lib/python2.7/dist-packages/rethinkdb/net.py\", line 572, in reconnect\r\n    return self._instance.connect(timeout)\r\n  File \"/usr/local/lib/python2.7/dist-packages/rethinkdb/net.py\", line 427, in connect\r\n    self._socket = SocketWrapper(self, timeout)\r\n  File \"/usr/local/lib/python2.7/dist-packages/rethinkdb/net.py\", line 322, in __init__\r\n    (self.host, self.port, ex))\r\nrethinkdb.errors.ReqlDriverError: Could not connect to localhost:28015. Error: No JSON object could be decoded`\r\nThe web interface can access and manipulate the data normally."
+  , issueState = "closed"
+  , issueId = Id 146989850
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

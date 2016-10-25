@@ -1,0 +1,31 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-27) 00 : 13 : 34 UTC
+  , issueUpdatedAt = 2014 (-03) (-27) 00 : 13 : 34 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/243/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/243"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 243
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 972387
+        , simpleUserLogin = N "rpicard"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/972387?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rpicard"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Ruby split docs have NULL instead of nil"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/243"
+  , issueCreatedAt = 2014 (-03) (-26) 21 : 13 : 31 UTC
+  , issueBody = Just "http://rethinkdb.com/api/ruby/split"
+  , issueState = "closed"
+  , issueId = Id 30252230
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

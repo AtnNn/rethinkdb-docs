@@ -1,0 +1,61 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-08) (-30) 21 : 13 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/50/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/50"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 50
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "API: add time complexity to commands"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/50"
+  , issueCreatedAt = 2013 (-10) (-28) 22 : 01 : 52 UTC
+  , issueBody =
+      Just
+        "@kevincox said this in the original issue (rethinkdb/rethinkdb#620):\r\n\r\n> When selecting and designing with a database it is important to know the cost of \r\n> what queries in what situations. For example, it is often reasonable to use a \r\n> quadratic query, if you know the size of your dataset will be under a certain size.\r\n\r\n> It would be very useful to have the expected time complexities of the queries in the \r\n> documentation and the cases for which the complexity will be different. This is \r\n> something that [Redis does really well](http://redis.io/commands/ltrim) for example.\r\n\r\nThis was met with complete agreement by everyone involved."
+  , issueState = "open"
+  , issueId = Id 21724276
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 75
+          , milestoneNumber = 12
+          , milestoneClosedIssues = 0
+          , milestoneDescription = Just ""
+          , milestoneTitle = "backlog"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/12"
+          , milestoneCreatedAt = 2016 (-08) (-30) 20 : 36 : 26 UTC
+          , milestoneState = "open"
+          }
+  }

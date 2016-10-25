@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2013 (-12) (-10) 23 : 37 : 20 UTC
+  , issueUpdatedAt = 2013 (-12) (-10) 23 : 37 : 20 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/86/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/86"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 86
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Build instructions: add node to the list of requirements"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/86"
+  , issueCreatedAt = 2013 (-11) (-18) 22 : 50 : 40 UTC
+  , issueBody =
+      Just
+        "`./configure` doesn't look for `node`, but it's required to `make web-assets`."
+  , issueState = "closed"
+  , issueId = Id 22873935
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

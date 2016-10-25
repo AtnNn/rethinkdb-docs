@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-10) 22 : 34 : 46 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 30 : 57 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/542/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/542"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 542
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1366
+        , simpleUserLogin = N "deontologician"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1366?v=3"
+        , simpleUserUrl = "https://api.github.com/users/deontologician"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "First draft elasticsearch article"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/542"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/542.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/542.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/542"
+  , issueCreatedAt = 2014 (-10) (-08) 01 : 29 : 57 UTC
+  , issueBody =
+      Just
+        "CC @chipotle @segphault @mglukhovsky \r\n\r\nThis has a corresponding branch in www for the sidebar link, but that's trivial\r\n\r\nbuild here: http://dr-doom:8010/files/build-www/244/_site/docs/elasticsearch/"
+  , issueState = "closed"
+  , issueId = Id 45192744
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-02) (-23) 18 : 57 : 13 UTC
+  , issueUpdatedAt = 2015 (-02) (-23) 18 : 57 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/651/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/651"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 651
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Add a note to `merge` docs that explains the need for coerceTo('ARRAY')"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/651"
+  , issueCreatedAt = 2015 (-02) (-13) 00 : 34 : 04 UTC
+  , issueBody =
+      Just
+        "@knownasilya ran into the error message \"Expected type DATUM but found SELECTION\" while doing a join with `merge` (https://github.com/rethinkdb/rethinkdb/issues/3774). The reason for the error was that he was missing a `coerceTo('ARRAY')` inside the merge function.\r\n\r\nWe already have an example in the API docs for `merge` http://rethinkdb.com/api/javascript/merge/ that uses `coerceTo('ARRAY')`\r\n> Example: Use merge to join each blog post with its comments.\r\n\r\nI think we should add a note that says something along the lines of 'Note: Getting \"Expected type DATUM but found SELECTION\" when trying to join two tables with `merge`? You might have to use `coerceTo(\"ARRAY\")` inside the merge function. See the above code for an example.'\r\n"
+  , issueState = "closed"
+  , issueId = Id 57542420
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

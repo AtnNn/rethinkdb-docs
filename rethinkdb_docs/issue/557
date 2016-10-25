@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-10) (-20) 23 : 36 : 01 UTC
+  , issueUpdatedAt = 2014 (-10) (-20) 23 : 36 : 01 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/557/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/557"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 557
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 49754
+        , simpleUserLogin = N "kureikain"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/49754?v=3"
+        , simpleUserUrl = "https://api.github.com/users/kureikain"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add fluent-plugin-rethink, Fluentd to RethinkDB"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/557"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/557.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/557.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/557"
+  , issueCreatedAt = 2014 (-10) (-20) 05 : 16 : 45 UTC
+  , issueBody =
+      Just
+        "Similar to https://github.com/fluent/fluent-plugin-mongo/. This ships FluentD events to RethinkDB"
+  , issueState = "closed"
+  , issueId = Id 46232233
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

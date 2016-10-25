@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-16) 17 : 04 : 21 UTC
+  , issueUpdatedAt = 2016 (-05) (-16) 17 : 04 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1113/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1113"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1113
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 10471358
+        , simpleUserLogin = N "AmeyDeshpande"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/10471358?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AmeyDeshpande"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Typo removed"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1113"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1113.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1113.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1113"
+  , issueCreatedAt = 2016 (-05) (-01) 23 : 07 : 35 UTC
+  , issueBody =
+      Just "Now, I made change in  api/python/math-and-logic/mod.md too"
+  , issueState = "closed"
+  , issueId = Id 152461411
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

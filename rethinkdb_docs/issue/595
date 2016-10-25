@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-16) 19 : 07 : 28 UTC
+  , issueUpdatedAt = 2015 (-11) (-16) 19 : 07 : 28 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/595/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/595"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 595
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Migrating admin CLI commands to reql admin"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/595"
+  , issueCreatedAt = 2014 (-12) (-01) 22 : 11 : 06 UTC
+  , issueBody =
+      Just
+        "I believe 1.16 will no longer have `rethinkdb admin`. It would be very useful to have a migration guide to help convert `rethinkdb admin` commands to use the new admin API in 1.16."
+  , issueState = "closed"
+  , issueId = Id 50583868
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

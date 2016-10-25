@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-03) 20 : 30 : 46 UTC
+  , issueUpdatedAt = 2016 (-05) (-03) 20 : 30 : 46 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1101/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1101"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1101
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Pagination cookbook example uses no longer supported `null` parameters to `between`"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1101"
+  , issueCreatedAt = 2016 (-04) (-26) 22 : 15 : 44 UTC
+  , issueBody =
+      Just
+        "Reported on Slack:\r\n\r\n> lukerhodes\r\n> 2:49 PM Hey - I'm trying to implement pagination as per the cookbook example but it's returning an > error.\r\n> ```js\r\nr.table(\"users\").between(lastName, null, {leftBound: \"open\", index: \"name\"})\r\n .orderBy({index: \"name\"}).limit(25).run(conn, function(err, result) {\r\n    if (err) throw err;\r\n    console.log(result);\r\n});\r\n```\r\n> \r\n> `Cannot use null in BETWEEN, use r.minval or r.maxval to denote unboundedness in:`\r\n\r\nThe `null` in the `between` call has to be `r.maxval` now."
+  , issueState = "closed"
+  , issueId = Id 151252480
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

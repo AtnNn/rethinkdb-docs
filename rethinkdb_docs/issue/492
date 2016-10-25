@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-02) 17 : 00 : 54 UTC
+  , issueUpdatedAt = 2014 (-09) (-09) 03 : 45 : 59 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/492/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/492"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 492
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 2058304
+        , simpleUserLogin = N "grandquista"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/2058304?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grandquista"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Create python and ruby nested fields documents for #491."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/492"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/492.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/492.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/492"
+  , issueCreatedAt = 2014 (-08) (-30) 17 : 46 : 54 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 41568086
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

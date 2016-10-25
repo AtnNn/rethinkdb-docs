@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-04) 19 : 42 : 21 UTC
+  , issueUpdatedAt = 2014 (-12) (-04) 19 : 42 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/596/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/596"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 596
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document which data types are permitted for primary keys"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/596"
+  , issueCreatedAt = 2014 (-12) (-02) 23 : 04 : 19 UTC
+  , issueBody =
+      Just
+        "Moved here from https://github.com/rethinkdb/rethinkdb/issues/3392\r\nPosted by @marshall007:\r\n\r\n----\r\nAs far as I know there's currently nothing in the docs specifying what constitutes a valid primary key field. I think the full list of supported data types for primary keys should be in the [`tableCreate`](http://www.rethinkdb.com/api/javascript/table_create/) docs. In particular, before I came across [this discussion](https://github.com/rethinkdb/rethinkdb/issues/2884#issuecomment-65291774) I had no idea storing arrays in the primary key field was supported.\r\n"
+  , issueState = "closed"
+  , issueId = Id 50742251
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

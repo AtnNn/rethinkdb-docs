@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-04) (-29) 16 : 17 : 20 UTC
+  , issueUpdatedAt = 2015 (-04) (-29) 16 : 17 : 20 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/739/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/739"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 739
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 12029777
+        , simpleUserLogin = N "istiakk"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/12029777?v=3"
+        , simpleUserUrl = "https://api.github.com/users/istiakk"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "div query"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/739"
+  , issueCreatedAt = 2015 (-04) (-28) 12 : 33 : 22 UTC
+  , issueBody =
+      Just
+        "why i can not perform this query\r\n\r\nr.object(\r\n    \"total_page_loads\",\r\n    r.table(\"test_db\")(\"page_loads\").sum(),\r\n  \"total_clicks\",\r\n    r.table(\"test_db\")(\"clicks\").sum(),\r\n  'aggre',\r\n  r.expr('total_page_loads').div('total_clicks')\r\n)"
+  , issueState = "closed"
+  , issueId = Id 71577457
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

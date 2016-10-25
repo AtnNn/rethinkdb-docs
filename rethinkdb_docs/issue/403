@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-21) 18 : 19 : 26 UTC
+  , issueUpdatedAt = 2014 (-07) (-21) 18 : 19 : 26 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/403/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/403"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 403
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update comparison limitation section"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/403"
+  , issueCreatedAt = 2014 (-07) (-07) 17 : 07 : 11 UTC
+  , issueBody =
+      Just
+        "@robert-zaremba pointed out that some of the limitations at the bottom of http://rethinkdb.com/blog/mongodb-biased-comparison/ are no longer true (rethinkdb/rethinkdb#97 (comment)). @chipotle -- could you audit this with relevant people and update as necessary?"
+  , issueState = "closed"
+  , issueId = Id 37289136
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

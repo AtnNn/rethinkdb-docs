@@ -1,0 +1,77 @@
+Issue
+  { issueClosedAt = Just 2015 (-11) (-11) 22 : 27 : 52 UTC
+  , issueUpdatedAt = 2015 (-11) (-11) 22 : 27 : 52 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/920/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/920"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "eb6420"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/Important%20enhancement"
+          , labelName = "Important enhancement"
+          }
+      ]
+  , issueNumber = 920
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document include_initial functionality"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/920"
+  , issueCreatedAt = 2015 (-10) (-12) 22 : 31 : 59 UTC
+  , issueBody =
+      Just
+        "The new `include_initial` option in RethinkDB 2.2 allows creating an \"atomic changefeed\" on a query.\r\n\r\nConsider a query such as `r.table('test')`.\r\nWhen a changefeed is created with\r\n`r.table('test').changes({includeInitial: true})`,\r\nthe current contents of the table are streamed over the cursor. The initial results will have a `new_val` field, but no `old_val`.\r\n\r\nThe initial results can be intermixed with changes, as long as an initial result for the given document has been sent before. For example the initial value for the document `{id: \"a\", val: 0}` can be sent first, followed by a change `{old_val: {id: \"a\", val: 0}, new_val: {id: \"a\", val: 1}}` followed by another initial result for a different document `{id: \"b\", val: 0}`.\r\n\r\nEventually a document `{state: \"ready\"}` will be seen. After that point, all subsequent results on the cursor will be change documents, and one can be sure that the full set of results from the query at that point in time has been transmitted. (@mlucy: Is the state document always sent or only when combined with `include_states`?)\r\n\r\n`include_initial` works for most if not all of the queries that currently support changefeeds (@mlucy are there any exceptions?).\r\n\r\nThe corresponding issue on the server: https://github.com/rethinkdb/rethinkdb/issues/3579\r\n\r\n@mlucy Is my description correct? Anything that you think is worth adding?"
+  , issueState = "closed"
+  , issueId = Id 111068234
+  , issueComments = 3
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 9
+          , milestoneClosedIssues = 14
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.2"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/9"
+          , milestoneCreatedAt = 2015 (-09) (-02) 19 : 06 : 11 UTC
+          , milestoneState = "open"
+          }
+  }

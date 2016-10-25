@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-07) (-08) 17 : 37 : 27 UTC
+  , issueUpdatedAt = 2014 (-07) (-08) 17 : 37 : 27 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/391/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/391"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 391
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add quickstart and tech comparison images"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/391"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/391.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/391.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/391"
+  , issueCreatedAt = 2014 (-06) (-30) 20 : 11 : 38 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 36834118
+  , issueComments = 8
+  , issueMilestone = Nothing
+  }

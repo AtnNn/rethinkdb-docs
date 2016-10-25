@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-05) (-26) 20 : 43 : 14 UTC
+  , issueUpdatedAt = 2015 (-05) (-26) 20 : 43 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/24/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/24"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "009800"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/more"
+          , labelName = "more"
+          }
+      ]
+  , issueNumber = 24
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 43867
+        , simpleUserLogin = N "jdoliner"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/43867?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jdoliner"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "We should add a doc section for driver developers"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/24"
+  , issueCreatedAt = 2013 (-10) (-25) 00 : 24 : 40 UTC
+  , issueBody =
+      Just
+        "I'm not quite sure where this fits into your guys scheme but I think there should be a section in here somewhere to get driver developers started. One thing in particular that I think would be good to include is a rundown of optimizations we make in our drivers to get better performance such as converting to JSON and deserializing values lazily."
+  , issueState = "closed"
+  , issueId = Id 21561893
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }

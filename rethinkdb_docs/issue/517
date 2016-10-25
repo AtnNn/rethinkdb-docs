@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-18) 23 : 26 : 40 UTC
+  , issueUpdatedAt = 2014 (-09) (-18) 23 : 28 : 35 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/517/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/517"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 517
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Flip lat/long arguments to geo functions in all docs/examples"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/517"
+  , issueCreatedAt = 2014 (-09) (-18) 22 : 04 : 14 UTC
+  , issueBody =
+      Just
+        "As part of https://github.com/rethinkdb/rethinkdb/issues/3060 we're flipping the order of arguments to geo functions to avoid confusing users. We have to update all API docs, example code, and example articles to reflect this change.\r\n\r\n/cc @chipotle @deontologician @segphault \r\n\r\nThis is a release blocker, so is high priority."
+  , issueState = "closed"
+  , issueId = Id 43183879
+  , issueComments = 1
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 5
+          , milestoneClosedIssues = 4
+          , milestoneDescription = Just ""
+          , milestoneTitle = "1.15"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/5"
+          , milestoneCreatedAt = 2014 (-08) (-08) 23 : 30 : 43 UTC
+          , milestoneState = "closed"
+          }
+  }

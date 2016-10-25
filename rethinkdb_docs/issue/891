@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-10) 17 : 33 : 51 UTC
+  , issueUpdatedAt = 2015 (-09) (-10) 17 : 33 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/891/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/891"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 891
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6397708
+        , simpleUserLogin = N "wKich"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/6397708?v=3"
+        , simpleUserUrl = "https://api.github.com/users/wKich"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix 'changes' field example."
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/891"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/891.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/891.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/891"
+  , issueCreatedAt = 2015 (-09) (-09) 09 : 25 : 18 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 105558247
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

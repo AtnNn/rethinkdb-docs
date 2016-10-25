@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-27) 19 : 13 : 29 UTC
+  , issueUpdatedAt = 2014 (-07) (-26) 04 : 49 : 51 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/112/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/112"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 112
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Use sudo pip instead of pip --user"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/112"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/112.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/112.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/112"
+  , issueCreatedAt = 2013 (-11) (-27) 18 : 37 : 12 UTC
+  , issueBody =
+      Just "See https://github.com/rethinkdb/rethinkdb/issues/1718"
+  , issueState = "closed"
+  , issueId = Id 23406170
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

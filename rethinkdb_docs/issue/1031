@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-18) 22 : 31 : 20 UTC
+  , issueUpdatedAt = 2016 (-03) (-18) 22 : 31 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1031/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1031"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 1031
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Change `waitFor` default for `wait`"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1031"
+  , issueCreatedAt = 2016 (-02) (-22) 21 : 59 : 10 UTC
+  , issueBody =
+      Just
+        "https://www.rethinkdb.com/api/javascript/wait/ says that the default value for `waitFor` is `ready_for_writes`.\r\nI think this was what we intended at some point, but for reasons that I don't remember exactly we actually ended up with a default of `all_replicas_ready`. \r\n\r\nWe're probably going to change the server side default for 2.3, but for now we should make the documentation to align with 2.2.x behavior and mention the default as `all_replicas_ready`.\r\n\r\nhttps://github.com/rethinkdb/rethinkdb/issues/5316 has more details"
+  , issueState = "closed"
+  , issueId = Id 135557807
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

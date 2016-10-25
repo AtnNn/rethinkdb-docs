@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2015 (-06) (-15) 16 : 52 : 35 UTC
+  , issueUpdatedAt = 2015 (-06) (-15) 16 : 52 : 35 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/786/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/786"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 786
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Mistake in insert example query"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/786"
+  , issueCreatedAt = 2015 (-06) (-05) 19 : 01 : 57 UTC
+  , issueBody =
+      Just
+        "Reported by @alehano in https://github.com/rethinkdb/rethinkdb/issues/4350:\r\n\r\nOn the page \r\nhttp://www.rethinkdb.com/api/python/insert/ \r\n(and http://www.rethinkdb.com/api/ruby/insert/)\r\nthere is a mistake.\r\n\r\nExample: Insert a document into the table users, replacing the document if the document already exists.\r\n```\r\nr.table(\"users\").insert(\r\n    {\"id\": \"william\", \"email\": \"william@rethinkdb.com\"},\r\n    conflict=\"error\"\r\n).run(conn)\r\n```\r\n\r\nTo replace should be conflict=\"replace\""
+  , issueState = "closed"
+  , issueId = Id 85607379
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

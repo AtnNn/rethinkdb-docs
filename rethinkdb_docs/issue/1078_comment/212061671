@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-04) (-19) 18 : 36 : 27 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/212061671"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1078#issuecomment-212061671"
+  , issueCommentCreatedAt = 2016 (-04) (-19) 18 : 36 : 27 UTC
+  , issueCommentBody =
+      "@chipotle The new `user` field isn't in 2.3 yet. This is only implemented in `next`, so it will be in `2.4.0`."
+  , issueCommentId = 212061671
+  }

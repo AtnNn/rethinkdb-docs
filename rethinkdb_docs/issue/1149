@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-12) 20 : 25 : 06 UTC
+  , issueUpdatedAt = 2016 (-08) (-12) 20 : 25 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1149/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1149"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1149
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 6533521
+        , simpleUserLogin = N "ramimoshe"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/6533521?v=3"
+        , simpleUserUrl = "https://api.github.com/users/ramimoshe"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix semantic versioning according to semver"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1149"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1149.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1149.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1149"
+  , issueCreatedAt = 2016 (-07) (-03) 08 : 37 : 14 UTC
+  , issueBody =
+      Just
+        "- [x] I have read and agreed to the RethinkDB Contributor License Agreement http://rethinkdb.com/community/cla/\r\n\r\n### Description\r\nFix semantic versioning according to semver\r\nhttp://semver.org/\r\n\r\n"
+  , issueState = "closed"
+  , issueId = Id 163553024
+  , issueComments = 3
+  , issueMilestone = Nothing
+  }

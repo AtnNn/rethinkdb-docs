@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-02) 17 : 18 : 28 UTC
+  , issueUpdatedAt = 2015 (-09) (-02) 17 : 18 : 28 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/874/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/874"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 874
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 126621
+        , simpleUserLogin = N "alexanderzeillinger"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/126621?v=3"
+        , simpleUserUrl =
+            "https://api.github.com/users/alexanderzeillinger"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Remove wrong 'count' command"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/874"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/874.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/874.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/874"
+  , issueCreatedAt = 2015 (-09) (-01) 18 : 28 : 28 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 104327181
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

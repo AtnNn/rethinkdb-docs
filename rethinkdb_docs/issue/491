@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-02) 19 : 03 : 45 UTC
+  , issueUpdatedAt = 2014 (-09) (-02) 19 : 03 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/491/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/491"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 491
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 706854
+        , simpleUserLogin = N "AtnNn"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/706854?v=3"
+        , simpleUserUrl = "https://api.github.com/users/AtnNn"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "The nested fields article does not mention brackets"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/491"
+  , issueCreatedAt = 2014 (-08) (-30) 15 : 57 : 13 UTC
+  , issueBody =
+      Just
+        "Many users were confused because the parenthesis syntax for nested field access does not work in Python and Ruby.\r\n\r\nIt might help if the arfticle was translated into Python and Ruby."
+  , issueState = "closed"
+  , issueId = Id 41566004
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

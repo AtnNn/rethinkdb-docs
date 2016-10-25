@@ -1,0 +1,47 @@
+Issue
+  { issueClosedAt = Just 2016 (-08) (-31) 21 : 43 : 37 UTC
+  , issueUpdatedAt = 2016 (-08) (-31) 21 : 43 : 37 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1127/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1127"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 1127
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 952451
+        , simpleUserLogin = N "nighelles"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/952451?v=3"
+        , simpleUserUrl = "https://api.github.com/users/nighelles"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document client_port/client_address on connection object"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1127"
+  , issueCreatedAt = 2016 (-05) (-19) 20 : 57 : 46 UTC
+  , issueBody =
+      Just
+        "For https://github.com/rethinkdb/rethinkdb/issues/5571\r\n\r\nnighelles/5571"
+  , issueState = "closed"
+  , issueId = Id 155833382
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

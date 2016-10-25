@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-20) 19 : 54 : 35 UTC
+  , issueUpdatedAt = 2016 (-06) (-20) 19 : 54 : 35 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1060/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1060"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1060
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "tableCreate API doc has confusing working about compound primary keys"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1060"
+  , issueCreatedAt = 2016 (-03) (-22) 18 : 31 : 27 UTC
+  , issueBody =
+      Just
+        "This caused some confusion over here: https://github.com/rethinkdb/rethinkdb/issues/3875#issuecomment-199586101\r\n\r\nhttps://www.rethinkdb.com/api/javascript/table_create/ says:\r\n> Using an array as a primary key creates a compound index; read the documentation on compound secondary indexes for more information, as it applies to primary keys as well.\r\n\r\nI think we usually use the term \"compound index\" to refer to an index that covers multiple fields. However in the case of a primary index, we still only use a single field, even if that field contains array values.\r\n\r\nI suggest:\r\n\"Using an array in the primary key field makes the primary index behave similarly to a compound secondary index; read the documentation on compound secondary indexes for more information, as it applies to primary keys as well. Note that the primary index still can only cover a single field, while compound secondary indexes can cover multiple fields in a single index.\""
+  , issueState = "closed"
+  , issueId = Id 142739102
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

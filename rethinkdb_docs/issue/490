@@ -1,0 +1,34 @@
+Issue
+  { issueClosedAt = Just 2014 (-09) (-24) 20 : 59 : 12 UTC
+  , issueUpdatedAt = 2014 (-09) (-24) 20 : 59 : 12 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/490/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/490"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 490
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 139396
+        , simpleUserLogin = N "wojons"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/139396?v=3"
+        , simpleUserUrl = "https://api.github.com/users/wojons"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "http://www.rethinkdb.com/stability/ migration is now incorrect"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/490"
+  , issueCreatedAt = 2014 (-08) (-28) 07 : 39 : 27 UTC
+  , issueBody =
+      Just
+        "Since 1.40 allows for seamless migration\r\n\r\nMigration\tMigration for major feature releases (1.x \8594 1.y) is automatic.\r\n\r\nShould be updated."
+  , issueState = "closed"
+  , issueId = Id 41362884
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

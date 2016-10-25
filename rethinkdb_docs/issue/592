@@ -1,0 +1,48 @@
+Issue
+  { issueClosedAt = Just 2014 (-12) (-02) 01 : 50 : 32 UTC
+  , issueUpdatedAt = 2014 (-12) (-02) 01 : 52 : 21 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/592/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/592"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 592
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 543981
+        , simpleUserLogin = N "paramaggarwal"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/543981?v=3"
+        , simpleUserUrl = "https://api.github.com/users/paramaggarwal"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add missing code block end quotes"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/592"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/592.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/592.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/592"
+  , issueCreatedAt = 2014 (-12) (-01) 15 : 01 : 53 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 50532982
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

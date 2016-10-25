@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-13) 16 : 58 : 22 UTC
+  , issueUpdatedAt = 2016 (-04) (-13) 16 : 58 : 22 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1082/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1082"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1082
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1097378
+        , simpleUserLogin = N "jwanglof"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1097378?v=3"
+        , simpleUserUrl = "https://api.github.com/users/jwanglof"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Update permissions-and-accounts.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1082"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1082.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1082.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1082"
+  , issueCreatedAt = 2016 (-04) (-13) 09 : 12 : 49 UTC
+  , issueBody = Just "Added a missing single quote sign"
+  , issueState = "closed"
+  , issueId = Id 147996637
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

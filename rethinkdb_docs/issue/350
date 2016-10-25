@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-12) 04 : 06 : 12 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 04 : 59 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/350/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/350"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 350
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix python docs"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/350"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/350.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/350.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/350"
+  , issueCreatedAt = 2014 (-06) (-12) 00 : 46 : 50 UTC
+  , issueBody =
+      Just
+        "Fix a part for #347 \r\nThere will still be the bug with the \177 char though.\r\n\r\nPing @AtnNn "
+  , issueState = "closed"
+  , issueId = Id 35541795
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

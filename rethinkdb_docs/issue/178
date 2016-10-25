@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-01) (-16) 07 : 25 : 17 UTC
+  , issueUpdatedAt = 2014 (-06) (-23) 08 : 20 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/178/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/178"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 178
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 91193
+        , simpleUserLogin = N "mglukhovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/91193?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Specify Ubuntu 13.10+ in build instructions"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/178"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/178.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/178.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/178"
+  , issueCreatedAt = 2014 (-01) (-16) 03 : 57 : 46 UTC
+  , issueBody = Just "@atnnn, could you review this?"
+  , issueState = "closed"
+  , issueId = Id 25701907
+  , issueComments = 5
+  , issueMilestone = Nothing
+  }

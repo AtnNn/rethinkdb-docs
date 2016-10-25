@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2016 (-03) (-17) 20 : 49 : 17 UTC
+  , issueUpdatedAt = 2016 (-03) (-17) 20 : 49 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1051/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1051"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1051
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1063157
+        , simpleUserLogin = N "aaronorosen"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1063157?v=3"
+        , simpleUserUrl = "https://api.github.com/users/aaronorosen"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix broken link"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1051"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1051.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1051.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1051"
+  , issueCreatedAt = 2016 (-03) (-17) 07 : 45 : 40 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 141504848
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

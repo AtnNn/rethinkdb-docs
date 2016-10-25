@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-12) 00 : 11 : 47 UTC
+  , issueUpdatedAt = 2014 (-06) (-12) 13 : 01 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/349/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/349"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 349
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Remove `Description` titles in index.md"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/349"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/349.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/349.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/349"
+  , issueCreatedAt = 2014 (-06) (-12) 00 : 07 : 48 UTC
+  , issueBody =
+      Just
+        "To keep the index files shorted.\r\n\r\nAnd because it was displaying poorly in the data explorer.\r\n\r\nPing @AtnNn -- as far as I've seen, everything is good so far for the data explorer docs."
+  , issueState = "closed"
+  , issueId = Id 35540000
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

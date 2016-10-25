@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-03) (-20) 17 : 41 : 05 UTC
+  , issueUpdatedAt = 2015 (-03) (-20) 17 : 46 : 49 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/686/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/686"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 686
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 34726
+        , simpleUserLogin = N "knownasilya"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/34726?v=3"
+        , simpleUserUrl = "https://api.github.com/users/knownasilya"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Add an update example to difference"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/686"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/686.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/686.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/686"
+  , issueCreatedAt = 2015 (-03) (-20) 12 : 40 : 59 UTC
+  , issueBody =
+      Just
+        "Make first example a little more clearer by spreading over multiple lines"
+  , issueState = "closed"
+  , issueId = Id 63221608
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

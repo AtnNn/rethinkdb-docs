@@ -1,0 +1,65 @@
+Issue
+  { issueClosedAt = Just 2016 (-04) (-05) 22 : 15 : 14 UTC
+  , issueUpdatedAt = 2016 (-04) (-05) 22 : 15 : 14 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1072/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1072"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1072
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Change from --auth to --password for import/restore/etc. scripts"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1072"
+  , issueCreatedAt = 2016 (-04) (-05) 19 : 05 : 53 UTC
+  , issueBody =
+      Just
+        "Per rethinkdb/rethinkdb#5464:\r\n\r\n* the `--auth` option is going away\r\n* there is a `-p | --password` option to ask for a password interactively\r\n* there is a `--password-file <path>` option to load the password from a file, for use with scripts\r\n\r\nI'm opening this ticket now because it touches exactly the same files as #1064 does (cli-options.md, backup.md and importing.md), and I'm going to work on them together. If I have anything wrong here, let me know, @nighelles."
+  , issueState = "closed"
+  , issueId = Id 146080935
+  , issueComments = 0
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 1
+          , milestoneNumber = 10
+          , milestoneClosedIssues = 29
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.3"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/10"
+          , milestoneCreatedAt = 2015 (-12) (-10) 02 : 58 : 17 UTC
+          , milestoneState = "open"
+          }
+  }

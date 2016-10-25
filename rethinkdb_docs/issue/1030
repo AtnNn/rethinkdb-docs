@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2016 (-02) (-24) 02 : 25 : 06 UTC
+  , issueUpdatedAt = 2016 (-02) (-24) 02 : 25 : 06 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1030/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1030"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 1030
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "r.http doc is missing nonAtomic"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1030"
+  , issueCreatedAt = 2016 (-02) (-22) 19 : 56 : 18 UTC
+  , issueBody =
+      Just
+        "http://rethinkdb.com/docs/external-api-access/\r\n\r\n```js\r\nr.table('stargazers').update(r.http(r.row('url')))\r\n```\r\n\r\nneeds to be\r\n```js\r\nr.table('stargazers').update(r.http(r.row('url')), {nonAtomic: true})\r\n```"
+  , issueState = "closed"
+  , issueId = Id 135525655
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

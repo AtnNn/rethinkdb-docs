@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-26) 16 : 10 : 11 UTC
+  , issueUpdatedAt = 2014 (-08) (-26) 16 : 10 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/478/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/478"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 478
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 218725
+        , simpleUserLogin = N "dminkovsky"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/218725?v=3"
+        , simpleUserUrl = "https://api.github.com/users/dminkovsky"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Suggested fix for a typo"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/478"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/478.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/478.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/478"
+  , issueCreatedAt = 2014 (-08) (-26) 04 : 55 : 04 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 41137259
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

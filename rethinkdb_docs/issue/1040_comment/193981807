@@ -1,0 +1,20 @@
+IssueComment
+  { issueCommentUpdatedAt = 2016 (-03) (-08) 21 : 47 : 41 UTC
+  , issueCommentUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueCommentUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/comments/193981807"
+  , issueCommentHtmlUrl =
+      "https://github.com/rethinkdb/docs/issues/1040#issuecomment-193981807"
+  , issueCommentCreatedAt = 2016 (-03) (-08) 21 : 47 : 41 UTC
+  , issueCommentBody =
+      "Not so much a project, but rather a useful list of RethinkDB resources:\r\n\r\n* @analytik - https://github.com/analytik/awesome-rethinkdb"
+  , issueCommentId = 193981807
+  }

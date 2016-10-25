@@ -1,0 +1,40 @@
+Issue
+  { issueClosedAt = Just 2014 (-06) (-13) 23 : 53 : 43 UTC
+  , issueUpdatedAt = 2014 (-06) (-13) 23 : 53 : 45 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/359/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/359"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 359
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Softening http wording"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/359"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/359.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/359.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/359"
+  , issueCreatedAt = 2014 (-06) (-13) 23 : 47 : 18 UTC
+  , issueBody =
+      Just "@neumino -- please review? (it's just a change in wording)"
+  , issueState = "closed"
+  , issueId = Id 35715779
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

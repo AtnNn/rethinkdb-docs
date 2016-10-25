@@ -1,0 +1,39 @@
+Issue
+  { issueClosedAt = Just 2016 (-05) (-26) 23 : 24 : 41 UTC
+  , issueUpdatedAt = 2016 (-05) (-26) 23 : 24 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1125/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/1125"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1125
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 572141
+        , simpleUserLogin = N "grantcarthew"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/572141?v=3"
+        , simpleUserUrl = "https://api.github.com/users/grantcarthew"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Duplicate Example: Combine four arrays into one"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1125"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1125.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/1125.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1125"
+  , issueCreatedAt = 2016 (-05) (-18) 22 : 16 : 00 UTC
+  , issueBody = Just ""
+  , issueState = "closed"
+  , issueId = Id 155614193
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

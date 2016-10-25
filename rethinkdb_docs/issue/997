@@ -1,0 +1,55 @@
+Issue
+  { issueClosedAt = Just 2016 (-01) (-14) 23 : 17 : 11 UTC
+  , issueUpdatedAt = 2016 (-01) (-14) 23 : 17 : 11 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/997/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/997"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      , IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 997
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "`\"reattempts\"` argument incorrect in r.http docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/997"
+  , issueCreatedAt = 2016 (-01) (-11) 18 : 39 : 21 UTC
+  , issueBody =
+      Just
+        "@sagivf noticed that the argument `\"reattempts` is incorrect in http://rethinkdb.com/api/javascript/http/\r\n(https://github.com/rethinkdb/rethinkdb/issues/5275).\r\nThe correct argument name is `\"attempts\"`."
+  , issueState = "closed"
+  , issueId = Id 126008804
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

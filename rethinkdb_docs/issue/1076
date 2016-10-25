@@ -1,0 +1,43 @@
+Issue
+  { issueClosedAt = Just 2016 (-06) (-21) 00 : 29 : 10 UTC
+  , issueUpdatedAt = 2016 (-06) (-21) 00 : 29 : 10 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1076/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1076"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1076
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 48436
+        , simpleUserLogin = N "coffeemug"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/48436?v=3"
+        , simpleUserUrl = "https://api.github.com/users/coffeemug"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Security doc entry should mention how to use SSL with the drivers"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1076"
+  , issueCreatedAt = 2016 (-04) (-06) 21 : 28 : 39 UTC
+  , issueBody =
+      Just
+        "This doc entry -- http://rethinkdb.com/docs/security/ -- explains how to set up TLS on the cluster, but doesn't mention that the user needs to pass the certificate to `connect`. We should add a note about that to the article and link to the `connect` API for details. This already confused one user (see here: https://news.ycombinator.com/item?id=11442126).\r\n\r\n/cc @chipotle "
+  , issueState = "closed"
+  , issueId = Id 146440956
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

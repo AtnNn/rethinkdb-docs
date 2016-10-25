@@ -1,0 +1,50 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-19) 20 : 04 : 41 UTC
+  , issueUpdatedAt = 2016 (-07) (-19) 20 : 04 : 41 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1151/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1151"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "fc2929"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/bug"
+          , labelName = "bug"
+          }
+      ]
+  , issueNumber = 1151
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 7431361
+        , simpleUserLogin = N "larkost"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/7431361?v=3"
+        , simpleUserUrl = "https://api.github.com/users/larkost"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Changefeed documentation: includeStates mentioned instead of includeTypes"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1151"
+  , issueCreatedAt = 2016 (-07) (-05) 20 : 15 : 09 UTC
+  , issueBody =
+      Just
+        "Our user @rdunnington found and reported this over in our [main repository](rethinkdb/rethinkdb#5907).\r\n\r\nIn the Including result types subsection on the Changefeeds in RethinkDB page, the documentation mentions:\r\n> The includeStates optional argument adds a third field, type, to each result sent. The string values for type are largely self-explanatory:\r\n\r\nI believe it should read:\r\n> The includeTypes optional argument adds a third field, type, to each result sent. The string values for type are largely self-explanatory:\r\n\r\nLooks like it has the same problem for all languages (javascript, python, ruby, and Java).\r\n\r\nhttps://rethinkdb.com/docs/changefeeds/javascript/"
+  , issueState = "closed"
+  , issueId = Id 163936174
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

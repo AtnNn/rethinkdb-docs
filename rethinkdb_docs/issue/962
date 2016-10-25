@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Nothing
+  , issueUpdatedAt = 2016 (-09) (-09) 20 : 56 : 07 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/962/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/962"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "207de5"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/doc"
+          , labelName = "doc"
+          }
+      ]
+  , issueNumber = 962
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Consider adding more docs on RethinkDB Proxy"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/962"
+  , issueCreatedAt = 2015 (-11) (-24) 09 : 57 : 15 UTC
+  , issueBody =
+      Just
+        "I feel like I've been asked about it a lot in the last month, and as far as I can tell we only talk about it as an aside in the changefeed docs.  It might be worth adding a page that talks more about the subject (I'm not quite sure where it would go in our existing scheme).\r\n\r\nWe should probably mention:\r\n* What a proxy node is.\r\n* Why they exist.\r\n* What the performance characteristics are, especially for changefeeds.\r\n* How to start one and what the network config needs to look like (specifically the fact that it behaves like a normal RethinkDB node and thus other nodes in the cluster will try to connect to it).\r\n  - Once https://github.com/rethinkdb/rethinkdb/issues/5138 is resolved we should add docs on how to start a proxy node on system startup too.\r\n\r\n@chipotle, any thoughts on whether this is worthwhile and where it should go?"
+  , issueState = "open"
+  , issueId = Id 118570684
+  , issueComments = 17
+  , issueMilestone = Nothing
+  }

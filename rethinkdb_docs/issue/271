@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-27) 21 : 39 : 28 UTC
+  , issueUpdatedAt = 2014 (-05) (-27) 21 : 40 : 13 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/271/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/271"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "84b6eb"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/enhancement"
+          , labelName = "enhancement"
+          }
+      ]
+  , issueNumber = 271
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Improve docs for hasFields"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/271"
+  , issueCreatedAt = 2014 (-04) (-21) 04 : 31 : 31 UTC
+  , issueBody =
+      Just
+        "Reading the description, I couldn't figure out what was the output, and thought it would be a sequence of booleans when applied on a sequence - until I tried it in the data explorer.\r\n\r\nInput/ouput would help a lot here."
+  , issueState = "closed"
+  , issueId = Id 31880144
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

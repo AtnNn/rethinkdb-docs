@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-05) (-29) 21 : 12 : 40 UTC
+  , issueUpdatedAt = 2014 (-07) (-16) 22 : 24 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/324/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/324"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 324
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Mention that migration is for major releases"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/324"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/324.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/324.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/324"
+  , issueCreatedAt = 2014 (-05) (-29) 17 : 30 : 48 UTC
+  , issueBody =
+      Just
+        "Fix for https://github.com/rethinkdb/docs/issues/267\r\n\r\nPing @AtnNn -- since you opened this issue."
+  , issueState = "closed"
+  , issueId = Id 34574768
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

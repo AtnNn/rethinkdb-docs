@@ -1,0 +1,56 @@
+Issue
+  { issueClosedAt = Just 2014 (-03) (-12) 02 : 19 : 17 UTC
+  , issueUpdatedAt = 2014 (-03) (-12) 02 : 19 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/173/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/173"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 173
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 552910
+        , simpleUserLogin = N "Tryneus"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/552910?v=3"
+        , simpleUserUrl = "https://api.github.com/users/Tryneus"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Remove mention of 'base' optarg for reduce and grouped_map_reduce"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/173"
+  , issueCreatedAt = 2014 (-01) (-08) 22 : 54 : 47 UTC
+  , issueBody =
+      Just
+        "For release 1.12, issue rethinkdb/rethinkdb#888 will be merged in, which removes 'base' from the client drivers for the `reduce` and `grouped_map_reduce` functions.  Make sure that this is also removed from the documentation and that the behavior of reduce is clear.\r\n\r\nAlso see related issue #170."
+  , issueState = "closed"
+  , issueId = Id 25276994
+  , issueComments = 4
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 91193
+                , simpleUserLogin = N "mglukhovsky"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/91193?v=3"
+                , simpleUserUrl = "https://api.github.com/users/mglukhovsky"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 2
+          , milestoneClosedIssues = 6
+          , milestoneDescription = Just ""
+          , milestoneTitle = "v1.12.0"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/2"
+          , milestoneCreatedAt = 2014 (-01) (-08) 23 : 09 : 52 UTC
+          , milestoneState = "closed"
+          }
+  }

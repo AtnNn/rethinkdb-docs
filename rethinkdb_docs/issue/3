@@ -1,0 +1,32 @@
+Issue
+  { issueClosedAt = Just 2013 (-09) (-18) 17 : 44 : 05 UTC
+  , issueUpdatedAt = 2013 (-09) (-18) 17 : 44 : 05 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/3/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/issues/3"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 3
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle =
+      "Document right_bound and left_bound optional arguments for slice and delete_at in the API docs"
+  , issuePullRequest = Nothing
+  , issueUrl = "https://api.github.com/repos/rethinkdb/docs/issues/3"
+  , issueCreatedAt = 2013 (-09) (-18) 00 : 25 : 15 UTC
+  , issueBody =
+      Just
+        "https://github.com/rethinkdb/rethinkdb/issues/869 introduced these arguments to slice, between and delete_at. But in the API docs they are only documented for between."
+  , issueState = "closed"
+  , issueId = Id 19655753
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

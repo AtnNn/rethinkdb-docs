@@ -1,0 +1,42 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-21) 20 : 51 : 17 UTC
+  , issueUpdatedAt = 2016 (-07) (-21) 20 : 51 : 17 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1143/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1143"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 1143
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1777134
+        , simpleUserLogin = N "mlucy"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1777134?v=3"
+        , simpleUserUrl = "https://api.github.com/users/mlucy"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "`interleave` optarg for `union` is incomplete"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1143"
+  , issueCreatedAt = 2016 (-06) (-20) 19 : 21 : 08 UTC
+  , issueBody =
+      Just
+        "The docs at https://rethinkdb.com/api/javascript/union/ say that the `interleave` option for `union` can accept `true`, `false`, or a field name, but it can also accept a function (with the semantics that we call the function and then interleave based on what it returns, so `interleave: 'foo'` is the same as `interleave: function(row) { return row['foo']; }`)."
+  , issueState = "closed"
+  , issueId = Id 161273105
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

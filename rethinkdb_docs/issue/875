@@ -1,0 +1,62 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-17) 21 : 34 : 32 UTC
+  , issueUpdatedAt = 2015 (-09) (-17) 21 : 34 : 32 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/875/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/875"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "5319e7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/next"
+          , labelName = "next"
+          }
+      ]
+  , issueNumber = 875
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 67937
+        , simpleUserLogin = N "encryptio"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/67937?v=3"
+        , simpleUserUrl = "https://api.github.com/users/encryptio"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Document ReQL Values() term"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/875"
+  , issueCreatedAt = 2015 (-09) (-01) 23 : 22 : 59 UTC
+  , issueBody =
+      Just
+        "Values() was added in rethinkdb/rethinkdb#2945, with similar semantics to `.keys()`. It iterates over an object and returns the values, in the same order as `keys` does."
+  , issueState = "closed"
+  , issueId = Id 104373465
+  , issueComments = 2
+  , issueMilestone =
+      Just
+        Milestone
+          { milestoneCreator =
+              SimpleUser
+                { simpleUserId = Id 505365
+                , simpleUserLogin = N "danielmewes"
+                , simpleUserAvatarUrl =
+                    "https://avatars.githubusercontent.com/u/505365?v=3"
+                , simpleUserUrl = "https://api.github.com/users/danielmewes"
+                , simpleUserType = OwnerUser
+                }
+          , milestoneDueOn = Nothing
+          , milestoneOpenIssues = 0
+          , milestoneNumber = 9
+          , milestoneClosedIssues = 14
+          , milestoneDescription = Nothing
+          , milestoneTitle = "2.2"
+          , milestoneUrl =
+              "https://api.github.com/repos/rethinkdb/docs/milestones/9"
+          , milestoneCreatedAt = 2015 (-09) (-02) 19 : 06 : 11 UTC
+          , milestoneState = "open"
+          }
+  }

@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-13) 02 : 10 : 40 UTC
+  , issueUpdatedAt = 2015 (-07) (-09) 17 : 42 : 16 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/460/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/460"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 460
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1461947
+        , simpleUserLogin = N "neumino"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1461947?v=3"
+        , simpleUserUrl = "https://api.github.com/users/neumino"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix io for r.binary"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/460"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/460.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/460.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/460"
+  , issueCreatedAt = 2014 (-08) (-13) 00 : 22 : 39 UTC
+  , issueBody =
+      Just
+        "I missed that in the review.\r\nI did generate the docs with this fix, and it works fine.\r\n\r\n@chipotle -- Could you take a look at this?"
+  , issueState = "closed"
+  , issueId = Id 40112775
+  , issueComments = 0
+  , issueMilestone = Nothing
+  }

@@ -1,0 +1,49 @@
+Issue
+  { issueClosedAt = Just 2016 (-07) (-13) 22 : 41 : 46 UTC
+  , issueUpdatedAt = 2016 (-07) (-13) 22 : 41 : 46 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1147/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/1147"
+  , issueClosedBy = Nothing
+  , issueLabels =
+      [ IssueLabel
+          { labelColor = "f7c6c7"
+          , labelUrl =
+              "https://api.github.com/repos/rethinkdb/docs/labels/api"
+          , labelName = "api"
+          }
+      ]
+  , issueNumber = 1147
+  , issueAssignee =
+      Just
+        SimpleUser
+          { simpleUserId = Id 467928
+          , simpleUserLogin = N "chipotle"
+          , simpleUserAvatarUrl =
+              "https://avatars.githubusercontent.com/u/467928?v=3"
+          , simpleUserUrl = "https://api.github.com/users/chipotle"
+          , simpleUserType = OwnerUser
+          }
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Global `r.union` variant not listed in API docs"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/1147"
+  , issueCreatedAt = 2016 (-06) (-24) 18 : 05 : 16 UTC
+  , issueBody =
+      Just
+        "This came up here https://github.com/rethinkdb/rethinkdb/issues/5872#issuecomment-228214307"
+  , issueState = "closed"
+  , issueId = Id 162200112
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

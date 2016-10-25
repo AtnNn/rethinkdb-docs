@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2013 (-11) (-22) 07 : 39 : 01 UTC
+  , issueUpdatedAt = 2013 (-11) (-22) 07 : 39 : 04 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/95/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/95"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 95
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 505365
+        , simpleUserLogin = N "danielmewes"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/505365?v=3"
+        , simpleUserUrl = "https://api.github.com/users/danielmewes"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "API docs for `sync` and `noreply_wait`"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/95"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/95.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/95.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/95"
+  , issueCreatedAt = 2013 (-11) (-20) 22 : 48 : 30 UTC
+  , issueBody =
+      Just
+        "This supplies the missing parts of https://github.com/rethinkdb/docs/issues/44.\r\n\r\nPull request into v1.11.x"
+  , issueState = "closed"
+  , issueId = Id 23030611
+  , issueComments = 4
+  , issueMilestone = Nothing
+  }

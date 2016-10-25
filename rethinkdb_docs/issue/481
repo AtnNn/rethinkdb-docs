@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2014 (-08) (-26) 17 : 51 : 33 UTC
+  , issueUpdatedAt = 2014 (-08) (-26) 17 : 51 : 33 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/481/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/481"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 481
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 66289
+        , simpleUserLogin = N "stith"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/66289?v=3"
+        , simpleUserUrl = "https://api.github.com/users/stith"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Fix copy/paste error"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/481"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/481.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/481.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/481"
+  , issueCreatedAt = 2014 (-08) (-26) 17 : 26 : 07 UTC
+  , issueBody =
+      Just
+        "Looks like the \"changes\" line was copied from \"delete\" to insert/replace/update. Here's a quick fix."
+  , issueState = "closed"
+  , issueId = Id 41199022
+  , issueComments = 1
+  , issueMilestone = Nothing
+  }

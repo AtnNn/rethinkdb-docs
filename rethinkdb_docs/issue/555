@@ -1,0 +1,41 @@
+Issue
+  { issueClosedAt = Just 2015 (-01) (-06) 06 : 41 : 27 UTC
+  , issueUpdatedAt = 2015 (-01) (-06) 06 : 41 : 28 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/555/events"
+  , issueHtmlUrl = Just "https://github.com/rethinkdb/docs/pull/555"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 555
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 467928
+        , simpleUserLogin = N "chipotle"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/467928?v=3"
+        , simpleUserUrl = "https://api.github.com/users/chipotle"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "Clarify secure cluster info (#548)"
+  , issuePullRequest =
+      Just
+        PullRequestReference
+          { pullRequestReferenceHtmlUrl =
+              Just "https://github.com/rethinkdb/docs/pull/555"
+          , pullRequestReferencePatchUrl =
+              Just "https://github.com/rethinkdb/docs/pull/555.patch"
+          , pullRequestReferenceDiffUrl =
+              Just "https://github.com/rethinkdb/docs/pull/555.diff"
+          }
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/555"
+  , issueCreatedAt = 2014 (-10) (-17) 20 : 53 : 44 UTC
+  , issueBody =
+      Just
+        "@mglukhovsky - see if this is a little clearer on how to set up VPC security groups. Part of it was already in our AWS documentation, but captioned \"Cluster administration,\" which I don't think was really accurate."
+  , issueState = "closed"
+  , issueId = Id 46143192
+  , issueComments = 2
+  , issueMilestone = Nothing
+  }

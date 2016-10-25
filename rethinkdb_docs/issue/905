@@ -1,0 +1,33 @@
+Issue
+  { issueClosedAt = Just 2015 (-09) (-29) 22 : 08 : 25 UTC
+  , issueUpdatedAt = 2015 (-10) (-01) 16 : 49 : 42 UTC
+  , issueEventsUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/905/events"
+  , issueHtmlUrl =
+      Just "https://github.com/rethinkdb/docs/issues/905"
+  , issueClosedBy = Nothing
+  , issueLabels = []
+  , issueNumber = 905
+  , issueAssignee = Nothing
+  , issueUser =
+      SimpleUser
+        { simpleUserId = Id 1688239
+        , simpleUserLogin = N "rundowncreator"
+        , simpleUserAvatarUrl =
+            "https://avatars.githubusercontent.com/u/1688239?v=3"
+        , simpleUserUrl = "https://api.github.com/users/rundowncreator"
+        , simpleUserType = OwnerUser
+        }
+  , issueTitle = "\"primaryKey\" should be \"primary_key\"?"
+  , issuePullRequest = Nothing
+  , issueUrl =
+      "https://api.github.com/repos/rethinkdb/docs/issues/905"
+  , issueCreatedAt = 2015 (-09) (-29) 20 : 54 : 16 UTC
+  , issueBody =
+      Just
+        "Shouldn't \"primaryKey\" should be \"primary_key\" [here](https://rethinkdb.com/api/javascript/table_create/)?\r\n\r\n> r.db('test').tableCreate('dc_universe', {primaryKey: 'name'}).run(conn, callback);"
+  , issueState = "closed"
+  , issueId = Id 108957757
+  , issueComments = 6
+  , issueMilestone = Nothing
+  }
